@@ -1,0 +1,381 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://creativecommons.org/ns#">
+  <head>
+<base href="http://localhost:8080/licenses/LGPL/2.1/deed/@@index" />
+
+    <title>Creative Commons 
+    GNU Lesser General Public License
+  </title><link rel="stylesheet" type="text/css"
+                href="http://localhost:8080/licenses/@@/cc/includes/deed3.css"
+                media="screen" />
+    
+    <link rel="stylesheet" type="text/css"
+          href="http://localhost:8080/licenses/@@/cc/includes/deed3-print.css"
+          media="print" />
+
+    <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
+
+    <link rel="alternate" type="application/rdf+xml" href="rdf" /> 
+    
+
+<script type="text/javascript">
+function setCookie(name, value, expires, path, domain, secure) {
+    document.cookie= name + "=" + escape(value) +
+        ((expires) ? "; expires=" + expires.toGMTString() : "") +
+        ((path) ? "; path=" + path : "") +
+        ((domain) ? "; domain=" + domain : "") +
+        ((secure) ? "; secure" : "");
+}
+var expiry = new Date();
+expiry.setTime(expiry.getTime()+(5*365*24*60*60*1000));
+setCookie('lang','%s', expiry, '/');
+</script>
+
+
+    <script type="text/javascript"
+            src="http://localhost:8080/licenses/@@/cc/includes/referrer/ccdeed.js">
+    </script>
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        urchin = new urchin();
+        _uacct="UA-2010376-1";  urchinTracker();
+    </script>
+
+   
+
+  </head>
+  <body onload="referrerMetadata()">
+
+    
+    
+
+    <div id="header">
+    <p align="center"><a href="/">クリエイティブ・コモンズ</a></p>
+
+    
+
+<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<span align="left" dir="">このページは次の言語のバージョンでも用意されています：</span>
+<br />
+
+
+
+<a href="./deed.af" title="Afrikaans" hreflang="af"
+   rel="alternate nofollow" lang="af">Afrikaans</a>
+
+
+
+
+<a href="./deed.bg" title="български" hreflang="bg"
+   rel="alternate nofollow" lang="bg">български</a>
+
+
+
+
+<a href="./deed.ca" title="Català" hreflang="ca"
+   rel="alternate nofollow" lang="ca">Català</a>
+
+
+
+
+<a href="./deed.da" title="Dansk" hreflang="da"
+   rel="alternate nofollow" lang="da">Dansk</a>
+
+
+
+
+<a href="./deed.de" title="Deutsch" hreflang="de"
+   rel="alternate nofollow" lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.en" title="English" hreflang="en"
+   rel="alternate nofollow" lang="en">English</a>
+
+
+
+
+<a href="./deed.en_CA" title="English (CA)" hreflang="en_CA"
+   rel="alternate nofollow" lang="en_CA">English (CA)</a>
+
+
+
+
+<a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
+   rel="alternate nofollow" lang="en_GB">English (GB)</a>
+
+
+
+
+<a href="./deed.en_US" title="English (US)" hreflang="en_US"
+   rel="alternate nofollow" lang="en_US">English (US)</a>
+
+
+
+
+<a href="./deed.eo" title="Esperanto" hreflang="eo"
+   rel="alternate nofollow" lang="eo">Esperanto</a>
+
+
+
+
+<a href="./deed.es" title="Castellano" hreflang="es"
+   rel="alternate nofollow" lang="es">Castellano</a>
+
+
+
+
+<a href="./deed.es_AR" title="Castellano (AR)"
+   hreflang="es_AR" rel="alternate nofollow" lang="es_AR">Castellano (AR)</a>
+
+
+
+
+<a href="./deed.es_CL" title="Español (CL)" hreflang="es_CL"
+   rel="alternate nofollow" lang="es_CL">Español (CL)</a>
+
+
+
+
+<a href="./deed.es_CO" title="Spanish (CO)" hreflang="es_CO"
+   rel="alternate nofollow" lang="es_CO">Spanish (CO)</a>
+
+
+
+
+<a href="./deed.es_MX" title="Castellano (MX)"
+   hreflang="es_MX" rel="alternate nofollow" lang="es_MX">Castellano (MX)</a>
+
+
+
+
+<a href="./deed.es_PE" title="Castellano (PE)"
+   hreflang="es_PE" rel="alternate nofollow" lang="es_PE">Castellano (PE)</a>
+
+
+
+
+<a href="./deed.eu" title="Euskara" hreflang="eu"
+   rel="alternate nofollow" lang="eu">Euskara</a>
+
+
+
+
+<a href="./deed.fi" title="Suomeksi" hreflang="fi"
+   rel="alternate nofollow" lang="fi">Suomeksi</a>
+
+
+
+
+<a href="./deed.fr" title="français" hreflang="fr"
+   rel="alternate nofollow" lang="fr">français</a>
+
+
+
+
+<a href="./deed.fr_CA" title="français (CA)"
+   hreflang="fr_CA" rel="alternate nofollow" lang="fr_CA">français (CA)</a>
+
+
+
+
+<a href="./deed.gl" title="Galego" hreflang="gl"
+   rel="alternate nofollow" lang="gl">Galego</a>
+
+
+
+
+<a href="./deed.he" title="עברית" hreflang="he"
+   rel="alternate nofollow" lang="he">עברית</a>
+
+
+
+
+<a href="./deed.hr" title="hrvatski" hreflang="hr"
+   rel="alternate nofollow" lang="hr">hrvatski</a>
+
+
+
+
+<a href="./deed.hu" title="Magyar" hreflang="hu"
+   rel="alternate nofollow" lang="hu">Magyar</a>
+
+
+
+
+<a href="./deed.it" title="Italiano" hreflang="it"
+   rel="alternate nofollow" lang="it">Italiano</a>
+
+
+
+
+<a href="./deed.ja" title="日本語" hreflang="ja"
+   rel="alternate nofollow" lang="ja">日本語</a>
+
+
+
+
+<a href="./deed.ko" title="한국어" hreflang="ko"
+   rel="alternate nofollow" lang="ko">한국어</a>
+
+
+
+
+<a href="./deed.mk" title="Macedonian" hreflang="mk"
+   rel="alternate nofollow" lang="mk">Macedonian</a>
+
+
+
+
+<a href="./deed.ms" title="Melayu" hreflang="ms"
+   rel="alternate nofollow" lang="ms">Melayu</a>
+
+
+
+
+<a href="./deed.nl" title="Nederlands" hreflang="nl"
+   rel="alternate nofollow" lang="nl">Nederlands</a>
+
+
+
+
+<a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
+   rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
+
+
+
+
+<a href="./deed.pl" title="polski" hreflang="pl"
+   rel="alternate nofollow" lang="pl">polski</a>
+
+
+
+
+<a href="./deed.pt" title="Português" hreflang="pt"
+   rel="alternate nofollow" lang="pt">Português</a>
+
+
+
+
+<a href="./deed.sl" title="slovenski jezik" hreflang="sl"
+   rel="alternate nofollow" lang="sl">slovenski jezik</a>
+
+
+
+
+<a href="./deed.st" title="Sotho" hreflang="st"
+   rel="alternate nofollow" lang="st">Sotho</a>
+
+
+
+
+<a href="./deed.sv" title="svenska" hreflang="sv"
+   rel="alternate nofollow" lang="sv">svenska</a>
+
+
+
+
+<a href="./deed.zh" title="简体中文" hreflang="zh"
+   rel="alternate nofollow" lang="zh">简体中文</a>
+
+
+
+
+<a href="./deed.zh_TW" title="華語 (台灣)" hreflang="zh_TW"
+   rel="alternate nofollow" lang="zh_TW">華語 (台灣)</a>
+
+
+
+
+<a href="./deed.zu" title="isiZulu" hreflang="zu"
+   rel="alternate nofollow" lang="zu">isiZulu</a>
+
+
+</div>
+
+
+    </div>
+
+    <div id="deed" align="left" class="green" dir="">  
+      <div id="deed-head">
+	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
+	      <h1><span>Creative Commons License Deed</span></h1>
+        <div id="deed-license">
+	        <h2>GNU Lesser General Public License, <a href="http://www.gnu.org/">フリーソフトウェア財団</a></h2>
+        </div>
+      </div>
+
+      <div id="deed-main" align="left" dir="">
+       <div id="deed-main-content">
+          <div>
+
+<p><span>GNU Lesser General Public License</span> は <a href="http://www.gnu.org/philosophy/free-sw.html">フリーソフトウェア</a> ・ライセンスです. 他のフリーソフトウェア・ライセンスと同様に，本ライセンスでは以下の4点を許諾します。</p>
+			
+			<ol start="0">
+				<li>いかなる目的でも、プログラムを自由に実行できる。</li>
+				<li>プログラムの仕組みを研究し、必要に応じて自由に変更できる。</li>
+				<li>コピーを自由に再配布して、周囲の者を援助できる。</li>
+				<li>プログラムを改良して、改良点を一般に公開することで、コミュニティ全体に利益をもたらす。</li>
+			</ol>
+
+   
+   <p />あなたは，このライセンスが定める次の条件を遵守することによって，ここに規定された自由を行使することができます．LGPLは実行可能なプログラムにではなく，ソフトウェアのライブラリーに適用されるものです．基本的な条件は次の通りです：
+	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
+		<tbody>    
+			<tr>
+				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
+				</td><td align="left"><div class="tiny">配布するコピーには１部ごとに、適切な著作権表示と保証免責条項を目立ちやすく、かつ適切に表示する。また、本ライセンスおよびいかなる保証免責条項に言及する通知内容には変更を加えないものとする。さらに、プログラムのすべての受取人にはプログラムとともに<span>GNU General Public License</span>のコピーを提供するものとする。<span>GNU General Public License</span>の翻訳はいかなるものでも、<span>GNU General Public License</span>の原文を伴うものとする。</div></td>
+			</tr>
+			<tr>
+				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
+				</td><td align="left"><div class="tiny">プログラムまたはその一部でも、変更したり、他のプログラムの開発に用いる場合には、GNU Public License に基づく場合、同 License に従って、その成果を配布できます。<span>GNU General Public License</span> の翻訳はいかなるものでも、<span>GNU General Public License</span> の原文を伴うものとする。</div></td>
+			</tr>
+			<tr>
+				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
+				</td><td align="left"><div class="tiny">プログラムをコピーまたは配布する場合、そのソースコードを漏れなく付け加えるか、または、最低でも3年間は有効な申し出としてそのソースコードを漏れなく提供する旨を文書として付け加える必要があります。</div></td>
+			</tr>
+		</tbody>
+		</table>
+		</div>
+
+<p>著作[権]者から許可を得ると、これらの条件は適用されません。</p> 
+<p>上記によってあなたのフェアユースその他の権利が影響を受けることはまったくありません。</p> 
+
+<p />これは一般の方にも理解できる，法的文書の要約です（GNU 劣等一般公衆利用許諾契約書の全文は<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">こちら</a>）<a href="legalcode.pt">ポルトガル語訳</a>も用意してあります．
+
+<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">免責事項</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
+
+</div>
+       </div>
+      </div>
+
+
+       <div id="deed-foot">
+          
+
+        
+			  <p id="disclaimer">
+          <a href="/licenses/disclaimer-popup"
+             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">免責条項</a> 
+          <a href="/licenses/disclaimer-popup"
+             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
+          <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
+  		  </p>
+        <p align="center" style="margin-top:40px"><strong>上記によってあなたのフェアユースその他の権利が影響を受けることはまったくありません。</strong></p>
+  <p align="center">
+
+    
+
+    これは一般の方に読みやすいようにした<a href="legalcode" class="fulltext">利用許諾条項</a>の要約です。
+ </p>
+
+         
+       </div>
+    </div>
+    <p id="footer">
+      <a href="/about/licenses">このライセンスを使ってあなたの著作物をどのように頒布できるのか見てみましょう。</a>
+    </p>
+
+  </body>
+</html>
