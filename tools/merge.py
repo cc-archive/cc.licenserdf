@@ -11,7 +11,7 @@ def create_option_parser():
 
     # output options
     parser.add_option('-o', '--output-file', dest='output_file', 
-                      default='licenses.rdf',
+                      default='licenses/index.rdf',
                       help='Output file for merged RDF.')
 
     return parser
