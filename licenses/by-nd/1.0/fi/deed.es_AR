@@ -1,16 +1,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:cc="http://creativecommons.org/ns#">
   <head>
-<base href="http://localhost:8080/licenses/by-nd/1.0/fi/deed/@@index" />
-
     <title>Creative Commons 
     Attribution-No Derivative Works 1.0 Finland
   </title><link rel="stylesheet" type="text/css"
-                href="http://localhost:8080/licenses/@@/cc/includes/deed3.css"
+                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
                 media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://localhost:8080/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
           media="print" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
@@ -33,7 +31,7 @@ setCookie('lang','%s', expiry, '/');
 
 
     <script type="text/javascript"
-            src="http://localhost:8080/licenses/@@/cc/includes/referrer/ccdeed.js">
+            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -323,6 +321,9 @@ Atribución-Sin Obras Derivadas 1.0 Finlandia
         
 
         <div id="deed-rights" align="left" dir="">
+
+        
+
 <a href="/worldwide/fi/"><img
     src="/images/international/fi.png" border="0" /></a>
 <h3 rel="cc:permits"
