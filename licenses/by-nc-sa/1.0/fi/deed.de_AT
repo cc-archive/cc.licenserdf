@@ -35,7 +35,7 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-        urchin = new urchin();
+         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
