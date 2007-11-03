@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Noncommercial-Share Alike 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/nc-sa/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -344,17 +346,17 @@ Epäkaupallinen-Tarttuva 2.0 Japani
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Epäkaupallinen</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Teosta ei saa käyttää kaupallisiin tarkoituksiin.</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Tarttuva</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>Jos teet muutoksia tai käytät teosta oman teoksesi pohjana, tulee syntynyt teos jakaa lisenssillä joka on identtinen alkuperäisen teoksen lisenssin kanssa.</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -390,9 +392,12 @@ Creative Commons tai Creative Commons Suomi eivät ole lakiasiaintoimistoja eiv�
 <p>
 Creative Commons lisensoidut teoksia jakavat henkilöt jotka ovat liittäneet lisenssin teoksiin. Creative Commons tai Creative Commons Suomi eivät takaa teoksien oikeellisuutta. Lisätietoa teosten ja lisenssien käyttämisestä löydät <a href="http://creativecommons.jp/faq/">täältä</a>.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Tämä lisenssi ei vaikuta tekijänoikeuslain rajoituksiin tai muiden lakien myöntämiin oikeuksiin.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Tämä lisenssi ei vaikuta tekijänoikeuslain rajoituksiin tai muiden lakien myöntämiin oikeuksiin.</strong>
+	</p>
+
+	<p align="center">
 
     
 

@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Noncommercial-Share Alike 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/nc-sa/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -344,17 +346,17 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Некомерцијално</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Не смеете да го користите ова дело за комерцијални цели.</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Сподели под исти услови</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>Ако го промените, трансформирате или адаптирате ова дело, можете да го дистрибуирате добиеното дело само под иста или слична лиценца на оваа.</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -389,9 +391,12 @@ setCookie('lang','%s', expiry, '/');
 
 <p>
 Производот лиценциран под лиценцата Криејтив комонс е даден од личноста која ја применила лиценцата. Криејтив комонс и Криејтив комонс Македонија не даваат никакви гаранции за давателот на лиценцата.</p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</strong>
+	</p>
+
+	<p align="center">
 
     
 

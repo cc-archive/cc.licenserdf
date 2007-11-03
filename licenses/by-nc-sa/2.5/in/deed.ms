@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-Noncommercial-Share Alike 2.5 India
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nc-sa/2.5/in/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -345,25 +347,25 @@ Pengiktirafan-Bukan komersial-Perkongsian Serupa 2.5 India
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Pengiktirafan</strong>. 
+              <span id="attribution-container">Anda mesti mengiktirafkan karya tersebut dalam cara yang ditentukan oleh pencipta atau pemberi lesen (tetapi tidak dalam sebarang cara yang mencadang yang mereka telah memberi sokongan kepada anda dan pengunaan anda karya tersebut).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Bukan komersial</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Anda tidak dibenarkan mengunakan karya tersebut untuk tujuan komersial.</span>
               <span id="nc-more-container" /></p>
             </li>
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Perkongsian Serupa</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>Jikalau anda mengganti, mengubah bentuk ataupun membina atas karya tersebut, anda mesti mengedar hasil karya tersebut hanya di bawah satu lesen yang sama seperti yang ini.</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -389,15 +391,18 @@ Pengiktirafan-Bukan komersial-Perkongsian Serupa 2.5 India
           
 
         
-			  <p id="disclaimer">
+	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Penolakan Liabiliti</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-          <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  		  </p>
-        <p align="center" style="margin-top:40px"><strong>Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun dipengaruhi oleh yang di atas.</strong></p>
-  <p align="center">
+            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
+  	</p>
+        <p align="center" style="margin-top:40px">
+	  <strong>Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun dipengaruhi oleh yang di atas.</strong>
+	</p>
+
+	<p align="center">
 
     
 

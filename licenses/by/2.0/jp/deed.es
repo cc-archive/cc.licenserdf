@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -343,8 +345,8 @@ Reconocimiento 2.0 Japón
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Reconocimiento</strong>. 
+              <span id="attribution-container">Debe reconocer los créditos de la obra de la manera especificada por el autor o el licenciador (pero no de una manera que sugiera que tiene su apoyo o apoyan el uso que hace de su obra).</span>
               
               <span id="by-more-container" /></p>
             </li>
@@ -383,9 +385,12 @@ Creative Commons y Creative Commons Japón no son un bufete de abogados y no ofr
 <p>
 La obra bajo licencia de Creative Commons se ofrece por la persona que ha solicitado la licencia.  Creative Commons y Creative Commons Japón no dan garantía respecto al otorgante de la licencia. Por favor lea <a href="http://creativecommons.jp/faq/">aquí</a> si quiere información referente a la solicitud de licencias y la explotación de obras bajo licencia de Creative Commons.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Los derechos derivados de usos legítimos u otras limitaciones reconocidas por ley no se ven afectados por lo anterior.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Los derechos derivados de usos legítimos u otras limitaciones reconocidas por ley no se ven afectados por lo anterior.</strong>
+	</p>
+
+	<p align="center">
 
     
 

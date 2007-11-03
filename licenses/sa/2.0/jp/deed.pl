@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Share Alike 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/sa/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -343,9 +345,9 @@ Na tych samych warunkach 2.0 Japonia
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Na tych samych warunkach</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>Jeśli zmienia się lub przekształca niniejszy utwór, lub tworzy inny na jego podstawie, można rozpowszechniać powstały w ten sposób nowy utwór tylko na podstawie takiej samej licencji.</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -375,9 +377,12 @@ Na tych samych warunkach 2.0 Japonia
 </p>
 <p>Przedmiot niniejszej licencji Creative Commons został dostarczony przez osobę, która zastosowała licencję. Creative Commons oraz Creative Commons Polska nie dają żadnych gwarancji odnośnie osoby Licencjodawcy. <a href="http://creativecommons.jp/faq/">Tutaj</a> można przeczytać więcej na temat zastosowania licencji oraz pól eksploatacji Przedmiotu objętego licencjami Creative Commons.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Powyższe postanowienia w żaden sposób nie naruszają uprawnień wynikających z dozwolonego użytku ani żadnych innych praw.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Powyższe postanowienia w żaden sposób nie naruszają uprawnień wynikających z dozwolonego użytku ani żadnych innych praw.</strong>
+	</p>
+
+	<p align="center">
 
     
 

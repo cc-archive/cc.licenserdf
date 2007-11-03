@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-Noncommercial-No Derivative Works 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nd-nc/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -342,23 +344,23 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Наведи извор</strong>. 
+              <span id="attribution-container">Морате да го наведете изворот на ист начин како што тоа го направил авторот или давателот на лиценцата (но не на начин кој би сугерирал дека тие ве поддржуваат вас или вашето дело).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Без адаптирани дела.</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Не смеете да го промените, трансформирате или да го адаптирате ова дело.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Некомерцијално</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Не смеете да го користите ова дело за комерцијални цели.</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -395,9 +397,12 @@ setCookie('lang','%s', expiry, '/');
 
 <p>
 Производот лиценциран под лиценцата Криејтив комонс е даден од личноста која ја применила лиценцата. Криејтив комонс и Криејтив комонс Македонија не даваат никакви гаранции за давателот на лиценцата.</p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</strong>
+	</p>
+
+	<p align="center">
 
     
 

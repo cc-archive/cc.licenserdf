@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-Noncommercial-No Derivative Works 2.0 Austria
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nc-nd/2.0/at/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -342,23 +344,23 @@ Reconocimiento-No comercial-Sin obras derivadas 2.0 Austria
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Reconocimiento</strong>. 
+              <span id="attribution-container">Debe reconocer los créditos de la obra de la manera especificada por el autor o el licenciador (pero no de una manera que sugiera que tiene su apoyo o apoyan el uso que hace de su obra).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-eu">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>No comercial</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>No puede utilizar esta obra para fines comerciales.</span>
               <span id="nc-eu-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Sin obras derivadas</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>No se puede alterar, transformar o generar una obra derivada a partir de esta obra.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -384,15 +386,18 @@ Reconocimiento-No comercial-Sin obras derivadas 2.0 Austria
           
 
         
-			  <p id="disclaimer">
+	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Advertencia</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-          <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  		  </p>
-        <p align="center" style="margin-top:40px"><strong>Los derechos derivados de usos legítimos u otras limitaciones reconocidas por ley no se ven afectados por lo anterior.</strong></p>
-  <p align="center">
+            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
+  	</p>
+        <p align="center" style="margin-top:40px">
+	  <strong>Los derechos derivados de usos legítimos u otras limitaciones reconocidas por ley no se ven afectados por lo anterior.</strong>
+	</p>
+
+	<p align="center">
 
     
 

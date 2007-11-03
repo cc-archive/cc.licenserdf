@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-No Derivative Works 2.1 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nd/2.1/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -341,15 +343,15 @@ Pengiktirafan-Bukan Karya Terbitan 2.1 Jepun
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Pengiktirafan</strong>. 
+              <span id="attribution-container">Anda mesti mengiktirafkan karya tersebut dalam cara yang ditentukan oleh pencipta atau pemberi lesen (tetapi tidak dalam sebarang cara yang mencadang yang mereka telah memberi sokongan kepada anda dan pengunaan anda karya tersebut).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Bukan Karya Terbitan</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Anda tidak dibenarkan menganti, mengubah bentuk ataupun membina atas karya tersebut.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -379,9 +381,12 @@ Pengiktirafan-Bukan Karya Terbitan 2.1 Jepun
 Creative Commons dan Creative Commons Malaysia bukan pejabat guaman dan pengedaran, pameran dan hubungan kepada Surat Ikatan Commons tidak merupakan satu tawaran nasihat undang-undang. Creative Commons dan Creative Commons Malaysia bukan pihak kepada Lesen yang terletak dibawah Surat Ikatan Commons ini, dan menolak liabiliti untuk kerugian yang diakibatkan oleh penggunaan Surat Ikatan Commons dan Lesen yang terletak dibawahnya.
 
 Produk yang dilesenkan dibawah Lesen Creative Commons ini disediakan oleh orang yang memohon Lesen. Creative Commons dan Creative Commons Malaysia tidak memberi waranti tentang hakmilik pemberi lesen. Sila baca <a href="http://creativecommons.jp/faq/">disini</a> untuk informasi tentang applikasi lesen-lesen dan pengunaan Keluaran yang dilesen dibawah lesen-lesen Creative Commons.</p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun dipengaruhi oleh yang di atas.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun dipengaruhi oleh yang di atas.</strong>
+	</p>
+
+	<p align="center">
 
     
 

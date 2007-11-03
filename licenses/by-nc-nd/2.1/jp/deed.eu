@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-Noncommercial-No Derivative Works 2.1 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -342,23 +344,23 @@ Aitortu-Ez merkataritzarako-Lan eratorririk gabe 2.1 Japonia
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Aitortu</strong>. 
+              <span id="attribution-container">Lanaren kredituak aitortu behar dituzu, egileak edo baimendunak zehaztutako eran (baina ez aditzera emanez haien babesa duzunik edo haiek obraren erabilera hori babesten dutenik).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Ez merkataritzarako</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Ezin duzu lan hau merkataritza xedetarako erabili.</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Lan eratorririk gabe</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Ezin duzu lan hau bestelakotu, eraldatu edo lan eratorririk sortu hartatik abiatuta.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -392,9 +394,12 @@ Creative Commons eta Creative Commons Japonia ez dira legelari bulego bat eta ez
 <p>
 Creative Commons-en baimenaren mendeko lana eskaintzen du baimena eskatua duen pertsonak. Creative Commons-ek eta Creative Commons Japonia-k ez dute bermerik eskaintzen baimendunari buruz. Mesedez, irakurri hemen nola eskatu baimenak eta nola ustiatu lanak Creative Commons baimenaren mende.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Aurrekoak ez die eragiten erabilera zilegien eskubideei edo legez aitortutako beste mugakizunei.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Aurrekoak ez die eragiten erabilera zilegien eskubideei edo legez aitortutako beste mugakizunei.</strong>
+	</p>
+
+	<p align="center">
 
     
 

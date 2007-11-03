@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution 2.1 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by/2.1/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -343,8 +345,9 @@ Uznanie autorstwa 2.1 Japonia
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Uznanie autorstwa</strong>. 
+              <span id="attribution-container">Utwór należy oznaczyć w sposób określony przez Twórcę lub
+Licencjodawcę</span>
               
               <span id="by-more-container" /></p>
             </li>
@@ -375,9 +378,12 @@ Uznanie autorstwa 2.1 Japonia
 </p>
 <p>Przedmiot niniejszej licencji Creative Commons został dostarczony przez osobę, która zastosowała licencję. Creative Commons oraz Creative Commons Polska nie dają żadnych gwarancji odnośnie osoby Licencjodawcy. <a href="http://creativecommons.jp/faq/">Tutaj</a> można przeczytać więcej na temat zastosowania licencji oraz pól eksploatacji Przedmiotu objętego licencjami Creative Commons.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Powyższe postanowienia w żaden sposób nie naruszają uprawnień wynikających z dozwolonego użytku ani żadnych innych praw.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Powyższe postanowienia w żaden sposób nie naruszają uprawnień wynikających z dozwolonego użytku ani żadnych innych praw.</strong>
+	</p>
+
+	<p align="center">
 
     
 

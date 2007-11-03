@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-Noncommercial-No Derivative Works 2.5 Australia
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nc-nd/2.5/au/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -342,23 +344,23 @@ Erkännande-Ickekommersiell-Inga bearbetningar 2.5 Australien
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Erkännande</strong>. 
+              <span id="attribution-container">Du måste ange upphovsmannen och/eller licensgivaren på det sätt de anger (men inte på ett sätt som antyder att de godkänt eller rekommenderar din använding av verket).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Ickekommersiell</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Du får inte använda verket för kommersiella ändamål.</span>
               <span id="nc-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Inga bearbetningar</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Du får inte förändra, bearbeta eller bygga vidare på verket.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -384,15 +386,18 @@ Erkännande-Ickekommersiell-Inga bearbetningar 2.5 Australien
           
 
         
-			  <p id="disclaimer">
+	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Friskrivning</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-          <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  		  </p>
-        <p align="center" style="margin-top:40px"><strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong></p>
-  <p align="center">
+            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
+  	</p>
+        <p align="center" style="margin-top:40px">
+	  <strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong>
+	</p>
+
+	<p align="center">
 
     
 

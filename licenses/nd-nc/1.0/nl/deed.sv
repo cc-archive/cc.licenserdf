@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Noncommercial-No Derivative Works 1.0 Netherlands
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/nd-nc/1.0/nl/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -339,17 +341,17 @@ Ickekommersiell-Inga bearbetningar 1.0 Nederländerna
 		      <h3>På följande villkor:</h3>
 	        <ul align="left" dir=""> 
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Inga bearbetningar</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Du får inte förändra, bearbeta eller bygga vidare på verket.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-eu">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Ickekommersiell</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Du får inte använda verket för kommersiella ändamål.</span>
               <span id="nc-eu-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -375,15 +377,18 @@ Ickekommersiell-Inga bearbetningar 1.0 Nederländerna
           
 
         
-			  <p id="disclaimer">
+	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Friskrivning</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-          <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  		  </p>
-        <p align="center" style="margin-top:40px"><strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong></p>
-  <p align="center">
+            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
+  	</p>
+        <p align="center" style="margin-top:40px">
+	  <strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong>
+	</p>
+
+	<p align="center">
 
     
 

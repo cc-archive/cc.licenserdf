@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     No Derivative Works 1.0 Netherlands
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/nd/1.0/nl/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -338,9 +340,9 @@ setCookie('lang','%s', expiry, '/');
 		      <h3>Под следните услови:</h3>
 	        <ul align="left" dir=""> 
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Без адаптирани дела.</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Не смеете да го промените, трансформирате или да го адаптирате ова дело.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -366,15 +368,18 @@ setCookie('lang','%s', expiry, '/');
           
 
         
-			  <p id="disclaimer">
+	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Забелешка</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-          <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  		  </p>
-        <p align="center" style="margin-top:40px"><strong>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</strong></p>
-  <p align="center">
+            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
+  	</p>
+        <p align="center" style="margin-top:40px">
+	  <strong>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</strong>
+	</p>
+
+	<p align="center">
 
     
 

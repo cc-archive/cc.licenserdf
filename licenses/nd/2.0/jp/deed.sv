@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     No Derivative Works 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/nd/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -338,9 +340,9 @@ Inga bearbetningar 2.0 Japan
 		      <h3>På följande villkor:</h3>
 	        <ul align="left" dir=""> 
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Inga bearbetningar</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Du får inte förändra, bearbeta eller bygga vidare på verket.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -376,9 +378,12 @@ Creative Commons och Creative Commons Japan är inte advokatbyråer eller juridi
 <p>
 Produkten som licensieras under Creative Commons-licensen tillhandahålls av personen som applicerade licensen. Creative Commons och Creative Commons Japan ger inga garantier eller utfästelser angående licensgivarens status. <a href="http://creativecommons.jp/faq/">Här</a>  finns mer information om applicerande av licensen samt exploatering av produkten som licensierats under Creative Commons-licensen.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong>
+	</p>
+
+	<p align="center">
 
     
 

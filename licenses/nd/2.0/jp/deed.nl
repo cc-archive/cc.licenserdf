@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     No Derivative Works 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/nd/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -338,9 +340,9 @@ Geen Afgeleide werken 2.0 Japan
 		      <h3>Onder de volgende voorwaarden:</h3>
 	        <ul align="left" dir=""> 
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Geen Afgeleide werken</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>De gebruiker mag het werk niet bewerken.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -372,9 +374,12 @@ rechten van de auteur, of deze te beperken.</li>
 Creative Commons en Creative Commons Japan zijn geen advocatenpraktijken, en het verspreiden van, tonen van of verwijzen naar deze Commons overeenkomst betekent niet dat er juridisch advies of andere juridische diensten worden aangeboden. Creative Commons en Creative Commons Japan zijn geen partij bij de onderliggende licentie van de Commons overeenkomst, en aanvaarden geen enkele aansprakelijkheid voor schade voortvloeiend uit het gebruik van de Commons overeenkomst en de onderliggende licentie.
 
 Het Product dat in licentie wordt gegeven volgens de Creative Commons Licentie wordt ter beschikking gesteld door de persoon die de Licentie van toepassing heeft verklaard. Creative Commons en Creative Commons Japan stellen geen enkele garantie met betrekking tot de titel van eigendom van de licentiegever. Hier vindt u meer informatie over de toepassing van de licenties en de exploitatie van het Product dat in licentie is gegeven met toepassing van de Creative Commons licenties.</p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Het voorgaande laat de wettelijke beperkingen op de intellectuele eigendomsrechten onverlet.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Het voorgaande laat de wettelijke beperkingen op de intellectuele eigendomsrechten onverlet.</strong>
+	</p>
+
+	<p align="center">
 
     
 

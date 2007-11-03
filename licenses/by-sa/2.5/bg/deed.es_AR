@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-Share Alike 2.5 Bulgaria
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-sa/2.5/bg/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -344,17 +346,17 @@ Atribución-Compartir Obras Derivadas Igual 2.5 Bulgaria
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Atribución</strong>. 
+              <span id="attribution-container">Usted debe atribuir la obra en la forma especificada por el autor o el licenciante.</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Compartir Obras Derivadas Igual</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>Si usted altera, transforma, o crea sobre esta obra, sólo podrá distribuir la obra derivada resultante bajo una licencia idéntica a ésta.</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -380,15 +382,18 @@ Atribución-Compartir Obras Derivadas Igual 2.5 Bulgaria
           
 
         
-			  <p id="disclaimer">
+	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Limitación de Responsabilidad</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-          <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  		  </p>
-        <p align="center" style="margin-top:40px"><strong>Sus usos legítimos u otros derechos no son afectados de ninguna manera por lo dispuesto precedentemente.</strong></p>
-  <p align="center">
+            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
+  	</p>
+        <p align="center" style="margin-top:40px">
+	  <strong>Sus usos legítimos u otros derechos no son afectados de ninguna manera por lo dispuesto precedentemente.</strong>
+	</p>
+
+	<p align="center">
 
     
 

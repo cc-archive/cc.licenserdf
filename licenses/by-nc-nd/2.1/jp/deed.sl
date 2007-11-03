@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-Noncommercial-No Derivative Works 2.1 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -342,23 +344,23 @@ Priznanje avtorstva-Nekomercialno-Brez predelav 2.1 Japonska
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Priznanje avtorstva</strong>. 
+              <span id="attribution-container">Pri uporabi dela morate navesti izvirnega avtorja na način, ki ga določi izvirni avtor oziroma dajalec licence.</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Nekomercialno</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Tega dela ne smete uporabiti v komercialne namene.</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Brez predelav</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Dela ne smete spreminjati, preoblikovati ali ga uporabiti v svojem delu.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -394,9 +396,12 @@ Creative Commons in Creative Commons Slovenija nista odvetniški pisarni in dist
 <p>
 Izdelke, licencirane s Creative Commons licencami, ponuja oseba, ki je uporabila licenco. Creative Commons in Creative Commons Slovenija ne dajeta nikakršnih jamstev za dajalca licence. Prosimo kliknite <a href="http://creativecommons.si/?q=osnutek">tukaj</a> za informacije glede uporabe licenc in izkoriščanja izdelkov, licenciranih s Creative Commons licencami.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</strong>
+	</p>
+
+	<p align="center">
 
     
 

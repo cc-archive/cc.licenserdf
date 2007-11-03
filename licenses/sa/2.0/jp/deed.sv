@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Share Alike 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/sa/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -343,9 +345,9 @@ Dela Lika 2.0 Japan
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Dela Lika</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>Om du ändrar, bearbetar eller bygger vidare på verket får du endast distribuera resultatet under samma licens eller en liknande licens som denna.</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -381,9 +383,12 @@ Creative Commons och Creative Commons Japan är inte advokatbyråer eller juridi
 <p>
 Produkten som licensieras under Creative Commons-licensen tillhandahålls av personen som applicerade licensen. Creative Commons och Creative Commons Japan ger inga garantier eller utfästelser angående licensgivarens status. <a href="http://creativecommons.jp/faq/">Här</a>  finns mer information om applicerande av licensen samt exploatering av produkten som licensierats under Creative Commons-licensen.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong>
+	</p>
+
+	<p align="center">
 
     
 

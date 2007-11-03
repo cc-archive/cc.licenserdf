@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-Noncommercial-No Derivative Works 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nd-nc/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -342,23 +344,23 @@ Paternité-Pas d'Utilisation Commerciale-Pas de Modification 2.0 Japon
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Paternité</strong>. 
+              <span id="attribution-container">Vous devez citer le nom de l'auteur original de la manière indiquée par l'auteur de l'oeuvre ou le titulaire des droits qui vous confère cette autorisation (mais pas d'une manière qui suggérerait qu'ils vous soutiennent ou approuvent votre utilisation de l'oeuvre).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Pas de Modification</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Vous n'avez pas le droit de modifier, de transformer ou d'adapter cette création.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Pas d'Utilisation Commerciale</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Vous n'avez pas le droit d'utiliser cette création à des fins commerciales.</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -392,9 +394,12 @@ Le Résumé Explicatif n'est pas un contrat, mais simplement une source pratique
 <p>
 Creative Commons et Creative Commons Luxembourg ne sont pas des cabinets d'avocats et la distribution, l'affichage ou l'établissement d'un lien vers le Résumé Explicatif ne constitue pas une offre de conseil juridique ou de tout autre service juridique. Creative Commons et Creative Commons Luxembourg ne sont pas parties au contrat lié à ce Résumé Explicatif, et ne sauraient être tenus responsables des éventuels préjudices résultant de l'utilisation de ce Résumé Explicatif du du contrat lié.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Ce qui précède n'affecte en rien vos droits en tant qu'utilisateur (exceptions au droit d'auteur : copies réservées à l'usage privé du copiste, courtes citations, parodie...)</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Ce qui précède n'affecte en rien vos droits en tant qu'utilisateur (exceptions au droit d'auteur : copies réservées à l'usage privé du copiste, courtes citations, parodie...)</strong>
+	</p>
+
+	<p align="center">
 
     
 

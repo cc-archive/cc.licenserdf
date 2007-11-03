@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Share Alike 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/sa/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -343,9 +345,9 @@ Deljenje pod enakimi pogoji 2.0 Japonska
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Deljenje pod enakimi pogoji</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>Če spremenite, preoblikujete ali uporabite to delo v svojem delu, lahko distribuirate predelavo dela le pod licenco, ki je enaka tej.</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -381,9 +383,12 @@ Creative Commons in Creative Commons Slovenija nista odvetniški pisarni in dist
 <p>
 Izdelke, licencirane s Creative Commons licencami, ponuja oseba, ki je uporabila licenco. Creative Commons in Creative Commons Slovenija ne dajeta nikakršnih jamstev za dajalca licence. Prosimo kliknite <a href="http://creativecommons.si/?q=osnutek">tukaj</a> za informacije glede uporabe licenc in izkoriščanja izdelkov, licenciranih s Creative Commons licencami.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</strong>
+	</p>
+
+	<p align="center">
 
     
 

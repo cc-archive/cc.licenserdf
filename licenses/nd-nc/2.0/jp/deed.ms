@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Noncommercial-No Derivative Works 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/nd-nc/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -339,17 +341,17 @@ Bukan komersial-Bukan Karya Terbitan 2.0 Jepun
 		      <h3>Di bawah syarat-syarat berikut:</h3>
 	        <ul align="left" dir=""> 
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Bukan Karya Terbitan</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Anda tidak dibenarkan menganti, mengubah bentuk ataupun membina atas karya tersebut.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Bukan komersial</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Anda tidak dibenarkan mengunakan karya tersebut untuk tujuan komersial.</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -379,9 +381,12 @@ Bukan komersial-Bukan Karya Terbitan 2.0 Jepun
 Creative Commons dan Creative Commons Malaysia bukan pejabat guaman dan pengedaran, pameran dan hubungan kepada Surat Ikatan Commons tidak merupakan satu tawaran nasihat undang-undang. Creative Commons dan Creative Commons Malaysia bukan pihak kepada Lesen yang terletak dibawah Surat Ikatan Commons ini, dan menolak liabiliti untuk kerugian yang diakibatkan oleh penggunaan Surat Ikatan Commons dan Lesen yang terletak dibawahnya.
 
 Produk yang dilesenkan dibawah Lesen Creative Commons ini disediakan oleh orang yang memohon Lesen. Creative Commons dan Creative Commons Malaysia tidak memberi waranti tentang hakmilik pemberi lesen. Sila baca <a href="http://creativecommons.jp/faq/">disini</a> untuk informasi tentang applikasi lesen-lesen dan pengunaan Keluaran yang dilesen dibawah lesen-lesen Creative Commons.</p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun dipengaruhi oleh yang di atas.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun dipengaruhi oleh yang di atas.</strong>
+	</p>
+
+	<p align="center">
 
     
 

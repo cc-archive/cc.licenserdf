@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-No Derivative Works 2.5 Mexico
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nd/2.5/mx/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -341,15 +343,15 @@ Nevezd meg!-Ne változtasd! 2.5 Mexikó
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Nevezd meg!</strong>. 
+              <span id="attribution-container">A szerző vagy a jogosult által meghatározott módon fel kell tüntetned a műhöz kapcsolódó információkat (pl. a szerző nevét vagy álnevét, a Mű címét).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Ne változtasd!</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Ezt a művet nem módosíthatod és nem készíthetsz belőle átdolgozást, származékos művet.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -375,15 +377,18 @@ Nevezd meg!-Ne változtasd! 2.5 Mexikó
           
 
         
-			  <p id="disclaimer">
+	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Figyelmeztetés</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-          <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  		  </p>
-        <p align="center" style="margin-top:40px"><strong>A fentiek nem befolyásolják a szabad felhasználáshoz fűződő, illetve az egyéb jogokat.</strong></p>
-  <p align="center">
+            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
+  	</p>
+        <p align="center" style="margin-top:40px">
+	  <strong>A fentiek nem befolyásolják a szabad felhasználáshoz fűződő, illetve az egyéb jogokat.</strong>
+	</p>
+
+	<p align="center">
 
     
 

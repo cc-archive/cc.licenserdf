@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-Noncommercial 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nc/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -344,17 +346,17 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>저작자표시</strong>. 
+              <span id="attribution-container">귀하는 원저작자를 표시하여야 합니다.</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>비영리</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>귀하는 이 저작물을 영리 목적으로 이용할 수 없습니다.</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -392,9 +394,12 @@ setCookie('lang','%s', expiry, '/');
 <p>
 크리에이티브 커먼즈 라이센스에 따라 이용이 허락된 저작물들은 그 라이센스를 적용한 분들에 의하여 제공되고 있습니다.크리에이티브 커먼즈 및 크리에이티브 커먼즈 코리아는 이용허락자가 저작물의 정당한 권리자임을 보증하지 않습니다. 라이센스의 적용 및 저작물의 이용에 관한 주의점은 <a href="http://creativecommons.or.kr/faq/faq.php">여기</a>를 클릭하세요.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>저작권법에 따른 이용자의 권리는 위의 내용에 의하여 영향을 받지 않습니다.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>저작권법에 따른 이용자의 권리는 위의 내용에 의하여 영향을 받지 않습니다.</strong>
+	</p>
+
+	<p align="center">
 
     
 

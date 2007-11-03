@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     No Derivative Works 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/nd/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -338,9 +340,9 @@ Bez prerada 2.0 Japan
 		      <h3>Pod sljedećim uvjetima:</h3>
 	        <ul align="left" dir=""> 
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Bez prerada</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Ne smijete mijenjati, preoblikovati ili prerađivati ovo djelo.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -376,9 +378,12 @@ Creative Commons i Creative Commons Hrvatska nisu odvjetnički uredi i ne pruža
 <p>
 Proizvod koji je ustupljen pod Creative Commons licencom daje na korištenje osoba koja je primijenila licencu. Creative Commons i Creative Commons Hrvatska ne daju jamstva u pogledu davatelja licence. Molimo Vas da <a href="http://creativecommons.jp/faq/">ovdje</a> pročitate informacije koje se tiču primijenjivanja licenci i korištenja proizvoda koji je ustupljen pod Creative Commons licencama.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Prethodno ni na koji način ne utječe na zakonska ograničenja autorskog prava i Vaša druga prava.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Prethodno ni na koji način ne utječe na zakonska ograničenja autorskog prava i Vaša druga prava.</strong>
+	</p>
+
+	<p align="center">
 
     
 

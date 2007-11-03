@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution-No Derivative Works 2.5 UK: Scotland
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by-nd/2.5/scotland/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -341,15 +343,15 @@ Pengiktirafan-Bukan Karya Terbitan 2.5 UK: Scotland
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Pengiktirafan</strong>. 
+              <span id="attribution-container">Anda mesti mengiktirafkan karya tersebut dalam cara yang ditentukan oleh pencipta atau pemberi lesen (tetapi tidak dalam sebarang cara yang mencadang yang mereka telah memberi sokongan kepada anda dan pengunaan anda karya tersebut).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Bukan Karya Terbitan</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Anda tidak dibenarkan menganti, mengubah bentuk ataupun membina atas karya tersebut.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -375,15 +377,18 @@ Pengiktirafan-Bukan Karya Terbitan 2.5 UK: Scotland
           
 
         
-			  <p id="disclaimer">
+	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Penolakan Liabiliti</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-          <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  		  </p>
-        <p align="center" style="margin-top:40px"><strong>Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun dipengaruhi oleh yang di atas.</strong></p>
-  <p align="center">
+            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
+  	</p>
+        <p align="center" style="margin-top:40px">
+	  <strong>Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun dipengaruhi oleh yang di atas.</strong>
+	</p>
+
+	<p align="center">
 
     
 

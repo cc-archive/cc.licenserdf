@@ -3,9 +3,12 @@
   <head>
     <title>Creative Commons 
     Attribution 2.0 Japan
-  </title><link rel="stylesheet" type="text/css"
-                href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-                media="screen" />
+  </title>
+
+    <base href="http://creativecommons.org/licenses/by/2.0/jp/" /><link
+    rel="stylesheet" type="text/css"
+    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+    media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -35,7 +38,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
-         
         _uacct="UA-2010376-1";  urchinTracker();
     </script>
 
@@ -383,9 +385,12 @@ Creative Commons and Creative Commons Japan are not law firms, and distributing 
 <p>
 The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href="http://creativecommons.jp/faq/">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.
 </p></p>
-			  
-        <p align="center" style="margin-top:40px"><strong>Your fair dealing and other rights are in no way affected by the above.</strong></p>
-  <p align="center">
+	
+        <p align="center" style="margin-top:40px">
+	  <strong>Your fair dealing and other rights are in no way affected by the above.</strong>
+	</p>
+
+	<p align="center">
 
     
 
