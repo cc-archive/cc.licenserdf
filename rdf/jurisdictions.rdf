@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+>
+  <rdf:Description rdf:about="http://creativecommons.org/international/au/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.au"/>
+    <cc:defaultLanguage>en-au</cc:defaultLanguage>
+    <dc:language>en-au</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/hr/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/hr/"/>
+    <cc:defaultLanguage>hr</cc:defaultLanguage>
+    <dc:language>hr</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/pe/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://pe.creativecommons.org"/>
+    <cc:defaultLanguage>es-pe</cc:defaultLanguage>
+    <dc:language>es-pe</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/fr/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://fr.creativecommons.org"/>
+    <cc:defaultLanguage>fr</cc:defaultLanguage>
+    <dc:language>fr</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/cn/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://cn.creativecommons.org"/>
+    <cc:defaultLanguage>zh</cc:defaultLanguage>
+    <dc:language>zh</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/my/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/my/"/>
+    <cc:defaultLanguage>ms</cc:defaultLanguage>
+    <dc:language>ms</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/br/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/br/"/>
+    <cc:defaultLanguage>pt</cc:defaultLanguage>
+    <dc:language>pt-br</dc:language>
+    <dc:language>pt</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/be/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/be/"/>
+    <cc:defaultLanguage>fr-be</cc:defaultLanguage>
+    <dc:language>nl-be</dc:language>
+    <dc:language>fr-be</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/za/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://za.creativecommons.org"/>
+    <cc:defaultLanguage>en-za</cc:defaultLanguage>
+    <dc:language>en-za</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/ca/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.ca"/>
+    <cc:defaultLanguage>en-ca</cc:defaultLanguage>
+    <dc:language>fr-ca</dc:language>
+    <dc:language>en-ca</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/it/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.it"/>
+    <cc:defaultLanguage>it</cc:defaultLanguage>
+    <dc:language>it</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/bg/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/bg/"/>
+    <cc:defaultLanguage>bg</cc:defaultLanguage>
+    <dc:language>bg</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/cl/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.cl"/>
+    <cc:defaultLanguage>es-cl</cc:defaultLanguage>
+    <dc:language>es-cl</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/ng/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ng/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/in/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://cc-india.org"/>
+    <cc:defaultLanguage>en-in</cc:defaultLanguage>
+    <dc:language>hi</dc:language>
+    <dc:language>en-in</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/fi/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.fi"/>
+    <cc:defaultLanguage>fi</cc:defaultLanguage>
+    <dc:language>fi</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/kr/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.or.kr/"/>
+    <cc:defaultLanguage>ko</cc:defaultLanguage>
+    <dc:language>ko</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/dk/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/dk/"/>
+    <cc:defaultLanguage>da</cc:defaultLanguage>
+    <dc:language>da</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/pl/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.pl"/>
+    <cc:defaultLanguage>pl</cc:defaultLanguage>
+    <dc:language>pl</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/us/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/us/"/>
+    <cc:defaultLanguage>en-us</cc:defaultLanguage>
+    <dc:language>en-us</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/at/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.at"/>
+    <cc:defaultLanguage>de-at</cc:defaultLanguage>
+    <dc:language>de-at</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/se/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/se/"/>
+    <cc:defaultLanguage>sv</cc:defaultLanguage>
+    <dc:language>sv</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/mt/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/mt/"/>
+    <cc:defaultLanguage>en</cc:defaultLanguage>
+    <dc:language>en</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/tw/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.tw"/>
+    <cc:defaultLanguage>zh-tw</cc:defaultLanguage>
+    <dc:language>zh-tw</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/mk/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/mk/"/>
+    <cc:defaultLanguage>mk</cc:defaultLanguage>
+    <dc:language>mk</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/lu/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://luxcommons.lu"/>
+    <cc:defaultLanguage>fr-lu</cc:defaultLanguage>
+    <dc:language>fr-lu</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/uk/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.uk"/>
+    <cc:defaultLanguage>en-gb</cc:defaultLanguage>
+    <dc:language>en-gb</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/gr/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/gr/"/>
+    <cc:defaultLanguage>gr</cc:defaultLanguage>
+    <dc:language>gr</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/es/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://es.creativecommons.org/"/>
+    <cc:defaultLanguage>es</cc:defaultLanguage>
+    <dc:language>ca</dc:language>
+    <dc:language>es</dc:language>
+    <dc:language>gl</dc:language>
+    <dc:language>eu</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/il/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org.il"/>
+    <cc:defaultLanguage>he</cc:defaultLanguage>
+    <dc:language>he</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/si/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.si"/>
+    <cc:defaultLanguage>sl</cc:defaultLanguage>
+    <dc:language>sl</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/hu/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/hu/"/>
+    <cc:defaultLanguage>hu</cc:defaultLanguage>
+    <dc:language>hu</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/de/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://de.creativecommons.org"/>
+    <cc:defaultLanguage>de</cc:defaultLanguage>
+    <dc:language>de</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/-/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org"/>
+    <cc:defaultLanguage>en</cc:defaultLanguage>
+    <dc:language>en</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/ph/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ph/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/jo/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/jo/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/mx/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org.mx"/>
+    <cc:defaultLanguage>es-mx</cc:defaultLanguage>
+    <dc:language>es-mx</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/scotland/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.uk"/>
+    <cc:defaultLanguage>en-gb</cc:defaultLanguage>
+    <dc:language>en-gb</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/pt/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/pt/"/>
+    <cc:defaultLanguage>pt-pt</cc:defaultLanguage>
+    <dc:language>pt-pt</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/ua/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ua/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/co/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/co/"/>
+    <cc:defaultLanguage>es-co</cc:defaultLanguage>
+    <dc:language>es-co</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/jp/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.jp"/>
+    <cc:defaultLanguage>ja</cc:defaultLanguage>
+    <dc:language>ja</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/nl/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.nl"/>
+    <cc:defaultLanguage>nl</cc:defaultLanguage>
+    <dc:language>nl</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/ie/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ie/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/ar/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ar/"/>
+    <cc:defaultLanguage>es-ar</cc:defaultLanguage>
+    <dc:language>es-ar</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/international/ch/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ch/"/>
+    <cc:defaultLanguage>de-ch</cc:defaultLanguage>
+    <dc:language>fr-ch</dc:language>
+    <dc:language>it-ch</dc:language>
+    <dc:language>de-ch</dc:language>
+  </rdf:Description>
+</rdf:RDF>
