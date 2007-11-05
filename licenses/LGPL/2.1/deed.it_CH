@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>La <span>GNU Lesser General Public License</span> è una licenza <a href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>. Come tutte le licenze Software Libero ti garantisce le seguenti quattro libertà:</p>
 			
 			<ol start="0">
@@ -318,36 +324,28 @@ setCookie('lang','%s', expiry, '/');
 				<li>La libertà di ridistribuire copie in modo da aiutare il prossimo.</li>
 				<li>La libertà di migliorare il programma e distribuirne pubblicamente i miglioramenti, in modo tale che tutta la comunità ne tragga beneficio.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    
    <p />Si possono esercitare le libertà qui specificate, a patto di rispettare le condizioni esplicitate in questa licenza. La licenza <abbr title="Gnu is not Unix">Gnu</abbr>-<abbr title="lesser general public license">Lgpl</abbr> è pensata più per le librerie di funzioni che per programmi
 eseguibili completi. Le condizioni più importanti sono:
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Si deve riprodurre chiaramente su ogni copia un'appropriata nota di copyright e di assenza di garanzia; si devono mantenere intatti tutti i riferimenti a questa <em>licenza</em> e all'assenza di ogni garanzia; si deve dare a ogni altro destinatario del <em>programma</em> una copia della <span>GNU General Public License</span> insieme al <em>programma</em>. Ogni traduzione della <span>GNU General Public License</span> deve essere accompagnata dalla <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Se si modifica la propria copia o le proprie copie del <em>programma</em> o parte di esso, o se si sviluppa un <em>programma</em> basato su di esso, si può redistribuire il lavoro risultante a patto di farlo sotto le condizioni della <span>GNU General Public License</span>.  Ogni traduzione della <span>GNU General Public License</span> deve essere accompagnata dalla <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Se si copia o si distribuisce il <em>programma</em>, si deve corredarlo del corrispondente codice sorgente completo, in una forma leggibile dal calcolatore.
-In alternativa è possibile allegare al <em>programma</em> un'offerta scritta, valida per almeno tre anni, in cui si dichiara di fornire, a chiunque ne faccia richiesta, una copia completa del codice sorgente corrispondente, in una forma leggibile dal calcolatore e a un prezzo non superiore la costo di trasferimento del sorgente.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">Si deve riprodurre chiaramente su ogni copia un'appropriata nota di copyright e di assenza di garanzia; si devono mantenere intatti tutti i riferimenti a questa <em>licenza</em> e all'assenza di ogni garanzia; si deve dare a ogni altro destinatario del <em>programma</em> una copia della <span>GNU Lesser General Public License</span> insieme al <em>programma</em>. Ogni traduzione della <span>GNU Lesser General Public License</span> deve essere accompagnata dalla <span>GNU Lesser General Public License</span>.</li>
+
+     <li class="license sa">Se si modifica la propria copia o le proprie copie del <em>programma</em> o parte di esso, o se si sviluppa un <em>programma</em> basato su di esso, si può redistribuire il lavoro risultante a patto di farlo sotto le condizioni della <span>GNU Lesser General Public License</span>.  Ogni traduzione della <span>GNU Lesser General Public License</span> deve essere accompagnata dalla <span>GNU Lesser General Public License</span>.</li>
+
+     <li class="license src">Se si copia o si distribuisce il <em>programma</em>, si deve corredarlo del corrispondente codice sorgente completo, in una forma leggibile dal calcolatore.
+In alternativa è possibile allegare al <em>programma</em> un'offerta scritta, valida per almeno tre anni, in cui si dichiara di fornire, a chiunque ne faccia richiesta, una copia completa del codice sorgente corrispondente, in una forma leggibile dal calcolatore e a un prezzo non superiore la costo di trasferimento del sorgente.</li>
+   </ul>
+     
+</div>
 
 <p>In ogni caso, puoi concordare col titolare dei diritti utilizzi di quest'opera non consentiti da questa licenza.</p> 
-<p>Le utilizzazioni consentite dalla legge sul diritto d'autore 
-e gli altri diritti non sono in alcun modo limitati da quanto sopra.</p> 
-
-<p />Questo è un riassunto in lingua corrente dei concetti chiave della <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"><em>licenza completa (codice legale)</em> Gnu Lesser General Public License</a>. Una <a href="legalcode.pt">traduzione in portoghese</a> è disponibile.
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Limitazione di responsabilità</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="Esclusione di responsabilità" border="0"></a></div></p> 
 
 </div>
        </div>

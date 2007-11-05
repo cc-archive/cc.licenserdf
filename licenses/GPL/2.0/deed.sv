@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p><span>GNU General Public License</span> är en <a href="http://www.gnu.org/philosophy/free-sw.html">Fri Programvaru</a>-licens. Som alla Fri Programvarulicenser ger den dig följande fyra friheter:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Friheten att vidaredistribuera kopior så att användaren kan hjälpa sin nästa.</li>
 				<li>Friheten att förbättra programmet och att ge sina förbättringar till allmänheten så att hela samhället drar nytta.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />Du får utöva friheterna uttryckta häri under förutsättning att du går med på licensvillkoren. Licensen har följande villkor:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Du måste synligt och lämpligen publicera på varje distribuerad kopia en upphovsrättsnotis och friskrivning samt bevara alla notiser som hänvisar till denna Licens och till frånvaron av garantier; och ge andra mottagare av Programmet en kopia av  <span>GNU General Public License</span> tillsammans med Programmet. Översättningar av <span>GNU General Public License</span> måste åtföljas av <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Om du modifierar din kopia eller kopior av programmet eller någon del av det, eller utvecklar ett program baserat på det, så får du distribuera det resulterande arbetet under förutsättning att du gör det under <span>GNU General Public License</span>. Översättning av <span>GNU General Public License</span> måste åtföljas av <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Om du kopierar eller distribuerar programmet, måste det åtföljas av hela den motsvarande maskin-läsbara källkoden eller ett skriftlig erbjudande, bindade i minst tre år, att tillhandahålla hela den motsvarande maskin-läsabara källkoden.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">Du måste synligt och lämpligen publicera på varje distribuerad kopia en upphovsrättsnotis och friskrivning samt bevara alla notiser som hänvisar till denna Licens och till frånvaron av garantier; och ge andra mottagare av Programmet en kopia av  <span>GNU General Public License</span> tillsammans med Programmet. Översättningar av <span>GNU General Public License</span> måste åtföljas av <span>GNU General Public License</span>.</li>
+
+     <li class="license sa">Om du modifierar din kopia eller kopior av programmet eller någon del av det, eller utvecklar ett program baserat på det, så får du distribuera det resulterande arbetet under förutsättning att du gör det under <span>GNU General Public License</span>. Översättning av <span>GNU General Public License</span> måste åtföljas av <span>GNU General Public License</span>.</li>
+
+     <li class="license src">Om du kopierar eller distribuerar programmet, måste det åtföljas av hela den motsvarande maskin-läsbara källkoden eller ett skriftlig erbjudande, bindade i minst tre år, att tillhandahålla hela den motsvarande maskin-läsabara källkoden.</li>
+   </ul>
+     
+</div>
 
 <p>Undantag från villkoren ovan kan meddelas av upphovsrättsinnehavaren.</p> 
-<p>Dina lagstadgade rättigheter påverkas inte av denna licens.</p> 
-<p />Detta är en lättläst sammanfattning av Licensen (hela <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). En översättning på <a href="legalcode.pt">Portugisiska</a> finns tillgänglig.
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Friskrivning</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

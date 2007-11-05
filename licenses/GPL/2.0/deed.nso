@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>Laesense ya <span>GNU General Public License</span> ke <a href="http://www.gnu.org/philosophy/free-sw.html">Sofetewere ya Bolokologi</a>. Go fo swana le laesense le ge e le efe ya Sofetewere ya Bolokologi, e go nea ditokologo tše latelago:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Tokologo ya go aba ka leswa dikopi gore o thuše moagišani wa gago.</li>
 				<li>Tokologo ya go kaonafatša lenaneo le go lokolla dikaonafatšo setšhabeng, gore setšhaba ka moka se holege.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />O ka diriša ditokologo tšeo di boletšwego mo ge feela o dira ka tumelelano le maemo ao a boletšwego a laesense. Maemo a motheo ke:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">O swanetše gore o phatlalatše ka tshwanelo le ka tsela e sa solegego kopi e nngwe le e nngwe yeo e abilwego temošo yeo e swanelegago ya tokelo ya ngwalollo le moganetši wa tiišetšo le go ela hloko ditemošo ka moka tšeo di lebišago go Laesense ye le go se be gona ga tiišetšo le ge e le efe; le go nea baamogedi le ge ele bafe Lenaneo la kopi ya <span>GNU General Public License</span> gotee le Lenaneo. Diphetolelo le ge ele dife tša <span>GNU General Public License</span> di swanetše go felegetšwa ke <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Ge eba o lokiša kopi ya gago goba dikopi tša lenaneo goba karolo le ge ele efe, goba go tšwetša pele lenaneo leo le theilwego go ona, o ka aba mošomo wo o dirilwego go tšwa go ona ge feela o dira ka tlase ga  <span>GNU General Public License</span>. Phetolelo le ge ele efe ya <span>GNU General Public License</span> e swanetše go felegetšwa ke <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Ge eba o kopiša goba o aba lenaneo, o swanetše go le felegetša le khoutu ya mothopo yeo e balegago motšheneng yeo e feletšego yeo e swanelegago goba mpho yeo e ngwadilwego fase, yeo e šomago bonyenyane mengwaga e meraro, gore o feleletše khoutu ya mothopo yeo e balegago motšheneng yeo e swanelegago yeo e feletšego.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">O swanetše gore o phatlalatše ka tshwanelo le ka tsela e sa solegego kopi e nngwe le e nngwe yeo e abilwego temošo yeo e swanelegago ya tokelo ya ngwalollo le moganetši wa tiišetšo le go ela hloko ditemošo ka moka tšeo di lebišago go Laesense ye le go se be gona ga tiišetšo le ge e le efe; le go nea baamogedi le ge ele bafe Lenaneo la kopi ya <span>GNU General Public License</span> gotee le Lenaneo. Diphetolelo le ge ele dife tša <span>GNU General Public License</span> di swanetše go felegetšwa ke <span>GNU General Public License</span>.</li>
+
+     <li class="license sa">Ge eba o lokiša kopi ya gago goba dikopi tša lenaneo goba karolo le ge ele efe, goba go tšwetša pele lenaneo leo le theilwego go ona, o ka aba mošomo wo o dirilwego go tšwa go ona ge feela o dira ka tlase ga  <span>GNU General Public License</span>. Phetolelo le ge ele efe ya <span>GNU General Public License</span> e swanetše go felegetšwa ke <span>GNU General Public License</span>.</li>
+
+     <li class="license src">Ge eba o kopiša goba o aba lenaneo, o swanetše go le felegetša le khoutu ya mothopo yeo e balegago motšheneng yeo e feletšego yeo e swanelegago goba mpho yeo e ngwadilwego fase, yeo e šomago bonyenyane mengwaga e meraro, gore o feleletše khoutu ya mothopo yeo e balegago motšheneng yeo e swanelegago yeo e feletšego.</li>
+   </ul>
+     
+</div>
 
 <p>Maemo lege ele afe ao a lego ka mo godimo a ka tlogelwa ge eba o hwetša tumelelo go mong wa tokelo ya ngwalollo.</p> 
-<p>Go šoma ga gago ka tsela ya toka le ditokelo tše dingwe ga di angwe ke dilo tšeo di lego ka mo godimo le ka tsela le ge ele efe.</p> 
-<p />Ye ke kakaretšo ya Khoutu ya Semolao yeo e balegago gabonolo (laesense e feletšego ya <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU ya Setšhaba ya Kakaretšo</a>). <a href="legalcode.pt">Phetolelo ya sepotokisi</a> le yona e a hwetšagala.
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Disclaimer</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

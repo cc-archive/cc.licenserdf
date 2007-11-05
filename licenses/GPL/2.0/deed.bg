@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>Договорът <span>GNU General Public License</span> е за <a href="http://www.gnu.org/philosophy/free-sw.html">Свободен Софтуер</a>. Подобно на всички останали договори за свободен софтуер, той ви дава следните четири свободи:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Свободата да разпространявате копия, като по този начин се подпомагат хората.</li>
 				<li>Свободата да доусъвършенствате дадената програма и да предоставяте своите подобрения, така че да може да се облагодетелства цялата общност.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />Можете да упражнявате дадените ви свободи, съгласявайки се с изричните условия на договора. Основните условия са:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Върху всяко разпространявано копие, вие сте длъжен на видно място и по подходящ начин да сложите съответната забележка, отнасяща се до авторските права и ограничената отговорност. Вие сте длъжен също да запазите в цялост всички бележки, които се отнасят до този договор и до ограничаване на отговорността по него; както и да предоставите на всички реципиенти на програмата копие от договора <span>GNU General Public License</span> заедно със самата програма. Всеки превод на договора <span>GNU General Public License</span> трябва да бъде придружен от <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Ако промените своето копие или копия на програмата или на част от нея, или разработите друга програма, базирана на нея, имате право да разпространявате полученото производно произведение под договор <span>GNU General Public License</span>. Всякакви преводи на договора <span>GNU General Public License</span> трябва да бъдат придружени от <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Ако копирате или разпространявате програмата, това трябва да е придружено съответно с пълния й програмен код, или с писмено предложение за предоставяне на програмния код, валидно най-малко три години.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">Върху всяко разпространявано копие, вие сте длъжен на видно място и по подходящ начин да сложите съответната забележка, отнасяща се до авторските права и ограничената отговорност. Вие сте длъжен също да запазите в цялост всички бележки, които се отнасят до този договор и до ограничаване на отговорността по него; както и да предоставите на всички реципиенти на програмата копие от договора <span>GNU General Public License</span> заедно със самата програма. Всеки превод на договора <span>GNU General Public License</span> трябва да бъде придружен от <span>GNU General Public License</span>.</li>
+
+     <li class="license sa">Ако промените своето копие или копия на програмата или на част от нея, или разработите друга програма, базирана на нея, имате право да разпространявате полученото производно произведение под договор <span>GNU General Public License</span>. Всякакви преводи на договора <span>GNU General Public License</span> трябва да бъдат придружени от <span>GNU General Public License</span>.</li>
+
+     <li class="license src">Ако копирате или разпространявате програмата, това трябва да е придружено съответно с пълния й програмен код, или с писмено предложение за предоставяне на програмния код, валидно най-малко три години.</li>
+   </ul>
+     
+</div>
 
 <p>Всяко едно от тези условия може да бъде отхвърлено, ако получите разрешение за това от носителя на правата.</p> 
-<p>Горепосоченото по никакъв начин не засяга правото ви на свободно договаряне или някакви други права.</p> 
-<p />Това е съкратена справка за Договора (Пълен текст на <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). Превод на <a href="legalcode.pt">португалски език</a> също е достъпен.
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Отказ от  отговорност</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="Disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

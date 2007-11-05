@@ -312,6 +312,12 @@ GNU General Public License
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>[[cc_org][deed.gpl_freedoms (<%=[ccommons::istr $lang deed.gpl_freedoms]%>
 <span>GNU General Public License</span>
 )]]</p>
@@ -325,39 +331,32 @@ GNU General Public License
 )]]</li>
 				<li>[[cc_org][deed.gpl_free_improve (<%=[ccommons::istr $lang deed.gpl_free_improve]%>)]]</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />[[cc_org][deed.gpl_under_conditions ()]]
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">[[cc_org][deed.gpl_notice (<%=[ccommons::istr $lang deed.gpl_notice]%>
-<span>GNU General Public License</span>
-)]]</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">[[cc_org][deed.gpl_sharealike (<%=[ccommons::istr $lang deed.gpl_sharealike]%>
-<span>GNU General Public License</span>
-)]]</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">[[cc_org][deed.gpl_source (<%=[ccommons::istr $lang deed.gpl_source]%>
-<span>GNU General Public License</span>
-)]]</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">[[cc_org][deed.gpl_notice (
+       <span>GNU General Public License</span>
+     )]]</li>
+
+     <li class="license sa">[[cc_org][deed.gpl_sharealike (
+       <span>GNU General Public License</span>
+     )]]</li>
+
+     <li class="license src">[[cc_org][deed.gpl_source (
+       <span>GNU General Public License</span>
+     )]]</li>
+   </ul>
+     
+</div>
 
 <p>[[cc_org][deed.permission (<%=[ccommons::istr $lang deed.permission]%>)]]</p> 
-<p>[[cc_org][deed.fair_use (<%=[ccommons::istr $lang deed.fair_use]%>)]]</p> 
-<p />[[cc_org][deed.gpl_human_summary ()]]
-
-
-<p>[[cc_org][deed.gpl_disclaimer (<%=[ccommons::istr $lang deed.gpl_disclaimer]%>)]]</p> 
 
 </div>
        </div>

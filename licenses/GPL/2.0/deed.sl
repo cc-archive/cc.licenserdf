@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>Licenca <span>GNU General Public License</span> je licenca <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a>. Kot vse licence Free Software vam daje naslednje štiri pravice:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Pravico redistribuirati kopije, da lahko pomagate bližnjemu.</li>
 				<li>Pravico izboljšati program in izboljšavo objaviti, da bo koristila vsej skupnosti.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />Tukaj navedene pravice lahko uporabljate, če upoštevate izrecne pogoje te licence. Glavni pogoji so:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Na vsakem izvodu morate očitno in na ustrezen način objaviti ustrezno obvestilo o avtorskih pravicah in omejitvi odgovornosti in pustiti nespremenjena vsa obvestila, ki se nanašajo na to licenco in odsotnost jamstev; vsakemu prejemniku programa morate dati izvod <span>GNU General Public License</span>. Morebitnemu prevodu <span>GNU General Public License</span> mora biti priloženo izvirno besedilo <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Če predelate svoj izvod ali izvode programa ali kateri koli del programa, smete izdelano delo distribuirati le, če ga distribuirate pod licenco <span>GNU General Public License</span>. Morebitnemu prevodu <span>GNU General Public License</span> mora biti priloženo izvirno besedilo <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Če program distribuirate, mu morate priložiti celotno strojno berljivo izvorno kodo ali pa pisno ponudbo, veljavno najmanj tri leta, da boste zagotovili strojno berljivo izvorno kodo.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">Na vsakem izvodu morate očitno in na ustrezen način objaviti ustrezno obvestilo o avtorskih pravicah in omejitvi odgovornosti in pustiti nespremenjena vsa obvestila, ki se nanašajo na to licenco in odsotnost jamstev; vsakemu prejemniku programa morate dati izvod <span>GNU General Public License</span>. Morebitnemu prevodu <span>GNU General Public License</span> mora biti priloženo izvirno besedilo <span>GNU General Public License</span>.</li>
+
+     <li class="license sa">Če predelate svoj izvod ali izvode programa ali kateri koli del programa, smete izdelano delo distribuirati le, če ga distribuirate pod licenco <span>GNU General Public License</span>. Morebitnemu prevodu <span>GNU General Public License</span> mora biti priloženo izvirno besedilo <span>GNU General Public License</span>.</li>
+
+     <li class="license src">Če program distribuirate, mu morate priložiti celotno strojno berljivo izvorno kodo ali pa pisno ponudbo, veljavno najmanj tri leta, da boste zagotovili strojno berljivo izvorno kodo.</li>
+   </ul>
+     
+</div>
 
 <p>Kateri koli od teh pogojev se lahko razveljavi, če za to dobite dovoljenje imetnika avtorskih pravic.</p> 
-<p>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</p> 
-<p />To je uporabniku berljiv pozetek Celotnega pravnega besedila (celotnega besedila <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). Na voljo je tudi <a href="legalcode.pt">portugalski prevod</a>.
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Izjava o odklanjanju odgovornosti</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

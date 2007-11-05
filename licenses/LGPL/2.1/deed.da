@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p><span>GNU Lesser General Public License</span> er en <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> licens. Som alle Free Software licenser, giver den dig de følgende fire friheder:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Friheden til at videresprede eksemplarer, så du kan hjælpe din nabo.</li>
 				<li>Friheden til at forbedre programmet og udgive dine forbedringer til almenheden, så omverdenen kan drage nytte heraf.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    
    <p />Du må udøve de friheder, der er specificeret her forudsat, at du repekterer vilkårene i denne licens. LGPL er tiltænkt softwarekartoteker snarere end egentlige programmer. De væsentligste vilkår er:
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">På hvert værk du spreder, skal du på en fremtrædende og passende måde anføre passende Copyright-mærkning og ansvarsfraskrivelse, samt sikre at alle henvisninger til denne Licens er intakte og give andre modtagere af programmet en kopi af <span>GNU General Public License</span> sammen med programmet. Med en hvilken som helst oversættelse af <span>GNU General Public License</span> skal følge <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Hvis du ændrer dit eksemplar eller dine eksemplarer af programmet eller en del af det, eller udvikler et program baseret på det, kan du videresprede det resulterende program forudsat, at du gør det under <span>GNU General Public License</span>. Til alle oversættelser af <span>GNU General Public License</span> skal medfølge <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Hvis du kopierer eller sprede programmet, skal medfølge den fuldstændige tilsvarende maskin-læsbare kildekode eller et skriftligt tilbud, der er gyldigt i mindst tre år, om at fremskaffe fuldstændige tilsvarende maskin-læsbare kildekode.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">På hvert værk du spreder, skal du på en fremtrædende og passende måde anføre passende Copyright-mærkning og ansvarsfraskrivelse, samt sikre at alle henvisninger til denne Licens er intakte og give andre modtagere af programmet en kopi af <span>GNU Lesser General Public License</span> sammen med programmet. Med en hvilken som helst oversættelse af <span>GNU Lesser General Public License</span> skal følge <span>GNU Lesser General Public License</span>.</li>
+
+     <li class="license sa">Hvis du ændrer dit eksemplar eller dine eksemplarer af programmet eller en del af det, eller udvikler et program baseret på det, kan du videresprede det resulterende program forudsat, at du gør det under <span>GNU Lesser General Public License</span>. Til alle oversættelser af <span>GNU Lesser General Public License</span> skal medfølge <span>GNU Lesser General Public License</span>.</li>
+
+     <li class="license src">Hvis du kopierer eller sprede programmet, skal medfølge den fuldstændige tilsvarende maskin-læsbare kildekode eller et skriftligt tilbud, der er gyldigt i mindst tre år, om at fremskaffe fuldstændige tilsvarende maskin-læsbare kildekode.</li>
+   </ul>
+     
+</div>
 
 <p>Alle disse vilkår kan frafaldes, hvis du får tilladelse af rettighedshaveren.</p> 
-<p>De muligheder du ifølge ophavsretsloven har for at bruge værket påvirkes på ingen måde af ovenstående.</p> 
-
-<p />Dette er et menneske-læsbart sammendrag af den Juridiske Tekst (den fuldstændige <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). En <a href="legalcode.pt">Portugisisk oversættelse</a> er også tilgængelig.
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Ansvarsfraskrivelse</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

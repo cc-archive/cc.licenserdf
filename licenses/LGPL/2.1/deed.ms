@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>${lesen_nama_penuh} adalah satu lesen <a href="http://www.gnu.org/philosophy/free-sw.html"> Perisian Percuma</a>. Seperti Lesen Perisian Percuma yang lain, ia memberi anda empat kebebasan yang berikut:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Kebebasan untuk mengedar semula salinan-salinan supaya anda boleh menolong jiran anda.</li>
 				<li>Kebebasan untuk menaiktaraf program tersebut dan berkongsi dengan masyarakat awam untuk faedah masyarakat secara keseluruhan.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    
    <p />Anda boleh menggunakan kebebasan yang dinyata disini asalkan anda memenuhi syarat-syarat yang dinyata di dalam lesen ini. Lesen Awam Am yang Lebih Kecil adalah untuk perpustakaan perisian dan bukannya program-program perlaksanaan. Syarat-syarat utama adalah:
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Anda mesti dengan ketara dan dengan berpatutan menerbitkan pada setiap salinan yang diedarkan satu notis hakcipta yang berpatutan dan penolakan waranti dan menyimpan tetap semua notis-notis yang merujuk kepada lesen ini dan kepada ketiadaan sebarangjuga waranti dan memberi penerima-penerima lain Program tersebut satu salinan ${lesen_nama_penuh} bersama dengan program tersebut. Sebarang penterjemahan ${lesen_nama_penuh} mest disertai dengan ${lesen_nama_penuh}.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Jika anda mengubah salinan anda atau salinan-salinan program tersebut atau sebarang bahagian daripadanya, atau membina satu program berdasarkannya, anda boleh mengedarkan karya hasilan anda membuat begitu dibawah ${lesen_nama_penuh}. Sebarang penterjemahan ${lesen_nama_penuh} mesti disertai dengan ${lesen_nama_penuh}.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Jika anda membuat salinan atau mengedar program tersebut, anda mesti menyertainya dengan kod sumber berhubungan yang boleh dibaca oleh mesin yang lengkap atau dengan pelawaan bertulis, yang sah untuk sekurang-kurangnya tiga tahun, untuk memperlengkapkan kod sumber berhubungan yang boleh dibaca oleh mesin yang lengkap.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">Anda mesti dengan ketara dan dengan berpatutan menerbitkan pada setiap salinan yang diedarkan satu notis hakcipta yang berpatutan dan penolakan waranti dan menyimpan tetap semua notis-notis yang merujuk kepada lesen ini dan kepada ketiadaan sebarangjuga waranti dan memberi penerima-penerima lain Program tersebut satu salinan ${lesen_nama_penuh} bersama dengan program tersebut. Sebarang penterjemahan ${lesen_nama_penuh} mest disertai dengan ${lesen_nama_penuh}.</li>
+
+     <li class="license sa">Jika anda mengubah salinan anda atau salinan-salinan program tersebut atau sebarang bahagian daripadanya, atau membina satu program berdasarkannya, anda boleh mengedarkan karya hasilan anda membuat begitu dibawah ${lesen_nama_penuh}. Sebarang penterjemahan ${lesen_nama_penuh} mesti disertai dengan ${lesen_nama_penuh}.</li>
+
+     <li class="license src">Jika anda membuat salinan atau mengedar program tersebut, anda mesti menyertainya dengan kod sumber berhubungan yang boleh dibaca oleh mesin yang lengkap atau dengan pelawaan bertulis, yang sah untuk sekurang-kurangnya tiga tahun, untuk memperlengkapkan kod sumber berhubungan yang boleh dibaca oleh mesin yang lengkap.</li>
+   </ul>
+     
+</div>
 
 <p>Sebarang daripada syarat-syarat ini boleh diketepikan kalau anda mendapat kebenaran daripada pemegang hakcipta.</p> 
-<p>Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun dipengaruhi oleh yang di atas.</p> 
-
-<p />Ini adalah satu mudah dibaca ringkasan Kod Undang-undang(<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesen Awan Am Yang Lebih Kecil</a> yang sepenuhnya). Satu<a href="legalcode.pt"> penterjemahan Bahasa Portuguese </a> juga tersedia disini.
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Penolakan Liabiliti</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

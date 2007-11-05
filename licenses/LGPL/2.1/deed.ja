@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p><span>GNU Lesser General Public License</span> は <a href="http://www.gnu.org/philosophy/free-sw.html">フリーソフトウェア</a> ・ライセンスです. 他のフリーソフトウェア・ライセンスと同様に，本ライセンスでは以下の4点を許諾します。</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>コピーを自由に再配布して、周囲の者を援助できる。</li>
 				<li>プログラムを改良して、改良点を一般に公開することで、コミュニティ全体に利益をもたらす。</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    
    <p />あなたは，このライセンスが定める次の条件を遵守することによって，ここに規定された自由を行使することができます．LGPLは実行可能なプログラムにではなく，ソフトウェアのライブラリーに適用されるものです．基本的な条件は次の通りです：
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">配布するコピーには１部ごとに、適切な著作権表示と保証免責条項を目立ちやすく、かつ適切に表示する。また、本ライセンスおよびいかなる保証免責条項に言及する通知内容には変更を加えないものとする。さらに、プログラムのすべての受取人にはプログラムとともに<span>GNU General Public License</span>のコピーを提供するものとする。<span>GNU General Public License</span>の翻訳はいかなるものでも、<span>GNU General Public License</span>の原文を伴うものとする。</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">プログラムまたはその一部でも、変更したり、他のプログラムの開発に用いる場合には、GNU Public License に基づく場合、同 License に従って、その成果を配布できます。<span>GNU General Public License</span> の翻訳はいかなるものでも、<span>GNU General Public License</span> の原文を伴うものとする。</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">プログラムをコピーまたは配布する場合、そのソースコードを漏れなく付け加えるか、または、最低でも3年間は有効な申し出としてそのソースコードを漏れなく提供する旨を文書として付け加える必要があります。</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">配布するコピーには１部ごとに、適切な著作権表示と保証免責条項を目立ちやすく、かつ適切に表示する。また、本ライセンスおよびいかなる保証免責条項に言及する通知内容には変更を加えないものとする。さらに、プログラムのすべての受取人にはプログラムとともに<span>GNU Lesser General Public License</span>のコピーを提供するものとする。<span>GNU Lesser General Public License</span>の翻訳はいかなるものでも、<span>GNU Lesser General Public License</span>の原文を伴うものとする。</li>
+
+     <li class="license sa">プログラムまたはその一部でも、変更したり、他のプログラムの開発に用いる場合には、GNU Public License に基づく場合、同 License に従って、その成果を配布できます。<span>GNU Lesser General Public License</span> の翻訳はいかなるものでも、<span>GNU Lesser General Public License</span> の原文を伴うものとする。</li>
+
+     <li class="license src">プログラムをコピーまたは配布する場合、そのソースコードを漏れなく付け加えるか、または、最低でも3年間は有効な申し出としてそのソースコードを漏れなく提供する旨を文書として付け加える必要があります。</li>
+   </ul>
+     
+</div>
 
 <p>著作[権]者から許可を得ると、これらの条件は適用されません。</p> 
-<p>上記によってあなたのフェアユースその他の権利が影響を受けることはまったくありません。</p> 
-
-<p />これは一般の方にも理解できる，法的文書の要約です（GNU 劣等一般公衆利用許諾契約書の全文は<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">こちら</a>）<a href="legalcode.pt">ポルトガル語訳</a>も用意してあります．
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">免責事項</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

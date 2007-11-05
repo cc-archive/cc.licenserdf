@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>這份 <span>GNU General Public License</span> 係一<a href="http://www.gnu.org/philosophy/free-sw.html">自由軟體</a>授權條款。正如同任何自由軟體授權條款一般，它給予您下列四種自由：</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>使被授權人擁有再散布重製物的自由，您將能因此幫助您鄰近的人。</li>
 				<li>使被授權人擁有改良本程式並對大眾釋出其改作物的自由，能使整個社會因此獲益。</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />只要您遵循這個授權條款所明示的條件，即可行使此處指明的自由。主要的條件為：
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">您必須明顯並妥適地在您所散布的每份重製物上，標示適當的著作權聲明與免除擔保責任之聲明，並保留所有與本授權條款有關的注意事項以及免除保證責任聲明；並提供其他任何本程式之收受者一份附隨本程式的 <span>GNU General Public License</span> 。任何 <span>GNU General Public License</span> 之譯本，皆須同時附上原始的 <span>GNU General Public License</span> 。</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">如果您修改您的重製物或程式的重製物或其任一部分，或據此開發一套程式，只要您依據 <span>GNU General Public License</span> ，就得散布衍生著作。任何 <span>GNU General Public License</span> 的譯本皆須同時附上原始的 <span>GNU General Public License</span>。</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">如果您重製或散布此程式，您必須附上完整且一致、可讓機器辨讀的源碼；或附上一份書面、有效期限至少三年的要約，以提供完整且一致、可讓機器辨讀的源碼。</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">您必須明顯並妥適地在您所散布的每份重製物上，標示適當的著作權聲明與免除擔保責任之聲明，並保留所有與本授權條款有關的注意事項以及免除保證責任聲明；並提供其他任何本程式之收受者一份附隨本程式的 <span>GNU General Public License</span> 。任何 <span>GNU General Public License</span> 之譯本，皆須同時附上原始的 <span>GNU General Public License</span> 。</li>
+
+     <li class="license sa">如果您修改您的重製物或程式的重製物或其任一部分，或據此開發一套程式，只要您依據 <span>GNU General Public License</span> ，就得散布衍生著作。任何 <span>GNU General Public License</span> 的譯本皆須同時附上原始的 <span>GNU General Public License</span>。</li>
+
+     <li class="license src">如果您重製或散布此程式，您必須附上完整且一致、可讓機器辨讀的源碼；或附上一份書面、有效期限至少三年的要約，以提供完整且一致、可讓機器辨讀的源碼。</li>
+   </ul>
+     
+</div>
 
 <p>如果您取得著作權人之許可，這些條件中任一項都能免除。</p> 
-<p>您合理使用的權利及其他的權利，不因上述內容而受影響。</p> 
-<p />這是讓一般人易於了解的法律條款（完整的 <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU 通用公共授權條款</a>）摘要。也有<a href="legalcode.pt">葡萄牙語的譯本</a>。
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">免責聲明</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

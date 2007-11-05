@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p><span>GNU General Public License</span> on <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> lisenssi. Niinkuin kaikki Free Software lisenssit, se takaa sinulle seuraavat vapaudet:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Vapaus jakaa kopioita jotta voit auttaa naapuriasi.</li>
 				<li>Vapaus kehittää ohjelmaa ja julkaista parannukset, jotta koko yhteisö hyötyy.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />Voit käyttää vapauksia jotka lisenssissä annettaan lisenssin mukaisesti. Lisenssin pääehdot ovat:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Sinun tulee huomiota herättävästi ja tarkoituksenmukaisesti julkaista jokaisessa levittämässäsi teoskappaleessa tekijänoikeusilmoitus ja vastuuvapauslauseke ja säilyttää kaikki viitteet tähän lisenssiin ja takuun puutteeseen ja antaa kaikille teoksen vastaanottajille kopio tästä <span>GNU General Public License</span>lisenssistä teoskappaleen mukana. Kaikkien  <span>GNU General Public License</span>käännösten mukana tulee olla <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Jos muokkaat teoksen kopioita tai kehität ohjelman sen pohjelta, saat levittää näin syntynyttä ohjelmaa <span>GNU General Public License</span>-lisenssillä. Kaikkien  <span>GNU General Public License</span>käännösten mukana tulee olla <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Jos kopioit tai levität ohjelmaa, sinun tulee liittää siihen mukaan tietokoneella luettavissa oleva lähdekoodi  kokonaisuudessan tai liittää tarjous joka on voimassa ainakin kolme vuotta tuon koodin toimittamiseen.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">Sinun tulee huomiota herättävästi ja tarkoituksenmukaisesti julkaista jokaisessa levittämässäsi teoskappaleessa tekijänoikeusilmoitus ja vastuuvapauslauseke ja säilyttää kaikki viitteet tähän lisenssiin ja takuun puutteeseen ja antaa kaikille teoksen vastaanottajille kopio tästä <span>GNU General Public License</span>lisenssistä teoskappaleen mukana. Kaikkien  <span>GNU General Public License</span>käännösten mukana tulee olla <span>GNU General Public License</span>.</li>
+
+     <li class="license sa">Jos muokkaat teoksen kopioita tai kehität ohjelman sen pohjelta, saat levittää näin syntynyttä ohjelmaa <span>GNU General Public License</span>-lisenssillä. Kaikkien  <span>GNU General Public License</span>käännösten mukana tulee olla <span>GNU General Public License</span>.</li>
+
+     <li class="license src">Jos kopioit tai levität ohjelmaa, sinun tulee liittää siihen mukaan tietokoneella luettavissa oleva lähdekoodi  kokonaisuudessan tai liittää tarjous joka on voimassa ainakin kolme vuotta tuon koodin toimittamiseen.</li>
+   </ul>
+     
+</div>
 
 <p>Tämän lisenssin rajoituksista voidaan luopua tekijänoikeuden omistajan antamalla luvalla.</p> 
-<p>Tämä lisenssi ei vaikuta tekijänoikeuslain rajoituksiin tai muiden lakien myöntämiin oikeuksiin.</p> 
-<p />Tämä on tiivistelmä täydestä <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public Lisenssistä</a>. <a href="legalcode.pt">Portugalin kielinen käännös</a> on myös saatavilla.
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Vastuuvapauslauseke</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

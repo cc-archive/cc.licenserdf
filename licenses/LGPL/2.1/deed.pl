@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p><span>GNU Lesser General Public License</span> to tzw. licencja <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a>. Jak każda licencja Free Software zapewnia następujące swobody:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Swoboda redystrybucji kopii, aby pomóc innym (np. sąsiadom).</li>
 				<li>Swoboda udoskonalania programu i publikowania własnych poprawek dla dobra całej społeczności.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    
    <p />Z gwarantowanych tu swobód można korzystać tylko i wyłącznie gdy przestrzegane są wyraźne postanowienia niniejszej licencji. LGPL przeznaczona jest dla bibliotek, a w mniejszym stopniu dla wykonywalnych programów. Najistotniejsze warunki:
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Na każdej rozpowszechnianej kopii należy w odpowiedni i zwracający uwagę sposób umieścić informację o prawach autorskich i klauzulę ograniczenia odpowiedzialności. Należy również pozostawić w nienaruszonym stanie wszystkie informacje odnoszące się do niniejszej Licencji i wskazujące na wyłączenie odpowiedzialności. Wszelkim odbiorcom Programu należy razem z Programem przekazać kopię licencji <span>GNU General Public License</span>. Do każdego tłumaczenia licencji <span>GNU General Public License</span> należy dołączyć licencję <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">W przypadku dokonania zmian w egzemplarzu lub egzemplarzach programu lub jakiejkolwiek jego części lub opracowania programu na nich opartego, dozwolone jest rozpowszechnianie tak powstałego utworu pod warunkiem stosowania licencji <span>GNU General Public License</span>.  Do każdego tłumaczenia licencji <span>GNU General Public License</span> należy dołączyć licencję <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">W przypadku powielania lub rozpowszechnia programu, należy dołączyć do niego kompletny i możliwy do odczytania przez urządzenie cyfrowe kod źródłowy lub ważną przez co najmniej trzy lata pisemną ofertę dostarczenia odpowiedniego kompletnego i możliwego do odczytania przez urządzenie cyfrowe kodu źródłowego.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">Na każdej rozpowszechnianej kopii należy w odpowiedni i zwracający uwagę sposób umieścić informację o prawach autorskich i klauzulę ograniczenia odpowiedzialności. Należy również pozostawić w nienaruszonym stanie wszystkie informacje odnoszące się do niniejszej Licencji i wskazujące na wyłączenie odpowiedzialności. Wszelkim odbiorcom Programu należy razem z Programem przekazać kopię licencji <span>GNU Lesser General Public License</span>. Do każdego tłumaczenia licencji <span>GNU Lesser General Public License</span> należy dołączyć licencję <span>GNU Lesser General Public License</span>.</li>
+
+     <li class="license sa">W przypadku dokonania zmian w egzemplarzu lub egzemplarzach programu lub jakiejkolwiek jego części lub opracowania programu na nich opartego, dozwolone jest rozpowszechnianie tak powstałego utworu pod warunkiem stosowania licencji <span>GNU Lesser General Public License</span>.  Do każdego tłumaczenia licencji <span>GNU Lesser General Public License</span> należy dołączyć licencję <span>GNU Lesser General Public License</span>.</li>
+
+     <li class="license src">W przypadku powielania lub rozpowszechnia programu, należy dołączyć do niego kompletny i możliwy do odczytania przez urządzenie cyfrowe kod źródłowy lub ważną przez co najmniej trzy lata pisemną ofertę dostarczenia odpowiedniego kompletnego i możliwego do odczytania przez urządzenie cyfrowe kodu źródłowego.</li>
+   </ul>
+     
+</div>
 
 <p>Każdy z tych warunków może zostać uchylony, jeśli uzyska się zezwolenie właściciela praw autorskich.</p> 
-<p>Powyższe postanowienia w żaden sposób nie naruszają uprawnień wynikających z dozwolonego użytku ani żadnych innych praw.</p> 
-
-<p />Ten tekst to przystępne podsumowanie Tekstu prawnego (pełna licencja <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). Dostępne jest również <a href="legalcode.pt">tłumaczenie portugalskie</a>.
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Klauzula ograniczenia odpowiedzialności</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

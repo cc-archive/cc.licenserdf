@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>A <span>GNU General Public License</span> é uma licença de <a href="http://www.gnu.org/philosophy/free-sw.pt.html">Software Livre ("Free Software")</a>. Assim como qualquer licença de Software Livre, esta concede ao utilizador o exercício livre dos quatro seguintes direitos:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>O direito de redistribuir cópias, permitindo assim ajudar outras pessoas.</li>
 				<li>O direito de aperfeiçoar o programa, e distribuir suas melhorias para o público, beneficiando assim toda a comunidade.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />O utilizador poderá exercer os direitos acima especificados contanto que cumpra com os requisitos expressos nesta Licença. Os principais requisitos são:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">O utilizador deve publicar de forma ostensiva e adequada, em cada cópia, um aviso dos direitos de autor (ou "copyright") e uma notificação sobre a exoneração de garantia. Além disso, deve manter intactas todas as informações, avisos e notificações referentes à Licença e à ausência de qualquer garantia. O utilizador deve também fornecer a qualquer outra pessoa que receba este Programa uma cópia desta Licença em conjunto com o Programa. Qualquer tradução da <span>GNU General Public License</span> deverá estar acompanhada da <span>GNU General Public License</span> (original em lnglês).</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Se alterar ou transformar a obra, ou desenvolver outra obra baseada nela, poderá distribuir o trabalho resultante desde que sob uma licença idêntica a esta. Qualquer tradução da <span>GNU General Public License</span> deverá estar acompanhada da <span>GNU General Public License</span> (original em lnglês).</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Se copiar ou distribuir a obra, deve incluir junto com ela o seu código-fonte correspondente completo, passível de leitura pela máquina, ou incluir uma oferta por escrito a fornecer o código-fonte, válida por pelo menos 3 anos.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">O utilizador deve publicar de forma ostensiva e adequada, em cada cópia, um aviso dos direitos de autor (ou "copyright") e uma notificação sobre a exoneração de garantia. Além disso, deve manter intactas todas as informações, avisos e notificações referentes à Licença e à ausência de qualquer garantia. O utilizador deve também fornecer a qualquer outra pessoa que receba este Programa uma cópia desta Licença em conjunto com o Programa. Qualquer tradução da <span>GNU General Public License</span> deverá estar acompanhada da <span>GNU General Public License</span> (original em lnglês).</li>
+
+     <li class="license sa">Se alterar ou transformar a obra, ou desenvolver outra obra baseada nela, poderá distribuir o trabalho resultante desde que sob uma licença idêntica a esta. Qualquer tradução da <span>GNU General Public License</span> deverá estar acompanhada da <span>GNU General Public License</span> (original em lnglês).</li>
+
+     <li class="license src">Se copiar ou distribuir a obra, deve incluir junto com ela o seu código-fonte correspondente completo, passível de leitura pela máquina, ou incluir uma oferta por escrito a fornecer o código-fonte, válida por pelo menos 3 anos.</li>
+   </ul>
+     
+</div>
 
 <p>Qualquer uma destas condições podem ser renunciadas, desde que obtenha permissão por parte do autor.</p> 
-<p>Qualquer direito de uso legítimo (ou "fair use") concedido por lei, ou qualquer outro direito protegido pela legislação local, não são em hipótese alguma afectados pelo disposto acima.</p> 
-<p />Este é um sumário explicativo, de compreensão mais fácil, <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">da parte Jurídica</a> (a licença completa). Tradução: <a href="legalcode.pt">Português</a>
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Termo de exoneração de responsabilidade</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>The <span>GNU Lesser General Public License</span> is a <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> licence. Like any Free Software licence, it grants to you the four following freedoms:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>The freedom to redistribute copies so you can help your neighbour.</li>
 				<li>The freedom to improve the program and release your improvements to the public, so that the whole community benefits.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    
    <p />You may exercise the freedoms specified here provided that you comply with the express conditions of this licence. The LGPL is intended for software libraries, rather than executable programs. The principal conditions are:
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">You must conspicuously and appropriately publish on each copy distributed an appropriate copyright notice and disclaimer of warranty and keep intact all the notices that refer to this Licence and to the absence of any warranty; and give any other recipients of the Program a copy of the <span>GNU General Public License</span> along with the Program. Any translation of the <span>GNU General Public License</span> must be accompanied by the <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">If you modify your copy or copies of the program or any portion of it, or develop a program based upon it, you may distribute the resulting work provided you do so under the <span>GNU General Public License</span>. Any translation of the <span>GNU General Public License</span> must be accompanied by the <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">If you copy or distribute the program, you must accompany it with the complete corresponding machine-readable source code or with a written offer, valid for at least three years, to furnish the complete corresponding machine-readable source code.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">You must conspicuously and appropriately publish on each copy distributed an appropriate copyright notice and disclaimer of warranty and keep intact all the notices that refer to this Licence and to the absence of any warranty; and give any other recipients of the Program a copy of the <span>GNU Lesser General Public License</span> along with the Program. Any translation of the <span>GNU Lesser General Public License</span> must be accompanied by the <span>GNU Lesser General Public License</span>.</li>
+
+     <li class="license sa">If you modify your copy or copies of the program or any portion of it, or develop a program based upon it, you may distribute the resulting work provided you do so under the <span>GNU Lesser General Public License</span>. Any translation of the <span>GNU Lesser General Public License</span> must be accompanied by the <span>GNU Lesser General Public License</span>.</li>
+
+     <li class="license src">If you copy or distribute the program, you must accompany it with the complete corresponding machine-readable source code or with a written offer, valid for at least three years, to furnish the complete corresponding machine-readable source code.</li>
+   </ul>
+     
+</div>
 
 <p>Any of these conditions can be waived if you get permission from the copyright holder.</p> 
-<p>Your fair dealing and other rights are in no way affected by the above.</p> 
-
-<p />This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public Licence</a>). A <a href="legalcode.pt">Portuguese translation</a> is also available.
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Disclaimer</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

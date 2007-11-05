@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>A <span>GNU Lesser General Public License</span> é unha licenza de <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a>. Como calquera licenza de Free Software, outórgavos as liberdades seguintes:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>A liberdade de redistribuír copias para axudar a outras persoas.</li>
 				<li>A liberdade de mellora-lo programa e divulga-las melloras ao público, para beneficio de toda a comunidade.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    
    <p />You may exercise the freedoms specified here provided that you comply with the express conditions of this license. The LGPL is intended for software libraries, rather than executable programs. The principal conditions are:
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">En cada copia que distribúa, debe difundir notoriamente e apropiadamente unha nota referente ós dereitos de autor e unha exoneración de responsabilidades, e manter intactos tódolos avisos que se refiran a esta licenza e a ausencia de calquera garantía; e dar a calquera destinatario do Programa unha copia da <span>GNU General Public License</span>  xunto co Programa. calquera tradución da ${license_name_ful} debe ir acompañada pola ${license_name_ful}.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Se modifica a súa copia ou copias do programa ou algunha parte del, ou desenvolve un programa baseado nel, pode distribuí-la obra resultante sempre baixo a <span>GNU General Public License</span>. Calquera tradución da <span>GNU General Public License</span> debe ir acompañada pola <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Se copia ou distribúe o programa, debe acompañalo do correspondente código fonte lexible por máquinas ou un ofrecemento escrito, válido a lo menos por tres anos, para subministrar o correspondente código fonte completo.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">En cada copia que distribúa, debe difundir notoriamente e apropiadamente unha nota referente ós dereitos de autor e unha exoneración de responsabilidades, e manter intactos tódolos avisos que se refiran a esta licenza e a ausencia de calquera garantía; e dar a calquera destinatario do Programa unha copia da <span>GNU Lesser General Public License</span>  xunto co Programa. calquera tradución da ${license_name_ful} debe ir acompañada pola ${license_name_ful}.</li>
+
+     <li class="license sa">Se modifica a súa copia ou copias do programa ou algunha parte del, ou desenvolve un programa baseado nel, pode distribuí-la obra resultante sempre baixo a <span>GNU Lesser General Public License</span>. Calquera tradución da <span>GNU Lesser General Public License</span> debe ir acompañada pola <span>GNU Lesser General Public License</span>.</li>
+
+     <li class="license src">Se copia ou distribúe o programa, debe acompañalo do correspondente código fonte lexible por máquinas ou un ofrecemento escrito, válido a lo menos por tres anos, para subministrar o correspondente código fonte completo.</li>
+   </ul>
+     
+</div>
 
 <p>Algunha destas condicións pode non aplicarse se se obtén o permiso do titular dos dereitos de autor</p> 
-<p>Os dereitos derivados de usos lexítimos ou outras limitacións non se ven afectados polo anterior.</p> 
-
-<p />Isto é un resumo facilmente lexible do Código Legal (a <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">licenza  Pública Xeral Menor de GNU</a> completa). Tamén existe unha <a href="legalcode.pt">tradución en portugués</a>.
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Advertencia</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="advertencia" border="0"></a></div></p> 
 
 </div>
        </div>

@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>Der <span>GNU General Public License</span> ist ein <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> Lizenzvertrag. Wie alle solchen Lizenzverträge gibt er Ihnen die folgenden vier Möglichkeiten:</p>
 			
 			<ol start="0">
@@ -318,34 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Die Möglichkeit, Vervielfältigungen des Programms weiterzuverbreiten, so dass es allen nützt.</li>
 				<li>Die Möglichkeit, das Programm zu verbessern und Ihre Verbesserungen zu veröffentlichen: Auf diese Weise profitieren alle.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />Die hier spezifizierten Verwendungsmöglichkeiten werden Ihnen unter der Vorausetzung eingeräumt, dass Sie alle explizit aufgeführten Lizenzbedingungen einhalten. Die wichtigsten Bedingungen sind:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Auf jeder Vervielfältigung muss in leicht erkennbarer Weise ein entsprechender Vermerk bzgl. des Rechteinhabers sowie ein Vermerk über Haftungs- und Gewährleistungsbegrenzung angebracht werden; desweiteren müssen alle Verweise auf diesen Lizenzvertrag sowie alle Verweise auf die Haftungsbegrenzung unverändert beibehalten werden; ferner muss jedem Empfänger des Programms eine Kopie des <span>GNU General Public License</span> zusammen mit dem Programm übergeben werden. Jede Übersetzung dieses <span>GNU General Public License</span> muss den <span>GNU General Public License</span> mit sich führen.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Falls Sie das Programm oder einen oder mehrere Teilbereiche davon bearbeiten, oder falls Sie ein Programm entwickeln, das auf dem ursprünglichen Programm oder einem oder mehrerer Teilbereiche davon aufbaut, so dürfen Sie das resultierende Programm ausschliesslich unter dem <span>GNU General Public License</span> verbreiten. Jede Übersetzung dieses <span>GNU General Public License</span> muss den <span>GNU General Public License</span> mit sich führen.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Wird ein Programm vervielfältigt oder verbreitet, so muss der vollständige Computer-lesbare Quellcode mitvervielfältigt bzw. mitverbreitet werden. Alternativ dazu kann das Programm auch in Verbindung mit einer bindenden schriftlichen Offerte vervielfältigt oder verbreitet werden, diesen vollständigen Computer-lesbaren Quellcode auf Anfrage kostenlos zur Verfügung zu stellen. Diese Offerte muss mindestens drei Jahre lang gültig sein.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">Auf jeder Vervielfältigung muss in leicht erkennbarer Weise ein entsprechender Vermerk bzgl. des Rechteinhabers sowie ein Vermerk über Haftungs- und Gewährleistungsbegrenzung angebracht werden; desweiteren müssen alle Verweise auf diesen Lizenzvertrag sowie alle Verweise auf die Haftungsbegrenzung unverändert beibehalten werden; ferner muss jedem Empfänger des Programms eine Kopie des <span>GNU General Public License</span> zusammen mit dem Programm übergeben werden. Jede Übersetzung dieses <span>GNU General Public License</span> muss den <span>GNU General Public License</span> mit sich führen.</li>
+
+     <li class="license sa">Falls Sie das Programm oder einen oder mehrere Teilbereiche davon bearbeiten, oder falls Sie ein Programm entwickeln, das auf dem ursprünglichen Programm oder einem oder mehrerer Teilbereiche davon aufbaut, so dürfen Sie das resultierende Programm ausschliesslich unter dem <span>GNU General Public License</span> verbreiten. Jede Übersetzung dieses <span>GNU General Public License</span> muss den <span>GNU General Public License</span> mit sich führen.</li>
+
+     <li class="license src">Wird ein Programm vervielfältigt oder verbreitet, so muss der vollständige Computer-lesbare Quellcode mitvervielfältigt bzw. mitverbreitet werden. Alternativ dazu kann das Programm auch in Verbindung mit einer bindenden schriftlichen Offerte vervielfältigt oder verbreitet werden, diesen vollständigen Computer-lesbaren Quellcode auf Anfrage kostenlos zur Verfügung zu stellen. Diese Offerte muss mindestens drei Jahre lang gültig sein.</li>
+   </ul>
+     
+</div>
 
 <p>Jede der vorgenannten Bedingungen kann aufgehoben werden, sofern Sie die Einwilligung des Rechteinhabers dazu erhalten.</p> 
-<p>Die gesetzlichen Beschränkungen der Verwertungsrechte durch das
-Urheberrecht bleiben hiervon unberührt.</p> 
-<p />Dies ist eine Übersicht in allgemeinverständlicher Sprache über den zugrundeliegenden juristischen Text. (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). Eine Übersetzung in Portugiesisch finden Sie <a href="legalcode.pt">hier</a>.
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Haftungsausschluss</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

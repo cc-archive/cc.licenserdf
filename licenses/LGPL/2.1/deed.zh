@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p><span>GNU Lesser General Public License</span>是一种<a href="http://www.gnu.org/philosophy/free-sw.html">自由软件</a>许可协议。像任何自由软件许可协议一样，它赋予您以下四类自由：</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>为了使周围的人群获益，再次发行复制件的自由。</li>
 				<li>为了使全社会获益，改进程序并发布给公众的自由。</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    
    <p />如果您遵守本许可协议的明示条款，就可以行使此处规定的自由。LGPL适用于软件函数库，而不适用于可执行程序。主要的条款如下：
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">您必须明显并且适当地在每一份发行的复制件上标注恰当的著作权标记和免责声明，完整保留所有涉及本许可协议以及免于任何保证的声明；同时随本程序给任何其他的程序接受者一份<span>GNU General Public License</span>的复制件。任何<span>GNU General Public License</span>的译本都必须附上一份<span>GNU General Public License</span>。</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">如果您修改程序的一份或者多份复制件或者程序的任何一部分，或者以此为基础开发新的程序，只要您遵守<span>GNU General Public License</span>就可以发布最终作品。任何<span>GNU General Public License</span>的译本都必须附上一份<span>GNU General Public License</span>。</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">如果您复制或者发行本程序，您必须附上完整的相应机读源代码或者附上一份有效期至少3年的书面要约，承诺提供完整的相应机读源代码。</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">您必须明显并且适当地在每一份发行的复制件上标注恰当的著作权标记和免责声明，完整保留所有涉及本许可协议以及免于任何保证的声明；同时随本程序给任何其他的程序接受者一份<span>GNU Lesser General Public License</span>的复制件。任何<span>GNU Lesser General Public License</span>的译本都必须附上一份<span>GNU Lesser General Public License</span>。</li>
+
+     <li class="license sa">如果您修改程序的一份或者多份复制件或者程序的任何一部分，或者以此为基础开发新的程序，只要您遵守<span>GNU Lesser General Public License</span>就可以发布最终作品。任何<span>GNU Lesser General Public License</span>的译本都必须附上一份<span>GNU Lesser General Public License</span>。</li>
+
+     <li class="license src">如果您复制或者发行本程序，您必须附上完整的相应机读源代码或者附上一份有效期至少3年的书面要约，承诺提供完整的相应机读源代码。</li>
+   </ul>
+     
+</div>
 
 <p>如果得到著作权人的许可，您可以不受任何这些条件的限制。</p> 
-<p>您的合理使用以及其他权利不受上述规定的影响。</p> 
-
-<p />这是一份普通人可以理解的法律文本（即<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU LGPL</a>全文）。您还可以看到<a href="legalcode.pt">葡萄牙语的译文</a>。
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">免责声明</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

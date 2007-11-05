@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>De <span>GNU General Public License</span> is <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> licentie. Net als bij andere free-software licenties verleent de licentiegever u met deze licentie de volgende vier rechten:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Het recht om exemplaren opnieuw te verspreiden om daarmee mensen om u heen van dienst te zijn.</li>
 				<li>Het recht om het programma te verbeteren en de verbeteringen bekend te maken ten behoeve van de gehele gemeenschap.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />De gebruiker mag de bovenstaande rechten uitoefenen met dien verstande dat hij/zij zich aan de uitdrukkelijke voorwaarden van deze licentie dient te houden. De belangrijkste voorwaarden zijn:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">U dient op elk verspreid exemplaar de toepasselijke auteursrechtvermelding en vrijwaringsclausule duidelijk te vermelden en alle vermeldingen die naar deze Licentie en het gebrek aan een vrijwaring verwijzen te behouden; u dient tevens de ontvangers van het Programma een exemplaar van de <span>GNU General Public License</span> samen met het Programma te doen toekomen. Bij elke vertaling van de <span>GNU General Public License</span> dient ook de <span>GNU General Public License</span> te worden vermeld.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Indien de gebruiker zijn/haar exemplaar of exemplaren van het programma of een deel daarvan bewerkt, of een daarop gebaseerd programma ontwikkelt, mag de gebruiker het uiteindelijke werk verspreiden met toepassing van de <span>GNU General Public License</span>. Bij elke vertaling van de <span>GNU General Public License</span> dient ook de <span>GNU General Public License</span> te worden vermeld.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Indien u het programma kopieert of verspreidt dient het voorzien te zijn van de volledige overeenkomstige machinaal leesbare (machine-readable) broncode of een schriftelijk aanbod (met een minimale geldingsduur van drie jaar) om de volledige overeenkomstige machinaal leesbare (machine-readable) broncode ter beschikking te stellen.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">U dient op elk verspreid exemplaar de toepasselijke auteursrechtvermelding en vrijwaringsclausule duidelijk te vermelden en alle vermeldingen die naar deze Licentie en het gebrek aan een vrijwaring verwijzen te behouden; u dient tevens de ontvangers van het Programma een exemplaar van de <span>GNU General Public License</span> samen met het Programma te doen toekomen. Bij elke vertaling van de <span>GNU General Public License</span> dient ook de <span>GNU General Public License</span> te worden vermeld.</li>
+
+     <li class="license sa">Indien de gebruiker zijn/haar exemplaar of exemplaren van het programma of een deel daarvan bewerkt, of een daarop gebaseerd programma ontwikkelt, mag de gebruiker het uiteindelijke werk verspreiden met toepassing van de <span>GNU General Public License</span>. Bij elke vertaling van de <span>GNU General Public License</span> dient ook de <span>GNU General Public License</span> te worden vermeld.</li>
+
+     <li class="license src">Indien u het programma kopieert of verspreidt dient het voorzien te zijn van de volledige overeenkomstige machinaal leesbare (machine-readable) broncode of een schriftelijk aanbod (met een minimale geldingsduur van drie jaar) om de volledige overeenkomstige machinaal leesbare (machine-readable) broncode ter beschikking te stellen.</li>
+   </ul>
+     
+</div>
 
 <p>De gebruiker mag afstand doen van een of meerdere van deze voorwaarden met voorafgaande toestemming van de rechthebbende.</p> 
-<p>Het voorgaande laat de wettelijke beperkingen op de intellectuele eigendomsrechten onverlet.</p> 
-<p />Dit is een vereenvoudigde (human-readable) versie van de Juridische overeenkomst (de volledige <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). Er is eveneens een <a href="legalcode.pt">Portugese vertaling</a> beschikbaar.
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Vrijwaring</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="vrijwaring" border="0"></a></div></p> 
 
 </div>
        </div>

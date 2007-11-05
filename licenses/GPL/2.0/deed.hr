@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>The <span>GNU General Public License</span> je licenca za <a href="http://www.gnu.org/philosophy/free-sw.hr.html">slobodni softver</a>. Kao i svaka druga licenca za slobodni softver, ona Vam pruža sljedeće četiri slobode:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Slobodu da redistribuirate kopije u cilju pomaganja Vašem bližnjem.</li>
 				<li>Slobodu da poboljšavate programe i objavljujete Vaša poboljšanja javnosti, tako da cjelokupna zajednica ima koristi.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />Ovdje specificirane slobode možete upražnjavati samo ako se pridržavate izričitih uvjeta ove licence. Osnovni uvjeti su:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Na svakoj distribuiranoj kopiji morate vidljivo i primjereno istaknuti odgovarajuće upozorenje o autorskom pravu i obavijest o odsustvu jamstava i ostaviti netaknuta sva upozorenja koja se odnose na ovu Licencu i na odsustvo jamstava, a svakom drugom primatelju Programa dati kopiju licence <span>GNU General Public License</span> zajedno s Programom. Svakom prijevodu licence <span>GNU General Public License</span> mora biti priložena licenca <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Ako prerađujete kopiju ili kopije programa ili bilo kojeg njegovog dijela, ili razvijate program koji se zasniva na njemu, novonastalo djelo možete distribuirati pod uvjetom da ga distribuirate pod licencom <span>GNU General Public License</span>. Svakom prijevodu licence <span>GNU General Public License</span> mora biti priložena licenca <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Ako umnožavate ili distribuirate program, morate mu priložiti cjelokupni odgovarajući mašinski čitljiv izvorni kod ili pisanu ponudu, s rokom važenja od najmanje tri godine, da ćete dati na raspolaganje cjelokupni odgovarajući strojno čitljiv izvorni kod.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">Na svakoj distribuiranoj kopiji morate vidljivo i primjereno istaknuti odgovarajuće upozorenje o autorskom pravu i obavijest o odsustvu jamstava i ostaviti netaknuta sva upozorenja koja se odnose na ovu Licencu i na odsustvo jamstava, a svakom drugom primatelju Programa dati kopiju licence <span>GNU General Public License</span> zajedno s Programom. Svakom prijevodu licence <span>GNU General Public License</span> mora biti priložena licenca <span>GNU General Public License</span>.</li>
+
+     <li class="license sa">Ako prerađujete kopiju ili kopije programa ili bilo kojeg njegovog dijela, ili razvijate program koji se zasniva na njemu, novonastalo djelo možete distribuirati pod uvjetom da ga distribuirate pod licencom <span>GNU General Public License</span>. Svakom prijevodu licence <span>GNU General Public License</span> mora biti priložena licenca <span>GNU General Public License</span>.</li>
+
+     <li class="license src">Ako umnožavate ili distribuirate program, morate mu priložiti cjelokupni odgovarajući mašinski čitljiv izvorni kod ili pisanu ponudu, s rokom važenja od najmanje tri godine, da ćete dati na raspolaganje cjelokupni odgovarajući strojno čitljiv izvorni kod.</li>
+   </ul>
+     
+</div>
 
 <p>Od svakog od gornjih uvjeta moguće je odstupiti, ako dobijete dopuštenje nositelja autorskog prava.</p> 
-<p>Prethodno ni na koji način ne utječe na zakonska ograničenja autorskog prava i Vaša druga prava.</p> 
-<p />Ovo je svima čitljiv sažetak Pravnog teksta (pune <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU Opće javne licence</a>). Dostupan je i <a href="legalcode.pt">hrvatski prijevod</a>.
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Upozorenje</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>

@@ -310,6 +310,12 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-main-content">
           <div>
 
+        <div id="deed-rights" align="left" dir="">
+
+        
+
+<h3 rel="cc:permits"></h3>
+
 <p>Лиценцата <span>GNU General Public License</span> е <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> лиценца за Слободен софтвер. Како и секоја друга лиценца за слободен софтвер ви ги дава следните четири слободи:</p>
 			
 			<ol start="0">
@@ -318,33 +324,26 @@ setCookie('lang','%s', expiry, '/');
 				<li>Слобода да дистрибуирате копии за да му помогнете на соседот.</li>
 				<li>Слобода да ја подобрувате програмата и јавно да ги објавите подобрувањата, за целата заедница да има корист.</li>
 			</ol>
+</div>
+    
+<div id="deed-conditions">
+  <h3></h3>
+
 
    <p />Овие слободи можете да ги искористите само ако се придржувате до изричните услови наведени во оваа лиценца. Основните услови се:
    
-	        <div align="center"><table class="draft" width="500" cellpadding="4" cellspacing="0" border="0">
-		<tbody>    
-			<tr>
-				<td><img hspace="4" align="left" alt="!" src="/icons/nt/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">На секоја дистрибуирана копија морате јасно и соодветно да објавите предупредување за авторско право и забелешка за отсуство на гаранција и да ги оставите непроменети сите предупредувања кои се однесуваат на оваа лиценца и на отсуство на гаранција, а на секој корисник на програмата треба да му дадете копија од <span>GNU General Public License</span> заедно со програмата. Секој превод на <span>GNU General Public License</span> мора да биде проследен со <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sa" src="/icons/sa/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Ако ја модифицирате вашата копија и копии од програмата или некој нејзин дел, или развивате програма заснована врз неа, вие можете да го дистрибуирате делото што ќе го добиете под <span>GNU General Public License</span>. Секој превод на <span>GNU General Public License</span> мора да биде проследен со <span>GNU General Public License</span>.</div></td>
-			</tr>
-			<tr>
-				<td><img hspace="4" align="left" alt="sc" src="/icons/sc/deed.gif" border="0">
-				</td><td align="left"><div class="tiny">Ако ја копирате или дистрибуирате програмата мора да биде проследена со целосен соодветен машински-читлив изворен код или со писмена понуда, валидна најмалку три години, дека ќе ставите на располагање машински-читлив изворен код.</div></td>
-			</tr>
-		</tbody>
-		</table>
-		</div>
+
+   <ul align="left" dir=""> 
+     <li class="license notice">На секоја дистрибуирана копија морате јасно и соодветно да објавите предупредување за авторско право и забелешка за отсуство на гаранција и да ги оставите непроменети сите предупредувања кои се однесуваат на оваа лиценца и на отсуство на гаранција, а на секој корисник на програмата треба да му дадете копија од <span>GNU General Public License</span> заедно со програмата. Секој превод на <span>GNU General Public License</span> мора да биде проследен со <span>GNU General Public License</span>.</li>
+
+     <li class="license sa">Ако ја модифицирате вашата копија и копии од програмата или некој нејзин дел, или развивате програма заснована врз неа, вие можете да го дистрибуирате делото што ќе го добиете под <span>GNU General Public License</span>. Секој превод на <span>GNU General Public License</span> мора да биде проследен со <span>GNU General Public License</span>.</li>
+
+     <li class="license src">Ако ја копирате или дистрибуирате програмата мора да биде проследена со целосен соодветен машински-читлив изворен код или со писмена понуда, валидна најмалку три години, дека ќе ставите на располагање машински-читлив изворен код.</li>
+   </ul>
+     
+</div>
 
 <p>Секој од горенаведените услови може да биде поништен ако добиете дозвола од носителот на авторските права.</p> 
-<p>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</p> 
-<p />Ова е разбирливо резиме на Правниот код (<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">целосна ГНУ пшта јавна лиценца)</a>).
-
-
-<p><div align="center"><a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;">Напомена</a> <a href="/licenses/disclaimer-popup" onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0"></a></div></p> 
 
 </div>
        </div>
