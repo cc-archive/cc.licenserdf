@@ -37,7 +37,6 @@ def merge(input_files):
 def cli():
     """Primary command line interface for the merge tool."""
 
-
     # parser the command line options
     (options, input_files) = create_option_parser().parse_args()
 

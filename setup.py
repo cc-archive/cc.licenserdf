@@ -28,11 +28,13 @@ setup(
     # scripts and dependencies
     install_requires = ['setuptools',
                         'rdflib',
+                        'lxml==1.3.6',
                         ],
 
 
     entry_points = {'console_scripts' : 
-                    ['merge = tools.merge:cli'],
+                    ['merge = tools.merge:cli',
+                     'make_schema = tools.make_schema:cli'],
                     },
 
     # author metadata
