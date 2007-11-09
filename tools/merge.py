@@ -1,3 +1,4 @@
+import sys
 import os
 import optparse
 
@@ -11,7 +12,7 @@ def create_option_parser():
 
     # output options
     parser.add_option('-o', '--output-file', dest='output_file', 
-                      default='licenses/index.rdf',
+                      default='rdf/index.rdf',
                       help='Output file for merged RDF.')
 
     return parser
@@ -40,6 +41,11 @@ def cli():
     # parser the command line options
     (options, input_files) = create_option_parser().parse_args()
 
+    # make sure at least two input files were specified
+    if len(input_files) < 2:
+        print "You must specify at least two files to merge."
+        sys.exit(1)
+
     # determine the absolute output dir
     output_fn = os.path.abspath( os.path.join( 
             os.getcwd(), options.output_file)
@@ -47,7 +53,7 @@ def cli():
 
     output_file = open(output_fn,"w")
     output_file.write(
-        merge(input_files).serialize(format="pretty-xml")
+        merge(input_files).serialize(max_depth=1)
         )
     output_file.close()
 
