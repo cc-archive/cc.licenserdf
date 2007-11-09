@@ -4,6 +4,7 @@ import pkg_resources
 from StringIO import StringIO
 
 import lxml.etree
+from rdflib import URIRef
 from rdflib.Graph import ConjunctiveGraph as Graph
 from rdflib.syntax.serializers.PrettyXMLSerializer import PrettyXMLSerializer
 
@@ -24,6 +25,18 @@ def create_option_parser():
 
     return parser
 
+def remove_assertions(store):
+    """Remove assertions from the generated schema."""
+
+    for doc_license in store.objects(
+        URIRef("http://creativecommons.org/ns"),
+        URIRef("http://www.w3.org/1999/xhtmllicense")):
+
+        store.remove((URIRef("http://creativecommons.org/ns"),
+                      URIRef("http://www.w3.org/1999/xhtmllicense"),
+                      doc_license))
+
+                  
 def schemafy(html_file):
     """Extract RDF from RDFa-annotated [html_file]; return a L{Graph} 
     containing the RDF."""
@@ -49,6 +62,9 @@ def schemafy(html_file):
 
     # load it into a Graph
     store.load(StringIO(rdf_xml), "http://creativecommons.org/ns")
+
+    # remove undesirable assertions
+    remove_assertions(store)
 
     return store
 
