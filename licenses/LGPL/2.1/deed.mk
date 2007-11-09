@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Ова е читливо резиме на <a href="legalcode" class="fulltext"> Правниот код (целосната лиценца).
+    
+      Ова е читливо резиме на Правниот код <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">(целосната пократка ГНУ општа јавна лиценца)
+    
+
+    
+
+    
  </p>
 
          

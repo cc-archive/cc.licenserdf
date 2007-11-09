@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Hau gizakiek irakurtzeko erako laburpen bat da <a href="legalcode" class="fulltext"> lege balioko testua (baimen osoa)</a>.
+    
+      Laburpen hau Lege Kodearen (<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNUren Baimen Publiko Orokor Txiki</a> osoaren) aldaera ulergarria da. Baita ere, <a href="legalcode.pt">portugesez</a> itzulita eskura daiteke.
+    
+
+    
+
+    
  </p>
 
          

@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Dit is 'n maklik leesbare opsomming hierdie van die <a href="legalcode" class="fulltext">Regskode (die volledige lisensie)</a>.
+    
+      Dit is 'n maklik verstaanbare samevatting van die Regskode hierdie (die volledige <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). 'n <a href="legalcode.pt">Portugese vertaling</a> is ook beskikbaar.
+    
+
+    
+
+    
  </p>
 
          

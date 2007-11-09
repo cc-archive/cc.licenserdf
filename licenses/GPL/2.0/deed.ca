@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Això és un resum fàcilment llegible del  <a href="legalcode" class="fulltext">text legal (la llicència completa)</a>.
+    
+
+    
+      Això és un resum fàcilment llegible del Codi Legal (la <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"> Llicència Pública General de GNU</a> completa). També hi ha disponible <a href="legalcode.pt">una traducció al portuguès</a>.
+    
+
+    
  </p>
 
          

@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
+    
+      This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is also available.
+    
+
+    
+
+    
  </p>
 
          

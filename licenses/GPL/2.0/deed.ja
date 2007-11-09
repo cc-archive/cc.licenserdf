@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    これは一般の方に読みやすいようにした<a href="legalcode" class="fulltext">利用許諾条項</a>の要約です。
+    
+
+    
+      これは一般の方にも理解できる，法的文書の要約です（GNU 一般公衆利用許諾契約書の全文は<a href="http://www.gnu.org/licenses/gpl.ja.html">こちら</a>）<a href="legalcode.pt">ポルトガル語訳</a>も用意してあります．
+    
+
+    
  </p>
 
          

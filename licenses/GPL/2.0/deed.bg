@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Това е опростено резюме на <a href="legalcode" class="fulltext">Договора</a>.
+    
+
+    
+      Това е съкратена справка за Договора (Пълен текст на <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). Превод на <a href="legalcode.pt">португалски език</a> също е достъпен.
+    
+
+    
  </p>
 
          

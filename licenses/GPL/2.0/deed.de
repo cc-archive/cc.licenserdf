@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Die Commons Deed ist eine Zusammenfassung des <a href="legalcode" class="fulltext">Lizenzvertrags</a> in allgemeinverständlicher Sprache.
+    
+
+    
+      Dies ist eine Übersicht in allgemeinverständlicher Sprache über den zugrundeliegenden juristischen Text. (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). Eine Übersetzung in Portugiesisch finden Sie <a href="legalcode.pt">hier</a>.
+    
+
+    
  </p>
 
          

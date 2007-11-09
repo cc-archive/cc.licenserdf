@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Detta är en lättläst sammanfattning av <a href="legalcode" class="fulltext">licenstexten</a>.
+    
+      Detta är en lättläst sammanfattning av Licensen (<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). En översättning på <a href="legalcode.pt">Portugisiska</a> finns tillgänglig.
+    
+
+    
+
+    
  </p>
 
          

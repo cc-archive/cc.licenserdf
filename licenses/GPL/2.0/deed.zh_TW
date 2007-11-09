@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    這是一份讓一般人易於了解的<a href="legalcode" class="fulltext">法律條款（完整的授權條款）</a>摘要。
+    
+
+    
+      這是讓一般人易於了解的法律條款（完整的 <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU 通用公共授權條款</a>）摘要。也有<a href="legalcode.pt">葡萄牙語的譯本</a>。
+    
+
+    
  </p>
 
          

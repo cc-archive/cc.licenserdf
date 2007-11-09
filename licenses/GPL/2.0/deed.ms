@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Ini adalah satu mudah-dibaca ringkasan <a href="legalcode" class="fulltext"> Kod Undang-undang (lesen sepenuhnya)</a>.
+    
+
+    
+      Ini adalah ringkasan Kod Undang-undang yang mudah dibaca (<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU Lesen Awam Am</a> yang sepenuhnya). Satu <a href="legalcode.pt">penterjemahan dalam Bahasa Portuguese</a> juga disediakan.
+    
+
+    
  </p>
 
          

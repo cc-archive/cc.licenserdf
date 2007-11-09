@@ -371,7 +371,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    זהו סיכום קריא של <a href="legalcode" class="fulltext">המסמך המשפטי (הרישיון המלא)</a>.
+    
+      This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is also available.
+    
+
+    
+
+    
  </p>
 
          

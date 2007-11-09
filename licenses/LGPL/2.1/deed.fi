@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Tämä on tiivistelmä <a href="legalcode" class="fulltext">(täydellisestä)juridisesta lisenssistä</a>.
+    
+      Tämä on yksinkertainen tiivistelmä lisenssistä (täysi <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>).
+    
+
+    
+
+    
  </p>
 
          

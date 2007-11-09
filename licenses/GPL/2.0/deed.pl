@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Ten tekst to przystępne podsumowanie <a href="legalcode" class="fulltext">Tekstu prawnego (pełna licencja)</a>.
+    
+
+    
+      Ten tekst to przystępne podsumowanie Tekstu prawnego (całość <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). <a href="legalcode.pt">Portugalskie  tłumaczenie</a> jest także dostępne.
+    
+
+    
  </p>
 
          

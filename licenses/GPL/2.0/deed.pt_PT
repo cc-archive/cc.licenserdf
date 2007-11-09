@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Este é um sumário para leigos da <a href="legalcode" class="fulltext">Licença Jurídica (na íntegra)</a>.
+    
+
+    
+      Este é um sumário explicativo, de compreensão mais fácil, <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">da parte Jurídica</a> (a licença completa). Tradução: <a href="legalcode.pt">Português</a>
+    
+
+    
  </p>
 
          

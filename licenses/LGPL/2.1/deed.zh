@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    这是一份普通人可以理解的<a href="legalcode" class="fulltext">法律文本（许可协议全文）</a>的概要。
+    
+      这是一份普通人可以理解的法律文本（即<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU LGPL</a>全文）。您还可以看到<a href="legalcode.pt">葡萄牙语的译文</a>。
+    
+
+    
+
+    
  </p>
 
          

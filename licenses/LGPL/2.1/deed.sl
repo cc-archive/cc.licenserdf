@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    To je uporabniku berljiv povzetek <a href="legalcode" class="fulltext">celotnega pravnega besedila (celotne licence)</a>.
+    
+      To je uporabniku berljiv povzetek celotnega pravnega besedila (celotne <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). Na voljo je tudi <a href="legalcode.pt">portugalski prevod</a>.
+    
+
+    
+
+    
  </p>
 
          

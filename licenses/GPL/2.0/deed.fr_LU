@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Ceci est le Résumé Explicatif du <a href="./legalcode" class="fulltext">Code Juridique (la version intégrale du contrat)</a>.
+    
+
+    
+      This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is also available.
+    
+
+    
  </p>
 
          

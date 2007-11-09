@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Dette er et menneske-læsbart sammendrag af <a href="legalcode" class="fulltext">Legal Code (den fuldstændige licens)</a>.
+    
+
+    
+      Dette er et menneske-læsbart sammendrag af den Juridiske Tekst (den fuldstændige <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). En <a href="legalcode.pt">Portugisisk oversættelse</a> er også tilgængelig.
+    
+
+    
  </p>
 
          

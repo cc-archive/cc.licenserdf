@@ -369,7 +369,13 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Dit is de vereenvoudigde (human-readable) versie van de <a href="legalcode" class="fulltext">volledige licentie</a>.
+    
+      Dit is een vereenvoudigde (human-readable) versie van de Juridische overeenkomst (de volledige <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). Er is tevens een <a href="legalcode.pt">Portugese vertaling</a> beschikbaar.
+    
+
+    
+
+    
  </p>
 
          
