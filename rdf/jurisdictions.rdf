@@ -1481,12 +1481,6 @@
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ph/"/>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/-/">
-    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:defaultLanguage>en</cc:defaultLanguage>
-    <dc:language>en</dc:language>
-    <cc:jurisdictionSite rdf:resource="http://creativecommons.org"/>
-  </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ng/">
     <dc:title xml:lang="fr-ca">Nigeria</dc:title>
     <dc:title xml:lang="it">Nigeria</dc:title>
