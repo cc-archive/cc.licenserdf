@@ -397,6 +397,10 @@ Priznanje avtorstva-Nekomercialno 3.0 New Zealand
 
     
 
+    
+
+    
+
     To je uporabniku berljiv povzetek <a href="legalcode" class="fulltext">celotnega pravnega besedila (celotne licence)</a>.
  </p>
 

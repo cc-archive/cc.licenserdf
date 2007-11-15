@@ -406,6 +406,10 @@ Paternité-Pas d'Utilisation Commerciale-Partage des Conditions Initiales à l'I
 
     
 
+    
+
+    
+
     Ceci est le Résumé Explicatif du <a href="./legalcode" class="fulltext">Code Juridique (la version intégrale du contrat)</a>.
  </p>
 

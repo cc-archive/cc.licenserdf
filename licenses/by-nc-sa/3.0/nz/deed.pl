@@ -407,6 +407,10 @@ Licencjodawcę</span>
 
     
 
+    
+
+    
+
     Ten tekst to przystępne podsumowanie <a href="legalcode" class="fulltext">Tekstu prawnego (pełna licencja)</a>.
  </p>
 

@@ -397,6 +397,10 @@ Erkännande-Dela Lika 3.0 New Zealand
 
     
 
+    
+
+    
+
     Detta är en lättläst sammanfattning av <a href="legalcode" class="fulltext">licenstexten</a>.
  </p>
 
