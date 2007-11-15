@@ -402,6 +402,10 @@ rechten van de auteur, of deze te beperken.</li>
 
     
 
+    
+
+    
+
     Dit is de vereenvoudigde (human-readable) versie van de <a href="legalcode" class="fulltext">volledige licentie</a>.
  </p>
 

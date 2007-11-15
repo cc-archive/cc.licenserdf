@@ -406,6 +406,10 @@ setCookie('lang','%s', expiry, '/');
 
     
 
+    
+
+    
+
     Ова е читливо резиме на <a href="legalcode" class="fulltext"> Правниот код (целосната лиценца).
  </p>
 
