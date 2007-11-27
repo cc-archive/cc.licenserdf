@@ -396,6 +396,10 @@ Attribution-Share Alike 2.5 UK: Scotland
 
     
 
+    
+
+    
+
     This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
  </p>
 

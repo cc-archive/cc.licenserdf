@@ -345,9 +345,9 @@ Noncommercial 1.0 Finland
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-eu">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>E sego ya kgwebo</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>O ka se diriše mošomo wo bakeng sa merero ya kgwebo.</span>
               <span id="nc-eu-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -385,6 +385,10 @@ Noncommercial 1.0 Finland
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 

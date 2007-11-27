@@ -387,6 +387,10 @@ The Product licensed under Creative Commons License is provided by the person wh
 
     
 
+    
+
+    
+
     This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
  </p>
 

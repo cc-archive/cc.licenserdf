@@ -406,6 +406,10 @@ Attribution-Noncommercial-Share Alike 2.5 India
 
     
 
+    
+
+    
+
     This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
  </p>
 

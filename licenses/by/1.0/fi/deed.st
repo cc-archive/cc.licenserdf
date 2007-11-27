@@ -388,6 +388,10 @@ Attribution 1.0 Finland
 
     
 
+    
+
+    
+
     This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
  </p>
 

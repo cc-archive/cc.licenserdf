@@ -346,17 +346,17 @@ Noncommercial-Share Alike 2.0 Japan
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>E sego ya kgwebo</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>O ka se diriše mošomo wo bakeng sa merero ya kgwebo.</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Mohlakanelwa</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>Ge eba o lokiša, fetoša, goba go aga godimo ga mošomo wo, o ka aba mošomo wo o tla bego o dirilwe ka tlase ga laesense e swanago le yona ye.</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -400,6 +400,10 @@ Setšweletšwa seo se tsentšhitšwego laesense ka tlase ga Laesense ya Creative
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 

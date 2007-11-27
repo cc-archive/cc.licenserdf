@@ -344,9 +344,9 @@ Noncommercial 1.0 Generic
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Awunakusetshenziselwa ezentengiselwano</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Lo msebenzi ngeke uwusebenzisele izinjongo zezentengiselwano.</span>
               <span id="nc-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -384,6 +384,10 @@ Noncommercial 1.0 Generic
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 
