@@ -346,9 +346,9 @@ NonCommercial Sampling Plus 1.0
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>Awunakusetshenziselwa ezentengiselwano</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>Lo msebenzi ngeke uwusebenzisele izinjongo zezentengiselwano.</span>
               <span id="nc-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -386,6 +386,10 @@ NonCommercial Sampling Plus 1.0
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 

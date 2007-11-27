@@ -344,23 +344,23 @@ Attribution-Noncommercial-No Derivative Works 2.5 Netherlands
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Tsebagatšo</strong>. 
+              <span id="attribution-container">O swanetše go tsebagatša mošomo ka mokgwa wo o bontšhitšwego ke mongwadi goba mong wa laesense (eupša e sego ka tsela le ge ele efe yeo e šišinyago gore ba dumelela wena goba tirišo ya gago ya mošomo).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-eu">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>E sego ya kgwebo</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>O ka se diriše mošomo wo bakeng sa merero ya kgwebo.</span>
               <span id="nc-eu-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Ga go na Mešomo e Ntšhitšwego</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>O ka seke wa lokiša, fetoša goba go aga godimo ga mošomo wo.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -400,6 +400,10 @@ Attribution-Noncommercial-No Derivative Works 2.5 Netherlands
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 

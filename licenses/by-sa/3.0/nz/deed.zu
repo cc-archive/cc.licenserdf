@@ -346,15 +346,15 @@ Attribution-Share Alike 3.0 New Zealand
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Qaphela Umnikazi</strong>. 
+              <span id="attribution-container">Kumelwe uqaphele lo msebenzi ngendlela eshiwo umsunguli wawo noma umnikezi welayisensi (kodwa hhayi nganoma iyiphi indlela esikisela ukuthi bayakuvumela wena noma ukusebenzisa kwakho umsebenzi).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Zihlanganyeleni</strong>. 
               
               <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same, similar or a compatible license.</span>
               <span id="sa-more-container" /></p>

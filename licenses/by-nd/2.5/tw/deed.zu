@@ -343,15 +343,15 @@ Attribution-No Derivative Works 2.5 Taiwan
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>Qaphela Umnikazi</strong>. 
+              <span id="attribution-container">Kumelwe uqaphele lo msebenzi ngendlela eshiwo umsunguli wawo noma umnikezi welayisensi (kodwa hhayi nganoma iyiphi indlela esikisela ukuthi bayakuvumela wena noma ukusebenzisa kwakho umsebenzi).</span>
               
               <span id="by-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>Akukho Msebenzi Ozosuselwa kulo</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>Ngeke ushintshe, uguqule, noma wakhele kulo msebenzi.</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -389,6 +389,10 @@ Attribution-No Derivative Works 2.5 Taiwan
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 

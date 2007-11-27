@@ -396,6 +396,10 @@ Noncommercial-Share Alike 1.0 Generic
 
     
 
+    
+
+    
+
     This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
  </p>
 
