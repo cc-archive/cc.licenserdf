@@ -1,5 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:cc="http://creativecommons.org/ns#">
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons 
     No Derivative Works 1.0 Generic
@@ -309,7 +310,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2>
+	        <h2 rel="dc:title">
 No Derivative Works 1.0 Generic
 
 </h2>
@@ -339,9 +340,9 @@ No Derivative Works 1.0 Generic
 		      <h3>[[cc_org][deed.under_conditions ()]]</h3>
 	        <ul align="left" dir=""> 
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>[[cc_org][char.nd_title]]</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>[[cc_org][char.nd_brief]]</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -385,6 +386,10 @@ Nothing in this license impairs or restricts the author's moral rights.
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 

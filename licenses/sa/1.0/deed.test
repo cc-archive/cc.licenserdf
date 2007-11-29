@@ -1,5 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:cc="http://creativecommons.org/ns#">
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons 
     Share Alike 1.0 Generic
@@ -311,7 +312,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2>
+	        <h2 rel="dc:title">
 Share Alike 1.0 Generic
 
 </h2>
@@ -344,9 +345,9 @@ Share Alike 1.0 Generic
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>[[cc_org][char.sa_title]]</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>[[cc_org][char.sa_brief]]</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -390,6 +391,10 @@ Nothing in this license impairs or restricts the author's moral rights.
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 

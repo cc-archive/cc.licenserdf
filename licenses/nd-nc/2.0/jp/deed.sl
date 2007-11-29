@@ -1,5 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:cc="http://creativecommons.org/ns#">
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons 
     Noncommercial-No Derivative Works 2.0 Japan
@@ -310,7 +311,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2>
+	        <h2 rel="dc:title">
 Nekomercialno-Brez predelav 2.0 Japonska
 
 </h2>
@@ -393,6 +394,10 @@ Izdelke, licencirane s Creative Commons licencami, ponuja oseba, ki je uporabila
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 

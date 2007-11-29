@@ -1,5 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:cc="http://creativecommons.org/ns#">
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons 
     Attribution-Noncommercial-No Derivative Works 2.1 Spain
@@ -311,7 +312,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2>
+	        <h2 rel="dc:title">
 Erkännande-Ickekommersiell-Inga bearbetningar 2.1 Spanien
 
 </h2>
@@ -416,6 +417,9 @@ Erkännande-Ickekommersiell-Inga bearbetningar 2.1 Spanien
      
 
      
+    
+
+    
 
     
 

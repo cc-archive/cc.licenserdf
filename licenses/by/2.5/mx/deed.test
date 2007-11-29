@@ -1,5 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:cc="http://creativecommons.org/ns#">
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons 
     Attribution 2.5 Mexico
@@ -311,7 +312,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2>
+	        <h2 rel="dc:title">
 Attribution 2.5 Mexico
 
 </h2>
@@ -345,8 +346,8 @@ Attribution 2.5 Mexico
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	            <p><strong>[[cc_org][char.by_title]]</strong>. 
+              <span id="attribution-container">[[cc_org][char.by_brief]]</span>
               
               <span id="by-more-container" /></p>
             </li>
@@ -391,6 +392,10 @@ Nothing in this license impairs or restricts the author's moral rights.
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 
