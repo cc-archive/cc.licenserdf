@@ -1,5 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:cc="http://creativecommons.org/ns#">
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons 
     Noncommercial 2.0 Japan
@@ -311,7 +312,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2>
+	        <h2 rel="dc:title">
 Noncommercial 2.0 Japan
 
 </h2>
@@ -345,9 +346,9 @@ Noncommercial 2.0 Japan
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>[[cc_org][char.nc_title]]</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>[[cc_org][char.nc_brief]]</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
@@ -385,6 +386,10 @@ Nothing in this license impairs or restricts the author's moral rights.
 	</p>
 
 	<p align="center">
+
+    
+
+    
 
     
 
