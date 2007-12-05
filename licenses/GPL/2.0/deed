@@ -303,7 +303,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 rel="dc:title">GNU General Public License, <a href="http://www.gnu.org/">Free Software Foundation</a></h2>
+	        <h2 property="dc:title">GNU General Public License, <a href="http://www.gnu.org/">Free Software Foundation</a></h2>
         </div>
       </div>
 
