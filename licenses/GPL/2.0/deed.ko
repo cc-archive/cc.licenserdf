@@ -56,7 +56,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">이 페이지는 다음과 같은 언어로 이용할 수 있습니다.</span>
+<span align="left" dir="">This page is available in the following languages:</span>
 <br />
 
 
@@ -303,7 +303,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 rel="dc:title">GNU General Public License, <a href="http://www.gnu.org/">Free Software Foundation</a></h2>
+	        <h2 property="dc:title">GNU General Public License, <a href="http://www.gnu.org/">Free Software Foundation</a></h2>
         </div>
       </div>
 

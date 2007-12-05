@@ -65,7 +65,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">Denna sida finns tillgänglig på följande språk:</span>
+<span align="left" dir="">This page is available in the following languages:</span>
 <br />
 
 
@@ -312,7 +312,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 rel="dc:title">
+	        <h2 property="dc:title">
 Erkännande-Ickekommersiell-Inga bearbetningar 2.0 Generisk
 
 </h2>
