@@ -314,10 +314,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">
-저작자표시-비영리-동일조건변경허락 1.0 일반
-
-</h2>
+	        <h2 property="dc:title">저작자표시-비영리-동일조건변경허락 1.0 일반</h2>
         </div>
       </div>
 

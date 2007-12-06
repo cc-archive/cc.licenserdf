@@ -313,10 +313,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">
-Naamsvermelding-Niet-commercieel 2.5 Unported
-
-</h2>
+	        <h2 property="dc:title">Naamsvermelding-Niet-commercieel 2.5 Unported</h2>
         </div>
       </div>
 

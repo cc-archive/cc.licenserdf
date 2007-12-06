@@ -66,7 +66,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">이 페이지는 다음과 같은 언어로 이용할 수 있습니다.</span>
+<span align="left" dir="">This page is available in the following languages:</span>
 <br />
 
 
@@ -313,10 +313,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 rel="dc:title">
-저작자표시-동일조건변경허락 2.5 Taiwan
-
-</h2>
+	        <h2 property="dc:title">저작자표시-동일조건변경허락 2.5 Taiwan</h2>
         </div>
       </div>
 

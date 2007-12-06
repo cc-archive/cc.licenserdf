@@ -64,7 +64,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">Ta stran je dosegljiva v naslednjih jezikih:</span>
+<span align="left" dir="">This page is available in the following languages:</span>
 <br />
 
 
@@ -311,10 +311,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 rel="dc:title">
-Priznanje avtorstva-Brez predelav 2.0 Francija
-
-</h2>
+	        <h2 property="dc:title">Priznanje avtorstva-Brez predelav 2.0 Francija</h2>
         </div>
       </div>
 
