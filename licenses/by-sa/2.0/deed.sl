@@ -313,10 +313,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">
-Priznanje avtorstva-Deljenje pod enakimi pogoji 2.0 Generično
-
-</h2>
+	        <h2 property="dc:title">Priznanje avtorstva-Deljenje pod enakimi pogoji 2.0 Generično</h2>
         </div>
       </div>
 
