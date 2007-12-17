@@ -71,7 +71,7 @@ def makeOpts():
 def info(opts, args):
     """Print information for the jurisdiction."""
 
-    j_graph = load_graphs(opts.rdf_file)
+    j_graph = load_graph(opts.rdf_file)
     if args[0][-1] != '/':
         args[0] += '/'
     j_ref = NS_CC_JURISDICTION[args[0]]
@@ -91,7 +91,7 @@ def launch(opts, args):
     """Mark the jurisdiction as launched."""
 
     # load the RDF graph
-    j_graph = load_graphs(opts.rdf_file)
+    j_graph = load_graph(opts.rdf_file)
     if args[0][-1] != '/':
         args[0] += '/'
     j_ref = NS_CC_JURISDICTION[args[0]]
