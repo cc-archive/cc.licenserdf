@@ -35,7 +35,8 @@ setup(
     entry_points = {'console_scripts' : 
                     ['merge = tools.merge:cli',
                      'make_schema = tools.make_schema:cli',
-                     'license = tools.license:cli',
+                     'add_license = tools.license:add_cli',
+                     'add_all = tools.license:add_all_cli',
                      'jurisdiction = tools.jurisdiction:cli',
                      ],
                     },
