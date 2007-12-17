@@ -53,6 +53,23 @@ def get_add_option_parser():
     
     return parser
 
+
+def get_addall_option_parser():
+
+    parser = get_add_option_parser()
+    parser.set_usage("usage: %prog [options]")
+
+    parser.add_option( '--jc', '--jurisdiction-code', dest='jurisdiction_code',
+                       help='Short code of the jurisdiction to add.')
+    parser.add_option( '-c', '--codes', dest='codes',
+                       help='License codes to add, comma delimited '
+                       '(defaults to primary six)',
+                       )
+
+    parser.set_defaults(codes="by-nc,by,by-nc-nd,by-nc-sa,by-sa,by-nd")
+
+    return parser
+
 # * 
 # *******************************************************************
 
@@ -123,7 +140,18 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
 def add_all_cli():
     """Run add for the core six licenses."""
 
-    raise NotImplementedError()
+    parser = get_addall_option_parser()
+    opts, args = parser.parse_args()
+
+    for code in opts.codes.split(','):
+        base_url = "http://creativecommons.org/licenses/%s/%s/" % (code, 
+                                                                   opts.version)
+
+        license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
+
+        add_license(license_url, base_url, opts.version, opts.jurisdiction,
+                    None, opts.rdf_dir)
+
 
 def add_cli():
     """Run the add_license tool."""
