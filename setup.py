@@ -34,7 +34,9 @@ setup(
 
     entry_points = {'console_scripts' : 
                     ['merge = tools.merge:cli',
-                     'make_schema = tools.make_schema:cli'],
+                     'make_schema = tools.make_schema:cli',
+                     'license = tools.make_license:cli',
+                     ],
                     },
 
     # author metadata
