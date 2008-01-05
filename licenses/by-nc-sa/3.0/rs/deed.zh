@@ -410,12 +410,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     这是一份普通人可以理解的法律文本（许可协议全文）的概要，该概要有下述几种语言版本：
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">塞尔维亚语</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    这是一份普通人可以理解的<a href="legalcode" class="fulltext">法律文本（许可协议全文）</a>的概要。
+    
+
+    
  </p>
 
          

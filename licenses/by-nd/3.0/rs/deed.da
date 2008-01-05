@@ -396,12 +396,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Dette er et menneske-læsbart sammendrag af den Juridiske Tekst (den fuldstændige licens), som er tilgængelig på følgende sprog:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Dette er et menneske-læsbart sammendrag af <a href="legalcode" class="fulltext">Legal Code (den fuldstændige licens)</a>.
+    
+
+    
  </p>
 
          

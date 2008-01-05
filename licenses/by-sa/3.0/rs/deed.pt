@@ -401,12 +401,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Este é um sumário explicativo, de compreensão mais fácil, da parte Jurídica (a licença completa) disponível nos seguintes idiomas:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Este é um sumário para leigos da <a href="legalcode" class="fulltext">Licença Jurídica (na íntegra)</a>.
+    
+
+    
  </p>
 
          

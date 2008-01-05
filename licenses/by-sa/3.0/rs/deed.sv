@@ -401,12 +401,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Detta är en lättläst sammanfattning av licenstexten som finns tillgänglig på följande språk:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">serbiska</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Detta är en lättläst sammanfattning av <a href="legalcode" class="fulltext">licenstexten</a>.
+    
+
+    
  </p>
 
          

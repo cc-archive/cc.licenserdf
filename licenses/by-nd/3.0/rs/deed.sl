@@ -396,12 +396,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     To je uporabniku berljiv povzetek celotnega pravnega besedila (celotne licence). Na voljo je v naslednjih jezikih:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    To je uporabniku berljiv povzetek <a href="legalcode" class="fulltext">celotnega pravnega besedila (celotne licence)</a>.
+    
+
+    
  </p>
 
          

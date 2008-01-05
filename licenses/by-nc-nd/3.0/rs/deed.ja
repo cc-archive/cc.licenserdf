@@ -405,12 +405,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     これは平易な言葉に翻訳された法的文書（ライセンス）です．次の言語で用意されています：
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    これは一般の方に読みやすいようにした<a href="legalcode" class="fulltext">利用許諾条項</a>の要約です。
+    
+
+    
  </p>
 
          

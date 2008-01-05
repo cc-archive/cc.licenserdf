@@ -405,12 +405,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Este es un resumen legible-por-humanos del Código Legal (la licencia completa) disponible en los siguientes lenguajes:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Este es un resumen legible-por-humanos del <a href="legalcode" class="fulltext">Código Legal (la licencia completa)</a>.
+    
+
+    
  </p>
 
          

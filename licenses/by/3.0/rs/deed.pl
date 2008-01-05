@@ -393,12 +393,28 @@ Licencjodawcę</span>
 	<p align="center">
 
     
+     Ten tekst to przystępne podsumowanie Tekstu prawnego (pełna licencja) dostępne w następujących językach:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Ten tekst to przystępne podsumowanie <a href="legalcode" class="fulltext">Tekstu prawnego (pełna licencja)</a>.
+    
+
+    
  </p>
 
          

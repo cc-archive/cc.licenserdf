@@ -401,12 +401,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Ceci est le Résumé Explicatif du Code Juridique (la version intégrale du contrat) disponible dans les langues suivantes :
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">serbe</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Ceci est le Résumé Explicatif du <a href="./legalcode" class="fulltext">Code Juridique (la version intégrale du contrat)</a>.
+    
+
+    
  </p>
 
          

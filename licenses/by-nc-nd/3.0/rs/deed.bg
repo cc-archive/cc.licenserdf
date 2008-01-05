@@ -405,12 +405,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Това е опростено резюме на Договора, достъпно на следните езици:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">сръбски</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Това е опростено резюме на <a href="legalcode" class="fulltext">Договора</a>.
+    
+
+    
  </p>
 
          

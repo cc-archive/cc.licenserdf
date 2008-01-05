@@ -405,12 +405,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Hau gizakiek irakurtzeko erako laburpen bat da; lege balioko testua (baimen osoa) hizkuntza hauetan dago:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbiera</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Hau gizakiek irakurtzeko erako laburpen bat da <a href="legalcode" class="fulltext"> lege balioko testua (baimen osoa)</a>.
+    
+
+    
  </p>
 
          

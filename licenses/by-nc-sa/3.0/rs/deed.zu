@@ -410,12 +410,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Loku ukufingqwa okungafundwa umuntu kweKhodi Yomthetho (ilayisensi ephelele) etholakala ngalezi zilimi ezilandelayo:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Loku ukufingqwa okungafundwa umuntu <a href="legalcode" class="fulltext">kweKhodi Yomthetho (ilayisensi ephelele)</a>.
+    
+
+    
  </p>
 
          

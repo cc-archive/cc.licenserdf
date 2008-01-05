@@ -405,12 +405,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Isto é un resumo lexible por humanos do texto legal (licenza completa) dispoñible nos seguintes idiomas:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Isto é un resumo facilmente lexible do <a href="legalcode" class="fulltext">texto legal (licenza completa)</a>.
+    
+
+    
  </p>
 
          
