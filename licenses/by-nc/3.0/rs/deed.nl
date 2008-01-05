@@ -402,12 +402,28 @@ rechten van de auteur, of deze te beperken.</li>
 	<p align="center">
 
     
+     Dit is de vereenvoudigde versie van de Juridische Tekst (de volledige licentie), beschikbaar in de volgende talen:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Servisch</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Dit is de vereenvoudigde (human-readable) versie van de <a href="legalcode" class="fulltext">volledige licentie</a>.
+    
+
+    
  </p>
 
          

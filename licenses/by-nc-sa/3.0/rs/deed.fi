@@ -410,12 +410,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Tämä on ihmisten-luettavissa oleva tiivistelmä juridisesta lisenssistä. Se on saatavilla seuraavilla kielillä:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbialainen</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Tämä on tiivistelmä <a href="legalcode" class="fulltext">(täydellisestä)juridisesta lisenssistä</a>.
+    
+
+    
  </p>
 
          

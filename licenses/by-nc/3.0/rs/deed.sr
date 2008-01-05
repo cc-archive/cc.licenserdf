@@ -401,12 +401,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Ово је основни опис Лиценце (садржаја уговора у целини) на два писма: ћирилица latinica 
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">српски</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Oво је основни опис <a href="legalcode" class="fulltext">Лиценце (садржаја уговора у целини)</a>.
+    
+
+    
  </p>
 
          

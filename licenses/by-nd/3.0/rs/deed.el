@@ -396,12 +396,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     This is a human-readable summary of the Legal Code (the full license) available in the following languages:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
+    
+
+    
  </p>
 
          

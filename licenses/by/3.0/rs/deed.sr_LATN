@@ -392,12 +392,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Ovo je osnovni opis Licence (sadržaja ugovora u celini) na dva pisma: ћирилица latinica
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">srpski</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Ovo je osnovni opis <a href="legalcode" class="fulltext">Licence (sadržaja ugovora u celini)</a>.
+    
+
+    
  </p>
 
          

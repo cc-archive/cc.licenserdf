@@ -401,12 +401,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Ова е читливо резиме на Правниот код (целосната лиценца) достапно на следните јазици:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">српски</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Ова е читливо резиме на <a href="legalcode" class="fulltext"> Правниот код (целосната лиценца).
+    
+
+    
  </p>
 
          

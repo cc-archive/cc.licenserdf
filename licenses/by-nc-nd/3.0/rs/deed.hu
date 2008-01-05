@@ -405,12 +405,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Ez a Jogi változat (teljes licenc) szövegének közérthető nyelven megfogalmazott kivonata, amely a következő nyelvekre van lefordítva:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Ez a <a href="legalcode" class="fulltext">Legal Code (Jogi változat, vagyis a teljes licenc)</a> szövegének közérthető nyelven megfogalmazott kivonata.
+    
+
+    
  </p>
 
          

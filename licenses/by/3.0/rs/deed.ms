@@ -392,12 +392,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     Ini adalah satu mudah dibaca ringkasan Kod Undang-undang (lesen sepenuhnya) yang tersedia didalam bahasa-bahasa yang berikut:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    Ini adalah satu mudah-dibaca ringkasan <a href="legalcode" class="fulltext"> Kod Undang-undang (lesen sepenuhnya)</a>.
+    
+
+    
  </p>
 
          

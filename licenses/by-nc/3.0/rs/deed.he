@@ -403,12 +403,28 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
+     זהו סיכום קריא של המסמך המשפטי (הרישיון המלא) הזמין בשפות הבאות:
+       <br />
 
+     
+
+     
+
+     
+
+     
+         <a href="legalcode.sr-Cyrl">סרבית</a> 
+         <a href="legalcode.sr-Latn">Serbian (Latin)</a>
+     
+
+     
     
 
     
 
-    זהו סיכום קריא של <a href="legalcode" class="fulltext">המסמך המשפטי (הרישיון המלא)</a>.
+    
+
+    
  </p>
 
          
