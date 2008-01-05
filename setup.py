@@ -29,6 +29,7 @@ setup(
     install_requires = ['setuptools',
                         'rdflib',
                         'lxml==1.3.6',
+                        'Babel',
                         ],
 
 

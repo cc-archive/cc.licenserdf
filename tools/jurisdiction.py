@@ -14,6 +14,7 @@ licensed to the public under the GNU GPL version 2.
 import sys
 import os
 from optparse import OptionParser
+from babel.messages import pofile
 
 from support import *
 
@@ -28,13 +29,21 @@ UPDATE = 'update'
 def makeOpts():
     """Define an option parser and return it."""
     
-    usage = "usage: %prog <action> <jurisdiction> [options]"
+    usage = """usage: %prog <action> <jurisdiction> [options]
+
+Jurisdictions are specified by their short letter codes (ie, us).
+
+--launch, --info, --add are mutually exclusive.
+"""
     parser = OptionParser(usage)
 
     # source options
     parser.add_option( '-f', '--file', dest='rdf_file', action='store',
                        help='Location of the jurisdictions RDF file; '
                        'defaults to ./rdf/jurisdictions.rdf')
+    parser.add_option( '-i', '--i18n-dir', dest='i18n_dir', action='store',
+                       help='Location containing .po files; defaults to '
+                       './i18n/')
 
     # jurisdiction actions
     parser.add_option( '--info', dest='action',
@@ -58,9 +67,10 @@ def makeOpts():
     parser.add_option( '--uri', dest='juris_uri',
                        help="The URI of the jurisdiction specific web page.",
                        )
-    parser.set_defaults(licenses="by-nc,by,by-nc-nd,by-nc-sa,by-sa,by-nd",
-                        action=INFO,
+    parser.set_defaults(action=INFO,
                         langs=[],
+                        juris_uri=None,
+                        i18n_dir='./i18n',
                         rdf_file='./rdf/jurisdictions.rdf')
     
     return parser
@@ -112,10 +122,64 @@ def launch(opts, args):
     # save the graph
     save_graph(j_graph, opts.rdf_file)
 
-def add(opts, argdict):
+def _set_translations(opts, graph, subject, j_code):
+    """Replace dc:title assertions for a given jurisdiction with updated
+    translations."""
+
+    str_id = 'country.%s' % j_code
+
+    for root, dirnames, files in os.walk(os.path.abspath(opts.i18n_dir), 
+                                     topdown=True):
+
+        for dir in dirnames:
+
+            if dir in ('test', 'templates',):
+                # ignore fake translations
+                continue
+
+            # load the message catalog
+            if not os.path.exists(os.path.join(root, dir, 'cc_org.po')):
+                continue
+
+            catalog = pofile.read_po(file(os.path.join(root, dir, 'cc_org.po')))
+            
+            # see if this language has translated the country string
+            if str_id not in catalog:
+                continue
+
+            # add the assertion
+            graph.add((subject, NS_DC['title'], Literal(catalog[str_id].string,
+                                                     lang=dir)))
+            
+        # only walk one level
+        dirnames = []
+
+        
+def add(opts, args):
     """Add a new jurisdiction."""
 
-    raise NotImplementedError()
+    # load the RDF graph
+    j_graph = load_graph(opts.rdf_file)
+    if args[0][-1] != '/':
+        args[0] += '/'
+    j_ref = NS_CC_JURISDICTION[args[0]]
+
+    # add the new jurisdiction
+    j_graph.add((j_ref, NS_RDF.type, NS_CC.Jurisdiction))
+
+    # set the default launched status
+    j_graph.add((j_ref, NS_CC.launched, 
+                 Literal("false", datatype=NS_XSD.boolean)))
+    
+    # set the default jurisdictionSite
+    if opts.juris_uri is not None:
+        j_graph.add((j_ref, NS_CC.jurisdictionSite, URIRef(opts.juris_uri)))
+
+    # add the translated names
+    _set_translations(opts, j_graph, j_ref, args[0][:-1])
+
+    # save the graph
+    save_graph(j_graph, opts.rdf_file)
 
 def cli():
     """Command line interface for the jurisdiction tool."""
@@ -131,7 +195,7 @@ def cli():
     elif opts.action == LAUNCH:
         launch(opts, args)
     elif opts.action == ADD:
-        launch(opts, args)
+        add(opts, args)
     else:
         parser.print_help()
         sys.exit(1)
