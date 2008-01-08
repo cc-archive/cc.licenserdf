@@ -37,6 +37,7 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -60,7 +61,7 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p align="center"><a href="/">Creative Commons</a></p>
+    <p align="center"><a href="/">ครีเอทีฟคอมอนส์</a></p>
 
     
 
@@ -274,6 +275,19 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.sr" title="српски" hreflang="sr"
+   rel="alternate nofollow" lang="sr">српски</a>
+
+
+
+
+<a href="./deed.sr_LATN" title="Serbian (Latin)"
+   hreflang="sr_LATN" rel="alternate nofollow"
+   lang="sr_LATN">Serbian (Latin)</a>
+
+
+
+
 <a href="./deed.st" title="Sotho" hreflang="st"
    rel="alternate nofollow" lang="st">Sotho</a>
 
@@ -312,7 +326,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">Attribution-Noncommercial-No Derivative Works 2.0 Croatia</h2>
+	        <h2 property="dc:title">ยอมรับสิทธิ-ไม่ใช้เพื่อการค้า-ไม่ใช่งานดัดแปลง 2.0 โครเอเชีย</h2>
         </div>
       </div>
 
@@ -328,7 +342,7 @@ setCookie('lang','%s', expiry, '/');
 <a href="/worldwide/hr/"><img
     src="/images/international/hr.png" border="0" /></a>
 <h3 rel="cc:permits"
-    href="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+    href="http://creativecommons.org/ns#Reproduction">ท่านมีเสรีภาพที่จะ :</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
        href="http://creativecommons.org/ns#Distribution"><strong>to Share</strong> — to copy, distribute and transmit the work</li>
@@ -337,12 +351,12 @@ setCookie('lang','%s', expiry, '/');
 		      </ul>
         </div>
         <div id="deed-conditions">
-		      <h3>Under the following conditions:</h3>
+		      <h3>ภายใต้เงื่อนไขดังต่อไปนี้:</h3>
 	        <ul align="left" dir=""> 
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
+	            <p><strong>ยอมรับสิทธิ</strong>. 
               <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
               
               <span id="by-more-container" /></p>
@@ -350,21 +364,21 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>ไม่ใช้เพื่อการค้า</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>คุณไม่อาจใช้งานนี้เพื่อวัตถุประสงค์ทางการค้า</span>
               <span id="nc-more-container" /></p>
             </li>
             <li rel="" href="" class="license nd">
-	            <p><strong>No Derivative Works</strong>. 
+	            <p><strong>ไม่ใช่งานดัดแปลง</strong>. 
               
-              <span>You may not alter, transform, or build upon this work.</span>
+              <span>คุณไม่อาจแก้ไขเปลี่ยนแปลงหรือสร้างงานของคุณจากงานนี้</span>
               <span id="nd-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
             <li rel="cc:requires"
-                href="http://creativecommons.org/ns#Notice">For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.</li>
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
+                href="http://creativecommons.org/ns#Notice">สำหรับการนำงานไปใช้ซ้ำหรือแจกจ่าย คุณควรบอกผู้อื่นอย่างชัดเจนถึงข้อตกลงต่างๆในสัญญาอนุญาตสำหรับงานนี้ วิธีที่ดีที่สุดคือการเชื่อมโยงกลับไปที่หน้าเว็บนี้</li>
+            <li>เงื่อนไขใดๆข้างต้น อาจไม่ต้องใช้ ถ้าคุณได้รับอนุญาตจากเจ้าของลิขสิทธิ์</li>
             
             <li>Nothing in this license impairs or restricts the author's moral rights.</li>
             
@@ -388,13 +402,13 @@ setCookie('lang','%s', expiry, '/');
         
 	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Disclaimer</a> 
+             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">ประกาศปฏิเสธความรับผิด</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
             <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
   	</p>
         <p align="center" style="margin-top:40px">
-	  <strong>Your fair dealing and other rights are in no way affected by the above.</strong>
+	  <strong>สิทธิการใช้งานตามสมควรและสิทธิอื่นๆ ไม่ได้รับผลกระทบใดๆจากข้อตกลงข้างต้น</strong>
 	</p>
 
 	<p align="center">
@@ -405,14 +419,14 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
+    นี่คือข้อความสรุปสำหรับคนทั่วไปของสัญญาอนุญาต(ข้อความทั้งหมดของสัญญาอนุญาต)
  </p>
 
          
        </div>
     </div>
     <p id="footer">
-      <a href="/about/licenses">Learn how to distribute your work using this license</a>
+      <a href="/about/licenses">เรียนรู้การแจกจ่านงานของคุณโดยใช้สัญญาอนุญาตนี้</a>
     </p>
 
   </body>

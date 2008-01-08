@@ -37,6 +37,7 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -274,6 +275,19 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.sr" title="српски" hreflang="sr"
+   rel="alternate nofollow" lang="sr">српски</a>
+
+
+
+
+<a href="./deed.sr_LATN" title="Serbian (Latin)"
+   hreflang="sr_LATN" rel="alternate nofollow"
+   lang="sr_LATN">Serbian (Latin)</a>
+
+
+
+
 <a href="./deed.st" title="Sotho" hreflang="st"
    rel="alternate nofollow" lang="st">Sotho</a>
 
@@ -410,6 +424,8 @@ setCookie('lang','%s', expiry, '/');
            <a href="legalcode.gl">галициски</a>
 
          
+     
+
      
 
      

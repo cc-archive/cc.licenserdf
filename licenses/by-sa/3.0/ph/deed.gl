@@ -276,6 +276,19 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.sr" title="српски" hreflang="sr"
+   rel="alternate nofollow" lang="sr">српски</a>
+
+
+
+
+<a href="./deed.sr_LATN" title="Serbian (Latin)"
+   hreflang="sr_LATN" rel="alternate nofollow"
+   lang="sr_LATN">Serbian (Latin)</a>
+
+
+
+
 <a href="./deed.st" title="Sotho" hreflang="st"
    rel="alternate nofollow" lang="st">Sotho</a>
 

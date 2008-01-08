@@ -37,6 +37,7 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -61,7 +62,7 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p align="center"><a href="/">Creative Commons</a></p>
+    <p align="center"><a href="/">ครีเอทีฟคอมอนส์</a></p>
 
     
 
@@ -275,6 +276,19 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.sr" title="српски" hreflang="sr"
+   rel="alternate nofollow" lang="sr">српски</a>
+
+
+
+
+<a href="./deed.sr_LATN" title="Serbian (Latin)"
+   hreflang="sr_LATN" rel="alternate nofollow"
+   lang="sr_LATN">Serbian (Latin)</a>
+
+
+
+
 <a href="./deed.st" title="Sotho" hreflang="st"
    rel="alternate nofollow" lang="st">Sotho</a>
 
@@ -313,7 +327,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">Attribution-Noncommercial 2.1 Japan</h2>
+	        <h2 property="dc:title">ยอมรับสิทธิ-ไม่ใช้เพื่อการค้า 2.1 ่ญี่ปุ่น</h2>
         </div>
       </div>
 
@@ -329,22 +343,22 @@ setCookie('lang','%s', expiry, '/');
 <a href="/worldwide/jp/"><img
     src="/images/international/jp.png" border="0" /></a>
 <h3 rel="cc:permits"
-    href="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+    href="http://creativecommons.org/ns#Reproduction">ท่านมีเสรีภาพที่จะ :</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
        href="http://creativecommons.org/ns#Distribution"><strong>to Share</strong> — to copy, distribute and transmit the work</li>
 			      <li class="license remix" rel="cc:permits"
-             href="http://creativecommons.org/ns#DerivativeWorks"><strong>to Remix</strong> — to adapt the work</li>
+             href="http://creativecommons.org/ns#DerivativeWorks">เพื่อเรียบเรียงเสียงประสานเพื่อแก้ไขปรับปรุงงาน</li>
 <span id="devnations-container" />
 		      </ul>
         </div>
         <div id="deed-conditions">
-		      <h3>Under the following conditions:</h3>
+		      <h3>ภายใต้เงื่อนไขดังต่อไปนี้:</h3>
 	        <ul align="left" dir=""> 
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
+	            <p><strong>ยอมรับสิทธิ</strong>. 
               <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
               
               <span id="by-more-container" /></p>
@@ -352,15 +366,15 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc-jp">
-	            <p><strong>Noncommercial</strong>. 
+	            <p><strong>ไม่ใช้เพื่อการค้า</strong>. 
               
-              <span>You may not use this work for commercial purposes.</span>
+              <span>คุณไม่อาจใช้งานนี้เพื่อวัตถุประสงค์ทางการค้า</span>
               <span id="nc-jp-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
             <li rel="cc:requires"
-                href="http://creativecommons.org/ns#Notice">For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.</li>
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
+                href="http://creativecommons.org/ns#Notice">สำหรับการนำงานไปใช้ซ้ำหรือแจกจ่าย คุณควรบอกผู้อื่นอย่างชัดเจนถึงข้อตกลงต่างๆในสัญญาอนุญาตสำหรับงานนี้ วิธีที่ดีที่สุดคือการเชื่อมโยงกลับไปที่หน้าเว็บนี้</li>
+            <li>เงื่อนไขใดๆข้างต้น อาจไม่ต้องใช้ ถ้าคุณได้รับอนุญาตจากเจ้าของลิขสิทธิ์</li>
             
             <li>Nothing in this license impairs or restricts the author's moral rights.</li>
             
@@ -379,20 +393,10 @@ setCookie('lang','%s', expiry, '/');
        <div id="deed-foot">
           
 
-        <p id="disclaimer"><p>
-The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full License) — it is a human-readable expression of some of its key terms. This Deed itself has no legal value, and its contents do not appear in the actual License.  The actual terms of the license is set forth by the Legal Code.  <a href="legalcode" class="fulltext">Please click here to see the full License</a>.  
-</p>
-
-<p>
-Creative Commons and Creative Commons Japan are not law firms, and distributing of or displaying of, or linking to the Commons Deed does not constitute an offer of legal advice or any other legal services. Creative Commons and Creative Commons Japan are not a party to the License underlying this Commons Deed, and disclaim liablity for damages resulting from any use of the Commons Deed and the underlying License.
-</p>
-
-<p>
-The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href="http://creativecommons.jp/faq/">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.
-</p></p>
+        <p id="disclaimer">ครีเอทีฟคอมมอนส์และครีเอทีฟคอมมอนส์ญี่ปุ่น ไม่ใช่สำนักงานกฎหมาย  และการแจกจ่ายหรือแสดงหรือการเชื่อมโยงไปยังเอกสารคอมมอนส์ ไม่ใช่การให้คำปรึกษากฎหมายหรือไม่ใช่การให้บริการทางกฎหมาย ครีเอทีฟคอมมอนส์และครีเอทีฟคอมมอนส์ญี่ปุ่น ไม่ใช่คู่สัญญาในสัญญาอนุญาตซึ่งรองรับเอกสารคอมมอนส์ และไม่รับผิดต่อความเสียหายใด ๆ ที่เกิดจากการนำเอกสารคอมมอนส์และสัญญาอนุญาตดังกล่าวไปใช้ </p>
 	
         <p align="center" style="margin-top:40px">
-	  <strong>Your fair dealing and other rights are in no way affected by the above.</strong>
+	  <strong>สิทธิการใช้งานตามสมควรและสิทธิอื่นๆ ไม่ได้รับผลกระทบใดๆจากข้อตกลงข้างต้น</strong>
 	</p>
 
 	<p align="center">
@@ -403,14 +407,14 @@ The Product licensed under Creative Commons License is provided by the person wh
 
     
 
-    This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
+    นี่คือข้อความสรุปสำหรับคนทั่วไปของสัญญาอนุญาต(ข้อความทั้งหมดของสัญญาอนุญาต)
  </p>
 
          
        </div>
     </div>
     <p id="footer">
-      <a href="/about/licenses">Learn how to distribute your work using this license</a>
+      <a href="/about/licenses">เรียนรู้การแจกจ่านงานของคุณโดยใช้สัญญาอนุญาตนี้</a>
     </p>
 
   </body>
