@@ -6,7 +6,7 @@
     Attribution-No Derivative Works 2.5 Australia
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-nd/2.5/au/" /><link
+    <!--<base href="" tal:attributes="href context/license/uri" />--><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -274,15 +274,15 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.sr" title="српски" hreflang="sr"
-   rel="alternate nofollow" lang="sr">српски</a>
+<a href="./deed.sr" title="српски " hreflang="sr"
+   rel="alternate nofollow" lang="sr">српски </a>
 
 
 
 
-<a href="./deed.sr_LATN" title="Serbian (Latin)"
+<a href="./deed.sr_LATN" title="srpski (latinica)"
    hreflang="sr_LATN" rel="alternate nofollow"
-   lang="sr_LATN">Serbian (Latin)</a>
+   lang="sr_LATN">srpski (latinica)</a>
 
 
 
