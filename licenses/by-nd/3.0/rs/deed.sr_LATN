@@ -6,7 +6,7 @@
     Attribution-No Derivative Works 3.0 Serbia
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-nd/3.0/rs/" /><link
+    <!--<base href="" tal:attributes="href context/license/uri" />--><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -274,8 +274,15 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.sr" title="српски" hreflang="sr"
-   rel="alternate nofollow" lang="sr">српски</a>
+<a href="./deed.sr" title="српски " hreflang="sr"
+   rel="alternate nofollow" lang="sr">српски </a>
+
+
+
+
+<a href="./deed.sr_LATN" title="srpski (latinica)"
+   hreflang="sr_LATN" rel="alternate nofollow"
+   lang="sr_LATN">srpski (latinica)</a>
 
 
 
@@ -337,7 +344,7 @@ setCookie('lang','%s', expiry, '/');
     href="http://creativecommons.org/ns#Reproduction">Dozvoljeno je:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
-       href="http://creativecommons.org/ns#Distribution"><strong>to Share</strong> — to copy, distribute and transmit the work</li>
+       href="http://creativecommons.org/ns#Distribution"><strong>deliti</strong> — umnožavati, distribuirati i javno saopštavati delo</li>
 			      
 <span id="devnations-container" />
 		      </ul>
@@ -396,7 +403,7 @@ setCookie('lang','%s', expiry, '/');
 	<p align="center">
 
     
-     Ovo je osnovni opis Licence (sadržaja ugovora u celini) na dva pisma: ћирилица latinica
+     Ovo je osnovni opis Licence (sadržaja ugovora u celini) na sledećim jezicima/pismima: 
        <br />
 
      
@@ -406,7 +413,7 @@ setCookie('lang','%s', expiry, '/');
      
 
      
-         <a href="legalcode.sr-Cyrl">srpski</a> 
+         <a href="legalcode.sr-Cyrl">srpski </a> 
          <a href="legalcode.sr-Latn">Serbian (Latin)</a>
      
 

@@ -6,7 +6,7 @@
     Attribution-Noncommercial-No Derivative Works 2.1 Spain
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-nc-nd/2.1/es/" /><link
+    <!--<base href="" tal:attributes="href context/license/uri" />--><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -37,6 +37,7 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -274,6 +275,19 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.sr" title="српски " hreflang="sr"
+   rel="alternate nofollow" lang="sr">српски </a>
+
+
+
+
+<a href="./deed.sr_LATN" title="srpski (latinica)"
+   hreflang="sr_LATN" rel="alternate nofollow"
+   lang="sr_LATN">srpski (latinica)</a>
+
+
+
+
 <a href="./deed.st" title="Sotho" hreflang="st"
    rel="alternate nofollow" lang="st">Sotho</a>
 
@@ -408,6 +422,8 @@ rechten van de auteur, of deze te beperken.</li>
          <a href="legalcode.es">Spaans</a>
 
          
+     
+
      
 
      

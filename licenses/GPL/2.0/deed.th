@@ -6,7 +6,7 @@
     GNU General Public License
   </title>
 
-    <base href="http://creativecommons.org/licenses/GPL/2.0/" /><link
+    <!--<base href="" tal:attributes="href context/license/uri" />--><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -37,6 +37,7 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -51,7 +52,7 @@ setCookie('lang','%s', expiry, '/');
     
 
     <div id="header">
-    <p align="center"><a href="/">Creative Commons</a></p>
+    <p align="center"><a href="/">ครีเอทีฟคอมอนส์</a></p>
 
     
 
@@ -265,6 +266,19 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.sr" title="српски " hreflang="sr"
+   rel="alternate nofollow" lang="sr">српски </a>
+
+
+
+
+<a href="./deed.sr_LATN" title="srpski (latinica)"
+   hreflang="sr_LATN" rel="alternate nofollow"
+   lang="sr_LATN">srpski (latinica)</a>
+
+
+
+
 <a href="./deed.st" title="Sotho" hreflang="st"
    rel="alternate nofollow" lang="st">Sotho</a>
 
@@ -320,10 +334,10 @@ setCookie('lang','%s', expiry, '/');
 <p>The <span>GNU General Public License</span> is a <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> license. Like any Free Software license, it grants to you the four following freedoms:</p>
 			
 			<ol start="0">
-				<li>The freedom to run the program for any purpose.</li>
-				<li>The freedom to study how the program works and adapt it to your needs.</li>
+				<li>เสรีภาพในการใช้โปรแกรมไม่ว่าจะเพื่อเหตุใด</li>
+				<li>เสรีภาพที่จะศึกษาว่าโปรแกรมทำงานอย่างไรและปรับแก้ให้เข้ากับความต้องการของคุณ</li>
 				<li>The freedom to redistribute copies so you can help your neighbor.</li>
-				<li>The freedom to improve the program and release your improvements to the public, so that the whole community benefits.</li>
+				<li>เสรีภาพที่จะปรับปรุงแก้ไขโปรแกรมและเผยแพร่การปรับปรุงแก้ไขของคุณต่อสาธารณชนเพื่อให้ชุมชนทั้งหมดได้รับประโยชน์</li>
 			</ol>
 </div>
     
@@ -331,20 +345,20 @@ setCookie('lang','%s', expiry, '/');
   <h3></h3>
 
 
-   <p />You may exercise the freedoms specified here provided that you comply with the express conditions of this license. The principal conditions are:
+   <p />คุณอาจใช้สิทธิตามที่ระบุไว้ในสัญญาอนุญาตนี้ โดยคุณต้องปฎิบัติตามเงื่อนไขทั้งหลายที่ระบุไว้อย่างชัดแจ้งด้วย เงื่อนไขที่สำคัญ คือ
    
 
    <ul align="left" dir=""> 
      <li class="license notice">You must conspicuously and appropriately publish on each copy distributed an appropriate copyright notice and disclaimer of warranty and keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of the <span>GNU General Public License</span> along with the Program. Any translation of the <span>GNU General Public License</span> must be accompanied by the <span>GNU General Public License</span>.</li>
 
-     <li class="license sa">If you modify your copy or copies of the program or any portion of it, or develop a program based upon it, you may distribute the resulting work provided you do so under the <span>GNU General Public License</span>. Any translation of the <span>GNU General Public License</span> must be accompanied by the <span>GNU General Public License</span>.</li>
+     <li class="license sa">กรณีคุณแก้ไขสำเนาของโปรแกรมหรือส่วนหนึ่งส่วนใดของมัน หรือพัฒนาโปรแกรมโดยใช้มันเป็นฐาน คุณอาจแจกจ่ายงานอันเป็นผลลัพธ์ได้ หากคุณทำตาม <span>GNU General Public License</span>. บทแปลใด ๆ ของ <span>GNU General Public License</span> จะต้องมี <span>GNU General Public License</span> อยู่คู่ด้วยเสมอ.</li>
 
      <li class="license src">If you copy or distribute the program, you must accompany it with the complete corresponding machine-readable source code or with a written offer, valid for at least three years, to furnish the complete corresponding machine-readable source code.</li>
    </ul>
      
 </div>
 
-<p>Any of the above conditions can be waived if you get permission from the copyright holder.</p> 
+<p>เงื่อนไขใดๆข้างต้น อาจไม่ต้องใช้ ถ้าคุณได้รับอนุญาตจากเจ้าของลิขสิทธิ์</p> 
 
 </div>
        </div>
@@ -357,13 +371,13 @@ setCookie('lang','%s', expiry, '/');
         
 	<p id="disclaimer">
           <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Disclaimer</a> 
+             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">ประกาศปฏิเสธความรับผิด</a> 
           <a href="/licenses/disclaimer-popup"
              onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
             <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
   	</p>
         <p align="center" style="margin-top:40px">
-	  <strong>Your fair dealing and other rights are in no way affected by the above.</strong>
+	  <strong>สิทธิการใช้งานตามสมควรและสิทธิอื่นๆ ไม่ได้รับผลกระทบใดๆจากข้อตกลงข้างต้น</strong>
 	</p>
 
 	<p align="center">
@@ -383,7 +397,7 @@ setCookie('lang','%s', expiry, '/');
        </div>
     </div>
     <p id="footer">
-      <a href="/about/licenses">Learn how to distribute your work using this license</a>
+      <a href="/about/licenses">เรียนรู้การแจกจ่านงานของคุณโดยใช้สัญญาอนุญาตนี้</a>
     </p>
 
   </body>
