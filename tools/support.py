@@ -35,6 +35,6 @@ def save_graph(graph, filename):
 
     output_file = open(filename,"w")
     output_file.write(
-        graph.serialize(max_depth=1)
+        graph.serialize(format="pretty-xml", max_depth=1)
         )
     output_file.close()
