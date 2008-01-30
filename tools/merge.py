@@ -5,6 +5,8 @@ import optparse
 from rdflib.Graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
+import support
+
 def create_option_parser():
     """Return an optparse.OptionParser configured for the merge script."""
 
@@ -22,11 +24,7 @@ def merge(input_files):
     """Return a single rdflib Graph containing the contents of input_files.
     input_files should be a sequence of filenames to load."""
 
-    store = Graph()
-    store.bind("cc", "http://creativecommons.org/ns#")
-    store.bind("dc", "http://purl.org/dc/elements/1.1/")
-    store.bind("dcq","http://purl.org/dc/terms/")
-    store.bind("rdf","http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+    store = support.graph()
 
     for filename in input_files:
         print 'reading %s...' % filename
@@ -51,11 +49,8 @@ def cli():
             os.getcwd(), options.output_file)
                                   )
 
-    output_file = open(output_fn,"w")
-    output_file.write(
-        merge(input_files).serialize(max_depth=1)
-        )
-    output_file.close()
+    support.save_graph(merge(input_files),
+                       output_fn)
 
     print 'wrote %s' % output_fn
 
