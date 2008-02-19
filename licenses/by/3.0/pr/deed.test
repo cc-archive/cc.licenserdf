@@ -332,7 +332,12 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
           
-        
+  <div id="libre">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="[[cc_org][This license is acceptable for Free Cultural Works.]]" />
+    </a>
+  </div>
 
         <div id="deed-rights" align="left" dir="">
 
