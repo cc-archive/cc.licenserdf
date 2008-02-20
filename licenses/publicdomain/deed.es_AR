@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Dedicación del Derecho de Autor o Certificación al Dominio Público (sólo basada en las leyes de Estados Unidos)</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Dedicación del Derecho de Autor o Certificación al Dominio Público (sólo basada en las leyes de Estados Unidos)</em></p>
 
 <p>
 La persona o personas que han asociado la obra a este documento (el "Dedicante" or "Certificante"), por este medio (a) certifican que, según su conocimiento, la obra identificada está en el dominio público del país en el cual la obra está publicada, o (b) por la presente, dedican cualquier Derecho de Autor (titularidad del dedicante) sobre la obra abajo identificada (la “Obra”) al dominio público. Un certificante, además, dedica cualquier interés sobre el derecho de autor que él pueda tener sobre la obra asociada, y por estos motivos, es descrito abajo como un “dedicante”.</p>
@@ -348,7 +355,9 @@ WARNING: The Creative Commons Public Domain Dedication does not apply to the jur
  
 
 <p>
-ADVERTENCIA: La Dedicación al Dominio Público de Creative Commons no se aplicará a la jurisdicción Argentina. Esta opción se aplica, por ejemplo, para las obras sujetas a las leyes de Estados Unidos. Si su obra esta sujeta a la ley Argentina, esta “Dedicación al Dominio Público” no tendrá ningún efecto en relación a su obra. Para Argentina, usted puede usar cualquier otra Licencia de Creative Commons disponible, la que tendrá plena fuerza y efectos bajo la ley Argentina. Usted puede elegir estas licencias en http://creativecommons.org/license/</p></div>
+ADVERTENCIA: La Dedicación al Dominio Público de Creative Commons no se aplicará a la jurisdicción Argentina. Esta opción se aplica, por ejemplo, para las obras sujetas a las leyes de Estados Unidos. Si su obra esta sujeta a la ley Argentina, esta “Dedicación al Dominio Público” no tendrá ningún efecto en relación a su obra. Para Argentina, usted puede usar cualquier otra Licencia de Creative Commons disponible, la que tendrá plena fuerza y efectos bajo la ley Argentina. Usted puede elegir estas licencias en http://creativecommons.org/license/</p>
+
+</div>
        </div>
       </div>
 

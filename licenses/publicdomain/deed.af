@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Erkenning slegs vir Kopiereg (gebaseer op die reg van die Verenigde State) of Openbaredomein-sertifisering</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Erkenning slegs vir Kopiereg (gebaseer op die reg van die Verenigde State) of Openbaredomein-sertifisering</em></p>
 
 <p>Die persoon  of persone wat werk in verband met hierdie dokument gedoen het (die  "Skenker" of "Sertifiseerder") (a) sertifiseer hiermee dat, na sy beste wete, die outeurswerk wat hieronder beskryf word (die "Werk") in die openbare domein val van die land vanwaar die Werk gepubliseer word of (b) skenk watter kopiereg die Skenker ook al hou op die Werk, aan die openbare domein.  'n Sertifiseerder skenk boonop alle kopieregbelange wat hy hou in die verwante werk, aan die openbare domein en word derhalwe hieronder beskryf as die "Skenker".</p>
 
@@ -336,7 +343,9 @@ setCookie('lang','%s', expiry, '/');
 
 <p>Die Skenker skenk hierdie Werk tot voordeel van die breë publiek en tot nadeel van sy erfgename en regsopvolgers.  Die bedoeling van die Skenker is dat hierdie skenking 'n openlike daad van ewigdurende afstanddoening van alle bestaande en toekomstige regte ingevolge die kopiereg op die werk, hetsy gevestig of voorwaardelik, moet wees.  Die Skenker verstaan dat sodanige afstanddoening van alle regte ook alle regte om sodanige kopieregte op die Werk af te dwing (by wyse van 'n hofgeding of andersins), insluit.</p>
 
-<p>Die Skenker besef dat, sodra die Werk in die openbare domein geplaas word, dit vrylik gereproduseer, versprei, versend, gebruik, gemodifiseer, uitgebou of andersins deur enigeen gebruik kan word vir enige doel, kommersieel of niekommersieel, en met enige metode, met inbegrip van metodes wat nog nie uitgevind of bedink is nie.</p></div>
+<p>Die Skenker besef dat, sodra die Werk in die openbare domein geplaas word, dit vrylik gereproduseer, versprei, versend, gebruik, gemodifiseer, uitgebou of andersins deur enigeen gebruik kan word vir enige doel, kommersieel of niekommersieel, en met enige metode, met inbegrip van metodes wat nog nie uitgevind of bedink is nie.</p>
+
+</div>
        </div>
       </div>
 

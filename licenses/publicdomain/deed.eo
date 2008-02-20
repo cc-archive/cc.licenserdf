@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Nurkopirajta dediĉo (bazita je usona leĝaro) aŭ asertado de Publika Havaĵo</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Nurkopirajta dediĉo (bazita je usona leĝaro) aŭ asertado de Publika Havaĵo</em></p>
 
 <p>La persono aŭ personoj kiuj ligis verkon al tiu ĉi dokumento (la "dediĉanto" aŭ "asertanto") ĉi-pere ĉu (a)certigas ke, laŭ lia scio, la aŭtorrajtoj de la identigita verko estas publika havaĵo en la lando kie la verko publikiĝis, aŭ (b) ĉi-pere dediĉas iun ajn kopirajton de la dediĉantoj al la publiko. Asertanto dediĉas iun ajn kopirajtan intereson kiun ŝi aŭ li havas en la ligita verko kaj tial ĉi-sube estas ankaŭ nomita "dediĉanto".</p>
 
@@ -336,7 +343,9 @@ setCookie('lang','%s', expiry, '/');
 
 <p>Dediĉanto dediĉas por la profito de la granda publiko kaj ne volas mem profiti aŭ profitigi siajn posteulojn. Dediĉanto volas ke lia aŭ ŝia dediĉo estas ago de eterna rezignado pri ĉiuj ajn momentaj kaj estontaj kopirajtoj, ĉu certa aŭ ebla. La dediĉanto plene konscias ke tia rezigno pri rajtoj inkluzivas la rezigno pri la rajto postuli ke oni poste kopirajtigu la verkon.</p>
 
-<p>La dediĉanto agnoskas ke, unufoje donacita kiel publika havaĵo, la verko rajtas esti libere reproduktita, distribuita, transdonita, uzita, modifita, esti bazo de aliaj verkoj, aŭ alimaniere esti ekspluatata de iu ajn por iu ajn celo, ĉu komerca aŭ nekomerca, kaj ĉiel ajn, inkluzive de metodoj momente ankoraŭ ne ekzistantaj aŭ pripensitaj.</p></div>
+<p>La dediĉanto agnoskas ke, unufoje donacita kiel publika havaĵo, la verko rajtas esti libere reproduktita, distribuita, transdonita, uzita, modifita, esti bazo de aliaj verkoj, aŭ alimaniere esti ekspluatata de iu ajn por iu ajn celo, ĉu komerca aŭ nekomerca, kaj ĉiel ajn, inkluzive de metodoj momente ankoraŭ ne ekzistantaj aŭ pripensitaj.</p>
+
+</div>
        </div>
       </div>
 

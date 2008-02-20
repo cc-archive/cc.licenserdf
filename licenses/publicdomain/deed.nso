@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Moneelo wa Tokelo ya Ngwalollo Feela (e theilwego molaong wa United States) goba Tiišetšo ya Pulegelo ya Setšhaba</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Moneelo wa Tokelo ya Ngwalollo Feela (e theilwego molaong wa United States) goba Tiišetšo ya Pulegelo ya Setšhaba</em></p>
 
 
         <p>Motho goba batho bao ba itswalanyago le tokumente ye ("Moneedi" goba "Motiišetši") mo e ka ba o (a) tiišetša gore, go ya kamoo a tsebago ka gona, mošomo wa bongwadi wo o boletšwego wo o bulegetšego setšhaba wa naga yeo mošomo o phatlaladitšwego go yona, goba (b) o neela tokelo ya ngwalollo le ge ele efe yeo baneedi ba e swerego mošomong wa bongwadi wo o boletšwego ka tlase ga ("Mošomo") wo o bulegetšego setšhaba. Go feta moo, motiišetši o neela dikgahlego le ge ele dife tša tokelo ya ngwalollo tšeo a ka bago a di tswalantšhitše le mošomo,  le bakeng sa merero ye, o hlaloswa e le "moneedi" ka mo tlase.</p>
@@ -340,7 +347,9 @@ setCookie('lang','%s', expiry, '/');
         <p>Moneedi o dira moneelo wo bakeng sa go hola setšhaba ka kakaretšo le go thuša bajabohwa bja Moneedi le bao ba tlago ka morago ga bona. Moneedi o ikemišeditše gore moneelo wa gagwe e be molao wo o ka bonwago wa go tlogelwa ga go ya go ile ga ditokelo ka moka tša gona bjale le tša nakong e tlago ka tlase ga molao wa tokelo ya ngwalollo, go sa šetšwe gore di tiišitšwe ka molao goba di a kgonega, mo Mošomong. Moneedi o kwešiša go tlogelwa mo go bjalo ga ditokelo ka moka go akaretša go tlogelwa ga ditokelo ka moka tša go gapeletša (ka kgoro ya tsheko goba ka tsela e itšego) ditokelo tšeo tša ngwalollo Mošomong.</p>
 
 
-        <p>Moneedi o lemoga gore, ge o šetše o bulegetše setšhaba, Mošomo o ka tšweletšwa gape, abiwa, fetišetšwa, dirišwa, lokišwa, go aga godimo ga wona, ka bolokologi goba wa bonagatšwa ka tsela e itšego ke le ge e ka ba mang bakeng sa morero le ge ele ofe, wa kgwebo goba e sego wa kgwebo, ka tsela le ge ele efe, go akaretšwa mekgwa yeo e sešogo ya tsebjwa goba go tšweletšwa.</p></div>
+        <p>Moneedi o lemoga gore, ge o šetše o bulegetše setšhaba, Mošomo o ka tšweletšwa gape, abiwa, fetišetšwa, dirišwa, lokišwa, go aga godimo ga wona, ka bolokologi goba wa bonagatšwa ka tsela e itšego ke le ge e ka ba mang bakeng sa morero le ge ele ofe, wa kgwebo goba e sego wa kgwebo, ka tsela le ge ele efe, go akaretšwa mekgwa yeo e sešogo ya tsebjwa goba go tšweletšwa.</p>
+
+</div>
        </div>
       </div>
 

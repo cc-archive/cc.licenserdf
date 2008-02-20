@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,13 +327,23 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>(米国法に基づく)著作権に限定した寄贈</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>(米国法に基づく)著作権に限定した寄贈</em></p>
 
 <p>この文書を自分の作品に添付した人（人々）（「本寄贈者」）は、ここに、自己の創作した下記の作品（「本作品」）の著作権をパブリック･ドメインに属するものとして、世の中に寄贈します。</p>
 
         <p>本寄贈者は、公衆の利益のために、そして寄贈者の相続人及び後継者の損失の上に、この寄贈を行います。本寄贈者は、この寄贈が、 著作権法の下で、現在及び将来において付与され又は付属する、本作品中の全ての権利を永遠に放棄する明確な行為となることを意図しています。本寄贈者は、この放棄が全ての権利の放棄であり、（訴訟その他いかなる方法によるかを問わず）本作品の著作権を執行する権利の放棄を含むものであることを理解しています。</p>
 
-        <p>本寄贈者は、この作品が一度パブリック･ドメインに属すると、誰でもが、営利・非営利を問わずいかなる目的の下にでも、自由に複製、頒布、送信、使用、改変、翻案その他いかなる利用をもすることができる（未だに発明・考案されていない利用方法を含みます。）ということを認識しています。</p></div>
+        <p>本寄贈者は、この作品が一度パブリック･ドメインに属すると、誰でもが、営利・非営利を問わずいかなる目的の下にでも、自由に複製、頒布、送信、使用、改変、翻案その他いかなる利用をもすることができる（未だに発明・考案されていない利用方法を含みます。）ということを認識しています。</p>
+
+</div>
        </div>
       </div>
 

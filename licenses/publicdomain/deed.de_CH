@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Copyright-Only Dedication oder Public Domain Certification (basiert auf US-Recht, nicht auf deutschem Recht)</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Copyright-Only Dedication oder Public Domain Certification (basiert auf US-Recht, nicht auf deutschem Recht)</em></p>
 
 <p>Die Person oder die Personen, die Ihr Werk mit diesem Dokument assoziieren (im folgenden "Dedicator" oder "Certifier" genannt) bestätigen hiermit, (a) dass entweder die Urheberrechte an dem hier identifizierten Werk (im folgenden "Werk") nach Ihrem besten Wissen in der Public Domain desjenigen Landes liegen, in dem es zuerst publiziert wurde, oder (b) dass sämtliche Rechte an dem Werk, die noch bei dem Dedicator liegen, hiermit der Public Domain übertragen werden.</p>
 
@@ -338,7 +345,9 @@ setCookie('lang','%s', expiry, '/');
 
 <p>Der Dedicator vollzieht die Übertragung in die Public Domain zum Nutzen der Allgemeinheit, und zum Nachteil seiner unmittelbaren Rechtsnachfolger oder Erben. Der Dedicator vollzieht diese Übertragung bzw. Freigabe als eine offenkundige, jederzeit nachvollziehbare rechtliche Handlung, durch die alle gegenwärtigen und zukünftigen Rechte an dem Werk durch den Dedicator endgültig aufgegeben werden. Dem Dedicator ist bewusst, dass diese Aufgabe auch alle Rechte einschliesst, die dazu dienen, Urheberrechte oder andere Rechte an dem Werk auf dem Rechtswege durchzusetzen.</p>
 
-<p>Der Dedicator erkennt an, dass das Werk, sobald es in die Public Domain übertragen worden ist, beliebig vervielfältigt, verbreitet, bearbeitet, öffentlich wiedergegeben oder auf sonstige Weise verwendet und genutzt werden kann, sowohl zu kommerziellen als auch nicht-kommerziellen Zwecken, und dass dies auch solche Methoden der Werknutzung einschliesst, die im Zeitpunkt der Übertragung noch nicht erfunden oder bekannt sind.</p></div>
+<p>Der Dedicator erkennt an, dass das Werk, sobald es in die Public Domain übertragen worden ist, beliebig vervielfältigt, verbreitet, bearbeitet, öffentlich wiedergegeben oder auf sonstige Weise verwendet und genutzt werden kann, sowohl zu kommerziellen als auch nicht-kommerziellen Zwecken, und dass dies auch solche Methoden der Werknutzung einschliesst, die im Zeitpunkt der Übertragung noch nicht erfunden oder bekannt sind.</p>
+
+</div>
        </div>
       </div>
 
