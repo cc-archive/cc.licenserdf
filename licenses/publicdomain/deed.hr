@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Copyright-Only Dedication ili Public Domain Certification (temeljeno na zakonu Sjedinjenih Američkih Država)</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Copyright-Only Dedication ili Public Domain Certification (temeljeno na zakonu Sjedinjenih Američkih Država)</em></p>
 
 <p>Osoba ili osobe koje su svoje djelo vezale uz ovaj dokument (“Prenositelj” ili "Potvrditelj") ovime ili a) potvrđuje da je, prema njenom najboljem saznanju, ovdje identificirano autorsko djelo u javnoj domeni one zemlje gdje je izvorno objavljeno ili b) prenosi autorsko pravo, koje prenositelj ima na autorsko djelo kako je niže određeno ("Djelo"), na javnu domenu. Nadalje, potvrditelj prenosi na javnu domenu sve interese koje bi mogao polagati na autorsko pravo nad djelom i, za svrhe ove licence, on se u daljnjem tekstu uzima kao "Prenositelj".</p>
 
@@ -336,7 +343,9 @@ setCookie('lang','%s', expiry, '/');
 
 <p>Prenositelj pristupa ovoj predaji u korist javnosti, a na uštrb Prenositeljevih nasljednika i pravnih sljednika. Prenositeljeva je namjera da ova predaja bude otvoren čin trajnog odricanja od svih sadašnjih i budućih prava na Djelo. Prenositelj prima na znanje da takvo odricanje od svih prava uključuje odricanje od svih prava na mjere provedbe (pravnom parnicom ili na neki drugi način) tih autorskih prava na djelo.</p>
 
-<p>Prenositelj prihvaća da djelo, jednom kada se ono nađe u javnoj domeni, svatko može slobodno reproducirati, distrubirati, emitirati, koristiti, mijenjati, razvijati ili drugačije iskoristiti u bilo koju svrhu, komercijalnu ili nekomercijalnu, i na bilo koji način, uključujući i metodama koje još nisu izumljene ili zamišljene.</p></div>
+<p>Prenositelj prihvaća da djelo, jednom kada se ono nađe u javnoj domeni, svatko može slobodno reproducirati, distrubirati, emitirati, koristiti, mijenjati, razvijati ili drugačije iskoristiti u bilo koju svrhu, komercijalnu ili nekomercijalnu, i na bilo koji način, uključujući i metodama koje još nisu izumljene ili zamišljene.</p>
+
+</div>
        </div>
       </div>
 

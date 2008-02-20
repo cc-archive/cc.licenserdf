@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em> Ophavsretsdedikation (baseret på US amerikansk ret) eller Public Domain erklæring</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em> Ophavsretsdedikation (baseret på US amerikansk ret) eller Public Domain erklæring</em></p>
 
 
 <p>Den person eller de personer, som har knyttet dette dokument til et værk ("erklæringsgiver") erklærer herved enten (a) at det omfattede værk, så vidt han/hun ved, er en del af public domain eller(b)at han/hun dedikerer de rettigheder, som den pågældende måtte have til det nærmere nedenfor definerede værk (Værket), til public domain. En erklæringsgiver dedikerer yderligere en hvilken som helst ophavsretlig interesse, som han/hun måtte have i Værket.</p>
@@ -337,7 +344,9 @@ setCookie('lang','%s', expiry, '/');
 
 <p>Erklæringsgiver afgiver denne erklæring til fordel for den brede offentlighed og til skade for erklæringsgivers arvinger og successorer. Det er erklæringsgiver hensigt, at erklæringen er en offentlig, evigtvarende afgivelse af alle eksisterende og fremtidige rettigheder efter ophavsretten, uanset om det er rettigheder til selve Værket eller rettigheder, der er afhængige af Værket. Erklæringsgiver forstår, at en sådan afgivelse af alle rettigheder omfatter afgivelsen af enhver form for ret til at håndhæve (ved sagsanlæg eller på anden måde) ophavsrettigheder til Værket.</p>
 
-<p>Erklæringsgiver erkender, at når Værket en gang er blevet en del af public domain, kan der frit fremstilles eksemplarer af det, det kan frit spredes, transmitteres, bruges, ændres, bygges videre på eller på anden måde udnyttes af hvem som helst til et hvilket som helst formål, kommercielt eller ikke-kommercielt, på en hvilken som helst måde herunder ved metoder, som endnu ikke er opfundet eller erkendt.</p></div>
+<p>Erklæringsgiver erkender, at når Værket en gang er blevet en del af public domain, kan der frit fremstilles eksemplarer af det, det kan frit spredes, transmitteres, bruges, ændres, bygges videre på eller på anden måde udnyttes af hvem som helst til et hvilket som helst formål, kommercielt eller ikke-kommercielt, på en hvilken som helst måde herunder ved metoder, som endnu ikke er opfundet eller erkendt.</p>
+
+</div>
        </div>
       </div>
 

@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>僅貢獻著作權（根據美國法）或公共領域認證書（Public Domain Certification）</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>僅貢獻著作權（根據美國法）或公共領域認證書（Public Domain Certification）</em></p>
 
 <p>將其著作與本文件結合者（下稱「貢獻者」或「認證者」）特此： (a) 保證，該著作歸屬其所發表國家之公共領域，或 (b) 將其就該著作（下稱「本著作」）所擁有之著作權，貢獻至公共領域。此外，認證者貢獻其就本著作之相關著作 (associated work) 可能擁有之任何著作權利益，且就此目的，以下以「貢獻者」稱之。</p>
 
@@ -336,7 +343,9 @@ setCookie('lang','%s', expiry, '/');
 
 <p>貢獻者係為公眾之最大利益及其繼承人之損害進行此貢獻。貢獻者願依此貢獻聲明公開表示永久拋棄本著作現有及未來，既得 (vested)  或附帶 (contingent) 之著作權。貢獻者瞭解，拋棄全部著作權包括拋棄實施本著作著作權（透過訴訟或其他方式）之所有權利。</p>
 
-<p>貢獻者認知到，一旦本著作歸屬於公共領域，任何人即得為任何目的，無論商業或非商業，以任何方式，包括尚未被發明或想像之方法，自由地重製、散布、傳輸、使用、修改、改作或以其他方式利用本著作。</p></div>
+<p>貢獻者認知到，一旦本著作歸屬於公共領域，任何人即得為任何目的，無論商業或非商業，以任何方式，包括尚未被發明或想像之方法，自由地重製、散布、傳輸、使用、修改、改作或以其他方式利用本著作。</p>
+
+</div>
        </div>
       </div>
 

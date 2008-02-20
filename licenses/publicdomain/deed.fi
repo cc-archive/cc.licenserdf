@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Tekijänoikeudesta luopuminen </em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Tekijänoikeudesta luopuminen </em></p>
 
 <p>Henkilö tai henkilöt (myöhemmin luovuttaja), jotka ovat liittäneet tämän dokumentin teokseensa vakuuttavat täten että (a)sikäli kuin he ovat kaikkea huolellisuutta noudattaen kyenneet selvittämään, tämän teoksen tekijänoikeus on rauennut siinä maassa, jossa se on julkaistu, tai (b) täten luopuvat kaikista tekijänoikeuksistaan teokseen niin että sen tekijänoikeus on rauennut. Lisäksi luovuttaja nimenomaisesti ilmoittautuu pysyvästi pidättäytymästä kaikkia sellaisia oikeuksia, joita hänellä voisi lain mukaan olla luovutettavaan teokseen.</p>
 
@@ -342,7 +349,9 @@ Luovuttaja toimii tässä asiassa suuren yleisön hyväksi, syrjäyttäen oikeud
 
 <p>
 Luovuttaja käsittää, että tekijänoikeuden rauettua kuka tahansa voi vapaasti valmistaa kappaleita teoksesta, levittää, välittää, muunnella, yhdistää tai käyttää sitä kaupallisiin ja muihin kuin kaupallisiin tarkoituksiin kaikilla nyt tunnetulla tai tulevaisuudessa kehitettävillä tavoilla.
-</p></div>
+</p>
+
+</div>
        </div>
       </div>
 

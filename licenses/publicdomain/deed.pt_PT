@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Dedicação dos Direitos de Autor ou Certificação de que a obra se encontra em Domínio Público</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Dedicação dos Direitos de Autor ou Certificação de que a obra se encontra em Domínio Público</em></p>
 <p>
 <p>
 A pessoa ou pessoas que associaram obras com este documento (chamado de "instrumento de dedicação" ou "instrumento de certificação") declaram para todos os fins de direito que (a) certificam que, com base no seu conhecimento, a obra de autoria identificada encontra-se em domínio público no país em que a obra foi publicada, ou que (b) através do presente documento, dedicam todo e qualquer direito de autor da sua titularidade sobre a obra de autoria abaixo identificada (a "Obra") ao domínio público. O certificante, além disto, dedica toda e qualquer titularidade sobre os direitos de autor que possui associados à obra ao domínio público e, desta forma, é designado como "dedicante" abaixo.
@@ -349,7 +356,9 @@ Aviso Importante
 <p>
 Important Reminder
 
-"The Creative Commons Public Domain License does not apply to the jurisdiction of Portugal. This option applies, for example, to works subject to American law. If your work is subject to Portuguese law, the "Public Domain" option will not have any legal effects regarding your work. For Portugal, you can use any other type of Creative Commons license, which have full force and effect under Portuguese law. You can choose these licenses at http://creativecommons.org/license/?lang=pt"</div>
+"The Creative Commons Public Domain License does not apply to the jurisdiction of Portugal. This option applies, for example, to works subject to American law. If your work is subject to Portuguese law, the "Public Domain" option will not have any legal effects regarding your work. For Portugal, you can use any other type of Creative Commons license, which have full force and effect under Portuguese law. You can choose these licenses at http://creativecommons.org/license/?lang=pt"
+
+</div>
        </div>
       </div>
 

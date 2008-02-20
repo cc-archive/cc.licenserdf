@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,13 +327,23 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Verklaring publiek domein (naar Nederlands recht)</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Verklaring publiek domein (naar Nederlands recht)</em></p>
 
 Hij/zij die de 'Verklaring publiek domein' op zijn/haar werk van toepassing heeft verklaard (de 'Declarant') verklaart bij deze uitdrukkelijk dat het gebruikte werk naar zijn/haar beste weten deel uitmaakt van het publieke domein van het land waar het openbaar is gemaakt. Daarnaast verklaart de Declarant uitdrukkelijk dat hij/zij de aan hem/haar toekomende auteursrechten, naburige rechten en/of databankrechten niet zal uitoefenen op het werk waarop deze verklaring van toepassing is.
 
 De Declarant heeft een redelijke inspanning verricht om na te gaan aan wie de auteursrechten, naburige rechten en/of databankrechten op het gebruikte werk toekomen. De Declarant erkent dat deze redelijke inspanning hem/haar op geen enkele wijze vrijstelt van aansprakelijkheid indien blijkt dat het gebruikte werk geen deel uitmaakt van het publieke domein.
 
-Hij/zij die de 'Verklaring publiek domein' van toepassing heeft verklaard op zijn/haar werk verklaart bij deze uitdrukkelijk dat hij/zij de aan hem/haar toekomende auteursrechten, naburige rechten en/of databankrechten op het hieronder omschreven werk (het 'Werk') op geen enkele wijze zal uitoefenen, en derhalve aan derden toestemming verleent om deze rechten naar believen te gebruiken. (NB: voor de toepassing van deze verklaring wordt onder het Werk mede verstaan de geluidsopname in de zin van de Wet op de naburige rechten en de databank in de zin van de Databankenwet). Hij/zij erkent dat deze verklaring inhoudt dat derden het Werk naar believen mogen verveelvoudigen, bewerken, openbaar maken, uitvoeren, opvragen, hergebruiken en/of anderszins gebruiken, zowel voor commerciële als niet-commerciële doeleinden.</div>
+Hij/zij die de 'Verklaring publiek domein' van toepassing heeft verklaard op zijn/haar werk verklaart bij deze uitdrukkelijk dat hij/zij de aan hem/haar toekomende auteursrechten, naburige rechten en/of databankrechten op het hieronder omschreven werk (het 'Werk') op geen enkele wijze zal uitoefenen, en derhalve aan derden toestemming verleent om deze rechten naar believen te gebruiken. (NB: voor de toepassing van deze verklaring wordt onder het Werk mede verstaan de geluidsopname in de zin van de Wet op de naburige rechten en de databank in de zin van de Databankenwet). Hij/zij erkent dat deze verklaring inhoudt dat derden het Werk naar believen mogen verveelvoudigen, bewerken, openbaar maken, uitvoeren, opvragen, hergebruiken en/of anderszins gebruiken, zowel voor commerciële als niet-commerciële doeleinden.
+
+</div>
        </div>
       </div>
 

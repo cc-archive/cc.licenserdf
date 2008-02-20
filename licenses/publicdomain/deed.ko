@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>(미국법에 근거한)Copyright-Only Dedication 또는 Public Domain Certification</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>(미국법에 근거한)Copyright-Only Dedication 또는 Public Domain Certification</em></p>
 
 <p>이 문서를 자신의 작품에 첨부한 사람("Dedicator" 또는 "Certifier")은, 이에 의하여 (a) 자신이 저작권을 갖는 저작물이 공표된 국가의 public domain에 속함을 증명하거나, (b)자신의 저작물에 대한 저작권을 public domain에 기증합니다. 나아가 "Certifier"는 공동저작물에 대한 모든 저작권적 이익도 기증하며 따라서 "Dedicator"로 기술됩니다.</p>  
 
@@ -336,7 +343,9 @@ setCookie('lang','%s', expiry, '/');
 
 <p>Dedicator는, 자신의 상속인 및 승계인의 손해 하에 공공의 이익을 위하여 이 기증을 하였고, 기증에 의하여, 저작물에 대한 저작권법하의 모든 현재 및 장래의 권리를 영구히 포기함을 명확히 하였습니다. Dedicator는 모든 권리의 포기에는 소송 또는 그밖의 방법에 의한 저작권의 행사를 포기하는 것도 포함되었음을 알고 있습니다.</p>
 
-<p>Dedicator는 저작물이 public domain에 있게 되면 모든 사람들에 의하여, 영리 또는 비영리 목적으로, 아직 알려지지 않은 방법을 포함한 모든 방법에 의하여 자유롭게 복제, 배포, 전송, 전시, 공연 및 방송되고 변경될 수 있음을 인식하였습니다.</p></div>
+<p>Dedicator는 저작물이 public domain에 있게 되면 모든 사람들에 의하여, 영리 또는 비영리 목적으로, 아직 알려지지 않은 방법을 포함한 모든 방법에 의하여 자유롭게 복제, 배포, 전송, 전시, 공연 및 방송되고 변경될 수 있음을 인식하였습니다.</p>
+
+</div>
        </div>
       </div>
 

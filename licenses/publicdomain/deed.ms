@@ -4,7 +4,7 @@
   <head>
     <title>Public Domain</title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
+    <base href="http://creativecommons.org/licenses/publicdomain/" /><link
     rel="stylesheet" type="text/css"
     href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
     media="screen" />
@@ -35,7 +35,6 @@ setCookie('lang','%s', expiry, '/');
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-    
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -328,7 +327,15 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
-          <div><p align="center"><em>Dedikasi Hakcipta-Sahaja (berdasarkan undang-undang Amerika Syarikat) atau Sijil Domain Am</em></p>
+          <div>
+  <div id="librepd">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" border="0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+  <p align="center"><em>Dedikasi Hakcipta-Sahaja (berdasarkan undang-undang Amerika Syarikat) atau Sijil Domain Am</em></p>
 
         <p>Orang ataupun orang-orang yang ada karya berhubung dengan dokumen ini ("Pendedikasi" atau "Pengesah") dengan ini sama ada (a) mengesahkan bahawa, kepada pengetahuannya yang terbaik, karya yang ditulis adalah dikenal pasti sebagai berada di dalam domain am di negara di mana karya tersebut diterbit, atau (b) dengan ini mendedikasikan apajuga hakcipta yang Pendedikasi-Pendedikasi memegang di dalam karya yang ditulis yang dikenal pasti di bawah ("Karya" tersebut) kepada domain am. Satu pesijil, tambahan pula, mendedikasikan apajuga kepentingan hakcipta yang dia mungkin ada di dalam karya yang berkaitan, dan untuk tujuan-tujuan ini, digambarkan sebagai "pendedikasi" di bawah.</p>
 
@@ -336,7 +343,9 @@ setCookie('lang','%s', expiry, '/');
 
         <p>Pendedikasi membuat dedikasi ini untuk manfaat awam umum dan menjejaskan waris-waris dan penganti-penganti pendedikasi. Pendedikasi ingin mendedikasikan ini untuk menjadi satu perbuatan terang-terangan yang melepaskan untuk selama-lamanya kesemua hak-hak hakcipta sekarang ini dan pada masa hadapan, sama ada dalam kuasa ataupun bergantung, di dalam karya tersebut. Pendedikasi faham yang pelepasan semua hak-hak sebegini termasuk pelepasan semua hak-hak untuk menguatkuasakan (dengan tuntutan mahkamah atau dalam apa jua cara) hak-hakcipta di dalam Karya tersebut.</p>
 
-        <p>Pendedikasi mengakui yang, sebaik sahaja diletakkan didalam domain awam, Karya tersebut boleh dibuat sekali lagi dengan bebas, diedarkan, disampaikan, digunakan, ditukar bentuknya, dibina atas, atau dalam apa jua cara dieksploitasikan oleh sesiapa untuk apa-apa penggunaan, sama ada komersial atau bukan komersial, dan dalam apa cara, termasuk dengan cara yang belum dicipta atau difikirkan.</p></div>
+        <p>Pendedikasi mengakui yang, sebaik sahaja diletakkan didalam domain awam, Karya tersebut boleh dibuat sekali lagi dengan bebas, diedarkan, disampaikan, digunakan, ditukar bentuknya, dibina atas, atau dalam apa jua cara dieksploitasikan oleh sesiapa untuk apa-apa penggunaan, sama ada komersial atau bukan komersial, dan dalam apa cara, termasuk dengan cara yang belum dicipta atau difikirkan.</p>
+
+</div>
        </div>
       </div>
 
