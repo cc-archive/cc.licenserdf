@@ -6,10 +6,11 @@
     Attribution-Noncommercial-No Derivative Works 2.1 Japan
   </title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,10 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -46,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -333,7 +364,7 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
           
-        
+  
 
         <div id="deed-rights" align="left" dir="">
 
@@ -394,10 +425,10 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
-          
+      <div id="deed-foot">
+        
 
-        <p id="disclaimer"><p>
+          <p id="disclaimer"><p>
 Commons Deed är inte en licens. Det är endast en enkel sammanfattning för att förstå licenstexten. Det är en lättläst version av några av de viktigaste villkoren. Se det som ett användarvänligt gränssnitt till licenstexten. Commons Deed har ingen juridisk relevans och dess innehåll återfinns inte i licenstexten. Licensvillkoren regleras i licenstexten. <a href="legalcode" class="fulltext">Klicka här för att läsa licenstexten</a>.
 </p>
 
@@ -408,7 +439,9 @@ Creative Commons och Creative Commons Japan är inte advokatbyråer eller juridi
 <p>
 Produkten som licensieras under Creative Commons-licensen tillhandahålls av personen som applicerade licensen. Creative Commons och Creative Commons Japan ger inga garantier eller utfästelser angående licensgivarens status. <a href="http://creativecommons.jp/faq/">Här</a>  finns mer information om applicerande av licensen samt exploatering av produkten som licensierats under Creative Commons-licensen.
 </p></p>
-	
+
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong>
 	</p>

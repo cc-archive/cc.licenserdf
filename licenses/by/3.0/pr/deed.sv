@@ -6,10 +6,11 @@
     Attribution 3.0 Puerto Rico
   </title>
 
-    <base href="http://creativecommons.org/licenses/by/3.0/pr/" /><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by/3.0/pr/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,9 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
+    
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -45,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -385,17 +417,25 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
+      <div id="deed-foot">
+        
+
           
 
-        
-	<p id="disclaimer">
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Friskrivning</a> 
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  	</p>
+	  
+	    <a href="" id="disclaimer">Friskrivning</a>
+	    <div id="disclaimer_panel">
+	      <div class="hd">Friskrivning</div>
+	      <div class="bd"><p>
+Commons Deed är inte en licens. Det är endast en enkel sammanfattning för att förstå licenstexten. Det är en lättläst version av några av de viktigaste villkoren. Se det som ett användarvänligt gränssnitt till Legal Code. Commons Deed har ingen juridisk relevans och dess innehåll återfinns inte i licenstexten.
+</p>
+
+<p>
+Creative Commons är inte en advokatbyrå eller juridisk byrå och tillhandahåller inte juridiska tjänster. Att distribuera, visa eller länka till detta Commons Deed skapar inte ett klientförhållande.
+</p></div>
+	  </div>
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong>
 	</p>

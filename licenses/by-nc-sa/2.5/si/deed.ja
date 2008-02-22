@@ -6,10 +6,11 @@
     Attribution-Noncommercial-Share Alike 2.5 Slovenia
   </title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by-nc-sa/2.5/si/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,10 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -46,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -335,7 +366,7 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
           
-        
+  
 
         <div id="deed-rights" align="left" dir="">
 
@@ -399,17 +430,25 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
+      <div id="deed-foot">
+        
+
           
 
-        
-	<p id="disclaimer">
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">免責条項</a> 
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  	</p>
+	  
+	    <a href="" id="disclaimer">免責条項</a>
+	    <div id="disclaimer_panel">
+	      <div class="hd">免責条項</div>
+	      <div class="bd"><p>
+コモンズ証は使用許諾条件ではありません。法的条項（使用許諾条件全文）を理解するのに便利な単なるリファレンス（参照）で、重要な条件の一部を一般の方にわかりやすいように表現したものです。背後にある法的条項への、利用者が使いやすいインターフェイスであると考えてください。この「コモンズ証」それ自体に法的な意味はありませんし、その内容は実際の使用許諾条件には書いてありません。
+</p>
+
+<p>
+クリエイティブ・コモンズは法律事務所ではありませんし、法律業務を行いません。この「コモンズ証」を頒布したり、展示したりまたはこれにリンクを貼ったりすることは弁護士・依頼者の関係を形成するものではありません。
+</p></div>
+	  </div>
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>上記によってあなたのフェアユースその他の権利が影響を受けることはまったくありません。</strong>
 	</p>

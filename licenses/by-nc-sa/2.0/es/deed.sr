@@ -6,10 +6,11 @@
     Attribution-Noncommercial-Share Alike 2.0 Spain
   </title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by-nc-sa/2.0/es/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,10 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -46,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -335,7 +366,7 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
           
-        
+  
 
         <div id="deed-rights" align="left" dir="">
 
@@ -400,17 +431,25 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
+      <div id="deed-foot">
+        
+
           
 
-        
-	<p id="disclaimer">
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Изјава</a> 
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  	</p>
+	  
+	    <a href="" id="disclaimer">Изјава</a>
+	    <div id="disclaimer_panel">
+	      <div class="hd">Изјава</div>
+	      <div class="bd"><p>
+The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full license) &mdash; it is a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in the actual license.
+</p>
+
+<p>
+Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.
+</p></div>
+	  </div>
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>Све претходно не утиче на законска ограничења ауторског права и на друга права гарантована законом.   </strong>
 	</p>

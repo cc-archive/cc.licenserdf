@@ -6,10 +6,11 @@
     Attribution-Noncommercial-No Derivative Works 2.0 Croatia
   </title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by-nc-nd/2.0/hr/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,10 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -46,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -333,7 +364,7 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
           
-        
+  
 
         <div id="deed-rights" align="left" dir="">
 
@@ -396,17 +427,26 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
+      <div id="deed-foot">
+        
+
           
 
-        
-	<p id="disclaimer">
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Забелешка</a> 
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  	</p>
+	  
+	    <a href="" id="disclaimer">Забелешка</a>
+	    <div id="disclaimer_panel">
+	      <div class="hd">Забелешка</div>
+	      <div class="bd"><p>
+Комонс дид (Commons Deed) не е лиценца. Тоа е само корисна референца за да го разберете Правниот код (целосната лиценца) – тоа е разбирлив приказ на некои клучни термини. 
+Сметајте дека Комонс дид претставува разбирлив интерфејс на Правниот код во позадина. Самиот по себе Комонс дид нема правна вредност и неговата содржина не се појавува во конкретната лиценца.
+</p>
+
+<p>
+Криејтив комонс не е правна фирма и не обезбедува правни услуги. Дистрибуирање, прикажување или поставување врски до овој Комонс дид не воспоставува однос застапник-клиент.
+</p></div>
+	  </div>
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</strong>
 	</p>

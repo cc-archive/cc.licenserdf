@@ -6,10 +6,11 @@
     Attribution-Noncommercial-Share Alike 1.0 Israel
   </title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by-nc-sa/1.0/il/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,10 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -46,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -335,7 +366,7 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
           
-        
+  
 
         <div id="deed-rights" align="left" dir="">
 
@@ -401,17 +432,25 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
+      <div id="deed-foot">
+        
+
           
 
-        
-	<p id="disclaimer">
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">Advertencia</a> 
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  	</p>
+	  
+	    <a href="" id="disclaimer">Advertencia</a>
+	    <div id="disclaimer_panel">
+	      <div class="hd">Advertencia</div>
+	      <div class="bd"><p>
+Este resumen no es una licencia. Es simplemente una referencia práctica para entender el Texto Legal (la licencia completa) — es un redactado inteligible por cualquiera de algunos de los términos clave de la licencia. Se trata de una interficie amigable del Texto Legal que hay debajo. Este resumen por si mismo no tiene valor legal, y su contenido no aparece en la auténtica licencia.
+</p>
+
+<p>
+Creative Commons no es un bufete de abogados y no ofrece servicios legales. La distribución, la muestra, o el enlace de este Resumen no crea ningun vínculo abogado-cliente. 
+</p></div>
+	  </div>
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>Los derechos derivados de usos legítimos u otras limitaciones reconocidas por ley no se ven afectados por lo anterior.</strong>
 	</p>

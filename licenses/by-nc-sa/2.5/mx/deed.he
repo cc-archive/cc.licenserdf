@@ -6,10 +6,11 @@
     Attribution-Noncommercial-Share Alike 2.5 Mexico
   </title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by-nc-sa/2.5/mx/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-rtl.css"
           media="screen" />
@@ -36,10 +37,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -48,7 +79,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -337,7 +368,7 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-main" align="right" dir="rtl">
        <div id="deed-main-content">
           
-        
+  
 
         <div id="deed-rights" align="right" dir="rtl">
 
@@ -401,17 +432,23 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
+      <div id="deed-foot">
+        
+
           
 
-        
-	<p id="disclaimer">
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">הגבלת אחריות</a> 
-          <a href="/licenses/disclaimer-popup"
-             onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;">
-            <img src="/images/popup.gif" width="15" height="13" alt="disclaimer" border="0" /></a>
-  	</p>
+	  
+	    <a href="" id="disclaimer">הגבלת אחריות</a>
+	    <div id="disclaimer_panel">
+	      <div class="hd">הגבלת אחריות</div>
+	      <div class="bd"><p dir="rtl" align="right">
+תעודה זו אינה מהווה רישיון. היא רק כלי-עזר להבנת המסמך המשפטי (הרישיון המלא) &mdash; זהו ביטוי פשוט של חלק מהתנאים היסודיים של הרישיון. ניתן לראות אותה כממשק ידידותי למשתמש של המסמך המשפטי שמאחוריה. לתעודה זו כשלעצמה אין כל ערך משפטי, ותוכנה אינו מופיע ברישיון האמיתי.</p>
+
+<p dir="rtl" align="right">
+ארגון Creative Commons אינו משרד עורכי-דין ואינו מספק שירותים משפטיים. הפצה, הצגה או קישור לתעודה זו אינם יוצרים יחסי עורך דין-לקוח.</div>
+	  </div>
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>זכותך לטיפול הוגן וזכויות אחרות הקבועות בדין אינן מושפעות בשום דרך על-ידי התנאים הנ"ל.</strong>
 	</p>
