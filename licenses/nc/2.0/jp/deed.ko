@@ -6,10 +6,11 @@
     Noncommercial 2.0 Japan
   </title>
 
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/nc/2.0/jp/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,10 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -46,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -333,7 +364,7 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-main" align="left" dir="">
        <div id="deed-main-content">
           
-        
+  
 
         <div id="deed-rights" align="left" dir="">
 
@@ -381,10 +412,10 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
-          
+      <div id="deed-foot">
+        
 
-        <p id="disclaimer"><p>
+          <p id="disclaimer"><p>
 커먼즈 증서(Commons Deed)는 그 자체로 이용허락조건은 아닙니다. 이용허락규약(Legal Code)의 내용을 쉽게 이해할 수 있도록 중요한 조건의 일부를 알기 쉽게 표현한 참조문입니다. 따라서 커먼즈 증서(Commons Deed) 그 자체에는 법적인 의미는 없으며 그 내용은 실제 이용허락조건에는 나타나지 않습니다. 구체적인 이용허락조건은 이용허락규약(Legal Code)에 의하여 결정됩니다. <a href="legalcode" class="fulltext">이용허락규약(Legal Code)은 여기를 클릭하세요</a>.  
 </p>
 
@@ -395,7 +426,9 @@ setCookie('lang','%s', expiry, '/');
 <p>
 크리에이티브 커먼즈 라이센스에 따라 이용이 허락된 저작물들은 그 라이센스를 적용한 분들에 의하여 제공되고 있습니다.크리에이티브 커먼즈 및 크리에이티브 커먼즈 코리아는 이용허락자가 저작물의 정당한 권리자임을 보증하지 않습니다. 라이센스의 적용 및 저작물의 이용에 관한 주의점은 <a href="http://creativecommons.or.kr/faq/faq.php">여기</a>를 클릭하세요.
 </p></p>
-	
+
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>저작권법에 따른 이용자의 권리는 위의 내용에 의하여 영향을 받지 않습니다.</strong>
 	</p>

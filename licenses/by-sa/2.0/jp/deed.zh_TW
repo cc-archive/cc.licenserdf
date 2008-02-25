@@ -6,10 +6,11 @@
     Attribution-Share Alike 2.0 Japan
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-sa/2.0/jp/" /><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by-sa/2.0/jp/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,9 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
+    
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -45,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -396,10 +428,10 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
-          
+      <div id="deed-foot">
+        
 
-        <p id="disclaimer"><p>
+          <p id="disclaimer"><p>
 授權標章 (Commons Deed) 並非授權條款，僅是讓一般人容易了解法律條款 (Legal Code，即完整的授權條款) 的參考文件、以易於理解的方式表達條款中某些關鍵字。授權標章本身不具法律價值，其內容亦不會出現在實際的授權條款中。<a href="legalcode" class="fulltext">請按此處察看完整的授權條款</a>。
 </p>
 
@@ -410,7 +442,9 @@ Creative Commons 及日本 Creative Commons 不是法律事務所；散布、展
 <p>
 依據創用 CC 授權條款所授權的產品係由適用於此授權條款之人所提供； Creative Commons 及日本 Creative Commons 並不擔保授權人有合法之權利。關於授權條款之適用，以及使用依據創用 CC 授權條款所授權之產品的資訊，請閱讀<a href="http://creativecommons.jp/faq/">此處</a>。
 </p></p>
-	
+
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>您合理使用的權利及其他的權利，不因上述內容而受影響。</strong>
 	</p>

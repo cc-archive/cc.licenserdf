@@ -6,10 +6,11 @@
     Attribution 2.1 Japan
   </title>
 
-    <base href="http://creativecommons.org/licenses/by/2.1/jp/" /><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by/2.1/jp/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,9 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
+    
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -45,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -385,10 +417,10 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
 
-       <div id="deed-foot">
-          
+      <div id="deed-foot">
+        
 
-        <p id="disclaimer"><p>
+          <p id="disclaimer"><p>
 Комонс дид (Commons Deed) не е лиценца. Тоа е само корисна референца за да го разберете Правниот код (целосната лиценца) – тоа е разбирлив приказ на некои клучни термини. Сметајте дека Комонс дид претставува разбирлив интерфејс на Правниот код во позадина. Самиот по себе Комонс дид нема правна вредност и неговата содржина не се појавува во конкретната лиценца. Конкретните услови на лиценцата се одредени во Правниот код.  <a href="legalcode" class="fulltext">Кликнете тука за да ја погледнете целосната лиценца.</a>.  
 </p>
 
@@ -398,7 +430,9 @@ setCookie('lang','%s', expiry, '/');
 
 <p>
 Производот лиценциран под лиценцата Криејтив комонс е даден од личноста која ја применила лиценцата. Криејтив комонс и Криејтив комонс Македонија не даваат никакви гаранции за давателот на лиценцата.</p></p>
-	
+
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</strong>
 	</p>

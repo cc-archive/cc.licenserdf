@@ -6,10 +6,11 @@
     Attribution-Share Alike 2.0 Japan
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-sa/2.0/jp/" /><link
-    rel="stylesheet" type="text/css"
-    href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
-    media="screen" />
+    <base href="http://creativecommons.org/licenses/by-sa/2.0/jp/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
     
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
@@ -34,9 +35,40 @@ setCookie('lang','%s', expiry, '/');
 </script>
 
 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
+    
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
+    <script type="text/javascript">
+
+function init_disclaimer() {
+var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
+	{ 
+	    close:true,  
+	    visible:false,  
+	    draggable:false,
+            width:'300px',
+            context:['disclaimer','br','tl']
+	} 
+); 
+panel_one.render();
+
+YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
+  function(e) {
+     panel_one.show();
+     e.preventDefault();
+  });
+
+}
+
+YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+    </script>
+
+
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
         _uacct="UA-2010376-1";  urchinTracker();
@@ -45,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
    
 
   </head>
-  <body onload="referrerMetadata()">
+  <body onload="referrerMetadata()" class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -397,15 +429,17 @@ Licencjodawcę</span>
       </div>
 
 
-       <div id="deed-foot">
-          
+      <div id="deed-foot">
+        
 
-        <p id="disclaimer"><p>Commons Deed nie jest licencją. To jedynie przystępne podsumowanie Tekstu Prawnego (pełnego tekstu licencji), który przedstawia kluczowe warunki licencji w sposób zrozumiały dla zwykłego czytelnika. Potraktujcie to jak przyjazny dla użytkownika interfejs do Tekstu Prawnego. Niniejszy Commons Deed nie ma mocy prawnej, a jego sformułowania nie występują we właściwej licencji. Commons Deed nie jest licencją, służyć ma jedynie jako pomocny odnośnik ułatwiający zrozumienie Zasad Prawnych (pełnego tekstu licencji). Jest to przystępne podsumowanie najważniejszych fragmentów licencji. Commons Deed nie ma żadnego znaczenia prawnego a sformułowania w nim zawarte nie są zaczerpnięte z licencji. Warunki licencji zapisane są w Tekście Prawnym licencji. <a href="legalcode" class="fulltext">Kliknij aby zobaczyć Tekst Prawny licencji.</a></p>
+          <p id="disclaimer"><p>Commons Deed nie jest licencją. To jedynie przystępne podsumowanie Tekstu Prawnego (pełnego tekstu licencji), który przedstawia kluczowe warunki licencji w sposób zrozumiały dla zwykłego czytelnika. Potraktujcie to jak przyjazny dla użytkownika interfejs do Tekstu Prawnego. Niniejszy Commons Deed nie ma mocy prawnej, a jego sformułowania nie występują we właściwej licencji. Commons Deed nie jest licencją, służyć ma jedynie jako pomocny odnośnik ułatwiający zrozumienie Zasad Prawnych (pełnego tekstu licencji). Jest to przystępne podsumowanie najważniejszych fragmentów licencji. Commons Deed nie ma żadnego znaczenia prawnego a sformułowania w nim zawarte nie są zaczerpnięte z licencji. Warunki licencji zapisane są w Tekście Prawnym licencji. <a href="legalcode" class="fulltext">Kliknij aby zobaczyć Tekst Prawny licencji.</a></p>
 <p>Creative Commons oraz Creative Commons Polska nie są firmami prawniczymi i nie świadczą usług prawnych. Rozpowszechnianie, publikowanie lub tworzenie odnośników do niniejszego Commons Deed nie uprawniają do żądania pomocy prawnej. Creative Commons oraz Creative Commons Polska nie są stroną licencji opisanej w niniejszym Commons Deed i oświadczają, iż nie ponoszą odpowiedzialności za jakiekolwiek użycie niniejszego Commons Deed lub poniższej, opisywanej przez niego licencji.
 </p>
 <p>Przedmiot niniejszej licencji Creative Commons został dostarczony przez osobę, która zastosowała licencję. Creative Commons oraz Creative Commons Polska nie dają żadnych gwarancji odnośnie osoby Licencjodawcy. <a href="http://creativecommons.jp/faq/">Tutaj</a> można przeczytać więcej na temat zastosowania licencji oraz pól eksploatacji Przedmiotu objętego licencjami Creative Commons.
 </p></p>
-	
+
+	  
+
         <p align="center" style="margin-top:40px">
 	  <strong>Powyższe postanowienia w żaden sposób nie naruszają uprawnień wynikających z dozwolonego użytku ani żadnych innych praw.</strong>
 	</p>
