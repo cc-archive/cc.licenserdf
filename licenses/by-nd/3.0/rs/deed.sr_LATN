@@ -6,7 +6,7 @@
     Attribution-No Derivative Works 3.0 Serbia
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-nd/3.0/rs/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
@@ -36,12 +36,13 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
+
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
     </script>
-
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
+
 <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
     <script type="text/javascript">
 
@@ -356,7 +357,7 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">Attribution-No Derivative Works 3.0 Serbia</h2>
+	        <h2 property="dc:title">Autorstvo-Bez prerada 3.0 Srbija</h2>
         </div>
       </div>
 
