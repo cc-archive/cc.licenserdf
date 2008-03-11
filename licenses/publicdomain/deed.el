@@ -93,7 +93,7 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">This page is available in the following languages:</span>
+<span align="left" dir="">Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:</span>
 <br />
 
 
@@ -369,13 +369,13 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
 
   <p align="center"><em>Copyright-Only Dedication (based on United States law) or Public Domain Certification</em></p>
 
-        <p>The person or persons who have associated work with this document (the "Dedicator" or "Certifier") hereby either (a) certifies that, to the best of his knowledge, the work of authorship identified is in the public domain of the country from which the work is published, or (b) hereby dedicates whatever copyright the dedicators holds in the work of authorship identified below (the "Work") to the public domain. A certifier, moreover, dedicates any copyright interest he may have in the associated work, and for these purposes, is described as a "dedicator" below.</p>
+        <p>Το άτομο ή τα άτομα που έχουν συσχετίσει έργο με αυτό το αρχείο(the "Dedicator" or "Certifier") με το παρόν είτε (α) πιστοποιούν ότι, εν γνώσει τους,το έργο του οποίου η πατρότητα  εξακριβώθηκε, ανήκει στα κοινά της χώρας στην οποία αυτό δημοσιεύτηκε, είτε (β) προσφέρουν στα κοινά οποιοδήποτε δικαίωμα πνευματικής ιδιοκτησίας έχει ο προσφέρων το έργο, η πατρότητα του οποίου διαπιστώνεται παρακάτω (the "Work"). Ο εξακριβών προσφέρει περαιτέρω οποιοδήποτε ενδιαφέρον επί των δικαιωμάτων πνευματικής ιδιοκτησίας  που τυχό έχει με το έργο που σχετίζεται και για τους λόγους αυτούς περιγράφεται σαν A certifier, moreover, dedicates any copyright interest he may have in the associated work, and for these purposes, is described ως "dedicator" παρακάτω.</p>
 
-        <p>A certifier has taken reasonable steps to verify the copyright status of this work. Certifier recognizes that his good faith efforts may not shield him from liability if in fact the work certified is not in the public domain.</p>
+        <p>Ο προσφέρων έχει κάνει  τις απαραίτητες ενέργειες προκειμένου να εξακριβώσει το καθεστώς σχετικά με τα δικαιώματα πνευματικής ιδιοκτησίας στο έργο αυτό. Ο προσφέρων αναγνωρίζει ότι όλες οι προσπάθειες που έκανε με καλή την πίστη δεν τον απαλάσσουν από τυχόν ευθύνη σε περίπτωση που το έργο του οποίου η πατρότητα εξακριβώθηκε δεν ανήκει στα κοινά   </p>
 
-        <p>Dedicator makes this dedication for the benefit of the public at large and to the detriment of the Dedicator's heirs and successors. Dedicator intends this dedication to be an overt act of relinquishment in perpetuity of all present and future rights under copyright law, whether vested or contingent, in the Work. Dedicator understands that such relinquishment of all rights includes the relinquishment of all rights to enforce (by lawsuit or otherwise) those copyrights in the Work.</p>
+        <p>Ο προσφέρων κάνει την προσφορά αυτή για το καλό του κοινού και εις βάρος των απογόνων και κληρονόμων του. Ο προσφέρων σκοπό έχει να αποτελεί η προσφορά του μία απροκάλυπτη πράξη εκχώρησης στο διηνεκές όλων των τωρινών και μελλοντικών δικαιωμάτων πνευματικής ιδιοκτησίας κεκτημένων ή ενδεχόμενων να προκύψουν στο μέλλον επί του έργου.</p>
 
-        <p>Dedicator recognizes that, once placed in the public domain, the Work may be freely reproduced, distributed, transmitted, used, modified, built upon, or otherwise exploited by anyone for any purpose, commercial or non-commercial, and in any way, including by methods that have not yet been invented or conceived.</p>
+        <p>Ο προσφέρων αναγνωρίζει ότι από τη στιγμή που θα εισέλθει στα κοινά, θα μπορεί ο καθένας ελεύθερα να αναπαράγει, να διανέμει , να μεταδίδει , να χρησιμοποιεί, να τροποιεί, να χτίζει πάνω στο έργο ή αλλιώς να το εκμεταλλεύεται ο καθένας για οποιονδήποτε σκοπό εμπορικό ή μη εμπορικό και με οποιονδήποτε τρόπο συμπεριλαμβανομένων και μεθόδων που δεν έχουν ακόμα εφευρεθεί ή συλληφθεί ως ιδέα.</p>
 
 </div>
        </div>
@@ -387,7 +387,7 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
        </div>
     </div>
     <p id="footer">
-      <a href="/about/licenses">Learn how to distribute your work using this license</a>
+      <a href="/about/licenses">Ενημερωθείτε για το πώς μπορείτε να διανέμετε το έργο σας χρησιμοποιώντας αυτήν την άδεια</a>
     </p>
 
   </body>

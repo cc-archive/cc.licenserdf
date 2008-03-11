@@ -88,7 +88,7 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">This page is available in the following languages:</span>
+<span align="left" dir="">Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:</span>
 <br />
 
 
@@ -362,13 +362,13 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
 
 <h3 rel="cc:permits"></h3>
 
-<p>The <span>GNU General Public License</span> is a <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> license. Like any Free Software license, it grants to you the four following freedoms:</p>
+<p>η <span>GNU General Public License</span> είναι μία <a href="http://www.gnu.org/philosophy/free-sw.html">ελέυθερο Λογισμικό</a> άδεια.Όπως κάθε άδεια ελεύθερου λογισμικού, σας παρέχει τις ακόλουθες τέσσερις ελευθερίες.</p>
 			
 			<ol start="0">
-				<li>The freedom to run the program for any purpose.</li>
-				<li>The freedom to study how the program works and adapt it to your needs.</li>
-				<li>The freedom to redistribute copies so you can help your neighbor.</li>
-				<li>The freedom to improve the program and release your improvements to the public, so that the whole community benefits.</li>
+				<li>Η ελευθερία να εκτελέσετε το πρόγραμμα για κάθε σκοπό.</li>
+				<li>Η ελευθερία να μελετήσετε πώς λειτουργεί το πρόγραμμα και να το προσαρμόσετε στις ανάγκες σας</li>
+				<li>Η ελευθερία να διανέμετε αντίγραφα έτσι ώστε να μπορείτε να βοηθάτε το διπλανό σας.</li>
+				<li>Η ελευθερία να βελτιώσετε το πρόγραμμα και να κυκλοφορήσετε τις βελτιώσεις σας στο κοινό, έτσι ώστε να επωφεληθεί ολόκληρη η κοινότητα</li>
 			</ol>
 </div>
     
@@ -376,20 +376,20 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
   <h3></h3>
 
 
-   <p />Μπορείτε να απολαμβάνετε τις ελευθερίες που ορίζονται εδώ εάν κι εφόσον συμφωνείτε  με τους όρους που εκφράζονται ρητώς στην άδεια. Οι βασικοί όροι είναι:
+   <p />Μπορείτε να απολαμβάνετε τις ελευθερίες που ορίζονται εδώ εάν κι εφόσον συμφωνείτε  με τους όρους που εκφράζονται ρητώς στην άδεια. Οι βασικοί όροι είναι :
    
 
    <ul align="left" dir=""> 
-     <li class="license notice">You must conspicuously and appropriately publish on each copy distributed an appropriate copyright notice and disclaimer of warranty and keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of the <span>GNU General Public License</span> along with the Program. Any translation of the <span>GNU General Public License</span> must be accompanied by the <span>GNU General Public License</span>.</li>
+     <li class="license notice">Μαζί με κάθε κάθε αντίγραφο που δημοσιεύετε, θα πρέπει αναλόγως  και  ευκρινώς  να έχετε ένα λογότυπο-υπόμνηση δικαιώματος πνευματικής ιδιοκτησίας και αποποίηση οποιασδήποτε εγγυήσεως και παράλληλα θα πρέπει να διατηρήσετε ανέπαφες όλες τις σημειώσεις που αναφέρονται σε αυτήν την άδεια και στην απουσία οποιασδήποτε εγγυήσεως και θα πρέπει να δώσετε σε οποιονδήποτε άλλον παραλήπτη του προγράμματος ένα αντίγραφο   <span>GNU General Public License</span> μαζί με το πρόγραμμα.Οποιαδήποτε μετάφραση<span>GNU General Public License</span> θα πρέπει να συνοδεύεται από την <span>GNU General Public License</span>.</li>
 
-     <li class="license sa">If you modify your copy or copies of the program or any portion of it, or develop a program based upon it, you may distribute the resulting work provided you do so under the <span>GNU General Public License</span>. Any translation of the <span>GNU General Public License</span> must be accompanied by the <span>GNU General Public License</span>.</li>
+     <li class="license sa">Εάν τροποποιήσεις το αντίγραφο ή τα αντίγραφα του προγράμματος ή κάθε μέρους αυτού, ή αναπτύξετε πρόγραμμα που βασίζεται σε αυτό, θα μπορείτε να διανέμετε το έργο που θα προκύψει εάν κι εφόσοντο πράξετε υπό  <span>GNU General Public License</span>. Any translation of the <span>GNU General Public License</span> πρέπει να συνοδεύεται από <span>GNU General Public License</span>.</li>
 
-     <li class="license src">If you copy or distribute the program, you must accompany it with the complete corresponding machine-readable source code or with a written offer, valid for at least three years, to furnish the complete corresponding machine-readable source code.</li>
+     <li class="license src">Εάν αναπαράγετε ή διανείμετε το πρόγραμμα, θα πρέπει να το συνοδεύσετε με ολοκληρωμένο τον ανάλογο πηγαίο κώδικα για τις αντίστοιχες μηχανές αναζήτησης ή με μία γραπτή προσφορά με ισχύ για τουλάχιστον τρία χρόνια με την οποία θα εφοδιάζετε ολόκληρο τον αντίστοιχο πηγαίο κώδικα, ο οποίος διαβάζετε από τις μηχανές αναζήτησης.</li>
    </ul>
      
 </div>
 
-<p>Any of the above conditions can be waived if you get permission from the copyright holder.</p> 
+<p>Κάθε ένας από τους παραπάνω όρους μπορεί να παρακαμφθεί εάν πάρετε άδεια από το δικαιούχο των δικαιωμάτων πνευματικής ιδιοκτησίας</p> 
 
 </div>
        </div>
@@ -402,21 +402,21 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
           
 
 	  
-	    <a href="" id="disclaimer">Disclaimer</a>
+	    <a href="" id="disclaimer">Αποποίηση</a>
 	    <div id="disclaimer_panel">
-	      <div class="hd">Disclaimer</div>
+	      <div class="hd">Αποποίηση</div>
 	      <div class="bd"><p>
-The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full license) &mdash; it is a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in the actual license.
+Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
 </p>
 
 <p>
-Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.
+Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίε. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
 </p></div>
 	  </div>
 	  
 
         <p align="center" style="margin-top:40px">
-	  <strong>Your fair dealing and other rights are in no way affected by the above.</strong>
+	  <strong>Οι χρήσεις που απορρέουν από τους νόμιμους περιορισμούς του περιουσιακού δικαιώματος, καθώς και άλλα δικαιώματά που έχετε, σε καμία περίπτωση δεν επηρεάζονται από τα παραπάνω</strong>
 	</p>
 
 	<p align="center">
@@ -426,7 +426,7 @@ Creative Commons is not a law firm and does not provide legal services. Distribu
     
 
     
-      This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is also available.
+      Αυτή είναι μία εύληπτη για τον απλό χρήστη περίληψη του Νομικού Μέρους  (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). A <a href="legalcode.pt">Πορτογαλική έκδοση</a> είναι επίσης διαθέσιμη.
     
 
     
@@ -436,7 +436,7 @@ Creative Commons is not a law firm and does not provide legal services. Distribu
        </div>
     </div>
     <p id="footer">
-      <a href="/about/licenses">Learn how to distribute your work using this license</a>
+      <a href="/about/licenses">Ενημερωθείτε για το πώς μπορείτε να διανέμετε το έργο σας χρησιμοποιώντας αυτήν την άδεια</a>
     </p>
 
   </body>
