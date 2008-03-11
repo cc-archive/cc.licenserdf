@@ -97,7 +97,7 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">This page is available in the following languages:</span>
+<span align="left" dir="">Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:</span>
 <br />
 
 
@@ -373,32 +373,32 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
 <a href="/worldwide/jp/"><img
     src="/images/international/jp.png" border="0" /></a>
 <h3 rel="cc:permits"
-    href="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+    href="http://creativecommons.org/ns#Reproduction">Είστε ελεύθερος:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
-       href="http://creativecommons.org/ns#Distribution"><strong>to Share</strong> — to copy, distribute and transmit the work</li>
+       href="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
 			      <li class="license remix" rel="cc:permits"
-             href="http://creativecommons.org/ns#DerivativeWorks"><strong>to Remix</strong> — to adapt the work</li>
+             href="http://creativecommons.org/ns#DerivativeWorks"><strong>να διασκευάσετε</strong> —να υιοθετήσετε το έργο</li>
 <span id="devnations-container" />
 		      </ul>
         </div>
         <div id="deed-conditions">
-		      <h3>Under the following conditions:</h3>
+		      <h3>Υπό τις ακόλουθες προϋποθέσεις:</h3>
 	        <ul align="left" dir=""> 
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Share Alike</strong>. 
+	            <p><strong>Παρόμοια διανομή</strong>. 
               
-              <span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</span>
+              <span>Εάν αλλοιώσετε, τροποιήσετε ή χτίσετε πάνω στο έργο θα μπορείτε να διανείμετε το έργο που θα προκύψει μόνο με την ίδια ή παρόμοια άδεια</span>
               <span id="sa-more-container" /></p>
             </li>
             <li id="more-container" class="license-hidden" />
             <li rel="cc:requires"
-                href="http://creativecommons.org/ns#Notice">For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.</li>
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
+                href="http://creativecommons.org/ns#Notice">Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.</li>
+            <li>Κάθε ένας από τους παραπάνω όρους μπορεί να παρακαμφθεί εάν πάρετε άδεια από το δικαιούχο των δικαιωμάτων πνευματικής ιδιοκτησίας</li>
             
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
+            <li>Τίποτα στην άδεια αυτή δεν αποδυναμώνει ήπεριορίζει το ηθικό δικαίωμα του δημιουργού</li>
             
             
           </ul>
@@ -416,21 +416,21 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
         
 
           <p id="disclaimer"><p>
-The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full License) — it is a human-readable expression of some of its key terms. This Deed itself has no legal value, and its contents do not appear in the actual License.  The actual terms of the license is set forth by the Legal Code.  <a href="legalcode" class="fulltext">Please click here to see the full License</a>.  
+Το περιληπτικό μέρος δεν αποτελεί άδεια. Πρόκειται απλά για μία εύληπτη αναφορά προκειμένου να κατανοήσετε το νομικό μέρος — είναι μία εύληπτη έκδοση για τον απλό μη νομομαθή χρήστη των βασικών εννοιών της άδειας. Το Περιληπτικό Μέρος από μόνο του δεν έχει καμία νομική ισχύ, και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.  Οι πραγματικοί όροι της άδειας εμφανίζονται στο Νομικό Μέρος.  <a href="legalcode" class="fulltext">Παρακαλώ πατήστε εδώ προκειμένου να δείτε ολόκληρη την άδεια</a>.  
 </p>
 
 <p>
-Creative Commons and Creative Commons Japan are not law firms, and distributing of or displaying of, or linking to the Commons Deed does not constitute an offer of legal advice or any other legal services. Creative Commons and Creative Commons Japan are not a party to the License underlying this Commons Deed, and disclaim liablity for damages resulting from any use of the Commons Deed and the underlying License.
+Το νομικό πρόσωπο Creative Commons και το Creative Commons Ελλάδος δεν είναι δικηγορικές εταιρίες, και η διανομή, η εμφάνιση και η σύνδεση με το Περιληπτικό Μέρος δεν αποτελεί παροχή νομικής συμβουλής ούτε  παροχή οιωνδήποτε νομικών υπηρεσιών. Το νομικό πρόσωπο Creative Commons και το Creative Commons Ελλάδας δεν είναι συμβαλλόμενοι στην άδεια που υπόκειται αυτού του Περλιπτικού Μέρους  και αποποιείται οποιαδήποτε ευθύνη για ζημιές που θα προκύψουν από οποιαδήποτε χρήση του Περιληπτικού Μέρους και της υποκείμενης άδειας.
 </p>
 
 <p>
-The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href="http://creativecommons.jp/faq/">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.
+Το Προϊόν που διέπεται από άδεια Creative Commons παραχωρείται από το άτομο που εφάρμοσε την άδεια.  Το νομικό πρόσωπο Creative Commons και το Creative Commons Ελλάδας δεν παρέχουν εγγυήσεις σχετικά με τον τίτλο του χορηγούντος την άδεια.  Παρακαλώ  διαβάστε<a href="http://creativecommons.jp/faq/">εδώ</a> για πληροφορίες σχετικά με την εφαρμογή των αδειών και την εκμετάλλευση του Προϊόντος που διέπεται από άδειες Creative Commons.
 </p></p>
 
 	  
 
         <p align="center" style="margin-top:40px">
-	  <strong>Your fair dealing and other rights are in no way affected by the above.</strong>
+	  <strong>Οι χρήσεις που απορρέουν από τους νόμιμους περιορισμούς του περιουσιακού δικαιώματος, καθώς και άλλα δικαιώματά που έχετε, σε καμία περίπτωση δεν επηρεάζονται από τα παραπάνω</strong>
 	</p>
 
 	<p align="center">
@@ -441,14 +441,14 @@ The Product licensed under Creative Commons License is provided by the person wh
 
     
 
-    This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
+    Αυτό είναι  μία εύληπτο στο μη νονμομαθή χρήστη περίληψη του <a href="legalcode" class="fulltext">Νομικού Μέρους (η πλήρης άδεια)</a>.
  </p>
 
          
        </div>
     </div>
     <p id="footer">
-      <a href="/about/licenses">Learn how to distribute your work using this license</a>
+      <a href="/about/licenses">Ενημερωθείτε για το πώς μπορείτε να διανέμετε το έργο σας χρησιμοποιώντας αυτήν την άδεια</a>
     </p>
 
   </body>
