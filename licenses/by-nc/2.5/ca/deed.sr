@@ -6,7 +6,7 @@
     Attribution-Noncommercial 2.5 Canada
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-nc/2.5/ca/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+    <base href="http://creativecommons.org/licenses/by-nc/2.5/ca/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
@@ -44,28 +44,29 @@ setCookie('lang','%s', expiry, '/');
     
 <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
     <script type="text/javascript">
-
+<!--
 function init_disclaimer() {
-var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
-	{ 
-	    close:true,  
-	    visible:false,  
-	    draggable:false,
-            width:'300px',
-            context:['disclaimer','br','tl']
-	} 
-); 
-panel_one.render();
+   var pnl_disclaimer = new YAHOO.widget.Panel("disclaimer_panel", { 
+       close:true,  
+       visible:false,  
+       draggable:false,
+       width:'300px',
+       context:['disclaimer','br','tl']
+       } ); 
+   pnl_disclaimer.render();
 
-YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
-  function(e) {
-     panel_one.show();
-     e.preventDefault();
-  });
+   YAHOO.util.Event.addListener("disclaimer", "click",
+       function(e) {
+           pnl_disclaimer.show();
+           YAHOO.util.Event.stopEvent(e);
+       }
+   );
 
-}
+} // init_disclaimer
 
-YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+YAHOO.util.Event.onDOMReady(init_disclaimer);
+
+-->
     </script>
 
 
@@ -129,6 +130,12 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" lang="el">Ελληνικά</a>
 
 
 
@@ -431,11 +438,11 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
 	    <div id="disclaimer_panel">
 	      <div class="hd">Изјава</div>
 	      <div class="bd"><p>
-The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full license) &mdash; it is a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in the actual license.
+Основни опис није лиценца. То је само практично упутство за разумевање Лиценце (садржаја уговора у целини) &mdash; то је лако схватљиво изражавање основних услова Лиценце. Представља објашњење које претходи уговору у целини. Основни опис нема правно дејство и не чини саставни део ове Лиценце.
 </p>
 
 <p>
-Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.
+Creative Commons није адвокатска канеларије и не пружа правне услуге. Дистрибуцијом, приказивањем или линком на овај опис не успоставља се правни однос с Creative Commons.
 </p></div>
 	  </div>
 	  

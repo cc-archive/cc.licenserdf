@@ -6,7 +6,7 @@
     Attribution-Noncommercial-Share Alike 2.5 Brazil
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-nc-sa/2.5/br/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css"> 
+    <base href="http://creativecommons.org/licenses/by-nc-sa/2.5/br/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
@@ -44,28 +44,29 @@ setCookie('lang','%s', expiry, '/');
     
 <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
     <script type="text/javascript">
-
+<!--
 function init_disclaimer() {
-var panel_one = new YAHOO.widget.Panel("disclaimer_panel", 
-	{ 
-	    close:true,  
-	    visible:false,  
-	    draggable:false,
-            width:'300px',
-            context:['disclaimer','br','tl']
-	} 
-); 
-panel_one.render();
+   var pnl_disclaimer = new YAHOO.widget.Panel("disclaimer_panel", { 
+       close:true,  
+       visible:false,  
+       draggable:false,
+       width:'300px',
+       context:['disclaimer','br','tl']
+       } ); 
+   pnl_disclaimer.render();
 
-YAHOO.util.Event.addListener(YAHOO.util.Dom.get("disclaimer"), 'click',
-  function(e) {
-     panel_one.show();
-     e.preventDefault();
-  });
+   YAHOO.util.Event.addListener("disclaimer", "click",
+       function(e) {
+           pnl_disclaimer.show();
+           YAHOO.util.Event.stopEvent(e);
+       }
+   );
 
-}
+} // init_disclaimer
 
-YAHOO.util.Event.addListener(window,'load',init_disclaimer);
+YAHOO.util.Event.onDOMReady(init_disclaimer);
+
+-->
     </script>
 
 
@@ -99,7 +100,7 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:</span>
+<span align="left" dir="">This page is available in the following languages:</span>
 <br />
 
 
@@ -130,6 +131,12 @@ YAHOO.util.Event.addListener(window,'load',init_disclaimer);
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" lang="el">Ελληνικά</a>
 
 
 
