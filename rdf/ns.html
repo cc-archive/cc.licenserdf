@@ -1,4 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+"http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" 
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:rddl="http://www.rddl.org/"
@@ -8,7 +9,7 @@
       xmlns:owl="http://www.w3.org/2002/07/owl#"
       xmlns:cc="http://creativecommons.org/ns#"
       xml:lang="en-US" lang="en-US">
- <head profile="RDFA_PROFILE">
+ <head profile="http://www.w3.org/1999/xhtml/vocab">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     
   <title>Describing Copyright in RDF- Creative Commons</title>
@@ -73,9 +74,13 @@
           <div id="page">
             <div class="post" >
 
-<p>The Creative Commons schema lets you describe copyright licenses in RDF.</p>
+<p>The Creative Commons schema lets you describe copyright licenses in
+  RDF.  For more information on describing licenses in RDF and
+  attaching those descriptions to digital works,
+  see <a href="http://wiki.creativecommons.org/ccREL">ccREL</a>.
+</p>
 
-<h3>Classes</h3>
+<h2>Classes</h2>
 
 <div id="Work" about="#Work" instanceof="rdfs:Class">
     <h4 property="rdfs:label">Work</h4>
@@ -107,7 +112,7 @@
     <span property="rdfs:comment">something you may be asked not to do</span>
 </div>
 
-<h3>Permissions</h3>
+<h2>Permissions</h2>
 
 <div id="Reproduction" about="#Reproduction" instanceof="cc:Permission">
     <h4 property="rdfs:label">Reproduction</h4>
@@ -135,36 +140,36 @@
     <span property="rdfs:comment">permits commercial derivatives, but only non-commercial distribution</span>
 </div>
 
-<h3>Requirements</h3>
+<h2>Requirements</h2>
 
 <div id="Notice" about="#Notice" instanceof="cc:Requirement">
-    <h4 property="rdfs:label">copyright notices</h4>
+    <h4 property="rdfs:label">Notice</h4>
     <span property="rdfs:comment">copyright and license notices be kept intact</span>
 </div>
 
 <div id="Attribution" about="#Attribution" instanceof="cc:Requirement">
-    <h4 property="rdfs:label">attribution</h4>
+    <h4 property="rdfs:label">Attribution</h4>
     <span property="rdfs:comment">credit be given to copyright holder and/or author</span>
 </div>
 
 <div id="ShareAlike" about="#ShareAlike" instanceof="cc:Requirement">
-    <h4 property="rdfs:label">share alike</h4>
+    <h4 property="rdfs:label">Share Alike</h4>
     <span property="rdfs:comment">derivative works be licensed under the same terms as the original work</span>
 </div>
 
 <div id="SourceCode" about="#SourceCode" instanceof="cc:Requirement">
-    <h4 property="rdfs:label">source code</h4>
+    <h4 property="rdfs:label">Source Code</h4>
     <span property="rdfs:comment">source code (the preferred form for making modifications) must be provided for all derivative works</span>
 </div>
 
-<h3>Prohibitions</h3>
+<h2>Prohibitions</h2>
 
 <div id="CommercialUse" about="#CommercialUse" instanceof="cc:Prohibition">
-    <h4 property="rdfs:label">commercial use</h4>
+    <h4 property="rdfs:label">Commercial Use</h4>
     <span property="rdfs:comment">exercising rights for commercial purposes</span>
 </div>
 
-<h3>Properties</h3>
+<h2>License Properties</h2>
 
 <div id="license" about="#license" instanceof="rdf:Property">
     <h4>cc:license</h4>
@@ -186,6 +191,8 @@
     <h4>cc:prohibits</h4>
     A <a rel="rdfs:domain" href="#License">License</a> <span property="rdfs:label">prohibits</span> a <a rel="rdfs:range" href="#Prohibition">Prohibition</a>.
 </div>
+
+<h2>Work Properties</h2>
 
 <div id="morePermissions" about="#morePermissions" instanceof="rdf:Property">
   <h4>cc:morePermissions</h4>
