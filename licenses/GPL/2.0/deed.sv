@@ -6,7 +6,7 @@
     GNU General Public License
   </title>
 
-    <base href="http://creativecommons.org/licenses/GPL/2.0/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css" /> 
+    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
@@ -36,39 +36,24 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    </script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    </script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    </script>
+
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
+            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
     </script>
-
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
-<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
-    <script type="text/javascript">
-<!--
-function init_disclaimer() {
-   var pnl_disclaimer = new YAHOO.widget.Panel("disclaimer_panel", { 
-       close:true,  
-       visible:false,  
-       draggable:false,
-       width:'300px',
-       context:['disclaimer','br','tl']
-       } ); 
-   pnl_disclaimer.render();
 
-   YAHOO.util.Event.addListener("disclaimer", "click",
-       function(e) {
-           pnl_disclaimer.show();
-           YAHOO.util.Event.stopEvent(e);
-       }
-   );
-
-} // init_disclaimer
-
-YAHOO.util.Event.onDOMReady(init_disclaimer);
-
--->
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
     </script>
 
+    <script type="text/javascript"
+            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+    </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -78,18 +63,21 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
    
 
   </head>
-  <body onload="referrerMetadata()" class="yui-skin-sam">
+  <body class="yui-skin-sam">
 
     
     
 
     <div id="header">
-    <p align="center"><a href="/">Creative Commons</a></p>
+    <p align="center">
+      <a rel="dc:creator" href="http://creativecommons.org/">
+	<span property="dc:title">Creative Commons</span>
+    </a></p>
 
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">This page is available in the following languages:</span>
+<span align="left" dir="">Denna sida finns tillgänglig på följande språk:</span>
 <br />
 
 
@@ -178,8 +166,14 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 
 
-<a href="./deed.es_CO" title="Spanish (CO)" hreflang="es_CO"
-   rel="alternate nofollow" lang="es_CO">Spanish (CO)</a>
+<a href="./deed.es_CO" title="Castellano (CO)"
+   hreflang="es_CO" rel="alternate nofollow" lang="es_CO">Castellano (CO)</a>
+
+
+
+
+<a href="./deed.es_EC" title="Español (Ecuador)"
+   hreflang="es_EC" rel="alternate nofollow" lang="es_EC">Español (Ecuador)</a>
 
 
 
@@ -298,6 +292,12 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 
 
+<a href="./deed.ro" title="română" hreflang="ro"
+   rel="alternate nofollow" lang="ro">română</a>
+
+
+
+
 <a href="./deed.sl" title="slovenski jezik" hreflang="sl"
    rel="alternate nofollow" lang="sl">slovenski jezik</a>
 
@@ -329,8 +329,8 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 
 
-<a href="./deed.zh" title="简体中文" hreflang="zh"
-   rel="alternate nofollow" lang="zh">简体中文</a>
+<a href="./deed.zh" title="中文" hreflang="zh"
+   rel="alternate nofollow" lang="zh">中文</a>
 
 
 
