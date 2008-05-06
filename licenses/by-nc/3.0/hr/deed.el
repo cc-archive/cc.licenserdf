@@ -6,7 +6,7 @@
     Attribution-Noncommercial 3.0 Croatia
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-nc/3.0/hr/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css" /> 
+    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
@@ -36,39 +36,24 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    </script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    </script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    </script>
+
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
+            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
     </script>
-
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
-<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
-    <script type="text/javascript">
-<!--
-function init_disclaimer() {
-   var pnl_disclaimer = new YAHOO.widget.Panel("disclaimer_panel", { 
-       close:true,  
-       visible:false,  
-       draggable:false,
-       width:'300px',
-       context:['disclaimer','br','tl']
-       } ); 
-   pnl_disclaimer.render();
 
-   YAHOO.util.Event.addListener("disclaimer", "click",
-       function(e) {
-           pnl_disclaimer.show();
-           YAHOO.util.Event.stopEvent(e);
-       }
-   );
-
-} // init_disclaimer
-
-YAHOO.util.Event.onDOMReady(init_disclaimer);
-
--->
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
     </script>
 
+    <script type="text/javascript"
+            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+    </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -78,7 +63,7 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
    
 
   </head>
-  <body onload="referrerMetadata()" class="yui-skin-sam">
+  <body class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -94,12 +79,15 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
    -->
 
     <div id="header">
-    <p align="center"><a href="/">Creative Commons</a></p>
+    <p align="center">
+      <a rel="dc:creator" href="http://creativecommons.org/">
+	<span property="dc:title">Creative Commons</span>
+    </a></p>
 
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">This page is available in the following languages:</span>
+<span align="left" dir="">Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:</span>
 <br />
 
 
@@ -130,6 +118,12 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" lang="el">Ελληνικά</a>
 
 
 
@@ -182,8 +176,14 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 
 
-<a href="./deed.es_CO" title="Spanish (CO)" hreflang="es_CO"
-   rel="alternate nofollow" lang="es_CO">Spanish (CO)</a>
+<a href="./deed.es_CO" title="Castellano (CO)"
+   hreflang="es_CO" rel="alternate nofollow" lang="es_CO">Castellano (CO)</a>
+
+
+
+
+<a href="./deed.es_EC" title="Español (Ecuador)"
+   hreflang="es_EC" rel="alternate nofollow" lang="es_EC">Español (Ecuador)</a>
 
 
 
@@ -302,6 +302,12 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 
 
+<a href="./deed.ro" title="română" hreflang="ro"
+   rel="alternate nofollow" lang="ro">română</a>
+
+
+
+
 <a href="./deed.sl" title="slovenski jezik" hreflang="sl"
    rel="alternate nofollow" lang="sl">slovenski jezik</a>
 
@@ -333,8 +339,8 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 
 
-<a href="./deed.zh" title="简体中文" hreflang="zh"
-   rel="alternate nofollow" lang="zh">简体中文</a>
+<a href="./deed.zh" title="中文" hreflang="zh"
+   rel="alternate nofollow" lang="zh">中文</a>
 
 
 
@@ -359,7 +365,7 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">Attribution-Noncommercial 3.0 Croatia</h2>
+	        <h2 property="dc:title">Αναφορά-Μη Εμπορική Χρήση 3.0 Κροατία</h2>
         </div>
       </div>
 
@@ -375,40 +381,76 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 <a href="/worldwide/hr/"><img
     src="/images/international/hr.png" border="0" /></a>
 <h3 rel="cc:permits"
-    href="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+    href="http://creativecommons.org/ns#Reproduction">Είστε ελεύθερος:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
-       href="http://creativecommons.org/ns#Distribution"><strong>to Share</strong> — to copy, distribute and transmit the work</li>
+       href="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
 			      <li class="license remix" rel="cc:permits"
-             href="http://creativecommons.org/ns#DerivativeWorks"><strong>to Remix</strong> — to adapt the work</li>
-<span id="devnations-container" />
+             href="http://creativecommons.org/ns#DerivativeWorks"><strong>να διασκευάσετε</strong> —να υιοθετήσετε το έργο</li>
+            <li id="more-container" class="license-hidden" />
+	    <span id="devnations-container" />
 		      </ul>
         </div>
         <div id="deed-conditions">
-		      <h3>Under the following conditions:</h3>
-	        <ul align="left" dir=""> 
+	  <h3>Υπό τις ακόλουθες προϋποθέσεις:</h3>
+
+	  <ul align="left" dir=""> 
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Attribution</strong>. 
-              <span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
-              
-              <span id="by-more-container" /></p>
+	      <p><strong>Αναφορά</strong>. 
+		<span id="attribution-container">Θα πρέπει να κάνετε την αναφέρετε 
+στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγών την άδεια (αλλά όχι με τρόπο που να υποδηλώνει οτι παρέχουν επίσημη έγκριση σε σας ή για χρήση του έργου από εσάς).</span>
+		
+		<span id="by-more-container" />
+	      </p>
+
+	      
+		<p id="work-attribution-container" style="display:none;">
+		  <strong>Attribute this work:</strong><br />
+		  <input id="work-attribution" value="" type="text" readonly onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
+		  <input id="license-code" type="hidden"
+           value="CC BY-NC 3.0" />
+		  <input id="license-url" type="hidden"
+           value="http://creativecommons.org/licenses/by-nc/3.0/hr/" />
+		<a href="" id="attribution_help">
+		  <img src="http://creativecommons.org/licenses/@@/cc/images/information.png" />
+		</a>
+		</p>
+		<div id="attribution_help_panel">
+		  <div class="hd">
+		    What does "Attribute this work" mean?
+		  </div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
+		</div>
+
+	      
+
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	            <p><strong>Noncommercial</strong>. 
-              
-              <span>You may not use this work for commercial purposes.</span>
-              <span id="nc-more-container" /></p>
+	      <p><strong>Μη Εμπορική Χρήση</strong>. 
+		
+		<span>Δε μπορείτε να χρησιμοποιήσετε το έργο για εμπορικούς σκοπούς.</span>
+		<span id="nc-more-container" />
+	      </p>
+
+	      
+
             </li>
-            <li id="more-container" class="license-hidden" />
             <li rel="cc:requires"
-                href="http://creativecommons.org/ns#Notice">For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.</li>
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
+                href="http://creativecommons.org/ns#Notice">Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.</li>
+            <li>Κάθε ένας από τους παραπάνω όρους μπορεί να παρακαμφθεί εάν πάρετε άδεια από το δικαιούχο των δικαιωμάτων πνευματικής ιδιοκτησίας</li>
             
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
+            <li>Τίποτα στην άδεια αυτή δεν αποδυναμώνει ήπεριορίζει το ηθικό δικαίωμα του δημιουργού</li>
             
             
           </ul>
@@ -428,21 +470,21 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
           
 
 	  
-	    <a href="" id="disclaimer">Disclaimer</a>
+	    <a href="" id="disclaimer">Αποποίηση</a>
 	    <div id="disclaimer_panel">
-	      <div class="hd">Disclaimer</div>
+	      <div class="hd">Αποποίηση</div>
 	      <div class="bd"><p>
-The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full license) &mdash; it is a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in the actual license.
+Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
 </p>
 
 <p>
-Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.
+Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίε. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
 </p></div>
 	  </div>
 	  
 
         <p align="center" style="margin-top:40px">
-	  <strong>Your fair dealing and other rights are in no way affected by the above.</strong>
+	  <strong>Οι χρήσεις που απορρέουν από τους νόμιμους περιορισμούς του περιουσιακού δικαιώματος, καθώς και άλλα δικαιώματά που έχετε, σε καμία περίπτωση δεν επηρεάζονται από τα παραπάνω</strong>
 	</p>
 
 	<p align="center">
@@ -453,14 +495,14 @@ Creative Commons is not a law firm and does not provide legal services. Distribu
 
     
 
-    This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
+    Αυτό είναι  μία εύληπτο στο μη νονμομαθή χρήστη περίληψη του <a href="legalcode" class="fulltext">Νομικού Μέρους (η πλήρης άδεια)</a>.
  </p>
 
          
        </div>
     </div>
     <p id="footer">
-      <a href="/about/licenses">Learn how to distribute your work using this license</a>
+      <a href="/about/licenses">Ενημερωθείτε για το πώς μπορείτε να διανέμετε το έργο σας χρησιμοποιώντας αυτήν την άδεια</a>
     </p>
 
   </body>
