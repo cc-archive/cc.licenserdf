@@ -6,7 +6,7 @@
     Attribution-Noncommercial-Share Alike 3.0 Puerto Rico
   </title>
 
-    <base href="http://creativecommons.org/licenses/by-nc-sa/3.0/pr/" /><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/container/assets/skins/sam/container.css" /> 
+    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
@@ -36,39 +36,24 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    </script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    </script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    </script>
+
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/ccdeed.js">
+            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
     </script>
-
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
     
-<script type="text/javascript" src="http://yui.yahooapis.com/2.5.0/build/container/container-min.js"></script> 
-    <script type="text/javascript">
-<!--
-function init_disclaimer() {
-   var pnl_disclaimer = new YAHOO.widget.Panel("disclaimer_panel", { 
-       close:true,  
-       visible:false,  
-       draggable:false,
-       width:'300px',
-       context:['disclaimer','br','tl']
-       } ); 
-   pnl_disclaimer.render();
 
-   YAHOO.util.Event.addListener("disclaimer", "click",
-       function(e) {
-           pnl_disclaimer.show();
-           YAHOO.util.Event.stopEvent(e);
-       }
-   );
-
-} // init_disclaimer
-
-YAHOO.util.Event.onDOMReady(init_disclaimer);
-
--->
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
     </script>
 
+    <script type="text/javascript"
+            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+    </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -78,7 +63,7 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
    
 
   </head>
-  <body onload="referrerMetadata()" class="yui-skin-sam">
+  <body class="yui-skin-sam">
 
     <!-- 
 <rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -95,12 +80,15 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
    -->
 
     <div id="header">
-    <p align="center"><a href="/">Creative Commons</a></p>
+    <p align="center">
+      <a rel="dc:creator" href="http://creativecommons.org/">
+	<span property="dc:title">Creative Commons</span>
+    </a></p>
 
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">This page is available in the following languages:</span>
+<span align="left" dir="">Mukasurat ini boleh didapati dalam bahasa-bahasa berikut:</span>
 <br />
 
 
@@ -189,8 +177,14 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 
 
-<a href="./deed.es_CO" title="Spanish (CO)" hreflang="es_CO"
-   rel="alternate nofollow" lang="es_CO">Spanish (CO)</a>
+<a href="./deed.es_CO" title="Castellano (CO)"
+   hreflang="es_CO" rel="alternate nofollow" lang="es_CO">Castellano (CO)</a>
+
+
+
+
+<a href="./deed.es_EC" title="Español (Ecuador)"
+   hreflang="es_EC" rel="alternate nofollow" lang="es_EC">Español (Ecuador)</a>
 
 
 
@@ -309,6 +303,12 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 
 
+<a href="./deed.ro" title="română" hreflang="ro"
+   rel="alternate nofollow" lang="ro">română</a>
+
+
+
+
 <a href="./deed.sl" title="slovenski jezik" hreflang="sl"
    rel="alternate nofollow" lang="sl">slovenski jezik</a>
 
@@ -340,8 +340,8 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
 
 
 
-<a href="./deed.zh" title="简体中文" hreflang="zh"
-   rel="alternate nofollow" lang="zh">简体中文</a>
+<a href="./deed.zh" title="中文" hreflang="zh"
+   rel="alternate nofollow" lang="zh">中文</a>
 
 
 
@@ -388,37 +388,76 @@ YAHOO.util.Event.onDOMReady(init_disclaimer);
        href="http://creativecommons.org/ns#Distribution">untuk membuat salinan, mengedar, mempamer, atau mempersembahkan karya tersebut</li>
 			      <li class="license remix" rel="cc:permits"
              href="http://creativecommons.org/ns#DerivativeWorks">untuk membuat karya terbitan</li>
-<span id="devnations-container" />
+            <li id="more-container" class="license-hidden" />
+	    <span id="devnations-container" />
 		      </ul>
         </div>
         <div id="deed-conditions">
-		      <h3>Di bawah syarat-syarat berikut:</h3>
-	        <ul align="left" dir=""> 
+	  <h3>Di bawah syarat-syarat berikut:</h3>
+
+	  <ul align="left" dir=""> 
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	            <p><strong>Pengiktirafan</strong>. 
-              <span id="attribution-container">Anda mesti mengiktirafkan karya tersebut dalam cara yang ditentukan oleh pencipta atau pemberi lesen (tetapi tidak dalam sebarang cara yang mencadang yang mereka telah memberi sokongan kepada anda dan pengunaan anda karya tersebut).</span>
-              
-              <span id="by-more-container" /></p>
+	      <p><strong>Pengiktirafan</strong>. 
+		<span id="attribution-container">Anda mesti mengiktirafkan karya tersebut dalam cara yang ditentukan oleh pencipta atau pemberi lesen (tetapi tidak dalam sebarang cara yang mencadang yang mereka telah memberi sokongan kepada anda dan pengunaan anda karya tersebut).</span>
+		
+		<span id="by-more-container" />
+	      </p>
+
+	      
+		<p id="work-attribution-container" style="display:none;">
+		  <strong>Attribute this work:</strong><br />
+		  <input id="work-attribution" value="" type="text" readonly onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
+		  <input id="license-code" type="hidden"
+           value="CC BY-NC-SA 3.0" />
+		  <input id="license-url" type="hidden"
+           value="http://creativecommons.org/licenses/by-nc-sa/3.0/pr/" />
+		<a href="" id="attribution_help">
+		  <img src="http://creativecommons.org/licenses/@@/cc/images/information.png" />
+		</a>
+		</p>
+		<div id="attribution_help_panel">
+		  <div class="hd">
+		    What does "Attribute this work" mean?
+		  </div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
+		</div>
+
+	      
+
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	            <p><strong>Bukan komersial</strong>. 
-              
-              <span>Anda tidak dibenarkan mengunakan karya tersebut untuk tujuan komersial.</span>
-              <span id="nc-more-container" /></p>
+	      <p><strong>Bukan komersial</strong>. 
+		
+		<span>Anda tidak dibenarkan mengunakan karya tersebut untuk tujuan komersial.</span>
+		<span id="nc-more-container" />
+	      </p>
+
+	      
+
             </li>
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	            <p><strong>Perkongsian Serupa</strong>. 
-              
-              <span>Jikalau anda mengganti, mengubah bentuk ataupun membina atas karya tersebut, anda mesti mengedar hasil karya tersebut hanya di bawah satu lesen yang sama seperti yang ini.</span>
-              <span id="sa-more-container" /></p>
+	      <p><strong>Perkongsian Serupa</strong>. 
+		
+		<span>Jikalau anda mengganti, mengubah bentuk ataupun membina atas karya tersebut, anda mesti mengedar hasil karya tersebut hanya di bawah satu lesen yang sama seperti yang ini.</span>
+		<span id="sa-more-container" />
+	      </p>
+
+	      
+
             </li>
-            <li id="more-container" class="license-hidden" />
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Notice">Untuk sebarang pengulangan penggunaan ataupun pengedaran, anda mesti menjelaskan kepada orang-orang lain terma-terma lesen karya ini.</li>
             <li>Sebarang daripada syarat-syarat ini boleh diketepikan kalau anda mendapat kebenaran daripada pemegang hakcipta.</li>
