@@ -383,7 +383,7 @@ setCookie('lang','%s', expiry, '/');
     href="http://creativecommons.org/ns#Reproduction">Eşti liber să:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
-       href="http://creativecommons.org/ns#Distribution"></li>
+       href="http://creativecommons.org/ns#Distribution"><strong>de a partaja cu alţii </strong> — copia, distribui şi transmite opera.</li>
 			      <li class="license remix" rel="cc:permits"
              href="http://creativecommons.org/ns#DerivativeWorks"><strong>a remixa</strong> - a adapta opera</li>
             <li id="more-container" class="license-hidden" />
