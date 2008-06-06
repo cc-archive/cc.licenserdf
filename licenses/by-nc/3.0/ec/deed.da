@@ -3,7 +3,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons 
-    Attribution-Noncommercial 3.0 country.ec
+    Attribution-Noncommercial 3.0 Ecuador
   </title>
 
     <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
@@ -284,6 +284,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -365,7 +371,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">Navngivelse-Ikke-kommerciel 3.0 country.ec</h2>
+	        <h2 property="dc:title">Navngivelse-Ikke-kommerciel 3.0 Ecuador</h2>
         </div>
       </div>
 

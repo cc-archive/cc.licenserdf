@@ -274,6 +274,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -368,7 +374,7 @@ setCookie('lang','%s', expiry, '/');
 
         
 
-		      <h3>ท่านมีเสรีภาพที่จะ:</h3>
+		      <h3>คุณมีเสรีภาพที่จะ :</h3>
 		      <ul>
     				
     				<li class="license sampling" />นำตัวอย่างไปใช้ นำไปผสมผสาน หรือดัดแปลงใด ๆ กับงานชิ้นนี้ ทั้งเพื่อการค้าหรือไม่ใช่เพื่อการค้า.

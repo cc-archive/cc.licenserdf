@@ -274,6 +274,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -385,7 +391,7 @@ setCookie('lang','%s', expiry, '/');
     				<li>Не можете да користите ово дело за промоцију и рекламу нечега што није ваше дело настало из тог дела.</li>
     				
     				<li />Приликом сваког коришћења или дистрибуирања дела, морате јасно да предочите другима уговорне услове под којима је дело лиценцирано.
-    				<li />You may not perform, display, or distribute copies of this whole work for any purpose.
+    				<li />Није дозвољено јавно саопштавање или дистрибуирање примерака целог дела у било које сврхе.
     			</ul>
 
         </div>

@@ -85,7 +85,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">This page is available in the following languages:</span>
+<span align="left" dir="">Denne siden er tilgjengelig på følgende språk:</span>
 <br />
 
 
@@ -282,6 +282,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -363,7 +369,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">Attribution-No Derivative Works 3.0 Puerto Rico</h2>
+	        <h2 property="dc:title">Navngivelse-Ingen Bearbeidelse 3.0 Puerto Rico</h2>
         </div>
       </div>
 
@@ -379,24 +385,24 @@ setCookie('lang','%s', expiry, '/');
 <a href="/worldwide/pr/"><img
     src="/images/international/pr.png" border="0" /></a>
 <h3 rel="cc:permits"
-    href="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+    href="http://creativecommons.org/ns#Reproduction">Du har lov til:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
-       href="http://creativecommons.org/ns#Distribution"><strong>to Share</strong> — to copy, distribute and transmit the work</li>
+       href="http://creativecommons.org/ns#Distribution"><strong>å dele</strong> - å kopiere, distribuere og spre verket</li>
 			      
             <li id="more-container" class="license-hidden" />
 	    <span id="devnations-container" />
 		      </ul>
         </div>
         <div id="deed-conditions">
-	  <h3>Under the following conditions:</h3>
+	  <h3>På følgende vilkår:</h3>
 
 	  <ul align="left" dir=""> 
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Attribution</strong>. 
-		<span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+	      <p><strong>Navngivelse</strong>. 
+		<span id="attribution-container">Du skal navngi opphavspersonen og/eller lisensgiveren på den måte som disse angir (men ikke på en måte som indikerer at disse har godkjent eller anbefaler din bruk av verket).</span>
 		
 		<span id="by-more-container" />
 	      </p>
@@ -414,26 +420,17 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="hd">Hva betyr "Krediter dette verk"?</div>
+		  <div class="bd">Siden du kom fra innholdt innbakte metadata vedrørende lisensiering, som blant annet angir hvordan opphavspersonen ønsker å navngis for gjenbruk. Du kan bruke HTML-koden her for å vise til verket. Dersom du gjør det vil også bake inn metadata på din webside slik at andre også kan finne det originale verket.</div>
 		</div>
 
 	      
 
             </li>
             <li rel="" href="" class="license nd">
-	      <p><strong>No Derivative Works</strong>. 
+	      <p><strong>Ingen Bearbeidelse</strong>. 
 		
-		<span>You may not alter, transform, or build upon this work.</span>
+		<span>Du kan ikke endre, bearbeide eller bygge videre på dette verket.</span>
 		<span id="nd-more-container" />
 	      </p>
 
@@ -441,10 +438,10 @@ setCookie('lang','%s', expiry, '/');
 
             </li>
             <li rel="cc:requires"
-                href="http://creativecommons.org/ns#Notice">For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.</li>
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
+                href="http://creativecommons.org/ns#Notice">I forbindelse med all gjenbruk og spredning skal du gjøre lisensvilkårene for dette verket klart for andre.</li>
+            <li>Alle disse vilkårene kan frafalles, dersom du får tillatelse fra rettighetshaveren.</li>
             
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
+            <li>Ideelle rettigheter forblir uberørt av denne lisensen, i den utstrekning de i henhold til gjeldende rett anerkjennes og ikke er fraskrivbare.</li>
             
             
           </ul>
@@ -464,21 +461,21 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">Disclaimer</a>
+	    <a href="" id="disclaimer">Ansvarsfraskrivelse</a>
 	    <div id="disclaimer_panel">
-	      <div class="hd">Disclaimer</div>
+	      <div class="hd">Ansvarsfraskrivelse</div>
 	      <div class="bd"><p>
-The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full license) &mdash; it is a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in the actual license.
+Commons Deed er ikke en lisens. Det er kun et enkelt sammendrag som gir em kortfattet forklaring av den juridiske lisensteksten (den fullstendige lisensen) &mdash; den er en opplisting av noen av de viktigste vilkårene. Tenk på den som et brukervennlig grensesnitt mot den underliggende avtaleteksten. Commons Deed alene har ikke juridisk relevans.
 </p>
 
 <p>
-Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.
+Creative Commons Corporation er ikke et advokatfirma og tilbyr ikke juridiske tjenester. Å distribuere, vise, eller lenke til Commons Deed skaper ikke et advokat-klientforhold.
 </p></div>
 	  </div>
 	  
 
         <p align="center" style="margin-top:40px">
-	  <strong>Your fair dealing and other rights are in no way affected by the above.</strong>
+	  <strong>Dine lovfestede rettigheter til å bruke verket i henhold til åndsverkloven påvirkes på ingen måte av ovennevnte.</strong>
 	</p>
 
 	<p align="center">
@@ -489,14 +486,14 @@ Creative Commons is not a law firm and does not provide legal services. Distribu
 
     
 
-    This is a human-readable summary of the <a href="legalcode" class="fulltext">Legal Code (the full license)</a>.
+    Dette er en oversikt over innholdet i den <a href="legalcode" class="fulltext"> juridiske lisensteksten(den fullstendige lisensen)</a>.
  </p>
 
          
        </div>
     </div>
     <p id="footer">
-      <a href="/about/licenses">Learn how to distribute your work using this license</a>
+      <a href="/about/licenses">Lær hvordan du distribuerer ditt verk under denne lisensen</a>
     </p>
 
   </body>

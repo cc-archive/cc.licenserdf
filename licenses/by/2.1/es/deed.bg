@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -419,17 +425,8 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="hd">Какво означава "Признание на произведението"?</div>
+		  <div class="bd">Страницата, от която се прехвъркихте тук съдържа вградени метаданни, включително как създателят на произведението желае да бъде кредитиран при всяко по-нататъчно използване на създаденото от него. Можете да използвате този HTML код, за да кредитирате творбата. Това ще включи метаданните за първичното произведение във вашата страница така, че желаещите да могат да го намерят. </div>
 		</div>
 
 	      

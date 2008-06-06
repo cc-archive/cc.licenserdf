@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -379,7 +385,7 @@ setCookie('lang','%s', expiry, '/');
 
 
 <h3 rel="cc:permits"
-    href="http://creativecommons.org/ns#Reproduction">Είστε ελεύθερος:</h3>
+    href="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
        href="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
@@ -398,7 +404,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license nc">
 	      <p><strong>Μη Εμπορική Χρήση</strong>. 
 		
-		<span>Δε μπορείτε να χρησιμοποιήσετε το έργο για εμπορικούς σκοπούς.</span>
+		<span>Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό για εμπορικούς σκοπούς.</span>
 		<span id="nc-more-container" />
 	      </p>
 
@@ -409,7 +415,7 @@ setCookie('lang','%s', expiry, '/');
                 href="http://creativecommons.org/ns#Notice">Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.</li>
             <li>Κάθε ένας από τους παραπάνω όρους μπορεί να παρακαμφθεί εάν πάρετε άδεια από το δικαιούχο των δικαιωμάτων πνευματικής ιδιοκτησίας</li>
             
-            <li>Τίποτα στην άδεια αυτή δεν αποδυναμώνει ήπεριορίζει το ηθικό δικαίωμα του δημιουργού</li>
+            <li>Τίποτα στην άδεια αυτή δεν αποδυναμώνει ή περιορίζει το ηθικό δικαίωμα του δημιουργού.</li>
             
             
           </ul>
@@ -454,7 +460,7 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Αυτό είναι  μία εύληπτο στο μη νονμομαθή χρήστη περίληψη του <a href="legalcode" class="fulltext">Νομικού Μέρους (η πλήρης άδεια)</a>.
+    Αυτό είναι μία εύληπτη στο μη νομομαθή χρήστη περίληψη του <a href="legalcode" class="fulltext">Νομικού Μέρους (η πλήρης άδεια)</a>.
  </p>
 
          

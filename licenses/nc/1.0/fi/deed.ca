@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -375,7 +381,7 @@ setCookie('lang','%s', expiry, '/');
 
         <div id="deed-rights" align="left" dir="">
 
-        <div id="deed-newer" align="center"><h3>This license is <a href="/retiredlicenses">retired</a>. Do not use for new works.</h3></div>
+        <div id="deed-newer" align="center"><h3>Aquesta llicència ha estat <a href="/retiredlicenses">retirada</a>. No la utilitzeu en obres noves.</h3></div>
 
 <a href="/worldwide/fi/"><img
     src="/images/international/fi.png" border="0" /></a>

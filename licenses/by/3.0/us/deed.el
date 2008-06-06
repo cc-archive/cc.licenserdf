@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -385,7 +391,7 @@ setCookie('lang','%s', expiry, '/');
 <a href="/worldwide/us/"><img
     src="/images/international/us.png" border="0" /></a>
 <h3 rel="cc:permits"
-    href="http://creativecommons.org/ns#Reproduction">Είστε ελεύθερος:</h3>
+    href="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
        href="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
@@ -403,8 +409,7 @@ setCookie('lang','%s', expiry, '/');
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>Αναφορά</strong>. 
-		<span id="attribution-container">Θα πρέπει να κάνετε την αναφέρετε 
-στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγών την άδεια (αλλά όχι με τρόπο που να υποδηλώνει οτι παρέχουν επίσημη έγκριση σε σας ή για χρήση του έργου από εσάς).</span>
+		<span id="attribution-container">Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγούντα την άδεια (χωρίς όμως να εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου από εσάς).</span>
 		
 		<span id="by-more-container" />
 	      </p>
@@ -486,7 +491,7 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Αυτό είναι  μία εύληπτο στο μη νονμομαθή χρήστη περίληψη του <a href="legalcode" class="fulltext">Νομικού Μέρους (η πλήρης άδεια)</a>.
+    Αυτό είναι μία εύληπτη στο μη νομομαθή χρήστη περίληψη του <a href="legalcode" class="fulltext">Νομικού Μέρους (η πλήρης άδεια)</a>.
  </p>
 
          

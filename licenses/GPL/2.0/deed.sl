@@ -274,6 +274,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -423,7 +429,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
 	  
 
         <p align="center" style="margin-top:40px">
-	  <strong>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</strong>
+	  <strong>Vaše pravice iz naslova omejitev avtorske pravice in druge pravice niso omejene z zgoraj navedenim.</strong>
 	</p>
 
 	<p align="center">

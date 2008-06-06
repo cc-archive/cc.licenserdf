@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -374,7 +380,7 @@ setCookie('lang','%s', expiry, '/');
 
         <div id="deed-rights" align="left" dir="">
 		      <h3 rel="cc:permits"
-            href="http://creativecommons.org/ns#Reproduction">Είστε ελεύθερος:</h3>
+            href="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
 		      <ul>
 			      <li class="license share" rel="cc:permits"
              href="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
@@ -443,7 +449,7 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Αυτό είναι  μία εύληπτο στο μη νονμομαθή χρήστη περίληψη του <a href="legalcode" class="fulltext">Νομικού Μέρους (η πλήρης άδεια)</a>.
+    Αυτό είναι μία εύληπτη στο μη νομομαθή χρήστη περίληψη του <a href="legalcode" class="fulltext">Νομικού Μέρους (η πλήρης άδεια)</a>.
  </p>
 
          

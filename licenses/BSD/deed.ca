@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -391,12 +397,12 @@ setCookie('lang','%s', expiry, '/');
                 href="http://creativecommons.org/ns#Notice"
                 class="license no-endorse">
 
-	            <p><strong>No Endorsement</strong>. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.</p>
+	            <p>﻿<strong>Sense suport</strong>. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.El nom de l'autor no pot utilitzar-se per donar suport o promoure productes derivats d'aquest programari sense permís escrit previ específic.</p>
             </li>
 
             <li id="more-container" class="license-hidden" />
             <li rel="cc:requires"
-                href="http://creativecommons.org/ns#Notice">You must retain the license terms and copyright notice in any source code distribution and reproduce them in documentation for binary distributions.</li>
+                href="http://creativecommons.org/ns#Notice">Heu de mantenir les condicions de la llicència i l'avís legal en qualsevol distribució del codi font i reproduir-los en la documentació de les distribucions binàries.</li>
 
             
 

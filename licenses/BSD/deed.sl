@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -379,7 +385,7 @@ setCookie('lang','%s', expiry, '/');
 			      <li class="license share" rel="cc:permits"
              href="http://creativecommons.org/ns#Distribution">reproduciranje, distribuiranje, dajanje v najem in priobčevanje dela javnosti</li>
 			      <li class="license remix" rel="cc:permits"
-             href="http://creativecommons.org/ns#DerivativeWorks">predelati delo</li>
+             href="http://creativecommons.org/ns#DerivativeWorks"><strong>to Remix</strong> — predelati delo</li>
 <span id="devnations-container" />
 		      </ul>
 
@@ -396,7 +402,7 @@ setCookie('lang','%s', expiry, '/');
 
             <li id="more-container" class="license-hidden" />
             <li rel="cc:requires"
-                href="http://creativecommons.org/ns#Notice">You must retain the license terms and copyright notice in any source code distribution and reproduce them in documentation for binary distributions.</li>
+                href="http://creativecommons.org/ns#Notice">Ob nadaljnji distribuciji izvorne kode morate priložiti pogoje licence in obvestilo o avtorski pravici ter jih reproducirati v dokumentaciji za binarne distribucije.</li>
 
             
 
@@ -432,7 +438,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
 	  
 
         <p align="center" style="margin-top:40px">
-	  <strong>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</strong>
+	  <strong>Vaše pravice iz naslova omejitev avtorske pravice in druge pravice niso omejene z zgoraj navedenim.</strong>
 	</p>
 
 	<p align="center">
