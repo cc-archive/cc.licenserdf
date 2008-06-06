@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -421,17 +427,8 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="hd">Wat betekend "Naamsvermelding bij dit werk"?</div>
+		  <div class="bd">De website waar u vandaan komt bevat ingebedde metadata, met onder meer informatie over de door de maker van het werk bij hergebruik gewenste manier van naamsvermelding. U kunt de html code hieronder gebruiken om de de naam te vermelden. In dit geval wordt metadata in uw pagina geplaatst die anderen in staat stelt om het originele werk te vinden.</div>
 		</div>
 
 	      

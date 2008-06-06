@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -391,7 +397,7 @@ setCookie('lang','%s', expiry, '/');
                 href="http://creativecommons.org/ns#Notice"
                 class="license no-endorse">
 
-	            <p><strong>No Endorsement</strong>. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.</p>
+	            <p><strong>Без јемства</strong>. Име аутора не сме бити коришћено за означавање његове подршке или за промоцију производа насталог прерадом овог програма без претходне посебне писмене сагласности аутора.</p>
             </li>
 
             <li id="more-container" class="license-hidden" />

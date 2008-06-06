@@ -274,6 +274,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -384,7 +390,7 @@ setCookie('lang','%s', expiry, '/');
 
 
    
-   <p />You may exercise the freedoms specified here provided that you comply with the express conditions of this license. The LGPL is intended for software libraries, rather than executable programs. The principal conditions are:
+   <p />De gebruiker mag de hieronder gespecificeerde vrijheden uitoefenen op de voorwaarde dat de gebruiker de voorwaarden van de licentie in acht neemt. De LGPL is in eerste instantie voor software libraries en niet voor uitvoerbare programma's bedoeld. De belangrijkste voorwaarden zijn:
 
    <ul align="left" dir=""> 
      <li class="license notice">U dient op elk verspreid exemplaar de toepasselijke auteursrechtvermelding en vrijwaringsclausule duidelijk te vermelden en alle vermeldingen die naar deze Licentie en het gebrek aan een vrijwaring verwijzen te behouden; u dient tevens de ontvangers van het Programma een exemplaar van de <span>GNU Lesser General Public License</span> samen met het Programma te doen toekomen. Bij elke vertaling van de <span>GNU Lesser General Public License</span> dient ook de <span>GNU Lesser General Public License</span> te worden vermeld.</li>

@@ -285,6 +285,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -366,7 +372,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Greece</h2>
+	        <h2 property="dc:title">Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Grecia</h2>
         </div>
       </div>
 

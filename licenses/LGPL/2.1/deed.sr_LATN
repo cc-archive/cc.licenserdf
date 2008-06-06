@@ -274,6 +274,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -369,7 +375,7 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p>The <span>GNU Lesser General Public License</span> is a <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> license. Like any Free Software license, it grants to you the four following freedoms:</p>
+<p>The <span>GNU Lesser General Public License</span> je licenca <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> . Kao svaka Free Software licenca, ona garantuje sledeće četiri slobode:</p>
 			
 			<ol start="0">
 				<li>Sloboda pokretanja programa u sve svrhe.</li>

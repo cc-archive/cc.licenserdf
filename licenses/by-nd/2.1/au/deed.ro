@@ -282,6 +282,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -382,7 +388,7 @@ setCookie('lang','%s', expiry, '/');
     href="http://creativecommons.org/ns#Reproduction">Eşti liber să:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
-       href="http://creativecommons.org/ns#Distribution"></li>
+       href="http://creativecommons.org/ns#Distribution"><strong>de a partaja cu alţii </strong> — copia, distribui şi transmite opera.</li>
 			      
             <li id="more-container" class="license-hidden" />
 	    <span id="devnations-container" />
@@ -414,9 +420,7 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
+		  <div class="hd">Ce înseamna "Atribuirea operei" ?</div>
 		  <div class="bd">
 		    The page you came from contained embedded licensing
 		    metadata, including how the creator wishes to be 

@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -396,7 +402,7 @@ setCookie('lang','%s', expiry, '/');
 
             <li id="more-container" class="license-hidden" />
             <li rel="cc:requires"
-                href="http://creativecommons.org/ns#Notice">You must retain the license terms and copyright notice in any source code distribution and reproduce them in documentation for binary distributions.</li>
+                href="http://creativecommons.org/ns#Notice">De gebruiker dient de licentie en copyright vermeldingen in de source code te laten. Bij binaire distributie dienen deze in de bijbehorende documentatie vermeld te worden.</li>
 
             
 

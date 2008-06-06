@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -383,7 +389,7 @@ setCookie('lang','%s', expiry, '/');
              href="http://creativecommons.org/ns#Distribution">reproduciranje, distribuiranje, dajanje v najem in priobčevanje dela javnosti</li>
 
 			      <li class="license remix" rel="cc:permits"
-             href="http://creativecommons.org/ns#DerivativeWorks">predelati delo</li>
+             href="http://creativecommons.org/ns#DerivativeWorks"><strong>to Remix</strong> — predelati delo</li>
 		      </ul>
 
         </div>
@@ -427,7 +433,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
 	  
 
         <p align="center" style="margin-top:40px">
-	  <strong>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</strong>
+	  <strong>Vaše pravice iz naslova omejitev avtorske pravice in druge pravice niso omejene z zgoraj navedenim.</strong>
 	</p>
 
 	<p align="center">

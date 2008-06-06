@@ -282,6 +282,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -379,7 +385,7 @@ setCookie('lang','%s', expiry, '/');
 <a href="/worldwide/pr/"><img
     src="/images/international/pr.png" border="0" /></a>
 <h3 rel="cc:permits"
-    href="http://creativecommons.org/ns#Reproduction">ท่านมีเสรีภาพที่จะ:</h3>
+    href="http://creativecommons.org/ns#Reproduction">คุณมีเสรีภาพที่จะ :</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
        href="http://creativecommons.org/ns#Distribution"><strong>to Share</strong> — to copy, distribute and transmit the work</li>
@@ -414,9 +420,7 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
+		  <div class="hd">"แสดงที่มาของผลงานนี้" หมายความว่าอะไร ?</div>
 		  <div class="bd">
 		    The page you came from contained embedded licensing
 		    metadata, including how the creator wishes to be 
@@ -442,7 +446,7 @@ setCookie('lang','%s', expiry, '/');
             </li>
             <li rel="cc:requires"
                 href="http://creativecommons.org/ns#Notice">สำหรับการนำงานไปใช้ซ้ำหรือแจกจ่าย คุณควรบอกผู้อื่นอย่างชัดเจนถึงข้อตกลงต่างๆในสัญญาอนุญาตสำหรับงานนี้ วิธีที่ดีที่สุดคือการเชื่อมโยงกลับไปที่หน้าเว็บนี้</li>
-            <li>เงื่อนไขใดๆข้างต้น อาจไม่ต้องใช้ ถ้าคุณได้รับอนุญาตจากเจ้าของลิขสิทธิ์</li>
+            <li>เงื่อนไขใด ๆ ข้างต้น อาจไม่ต้องใช้ ถ้าคุณได้รับอนุญาตจากเจ้าของลิขสิทธิ์</li>
             
             <li>Nothing in this license impairs or restricts the author's moral rights.</li>
             

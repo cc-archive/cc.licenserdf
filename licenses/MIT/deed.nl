@@ -283,6 +283,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -393,8 +399,8 @@ setCookie('lang','%s', expiry, '/');
             
 
             <li rel="cc:requires"
-                href="http://creativecommons.org/ns#Notice">The copyright notice and license shall be included in all copies or
-substantial portions of the software.</li>
+                href="http://creativecommons.org/ns#Notice">De copyright vermelding en de licentietekst dienen in alle kopieën of
+substantiële onderdelen van de software vermeld te worden </li>
 
             <li>De gebruiker mag afstand doen van een of meerdere van deze voorwaarden met voorafgaande toestemming van de rechthebbende.</li>
 
