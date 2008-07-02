@@ -74,153 +74,153 @@
 
           <h2>Classes</h2>
 
-          <div id="Work" about="#Work" instanceof="rdfs:Class">
+          <div id="Work" about="#Work" typeof="rdfs:Class">
               <h4 property="rdfs:label">Work</h4>
               <span property="rdfs:comment">a potentially copyrightable work</span>
           </div>
 
-          <div id="License" about="#License" instanceof="rdfs:Class">
+          <div id="License" about="#License" typeof="rdfs:Class">
               <h4 property="rdfs:label">License</h4>
               <span property="rdfs:comment">a set of requests/permissions to users of a Work, e.g. a copyright license, the public domain, information for distributors</span>
           </div>
 
-          <div id="Jurisdiction" about="#Jurisdiction" instanceof="rdfs:Class">
+          <div id="Jurisdiction" about="#Jurisdiction" typeof="rdfs:Class">
             <h4 property="rdfs:label">Jurisdiction</h4>
             <span property="rdfs:comment">the legal jurisdiction of a license</span>
           </div>
 
-          <div id="Permission" about="#Permission" instanceof="rdfs:Class">
+          <div id="Permission" about="#Permission" typeof="rdfs:Class">
               <h4 property="rdfs:label">Permission</h4>
               <span property="rdfs:comment">an action that may or may not be allowed or desired</span>
           </div>
 
-          <div id="Requirement" about="#Requirement" instanceof="rdfs:Class">
+          <div id="Requirement" about="#Requirement" typeof="rdfs:Class">
               <h4 property="rdfs:label">Requirement</h4>
               <span property="rdfs:comment">an action that may or may not be requested of you</span>
           </div>
 
-          <div id="Prohibition" about="#Prohibition" instanceof="rdfs:Class">
+          <div id="Prohibition" about="#Prohibition" typeof="rdfs:Class">
               <h4 property="rdfs:label">Prohibition</h4>
               <span property="rdfs:comment">something you may be asked not to do</span>
           </div>
 
           <h2>Permissions</h2>
 
-          <div id="Reproduction" about="#Reproduction" instanceof="cc:Permission">
+          <div id="Reproduction" about="#Reproduction" typeof="cc:Permission">
               <h4 property="rdfs:label">Reproduction</h4>
               <span property="rdfs:comment">making multiple copies</span>
           </div>
 
-          <div id="Distribution" about="#Distribution" instanceof="cc:Permission">
+          <div id="Distribution" about="#Distribution" typeof="cc:Permission">
               <h4 property="rdfs:label">Distribution</h4>
               <span property="rdfs:comment">distribution, public display, and publicly performance</span>
           </div>
 
-          <div id="DerivativeWorks" about="#DerivativeWorks" instanceof="cc:Permission">
+          <div id="DerivativeWorks" about="#DerivativeWorks" typeof="cc:Permission">
               <h4 property="rdfs:label">Derivative Works</h4>
               <span property="rdfs:comment">distribution of derivative works</span>
           </div>
 
           <div id="HighIncomeNationUse" about="#HighIncomeNationUse" 
-               instanceof="cc:Permission">
+               typeof="cc:Permission">
               <h4 property="rdfs:label">High Income Nation Use</h4>
               <span property="rdfs:comment">use in a non-developing country</span>
           </div>
 
-          <div id="Sharing" about="#Sharing" instanceof="cc:Permission">
+          <div id="Sharing" about="#Sharing" typeof="cc:Permission">
               <h4 property="rdfs:label">Sharing</h4>
               <span property="rdfs:comment">permits commercial derivatives, but only non-commercial distribution</span>
           </div>
 
           <h2>Requirements</h2>
 
-          <div id="Notice" about="#Notice" instanceof="cc:Requirement">
+          <div id="Notice" about="#Notice" typeof="cc:Requirement">
               <h4 property="rdfs:label">Notice</h4>
               <span property="rdfs:comment">copyright and license notices be kept intact</span>
           </div>
 
-          <div id="Attribution" about="#Attribution" instanceof="cc:Requirement">
+          <div id="Attribution" about="#Attribution" typeof="cc:Requirement">
               <h4 property="rdfs:label">Attribution</h4>
               <span property="rdfs:comment">credit be given to copyright holder and/or author</span>
           </div>
 
-          <div id="ShareAlike" about="#ShareAlike" instanceof="cc:Requirement">
+          <div id="ShareAlike" about="#ShareAlike" typeof="cc:Requirement">
               <h4 property="rdfs:label">Share Alike</h4>
               <span property="rdfs:comment">derivative works be licensed under the same terms as the original work</span>
           </div>
 
-          <div id="SourceCode" about="#SourceCode" instanceof="cc:Requirement">
+          <div id="SourceCode" about="#SourceCode" typeof="cc:Requirement">
               <h4 property="rdfs:label">Source Code</h4>
               <span property="rdfs:comment">source code (the preferred form for making modifications) must be provided for all derivative works</span>
           </div>
 
           <h2>Prohibitions</h2>
 
-          <div id="CommercialUse" about="#CommercialUse" instanceof="cc:Prohibition">
+          <div id="CommercialUse" about="#CommercialUse" typeof="cc:Prohibition">
               <h4 property="rdfs:label">Commercial Use</h4>
               <span property="rdfs:comment">exercising rights for commercial purposes</span>
           </div>
 
           <h2>License Properties</h2>
 
-          <div id="license" about="#license" instanceof="rdf:Property">
+          <div id="license" about="#license" typeof="rdf:Property">
               <h4>cc:license</h4>
               A <a rel="rdfs:domain" href="#Work">Work</a> <span property="rdfs:label">has license</span> a <a rel="rdfs:range" href="#License">License</a>. <br />
               (a <a rel="rdfs:subPropertyOf" href="http://purl.org/dc/terms/license">subproperty of dc:license</a>, <a rel="owl:sameAs" href="http://www.w3.org/1999/xhtml/vocab#license">the same as xhtml:license</a>)
           </div>
 
-          <div id="permits" about="#permits" instanceof="rdf:Property">
+          <div id="permits" about="#permits" typeof="rdf:Property">
               <h4>cc:permits</h4>
               A <a rel="rdfs:domain" href="#License">License</a> <span property="rdfs:label">permits</span> a <a rel="rdfs:range" href="#Permission">Permission</a>.
           </div>
 
-          <div id="requires" about="#requires" instanceof="rdf:Property">
+          <div id="requires" about="#requires" typeof="rdf:Property">
               <h4>cc:requires</h4>
               A <a rel="rdfs:domain" href="#License">License</a> <span property="rdfs:label">requires</span> a <a rel="rdfs:range" href="#Requirement">Requirement</a>.
           </div>
 
-          <div id="prohibits" about="#prohibits" instanceof="rdf:Property">
+          <div id="prohibits" about="#prohibits" typeof="rdf:Property">
               <h4>cc:prohibits</h4>
               A <a rel="rdfs:domain" href="#License">License</a> <span property="rdfs:label">prohibits</span> a <a rel="rdfs:range" href="#Prohibition">Prohibition</a>.
           </div>
 
           <h2>Work Properties</h2>
 
-          <div id="morePermissions" about="#morePermissions" instanceof="rdf:Property">
+          <div id="morePermissions" about="#morePermissions" typeof="rdf:Property">
             <h4>cc:morePermissions</h4>
             The <a rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Resource">
               URL</a> where additional permissions or alternative licenses for a
             <a rel="rdfs:domain" href="#Work">Work</a> are available.
           </div>
 
-          <div id="attributionName" about="#attributionName" instanceof="rdf:Property">
+          <div id="attributionName" about="#attributionName" typeof="rdf:Property">
             <h4>cc:attributionName</h4>
             The name the creator of a <a rel="rdfs:domain" href="#Work">Work</a> would
             like used when attributing re-use.
           </div>
 
-          <div id="attributionURL" about="#attributionURL" instanceof="rdf:Property">
+          <div id="attributionURL" about="#attributionURL" typeof="rdf:Property">
             <h4>cc:attributionURL</h4>
             The <a rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Resource">
               URL</a> the creator of a <a rel="rdfs:domain" href="#Work">Work</a> would
             like used when attributing re-use.
           </div>
 
-          <div id="jurisdiction" about="#jurisdiction" instanceof="rdf:Property">
+          <div id="jurisdiction" about="#jurisdiction" typeof="rdf:Property">
             <h4>cc:jurisdiction</h4>
             A <a rel="rdfs:domain" href="#License">License</a> may have a 
             <span property="rdfs:label">jurisdiction</span>, as defined by
             <a rel="rdfs:range" href="#Jurisdiction">Jursidictions</a>.
           </div>
 
-          <div id="legalcode" about="#legalcode" instanceof="rdf:Property">
+          <div id="legalcode" about="#legalcode" typeof="rdf:Property">
             <h4>cc:legalcode</h4>
             The <a rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Resource">
               URL</a> of the legal text of a <a rel="rdfs:domain" 
           				      href="#License">License</a>.
           </div>
 
-          <div id="deprecatedOn" about="#deprecatedOn" instanceof="rdf:Property">
+          <div id="deprecatedOn" about="#deprecatedOn" typeof="rdf:Property">
             <h4>cc:deprecatedOn</h4>
             A <a rel="rdfs:domain" href="#License">License</a> may be deprecated;
             provides the <a rel="rdfs:range" 
