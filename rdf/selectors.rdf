@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+>
+  <cc:LicenseSelector rdf:about="http://creativecommons.org/license/">
+    <dc:title xml:lang="en">Creative Commons</dc:title>
+    <cc:licenseCode>standard</cc:licenseCode>
+  </cc:LicenseSelector>
+
+  <cc:LicenseSelector rdf:about="http://creativecommons.org/license/sampling/">
+    <dc:title xml:lang="en">Sampling</dc:title>
+    <cc:licenseCode>recombo</cc:licenseCode>
+  </cc:LicenseSelector>
+
+  <cc:LicenseSelector rdf:about="http://creativecommons.org/license/publicdomain/">
+    <dc:title xml:lang="en">Public Domain</dc:title>
+    <cc:licenseCode>publicdomain</cc:licenseCode>
+  </cc:LicenseSelector>
+
+</rdf:RDF>
