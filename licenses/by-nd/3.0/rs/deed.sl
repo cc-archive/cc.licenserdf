@@ -282,12 +282,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -450,7 +444,7 @@ setCookie('lang','%s', expiry, '/');
                 href="http://creativecommons.org/ns#Notice">Pri vsaki uporabi ali distribuiranju morate uporabnike seznaniti s pogoji licence za to avtorsko delo.</li>
             <li>Kateri koli od teh pogojev se lahko razveljavi, če za to dobite dovoljenje imetnika avtorskih pravic.</li>
             
-            <li>Nič v tej licenci ne zmanjšuje ali omejuje avtorjevih moralnih pravic.</li>
+            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
             
             
           </ul>
@@ -484,7 +478,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
 	  
 
         <p align="center" style="margin-top:40px">
-	  <strong>Vaše pravice iz naslova omejitev avtorske pravice in druge pravice niso omejene z zgoraj navedenim.</strong>
+	  <strong>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</strong>
 	</p>
 
 	<p align="center">
@@ -500,7 +494,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
      
 
      
-         <a href="legalcode.sr-Cyrl">srbski jezik</a> 
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
          <a href="legalcode.sr-Latn">srpski (latinica)</a>
      
 

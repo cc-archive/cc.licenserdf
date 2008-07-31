@@ -284,12 +284,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -397,7 +391,7 @@ setCookie('lang','%s', expiry, '/');
 			<li class="license share" rel="cc:permits"
        href="http://creativecommons.org/ns#Distribution">reproduciranje, distribuiranje, dajanje v najem in priobčevanje dela javnosti</li>
 			      <li class="license remix" rel="cc:permits"
-             href="http://creativecommons.org/ns#DerivativeWorks"><strong>to Remix</strong> — predelati delo</li>
+             href="http://creativecommons.org/ns#DerivativeWorks">predelati delo</li>
             <li id="more-container" class="license-hidden" />
 	    <span id="devnations-container" />
 		      </ul>
@@ -449,7 +443,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license sa">
 	      <p><strong>Deljenje pod enakimi pogoji</strong>. 
 		
-		<span>Če spremenite, pretvorite ali gradite na tem delu, lahko takšno predelavo dela distribuirate samo pod isto, podobno ali kompatibilno licenco.</span>
+		<span>If you alter, transform, or build upon this work, you may distribute the resulting work only under the same, similar or a compatible license.</span>
 		<span id="sa-more-container" />
 	      </p>
 
@@ -460,7 +454,7 @@ setCookie('lang','%s', expiry, '/');
                 href="http://creativecommons.org/ns#Notice">Pri vsaki uporabi ali distribuiranju morate uporabnike seznaniti s pogoji licence za to avtorsko delo.</li>
             <li>Kateri koli od teh pogojev se lahko razveljavi, če za to dobite dovoljenje imetnika avtorskih pravic.</li>
             
-            <li>Nič v tej licenci ne zmanjšuje ali omejuje avtorjevih moralnih pravic.</li>
+            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
             
             
           </ul>
@@ -494,7 +488,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
 	  
 
         <p align="center" style="margin-top:40px">
-	  <strong>Vaše pravice iz naslova omejitev avtorske pravice in druge pravice niso omejene z zgoraj navedenim.</strong>
+	  <strong>Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj navedenim.</strong>
 	</p>
 
 	<p align="center">
@@ -510,7 +504,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
      
 
      
-         <a href="legalcode.sr-Cyrl">srbski jezik</a> 
+         <a href="legalcode.sr-Cyrl">Serbian</a> 
          <a href="legalcode.sr-Latn">srpski (latinica)</a>
      
 
