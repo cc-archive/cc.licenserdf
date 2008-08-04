@@ -38,6 +38,19 @@ for root, dirs, files in os.walk('./license_rdf'):
             store.remove( (license, NS_DC.identifier, None) )
             store.add( (license, NS_DC.identifier, Literal(code)) )
 
+            # associate each License with a LicenseSelector
+            if 'sampling' in code:
+                sel = 'http://creativecommons.org/license/sampling/'
+            elif code in ('GPL', 'LGPL'):
+                sel = 'http://creativecommons.org/license/software'
+            elif code == 'publicdomain':
+                sel = 'http://creativecommons.org/license/publicdomain/'
+            else:
+                sel = 'http://creativecommons.org/license/'
+            print '  LicenseSelector is %s' % sel
+            store.remove( (license, NS_CC.licenseClass, None) )
+            store.add( (license, NS_CC.licenseClass, URIRef(sel)) )
+
         file(os.path.join(root, filename), 'w').write(
             store.serialize(format="pretty-xml", max_depth=1))
 
