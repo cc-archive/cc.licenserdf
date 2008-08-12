@@ -1,0 +1,9 @@
+This directory contains questions.xml from the license_xsl module
+found in subversion. questions.xml is not integrated into license.rdf 
+yet, and this integration will take place at some time in the near future.
+
+In the meantime, this directory exists to mirror questions.xml within
+the license.rdf module, so that cc.license can have access to questions.xml.
+Changes to the master questions.xml in license_xsl module will need to
+be manually merged into this version until license.rdf completely subsumes
+the Questions.
