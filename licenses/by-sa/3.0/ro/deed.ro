@@ -468,7 +468,7 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Pentru orice reutilizare sau distribuţie, trebuie să prezinţi clar celorlalţi termenii licenţei pentru această operă. Cel mai bun mod de a-l face este de a pune un link către această pagină web.</li>
             <li>Dacă obţii permisiunea din partea titularului dreptului de autor, se poate renunţa la oricare dintre condiţiile de mai sus. </li>
             
-            <li>Nimic din această licenţă nu împiedică sau restricţionează dreptruile morale ale autorului.</li>
+            <li>Nimic din această licenţă nu împiedică sau restricţionează drepturile morale ale autorului.</li>
             
             
           </ul>
@@ -521,8 +521,7 @@ Creative Commons nu este o companie de avocatură şi nu furnizează servici jur
     </div>
     <p id="footer">
       <a id="get_this"
-         href="/license/results-one?license_code=by-sa&amp;jurisdiction=ro&amp;version=3.0">
-      Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-sa&amp;jurisdiction=ro&amp;version=3.0">Use this license for your own work.</a>
 
     </p>
 
