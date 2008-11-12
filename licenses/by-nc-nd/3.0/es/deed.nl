@@ -527,6 +527,10 @@ Creative Commons is geen advocatenpraktijk en verleent geen juridische diensten.
          <a href="legalcode.es">Spaans</a>
 
          
+           <a href="legalcode.eu">Baskisch</a> 
+         
+
+         
      
 
      

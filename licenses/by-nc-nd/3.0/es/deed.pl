@@ -536,6 +536,10 @@ Licencjodawcę</span>
          <a href="legalcode.es">hiszpański</a>
 
          
+           <a href="legalcode.eu">baskijski</a> 
+         
+
+         
      
 
      

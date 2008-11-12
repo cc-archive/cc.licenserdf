@@ -531,6 +531,10 @@ Creative Commons no es un bufete de abogados y no ofrece servicios legales. La d
          <a href="legalcode.es">Castellano</a>
 
          
+           <a href="legalcode.eu">Euskera</a> 
+         
+
+         
      
 
      

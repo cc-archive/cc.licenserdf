@@ -540,6 +540,10 @@ setCookie('lang','%s', expiry, '/');
          <a href="legalcode.es">шпански</a>
 
          
+           <a href="legalcode.eu">баскијски</a> 
+         
+
+         
      
 
      

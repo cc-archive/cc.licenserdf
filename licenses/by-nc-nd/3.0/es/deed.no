@@ -530,6 +530,10 @@ Creative Commons Corporation er ikke et advokatfirma og tilbyr ikke juridiske tj
          <a href="legalcode.es">Spansk</a>
 
          
+           <a href="legalcode.eu">Baskisk</a> 
+         
+
+         
      
 
      

@@ -536,6 +536,10 @@ Creative Commons är inte en advokatbyrå eller juridisk byrå och tillhandahål
          <a href="legalcode.es">spanska</a>
 
          
+           <a href="legalcode.eu">Basque</a> 
+         
+
+         
      
 
      
