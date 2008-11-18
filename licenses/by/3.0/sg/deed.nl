@@ -1,0 +1,536 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <head>
+    <title>Creative Commons 
+    Attribution 3.0 Singapore
+  </title>
+
+    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          media="screen" />
+    
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/jurisdictions.css"
+          media="screen" />
+
+    <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
+
+    <link rel="alternate" type="application/rdf+xml" href="rdf" /> 
+    
+
+<script type="text/javascript">
+function setCookie(name, value, expires, path, domain, secure) {
+    document.cookie= name + "=" + escape(value) +
+        ((expires) ? "; expires=" + expires.toGMTString() : "") +
+        ((path) ? "; path=" + path : "") +
+        ((domain) ? "; domain=" + domain : "") +
+        ((secure) ? "; secure" : "");
+}
+var expiry = new Date();
+expiry.setTime(expiry.getTime()+(5*365*24*60*60*1000));
+setCookie('lang','%s', expiry, '/');
+</script>
+
+
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    </script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    </script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    </script>
+
+    <script type="text/javascript"
+            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+    </script>
+    
+
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    </script>
+
+    <script type="text/javascript"
+            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+    </script>
+
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        _uacct="UA-2010376-1";  urchinTracker();
+    </script>
+
+   
+
+  </head>
+  <body class="yui-skin-sam">
+
+    <!-- 
+<rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <License rdf:about="http://creativecommons.org/licenses/by/3.0/sg/">
+        <permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+        <requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+        <permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </License>
+    </rdf:RDF>
+   -->
+
+    <div id="header">
+    <p style="text-align:center">
+      <a rel="dc:creator" href="http://creativecommons.org/">
+	<span property="dc:title">Creative Commons</span>
+    </a></p>
+
+    
+
+<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<span style="text-align:left" dir="ltr">Deze pagina is beschikbaar in de volgende talen:</span>
+<br />
+
+
+
+<a href="./deed.af" title="Afrikaans" hreflang="af"
+   rel="alternate nofollow" xml:lang="af">Afrikaans</a>
+
+
+
+
+<a href="./deed.bg" title="български" hreflang="bg"
+   rel="alternate nofollow" xml:lang="bg">български</a>
+
+
+
+
+<a href="./deed.ca" title="Català" hreflang="ca"
+   rel="alternate nofollow" xml:lang="ca">Català</a>
+
+
+
+
+<a href="./deed.da" title="Dansk" hreflang="da"
+   rel="alternate nofollow" xml:lang="da">Dansk</a>
+
+
+
+
+<a href="./deed.de" title="Deutsch" hreflang="de"
+   rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
+<a href="./deed.en" title="English" hreflang="en"
+   rel="alternate nofollow" xml:lang="en">English</a>
+
+
+
+
+<a href="./deed.en_CA" title="English (CA)" hreflang="en_CA"
+   rel="alternate nofollow" xml:lang="en_CA">English (CA)</a>
+
+
+
+
+<a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
+   rel="alternate nofollow" xml:lang="en_GB">English (GB)</a>
+
+
+
+
+<a href="./deed.en_HK" title="English (Hong Kong)"
+   hreflang="en_HK" rel="alternate nofollow"
+   xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
+
+
+
+
+<a href="./deed.en_US" title="English (US)" hreflang="en_US"
+   rel="alternate nofollow" xml:lang="en_US">English (US)</a>
+
+
+
+
+<a href="./deed.eo" title="Esperanto" hreflang="eo"
+   rel="alternate nofollow" xml:lang="eo">Esperanto</a>
+
+
+
+
+<a href="./deed.es" title="Castellano" hreflang="es"
+   rel="alternate nofollow" xml:lang="es">Castellano</a>
+
+
+
+
+<a href="./deed.es_AR" title="Castellano (AR)"
+   hreflang="es_AR" rel="alternate nofollow"
+   xml:lang="es_AR">Castellano (AR)</a>
+
+
+
+
+<a href="./deed.es_CL" title="Español (CL)" hreflang="es_CL"
+   rel="alternate nofollow" xml:lang="es_CL">Español (CL)</a>
+
+
+
+
+<a href="./deed.es_CO" title="Castellano (CO)"
+   hreflang="es_CO" rel="alternate nofollow"
+   xml:lang="es_CO">Castellano (CO)</a>
+
+
+
+
+<a href="./deed.es_EC" title="Español (Ecuador)"
+   hreflang="es_EC" rel="alternate nofollow"
+   xml:lang="es_EC">Español (Ecuador)</a>
+
+
+
+
+<a href="./deed.es_GT" title="Español (Guatemala)"
+   hreflang="es_GT" rel="alternate nofollow"
+   xml:lang="es_GT">Español (Guatemala)</a>
+
+
+
+
+<a href="./deed.es_MX" title="Castellano (MX)"
+   hreflang="es_MX" rel="alternate nofollow"
+   xml:lang="es_MX">Castellano (MX)</a>
+
+
+
+
+<a href="./deed.es_PE" title="Castellano (PE)"
+   hreflang="es_PE" rel="alternate nofollow"
+   xml:lang="es_PE">Castellano (PE)</a>
+
+
+
+
+<a href="./deed.eu" title="Euskara" hreflang="eu"
+   rel="alternate nofollow" xml:lang="eu">Euskara</a>
+
+
+
+
+<a href="./deed.fi" title="Suomeksi" hreflang="fi"
+   rel="alternate nofollow" xml:lang="fi">Suomeksi</a>
+
+
+
+
+<a href="./deed.fr" title="français" hreflang="fr"
+   rel="alternate nofollow" xml:lang="fr">français</a>
+
+
+
+
+<a href="./deed.fr_CA" title="français (CA)"
+   hreflang="fr_CA" rel="alternate nofollow"
+   xml:lang="fr_CA">français (CA)</a>
+
+
+
+
+<a href="./deed.gl" title="Galego" hreflang="gl"
+   rel="alternate nofollow" xml:lang="gl">Galego</a>
+
+
+
+
+<a href="./deed.he" title="עברית" hreflang="he"
+   rel="alternate nofollow" xml:lang="he">עברית</a>
+
+
+
+
+<a href="./deed.hr" title="hrvatski" hreflang="hr"
+   rel="alternate nofollow" xml:lang="hr">hrvatski</a>
+
+
+
+
+<a href="./deed.hu" title="Magyar" hreflang="hu"
+   rel="alternate nofollow" xml:lang="hu">Magyar</a>
+
+
+
+
+<a href="./deed.it" title="Italiano" hreflang="it"
+   rel="alternate nofollow" xml:lang="it">Italiano</a>
+
+
+
+
+<a href="./deed.ja" title="日本語" hreflang="ja"
+   rel="alternate nofollow" xml:lang="ja">日本語</a>
+
+
+
+
+<a href="./deed.ko" title="한국어" hreflang="ko"
+   rel="alternate nofollow" xml:lang="ko">한국어</a>
+
+
+
+
+<a href="./deed.mk" title="Macedonian" hreflang="mk"
+   rel="alternate nofollow" xml:lang="mk">Macedonian</a>
+
+
+
+
+<a href="./deed.ms" title="Melayu" hreflang="ms"
+   rel="alternate nofollow" xml:lang="ms">Melayu</a>
+
+
+
+
+<a href="./deed.nl" title="Nederlands" hreflang="nl"
+   rel="alternate nofollow" xml:lang="nl">Nederlands</a>
+
+
+
+
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" xml:lang="no">Norsk</a>
+
+
+
+
+<a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
+   rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
+
+
+
+
+<a href="./deed.pl" title="polski" hreflang="pl"
+   rel="alternate nofollow" xml:lang="pl">polski</a>
+
+
+
+
+<a href="./deed.pt" title="Português" hreflang="pt"
+   rel="alternate nofollow" xml:lang="pt">Português</a>
+
+
+
+
+<a href="./deed.ro" title="română" hreflang="ro"
+   rel="alternate nofollow" xml:lang="ro">română</a>
+
+
+
+
+<a href="./deed.sl" title="slovenski jezik" hreflang="sl"
+   rel="alternate nofollow" xml:lang="sl">slovenski jezik</a>
+
+
+
+
+<a href="./deed.sr" title="српски " hreflang="sr"
+   rel="alternate nofollow" xml:lang="sr">српски </a>
+
+
+
+
+<a href="./deed.sr_LATN" title="srpski (latinica)"
+   hreflang="sr_LATN" rel="alternate nofollow"
+   xml:lang="sr_LATN">srpski (latinica)</a>
+
+
+
+
+<a href="./deed.st" title="Sotho" hreflang="st"
+   rel="alternate nofollow" xml:lang="st">Sotho</a>
+
+
+
+
+<a href="./deed.sv" title="svenska" hreflang="sv"
+   rel="alternate nofollow" xml:lang="sv">svenska</a>
+
+
+
+
+<a href="./deed.zh" title="中文" hreflang="zh"
+   rel="alternate nofollow" xml:lang="zh">中文</a>
+
+
+
+
+<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
+   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
+
+
+
+
+<a href="./deed.zh_TW" title="華語 (台灣)" hreflang="zh_TW"
+   rel="alternate nofollow" xml:lang="zh_TW">華語 (台灣)</a>
+
+
+
+
+<a href="./deed.zu" title="isiZulu" hreflang="zu"
+   rel="alternate nofollow" xml:lang="zu">isiZulu</a>
+
+
+</div>
+
+
+    </div>
+
+    <div id="deed" style="text-align:left" class="green"
+         dir="ltr">  
+      <div id="deed-head">
+	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
+	      <h1><span>Creative Commons License Deed</span></h1>
+        <div id="deed-license">
+	        <h2 property="dc:title">Naamsvermelding 3.0 Singapore</h2>
+        </div>
+      </div>
+
+      <div id="deed-main" style="text-align:left" dir="ltr">
+       <div id="deed-main-content" class="sg">
+
+          
+  <div id="libre">
+    <a href="http://freedomdefined.org/">
+      <img src="/images/deed/seal.png" style="border: 0"
+           alt="This license is acceptable for Free Cultural Works." />
+    </a>
+  </div>
+
+        <div id="deed-rights" style="text-align:left"
+             dir="ltr">
+
+        
+
+<a href="/worldwide/sg/"><img
+    src="/images/international/sg.png" style="border: 0"
+    alt="sg" /></a>
+<h3 rel="cc:permits"
+    resource="http://creativecommons.org/ns#Reproduction">De gebruiker mag:</h3>
+		      <ul>
+			<li class="license share" rel="cc:permits"
+       resource="http://creativecommons.org/ns#Distribution">het werk kopiëren, verspreiden en doorgeven</li>
+			      <li class="license remix" rel="cc:permits"
+             resource="http://creativecommons.org/ns#DerivativeWorks">Remixen - afgeleide werken maken</li>
+            <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
+		      </ul>
+        </div>
+        <div id="deed-conditions">
+	  <h3>Onder de volgende voorwaarden:</h3>
+
+	  <ul style="text-align:left" dir="ltr"> 
+            <li rel="cc:requires"
+                resource="http://creativecommons.org/ns#Attribution"
+                class="license by">
+	      <p><strong>Naamsvermelding</strong>. 
+		<span id="attribution-container">De gebruiker dient bij het werk de door de maker of de licentiegever aangegeven naam te vermelden (maar niet zodanig dat de indruk gewekt wordt dat zij daarmee instemmen met uw werk of uw gebruik van het werk).</span>
+		
+		<span id="by-more-container" />
+	      </p>
+
+	      
+		<p id="work-attribution-container" style="display:none;">
+		  <strong>Attribute this work:</strong><br />
+		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
+		  <input id="license-code" type="hidden" value="CC BY 3.0" />
+		  <input id="license-url" type="hidden"
+           value="http://creativecommons.org/licenses/by/3.0/sg/" />
+		<a href="" id="attribution_help">
+		  <img src="http://creativecommons.org/licenses/@@/cc/images/information.png"
+         alt="Information" />
+		</a>
+		</p>
+		<div id="attribution_help_panel">
+		  <div class="hd">Wat betekent "Naamsvermelding bij dit werk"?</div>
+		  <div class="bd">De website waar u vandaan komt bevat ingebedde metadata, met onder meer informatie over de door de maker van het werk bij hergebruik gewenste manier van naamsvermelding. U kunt de html code hieronder gebruiken om de de naam te vermelden. In dit geval wordt metadata in uw pagina geplaatst die anderen in staat stelt om het originele werk te vinden.</div>
+		</div>
+
+	      
+
+            </li>
+            <li rel="cc:requires"
+                resource="http://creativecommons.org/ns#Notice">Bij hergebruik of verspreiding dient de gebruiker de licentievoorwaarden van dit werk kenbaar te maken aan derden. De beste manier om dit te doen is door middel van een link naar deze webpagina.</li>
+            <li>De gebruiker mag afstand doen van een of meerdere van deze voorwaarden met voorafgaande toestemming van de rechthebbende.</li>
+            
+            <li>Niets in deze licentie strekt ertoe afbreuk te doen aan de morele
+rechten van de auteur, of deze te beperken.</li>
+            
+            
+          </ul>
+
+          
+
+          </div>
+    <span id="referrer-metadata-container" />
+
+       </div>
+      </div>
+
+
+      <div id="deed-foot">
+        
+
+          
+
+	  
+	    <a href="" id="disclaimer">Vrijwaring</a>
+	    <div id="disclaimer_panel">
+	      <div class="hd">Vrijwaring</div>
+	      <div class="bd">De Commons overeenkomst is geen licentie. Het is slechts een handig hulpmiddel voor een beter begrip van de Juridische overeenkomst (de volledige licentie)- het is een vereenvoudigde (human-readable) weergave van sommige kernbegrippen. U zou het kunnen zien als een gebruikersvriendelijke versie van de onderliggende Juridische overeenkomst. Deze overeenkomst heeft geen juridische betekenis en haar inhoud is ook niet terug te vinden in de daadwerkelijke licentie.
+
+Creative Commons is geen advocatenpraktijk en verleent geen juridische diensten. Het verspreiden van, tonen van of verwijzen naar deze Commons overeenkomst roept geen juridische relatie met Creative Commons in het leven.</div>
+	  </div>
+	  
+
+        <p style="text-align:center; margin-top:40px;">
+	  <strong>Het voorgaande laat de wettelijke beperkingen op de intellectuele eigendomsrechten onverlet.</strong>
+	</p>
+
+	<p style="text-align:center">
+
+    
+
+    
+
+    
+
+    Dit is de vereenvoudigde (human-readable) versie van de <a href="legalcode" class="fulltext">volledige licentie</a>.
+ </p>
+
+         
+       </div>
+    </div>
+    <p id="footer">
+      <a id="get_this"
+         href="/license/results-one?license_code=by&amp;jurisdiction=sg&amp;version=3.0">Gebruik deze licentie voor je eigen werk.</a>
+
+    </p>
+
+  </body>
+</html>
