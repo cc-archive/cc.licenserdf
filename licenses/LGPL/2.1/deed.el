@@ -1,3 +1,4 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -69,7 +70,7 @@ setCookie('lang','%s', expiry, '/');
     
 
     <div id="header">
-    <p align="center">
+    <p style="text-align:center">
       <a rel="dc:creator" href="http://creativecommons.org/">
 	<span property="dc:title">Creative Commons</span>
     </a></p>
@@ -77,278 +78,284 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span align="left" dir="">Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:</span>
+<span style="text-align:left" dir="ltr">Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:</span>
 <br />
 
 
 
 <a href="./deed.af" title="Afrikaans" hreflang="af"
-   rel="alternate nofollow" lang="af">Afrikaans</a>
+   rel="alternate nofollow" xml:lang="af">Afrikaans</a>
 
 
 
 
 <a href="./deed.bg" title="български" hreflang="bg"
-   rel="alternate nofollow" lang="bg">български</a>
+   rel="alternate nofollow" xml:lang="bg">български</a>
 
 
 
 
 <a href="./deed.ca" title="Català" hreflang="ca"
-   rel="alternate nofollow" lang="ca">Català</a>
+   rel="alternate nofollow" xml:lang="ca">Català</a>
 
 
 
 
 <a href="./deed.da" title="Dansk" hreflang="da"
-   rel="alternate nofollow" lang="da">Dansk</a>
+   rel="alternate nofollow" xml:lang="da">Dansk</a>
 
 
 
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
-   rel="alternate nofollow" lang="de">Deutsch</a>
+   rel="alternate nofollow" xml:lang="de">Deutsch</a>
 
 
 
 
 <a href="./deed.el" title="Ελληνικά" hreflang="el"
-   rel="alternate nofollow" lang="el">Ελληνικά</a>
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
 
 <a href="./deed.en" title="English" hreflang="en"
-   rel="alternate nofollow" lang="en">English</a>
+   rel="alternate nofollow" xml:lang="en">English</a>
 
 
 
 
 <a href="./deed.en_CA" title="English (CA)" hreflang="en_CA"
-   rel="alternate nofollow" lang="en_CA">English (CA)</a>
+   rel="alternate nofollow" xml:lang="en_CA">English (CA)</a>
 
 
 
 
 <a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
-   rel="alternate nofollow" lang="en_GB">English (GB)</a>
+   rel="alternate nofollow" xml:lang="en_GB">English (GB)</a>
 
 
 
 
 <a href="./deed.en_US" title="English (US)" hreflang="en_US"
-   rel="alternate nofollow" lang="en_US">English (US)</a>
+   rel="alternate nofollow" xml:lang="en_US">English (US)</a>
 
 
 
 
 <a href="./deed.eo" title="Esperanto" hreflang="eo"
-   rel="alternate nofollow" lang="eo">Esperanto</a>
+   rel="alternate nofollow" xml:lang="eo">Esperanto</a>
 
 
 
 
 <a href="./deed.es" title="Castellano" hreflang="es"
-   rel="alternate nofollow" lang="es">Castellano</a>
+   rel="alternate nofollow" xml:lang="es">Castellano</a>
 
 
 
 
 <a href="./deed.es_AR" title="Castellano (AR)"
-   hreflang="es_AR" rel="alternate nofollow" lang="es_AR">Castellano (AR)</a>
+   hreflang="es_AR" rel="alternate nofollow"
+   xml:lang="es_AR">Castellano (AR)</a>
 
 
 
 
 <a href="./deed.es_CL" title="Español (CL)" hreflang="es_CL"
-   rel="alternate nofollow" lang="es_CL">Español (CL)</a>
+   rel="alternate nofollow" xml:lang="es_CL">Español (CL)</a>
 
 
 
 
 <a href="./deed.es_CO" title="Castellano (CO)"
-   hreflang="es_CO" rel="alternate nofollow" lang="es_CO">Castellano (CO)</a>
+   hreflang="es_CO" rel="alternate nofollow"
+   xml:lang="es_CO">Castellano (CO)</a>
 
 
 
 
 <a href="./deed.es_EC" title="Español (Ecuador)"
-   hreflang="es_EC" rel="alternate nofollow" lang="es_EC">Español (Ecuador)</a>
+   hreflang="es_EC" rel="alternate nofollow"
+   xml:lang="es_EC">Español (Ecuador)</a>
 
 
 
 
 <a href="./deed.es_MX" title="Castellano (MX)"
-   hreflang="es_MX" rel="alternate nofollow" lang="es_MX">Castellano (MX)</a>
+   hreflang="es_MX" rel="alternate nofollow"
+   xml:lang="es_MX">Castellano (MX)</a>
 
 
 
 
 <a href="./deed.es_PE" title="Castellano (PE)"
-   hreflang="es_PE" rel="alternate nofollow" lang="es_PE">Castellano (PE)</a>
+   hreflang="es_PE" rel="alternate nofollow"
+   xml:lang="es_PE">Castellano (PE)</a>
 
 
 
 
 <a href="./deed.eu" title="Euskara" hreflang="eu"
-   rel="alternate nofollow" lang="eu">Euskara</a>
+   rel="alternate nofollow" xml:lang="eu">Euskara</a>
 
 
 
 
 <a href="./deed.fi" title="Suomeksi" hreflang="fi"
-   rel="alternate nofollow" lang="fi">Suomeksi</a>
+   rel="alternate nofollow" xml:lang="fi">Suomeksi</a>
 
 
 
 
 <a href="./deed.fr" title="français" hreflang="fr"
-   rel="alternate nofollow" lang="fr">français</a>
+   rel="alternate nofollow" xml:lang="fr">français</a>
 
 
 
 
 <a href="./deed.fr_CA" title="français (CA)"
-   hreflang="fr_CA" rel="alternate nofollow" lang="fr_CA">français (CA)</a>
+   hreflang="fr_CA" rel="alternate nofollow"
+   xml:lang="fr_CA">français (CA)</a>
 
 
 
 
 <a href="./deed.gl" title="Galego" hreflang="gl"
-   rel="alternate nofollow" lang="gl">Galego</a>
+   rel="alternate nofollow" xml:lang="gl">Galego</a>
 
 
 
 
 <a href="./deed.he" title="עברית" hreflang="he"
-   rel="alternate nofollow" lang="he">עברית</a>
+   rel="alternate nofollow" xml:lang="he">עברית</a>
 
 
 
 
 <a href="./deed.hr" title="hrvatski" hreflang="hr"
-   rel="alternate nofollow" lang="hr">hrvatski</a>
+   rel="alternate nofollow" xml:lang="hr">hrvatski</a>
 
 
 
 
 <a href="./deed.hu" title="Magyar" hreflang="hu"
-   rel="alternate nofollow" lang="hu">Magyar</a>
+   rel="alternate nofollow" xml:lang="hu">Magyar</a>
 
 
 
 
 <a href="./deed.it" title="Italiano" hreflang="it"
-   rel="alternate nofollow" lang="it">Italiano</a>
+   rel="alternate nofollow" xml:lang="it">Italiano</a>
 
 
 
 
 <a href="./deed.ja" title="日本語" hreflang="ja"
-   rel="alternate nofollow" lang="ja">日本語</a>
+   rel="alternate nofollow" xml:lang="ja">日本語</a>
 
 
 
 
 <a href="./deed.ko" title="한국어" hreflang="ko"
-   rel="alternate nofollow" lang="ko">한국어</a>
+   rel="alternate nofollow" xml:lang="ko">한국어</a>
 
 
 
 
 <a href="./deed.mk" title="Macedonian" hreflang="mk"
-   rel="alternate nofollow" lang="mk">Macedonian</a>
+   rel="alternate nofollow" xml:lang="mk">Macedonian</a>
 
 
 
 
 <a href="./deed.ms" title="Melayu" hreflang="ms"
-   rel="alternate nofollow" lang="ms">Melayu</a>
+   rel="alternate nofollow" xml:lang="ms">Melayu</a>
 
 
 
 
 <a href="./deed.nl" title="Nederlands" hreflang="nl"
-   rel="alternate nofollow" lang="nl">Nederlands</a>
+   rel="alternate nofollow" xml:lang="nl">Nederlands</a>
 
 
 
 
 <a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" lang="no">Norsk</a>
+   rel="alternate nofollow" xml:lang="no">Norsk</a>
 
 
 
 
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
-   rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
+   rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
 
 
 
 <a href="./deed.pl" title="polski" hreflang="pl"
-   rel="alternate nofollow" lang="pl">polski</a>
+   rel="alternate nofollow" xml:lang="pl">polski</a>
 
 
 
 
 <a href="./deed.pt" title="Português" hreflang="pt"
-   rel="alternate nofollow" lang="pt">Português</a>
+   rel="alternate nofollow" xml:lang="pt">Português</a>
 
 
 
 
 <a href="./deed.ro" title="română" hreflang="ro"
-   rel="alternate nofollow" lang="ro">română</a>
+   rel="alternate nofollow" xml:lang="ro">română</a>
 
 
 
 
 <a href="./deed.sl" title="slovenski jezik" hreflang="sl"
-   rel="alternate nofollow" lang="sl">slovenski jezik</a>
+   rel="alternate nofollow" xml:lang="sl">slovenski jezik</a>
 
 
 
 
 <a href="./deed.sr" title="српски " hreflang="sr"
-   rel="alternate nofollow" lang="sr">српски </a>
+   rel="alternate nofollow" xml:lang="sr">српски </a>
 
 
 
 
 <a href="./deed.sr_LATN" title="srpski (latinica)"
    hreflang="sr_LATN" rel="alternate nofollow"
-   lang="sr_LATN">srpski (latinica)</a>
+   xml:lang="sr_LATN">srpski (latinica)</a>
 
 
 
 
 <a href="./deed.st" title="Sotho" hreflang="st"
-   rel="alternate nofollow" lang="st">Sotho</a>
+   rel="alternate nofollow" xml:lang="st">Sotho</a>
 
 
 
 
 <a href="./deed.sv" title="svenska" hreflang="sv"
-   rel="alternate nofollow" lang="sv">svenska</a>
+   rel="alternate nofollow" xml:lang="sv">svenska</a>
 
 
 
 
 <a href="./deed.zh" title="中文" hreflang="zh"
-   rel="alternate nofollow" lang="zh">中文</a>
+   rel="alternate nofollow" xml:lang="zh">中文</a>
 
 
 
 
 <a href="./deed.zh_TW" title="華語 (台灣)" hreflang="zh_TW"
-   rel="alternate nofollow" lang="zh_TW">華語 (台灣)</a>
+   rel="alternate nofollow" xml:lang="zh_TW">華語 (台灣)</a>
 
 
 
 
 <a href="./deed.zu" title="isiZulu" hreflang="zu"
-   rel="alternate nofollow" lang="zu">isiZulu</a>
+   rel="alternate nofollow" xml:lang="zu">isiZulu</a>
 
 
 </div>
@@ -356,7 +363,8 @@ setCookie('lang','%s', expiry, '/');
 
     </div>
 
-    <div id="deed" align="left" class="green" dir="">  
+    <div id="deed" style="text-align:left" class="green"
+         dir="ltr">  
       <div id="deed-head">
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
@@ -365,11 +373,12 @@ setCookie('lang','%s', expiry, '/');
         </div>
       </div>
 
-      <div id="deed-main" align="left" dir="">
+      <div id="deed-main" style="text-align:left" dir="ltr">
        <div id="deed-main-content">
           <div>
 
-        <div id="deed-rights" align="left" dir="">
+        <div id="deed-rights" style="text-align:left"
+             dir="ltr">
 
         
 
@@ -377,11 +386,11 @@ setCookie('lang','%s', expiry, '/');
 
 <p>Η <span>GNU Lesser General Public License</span> είναι μία άδεια <a href="http://www.gnu.org/philosophy/free-sw.html">Ελεύθερου Λογισμικού</a>. Όπως κάθε άδεια ελεύθερου λογισμικού, σας παρέχει τις ακόλουθες τέσσερις ελευθερίες.</p>
 			
-			<ol start="0">
-				<li>Η ελευθερία να εκτελέσετε το πρόγραμμα για κάθε σκοπό.</li>
-				<li>Η ελευθερία να μελετήσετε πώς λειτουργεί το πρόγραμμα και να το προσαρμόσετε στις ανάγκες σας</li>
-				<li>Η ελευθερία να διανέμετε αντίγραφα έτσι ώστε να μπορείτε να βοηθάτε το διπλανό σας.</li>
-				<li>Η ελευθερία να βελτιώσετε το πρόγραμμα και να κυκλοφορήσετε τις βελτιώσεις σας στο κοινό, έτσι ώστε να επωφεληθεί ολόκληρη η κοινότητα</li>
+			<ol class="gpl">
+				<li class="gpl">Η ελευθερία να εκτελέσετε το πρόγραμμα για κάθε σκοπό.</li>
+				<li class="gpl">Η ελευθερία να μελετήσετε πώς λειτουργεί το πρόγραμμα και να το προσαρμόσετε στις ανάγκες σας</li>
+				<li class="gpl">Η ελευθερία να διανέμετε αντίγραφα έτσι ώστε να μπορείτε να βοηθάτε το διπλανό σας.</li>
+				<li class="gpl">Η ελευθερία να βελτιώσετε το πρόγραμμα και να κυκλοφορήσετε τις βελτιώσεις σας στο κοινό, έτσι ώστε να επωφεληθεί ολόκληρη η κοινότητα</li>
 			</ol>
 </div>
     
@@ -392,10 +401,12 @@ setCookie('lang','%s', expiry, '/');
    
    <p />Μπορείτε να απολαμβάνετε τις ελευθερίες που ορίζονται  εδώ, αρκεί να να τηρείτε τους όρους που ορίζονται ρητώς στην άδεια αυτή. Η άδεια LGPL προορίζεται για προγράμματα υπολογιστή και  βιβλιοθήκες παρά για εκτελέσιμα προγράμματα. Οι βασικές προϋποθέσεις είναι:
 
-   <ul align="left" dir=""> 
+   <ul style="text-align:left" dir="ltr"> 
      <li class="license notice">Μαζί με κάθε κάθε αντίγραφο που δημοσιεύετε, θα πρέπει αναλόγως και ευκρινώς  να έχετε ένα λογότυπο-υπόμνηση δικαιώματος πνευματικής ιδιοκτησίας και αποποίηση οποιασδήποτε εγγυήσεως και παράλληλα θα πρέπει να διατηρήσετε ανέπαφες όλες τις σημειώσεις που αναφέρονται σε αυτήν την άδεια και στην απουσία οποιασδήποτε εγγυήσεως και θα πρέπει να δώσετε σε οποιονδήποτε άλλον παραλήπτη του προγράμματος ένα αντίγραφο   <span>GNU Lesser General Public License</span> μαζί με το πρόγραμμα.Οποιαδήποτε μετάφραση<span>GNU Lesser General Public License</span> θα πρέπει να συνοδεύεται από την <span>GNU Lesser General Public License</span>.</li>
 
-     <li class="license sa">Εάν τροποποιήσετε το αντίγραφο ή τα αντίγραφα του προγράμματος ή κάθε μέρους αυτού, ή αναπτύξετε πρόγραμμα που βασίζεται σε αυτό, θα μπορείτε να διανέμετε το έργο που θα προκύψει εάν κι εφόσοντο πράξετε υπό  <span>GNU Lesser General Public License</span>. Κάθε μετάφραση <span>GNU Lesser General Public License</span> πρέπει να συνοδεύεται από <span>GNU Lesser General Public License</span>.</li>
+     
+
+     <li class="license sa">Εάν τροποιήσετε το αντίγραφό ή τα αντίγραφά σας από τη βιβλιοθήκη ή οποιοδήποτε κομμάτι από αυτή, μπορείτε να διανείμετε τη βιβλιοθήκη που θα προκύψει, εάν κι εφόσον το πράξετε υπό την άδεια GNU LesserGeneral Public License. Παρόλα αυτά, προγράμματα τα οποία συνδέονται με τη βιβλιοθήκη, μπορούν να εκχωρηθούν με όρους της επιλογής σας στο βαθμό που η βιβλιοθήκη από μόνη της Θα μπορεί να αλλάξει. Οποιαδήποτε μετάφραση της GNU Lesser General Public License θα πρέπει να συνοδεύεται από την GNU Lesser General Public License.</li>
 
      <li class="license src">Εάν αναπαράγετε ή διανείμετε το πρόγραμμα, θα πρέπει να το συνοδεύσετε με ολοκληρωμένο τον ανάλογο πηγαίο κώδικα σε ψηφιακή μορφή ή με μία γραπτή προσφορά με ισχύ για τουλάχιστον τρία χρόνια με την οποία θα παρέχετε ολόκληρο τον αντίστοιχο πηγαίο κώδικα σε ψηφιακή μορφή.</li>
    </ul>
@@ -428,11 +439,11 @@ setCookie('lang','%s', expiry, '/');
 	  </div>
 	  
 
-        <p align="center" style="margin-top:40px">
+        <p style="text-align:center; margin-top:40px;">
 	  <strong>Οι χρήσεις που απορρέουν από τους νόμιμους περιορισμούς του περιουσιακού δικαιώματος, καθώς και άλλα δικαιώματά που έχετε, σε καμία περίπτωση δεν επηρεάζονται από τα παραπάνω</strong>
 	</p>
 
-	<p align="center">
+	<p style="text-align:center">
 
     
 
@@ -449,7 +460,10 @@ setCookie('lang','%s', expiry, '/');
        </div>
     </div>
     <p id="footer">
-      <a href="/about/licenses">Ενημερωθείτε για το πώς μπορείτε να διανέμετε το έργο σας χρησιμοποιώντας αυτήν την άδεια</a>
+      <a id="get_this"
+         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1">
+      Use this license for your own work.</a>
+
     </p>
 
   </body>
