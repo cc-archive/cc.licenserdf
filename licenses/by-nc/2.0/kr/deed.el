@@ -147,13 +147,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.en_HK" title="English (Hong Kong)"
-   hreflang="en_HK" rel="alternate nofollow"
-   xml:lang="en_HK">English (Hong Kong)</a>
-
-
-
-
 <a href="./deed.en_US" title="English (US)" hreflang="en_US"
    rel="alternate nofollow" xml:lang="en_US">English (US)</a>
 
@@ -365,12 +358,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
-
-
-
-
 <a href="./deed.zh_TW" title="華語 (台灣)" hreflang="zh_TW"
    rel="alternate nofollow" xml:lang="zh_TW">華語 (台灣)</a>
 
@@ -415,7 +402,7 @@ setCookie('lang','%s', expiry, '/');
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>η διασκευή</strong> —να τροποποιήσετε το έργο</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>να διασκευάσετε</strong> —να υιοθετήσετε το έργο</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
@@ -531,7 +518,8 @@ setCookie('lang','%s', expiry, '/');
     </div>
     <p id="footer">
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc&amp;jurisdiction=kr&amp;version=2.0">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc&amp;jurisdiction=kr&amp;version=2.0">
+      Use this license for your own work.</a>
 
     </p>
 

@@ -147,13 +147,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.en_HK" title="English (Hong Kong)"
-   hreflang="en_HK" rel="alternate nofollow"
-   xml:lang="en_HK">English (Hong Kong)</a>
-
-
-
-
 <a href="./deed.en_US" title="English (US)" hreflang="en_US"
    rel="alternate nofollow" xml:lang="en_US">English (US)</a>
 
@@ -365,12 +358,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
-
-
-
-
 <a href="./deed.zh_TW" title="華語 (台灣)" hreflang="zh_TW"
    rel="alternate nofollow" xml:lang="zh_TW">華語 (台灣)</a>
 
@@ -465,7 +452,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license nc">
 	      <p><strong>Necomercial</strong>. 
 		
-		<span>Nu poţi folosi această operă în scopuri comerciale.</span>
+		<span>Nu poţi folosi opera aceasta în scopuri comerciale.</span>
 		<span id="nc-more-container" />
 	      </p>
 
@@ -476,7 +463,7 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Pentru orice reutilizare sau distribuţie, trebuie să prezinţi clar celorlalţi termenii licenţei pentru această operă. Cel mai bun mod de a-l face este de a pune un link către această pagină web.</li>
             <li>Dacă obţii permisiunea din partea titularului dreptului de autor, se poate renunţa la oricare dintre condiţiile de mai sus. </li>
             
-            <li>Nimic din această licenţă nu împiedică sau restricţionează drepturile morale ale autorului.</li>
+            <li>Nimic din această licenţă nu împiedică sau restricţionează dreptruile morale ale autorului.</li>
             
             
           </ul>
@@ -504,7 +491,7 @@ Rezumatul Explicativ nu este o licenţă. Este doar o referinţă uşoară pentr
 </p>
 
 <p>
-Creative Commons nu este o companie de avocatură şi nu furnizează servicii juridice. Distribuirea, afişarea sau legătura către acest Act Commons nu crează o relaţie de tip avocat-client. 
+Creative Commons nu este o companie de avocatură şi nu furnizează servici juridice. Distribuirea, afişarea sau legătura către acest Act Commons nu crează o relaţie de tip avocat-client. 
 </p></div>
 	  </div>
 	  
@@ -521,7 +508,7 @@ Creative Commons nu este o companie de avocatură şi nu furnizează servicii ju
 
     
 
-    Acesta este un rezumat pe înţelesul tuturor a <a href="legalcode" class="fulltext">Codului Juridic (întreaga licenţă)</a>.
+    Acesta este un rezumat de înţeles pentru toată lumea a <a href="legalcode" class="fulltext">Codului Juridic (întreaga licenţă)</a>.
  </p>
 
          
@@ -529,7 +516,8 @@ Creative Commons nu este o companie de avocatură şi nu furnizează servicii ju
     </div>
     <p id="footer">
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc&amp;jurisdiction=kr&amp;version=2.0">Foloseşte această licenţă pentru creaţia ta.</a>
+         href="/license/results-one?license_code=by-nc&amp;jurisdiction=kr&amp;version=2.0">
+      Use this license for your own work.</a>
 
     </p>
 

@@ -146,13 +146,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.en_HK" title="English (Hong Kong)"
-   hreflang="en_HK" rel="alternate nofollow"
-   xml:lang="en_HK">English (Hong Kong)</a>
-
-
-
-
 <a href="./deed.en_US" title="English (US)" hreflang="en_US"
    rel="alternate nofollow" xml:lang="en_US">English (US)</a>
 
@@ -364,12 +357,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
-
-
-
-
 <a href="./deed.zh_TW" title="華語 (台灣)" hreflang="zh_TW"
    rel="alternate nofollow" xml:lang="zh_TW">華語 (台灣)</a>
 
@@ -444,7 +431,7 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">Wat betekent "Naamsvermelding bij dit werk"?</div>
+		  <div class="hd">Wat betekend "Naamsvermelding bij dit werk"?</div>
 		  <div class="bd">De website waar u vandaan komt bevat ingebedde metadata, met onder meer informatie over de door de maker van het werk bij hergebruik gewenste manier van naamsvermelding. U kunt de html code hieronder gebruiken om de de naam te vermelden. In dit geval wordt metadata in uw pagina geplaatst die anderen in staat stelt om het originele werk te vinden.</div>
 		</div>
 
@@ -527,7 +514,8 @@ Creative Commons is geen advocatenpraktijk en verleent geen juridische diensten.
     </div>
     <p id="footer">
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=kr&amp;version=2.0">Gebruik deze licentie voor je eigen werk.</a>
+         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=kr&amp;version=2.0">
+      Use this license for your own work.</a>
 
     </p>
 

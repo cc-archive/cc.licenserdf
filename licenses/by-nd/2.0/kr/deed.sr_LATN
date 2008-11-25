@@ -145,13 +145,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.en_HK" title="English (Hong Kong)"
-   hreflang="en_HK" rel="alternate nofollow"
-   xml:lang="en_HK">English (Hong Kong)</a>
-
-
-
-
 <a href="./deed.en_US" title="English (US)" hreflang="en_US"
    rel="alternate nofollow" xml:lang="en_US">English (US)</a>
 
@@ -363,12 +356,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
-
-
-
-
 <a href="./deed.zh_TW" title="華語 (台灣)" hreflang="zh_TW"
    rel="alternate nofollow" xml:lang="zh_TW">華語 (台灣)</a>
 
@@ -517,7 +504,8 @@ Creative Commons nije advokatska kancelarija i ne pruža pravne usluge. Distribu
     </div>
     <p id="footer">
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=kr&amp;version=2.0">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nd&amp;jurisdiction=kr&amp;version=2.0">
+      Use this license for your own work.</a>
 
     </p>
 
