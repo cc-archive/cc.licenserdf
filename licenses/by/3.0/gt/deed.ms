@@ -16,6 +16,9 @@
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -149,6 +152,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.en_HK" title="English (Hong Kong)"
    hreflang="en_HK" rel="alternate nofollow"
    xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -403,7 +413,8 @@ setCookie('lang','%s', expiry, '/');
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="gt">
+
           
   <div id="libre">
     <a href="http://freedomdefined.org/">

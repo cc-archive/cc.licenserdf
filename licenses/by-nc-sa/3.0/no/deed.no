@@ -448,7 +448,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license sa">
 	      <p><strong>Del på samme vilkår</strong>. 
 		
-		<span>Dersom du endrer, bearbeider eller bygger videre på dette verk, kan du kun spre det resulterende verk under en licens, som er identisk med denne.</span>
+		<span>Dersom du endrer, bearbeider eller bygger videre på dette verk, kan du kun spre det resulterende verk under en lisens, som er identisk med denne.</span>
 		<span id="sa-more-container" />
 	      </p>
 

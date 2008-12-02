@@ -286,6 +286,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -474,10 +480,10 @@ setCookie('lang','%s', expiry, '/');
 	    <a href="" id="disclaimer">הגבלת אחריות</a>
 	    <div id="disclaimer_panel">
 	      <div class="hd">הגבלת אחריות</div>
-	      <div class="bd"><p dir="rtl" align="right">
+	      <div class="bd"><p dir="rtl" style="right">
 תעודה זו אינה מהווה רישיון. היא רק כלי-עזר להבנת המסמך המשפטי (הרישיון המלא) &mdash; זהו ביטוי פשוט של חלק מהתנאים היסודיים של הרישיון. ניתן לראות אותה כממשק ידידותי למשתמש של המסמך המשפטי שמאחוריה. לתעודה זו כשלעצמה אין כל ערך משפטי, ותוכנה אינו מופיע ברישיון האמיתי.</p>
 
-<p dir="rtl" align="right">
+<p dir="rtl" style="right">
 ארגון Creative Commons אינו משרד עורכי-דין ואינו מספק שירותים משפטיים. הפצה, הצגה או קישור לתעודה זו אינם יוצרים יחסי עורך דין-לקוח.</div>
 	  </div>
 	  

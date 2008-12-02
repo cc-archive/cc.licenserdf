@@ -535,6 +535,10 @@ Creative Commons bukan firma guaman dan tidak menawarkan perkhidmatan undang-und
          <a href="legalcode.es">Sepanyol</a>
 
          
+           <a href="legalcode.eu">Basque</a> 
+         
+
+         
      
 
      

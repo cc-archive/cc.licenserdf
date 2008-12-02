@@ -285,6 +285,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -442,7 +448,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license sa">
 	      <p><strong>Del på samme vilkår</strong>. 
 		
-		<span>Dersom du endrer, bearbeider eller bygger videre på dette verk, kan du kun spre det resulterende verk under en licens, som er identisk med denne.</span>
+		<span>Dersom du endrer, bearbeider eller bygger videre på dette verk, kan du kun spre det resulterende verk under en lisens, som er identisk med denne.</span>
 		<span id="sa-more-container" />
 	      </p>
 

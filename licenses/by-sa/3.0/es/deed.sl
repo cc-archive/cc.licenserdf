@@ -536,6 +536,10 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
          <a href="legalcode.es">španski jezik</a>
 
          
+           <a href="legalcode.eu">baskovski jezik</a> 
+         
+
+         
      
 
      

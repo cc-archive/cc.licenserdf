@@ -439,11 +439,11 @@ setCookie('lang','%s', expiry, '/');
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
-                class="license nc-eu">
+                class="license nc">
 	      <p><strong>Keine kommerzielle Nutzung</strong>. 
 		
 		<span>Dieses Werk darf nicht für kommerzielle Zwecke verwendet werden.</span>
-		<span id="nc-eu-more-container" />
+		<span id="nc-more-container" />
 	      </p>
 
 	      

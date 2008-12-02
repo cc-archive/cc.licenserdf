@@ -420,17 +420,8 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="hd">Mitä "tekijä tulee ilmoittaa" tarkoittaa?</div>
+		  <div class="bd">Sivu, jolta saavuit, sisälsi lisenssi metadataa, jossa ilmoitetaan tekijän toiveesta tulla ilmoitetuksi teoksen tekijänä. Voit käyttää seuraavaa HTML koodia tämän toiveen täyttämiseksi. Näin mahdollistat myös muiden löytää alkuperäisen teoksen.</div>
 		</div>
 
 	      

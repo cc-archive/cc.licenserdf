@@ -3,7 +3,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons 
-    Attribution 3.0 country.ec
+    Attribution 3.0 Ecuador
   </title>
 
     <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
@@ -370,7 +370,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
 	      <h1><span>Creative Commons License Deed</span></h1>
         <div id="deed-license">
-	        <h2 property="dc:title">Atribuire 3.0 country.ec</h2>
+	        <h2 property="dc:title">Atribuire 3.0 Ecuador</h2>
         </div>
       </div>
 
@@ -394,7 +394,7 @@ setCookie('lang','%s', expiry, '/');
     href="http://creativecommons.org/ns#Reproduction">Eşti liber să:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
-       href="http://creativecommons.org/ns#Distribution"></li>
+       href="http://creativecommons.org/ns#Distribution"><strong>de a partaja cu alţii </strong> — copia, distribui şi transmite opera.</li>
 			      <li class="license remix" rel="cc:permits"
              href="http://creativecommons.org/ns#DerivativeWorks"><strong>a remixa</strong> - a adapta opera</li>
             <li id="more-container" class="license-hidden" />
@@ -426,9 +426,7 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
+		  <div class="hd">Ce înseamna "Atribuirea operei" ?</div>
 		  <div class="bd">
 		    The page you came from contained embedded licensing
 		    metadata, including how the creator wishes to be 

@@ -523,8 +523,7 @@ Licencjodawcę</span>
     </div>
     <p id="footer">
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=ro&amp;version=3.0">
-      Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=ro&amp;version=3.0">Use this license for your own work.</a>
 
     </p>
 

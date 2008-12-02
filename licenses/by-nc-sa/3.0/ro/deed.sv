@@ -531,8 +531,7 @@ Creative Commons är inte en advokatbyrå eller juridisk byrå och tillhandahål
     </div>
     <p id="footer">
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=ro&amp;version=3.0">
-      Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=ro&amp;version=3.0">Use this license for your own work.</a>
 
     </p>
 

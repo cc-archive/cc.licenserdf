@@ -285,6 +285,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.no" title="Norsk" hreflang="no"
+   rel="alternate nofollow" lang="no">Norsk</a>
+
+
+
+
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" lang="nso">Sesotho sa Leboa</a>
 
@@ -382,12 +388,12 @@ setCookie('lang','%s', expiry, '/');
 <a href="/worldwide/de/"><img
     src="/images/international/de.png" border="0" /></a>
 <h3 rel="cc:permits"
-    href="http://creativecommons.org/ns#Reproduction">Sie dürfen:</h3>
+    href="http://creativecommons.org/ns#Reproduction">Es ist Ihnen gestattet:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
        href="http://creativecommons.org/ns#Distribution">das Werk vervielfältigen, verbreiten und öffentlich zugänglich machen</li>
 			      <li class="license remix" rel="cc:permits"
-             href="http://creativecommons.org/ns#DerivativeWorks">Bearbeitungen des Werkes anfertigen</li>
+             href="http://creativecommons.org/ns#DerivativeWorks">Abwandlungen bzw. Bearbeitungen des Inhaltes anfertigen</li>
             <li id="more-container" class="license-hidden" />
 	    <span id="devnations-container" />
 		      </ul>
@@ -400,7 +406,7 @@ setCookie('lang','%s', expiry, '/');
                 href="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>Namensnennung</strong>. 
-		<span id="attribution-container">Sie müssen den Namen des Autors/Rechteinhabers in der von ihm festgelegten Weise nennen (wodurch aber nicht der Eindruck entstehen darf, Sie oder die Nutzung des Werkes durch Sie würden entlohnt).</span>
+		<span id="attribution-container">Sie müssen den Namen des Autors/Rechteinhabers in der von ihm festgelegten Weise nennen.</span>
 		
 		<span id="by-more-container" />
 	      </p>
@@ -418,17 +424,8 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="hd">Was bedeutet "Namensnennung" genau?</div>
+		  <div class="bd">Die zuvor angezeigte Webseite enthielt eingebettete Meta-Daten, unter anderem auch zur Frage, wie die Namensnennung des Lizenzgebers genau erfolgen soll. Sie können daher das hier angezeigte HTML benutzen, um den lizenzierten Inhalt zu zitieren. Dadurch werden auch auf Ihrer Webseite Meta-Daten eingebettet, durch die das Auffinden des verwendeten Inhalts erleichtert wird.</div>
 		</div>
 
 	      
@@ -451,7 +448,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license sa">
 	      <p><strong>Weitergabe unter gleichen Bedingungen</strong>. 
 		
-		<span>Wenn Sie dieses Werk bearbeiten oder in anderer Weise umgestalten, verändern oder als Grundlage für ein anderes Werk verwenden, dürfen Sie das neu entstandene Werk nur unter Verwendung von Lizenzbedingungen weitergeben, die mit denen dieses Lizenzvertrages identisch oder vergleichbar sind.</span>
+		<span>Wenn Sie den lizenzierten Inhalt bearbeiten oder in anderer Weise umgestalten, verändern oder als Grundlage für einen anderen Inhalt verwenden, dürfen Sie den neu entstandenen Inhalt nur unter Verwendung von Lizenzbedingungen weitergeben, die mit denen dieses Lizenzvertrages identisch oder vergleichbar sind.</span>
 		<span id="sa-more-container" />
 	      </p>
 
@@ -482,9 +479,9 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">Haftungsausschluss</a>
+	    <a href="" id="disclaimer">Haftungbeschränkung</a>
 	    <div id="disclaimer_panel">
-	      <div class="hd">Haftungsausschluss</div>
+	      <div class="hd">Haftungbeschränkung</div>
 	      <div class="bd"><p>
 
 Die Commons Deed ist kein Lizenzvertrag. Sie ist lediglich ein Referenztext, der den zugrundeliegenden Lizenzvertrag übersichtlich und in allgemeinverständlicher Sprache wiedergibt. Die Deed selbst entfaltet keine juristische Wirkung und erscheint im eigentlichen Lizenzvertrag nicht. 

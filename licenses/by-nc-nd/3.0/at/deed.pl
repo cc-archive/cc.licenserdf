@@ -440,11 +440,11 @@ Licencjodawcę</span>
             </li>
             <li rel="cc:prohibits"
                 href="http://creativecommons.org/ns#CommercialUse"
-                class="license nc-eu">
+                class="license nc">
 	      <p><strong>Użycie niekomercyjne</strong>. 
 		
 		<span>Nie wolno używać tego utworu do celów komercyjnych.</span>
-		<span id="nc-eu-more-container" />
+		<span id="nc-more-container" />
 	      </p>
 
 	      

@@ -536,6 +536,10 @@ setCookie('lang','%s', expiry, '/');
          <a href="legalcode.es">Ισπανικά</a>
 
          
+           <a href="legalcode.eu">Βασκικά</a> 
+         
+
+         
      
 
      
