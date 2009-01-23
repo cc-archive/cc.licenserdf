@@ -103,15 +103,25 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     if license_uri[-1] != '/':
         license_uri += '/'
 
-    # load the based on graph
-    based_on = load_graph(_license_rdf_filename(rdf_dir, based_on_uri))
-
     # create the graph for the new license
     license = graph()
 
-    # copy base assertions
-    for (p, o) in based_on.predicate_objects(URIRef(based_on_uri)):
-        license.add((URIRef(license_uri), p, o))
+    if based_on_uri:
+        # we're starting from an existing license
+
+        # load the based on graph
+        based_on = load_graph(_license_rdf_filename(rdf_dir, based_on_uri))
+
+        # copy base assertions
+        for (p, o) in based_on.predicate_objects(URIRef(based_on_uri)):
+            license.add((URIRef(license_uri), p, o))
+
+        replace_predicate(license, URIRef(license_uri), NS_DC.source, 
+                          URIRef(based_on_uri))
+
+    else:
+        # add the basic framework -- this is a license
+        license.add((URIRef(license_uri), NS_RDF.type, NS_CC.License))
 
     # add the jurisdiction, version, source
     if jurisdiction is not None:
@@ -121,10 +131,9 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
         # unported; remove any jurisdiction assertion
         license.remove((URIRef(license_uri), NS_CC.jurisdiction, None))
 
+    # set/replace the version
     replace_predicate(license, URIRef(license_uri), NS_DCQ.hasVersion, 
                       Literal(version))
-    replace_predicate(license, URIRef(license_uri), NS_DC.source, 
-                      URIRef(based_on_uri))
 
     # determine the legalcode URI
     if legalcode_uri is None:
