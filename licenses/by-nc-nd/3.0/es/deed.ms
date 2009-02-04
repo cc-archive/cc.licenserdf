@@ -3,11 +3,9 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    Attribution-Noncommercial-No Derivative Works 3.0 Spain
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      Pengiktirafan-Bukan komersial-Bukan Karya Terbitan 3.0 Sepanyol
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
@@ -16,6 +14,9 @@
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,19 +38,18 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
@@ -79,14 +79,10 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">Creative Commons</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">Mukasurat ini boleh didapati dalam bahasa-bahasa berikut:</span>
 <br />
 
@@ -122,12 +118,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.el" title="Ελληνικά" hreflang="el"
-   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
-
-
-
-
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -149,6 +139,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.en_HK" title="English (Hong Kong)"
    hreflang="en_HK" rel="alternate nofollow"
    xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -393,17 +390,27 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="yellow"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">Pengiktirafan-Bukan komersial-Bukan Karya Terbitan 3.0 Sepanyol</h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="es">
+
           
   
 
@@ -467,11 +474,11 @@ setCookie('lang','%s', expiry, '/');
             </li>
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
-                class="license nc-eu">
+                class="license nc">
 	      <p><strong>Bukan komersial</strong>. 
 		
 		<span>Anda tidak dibenarkan mengunakan karya tersebut untuk tujuan komersial.</span>
-		<span id="nc-eu-more-container" />
+		<span id="nc-more-container" />
 	      </p>
 
 	      
@@ -517,7 +524,7 @@ setCookie('lang','%s', expiry, '/');
 	      <div class="bd">Surat Ikatan Commons bukan satu lesen. Ia hanya sebuah rujukan yang senang untuk memahami Kod Undang-undang (lesen sepenuhnya) - ia adalah satu gambaran tentang sebahagian daripada terma-terma yang terutama didalamnya yang mudah-dibaca . Anggapkannya sebagai satu interface mesra-pengguna kepada Kod Undang-undang di bawahnya. Surat ikatan ini tidak mengandungi nilai yang sah, dan kandungannya tidak muncul di dalam lesen yang sebenarnya. 
 
 Creative Commons bukan firma guaman dan tidak menawarkan perkhidmatan undang-undang. Pengedaran, pameran atau hubungan kepada Surat Ikatan Commons ini tidak mewujudkan hubungan peguamcara dan anakguam.</div>
-	  </div>
+	    </div>
 	  
 
         <p style="text-align:center; margin-top:40px;">
@@ -536,8 +543,8 @@ Creative Commons bukan firma guaman dan tidak menawarkan perkhidmatan undang-und
 
          
            <a href="legalcode.eu">Basque</a> 
+           <a href="legalcode.gl">Galician</a> 
          
-
          
      
 
@@ -561,9 +568,10 @@ Creative Commons bukan firma guaman dan tidak menawarkan perkhidmatan undang-und
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=es&amp;version=3.0">Use this license for your own work.</a>
-
+         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=es&amp;version=3.0&amp;lang=ms">Use this license for your own work.</a>
+      
     </p>
 
   </body>

@@ -3,11 +3,9 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    Attribution-Share Alike 3.0 Spain
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      Navngivelse-Del på samme vilkår 3.0 Spania
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
@@ -16,6 +14,9 @@
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,19 +38,18 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
@@ -80,14 +80,10 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">Creative Commons</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">Denne siden er tilgjengelig på følgende språk:</span>
 <br />
 
@@ -123,12 +119,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.el" title="Ελληνικά" hreflang="el"
-   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
-
-
-
-
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -150,6 +140,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.en_HK" title="English (Hong Kong)"
    hreflang="en_HK" rel="alternate nofollow"
    xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -394,17 +391,27 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="green"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">Navngivelse-Del på samme vilkår 3.0 Spania</h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="es">
+
           
   <div id="libre">
     <a href="http://freedomdefined.org/">
@@ -507,9 +514,9 @@ Commons Deed er ikke en lisens. Det er kun et enkelt sammendrag som gir en kortf
 </p>
 
 <p>
-Creative Commons Corporation er ikke et advokatfirma og tilbyr ikke juridiske tjenester. Å distribuere, vise, eller lenke til Commons Deed skaper ikke et advokat-klientforhold.
+Creative Commons er ikke et advokatfirma og tilbyr ikke juridiske tjenester. Å distribuere, vise, eller lenke til Commons Deed skaper ikke et advokat-klientforhold.
 </p></div>
-	  </div>
+	    </div>
 	  
 
         <p style="text-align:center; margin-top:40px;">
@@ -528,8 +535,8 @@ Creative Commons Corporation er ikke et advokatfirma og tilbyr ikke juridiske tj
 
          
            <a href="legalcode.eu">Baskisk</a> 
+           <a href="legalcode.gl">Galisisk</a> 
          
-
          
      
 
@@ -553,9 +560,10 @@ Creative Commons Corporation er ikke et advokatfirma og tilbyr ikke juridiske tj
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=by-sa&amp;jurisdiction=es&amp;version=3.0">Bruk denne lisensen for ditt eget verk.</a>
-
+         href="/license/results-one?license_code=by-sa&amp;jurisdiction=es&amp;version=3.0&amp;lang=no">Bruk denne lisensen for ditt eget verk.</a>
+      
     </p>
 
   </body>

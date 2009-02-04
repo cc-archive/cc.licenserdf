@@ -3,11 +3,9 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    Attribution-Share Alike 3.0 Spain
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      署名-相同方式共享 3.0 西班牙
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
@@ -16,6 +14,9 @@
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/licenses/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,19 +38,18 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
             src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
@@ -80,14 +80,10 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">共享創意</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">本頁面也有下列各語言的版本：</span>
 <br />
 
@@ -123,12 +119,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.el" title="Ελληνικά" hreflang="el"
-   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
-
-
-
-
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -150,6 +140,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.en_HK" title="English (Hong Kong)"
    hreflang="en_HK" rel="alternate nofollow"
    xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -394,17 +391,27 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="green"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">署名-相同方式共享 3.0 西班牙</h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="es">
+
           
   <div id="libre">
     <a href="http://freedomdefined.org/">
@@ -425,7 +432,7 @@ setCookie('lang','%s', expiry, '/');
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution"><strong>共享</strong> — 複製，分發，展示及表演本作品</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>重混</strong> — 創作衍生著作</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>重混</strong> — 創作衍生作品</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
@@ -456,7 +463,7 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="attribution_help_panel">
-		  <div class="hd">所謂的「姓名標示」是什麼意思？</div>
+		  <div class="hd">所謂的「署名」是什麼意思？</div>
 		  <div class="bd">引領你前來此處的網頁中嵌入了含授權資訊的後設資料，包括原作者想以什麼方式為人表彰等。你可以使用此處提供的 HTML 來引用此作品、並表彰出處。使用後，你的網頁上也會有授權後設資料，方便他人尋得原始作品。</div>
 		</div>
 
@@ -468,7 +475,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license sa">
 	      <p><strong>相同方式共享</strong>. 
 		
-		<span>若您改變、轉變或改作本著作，僅在採用與本著作相同、相似或相容的授權條款下，您始得散布由本著作而生的衍生著作。</span>
+		<span>若您修改、轉換本作品或以本作品為基礎進行創作，您只可採用與本協議相同或相容的授權條款分發您的作品。</span>
 		<span id="sa-more-container" />
 	      </p>
 
@@ -507,7 +514,7 @@ setCookie('lang','%s', expiry, '/');
 
 <p>
 Creative Commons不是法律事務所，亦不提供法律服務。分發、展示或連結到授權標章並不產生律師和客戶的關係。</p></div>
-	  </div>
+	    </div>
 	  
 
         <p style="text-align:center; margin-top:40px;">
@@ -517,7 +524,7 @@ Creative Commons不是法律事務所，亦不提供法律服務。分發、展�
 	<p style="text-align:center">
 
     
-     這是一份讓一般人易於了解的法律條款（完整的授權條款）摘要，同時有下列不同語言的譯本：
+     這是一般人可以理解的法律條款（授權條款全文）的摘要，同時有下列不同語言的譯本：
        <br />
 
      
@@ -526,8 +533,8 @@ Creative Commons不是法律事務所，亦不提供法律服務。分發、展�
 
          
            <a href="legalcode.eu">巴斯克語</a> 
+           <a href="legalcode.gl">加利西亞語</a> 
          
-
          
      
 
@@ -551,9 +558,10 @@ Creative Commons不是法律事務所，亦不提供法律服務。分發、展�
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=by-sa&amp;jurisdiction=es&amp;version=3.0">了解如何使用此授權條款來分發您的作品。</a>
-
+         href="/license/results-one?license_code=by-sa&amp;jurisdiction=es&amp;version=3.0&amp;lang=zh_HK">了解如何使用此授權條款來分發您的作品。</a>
+      
     </p>
 
   </body>
