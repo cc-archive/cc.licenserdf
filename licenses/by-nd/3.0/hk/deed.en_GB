@@ -135,13 +135,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.en_HK" title="English (Hong Kong)"
-   hreflang="en_HK" rel="alternate nofollow"
-   xml:lang="en_HK">English (Hong Kong)</a>
-
-
-
-
 <a href="./deed.en_SG" title="English (Singapore)"
    hreflang="en_SG" rel="alternate nofollow"
    xml:lang="en_SG">English (Singapore)</a>
@@ -510,9 +503,13 @@ setCookie('lang','%s', expiry, '/');
 	    <a href="" id="disclaimer">Disclaimer</a>
 	    <div id="disclaimer_panel">
 	      <div class="hd">Disclaimer</div>
-	      <div class="bd">The Commons Deed is not a licence. It is simply a handy reference for understanding the Legal Code (the full licence) — it is a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in the actual licence. 
+	      <div class="bd"><p>
+The Commons Deed is not a licence. It is simply a handy reference for understanding the Legal Code (the full licence) — it is a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in the actual licence.
+</p>
 
-Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.</div>
+<p>
+Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship. 
+</p></div>
 	    </div>
 	  
 
@@ -537,7 +534,8 @@ Creative Commons is not a law firm and does not provide legal services. Distribu
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=en_GB">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=en_GB">
+      Use this license for your own work.</a>
       
     </p>
 

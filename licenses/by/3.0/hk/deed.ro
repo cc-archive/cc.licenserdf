@@ -136,13 +136,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.en_HK" title="English (Hong Kong)"
-   hreflang="en_HK" rel="alternate nofollow"
-   xml:lang="en_HK">English (Hong Kong)</a>
-
-
-
-
 <a href="./deed.en_SG" title="English (Singapore)"
    hreflang="en_SG" rel="alternate nofollow"
    xml:lang="en_SG">English (Singapore)</a>
