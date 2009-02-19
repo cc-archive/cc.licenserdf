@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -491,7 +479,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Pentru orice reutilizare sau distribuţie, trebuie să prezinţi clar celorlalţi termenii licenţei pentru această operă. Cel mai bun mod de a-l face este de a pune un link către această pagină web.</li>
             <li>Dacă obţii permisiunea din partea titularului dreptului de autor, se poate renunţa la oricare dintre condiţiile de mai sus. </li>
             
-            <li>Nimic din această licenţă nu împiedică sau restricţionează drepturile morale ale autorului.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -525,7 +515,7 @@ Creative Commons nu este o companie de avocatură şi nu furnizează servicii ju
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Cele de mai sus nu afectează în nici un mod limitele legale ale exercitării dreptului de autor sau alte drepturi.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">

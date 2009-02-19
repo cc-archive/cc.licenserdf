@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -493,7 +481,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Vid all återanvändning och distribution måste du informera om licensvillkoren som gäller för verket. Det bästa sättet att göra detta är genom en länk till den här webbsidan.</li>
             <li>Undantag från villkoren ovan kan meddelas av upphovsrättsinnehavaren.</li>
             
-            <li>Ingenting i denna licens begränsar upphovsmannens ideella rätt.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -527,7 +517,7 @@ Creative Commons är inte en advokatbyrå eller juridisk byrå och tillhandahål
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Dina lagstadgade rättigheter påverkas inte av denna licens.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -547,7 +537,8 @@ Creative Commons är inte en advokatbyrå eller juridisk byrå och tillhandahål
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=sv">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=sv">
+      Use this license for your own work.</a>
       
     </p>
 

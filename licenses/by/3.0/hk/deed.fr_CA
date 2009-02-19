@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -476,7 +464,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">A chaque réutilisation ou distribution, vous devez faire apparaître clairement aux autres les conditions contractuelles de mise à disposition de cette création.</li>
             <li>Chacune de ces conditions peut être levée si vous obtenez l'autorisation du titulaire des droits.</li>
             
-            <li>Le droit moral de l'auteur ou des auteurs est maintenu dans ce contrat.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -510,7 +500,7 @@ Creative Commons n'est pas un cabinet d'avocats et ne délivre pas de conseils j
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Ce qui précède n'affecte en rien vos droits en tant qu'utilisateur (exceptions au droit d'auteur).</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">

@@ -293,12 +293,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -356,12 +350,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -481,7 +469,9 @@ Licencjodawcę</span>
                 resource="http://creativecommons.org/ns#Notice">W celu ponownego użycia utworu lub rozpowszechniania utworu należy wyjaśnić innym warunki licencji, na której udostępnia się utwór.</li>
             <li>Każdy z tych warunków może zostać uchylony, jeśli uzyska się zezwolenie właściciela praw autorskich.</li>
             
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -511,7 +501,7 @@ Licencjodawcę</span>
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Powyższe postanowienia w żaden sposób nie naruszają uprawnień wynikających z dozwolonego użytku ani żadnych innych praw.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -531,7 +521,8 @@ Licencjodawcę</span>
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=pl">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=pl">
+      Use this license for your own work.</a>
       
     </p>
 

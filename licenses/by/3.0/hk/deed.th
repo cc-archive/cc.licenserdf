@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -474,7 +462,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">สำหรับการนำงานไปใช้ซ้ำหรือแจกจ่าย คุณควรบอกผู้อื่นอย่างชัดเจนถึงข้อตกลงต่างๆในสัญญาอนุญาตสำหรับงานนี้ วิธีที่ดีที่สุดคือการเชื่อมโยงกลับไปที่หน้าเว็บนี้</li>
             <li>เงื่อนไขใด ๆ ข้างต้น อาจได้รับการยกเว้น ถ้าคุณได้รับอนุญาตจากเจ้าของลิขสิทธิ์</li>
             
-            <li>ไม่มีสิ่งใดในสัญญาอนุญาตนี้ที่จะลิดรอนหรือจำกัดจริยสิทธิ์ของผู้สร้างสรรค์.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -502,7 +492,7 @@ setCookie('lang','%s', expiry, '/');
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>สิทธิการใช้งานตามสมควรและสิทธิอื่น ๆ ไม่ได้รับผลกระทบใด ๆ จากข้อตกลงข้างต้น</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">

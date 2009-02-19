@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -457,7 +445,14 @@ setCookie('lang','%s', expiry, '/');
 		</p>
 		<div id="attribution_help_panel">
 		  <div class="hd">Hva betyr "Krediter dette verk"?</div>
-		  <div class="bd">Siden du kom fra innholdt innbakte metadata vedrørende lisensiering, som blant annet angir hvordan opphavspersonen ønsker å navngis for gjenbruk. Du kan bruke HTML-koden her for å vise til verket. Dersom du gjør det vil også bake inn metadata på din webside slik at andre også kan finne det originale verket.</div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
 		</div>
 
 	      
@@ -467,7 +462,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">I forbindelse med all gjenbruk og spredning skal du gjøre lisensvilkårene for dette verket klart for andre.</li>
             <li>Alle disse vilkårene kan frafalles, dersom du får tillatelse fra rettighetshaveren.</li>
             
-            <li>Ideelle rettigheter forblir uberørt av denne lisensen, i den utstrekning de i henhold til gjeldende rett anerkjennes og ikke er fraskrivbare.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -501,7 +498,7 @@ Creative Commons er ikke et advokatfirma og tilbyr ikke juridiske tjenester. Å 
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Dine lovfestede rettigheter til å bruke verket i henhold til åndsverkloven påvirkes på ingen måte av ovennevnte.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -521,7 +518,8 @@ Creative Commons er ikke et advokatfirma og tilbyr ikke juridiske tjenester. Å 
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by&amp;jurisdiction=hk&amp;version=3.0&amp;lang=no">Bruk denne lisensen for ditt eget verk.</a>
+         href="/license/results-one?license_code=by&amp;jurisdiction=hk&amp;version=3.0&amp;lang=no">
+      Use this license for your own work.</a>
       
     </p>
 

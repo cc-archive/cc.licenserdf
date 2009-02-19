@@ -295,12 +295,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -358,12 +352,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -454,7 +442,14 @@ setCookie('lang','%s', expiry, '/');
 		</p>
 		<div id="attribution_help_panel">
 		  <div class="hd">Mitä "tekijä tulee ilmoittaa" tarkoittaa?</div>
-		  <div class="bd">Sivu, jolta saavuit, sisälsi lisenssi metadataa, jossa ilmoitetaan tekijän toiveesta tulla ilmoitetuksi teoksen tekijänä. Voit käyttää seuraavaa HTML koodia tämän toiveen täyttämiseksi. Näin mahdollistat myös muiden löytää alkuperäisen teoksen.</div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
 		</div>
 
 	      
@@ -476,7 +471,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Uudelleenkäyttäessäsi tai levittäessäsi tätä teosta, sinun tulee tehdä selväksi muille tämän teoksen käyttäjille nämä lisenssiehdot. Voit tehdä sen esimerkiksi linkillä tähän sivuun.</li>
             <li>Tämän lisenssin rajoituksista voidaan luopua tekijänoikeuden omistajan antamalla luvalla.</li>
             
-            <li>Lisenssi ei rajoita tekijän moraalisia oikeuksia.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -510,7 +507,7 @@ Creative Commons ei ole lakiasiaintoimisto eikä tarjoa juridisia palveluita. T�
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Tämä lisenssi ei vaikuta tekijänoikeuslain rajoituksiin tai muiden lakien myöntämiin oikeuksiin.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -530,7 +527,8 @@ Creative Commons ei ole lakiasiaintoimisto eikä tarjoa juridisia palveluita. T�
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc&amp;jurisdiction=hk&amp;version=3.0&amp;lang=fi">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc&amp;jurisdiction=hk&amp;version=3.0&amp;lang=fi">
+      Use this license for your own work.</a>
       
     </p>
 

@@ -293,12 +293,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -356,12 +350,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -451,7 +439,14 @@ setCookie('lang','%s', expiry, '/');
 		</p>
 		<div id="attribution_help_panel">
 		  <div class="hd">Wat betekent "Naamsvermelding bij dit werk"?</div>
-		  <div class="bd">De website waar u vandaan komt bevat ingebedde metadata, met onder meer informatie over de door de maker van het werk bij hergebruik gewenste manier van naamsvermelding. U kunt de html code hieronder gebruiken om de de naam te vermelden. In dit geval wordt metadata in uw pagina geplaatst die anderen in staat stelt om het originele werk te vinden.</div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
 		</div>
 
 	      
@@ -471,8 +466,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Bij hergebruik of verspreiding dient de gebruiker de licentievoorwaarden van dit werk kenbaar te maken aan derden. De beste manier om dit te doen is door middel van een link naar deze webpagina.</li>
             <li>De gebruiker mag afstand doen van een of meerdere van deze voorwaarden met voorafgaande toestemming van de rechthebbende.</li>
             
-            <li>Niets in deze licentie strekt ertoe afbreuk te doen aan de morele
-rechten van de auteur, of deze te beperken.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -502,7 +498,7 @@ Creative Commons is geen advocatenpraktijk en verleent geen juridische diensten.
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Het voorgaande laat de wettelijke beperkingen op de intellectuele eigendomsrechten onverlet.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -522,7 +518,8 @@ Creative Commons is geen advocatenpraktijk en verleent geen juridische diensten.
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=nl">Gebruik deze licentie voor je eigen werk.</a>
+         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=nl">
+      Use this license for your own work.</a>
       
     </p>
 

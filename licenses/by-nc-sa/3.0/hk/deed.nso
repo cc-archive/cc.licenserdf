@@ -296,12 +296,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -359,12 +353,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -498,7 +486,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Bakeng sa tirišo gape goba go aba le ge ele gofe, o swanetše go hlakišetša ba bangwe dipeelo tša laesense mošomong wo. Tsela e kaone ya go dira se ke ka lomaganyo e yago letlakaleng le la wepe.</li>
             <li>Maemo lege ele afe ao a lego ka mo godimo a ka tlogelwa ge eba o hwetša tumelelo go mong wa tokelo ya ngwalollo.</li>
             
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -532,7 +522,7 @@ Creative Commons ga se khamphani ya molao e bile ga e fane ka ditirelo tša mola
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Go šoma ga gago ka tsela ya toka le ditokelo tše dingwe ga di angwe ke dilo tšeo di lego ka mo godimo le ka tsela le ge ele efe.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -552,7 +542,8 @@ Creative Commons ga se khamphani ya molao e bile ga e fane ka ditirelo tša mola
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=hk&amp;version=3.0&amp;lang=en">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=hk&amp;version=3.0&amp;lang=en">
+      Use this license for your own work.</a>
       
     </p>
 

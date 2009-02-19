@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -491,7 +479,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Prilikom svakog korišćenja ili distribuiranja dela, morate jasno da predočite drugima ugovorne uslove pod kojima je delo licencirano. Najbolji način je link prema ovoj internet strani.</li>
             <li>Od svakog ugovornog uslova može da se odstupi, ako dobijete dozvolu od nosioca autorskog prava.</li>
             
-            <li>Ništa iz ovоg ugovora ne narušava i ne ograničava moralna prava autora.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -525,7 +515,7 @@ Creative Commons nije advokatska kancelarija i ne pruža pravne usluge. Distribu
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Sve prethodno ne utiče na zakonska ograničenja autorskog prava i na druga prava garantovana zakonom.   </strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">

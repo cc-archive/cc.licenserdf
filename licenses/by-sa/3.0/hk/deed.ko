@@ -295,12 +295,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -358,12 +352,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -459,7 +447,14 @@ setCookie('lang','%s', expiry, '/');
 		</p>
 		<div id="attribution_help_panel">
 		  <div class="hd">"저작자 표시"의 의미는?</div>
-		  <div class="bd">이전 페이지는 저작자가 원하는 저작자표시 등의 임베딩된 이용허락 메타데이터를 포함하고 있습니다. 여기 있는 HTML를 이용하면 메타데이터가 웹페이지에 삽입되어 다른 이들이 원저작물을 쉽게 찾을 수 있습니다. </div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
 		</div>
 
 	      
@@ -483,7 +478,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">이 저작물을 재이용하거나 배포하는 경우에는 이 저작물에 적용된 이용허락조건을 명확하게 나타내어야 합니다. 가장 좋은 방법은 이 페이지로 링크시키는 것입니다.</li>
             <li>저작권자로부터 별도의 허가를 받으면 이러한 조건들은 적용되지 않습니다.</li>
             
-            <li>이 라이선스는 저작자의 인격권을 침해하거나 제한하지 않습니다.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -517,7 +514,7 @@ setCookie('lang','%s', expiry, '/');
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>저작권법에 따른 이용자의 권리는 위의 내용에 의하여 영향을 받지 않습니다.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -537,7 +534,8 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-sa&amp;jurisdiction=hk&amp;version=3.0&amp;lang=ko">귀하의 저작물에 이 라이선스를 적용하세요.</a>
+         href="/license/results-one?license_code=by-sa&amp;jurisdiction=hk&amp;version=3.0&amp;lang=ko">
+      Use this license for your own work.</a>
       
     </p>
 

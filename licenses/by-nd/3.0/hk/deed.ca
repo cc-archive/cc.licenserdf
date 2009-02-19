@@ -293,12 +293,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -356,12 +350,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -451,7 +439,14 @@ setCookie('lang','%s', expiry, '/');
 		</p>
 		<div id="attribution_help_panel">
 		  <div class="hd">Què significa "Reconeixement de l'obra"?</div>
-		  <div class="bd">La pàgina de la qual veniu contenia metadades incrustades d'una llicència entre les quals s'explicava com calia reconèixer l'autor en utilitzar l'obra. Aquí podeu utilitzar el codi HTML per citar l'obra. Fent-ho així les metadades també s'inclouran en la vostra pàgina i per tant tothom podrà accedir a l'obra original.</div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
 		</div>
 
 	      
@@ -471,7 +466,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Quan reutilitzeu o distribuïu l'obra, heu de deixar ben clar els termes de la llicència de l'obra.</li>
             <li>Alguna d'aquestes condicions pot no aplicar-se si obteniu el permís del titular dels drets d'autor.</li>
             
-            <li>No hi ha res en aquesta llicència que menyscabi o restringeixi els drets morals de l'autor.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -505,7 +502,7 @@ Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La dis
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Els drets derivats d'usos legítims o altres limitacions reconegudes per llei no queden afectats per l'anterior</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -525,7 +522,8 @@ Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La dis
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=ca">Utilitzeu aquesta llicència per a la vostra pròpia obra.</a>
+         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=ca">
+      Use this license for your own work.</a>
       
     </p>
 

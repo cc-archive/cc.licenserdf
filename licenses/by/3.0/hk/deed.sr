@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -457,7 +445,14 @@ setCookie('lang','%s', expiry, '/');
 		</p>
 		<div id="attribution_help_panel">
 		  <div class="hd">Шта значи "Признати ауторство?"</div>
-		  <div class="bd">Страна с које долазите садржи утиснуте метаподатке о лиценцирању, укључујући и то како аутор жели да буде наведен током сваког наредног коришћења дела. Можете да употребите HTML код за цитирање дела. Ако то учините, метаподаци ће се утиснути у вашу интернет страну, тако да и остали могу да нађу изворно дело. </div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
 		</div>
 
 	      
@@ -467,7 +462,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Приликом сваког коришћења или дистрибуирања дела, морате јасно да предочите другима уговорне услове под којима је дело лиценцирано. Најбољи начин је линк према овој интернет страни. </li>
             <li>Од сваког уговорног услова може да се одступи, ако добијете дозволу од носиоца ауторског права.</li>
             
-            <li>Ништа из овог уговора не нарушава и не ограничава морална права аутора. </li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -501,7 +498,7 @@ Creative Commons није адвокатска канцеларија и не п
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Све претходно не утиче на законска ограничења ауторског права и на друга права гарантована законом.   </strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -521,7 +518,8 @@ Creative Commons није адвокатска канцеларија и не п
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by&amp;jurisdiction=hk&amp;version=3.0&amp;lang=sr">Лиценцирајте своје дело овом лиценцом</a>
+         href="/license/results-one?license_code=by&amp;jurisdiction=hk&amp;version=3.0&amp;lang=sr">
+      Use this license for your own work.</a>
       
     </p>
 

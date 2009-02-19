@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -493,7 +481,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.</li>
             <li>Κάθε ένας από τους παραπάνω όρους μπορεί να παρακαμφθεί εάν πάρετε άδεια από το δικαιούχο των δικαιωμάτων πνευματικής ιδιοκτησίας</li>
             
-            <li>Τίποτα στην άδεια αυτή δεν αποδυναμώνει ή περιορίζει το ηθικό δικαίωμα του δημιουργού.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -527,7 +517,7 @@ setCookie('lang','%s', expiry, '/');
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Οι χρήσεις που απορρέουν από τους νόμιμους περιορισμούς του περιουσιακού δικαιώματος, καθώς και άλλα δικαιώματά που έχετε, σε καμία περίπτωση δεν επηρεάζονται από τα παραπάνω</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">

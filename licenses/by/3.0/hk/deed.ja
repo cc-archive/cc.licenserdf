@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -476,7 +464,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">再利用や頒布にあたっては、この作品の使用許諾条件を他の人々に明らかにしなければなりません。</li>
             <li>著作[権]者から許可を得ると、これらの条件は適用されません。</li>
             
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -510,7 +500,7 @@ setCookie('lang','%s', expiry, '/');
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>上記によってあなたのフェアユースその他の権利が影響を受けることはまったくありません。</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -530,7 +520,8 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by&amp;jurisdiction=hk&amp;version=3.0&amp;lang=ja">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by&amp;jurisdiction=hk&amp;version=3.0&amp;lang=ja">
+      Use this license for your own work.</a>
       
     </p>
 

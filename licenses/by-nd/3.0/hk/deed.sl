@@ -293,12 +293,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -356,12 +350,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -480,7 +468,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Pri vsaki uporabi ali distribuiranju morate uporabnike seznaniti s pogoji licence za to avtorsko delo.</li>
             <li>Kateri koli od teh pogojev se lahko razveljavi, če za to dobite dovoljenje imetnika avtorskih pravic.</li>
             
-            <li>Nič v tej licenci ne zmanjšuje ali omejuje avtorjevih moralnih pravic.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -514,7 +504,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Vaše pravice iz naslova omejitev avtorske pravice in druge pravice niso omejene z zgoraj navedenim.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -534,7 +524,8 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=sl">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=sl">
+      Use this license for your own work.</a>
       
     </p>
 

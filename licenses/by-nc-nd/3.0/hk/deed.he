@@ -296,12 +296,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -359,12 +353,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -495,7 +483,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">בכל שימוש חוזר או הפצה של היצירה עליך להבהיר לאחרים את תנאי הרישיון ביצירה זו. הדרך הטובה ביותר לעשות זאת היא לקשר לעמוד זה.</li>
             <li>ניתן לוותר על כל אחד מתנאים אלו בכפוף לקבלת רשות מבעלי זכויות היוצרים.</li>
             
-            <li>רישיון זה אינו פוגע או מגביל את זכויותיו המוסריות של היוצר.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -527,7 +517,7 @@ setCookie('lang','%s', expiry, '/');
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>זכותך לטיפול הוגן וזכויות אחרות הקבועות בדין אינן מושפעות בשום דרך על-ידי התנאים הנ"ל.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">

@@ -296,12 +296,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -359,12 +353,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -498,7 +486,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Ogni volta che usi o distribuisci quest'opera, devi farlo secondo i termini di questa licenza, che va comunicata con chiarezza.</li>
             <li>In ogni caso, puoi concordare col titolare dei diritti utilizzi di quest'opera non consentiti da questa licenza.</li>
             
-            <li>Questa licenza lascia impregiudicati i diritti morali.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -532,8 +522,7 @@ L'associazione Creative Commons non è uno studio legale e non fornisce servizi 
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>Le utilizzazioni consentite dalla legge sul diritto d'autore 
-e gli altri diritti non sono in alcun modo limitati da quanto sopra.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -553,7 +542,8 @@ e gli altri diritti non sono in alcun modo limitati da quanto sopra.</strong>
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=hk&amp;version=3.0&amp;lang=it_CH">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=hk&amp;version=3.0&amp;lang=it_CH">
+      Use this license for your own work.</a>
       
     </p>
 

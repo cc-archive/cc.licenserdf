@@ -294,12 +294,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.no" title="Norsk" hreflang="no"
-   rel="alternate nofollow" xml:lang="no">Norsk</a>
-
-
-
-
 <a href="./deed.nso" title="Sesotho sa Leboa" hreflang="nso"
    rel="alternate nofollow" xml:lang="nso">Sesotho sa Leboa</a>
 
@@ -357,12 +351,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
-
-
-
-
-<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
-   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -493,7 +481,9 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">Bármilyen felhasználás vagy terjesztés esetén egyértelműen jelezned kell mások felé ezen mű licencfeltételeit.</li>
             <li>A szerzői jogok tulajdonosának írásos engedélyével bármelyik fenti feltételtől eltérhetsz.</li>
             
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
+            <li>
+Nothing in this license impairs or restricts the author's moral rights.
+	    </li>
             
             
           </ul>
@@ -526,7 +516,7 @@ A Creative Commons nem ügyvédi iroda, nem nyújt jogi tanácsadást. Az Egysze
 	  
 
         <p style="text-align:center; margin-top:40px;">
-	  <strong>A fentiek nem befolyásolják a szabad felhasználáshoz fűződő, illetve az egyéb jogokat.</strong>
+	  <strong></strong>
 	</p>
 
 	<p style="text-align:center">
@@ -546,7 +536,8 @@ A Creative Commons nem ügyvédi iroda, nem nyújt jogi tanácsadást. Az Egysze
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=hu">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=hk&amp;version=3.0&amp;lang=hu">
+      Use this license for your own work.</a>
       
     </p>
 
