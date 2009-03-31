@@ -11,7 +11,9 @@ or Public Domain Certification
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
-    
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-rtl.css"
+          media="screen" />
     <link rel="stylesheet" type="text/css"
           href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
@@ -79,7 +81,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div id="languages">
-<span style="text-align:left" dir="ltr">เอกสารหน้านี้ มีในภาษาอื่นๆ ข้างล่างนี้ : </span>
+<span style="text-align:right" dir="rtl">هذة الصفحة متوفرة باللغات التالية</span>
 <br />
 
 
@@ -385,8 +387,8 @@ setCookie('lang','%s', expiry, '/');
 
     </div>
 
-    <div id="deed" style="text-align:left" class="green"
-         dir="ltr">
+    <div id="deed" style="text-align:right" class="green"
+         dir="rtl">
 
       <div id="deed-head">
 	<div id="cc-logo">
@@ -406,7 +408,7 @@ setCookie('lang','%s', expiry, '/');
         </div>
       </div>
 
-      <div id="deed-main" style="text-align:left" dir="ltr">
+      <div id="deed-main" style="text-align:right" dir="rtl">
        <div id="deed-main-content" class="None">
 
           <div>
