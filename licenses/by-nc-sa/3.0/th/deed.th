@@ -506,7 +506,7 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice">สำหรับการใช้ซ้ำหรือการแจกจ่ายใด ๆ คุณต้องระบุข้อตกลงของสัญญาอนุญาตนี้อย่างชัดเจน วิธีที่ดีที่สุดในการทำเช่นนั้นคือ การทำลิงก์กลับมาที่หน้าเว็บนี้</li>
             <li>เงื่อนไขใด&nbsp;ๆ ข้างต้น อาจ<a href="#" id="waived" class="helpLink">ยกเว้น</a>ได้ หากคุณได้รับอนุญาตจากผู้ถือครองลิขสิทธิ์</li>
             
-            <li><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink" title="moral rights">จริยสิทธิ์</a>ของผู้สร้างสรรค์;</li>
+            <li>สัญญาอนุญาตนี้ ไม่ลดทอนหรือจำกัดจริยสิทธิ์ของผู้สร้างสรรค์</li>
             
             
           </ul>
