@@ -369,8 +369,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.th" title="Thai" hreflang="th"
-   rel="alternate nofollow" xml:lang="th">Thai</a>
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
 
 
 

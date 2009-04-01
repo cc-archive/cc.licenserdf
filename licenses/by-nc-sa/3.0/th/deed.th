@@ -368,8 +368,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.th" title="Thai" hreflang="th"
-   rel="alternate nofollow" xml:lang="th">Thai</a>
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
 
 
 
@@ -467,7 +467,7 @@ setCookie('lang','%s', expiry, '/');
            value="http://creativecommons.org/licenses/by-nc-sa/3.0/th/" />
 		<a href="" id="attribution_help">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
-         alt="Information" />
+         alt="ข้อมูล" />
 		</a>
 		</p>
 		<div id="attribution_help_panel">
