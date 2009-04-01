@@ -4,7 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-      แสดงที่มา-ไม่ดัดแปลง 3.0 Thailand
+      แสดงที่มา-ไม่ดัดแปลง 3.0 ประเทศไทย
     </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -413,7 +413,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">แสดงที่มา-ไม่ดัดแปลง 3.0 Thailand</h2>
+	        <h2 property="dc:title">แสดงที่มา-ไม่ดัดแปลง 3.0 ประเทศไทย</h2>
         </div>
       </div>
 
