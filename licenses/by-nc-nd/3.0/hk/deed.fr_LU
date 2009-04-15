@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -366,6 +362,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -443,7 +445,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Paternité</strong>. 
+	      <p><strong>Paternité</strong> &mdash;
 		<span id="attribution-container">Vous devez citer le nom de l'auteur original de la manière indiquée par l'auteur de l'oeuvre ou le titulaire des droits qui vous confère cette autorisation (mais pas d'une manière qui suggérerait qu'ils vous soutiennent ou approuvent votre utilisation de l'oeuvre).</span>
 		
 		<span id="by-more-container" />
@@ -457,12 +459,12 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-NC-ND 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc-nd/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">Qu'est-ce signifie "attribuer cette oeuvre"?</div>
 		  <div class="bd">La page de laquelle vous êtes arrivé ici contenait des métadonnées embarquées, indiquant la façon dont l'auteur original désire être identifié avec l'oeuvre (attribution ou paternité). Vous pouvez utiliser cet HTML pour citer l'oeuvre. Par cela, les métadonnées seront inclues aussi sur votre page web et d'autres pourront à leur tour identifier l'auteur original.</div>
 		</div>
@@ -473,7 +475,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>Pas d'Utilisation Commerciale</strong>. 
+	      <p><strong>Pas d'Utilisation Commerciale</strong> &mdash;
 		
 		<span>Vous n'avez pas le droit d'utiliser cette création à des fins commerciales.</span>
 		<span id="nc-more-container" />
@@ -483,7 +485,7 @@ setCookie('lang','%s', expiry, '/');
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>Pas de Modification</strong>. 
+	      <p><strong>Pas de Modification</strong> &mdash;
 		
 		<span>Vous n'avez pas le droit de modifier, de transformer ou d'adapter cette création.</span>
 		<span id="nd-more-container" />
@@ -492,8 +494,6 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">A chaque réutilisation ou distribution de cette création, vous devez faire apparaître clairement au public les conditions contractuelles de sa mise à disposition. La meilleure manière de les indiquer est un lien vers cette page web.</li>
 
 	  </ul>
 	</div>
@@ -501,7 +501,7 @@ setCookie('lang','%s', expiry, '/');
 	  <h3>With the understanding that:</h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
 	      
@@ -510,7 +510,8 @@ setCookie('lang','%s', expiry, '/');
 	      
 	    </li>
 	      
-	    <li><strong>Other Rights</strong>
+	    <li class="license">
+	      <strong>Other Rights</strong>
 	      &mdash; 
 	      In no way are any of the following rights affected by the license:
 	     
@@ -535,11 +536,17 @@ setCookie('lang','%s', expiry, '/');
 	      </ul>
 	    </li>
 
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      A chaque réutilisation ou distribution de cette création, vous devez faire apparaître clairement au public les conditions contractuelles de sa mise à disposition. La meilleure manière de les indiquer est un lien vers cette page web.
+	    </li>
+
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
@@ -549,7 +556,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
@@ -562,7 +569,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
@@ -572,7 +579,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_publicity_rights">
+          <div id="help_publicity_rights" class="help_panel">
             <div class="hd">What are "Publicity Rights"?</div>
             <div class="bd">
               <p>Publicity
@@ -593,15 +600,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">Avertissement</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Avertissement</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Avertissement</div>
 	      <div class="bd"><p>
 Le Résumé Explicatif n'est pas un contrat, mais simplement une source pratique pour faciliter la compréhension de la version complète du contrat (le Code Juridique) &mdash; il exprime en termes courants les principales notions juridiques du contrat. Envisagez-le comme une interface conviviale, simplifiée pour lire le contrat. Ce Résumé Explicatif n'a pas de valeur juridique, son contenu n'apparaît pas sous cette forme dans le contrat.

@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -368,6 +364,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -446,7 +448,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Recoñecemento</strong>. 
+	      <p><strong>Recoñecemento</strong> &mdash;
 		<span id="attribution-container">Debe recoñecer os créditos da obra do xeito especificado  polo autor ou polo licenciador (pero non de xeito que suxira que ten o seu apoio ou apoian o uso que fan da sua obra.</span>
 		
 		<span id="by-more-container" />
@@ -460,12 +462,12 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-NC-SA 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc-sa/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">
 		    What does "Attribute this work" mean?
 		  </div>
@@ -485,7 +487,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>Non comercial</strong>. 
+	      <p><strong>Non comercial</strong> &mdash;
 		
 		<span>Non pode empregar esta obra para fins comerciais</span>
 		<span id="nc-more-container" />
@@ -497,7 +499,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	      <p><strong>Compartir baixo a mesma licenza.</strong>. 
+	      <p><strong>Compartir baixo a mesma licenza.</strong> &mdash;
 		
 		<span>Se altera ou transforma esta obra, ou xera unha obra derivada, só pode distribuír a obra xerada baixo unha licenza idéntica a esta.</span>
 		<span id="sa-more-container" />
@@ -506,8 +508,6 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Ao reutilizar ou distribuí-la obra, ten que deixar ben claro os termos da licenza desta obra.</li>
 
 	  </ul>
 	</div>
@@ -515,7 +515,7 @@ setCookie('lang','%s', expiry, '/');
 	  <h3>With the understanding that:</h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
 	      
@@ -524,7 +524,8 @@ setCookie('lang','%s', expiry, '/');
 	      
 	    </li>
 	      
-	    <li><strong>Other Rights</strong>
+	    <li class="license">
+	      <strong>Other Rights</strong>
 	      &mdash; 
 	      In no way are any of the following rights affected by the license:
 	     
@@ -549,11 +550,17 @@ setCookie('lang','%s', expiry, '/');
 	      </ul>
 	    </li>
 
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      Ao reutilizar ou distribuí-la obra, ten que deixar ben claro os termos da licenza desta obra.
+	    </li>
+
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
@@ -563,7 +570,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
@@ -576,7 +583,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
@@ -586,7 +593,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_publicity_rights">
+          <div id="help_publicity_rights" class="help_panel">
             <div class="hd">What are "Publicity Rights"?</div>
             <div class="bd">
               <p>Publicity
@@ -607,15 +614,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">Advertencia</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Advertencia</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Advertencia</div>
 	      <div class="bd"><p>
 Este resumo non é unha licenza. É simplemente unha referencia práctica para entende-lo Texto Legal (a licenza completa) - é un redactado dalgúns dos termos claves da licenza que pode ser comprendido por calquera persoa. Trátase dunha interface amigable do Texto Legal que existe debaixo. Este resumo por si mesmo non ten valor legal, e o seu contido non aparece na auténtica licenza.

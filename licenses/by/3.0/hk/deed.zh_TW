@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -366,6 +362,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -449,7 +451,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>姓名標示</strong>. 
+	      <p><strong>姓名標示</strong> &mdash;
 		<span id="attribution-container">您必須按照作者或授權人所指定的方式，表彰其姓名；但不得以任何方式暗示其為您（或您使用該著作的方式）背書。</span>
 		
 		<span id="by-more-container" />
@@ -462,12 +464,12 @@ setCookie('lang','%s', expiry, '/');
 		  <input id="license-code" type="hidden" value="CC BY 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">所謂的「姓名標示」是什麼意思？</div>
 		  <div class="bd">
 		    The page you came from contained embedded licensing
@@ -482,8 +484,6 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">為再使用或散布本著作，您必須向他人清楚說明本著作所適用的授權條款。（提供本網頁連結便是最好的方式。）</li>
 
 	  </ul>
 	</div>
@@ -491,7 +491,7 @@ setCookie('lang','%s', expiry, '/');
 	  <h3>With the understanding that:</h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
 	      
@@ -500,7 +500,8 @@ setCookie('lang','%s', expiry, '/');
 	      
 	    </li>
 	      
-	    <li><strong>Other Rights</strong>
+	    <li class="license">
+	      <strong>Other Rights</strong>
 	      &mdash; 
 	      In no way are any of the following rights affected by the license:
 	     
@@ -521,11 +522,17 @@ setCookie('lang','%s', expiry, '/');
 	      </ul>
 	    </li>
 
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      為再使用或散布本著作，您必須向他人清楚說明本著作所適用的授權條款。（提供本網頁連結便是最好的方式。）
+	    </li>
+
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
@@ -535,7 +542,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
@@ -548,7 +555,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
@@ -558,7 +565,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_publicity_rights">
+          <div id="help_publicity_rights" class="help_panel">
             <div class="hd">What are "Publicity Rights"?</div>
             <div class="bd">
               <p>Publicity
@@ -579,15 +586,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">免責聲明</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">免責聲明</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">免責聲明</div>
 	      <div class="bd"><p>
 授權標章 (Commons Deed) 並非授權條款，僅是讓一般人易於理解法律條款 (Legal Code，即完整的授權條款) 的參考文件──它是讓一般人易於了解的某些關鍵字的表達。您可把授權標章想成是法律條款之下、對使用者友善的一種介面。授權標章本身不具任何法律價值，且其內容亦不會出現在實際的授權條款中。</p>

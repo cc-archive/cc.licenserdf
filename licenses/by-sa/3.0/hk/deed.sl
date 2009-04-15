@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -367,6 +363,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -450,7 +452,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Priznanje avtorstva</strong>. 
+	      <p><strong>Priznanje avtorstva</strong> &mdash;
 		<span id="attribution-container">Pri uporabi dela morate navesti izvirnega avtorja na način, ki ga določi izvirni avtor oziroma dajalec licence.</span>
 		
 		<span id="by-more-container" />
@@ -464,12 +466,12 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-SA 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-sa/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">Kaj pomeni "Določi avtorja tega dela"?</div>
 		  <div class="bd">Stran, s katere ste bili preusmerjeni, ima vgrajene licenčne metapodatke, vključno s podatki o tem, kako želi biti avtor naveden za ponovno uporabo. Uporabite lahko HTML tukaj za citiranje dela. S tem boste tudi vključili metapodatke na vašo stran, tako da bodo ostali našli tudi izvirno delo.</div>
 		</div>
@@ -480,7 +482,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	      <p><strong>Deljenje pod enakimi pogoji</strong>. 
+	      <p><strong>Deljenje pod enakimi pogoji</strong> &mdash;
 		
 		<span>Če spremenite, pretvorite ali gradite na tem delu, lahko takšno predelavo dela distribuirate samo pod isto, podobno ali kompatibilno licenco.</span>
 		<span id="sa-more-container" />
@@ -489,8 +491,6 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Pri vsaki uporabi ali distribuiranju morate uporabnike seznaniti s pogoji licence za to avtorsko delo.</li>
 
 	  </ul>
 	</div>
@@ -498,7 +498,7 @@ setCookie('lang','%s', expiry, '/');
 	  <h3>With the understanding that:</h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
 	      
@@ -507,7 +507,8 @@ setCookie('lang','%s', expiry, '/');
 	      
 	    </li>
 	      
-	    <li><strong>Other Rights</strong>
+	    <li class="license">
+	      <strong>Other Rights</strong>
 	      &mdash; 
 	      In no way are any of the following rights affected by the license:
 	     
@@ -528,11 +529,17 @@ setCookie('lang','%s', expiry, '/');
 	      </ul>
 	    </li>
 
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      Pri vsaki uporabi ali distribuiranju morate uporabnike seznaniti s pogoji licence za to avtorsko delo.
+	    </li>
+
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
@@ -542,7 +549,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
@@ -555,7 +562,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
@@ -565,7 +572,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_publicity_rights">
+          <div id="help_publicity_rights" class="help_panel">
             <div class="hd">What are "Publicity Rights"?</div>
             <div class="bd">
               <p>Publicity
@@ -586,15 +593,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">Izjava</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Izjava</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Izjava</div>
 	      <div class="bd"><p>
 Povzetek licence ni licenca. Je preprosto le priročna referenca za razumevanje Celotnega pravnega besedila (celotne licence) &mdash; je izraz ključnih pogojev, berljiv za uporabnike. Gre za uporabniku prijazen vmesnik do Celotnega pravnega besedila licenc. Ta povzetek sam po sebi nima pravne veljave in njegova vsebina se v dejanski licenci ne pojavlja.

@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -366,6 +362,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -443,7 +445,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Reconeixement</strong>. 
+	      <p><strong>Reconeixement</strong> &mdash;
 		<span id="attribution-container">Heu de reconèixer els crèdits de l'obra de la manera especificada per l'autor o el llicenciador (però no d'una manera que suggereixi que us donen suport o rebeu suport per l'ús que feu l'obra).</span>
 		
 		<span id="by-more-container" />
@@ -457,12 +459,12 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-NC-ND 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc-nd/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Informació" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">Què significa "Reconeixement de l'obra"?</div>
 		  <div class="bd">La pàgina de la qual veniu contenia metadades incrustades d'una llicència entre les quals s'explicava com calia reconèixer l'autor en utilitzar l'obra. Aquí podeu utilitzar el codi HTML per citar l'obra. Fent-ho així les metadades també s'inclouran en la vostra pàgina i per tant tothom podrà accedir a l'obra original.</div>
 		</div>
@@ -473,7 +475,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>No comercial</strong>. 
+	      <p><strong>No comercial</strong> &mdash;
 		
 		<span>No podeu utilitzar aquesta obra per a finalitats comercials.</span>
 		<span id="nc-more-container" />
@@ -483,7 +485,7 @@ setCookie('lang','%s', expiry, '/');
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>Sense obres derivades</strong>. 
+	      <p><strong>Sense obres derivades</strong> &mdash;
 		
 		<span>No podeu alterar, transformar o generar una obra derivada d'aquesta obra.</span>
 		<span id="nd-more-container" />
@@ -492,8 +494,6 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Quan reutilitzeu o distribuïu l'obra, heu de deixar ben clar els termes de la llicència de l'obra.</li>
 
 	  </ul>
 	</div>
@@ -501,13 +501,14 @@ setCookie('lang','%s', expiry, '/');
 	  <h3>Entenent que:</h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Renuncia</strong>
 	      &mdash;
 	      Es pot <a href="#" id="waived" class="helpLink">renunciar</a> a alguna d'aquestes condicions si obteniu el permís del titular dels drets d'autor.
 	    </li>
 	      
-	    <li><strong>Altres drets</strong>
+	    <li class="license">
+	      <strong>Altres drets</strong>
 	      &mdash; 
 	      Els drets següents no queden afectats de cap manera per la llicència:
 	     
@@ -524,11 +525,17 @@ setCookie('lang','%s', expiry, '/');
 	      </ul>
 	    </li>
 
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      Quan reutilitzeu o distribuïu l'obra, heu de deixar ben clar els termes de la llicència de l'obra.
+	    </li>
+
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">Què significa "condicions a les quals es pot renunciar"?</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
@@ -538,7 +545,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">Què significa "ús just"?</div>
             <div class="bd">
               <p>All jurisdictions
@@ -551,7 +558,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">Què són els drets morals?</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
@@ -561,7 +568,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_publicity_rights">
+          <div id="help_publicity_rights" class="help_panel">
             <div class="hd">Què són els "Drets de Publicitat"?</div>
             <div class="bd">
               <p>Publicity
@@ -582,15 +589,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">Advertiment</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Advertiment</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Advertiment</div>
 	      <div class="bd"><p>
 Aquest resum no és una llicència. Només és una referència pràctica per entendre el Text Legal (la llicència completa) — és una síntesi d'alguns del termes clau de la llicència amb la intenció que pugui ser entesa per tothom. Es tracta d'una interfície amicable del Text Legal que hi ha sota. Aquest resum per si sol no té cap valor legal, i el seu contingut no apareix en la llicència autèntica.

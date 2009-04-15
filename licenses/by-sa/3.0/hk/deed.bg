@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -367,6 +363,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -450,7 +452,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Признание</strong>. 
+	      <p><strong>Признание</strong> &mdash;
 		<span id="attribution-container">Трябва да посочите авторството на творбата по начина, определен от самия автор или носителя на правата върху произведението (но не и по начин, оставящ впечатлението, че същият/същите подкрепят вас или използването по някакъв начин на творбата от вас).</span>
 		
 		<span id="by-more-container" />
@@ -464,12 +466,12 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-SA 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-sa/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">Какво означава "Признание на произведението"?</div>
 		  <div class="bd">Страницата, от която се прехвъркихте тук съдържа вградени метаданни, включително как създателят на произведението желае да бъде кредитиран при всяко по-нататъчно използване на създаденото от него. Можете да използвате този HTML код, за да кредитирате творбата. Това ще включи метаданните за първичното произведение във вашата страница така, че желаещите да могат да го намерят. </div>
 		</div>
@@ -480,7 +482,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	      <p><strong>Споделяне на споделеното</strong>. 
+	      <p><strong>Споделяне на споделеното</strong> &mdash;
 		
 		<span>В случай, че промените, видоизмените или използвайки като основа произведението, го надградите, то полученото производно произведение може да се разпространява само съгласно условията на същия, на подобен на този или на съвместим договор.</span>
 		<span id="sa-more-container" />
@@ -489,8 +491,6 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">За всяко повторно използване или дистрибуция, вие трябва ясно за останалите да посочите договорните условия за ползване на произведението. Най-добрия начин да направите това е, като сложите линк към тази страница.</li>
 
 	  </ul>
 	</div>
@@ -498,7 +498,7 @@ setCookie('lang','%s', expiry, '/');
 	  <h3>With the understanding that:</h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
 	      
@@ -507,7 +507,8 @@ setCookie('lang','%s', expiry, '/');
 	      
 	    </li>
 	      
-	    <li><strong>Other Rights</strong>
+	    <li class="license">
+	      <strong>Other Rights</strong>
 	      &mdash; 
 	      In no way are any of the following rights affected by the license:
 	     
@@ -532,11 +533,17 @@ setCookie('lang','%s', expiry, '/');
 	      </ul>
 	    </li>
 
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      За всяко повторно използване или дистрибуция, вие трябва ясно за останалите да посочите договорните условия за ползване на произведението. Най-добрия начин да направите това е, като сложите линк към тази страница.
+	    </li>
+
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
@@ -546,7 +553,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
@@ -559,7 +566,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
@@ -569,7 +576,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_publicity_rights">
+          <div id="help_publicity_rights" class="help_panel">
             <div class="hd">What are "Publicity Rights"?</div>
             <div class="bd">
               <p>Publicity
@@ -590,15 +597,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">Отказ от отговорност</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Отказ от отговорност</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Отказ от отговорност</div>
 	      <div class="bd"><p>
 Този документ не е Криейтив Комънс Договор. Това е съкратена справка, създадена за да помогне за по-добро разбиране на същинския Договор — тя съдържа обяснения на основните термини. Може да се разглежда като ориентиран към потребителите интерфейс към Договора по-долу. Сам по себе си, този документ няма юридическа стойност и неговото съдържание липсва в същинския Договор.

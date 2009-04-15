@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -366,6 +362,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -449,7 +451,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Navngivelse</strong>. 
+	      <p><strong>Navngivelse</strong> &mdash;
 		<span id="attribution-container">Du skal navngi opphavspersonen og/eller lisensgiveren på den måte som disse angir (men ikke på en måte som indikerer at disse har godkjent eller anbefaler din bruk av verket).</span>
 		
 		<span id="by-more-container" />
@@ -457,33 +459,24 @@ setCookie('lang','%s', expiry, '/');
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>Navngi som opphavsperson for dette verk:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden" value="CC BY 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">Hva betyr "Krediter dette verk"?</div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="bd">Siden du kom fra inneholdt metadata vedrørende lisensen, inklusive hvordan opphavspersonen ønsker å bli navngitt ved gjenbruk.  Du kan bruke HTML-markeringene vist her for å kreditere originalen.  Dersom du gjør det vil det også på din side finnes metadata som gjør at andre kan finne originalen.</div>
 		</div>
 
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">I forbindelse med all gjenbruk og spredning skal du gjøre lisensvilkårene for dette verket klart for andre.</li>
 
 	  </ul>
 	</div>
@@ -491,18 +484,16 @@ setCookie('lang','%s', expiry, '/');
 	  <h3>With the understanding that:</h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
-	      
-		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
-		permission from the copyright holder.
-	      
+	      Alle disse vilkårene kan <a href="#" id="waived" class="helpLink">frafalles</a>, dersom du får tillatelse fra rettighetshaveren.
 	    </li>
 	      
-	    <li><strong>Other Rights</strong>
+	    <li class="license">
+	      <strong>Other Rights</strong>
 	      &mdash; 
-	      In no way are any of the following rights affected by the license:
+	      På ingen måte påvirkes følgende rettigheter av lisensen:
 	     
 	      <ul>
 
@@ -513,29 +504,31 @@ setCookie('lang','%s', expiry, '/');
 		
 		
 
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as 
-		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
-		</li>
+		<li>Rettigheter som andre personer måtte ha, enten i forhold til verket selv eller i forhold til bruk av verket, så som retten til eget bilde og andre personvernrettigheter.</li>
 	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      I forbindelse med all gjenbruk og spredning skal du gjøre lisensvilkårene for dette verket klart for andre.
 	    </li>
 
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
 		waive compliance with a specific condition, such as
 		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Les mer</a>.</p>
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
@@ -544,22 +537,22 @@ setCookie('lang','%s', expiry, '/');
               users under those copyright limitations and exceptions,
               such as fair use and fair dealing where applicable.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Les mer</a>.</p>
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Les mer</a>.</p>
 
             </div>
           </div>
 
-          <div id="help_publicity_rights">
-            <div class="hd">What are "Publicity Rights"?</div>
+          <div id="help_publicity_rights" class="help_panel">
+            <div class="hd">Hva er "retten til egen person" (personlighetsrettigheter)?</div>
             <div class="bd">
               <p>Publicity
               rights allow individuals to control how their voice,
@@ -569,7 +562,7 @@ setCookie('lang','%s', expiry, '/');
               work may need to get permission from those individuals
               before using the work for commercial purposes.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Les mer</a>.</p>
             </div>
           </div>
 	  
@@ -579,15 +572,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">Ansvarsfraskrivelse</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Ansvarsfraskrivelse</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Ansvarsfraskrivelse</div>
 	      <div class="bd"><p>
 Commons Deed er ikke en lisens. Det er kun et enkelt sammendrag som gir en kortfattet forklaring av den juridiske lisensteksten (den fullstendige lisensen) &mdash; den er en opplisting av noen av de viktigste vilkårene. Tenk på den som et brukervennlig grensesnitt mot den underliggende avtaleteksten. Commons Deed alene har ikke juridisk relevans.

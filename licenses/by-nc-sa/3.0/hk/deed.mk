@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -368,6 +364,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -446,7 +448,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Наведи извор</strong>. 
+	      <p><strong>Наведи извор</strong> &mdash;
 		<span id="attribution-container">Морате да го наведете изворот на ист начин како што тоа го направил авторот или давателот на лиценцата (но не на начин кој би сугерирал дека тие ве поддржуваат вас или вашето дело).</span>
 		
 		<span id="by-more-container" />
@@ -460,12 +462,12 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-NC-SA 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc-sa/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">
 		    What does "Attribute this work" mean?
 		  </div>
@@ -485,7 +487,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>Некомерцијално</strong>. 
+	      <p><strong>Некомерцијално</strong> &mdash;
 		
 		<span>Не смеете да го користите ова дело за комерцијални цели.</span>
 		<span id="nc-more-container" />
@@ -497,7 +499,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	      <p><strong>Сподели под исти услови</strong>. 
+	      <p><strong>Сподели под исти услови</strong> &mdash;
 		
 		<span>Ако го промените, трансформирате или адаптирате ова дело, можете да го дистрибуирате добиеното дело само под иста или слична лиценца на оваа.</span>
 		<span id="sa-more-container" />
@@ -506,8 +508,6 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Во случај на понатамошно користење или дистрибуција морате на другите јасно да им ги дадете до знаење условите под кои е лиценцирана ова дело. Најдобар начин за да го направите тоа е да поставите врска до оваа веб-страница.</li>
 
 	  </ul>
 	</div>
@@ -515,7 +515,7 @@ setCookie('lang','%s', expiry, '/');
 	  <h3>With the understanding that:</h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
 	      
@@ -524,7 +524,8 @@ setCookie('lang','%s', expiry, '/');
 	      
 	    </li>
 	      
-	    <li><strong>Other Rights</strong>
+	    <li class="license">
+	      <strong>Other Rights</strong>
 	      &mdash; 
 	      In no way are any of the following rights affected by the license:
 	     
@@ -549,11 +550,17 @@ setCookie('lang','%s', expiry, '/');
 	      </ul>
 	    </li>
 
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      Во случај на понатамошно користење или дистрибуција морате на другите јасно да им ги дадете до знаење условите под кои е лиценцирана ова дело. Најдобар начин за да го направите тоа е да поставите врска до оваа веб-страница.
+	    </li>
+
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
@@ -563,7 +570,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
@@ -576,7 +583,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
@@ -586,7 +593,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_publicity_rights">
+          <div id="help_publicity_rights" class="help_panel">
             <div class="hd">What are "Publicity Rights"?</div>
             <div class="bd">
               <p>Publicity
@@ -607,15 +614,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">Забелешка</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Забелешка</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Забелешка</div>
 	      <div class="bd"><p>
 Комонс дид (Commons Deed) не е лиценца. Тоа е само корисна референца за да го разберете Правниот код (целосната лиценца) – тоа е разбирлив приказ на некои клучни термини. 

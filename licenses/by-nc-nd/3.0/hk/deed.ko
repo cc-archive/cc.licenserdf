@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -366,6 +362,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -443,7 +445,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>저작자표시</strong>. 
+	      <p><strong>저작자표시</strong> &mdash;
 		<span id="attribution-container">저작자나 이용허락자가 정한 방법으로 저작물의 원저작자를 표시하여야 합니다(그러나 귀하나 귀하의 저작물을 추천하는 의미로 표시되어서는 안됩니다).</span>
 		
 		<span id="by-more-container" />
@@ -457,12 +459,12 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-NC-ND 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc-nd/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">"저작자 표시"의 의미는?</div>
 		  <div class="bd">
 		    The page you came from contained embedded licensing
@@ -480,7 +482,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>비영리</strong>. 
+	      <p><strong>비영리</strong> &mdash;
 		
 		<span>이 저작물을 영리 목적으로 이용할 수 없습니다.</span>
 		<span id="nc-more-container" />
@@ -490,7 +492,7 @@ setCookie('lang','%s', expiry, '/');
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>변경금지</strong>. 
+	      <p><strong>변경금지</strong> &mdash;
 		
 		<span>이 저작물을 개작, 변형 또는 가공할 수 없습니다.</span>
 		<span id="nd-more-container" />
@@ -499,8 +501,6 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">이 저작물을 재이용하거나 배포하는 경우에는 이 저작물에 적용된 이용허락조건을 명확하게 나타내어야 합니다. 가장 좋은 방법은 이 페이지로 링크시키는 것입니다.</li>
 
 	  </ul>
 	</div>
@@ -508,7 +508,7 @@ setCookie('lang','%s', expiry, '/');
 	  <h3>With the understanding that:</h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
 	      
@@ -517,7 +517,8 @@ setCookie('lang','%s', expiry, '/');
 	      
 	    </li>
 	      
-	    <li><strong>Other Rights</strong>
+	    <li class="license">
+	      <strong>Other Rights</strong>
 	      &mdash; 
 	      In no way are any of the following rights affected by the license:
 	     
@@ -542,11 +543,17 @@ setCookie('lang','%s', expiry, '/');
 	      </ul>
 	    </li>
 
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      이 저작물을 재이용하거나 배포하는 경우에는 이 저작물에 적용된 이용허락조건을 명확하게 나타내어야 합니다. 가장 좋은 방법은 이 페이지로 링크시키는 것입니다.
+	    </li>
+
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
@@ -556,7 +563,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
@@ -569,7 +576,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
@@ -579,7 +586,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_publicity_rights">
+          <div id="help_publicity_rights" class="help_panel">
             <div class="hd">What are "Publicity Rights"?</div>
             <div class="bd">
               <p>Publicity
@@ -600,15 +607,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">면책조항</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">면책조항</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">면책조항</div>
 	      <div class="bd"><P>
 커먼즈 증서(Commons Deed)는 그 자체로 이용허락서는 아닙니다. 이용허락규약(Legal Code)의 내용을 쉽게 이해할 수 있도록 중요한 조건의 일부를 알기 쉽게 표현한 참조문입니다. 따라서 커먼즈 증서 그 자체에는 법적인 효력이 없으며 그 내용은 실제 이용허락서에는 나타나지 않습니다. 

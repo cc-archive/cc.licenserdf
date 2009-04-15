@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -368,6 +364,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -446,7 +448,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Αναφορά</strong>. 
+	      <p><strong>Αναφορά</strong> &mdash;
 		<span id="attribution-container">Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγούντα την άδεια (χωρίς όμως να εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου από εσάς).</span>
 		
 		<span id="by-more-container" />
@@ -460,12 +462,12 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-NC-SA 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc-sa/3.0/hk/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">
 		    What does "Attribute this work" mean?
 		  </div>
@@ -485,7 +487,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>Μη Εμπορική Χρήση</strong>. 
+	      <p><strong>Μη Εμπορική Χρήση</strong> &mdash;
 		
 		<span>Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό για εμπορικούς σκοπούς.</span>
 		<span id="nc-more-container" />
@@ -497,7 +499,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	      <p><strong>Παρόμοια διανομή</strong>. 
+	      <p><strong>Παρόμοια διανομή</strong> &mdash;
 		
 		<span>Εάν αλλοιώσετε, τροποποιήσετε ή δημιουργήσετε περαιτέρω βασισμένοι στο έργο θα μπορείτε να διανείμετε το έργο που θα προκύψει μόνο με την ίδια ή παρόμοια άδεια.</span>
 		<span id="sa-more-container" />
@@ -506,8 +508,6 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.</li>
 
 	  </ul>
 	</div>
@@ -517,7 +517,7 @@ setCookie('lang','%s', expiry, '/');
 	  </h3>
 
 	  <ul class="understanding license-properties">
-            <li>
+            <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
 	      
@@ -526,8 +526,8 @@ setCookie('lang','%s', expiry, '/');
 	      
 	    </li>
 	      
-	    <li><strong>Other
-		Rights</strong>
+	    <li class="license">
+	      <strong>Other Rights</strong>
 	      &mdash; 
 	      In no way are
 		    any of the following rights affected by the
@@ -554,11 +554,17 @@ setCookie('lang','%s', expiry, '/');
 	      </ul>
 	    </li>
 
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.
+	    </li>
+
           </ul>
 
           
 
-          <div id="help_waived">
+          <div id="help_waived" class="help_panel">
             <div class="hd">
               What does "conditions can be waived" mean?
             </div>
@@ -571,7 +577,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_fair_use">
+          <div id="help_fair_use" class="help_panel">
             <div class="hd">
               What does "Fair use" mean?
             </div>
@@ -586,7 +592,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_moral_rights">
+          <div id="help_moral_rights" class="help_panel">
             <div class="hd">
               What are "Moral Rights"?
             </div>
@@ -606,7 +612,7 @@ setCookie('lang','%s', expiry, '/');
             </div>
           </div>
 
-          <div id="help_publicity_rights">
+          <div id="help_publicity_rights" class="help_panel">
             <div class="hd">
               What are "Publicity Rights"?
             </div>
@@ -629,15 +635,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">Αποποίηση</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Αποποίηση</div>
 	      <div class="bd"><p>
 Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
