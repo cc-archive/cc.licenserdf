@@ -4,7 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-      Uveďte autora 3.0 Česká republika
+      Uveďte autora 3.0 Česko
     </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -102,6 +102,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.ca" title="Català" hreflang="ca"
    rel="alternate nofollow" xml:lang="ca">Català</a>
+
+
+
+
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
 
 
 
@@ -410,7 +416,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Uveďte autora 3.0 Česká republika</h2>
+	        <h2 property="dc:title">Uveďte autora 3.0 Česko</h2>
         </div>
       </div>
 
@@ -490,30 +496,30 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>Dále berete na vědomí, že:</h3>
+	  <h3>Dále berete na vědomí:</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Zrušení podmínek</strong>
+	      <strong>Jiná licence</strong>
 	      &mdash;
-	      Všechny výše uvedené podmínky mohou být <a href="#" id="waived" class="helpLink">zrušeny</a>, pokud k tomu získáte souhlas nositele autorských práv.
+	      Výše uvedené podmínky se na vás nevztahují, pokud jste k tomu získali souhlas nositele autorských práv.
 	    </li>
 	      
 	    <li class="license">
-	      <strong>Ostatní práva</strong>
+	      <strong>Další práva</strong>
 	      &mdash; 
-	      Touto licencí nejsou dotčena následující práva a omezení:
+	      Touto licencí nejsou dotčena:
 	     
 	      <ul>
 
-		<li>Touto licencí nejsou dotčena volná užití díla, zákonné licence ani jiná omezení autorského práva.</li>
+		<li>volná užití díla, zákonné licence ani jiná zákonná omezení autorského práva.</li>
 
 		
-		  <li>Osobnostní práva autora nejsou touto licencí dotčena.</li>
+		  <li>osobnostní práva autora,</li>
 		
 		
 
-		<li>Případná práva dalších osob jak na dílo samotné, tak na způsoby jeho užití, jako například práva na publicitu či ochranu soukromí.</li>
+		<li>případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
 	      </ul>
 	    </li>
 
