@@ -3,19 +3,20 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    Developing Nations License
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      Developing Nations License
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,23 +38,22 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -79,14 +79,10 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">Криејтив комонс</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">Оваа страница е достапна на следните јазици</span>
 <br />
 
@@ -122,12 +118,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.el" title="Ελληνικά" hreflang="el"
-   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
-
-
-
-
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -142,6 +132,20 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
    rel="alternate nofollow" xml:lang="en_GB">English (GB)</a>
+
+
+
+
+<a href="./deed.en_HK" title="English (Hong Kong)"
+   hreflang="en_HK" rel="alternate nofollow"
+   xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -187,6 +191,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.es_EC" title="Español (Ecuador)"
    hreflang="es_EC" rel="alternate nofollow"
    xml:lang="es_EC">Español (Ecuador)</a>
+
+
+
+
+<a href="./deed.es_GT" title="Español (Guatemala)"
+   hreflang="es_GT" rel="alternate nofollow"
+   xml:lang="es_GT">Español (Guatemala)</a>
 
 
 
@@ -351,8 +362,20 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
+
+
+
+
+<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
+   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -373,17 +396,27 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="red"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">Developing Nations License</h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="-">
+
           <div>
 
         <div id="deed-rights" style="text-align:left"
@@ -393,7 +426,7 @@ setCookie('lang','%s', expiry, '/');
 
          <h3 rel="cc:permits"
              resource="http://creativecommons.org/ns#Reproduction">Можете:</h3>
-		      <ul>
+		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
              resource="http://creativecommons.org/ns#Distribution"><strong>да споделите</strong> – да умножувате, дистрибуирате, јавно да го прикажувате или јавно дигитално да го прикажувате делото</li>
 
@@ -403,24 +436,43 @@ setCookie('lang','%s', expiry, '/');
 
         </div>
         <div id="deed-conditions">
-		      <h3>Под следните услови:</h3>
-	        <ul style="text-align:left" dir="ltr">
+	  <h3>Под следните услови:</h3>
+	  <ul class="license-properties" style="text-align:left"
+       dir="ltr">
 
             <li class="license devnations"><strong>Developing Nations</strong>.
-                       You may exercise the above freedoms in developing nations only.</li>
+              You may exercise the above freedoms in developing
+              nations only.
+	    </li>
 
-            <li rel="cc:requires" resource="http://creativecommons.org/ns#Attribution" class="license by"><p><strong>Наведи извор</strong>.
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Attribution" class="license by">
+	      <p><strong>Наведи извор</strong>.
                 <span>Морате да го наведете изворот на ист начин како што тоа го направил авторот или давателот на лиценцата (но не на начин кој би сугерирал дека тие ве поддржуваат вас или вашето дело).</span></p></li>
 
-    				<li>Во случај на понатамошно користење или дистрибуција морате на другите јасно да им ги дадете до знаење условите под кои е лиценцирана ова дело. Најдобар начин за да го направите тоа е да поставите врска до оваа веб-страница.</li>
-    				<li>Секој од горенаведените услови може да биде поништен ако добиете дозвола од носителот на авторските права.</li>
-    			</ul>
+    	    <li>Во случај на понатамошно користење или дистрибуција морате на другите јасно да им ги дадете до знаење условите под кои е лиценцирана ова дело. Најдобар начин за да го направите тоа е да поставите врска до оваа веб-страница.</li>
+    	    <li></li>
+
+	    <li>In no way are any of the following rights affected by
+	      the above:
+	     
+	      <ul>
+		<li>Your fair use rights.
+		</li>
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as publicity
+		  or privacy rights.
+		</li>
+	      </ul>
+	    </li>
+
+
+    	  </ul>
         </div>
 
 </div>
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -428,8 +480,8 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">Забелешка</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Забелешка</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Забелешка</div>
 	      <div class="bd"><p>
 Комонс дид (Commons Deed) не е лиценца. Тоа е само корисна референца за да го разберете Правниот код (целосната лиценца) – тоа е разбирлив приказ на некои клучни термини. 
@@ -439,12 +491,8 @@ setCookie('lang','%s', expiry, '/');
 <p>
 Криејтив комонс не е правна фирма и не обезбедува правни услуги. Дистрибуирање, прикажување или поставување врски до овој Комонс дид не воспоставува однос застапник-клиент.
 </p></div>
-	  </div>
+	    </div>
 	  
-
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>Горенаведеното на ниту еден начин не влијае врз законските ограничувања на авторските права.</strong>
-	</p>
 
 	<p style="text-align:center">
 
@@ -461,10 +509,10 @@ setCookie('lang','%s', expiry, '/');
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0">
-      Use this license for your own work.</a>
-
+         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=mk">Use this license for your own work.</a>
+      
     </p>
 
   </body>

@@ -4,8 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-    Copyright-Only Dedication (based on United States law) 
-or Public Domain Certification
+    Prenošenje u javno dobro (temeljeno na zakonu Sjedinjenih Američkih Država) ili Potvrda o javnom dobru
   </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -51,10 +50,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
-    </script>
-
-    <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
     </script>
 
     <script type="text/javascript"
@@ -358,6 +353,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -400,9 +401,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
-  (based on United States law)<br />
-  or Public Domain Certification</h2>
+	        <h2 property="dc:title">Prenošenje u javno dobro<a href="#" class="helpLink" id="use_zero">*</a> (temeljeno na zakonu Sjedinjenih Američkih Država) ili Potvrda o javnom dobru </h2>
         </div>
       </div>
 
@@ -413,43 +412,17 @@ setCookie('lang','%s', expiry, '/');
   <div id="librepd">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="This license is acceptable for Free Cultural Works." />
+           alt="Ova licenca ulazi u definiciju Slobodnih kulturni djela." />
     </a>
   </div>
 
-  
-    <p>The person or persons who have associated work with this
-      document (the "Dedicator" or "Certifier") hereby either (a)
-      certifies that, to the best of his knowledge, the work of
-      authorship identified is in the public domain of the country
-      from which the work is published, or (b) hereby dedicates
-      whatever copyright the dedicators holds in the work of
-      authorship identified below (the "Work") to the public domain. A
-      certifier, moreover, dedicates any copyright interest he may
-      have in the associated work, and for these purposes, is
-      described as a "dedicator" below.</p>
+  <p>Osoba ili osobe koje su svoje djelo vezale uz ovaj dokument (“Prenositelj” ili "Potvrditelj") ovime ili a) potvrđuje da je, prema njenom najboljem saznanju, ovdje naznačeno autorsko djelo prešlo u javna dobra one zemlje gdje je izvorno objavljeno ili b) prenosi autorsko pravo, koje prenositelj ima na autorsko djelo kako je niže određeno ("Djelo"), u javno dobro. Nadalje, potvrditelj prenosi u javno dobro sve interese koje bi mogao polagati na autorsko pravo u djelu i, za svrhe ove licence, on se u daljnjem tekstu uzima kao "Prenositelj".</p>
 
-    <p>A certifier has taken reasonable steps to verify the copyright
-      status of this work. Certifier recognizes that his good faith
-      efforts may not shield him from liability if in fact the work
-      certified is not in the public domain.</p>
+<p>Potvrditelj je poduzeo razumni napor da potvrdi status autorskog prava nad ovim djelom. Potvrditelj prihvaća da ga taj napor, poduzet u dobroj volji, ne štiti od odgovornosti ako djelo u potvrdi nije u javnoj domeni.</p>
 
-    <p>Dedicator makes this dedication for the benefit of the public
-      at large and to the detriment of the Dedicator's heirs and
-      successors.  Dedicator intends this dedication to be an overt
-      act of relinquishment in perpetuity of all present and future
-      rights under copyright law, whether vested or contingent, in the
-      Work. Dedicator understands that such relinquishment of all
-      rights includes the relinquishment of all rights to enforce (by
-      lawsuit or otherwise) those copyrights in the Work.</p>
+<p>Prenositelj pristupa ovoj predaji u korist javnosti, a na uštrb Prenositeljevih nasljednika i pravnih sljednika. Prenositeljeva je namjera da ova predaja bude otvoren čin trajnog ustupanja svih sadašnjih i budućih prava na Djelo. Prenositelj prima na znanje da takvo ustupanje svih prava uključuje odricanje od svih prava na mjere provedbe (pravnom parnicom ili na neki drugi način) tih autorskih prava na djelo.</p>
 
-    <p>Dedicator recognizes that, once placed in the public domain,
-      the Work may be freely reproduced, distributed, transmitted,
-      used, modified, built upon, or otherwise exploited by anyone for
-      any purpose, commercial or non-commercial, and in any way,
-      including by methods that have not yet been invented or
-      conceived.</p>
-  
+<p>Prenositelj prihvaća da djelo, jednom kada se ono nađe u javnim dobrima, svatko može slobodno reproducirati, distrubirati, emitirati, koristiti, mijenjati, razvijati ili drugačije iskoristiti u bilo koju svrhu, komercijalnu ili nekomercijalnu, i na bilo koji način, uključujući i metodama koje još nisu izumljene ili zamišljene.</p>
 
 <div id="help_use_zero">
   <div class="hd">CC0 for Public Domain Dedication</div>
@@ -464,14 +437,13 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
        </div>
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/license/publicdomain-2">Use this tool for your own work.</a>
+      <a id="get_this" href="/license/publicdomain-2">Upotrijebite ovaj alat za svoje djelo.</a>
       
     </p>
 

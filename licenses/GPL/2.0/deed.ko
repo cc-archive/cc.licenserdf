@@ -3,19 +3,20 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    GNU General Public License
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      GNU General Public License
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,23 +38,22 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -70,14 +70,10 @@ setCookie('lang','%s', expiry, '/');
     
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">크리에이티브 커먼즈</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">이 페이지는 다음과 같은 언어로 이용할 수 있습니다.</span>
 <br />
 
@@ -113,12 +109,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.el" title="Ελληνικά" hreflang="el"
-   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
-
-
-
-
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -133,6 +123,20 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
    rel="alternate nofollow" xml:lang="en_GB">English (GB)</a>
+
+
+
+
+<a href="./deed.en_HK" title="English (Hong Kong)"
+   hreflang="en_HK" rel="alternate nofollow"
+   xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -178,6 +182,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.es_EC" title="Español (Ecuador)"
    hreflang="es_EC" rel="alternate nofollow"
    xml:lang="es_EC">Español (Ecuador)</a>
+
+
+
+
+<a href="./deed.es_GT" title="Español (Guatemala)"
+   hreflang="es_GT" rel="alternate nofollow"
+   xml:lang="es_GT">Español (Guatemala)</a>
 
 
 
@@ -342,8 +353,20 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
+
+
+
+
+<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
+   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -364,17 +387,27 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="green"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">GNU General Public License, <a href="http://www.gnu.org/">Free Software Foundation</a></h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="-">
+
           <div>
 
         <div id="deed-rights" style="text-align:left"
@@ -384,13 +417,13 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p>The <span>GNU General Public License</span> is a <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> license. Like any Free Software license, it grants to you the four following freedoms:</p>
+<p><span>GNU General Public License</span>는 <a href="http://www.gnu.org/philosophy/free-sw.html">자유소프트웨어</a> 라이선스입니다. 다른 자유소프트웨어 라이선스와 같이 다음과 같은 자유를 허락합니다.</p>
 			
 			<ol class="gpl">
-				<li class="gpl">The freedom to run the program for any purpose.</li>
-				<li class="gpl">The freedom to study how the program works and adapt it to your needs.</li>
-				<li class="gpl">The freedom to redistribute copies so you can help your neighbor.</li>
-				<li class="gpl">The freedom to improve the program and release your improvements to the public, so that the whole community benefits.</li>
+				<li class="gpl">프로그램을 어떤 용도로든 사용할 수 있는 자유. </li>
+				<li class="gpl">프로그램이 어떻게 작동하고 어떻게 개선할 수 있는지 연구할 수 있는 자유</li>
+				<li class="gpl">복제물을 재배포할 수 있는 자유</li>
+				<li class="gpl">커뮤니티가 혜택을 받을 수 있도록 프로그램을 개선하고 이를 공중에게 제공하는 자유</li>
 			</ol>
 </div>
     
@@ -398,27 +431,26 @@ setCookie('lang','%s', expiry, '/');
   <h3></h3>
 
 
-   <p />You may exercise the freedoms specified here provided that you comply with the express conditions of this license. The principal conditions are:
+   <p />명시된 조건들을 준수하는 한 자유롭게 저작물을 이용할 수 있습니다. 주요 조건들은 아래와 같습니다:
    
 
    <ul style="text-align:left" dir="ltr"> 
-     <li class="license notice">You must conspicuously and appropriately publish on each copy distributed an appropriate copyright notice and disclaimer of warranty and keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of the <span>GNU General Public License</span> along with the Program. Any translation of the <span>GNU General Public License</span> must be accompanied by the <span>GNU General Public License</span>.</li>
+     <li class="license notice">모든 복사본에는 명확하고 적절한 방법으로 저작권 표시와 보증부인조항을 포함시켜야 합니다. 그리고 프로그램을 제공할 때에는 항상 <span>GNU General Public License</span> 사본을 같이 제공하여야 합니다. <span>GNU General Public License</span>의 번역문은 반드시 원문과 함께 제공되어야 합니다.</li>
 
-     <li class="license sa">If you modify your copy or copies of the program or any portion of it, or develop a program based upon it, you may distribute the resulting work provided you do so under the <span>GNU General Public License</span>. Any translation of the <span>GNU General Public License</span> must be accompanied by the <span>GNU General Public License</span>.</li>
+     <li class="license sa">만일 당신이 이 프로그램의 사본 또는 그 일부를 변형하려고 할 때, 또는 이 프로그램을 기반으로 다른 프로그램을 개발하려 할때에는 당신은<span>GNU General Public License</span> 의 조건을 준수한다는 전제하에 당신의 결과물을 배포할 수 있습니다. <span>GNU General Public License</span>의 번역본은 반드시 <span>GNU General Public License</span>과 함께 제시되어야 합니다.</li>
 
      
 
-     <li class="license src">If you copy or distribute the program, you must accompany it with the complete corresponding machine-readable source code or with a written offer, valid for at least three years, to furnish the complete corresponding machine-readable source code.</li>
+     <li class="license src">프로그램을 복제하거나 배포할때에 당신은 반드시 소스 코드를 첨부하거나 해당 소스코드를 제공할 것을 약속하는 문서(최소 삼년간 유효한)를 첨부해야 합니다.  </li>
    </ul>
      
 </div>
 
-<p>저작권자로부터 별도의 허가를 받으면 이러한 조건들은 적용되지 않습니다.</p> 
+<p><%=[ccommons::istr $lang deed.permission]%></p> 
 
 </div>
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -426,22 +458,18 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">Disclaimer</a>
-	    <div id="disclaimer_panel">
-	      <div class="hd">Disclaimer</div>
+	    <a href="#" id="disclaimer" class="helpLink">면책조항</a>
+	    <div id="help_disclaimer">
+	      <div class="hd">면책조항</div>
 	      <div class="bd"><P>
-커먼즈 증서(Commons Deed)는 그 자체로 이용허락조건은 아닙니다. 이용허락규약(Legal Code)의 내용을 쉽게 이해할 수 있도록 중요한 조건의 일부를 알기 쉽게 표현한 참조문입니다. 따라서 커먼즈 증서 그 자체에는 법적인 의미는 없으며 그 내용은 실제 이용허락조건에는 나타나지 않습니다. 
+커먼즈 증서(Commons Deed)는 그 자체로 이용허락서는 아닙니다. 이용허락규약(Legal Code)의 내용을 쉽게 이해할 수 있도록 중요한 조건의 일부를 알기 쉽게 표현한 참조문입니다. 따라서 커먼즈 증서 그 자체에는 법적인 효력이 없으며 그 내용은 실제 이용허락서에는 나타나지 않습니다. 
 </p>
 
 <p>
 크리에이티브 커먼즈는 법률 사무소가 아니며 법률 서비스를 제공하지도 않습니다. 이 커먼즈 증서에 링크하거나 이를 배포, 전시하더라도 변호사와 의뢰인의 관계가 생기는 것은 아닙니다. 
 </p></div>
-	  </div>
+	    </div>
 	  
-
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>저작권법에 따른 이용자의 권리는 위의 내용에 의하여 영향을 받지 않습니다.</strong>
-	</p>
 
 	<p style="text-align:center">
 
@@ -450,7 +478,7 @@ setCookie('lang','%s', expiry, '/');
     
 
     
-      This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is also available.
+      이 것은 이용허락규약 (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>)의 의 요약문입니다. A <a href="legalcode.pt">포르투칼 번역문</a>도 있습니다.
     
 
     
@@ -460,10 +488,10 @@ setCookie('lang','%s', expiry, '/');
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0">
-      Use this license for your own work.</a>
-
+         href="/license/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=ko">귀하의 저작물에 이 라이선스를 적용하세요.</a>
+      
     </p>
 
   </body>

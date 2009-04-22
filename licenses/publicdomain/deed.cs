@@ -4,8 +4,10 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-    Copyright-Only Dedication (based on United States law) 
-or Public Domain Certification
+    
+      Copyright-Only Dedication (based on United States law) or Public
+      Domain Certification
+    
   </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -54,10 +56,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -79,7 +77,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div id="languages">
-<span style="text-align:left" dir="ltr">This page is available in the following languages:</span>
+<span style="text-align:left" dir="ltr">Tato stránka je k dispozici v následujících jazycích:</span>
 <br />
 
 
@@ -358,6 +356,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -400,9 +404,11 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
+	        <h2 property="dc:title">
+  Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
   (based on United States law)<br />
-  or Public Domain Certification</h2>
+  or Public Domain Certification
+</h2>
         </div>
       </div>
 
@@ -464,14 +470,14 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
        </div>
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/license/publicdomain-2">Use this tool for your own work.</a>
+      <a id="get_this" href="/license/publicdomain-2">
+      Use this tool for your own work.</a>
       
     </p>
 

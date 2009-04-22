@@ -54,10 +54,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -358,6 +354,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -417,39 +419,17 @@ setCookie('lang','%s', expiry, '/');
     </a>
   </div>
 
-  
-    <p>The person or persons who have associated work with this
-      document (the "Dedicator" or "Certifier") hereby either (a)
-      certifies that, to the best of his knowledge, the work of
-      authorship identified is in the public domain of the country
-      from which the work is published, or (b) hereby dedicates
-      whatever copyright the dedicators holds in the work of
-      authorship identified below (the "Work") to the public domain. A
-      certifier, moreover, dedicates any copyright interest he may
-      have in the associated work, and for these purposes, is
-      described as a "dedicator" below.</p>
+  <p style="text-align:center"><em>Copyright-Only Dedication oder Public Domain Certification (basiert auf US-Recht, nicht auf deutschem Recht)</em></p>
 
-    <p>A certifier has taken reasonable steps to verify the copyright
-      status of this work. Certifier recognizes that his good faith
-      efforts may not shield him from liability if in fact the work
-      certified is not in the public domain.</p>
+<p>Die Person oder die Personen, die Ihr Werk mit diesem Dokument assoziieren (im folgenden "Übertrager" oder "Zertifizierer" genannt) bestätigen hiermit, dass (a) entweder das hiermit assoziierte Werk (im folgenden "Werk") nach Ihrem besten Wissen in demjenigen Lande gemeinfrei ist, in dem es zuerst publiziert wurde, oder dass (b) sämtliche Rechte an dem Werk, die noch bei dem Übertrager liegen, hiermit dauerhaft und unwiderruflich aufgegeben werden und er hilfsweise auch auf Durchsetzung dennoch verbleibender Rechte dauerhaft und unwiderruflich verzichtet.</p>
 
-    <p>Dedicator makes this dedication for the benefit of the public
-      at large and to the detriment of the Dedicator's heirs and
-      successors.  Dedicator intends this dedication to be an overt
-      act of relinquishment in perpetuity of all present and future
-      rights under copyright law, whether vested or contingent, in the
-      Work. Dedicator understands that such relinquishment of all
-      rights includes the relinquishment of all rights to enforce (by
-      lawsuit or otherwise) those copyrights in the Work.</p>
+<p>Desweiteren überträgt jeder Zertifizierer sämtliche Rechte, die er möglicherweise an dem Werk hat, ebenfalls in der oben genannten Weise; in diesem Zusammenhang wird der Zertifizierer im folgenden als "Übertrager" bezeichnet.</p>
 
-    <p>Dedicator recognizes that, once placed in the public domain,
-      the Work may be freely reproduced, distributed, transmitted,
-      used, modified, built upon, or otherwise exploited by anyone for
-      any purpose, commercial or non-commercial, and in any way,
-      including by methods that have not yet been invented or
-      conceived.</p>
-  
+<p>Der Zertifizierer hat alle zumutbaren Schritte unternommen, um den urheberrechtlichen Status des Werkes zu überprüfen. Es ist ihm bewusst, dass seine Bemühungen ihn im Zweifel nicht vor etwaiger Haftung schützen, falls das Werk sich eben nicht, wie vom Zertifizierer angenommen, im Zustand der Gemeinfreiheit befinden sollte.</p>
+
+<p>Der Übertrager vollzieht die Übertragung in die Gemeinfreiheit zum Nutzen der Allgemeinheit, und zum Nachteil seiner unmittelbaren Rechtsnachfolger oder Erben. Der Übertrager vollzieht diese Übertragung bzw. Freigabe als eine offenkundige, jederzeit nachvollziehbare rechtliche Handlung, durch die alle gegenwärtigen und zukünftigen Rechte an dem Werk durch den Übertrager endgültig aufgegeben werden. Dem Übertrager ist bewusst, dass diese Aufgabe auch alle Rechte einschliesst, die dazu dienen, Urheberrechte oder andere Rechte an dem Werk auf dem Rechtswege durchzusetzen.</p>
+
+<p>Der Übertrager erkennt an, dass das Werk, sobald es gemeinfrei geworden und den Bereich der so genannten "Public Domain" übergegangen ist, beliebig vervielfältigt, verbreitet, bearbeitet, öffentlich wiedergegeben oder auf sonstige Weise verwendet und genutzt werden kann, sowohl zu kommerziellen als auch nicht-kommerziellen Zwecken, und dass dies auch solche Methoden der Werknutzung einschliesst, die im Zeitpunkt der Übertragung noch nicht erfunden oder bekannt sind.</p>
 
 <div id="help_use_zero">
   <div class="hd">CC0 for Public Domain Dedication</div>
@@ -464,14 +444,13 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
        </div>
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/license/publicdomain-2">Use this tool for your own work.</a>
+      <a id="get_this" href="/license/publicdomain-2">Verwenden Sie dieses juristische Werkzeug doch auch für Ihre eigenen Werke bzw. Inhalte.</a>
       
     </p>
 

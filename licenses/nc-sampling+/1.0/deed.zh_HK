@@ -3,21 +3,19 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    NonCommercial Sampling Plus 1.0
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      NonCommercial Sampling Plus 1.0
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/jurisdictions.css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
           media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
@@ -40,23 +38,22 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -73,14 +70,10 @@ setCookie('lang','%s', expiry, '/');
     
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">共享創意</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">本頁面也有下列各語言的版本：</span>
 <br />
 
@@ -112,12 +105,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
-
-
-
-
-<a href="./deed.el" title="Ελληνικά" hreflang="el"
-   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -366,6 +353,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -394,10 +387,19 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="yellow"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">NonCommercial Sampling Plus 1.0</h2>
         </div>
@@ -415,10 +417,10 @@ setCookie('lang','%s', expiry, '/');
         
 
 		      <h3>您可自由：</h3>
-		      <ul>
-    				<li class="license samplingplus">取樣，混合，或為非商業目的以其他方式有創造性地改變本著作。</li>
+		      <ul class="license-properties">
+    				<li class="license samplingplus">取樣，混合，或為非商業目的以其他方式有創造性地修改本作品。</li>
     				
-    				<li class="license samplingplus">為非商業目的而演出、展示及散布整部著作的重製物（例如，檔案分享或非商業性的網路播送）。</li>
+    				<li class="license samplingplus">為非商業目的而表演、展示及分發整部作品的複製物（例如，檔案分享或非商業性的網路播送）。</li>
 		      </ul>
  
 
@@ -426,13 +428,28 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-conditions">
 
 		      <h3>惟需遵照下列條件：</h3>
-	        <ul style="text-align:left" dir="ltr">
+	        <ul class="license-properties"
+             style="text-align:left" dir="ltr">
     				<li class="license by">您必須按照作者或授權人指定的方式對作品進行署名。</li>
-    				<li>除了您從本著作所創造出來的著作外，您不得使用本著作來廣告或推銷其他東西。</li>
+    				<li>除了您從本作品所創造出來的作品外，您不得使用本作品來廣告或推銷其他東西。</li>
     				<li>若再使用或分發本作品，您都必須向他人清楚說明本作品所適用的授權條款。</li>
     				
     				
-    			</ul>
+	    <li>In no way are any of the following rights affected by
+	      the above:
+	     
+	      <ul>
+		<li>Your fair use rights.
+		</li>
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as publicity
+		  or privacy rights.
+		</li>
+	      </ul>
+	    </li>
+
+        			</ul>
 
         </div>
     <span id="referrer-metadata-container" />
@@ -441,27 +458,22 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">免責聲明</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">免責聲明</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">免責聲明</div>
 	      <div class="bd"><p>
 授權標章 (Commons Deed) 並非授權條款，僅是讓一般人易於理解法律條款 (Legal Code，即完整的授權條款)的參考文件──它是讓一般人易於了解的某些關鍵字的表達。您可把授權標章想成是法律條款之下、對使用者友善的一種介面。授權標章本身不具任何法律價值，且其內容亦不會出現在實際的授權條款中。</p>
 
 <p>
 Creative Commons不是法律事務所，亦不提供法律服務。分發、展示或連結到授權標章並不產生律師和客戶的關係。</p></div>
-	  </div>
+	    </div>
 	  
-
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>您的合理使用以及其他權利不受上述規定影響。</strong>
-	</p>
 
 	<p style="text-align:center">
 
@@ -478,9 +490,10 @@ Creative Commons不是法律事務所，亦不提供法律服務。分發、展�
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0">了解如何使用此授權條款來分發您的作品。</a>
-
+         href="/license/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=zh_HK">了解如何使用此授權條款來分發您的作品。</a>
+      
     </p>
 
   </body>

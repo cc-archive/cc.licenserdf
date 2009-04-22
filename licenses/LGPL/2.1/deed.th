@@ -3,19 +3,20 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    GNU Lesser General Public License
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      GNU Lesser General Public License
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,23 +38,22 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -70,15 +70,11 @@ setCookie('lang','%s', expiry, '/');
     
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">ครีเอทีฟคอมมอนส์</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
-<span style="text-align:left" dir="ltr">เอกสารหน้านี้ในภาษาอื่น : </span>
+<div id="languages">
+<span style="text-align:left" dir="ltr">หน้านี้มีในภาษาต่าง ๆ ดังต่อไปนี้ :</span>
 <br />
 
 
@@ -113,12 +109,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.el" title="Ελληνικά" hreflang="el"
-   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
-
-
-
-
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -133,6 +123,20 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
    rel="alternate nofollow" xml:lang="en_GB">English (GB)</a>
+
+
+
+
+<a href="./deed.en_HK" title="English (Hong Kong)"
+   hreflang="en_HK" rel="alternate nofollow"
+   xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -178,6 +182,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.es_EC" title="Español (Ecuador)"
    hreflang="es_EC" rel="alternate nofollow"
    xml:lang="es_EC">Español (Ecuador)</a>
+
+
+
+
+<a href="./deed.es_GT" title="Español (Guatemala)"
+   hreflang="es_GT" rel="alternate nofollow"
+   xml:lang="es_GT">Español (Guatemala)</a>
 
 
 
@@ -342,8 +353,20 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
+
+
+
+
+<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
+   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -364,17 +387,27 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="green"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">GNU Lesser General Public License, <a href="http://www.gnu.org/">มูลนิธิซอฟต์แวร์เสรี</a>.</h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="-">
+
           <div>
 
         <div id="deed-rights" style="text-align:left"
@@ -389,7 +422,7 @@ setCookie('lang','%s', expiry, '/');
 			<ol class="gpl">
 				<li class="gpl">เสรีภาพในการใช้โปรแกรมไม่ว่าจะเพื่อเหตุใด</li>
 				<li class="gpl">เสรีภาพที่จะศึกษาว่าโปรแกรมทำงานอย่างไรและปรับแก้ให้เข้ากับความต้องการของคุณ</li>
-				<li class="gpl">เสรีภาพที่จะแจกจ่ายสำเนา ดังนั้นคุณจึงสามารถช่วยเหลือเพื่อนบ้านคุณได้.</li>
+				<li class="gpl">เสรีภาพที่จะแจกจ่ายสำเนา ดังนั้นคุณจึงสามารถช่วยเหลือเพื่อนบ้านคุณได้</li>
 				<li class="gpl">เสรีภาพที่จะปรับปรุงแก้ไขโปรแกรมและเผยแพร่การปรับปรุงแก้ไขของคุณต่อสาธารณชนเพื่อให้ชุมชนทั้งหมดได้รับประโยชน์</li>
 			</ol>
 </div>
@@ -399,7 +432,7 @@ setCookie('lang','%s', expiry, '/');
 
 
    
-   <p />คุณอาจใช้สิทธิตามที่ได้ระบุไว้โดยต้องปฏิบัติตามเงื่อนไขต่าง ๆ ที่ได้ระบุไว้ในสัญญาอนุญาตนี้. สัญญาอนุญาตแบบแอลจีพีแอลมุ่งหมายให้ใช้กับซอฟต์แวร์ไลบรารี (กลุ่มชุดคำสั่งคอมพิวเตอร์ที่รวบรวมไว้เพื่อใช้บ่อย ๆ) มากกว่าการใช้กับโปรแกรมคอมพิวเตอร์. หลักใหญ่ของเงื่อนไขต่าง ๆ คือ:
+   <p />คุณอาจใช้สิทธิต่าง ๆ ตามที่ได้ระบุไว้โดยต้องปฏิบัติตามเงื่อนไขต่าง ๆ ที่ได้ระบุไว้ในสัญญาอนุญาตนี้. สัญญาอนุญาตแบบแอลจีพีแอลมุ่งหมายให้ใช้กับซอฟต์แวร์ไลบรารี (กลุ่มชุดคำสั่งคอมพิวเตอร์ที่รวบรวมไว้เพื่อใช้บ่อย ๆ) มากกว่าการใช้กับโปรแกรมคอมพิวเตอร์. หลักใหญ่ของเงื่อนไขต่าง ๆ คือ:
 
    <ul style="text-align:left" dir="ltr"> 
      <li class="license notice">คุณต้องตีพิมพ์คำประกาศลิขสิทธิ์และคำปฏิเสธการรับประกันอย่างชัดเจนและเหมาะสมลงบนสำเนาแต่ละชิ้นที่แจกจ่าย และรักษาคำประกาศทุกชิ้นที่อ้างถึงสัญญาอนุญาตนี้และที่อ้างถึงการไม่มีการรับประกันใด ๆ; และมอบสำเนาของ <span>GNU Lesser General Public License</span> ให้กับทุกคนที่ได้รับสำเนาของโปรแกรม. บทแปลใด ๆ ของ <span>GNU Lesser General Public License</span> จะต้องมี <span>GNU Lesser General Public License</span> แนบไปด้วย.</li>
@@ -413,12 +446,11 @@ setCookie('lang','%s', expiry, '/');
      
 </div>
 
-<p>เงื่อนไขใด ๆ ข้างต้น อาจได้รับการยกเว้น ถ้าคุณได้รับอนุญาตจากเจ้าของลิขสิทธิ์</p> 
+<p>เงื่อนไขใด&nbsp;ๆ ข้างต้น อาจ<a href="#" id="waived" class="helpLink">ยกเว้น</a>ได้ หากคุณได้รับอนุญาตจากผู้ถือครองลิขสิทธิ์</p> 
 
 </div>
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -426,23 +458,25 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">ประกาศปฏิเสธความรับผิด</a>
-	    <div id="disclaimer_panel">
-	      <div class="hd">ประกาศปฏิเสธความรับผิด</div>
-	      <div class="bd">เอกสารคอมมอนส์ ไม่ใช่สัญญาอนุญาต. มันเป็นเพียงเอกสารสรุปสาระสำคัญของสัญญาอนุญาต มันเป็นการทำให้คนทั่วไปเข้าใจสาระสำคัญบางอย่าง คิดเปรียบเทียบมันว่ามันคือโฉมหน้าของสัญญาอนุญาตที่อยู่ข้างใน เอกสารนี้โดยตัวมันเองไม่มีผลทางกฎหมาย และเนื้อหาของมันไม่มีในตัวสัญญาอนุญาตต้นฉบับ.</div>
-	  </div>
-	  
+	    <a href="#" id="disclaimer" class="helpLink">การปฏิเสธความรับผิด</a>
+	    <div id="help_disclaimer">
+	      <div class="hd">การปฏิเสธความรับผิด</div>
+	      <div class="bd"><p>
+หนังสือสำคัญคอมมอนส์ ไม่ใช่สัญญาอนุญาต มันเป็นเพียงเอกสารอ้างอิงเพื่อความสะดวกในการเข้าใจข้อกฎหมาย (สัญญาอนุญาตฉบับเต็ม) &mdash; บอกกล่าวสาระสำคัญบางประการของมัน คิดเสียว่ามันคือหน้ากากครอบสัญญาอนุญาตที่อยู่ข้างใต้ หนังสือนี้โดยตัวมันเองไม่มีผลทางกฎหมาย และเนื้อหาของมันไม่ปรากฏในสัญญาอนุญาตจริง
+</p>
 
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>สิทธิการใช้งานตามสมควรและสิทธิอื่น ๆ ไม่ได้รับผลกระทบใด ๆ จากข้อตกลงข้างต้น</strong>
-	</p>
+<p>
+ครีเอทีฟคอมมอนส์คอร์ปอเรชั่นไม่ใช่สำนักงานกฎหมายและไม่ได้ให้บริการทางกฎหมาย การแจกจ่าย แสดง หรือเชื่อมโยงมายังหนังสือสำคัญคอมมอนส์นี้ ไม่ก่อให้เกิดความสัมพันธ์แบบทนายความกับลูกความ
+</p></div>
+	    </div>
+	  
 
 	<p style="text-align:center">
 
     
 
     
-      นี่คือสรุปใจความแบบอ่านง่าย ๆ ของของสัญญาฉบับภาษากฎหมาย (<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">กนู แอลจีพีแอล</a> ฉบับเต็ม). และมีฉบับแปล<a href="legalcode.pt">ภาษาโปรตุเกส</a>ด้วย.
+      นี่เป็นสรุปข้อกฎหมาย (<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">สัญญาอนุญาตกนูแอลจีพีแอล</a> ฉบับเต็ม) ในภาษาอ่านง่าย โดยมีฉบับ<a href="legalcode.pt">ภาษาโปรตุเกส</a>ด้วย
     
 
     
@@ -454,10 +488,10 @@ setCookie('lang','%s', expiry, '/');
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1">
-      Use this license for your own work.</a>
-
+         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=th">ใช้สัญญาอนุญาตนี้กับงานของคุณ</a>
+      
     </p>
 
   </body>

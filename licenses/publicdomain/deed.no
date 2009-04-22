@@ -54,10 +54,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -358,6 +354,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -417,39 +419,13 @@ setCookie('lang','%s', expiry, '/');
     </a>
   </div>
 
-  
-    <p>The person or persons who have associated work with this
-      document (the "Dedicator" or "Certifier") hereby either (a)
-      certifies that, to the best of his knowledge, the work of
-      authorship identified is in the public domain of the country
-      from which the work is published, or (b) hereby dedicates
-      whatever copyright the dedicators holds in the work of
-      authorship identified below (the "Work") to the public domain. A
-      certifier, moreover, dedicates any copyright interest he may
-      have in the associated work, and for these purposes, is
-      described as a "dedicator" below.</p>
+  <p>Den person eller de personer som har knyttet dette dokumentet til et verk ("erklæringsgiver") erklærer herved at enten (a) er det angjeldende verk, så vidt han/hun vet, en del av public domain eller (b) at han/hun oppgir alle rettigheder til det nedenfor definerte verk (Verket) til public domain. Erklæringsgiver oppgir videre enhver opphavsrettslig interesse som han/hun måtte ha i Verket.</p>
 
-    <p>A certifier has taken reasonable steps to verify the copyright
-      status of this work. Certifier recognizes that his good faith
-      efforts may not shield him from liability if in fact the work
-      certified is not in the public domain.</p>
+<p>Erklæringsgiver har tatt rimelige skritt for å skaffe til veie Verkets opphavsrettslige status. Erklæringsgiver erkjenner at hans/hennes bestrebelser for gjøre dette i god tro ikke fritar ham/henne fra ansvar, dersom det faktisk viser seg at det angjeldende verk ikke er en del av public domain.</p>
 
-    <p>Dedicator makes this dedication for the benefit of the public
-      at large and to the detriment of the Dedicator's heirs and
-      successors.  Dedicator intends this dedication to be an overt
-      act of relinquishment in perpetuity of all present and future
-      rights under copyright law, whether vested or contingent, in the
-      Work. Dedicator understands that such relinquishment of all
-      rights includes the relinquishment of all rights to enforce (by
-      lawsuit or otherwise) those copyrights in the Work.</p>
+<p>Erklæringsgiver avgir denne erklæring til fordel for den brede offentlighed og til skade for erklæringsgivers arvinger og etterfølgere. Det er erklæringsgiver hensikt at erklæringen er en offentlig, evigvarende oppgivelse av alle eksisterende og fremtidige rettigheder etter opphavsretten, uansett om dette er rettigheder til selve Verket eller rettigheder som er avhengige av Verket. Erklæringsgiver forstår at en slik oppgivelse av alle rettigheter omfatter oppgivelse av enhver rett til å håndheve (ved søksmål eller på annen måte) opphavsrettigheter til Verket.</p>
 
-    <p>Dedicator recognizes that, once placed in the public domain,
-      the Work may be freely reproduced, distributed, transmitted,
-      used, modified, built upon, or otherwise exploited by anyone for
-      any purpose, commercial or non-commercial, and in any way,
-      including by methods that have not yet been invented or
-      conceived.</p>
-  
+<p>Erklæringsgiver forstår at når Verket en gang er blitt en del av public domain, kan det fritt fremstilles eksemplarer av det, det kan fritt spres, overføres, brukes, endres, bygges videre på eller på annen måte utnyttes av hvem som helst til et hvilket som helst formål, kommersielt eller ikke-kommersielt, på enhver måte, inklusive måter som ennå ikke er oppfunnet eller kjent.</p>
 
 <div id="help_use_zero">
   <div class="hd">CC0 for Public Domain Dedication</div>
@@ -463,7 +439,6 @@ setCookie('lang','%s', expiry, '/');
 </div>
        </div>
       </div>
-
 
       <div id="deed-foot">
         

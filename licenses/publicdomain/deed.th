@@ -4,8 +4,8 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-    Copyright-Only Dedication (based on United States law) 
-or Public Domain Certification
+    คำอุทิศลิขสิทธิ์เท่านั้น (ตามกฎหมายสหรัฐ
+ อเมริกา) หรือการรับรองงานสาธารณสมบัติ
   </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -54,10 +54,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -79,7 +75,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div id="languages">
-<span style="text-align:left" dir="ltr">เอกสารหน้านี้ มีในภาษาอื่นๆ ข้างล่างนี้ : </span>
+<span style="text-align:left" dir="ltr">หน้านี้มีในภาษาต่าง ๆ ดังต่อไปนี้ :</span>
 <br />
 
 
@@ -358,6 +354,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -400,9 +402,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
-  (based on United States law)<br />
-  or Public Domain Certification</h2>
+	        <h2 property="dc:title">คำอุทิศเฉพาะลิขสิทธิ์<a href="#" class="helpLink" id="use_zero">*</a>(ตามกฎหมายสหรัฐอเมริกา)<br />หรือการรับรองสาธารณสมบัติ</h2>
         </div>
       </div>
 
@@ -413,43 +413,17 @@ setCookie('lang','%s', expiry, '/');
   <div id="librepd">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="This license is acceptable for Free Cultural Works." />
+           alt="สัญญาอนุญาตนี้ ได้รับการยอมรับสำหรับงานวัฒนธรรมเสรี " />
     </a>
   </div>
 
-  
-    <p>The person or persons who have associated work with this
-      document (the "Dedicator" or "Certifier") hereby either (a)
-      certifies that, to the best of his knowledge, the work of
-      authorship identified is in the public domain of the country
-      from which the work is published, or (b) hereby dedicates
-      whatever copyright the dedicators holds in the work of
-      authorship identified below (the "Work") to the public domain. A
-      certifier, moreover, dedicates any copyright interest he may
-      have in the associated work, and for these purposes, is
-      described as a "dedicator" below.</p>
+  <p>บุคคลหรือกลุ่มบุคคลซึ่งได้กำหนดให้งานใช้เอกสารนี้ (ต่อไป ขอเรียกว่า " ผู้อุทิศ " หรือ " ผู้รับรอง ") ขอประกาศในที่นี้ ว่า (ก)เท่าที่ทราบ ขอรับรองว่า งานของผู้สร้างสรรค์ ได้มีการระบุว่า เป็นสาธารณะสมบัติของประเทศที่งานเผยแพร่  หรือ(ข)ขออุทิศ ลิขสิทธิ์ใดๆ ซึ่งผู้อุทิศมีอยู่ในงานสร้างสรรค์ ตามที่ระบุไว้ด้านล่าง ("งาน")ให้เป็นสาธารณสมบัตินอกจากนั้น ผู้รับรอง ขออุทิศผลประโยชน์เกี่ยวกับลิขสิทธิ์ใดๆ ที่มีในงานที่กำหนดให้ใช้เอกสารฉบับนี้ ให้เป็นสาธารณสมบัติด้วย และเพื่อการนี้ จึงเรียกว่า "ผู้อุทิศ" ดังความข้างล่างนี้ </p>
 
-    <p>A certifier has taken reasonable steps to verify the copyright
-      status of this work. Certifier recognizes that his good faith
-      efforts may not shield him from liability if in fact the work
-      certified is not in the public domain.</p>
+<p> ผู้รับรอง ได้ดำเนินการตามขั้นตอนที่สมควร เพื่อรับรองสถานะลิขสิทธิ์ของงานนี้ ผู้รับรองตระหนักดีว่า การดำเนินการด้วยเจตนาดี ไม่อาจป้องกันความรับผิด ถ้าความจริง   ปรากฎว่า งานที่ได้รับรอง ไม่ใช่สาธารณสมบัติ </p>
 
-    <p>Dedicator makes this dedication for the benefit of the public
-      at large and to the detriment of the Dedicator's heirs and
-      successors.  Dedicator intends this dedication to be an overt
-      act of relinquishment in perpetuity of all present and future
-      rights under copyright law, whether vested or contingent, in the
-      Work. Dedicator understands that such relinquishment of all
-      rights includes the relinquishment of all rights to enforce (by
-      lawsuit or otherwise) those copyrights in the Work.</p>
+ <p>ผู้อุทิศ ได้อุทิศเพื่อผลประโยชน์ทั่วไปของสาธารณชน และทำให้ทายาทและผู้สืบสันดานของผู้อุทิศ ขาดประโยชน์ ผู้อทิศตั้งใจให้การอุทิศนี้ มีผลเป็นการสละสิทธิใดๆในงานตามกฎหมายลิขสิทธิ์ ทั้งในปัจจุบันและอนาคตอย่างชัดแจ้งตลอดไป ผู้อุทิศเข้าใจดีว่า การสละสิทธิทั้งปวง ดังกล่าว รวมถึงการสละสิทธิทั้งปวง ในงานตามกฎหมายลิขสิทธิ์ในการบังคับตามสิทธิดังกล่าวด้วย(ด้วยการดำเนินคดี หรือด้วยการดำเนินการอย่างอื่น )</p>
 
-    <p>Dedicator recognizes that, once placed in the public domain,
-      the Work may be freely reproduced, distributed, transmitted,
-      used, modified, built upon, or otherwise exploited by anyone for
-      any purpose, commercial or non-commercial, and in any way,
-      including by methods that have not yet been invented or
-      conceived.</p>
-  
+<p>ผุ้อุทิศ ทราบดีว่า โดยการอุทิศให้เป็นสาธารรสมบัติ งานอาจได้รับการทำซ้ำ แจกจ่าย ส่งต่อ ใช้ แก้ไข เพิ่มเติมหรือเอาไปใช้แสวงหาประโยชน์ โดยใครก็ได้และเพื่อวัตถุประสงค์ใดๆ ก็ได้ ไม่ว่าเพื่อการค้าหรือไม่ใช่เพื่อการค้าและเพื่อการใดๆ รวมทั้งด้วยวิธีการซึ่งยังไม่มีการคิดหรือทำมาก่อน</p>
 
 <div id="help_use_zero">
   <div class="hd">CC0 for Public Domain Dedication</div>
@@ -464,14 +438,13 @@ setCookie('lang','%s', expiry, '/');
        </div>
       </div>
 
-
       <div id="deed-foot">
         
        </div>
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/license/publicdomain-2">Use this tool for your own work.</a>
+      <a id="get_this" href="/license/publicdomain-2">ใช้เครื่องมือนี้กับงานของคุณ</a>
       
     </p>
 
