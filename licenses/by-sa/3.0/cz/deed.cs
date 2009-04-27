@@ -107,6 +107,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -493,7 +499,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license sa">
 	      <p><strong>Zachovejte licenci</strong> &mdash;
 		
-		<span>Pokud toto dílo jakkoliv upravíte nebo použijete ve svém díle, máte povinnost výsledek své práce šířit pod stejnou nebo slučitelnou licencí.</span>
+		<span>Pokud toto dílo jakkoliv upravíte nebo použijete ve svém díle, smíte takto vzniklé dílo šířit pouze pod stejnou nebo slučitelnou licencí.</span>
 		<span id="sa-more-container" />
 	      </p>
 
@@ -504,19 +510,19 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>Dále berete na vědomí, že:</h3>
+	  <h3>Dále berete na vědomí:</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Zrušení podmínek</strong>
+	      <strong>Jiná licence</strong>
 	      &mdash;
-	      Všechny výše uvedené podmínky mohou být <a href="#" id="waived" class="helpLink">zrušeny</a>, pokud k tomu získáte souhlas nositele autorských práv.
+	      Výše uvedené podmínky se na vás nevztahují, pokud jste k tomu získali souhlas nositele autorských práv.
 	    </li>
 	      
 	    <li class="license">
-	      <strong>Ostatní práva</strong>
+	      <strong>Další práva</strong>
 	      &mdash; 
-	      Touto licencí nejsou dotčena následující práva a omezení:
+	      Touto licencí nejsou dotčena:
 	     
 	      <ul>
 
@@ -527,7 +533,7 @@ setCookie('lang','%s', expiry, '/');
 		
 		
 
-		<li>Případná práva dalších osob jak na dílo samotné, tak na způsoby jeho užití, jako například práva na publicitu či ochranu soukromí.</li>
+		<li>případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
 	      </ul>
 	    </li>
 
