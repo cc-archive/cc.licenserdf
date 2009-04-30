@@ -482,8 +482,8 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-foot">
         
 
-	    <a href="" id="disclaimer">Haftungsbeschränkung</a>
-	    <div id="disclaimer_panel">
+	    <a href="" id="disclaimer" class="helpLink">Haftungsbeschränkung</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Haftungsbeschränkung</div>
 	      <div class="bd"><p>Die "Commons Deed" ist kein rechtliches Werkzeug, sondern eine praktische Referenz zum besseren Verständnis des rechtlich verbindlichen Textes der CC0-Erklärung, eine Art menschen-lesbare Auflistung der wichtigsten Elemente von CC0. Man kann sie sich als die benutzerfreundliche Darstellung des darunterliegenden Rechtstextes der CC0-Erklärung vorstellen. Die Deed selbst hat keinen rechtlichen Wert für sich und ihre Inhalte tauchen so auch nicht in der CC0-Erklärung auf.</p>
 

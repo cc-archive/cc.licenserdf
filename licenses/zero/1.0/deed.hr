@@ -482,8 +482,8 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-foot">
         
 
-	    <a href="" id="disclaimer">Upozorenje</a>
-	    <div id="disclaimer_panel">
+	    <a href="" id="disclaimer" class="helpLink">Upozorenje</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Upozorenje</div>
 	      <div class="bd"><p>Commons Deed nije pravni alat. To je praktična referenca za razumijevanje Pravnog teksta CC0, svima čitljiv iskaz njenih ključnih uvjeta. Gledajte na nju kao na lako razumljivo objašnjenje Pravnog teksta koji se nalazi u pozadini. Sam Commons Deed nema pravno važenje i njegov se sadržaj ne pojavljuje u CC0.</p><p>Creative Commons nije odvjetnički ured i ne pruža pravne usluge. Distribuiranje Commons Deeda, njegovo, prikazivanje ili postavljanje linka na njega ne konstituira odnos pravnog zastupanja.<7p></div>
 	  </div>

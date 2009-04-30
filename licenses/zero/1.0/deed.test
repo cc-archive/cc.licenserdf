@@ -502,10 +502,10 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-foot">
         
 
-	    <a href="" id="disclaimer">[[cc_org][util.Disclaimer (
+	    <a href="" id="disclaimer" class="helpLink">[[cc_org][util.Disclaimer (
 	      Disclaimer
 	    )]]</a>
-	    <div id="disclaimer_panel">
+	    <div id="help_disclaimer">
 	      <div class="hd">[[cc_org][util.Disclaimer (
 		Disclaimer
 	      )]]</div>

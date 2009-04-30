@@ -487,8 +487,8 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-foot">
         
 
-	    <a href="" id="disclaimer">免责声明</a>
-	    <div id="disclaimer_panel">
+	    <a href="" id="disclaimer" class="helpLink">免责声明</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">免责声明</div>
 	      <div class="bd"><p>The Commons Deed is not a legal instrument. It is simply a
 		handy reference for understanding the CC0 Legal Code,
