@@ -482,8 +482,8 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-foot">
         
 
-	    <a href="" id="disclaimer">การปฏิเสธความรับผิด</a>
-	    <div id="disclaimer_panel">
+	    <a href="" id="disclaimer" class="helpLink">การปฏิเสธความรับผิด</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">การปฏิเสธความรับผิด</div>
 	      <div class="bd"><p>หนังสือสำคัญคอมมอนส์นี้ไม่ใช่เครื่องมือทางกฎหมาย
 		มันเป็นเพียงเอกสารอ้างอิงเพื่อความสะดวกในการ		ทำความเข้าใจข้อกฎหมายซีซีซีโร่

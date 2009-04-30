@@ -487,8 +487,8 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-foot">
         
 
-	    <a href="" id="disclaimer">Umshwana Wokuzikhipha Emthwalweni</a>
-	    <div id="disclaimer_panel">
+	    <a href="" id="disclaimer" class="helpLink">Umshwana Wokuzikhipha Emthwalweni</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Umshwana Wokuzikhipha Emthwalweni</div>
 	      <div class="bd"><p>The Commons Deed is not a legal instrument. It is simply a
 		handy reference for understanding the CC0 Legal Code,

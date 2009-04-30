@@ -482,8 +482,8 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-foot">
         
 
-	    <a href="" id="disclaimer">Ansvarsfraskrivelse</a>
-	    <div id="disclaimer_panel">
+	    <a href="" id="disclaimer" class="helpLink">Ansvarsfraskrivelse</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Ansvarsfraskrivelse</div>
 	      <div class="bd"><p>Commons Deed er ikke en juridisk dokument. Det er kun et
 		enkelt sammendrag som gir en kortfattet forklaring av den
