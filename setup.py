@@ -28,7 +28,7 @@ setup(
     # scripts and dependencies
     install_requires = ['setuptools',
                         'rdflib==2.4.0',
-                        'lxml==1.3.6',
+                        'rdfadict',
                         'Babel',
                         ],
 

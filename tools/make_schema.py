@@ -3,7 +3,9 @@ import optparse
 import pkg_resources
 from StringIO import StringIO
 
-import lxml.etree
+import rdfadict
+from rdfadict.sink.graph import GraphSink
+
 from rdflib import URIRef
 from rdflib.Graph import ConjunctiveGraph as Graph
 from rdflib.syntax.serializers.PrettyXMLSerializer import PrettyXMLSerializer
@@ -28,13 +30,8 @@ def create_option_parser():
 def remove_assertions(store):
     """Remove assertions from the generated schema."""
 
-    for doc_license in store.objects(
-        URIRef("http://creativecommons.org/ns"),
-        URIRef("http://www.w3.org/1999/xhtmllicense")):
-
-        store.remove((URIRef("http://creativecommons.org/ns"),
-                      URIRef("http://www.w3.org/1999/xhtmllicense"),
-                      doc_license))
+    # remove any assertions about the source document (stylesheet, etc)
+    store.remove((URIRef("http://creativecommons.org/ns"),None, None))
 
                   
 def schemafy(html_file):
@@ -48,20 +45,13 @@ def schemafy(html_file):
     store.bind("dcq","http://purl.org/dc/terms/")
     store.bind("rdf","http://www.w3.org/1999/02/22-rdf-syntax-ns#")
     store.bind("xsd","http://www.w3.org/2001/XMLSchema-datatypes#")
-    store.bind("xhtml-vocab", "http://www.w3.org/1999/xhtml/vocab#")
+    store.bind("owl","http://www.w3.org/2002/07/owl#")
+    store.bind("xhtml", "http://www.w3.org/1999/xhtml/vocab#")
 
-    # load the XSLT transformation from the package
-    xslt = lxml.etree.parse(
-        pkg_resources.resource_stream('tools', 'rdfa2rdfxml.xsl')
-        )
-    transform = lxml.etree.XSLT(xslt)
-
-    # transform the HTML+RDFa source and serialize it
-    source = lxml.etree.parse(html_file)
-    rdf_xml = lxml.etree.tostring(transform(source).getroot())
-
-    # load it into a Graph
-    store.load(StringIO(rdf_xml), "http://creativecommons.org/ns")
+    # parse the source document
+    parser = rdfadict.RdfaParser()
+    parser.parse_file(file(html_file), "http://creativecommons.org/ns",
+                      sink=GraphSink(store))
 
     # remove undesirable assertions
     remove_assertions(store)
