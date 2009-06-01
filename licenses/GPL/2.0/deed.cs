@@ -97,6 +97,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -417,9 +423,7 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p><%=[ccommons::istr $lang deed.gpl_freedoms]%>
-<span>GNU General Public License</span>
-</p>
+<p>The <span>GNU General Public License</span> is a <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> license. Like any Free Software license, it grants to you the four following freedoms:</p>
 			
 			<ol class="gpl">
 				<li class="gpl">The freedom to run the program for any purpose.</li>
@@ -448,7 +452,7 @@ setCookie('lang','%s', expiry, '/');
      
 </div>
 
-<p><%=[ccommons::istr $lang deed.permission]%></p> 
+<p>Výše uvedené podmínky se na vás nevztahují, pokud jste k tomu získali souhlas nositele autorských práv.</p> 
 
 </div>
        </div>
@@ -460,13 +464,9 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Disclaimer</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
+	      <div class="hd">Disclaimer</div>
 	      <div class="bd"><p>
 Toto shrnutí není licenčním ujednáním. Pouze vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons. Jinými slovy, je to uživatelsky přívětivé zestručnění právního textu, který je jeho podkladem. Samo o sobě nemá právní váhu a ani se neobjevuje ve vlastním textu licence.
 </p>
@@ -484,11 +484,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
     
 
     
-      
-This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
-Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is
-also available.
-      
+      This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is also available.
     
 
     
@@ -500,8 +496,7 @@ also available.
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=cs">
-      Use this license for your own work.</a>
+         href="/license/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=cs">Použijte tuto licenci pro vaši vlastní práci.</a>
       
     </p>
 

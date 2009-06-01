@@ -106,6 +106,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -425,13 +431,13 @@ setCookie('lang','%s', expiry, '/');
          <div id="deed-newer" style="text-align:center"><h3>This license is <a href="/retiredlicenses">retired</a>. Do not use for new works.</h3></div>
 
          <h3 rel="cc:permits"
-             resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+             resource="http://creativecommons.org/ns#Reproduction">Dílo smíte:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
              resource="http://creativecommons.org/ns#Distribution"><strong>Šířit</strong> — kopírovat, distribuovat a  sdělovat veřejnosti</li>
 
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Upravovat</strong> — pozměňovat, doplňovat, využívat celé nebo částečně v jiných dílech</li>
 		      </ul>
 
         </div>
@@ -450,18 +456,14 @@ setCookie('lang','%s', expiry, '/');
                 <span>Máte povinnost uvést údaje o autorovi a tomto díle způsobem, který stanovil autor nebo poskytovatel licence (ne však tak, aby vznikl dojem, že podporují Vás nebo způsob, jakým dílo užíváte).</span></p></li>
 
     	    <li>Pokud budete toto dílo šířit, máte povinnost ostatní seznámit s podmínkami této licence. Nejjednodušším způsobem je uvedení odkazu na tuto webovou stránku.</li>
-    	    <li></li>
+    	    <li>Výše uvedené podmínky se na vás nevztahují, pokud jste k tomu získali souhlas nositele autorských práv.</li>
 
 	    <li>In no way are any of the following rights affected by
 	      the above:
 	     
 	      <ul>
 		<li>volná užití díla, zákonné licence ani jiná zákonná omezení autorského práva.</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
 	      </ul>
 	    </li>
 
@@ -479,13 +481,9 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Disclaimer</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
+	      <div class="hd">Disclaimer</div>
 	      <div class="bd"><p>
 Toto shrnutí není licenčním ujednáním. Pouze vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons. Jinými slovy, je to uživatelsky přívětivé zestručnění právního textu, který je jeho podkladem. Samo o sobě nemá právní váhu a ani se neobjevuje ve vlastním textu licence.
 </p>
@@ -513,8 +511,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=cs">
-      Use this license for your own work.</a>
+         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=cs">Použijte tuto licenci pro vaši vlastní práci.</a>
       
     </p>
 

@@ -106,6 +106,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -422,12 +428,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-rights" style="text-align:left"
              dir="ltr">
 		      <h3 rel="cc:permits"
-            resource="http://creativecommons.org/ns#Reproduction"></h3>
+            resource="http://creativecommons.org/ns#Reproduction">Dílo smíte:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
              resource="http://creativecommons.org/ns#Distribution"><strong>Šířit</strong> — kopírovat, distribuovat a  sdělovat veřejnosti</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Upravovat</strong> — pozměňovat, doplňovat, využívat celé nebo částečně v jiných dílech</li>
 		      </ul>
 <span id="devnations-container" />
 
@@ -450,7 +456,7 @@ setCookie('lang','%s', expiry, '/');
 
             
 
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
+            <li>Výše uvedené podmínky se na vás nevztahují, pokud jste k tomu získali souhlas nositele autorských práv.</li>
 
             
           </ul>
@@ -467,13 +473,9 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Disclaimer</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
+	      <div class="hd">Disclaimer</div>
 	      <div class="bd"><p>
 Toto shrnutí není licenčním ujednáním. Pouze vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons. Jinými slovy, je to uživatelsky přívětivé zestručnění právního textu, který je jeho podkladem. Samo o sobě nemá právní váhu a ani se neobjevuje ve vlastním textu licence.
 </p>

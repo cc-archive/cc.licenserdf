@@ -4,10 +4,8 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-    
-      Copyright-Only Dedication (based on United States law) or Public
-      Domain Certification
-    
+    Copyright-Only Dedication (based on United States law) 
+or Public Domain Certification
   </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -96,6 +94,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.ca" title="Català" hreflang="ca"
    rel="alternate nofollow" xml:lang="ca">Català</a>
+
+
+
+
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
 
 
 
@@ -404,11 +408,9 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">
-  Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
+	        <h2 property="dc:title">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
   (based on United States law)<br />
-  or Public Domain Certification
-</h2>
+  or Public Domain Certification</h2>
         </div>
       </div>
 
@@ -476,8 +478,7 @@ setCookie('lang','%s', expiry, '/');
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/license/publicdomain-2">
-      Use this tool for your own work.</a>
+      <a id="get_this" href="/license/publicdomain-2">Use this tool for your own work.</a>
       
     </p>
 

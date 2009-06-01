@@ -97,6 +97,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -416,9 +422,9 @@ setCookie('lang','%s', expiry, '/');
 
         
 
-		      <h3></h3>
+		      <h3>Dílo smíte:</h3>
 		      <ul class="license-properties">
-    				<li class="license samplingplus"></li>
+    				<li class="license samplingplus">To sample, mash-up, or otherwise creatively transform this work for noncommercial purposes.</li>
     				
     				<li class="license samplingplus">Sdělovat veřejnosti, vystavovat, šířit kopie celého díla pro nekomerční účely (například sdílení  souborů nebo nekomerční vysílání na Internetu).</li>
 		      </ul>
@@ -440,11 +446,7 @@ setCookie('lang','%s', expiry, '/');
 	     
 	      <ul>
 		<li>volná užití díla, zákonné licence ani jiná zákonná omezení autorského práva.</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
 	      </ul>
 	    </li>
 
@@ -463,13 +465,9 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Disclaimer</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
+	      <div class="hd">Disclaimer</div>
 	      <div class="bd"><p>
 Toto shrnutí není licenčním ujednáním. Pouze vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons. Jinými slovy, je to uživatelsky přívětivé zestručnění právního textu, který je jeho podkladem. Samo o sobě nemá právní váhu a ani se neobjevuje ve vlastním textu licence.
 </p>
@@ -497,8 +495,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=cs">
-      Use this license for your own work.</a>
+         href="/license/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=cs">Použijte tuto licenci pro vaši vlastní práci.</a>
       
     </p>
 

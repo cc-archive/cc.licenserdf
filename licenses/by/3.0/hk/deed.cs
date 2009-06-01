@@ -106,6 +106,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -434,12 +440,12 @@ setCookie('lang','%s', expiry, '/');
     src="/images/international/hk.png" style="border: 0"
     alt="hk" /></a>
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">Dílo smíte:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution"><strong>Šířit</strong> — kopírovat, distribuovat a  sdělovat veřejnosti</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Upravovat</strong> — pozměňovat, doplňovat, využívat celé nebo částečně v jiných dílech</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
@@ -490,26 +496,19 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>
-	    With the understanding that:
-	  </h3>
+	  <h3>Dále berete na vědomí:</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Waiver</strong>
+	      <strong>Jiná licence</strong>
 	      &mdash;
-	      
-		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
-		permission from the copyright holder.
-	      
+	      Výše uvedené podmínky se na vás nevztahují, pokud jste k tomu získali souhlas nositele autorských práv.
 	    </li>
 	      
 	    <li class="license">
-	      <strong>Other Rights</strong>
+	      <strong>Další práva</strong>
 	      &mdash; 
-	      In no way are
-		    any of the following rights affected by the
-		    license:
+	      Touto licencí nejsou dotčena:
 	     
 	      <ul>
 
@@ -520,16 +519,12 @@ setCookie('lang','%s', expiry, '/');
 		
 		
 
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as 
-		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
-		</li>
+		<li>případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
 	      </ul>
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-	      <strong>Notice</strong>
+	      <strong>Poznámka</strong>
 	      &mdash;
 	      Pokud budete toto dílo šířit, máte povinnost ostatní seznámit s podmínkami této licence. Nejjednodušším způsobem je uvedení odkazu na tuto webovou stránku.
 	    </li>
@@ -539,12 +534,9 @@ setCookie('lang','%s', expiry, '/');
           
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">
-              What does "conditions can be waived" mean?
-            </div>
+            <div class="hd">Co znamená, že "podmínky mohou být zrušeny"? </div>
             <div class="bd">
-              <p>
-		CC licenses anticipate that a licensor may want to
+              <p>CC licenses anticipate that a licensor may want to
 		waive compliance with a specific condition, such as
 		attribution.</p>
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
@@ -552,9 +544,7 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">
-              What does "Fair use" mean?
-            </div>
+            <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
               allow some limited uses of copyrighted material without
@@ -567,19 +557,9 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">
-              What are "Moral Rights"?
-            </div>
+            <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
-              <p>In addition to
-              the right of licensors to request removal of their name
-              from the work when used in a derivative or collective
-              they don't like, copyright laws in most jurisdictions
-              around the world (with the notable exception of the US
-              except in very limited circumstances) grant creators
-              "moral rights" which may provide some redress if a
-              derivative work represents a "derogatory treatment" of
-              the licensor's work.</p>
+              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
 
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
 
@@ -587,9 +567,7 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">
-              What are "Publicity Rights"?
-            </div>
+            <div class="hd">Co jsou "Práva na zveřejňování"?</div>
             <div class="bd">
               <p>Publicity
               rights allow individuals to control how their voice,
@@ -615,13 +593,9 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Disclaimer</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
+	      <div class="hd">Disclaimer</div>
 	      <div class="bd"><p>
 Toto shrnutí není licenčním ujednáním. Pouze vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons. Jinými slovy, je to uživatelsky přívětivé zestručnění právního textu, který je jeho podkladem. Samo o sobě nemá právní váhu a ani se neobjevuje ve vlastním textu licence.
 </p>
@@ -649,8 +623,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by&amp;jurisdiction=hk&amp;version=3.0&amp;lang=cs">
-      Use this license for your own work.</a>
+         href="/license/results-one?license_code=by&amp;jurisdiction=hk&amp;version=3.0&amp;lang=cs">Použijte tuto licenci pro vaši vlastní práci.</a>
       
     </p>
 
