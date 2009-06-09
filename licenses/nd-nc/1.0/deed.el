@@ -428,14 +428,14 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-rights" style="text-align:left"
              dir="ltr">
 
-        <div id="deed-newer" style="text-align:center"><h3>Αυτή η άδεια <a href="/retiredlicenses">έχει αποσυρθεί</a>. Μην τη χρησιμοποιείτε για νέα έργα.</h3></div>
+        <div id="deed-newer" style="text-align:center"><h3>This license is <a href="/retiredlicenses">retired</a>. Do not use for new works.</h3></div>
 
 
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
+       resource="http://creativecommons.org/ns#Distribution"></li>
 			      
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
@@ -446,9 +446,9 @@ setCookie('lang','%s', expiry, '/');
 	  <ul class="license-properties" style="text-align:left"
        dir="ltr"> 
             <li rel="" resource="" class="license nd">
-	      <p><strong>Όχι Παράγωγα Έργα</strong> &mdash;
+	      <p><strong>char.nd_title</strong> &mdash;
 		
-		<span>Δε μπορείτε να αλλοιώσετε, να τροποιήσετε ή να δημιουργήσετε πάνω στο έργο αυτό.</span>
+		<span>char.nd_brief</span>
 		<span id="nd-more-container" />
 	      </p>
 
@@ -458,9 +458,9 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>Μη Εμπορική Χρήση</strong> &mdash;
+	      <p><strong>char.nc_title</strong> &mdash;
 		
-		<span>Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό για εμπορικούς σκοπούς.</span>
+		<span>char.nc_brief</span>
 		<span id="nc-more-container" />
 	      </p>
 
@@ -516,7 +516,12 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
 	      <strong>Notice</strong>
 	      &mdash;
-	      Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.
+	      
+		For any reuse or
+		distribution, you must make clear to others the license
+		terms of this work. The best way to do this is with a
+		link to this web page.
+	      
 	    </li>
 
           </ul>
@@ -600,16 +605,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Αποποίηση</div>
-	      <div class="bd"><p>
-Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
-</p>
-
-<p>
-Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίε. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 

@@ -422,9 +422,9 @@ setCookie('lang','%s', expiry, '/');
 
         
 
-		      <h3>Vi rajtas:</h3>
+		      <h3></h3>
 		      <ul class="license-properties">
-    				<li class="license samplingplus">Krei specimenojn, miksi aŭ kree transformi tiun ĉi verkon por nekomercaj celoj.</li>
+    				<li class="license samplingplus"></li>
     				
     				<li class="license samplingplus">Prezenti antaŭ publiko, montri kaj distribui kopiojn de tiu ĉi tuta verko por nekomercaj celoj (ekz. dosiero-interŝanĝo aŭ nekomerca reta distribuado).</li>
 		      </ul>
@@ -436,9 +436,9 @@ setCookie('lang','%s', expiry, '/');
 		      <h3>Laŭ jenaj kondiĉoj:</h3>
 	        <ul class="license-properties"
              style="text-align:left" dir="ltr">
-    				<li class="license by">Vi devas atribui la verkon tiel kiel specifis la aŭtoro aŭ la permesil-posedanto (sed ne en maniero kiu implicas ke ili subtenas vin aŭ vian verkon).</li>
+    				<li class="license by"><%=[ccommons::istr $lang char.by_brief]%></li>
     				<li>Vi ne rajtas uzi ĉi tiun verkon por promocii ion ajn krom la verko, kiun vi kreis surbaze de ĝi.</li>
-    				<li>Por iu ajn reuzo aŭ distribuo, vi devas klarigi al aliaj la permesilon de tiu ĉi verko.</li>
+    				<li></li>
     				
     				
 	    <li>In no way are any of the following rights affected by
@@ -470,16 +470,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Malgarantio</div>
-	      <div class="bd"><p>
-La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la laŭleĝan kodon (la plenan permesilon) – estas facile legebla esprimo de kelkaj ĉefaj terminoj. Pensu pri ĝi kiel afabla uzantinterfaco al la leĝa kodo malantaŭ ĝi. La "Deed" mem ne havas laŭleĝan valoron, kaj ĝia enhavo ne aperas en la fakta permesilo.
-</p>
-
-<p>
-"Creative Commons" ne estas advokata firmao kaj ne provizas leĝajn servojn. Distribuo aŭ aperigo de "Commons Deed" aŭ ligilo al ĝi ne kreas rilaton advokato-kliento.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -500,7 +500,8 @@ La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la l
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=eo">Use this license for your own work.</a>
+         href="/license/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=eo">
+      Use this license for your own work.</a>
       
     </p>
 

@@ -432,10 +432,10 @@ setCookie('lang','%s', expiry, '/');
 
 
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">Sou lliure de:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution">copiar, distribuir i comunicar públicament l'obra</li>
+       resource="http://creativecommons.org/ns#Distribution"></li>
 			      
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
@@ -449,14 +449,14 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>Reconeixement</strong> &mdash;
-		<span id="attribution-container">Heu de reconèixer els crèdits de l'obra de la manera especificada per l'autor o el llicenciador (però no d'una manera que suggereixi que us donen suport o rebeu suport per l'ús que feu l'obra).</span>
+		<span id="attribution-container">char.by_brief</span>
 		
 		<span id="by-more-container" />
 	      </p>
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Atribuiu aquesta obra a:</strong><br />
+		  <strong>Attribute this work:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-ND 1.0" />
@@ -464,21 +464,30 @@ setCookie('lang','%s', expiry, '/');
            value="http://creativecommons.org/licenses/by-nd/1.0/" />
 		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
-         alt="Informació" />
+         alt="Information" />
 		</a>
 		</p>
 		<div id="help_attribution_help" class="help_panel">
-		  <div class="hd">Què significa "Reconeixement de l'obra"?</div>
-		  <div class="bd">La pàgina de la qual veniu contenia metadades incrustades d'una llicència entre les quals s'explicava com calia reconèixer l'autor en utilitzar l'obra. Aquí podeu utilitzar el codi HTML per citar l'obra. Fent-ho així les metadades també s'inclouran en la vostra pàgina i per tant tothom podrà accedir a l'obra original.</div>
+		  <div class="hd">
+		    What does "Attribute this work" mean?
+		  </div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
 		</div>
 
 	      
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>Sense obres derivades</strong> &mdash;
+	      <p><strong>char.nd_title</strong> &mdash;
 		
-		<span>No podeu alterar, transformar o generar una obra derivada d'aquesta obra.</span>
+		<span>char.nd_brief</span>
 		<span id="nd-more-container" />
 	      </p>
 
@@ -489,57 +498,82 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>Entenent que:</h3>
+	  <h3>
+	    With the understanding that:
+	  </h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Renuncia</strong>
+	      <strong>Waiver</strong>
 	      &mdash;
-	      Es pot <a href="#" id="waived" class="helpLink">renunciar</a> a alguna d'aquestes condicions si obteniu el permís del titular dels drets d'autor.
+	      
+		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
+		permission from the copyright holder.
+	      
 	    </li>
 	      
 	    <li class="license">
-	      <strong>Altres drets</strong>
+	      <strong>Other Rights</strong>
 	      &mdash; 
-	      Els drets següents no queden afectats de cap manera per la llicència:
+	      In no way are
+		    any of the following rights affected by the
+		    license:
 	     
 	      <ul>
 
 		<li>Els vostres drets de repartiment just o <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">ús just</a>;</li>
 
 		
-		  <li>Els drets <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">morals</a> de l'autor;</li>
+		  <li>
+		    The author's <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">moral</a> rights;
+		  </li>
 		
 		
 
-		<li>Drets que altres persones poden ostentar sobre l'obra o sobre l'ús que se'n fa, com per exemple drets <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">de publicitat</a> o privacitat.</li>
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as 
+		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
+		</li>
 	      </ul>
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
 	      <strong>Notice</strong>
 	      &mdash;
-	      Quan reutilitzeu o distribuïu l'obra, heu de deixar ben clar els termes de la llicència de l'obra.
+	      
+		For any reuse or
+		distribution, you must make clear to others the license
+		terms of this work. The best way to do this is with a
+		link to this web page.
+	      
 	    </li>
 
           </ul>
 
           <div id="deed-newer">
-    	      <p>Hi ha disponible una <a href="http://creativecommons.org/licenses/by-nd/3.0/">versió nova</a> d'aquesta llicència. Hauríeu d'utilitzar-la per a les obres noves, i podeu utilitzar-la per canviar la llicència d'obres ja existents. Tanmateix, cap obra queda <em>automàticament</em> subjecta a aquesta nova llicència.</p>
+    	      <p>
+              http://creativecommons.org/licenses/by-nd/3.0/
+            </p>
           </div>
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">Què significa "condicions a les quals es pot renunciar"?</div>
+            <div class="hd">
+              What does "conditions can be waived" mean?
+            </div>
             <div class="bd">
-              <p>CC licenses anticipate that a licensor may want to
+              <p>
+		CC licenses anticipate that a licensor may want to
 		waive compliance with a specific condition, such as
 		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Apreneu-ne més</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
             </div>
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">Què significa "ús just"?</div>
+            <div class="hd">
+              What does "Fair use" mean?
+            </div>
             <div class="bd">
               <p>All jurisdictions
               allow some limited uses of copyrighted material without
@@ -547,22 +581,34 @@ setCookie('lang','%s', expiry, '/');
               users under those copyright limitations and exceptions,
               such as fair use and fair dealing where applicable.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Apreneu-ne més</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
             </div>
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">Què són els drets morals?</div>
+            <div class="hd">
+              What are "Moral Rights"?
+            </div>
             <div class="bd">
-              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
+              <p>In addition to
+              the right of licensors to request removal of their name
+              from the work when used in a derivative or collective
+              they don't like, copyright laws in most jurisdictions
+              around the world (with the notable exception of the US
+              except in very limited circumstances) grant creators
+              "moral rights" which may provide some redress if a
+              derivative work represents a "derogatory treatment" of
+              the licensor's work.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Apreneu-ne més</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
 
             </div>
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">Què són els "Drets de Publicitat"?</div>
+            <div class="hd">
+              What are "Publicity Rights"?
+            </div>
             <div class="bd">
               <p>Publicity
               rights allow individuals to control how their voice,
@@ -572,7 +618,7 @@ setCookie('lang','%s', expiry, '/');
               work may need to get permission from those individuals
               before using the work for commercial purposes.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Apreneu-ne més</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
             </div>
           </div>
 	  
@@ -588,16 +634,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Advertiment</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Advertiment</div>
-	      <div class="bd"><p>
-Aquest resum no és una llicència. Només és una referència pràctica per entendre el Text Legal (la llicència completa) — és una síntesi d'alguns del termes clau de la llicència amb la intenció que pugui ser entesa per tothom. Es tracta d'una interfície amicable del Text Legal que hi ha sota. Aquest resum per si sol no té cap valor legal, i el seu contingut no apareix en la llicència autèntica.
-</p>
-
-<p>
-Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La distribució, la mostra, o l'enllaç d'aquest Resum no crea cap vincle advocat-client.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -618,7 +664,8 @@ Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La dis
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=-&amp;version=1.0&amp;lang=ca">Utilitzeu aquesta llicència per a la vostra pròpia obra.</a>
+         href="/license/results-one?license_code=by-nd&amp;jurisdiction=-&amp;version=1.0&amp;lang=ca">
+      Use this license for your own work.</a>
       
     </p>
 

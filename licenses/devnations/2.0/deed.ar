@@ -430,16 +430,17 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-rights" style="text-align:right"
              dir="rtl">
 
-         <div id="deed-newer" style="text-align:center"><h3>هذة الرخصة <a href="/retiredlicenses">تقرا</a>. لاتستعمل لاعمال جديدة.</h3></div>
+         <div id="deed-newer" style="text-align:center"><h3>This license is <a href="/retiredlicenses">retired</a>. Do not use for new works.</h3></div>
 
          <h3 rel="cc:permits"
-             resource="http://creativecommons.org/ns#Reproduction">لك مطلق الحرية</h3>
+             resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"><strong>للمشاركة <strong>-للنسخ,- لنسخ وتوزيع ونقل العمل</li>
+             resource="http://creativecommons.org/ns#Distribution">
+to Share %Gâ%@ to copy, distribute and transmit the work</li>
 
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"> <strong>اعادة توزيع</strong>-استنساخ العمل</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
 		      </ul>
 
         </div>
@@ -455,17 +456,23 @@ setCookie('lang','%s', expiry, '/');
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Attribution" class="license by">
 	      <p><strong>نسب المصنف </strong>.
-                <span>يجب عليك أن تنسب العمل بالطريقة التي تحددها المؤلف  أو المرخص (ولكن ليس بأي حال من الأحوال أن توحي وتقترح بتحول أو استخدامك للعمل).</span></p></li>
+                <span>
+		  <%=[ccommons::istr $lang char.by_brief]%>
+	    </span></p></li>
 
-    	    <li>أي لإعادة الاستخدام أو التوزيع ، يجب أن نوضح للآخرين شروط الترخيص لهذا العمل. أفضل طريقة للقيام بذلك ، مع وصلة لصفحة الويب هذه.</li>
-    	    <li>اي من الشروط اعلاة يمكن ان<a href="#" id="waived" class="helpLink"> تحويل</a>اذا تم اخذ موافقة صاحب الحق</li>
+    	    <li></li>
+    	    <li></li>
 
 	    <li>In no way are any of the following rights affected by
 	      the above:
 	     
 	      <ul>
 		<li>الاستعمال العادل<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">الاستعمال العادل</a> حقوق;</li>
-		<li>حقوق الأشخاص الآخرين الذين قد يكون إما في العمل نفسه ، أو في كيفية عمل يستخدم ،<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">علانية</a> او حقوق الخصوصية</li>
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as publicity
+		  or privacy rights.
+		</li>
 	      </ul>
 	    </li>
 
@@ -483,16 +490,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink"> اخلاء المسؤولية</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd"> اخلاء المسؤولية</div>
-	      <div class="bd"><p>
-سند ليست رخصة. ومن مجرد مرجع لفهم القانون على (الكامل الترخيص) هي حقوق للقراءة التعبير عن بعض من المصطلحات الرئيسية. أعتقد أنه من حيث واجهة مبسطة لالقانونية تحت القانون. وهذا في حد ذاته ليس له سند قيمة قانونية ، ومحتوياتها لا تظهر في الترخيص الفعلي. 
-</p>
-
-<p>
- المشاع الإبداعي ليست شركة والقانون لا ينص على الخدمات القانونية للتوزيع ، إشهار ، أو ربط لهذا العموم لا سند خلق العلاقة بين المحامي والموكل
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -504,7 +511,7 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    هذه هي حقوق للقراءة موجز لل<a href="legalcode" class="fulltext"> القانونية المدونة (كامل رخصة) </a>.
+    هذه ملخص عن للقراءة من الانسان العادي  <a href="legalcode" class="fulltext"> القانونية المدونة (كامل رخصة) </a>.
  </p>
 
          
@@ -513,7 +520,8 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=ar">إستخدم هذه الرخصة لعملك الخاص.</a>
+         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=ar">
+      Use this license for your own work.</a>
       
     </p>
 

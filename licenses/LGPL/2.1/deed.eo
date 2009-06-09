@@ -423,13 +423,16 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p>La <span>GNU Lesser General Public License</span> estas permesilo de <a href="http://www.gnu.org/philosophy/free-sw.html">Libera programaro</a>. Kiel ĉiu permesilo por Libera programaro, ĝi donas al vi la jenajn kvar liberecojn:</p>
+<p><%=[ccommons::istr $lang deed.gpl_freedoms]%>
+<span>GNU Lesser General Public License</span>
+</p>
 			
 			<ol class="gpl">
 				<li class="gpl">La liberecon uzi la programon por iu ajn celo.</li>
-				<li class="gpl">La liberecon studi kiel la programo funkcias kaj adapti ĝin al viaj bezonoj.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_study]%>
+</li>
 				<li class="gpl">La liberecon redistribui kopiojn tiel ke vi povu helpi vian proksimulon.</li>
-				<li class="gpl">La liberecon plibonigi la programon kaj eldoni viajn plibonigojn publike, tiel ke la tuta komunumo povu kunprofiti.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_improve]%></li>
 			</ol>
 </div>
     
@@ -441,11 +444,15 @@ setCookie('lang','%s', expiry, '/');
    <p />Vi estas libera fari tion kio estas priskribita ĉi tie, kondiĉe ke vi konsentas kun la specifaj kondiĉoj de tiu ĉi permesilo. La LGPL celas programarajn bibliotekojn, pli ol plenumeblajn programojn. La ĉefaj kondiĉoj estas:
 
    <ul style="text-align:left" dir="ltr"> 
-     <li class="license notice">Vi devas atente kaj korekte publikigi kun ĉiu distribuita kopio korektajn kopirajtajn informojn kaj malgarantion kaj ne ŝanĝi ĉiujn indikojn kiuj referencas al tiu ĉi permesilo kaj al la manko de garantio; kaj doni al ĉiuj ricevintoj de la programo kopion de la <span>GNU Lesser General Public License</span> kun la programo. Ajna traduko de la <span>GNU Lesser General Public License</span> devas esti akompanata de la <span>GNU Lesser General Public License</span>.</li>
+     <li class="license notice">
+       <span>GNU Lesser General Public License</span>
+     </li>
 
      
 
-     <li class="license sa">Se vi modifas vian kopion aŭ kopiojn de la biblioteko aŭ iu ajn parto de ĝi, vi povas distribui la rezultan provizitan bibliotekon laŭ la GNU Malpli Ĝenerala Publika Permesilo. Tamen, programoj kiuj ligas al via biblioteko povas havi la permesilon de via elekto, kondiĉe ke la biblioteko mem povas esti ŝanĝita. Iu ajn traduko de la GNU Malpli Ĝenerala Publika Permesilo devas esti akompanata de la GNU Malpli Ĝenerala Publika Permesilo.</li>
+     <li class="license sa">
+       <span>GNU Lesser General Public License</span>
+     </li>
 
      <li class="license src">Se vi kopias aŭ distribuas la programon, vi devas aldoni la kompletan korespondan korekte interpreteblan fontokodon aŭ proponi fari tion sur papere, kun promeso kiu estas valida minimume dum tri jaroj.</li>
    </ul>
@@ -464,16 +471,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Malgarantio</div>
-	      <div class="bd"><p>
-La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la laŭleĝan kodon (la plenan permesilon) – estas facile legebla esprimo de kelkaj ĉefaj terminoj. Pensu pri ĝi kiel afabla uzantinterfaco al la leĝa kodo malantaŭ ĝi. La "Deed" mem ne havas laŭleĝan valoron, kaj ĝia enhavo ne aperas en la fakta permesilo.
-</p>
-
-<p>
-"Creative Commons" ne estas advokata firmao kaj ne provizas leĝajn servojn. Distribuo aŭ aperigo de "Commons Deed" aŭ ligilo al ĝi ne kreas rilaton advokato-kliento.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -482,7 +489,12 @@ La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la l
     
 
     
-      Tio ĉi estas facile legebla resumo de la laŭleĝa kodo (la plena <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). Ankaŭ <a href="legalcode.pt">portugala traduko</a> estas havebla.
+      
+	This is a human-readable summary of the Legal Code (the full 
+	<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">
+	  GNU Lesser General Public License</a>). A 
+	<a href="legalcode.pt">Portuguese translation</a> is also available.
+      
     
 
     
@@ -496,7 +508,8 @@ La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la l
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=eo">Use this license for your own work.</a>
+         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=eo">
+      Use this license for your own work.</a>
       
     </p>
 

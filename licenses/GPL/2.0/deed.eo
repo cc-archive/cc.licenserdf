@@ -423,13 +423,16 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p>La <span>GNU General Public License</span> estas permesilo de <a href="http://www.gnu.org/philosophy/free-sw.html">Libera programaro</a>. Kiel ĉiu permesilo por Libera programaro, ĝi donas al vi la jenajn kvar liberecojn:</p>
+<p><%=[ccommons::istr $lang deed.gpl_freedoms]%>
+<span>GNU General Public License</span>
+</p>
 			
 			<ol class="gpl">
 				<li class="gpl">La liberecon uzi la programon por iu ajn celo.</li>
-				<li class="gpl">La liberecon studi kiel la programo funkcias kaj adapti ĝin al viaj bezonoj.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_study]%>
+</li>
 				<li class="gpl">La liberecon redistribui kopiojn tiel ke vi povu helpi vian proksimulon.</li>
-				<li class="gpl">La liberecon plibonigi la programon kaj eldoni viajn plibonigojn publike, tiel ke la tuta komunumo povu kunprofiti.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_improve]%></li>
 			</ol>
 </div>
     
@@ -441,7 +444,9 @@ setCookie('lang','%s', expiry, '/');
    
 
    <ul style="text-align:left" dir="ltr"> 
-     <li class="license notice">Vi devas atente kaj korekte publikigi kun ĉiu distribuita kopio korektajn kopirajtajn informojn kaj malgarantion kaj ne ŝanĝi ĉiujn indikojn kiuj referencas al tiu ĉi permesilo kaj al la manko de garantio; kaj doni al ĉiuj ricevintoj de la programo kopion de la <span>GNU General Public License</span> kun la programo. Ajna traduko de la <span>GNU General Public License</span> devas esti akompanata de la <span>GNU General Public License</span>.</li>
+     <li class="license notice">
+       <span>GNU General Public License</span>
+     </li>
 
      <li class="license sa">Se vi modifas vian kopion aŭ kopiojn de la programo aŭ parton de ĝi, aŭ ellaboras programon surbaze de ĝi, vi rajtas distribui la rezultan verkon kondiĉe ke vi faras tion sub la <span>GNU General Public License</span>. Iu ajn traduko de la <span>GNU General Public License</span> devas esti akompanata de la <span>GNU General Public License</span>.</li>
 
@@ -464,16 +469,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Malgarantio</div>
-	      <div class="bd"><p>
-La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la laŭleĝan kodon (la plenan permesilon) – estas facile legebla esprimo de kelkaj ĉefaj terminoj. Pensu pri ĝi kiel afabla uzantinterfaco al la leĝa kodo malantaŭ ĝi. La "Deed" mem ne havas laŭleĝan valoron, kaj ĝia enhavo ne aperas en la fakta permesilo.
-</p>
-
-<p>
-"Creative Commons" ne estas advokata firmao kaj ne provizas leĝajn servojn. Distribuo aŭ aperigo de "Commons Deed" aŭ ligilo al ĝi ne kreas rilaton advokato-kliento.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -484,7 +489,11 @@ La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la l
     
 
     
-      Tio ĉi estas facile legebla resumo de la leĝa kodo (la plena <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNUa Ĝenerala Publika Permesilo</a>). Ankaŭ <a href="legalcode.pt">portugala traduko</a> estas havebla.
+      
+This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
+Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is
+also available.
+      
     
 
     
@@ -496,7 +505,8 @@ La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la l
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">Use this license for your own work.</a>
+         href="/license/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">
+      Use this license for your own work.</a>
       
     </p>
 

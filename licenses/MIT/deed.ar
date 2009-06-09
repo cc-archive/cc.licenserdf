@@ -430,12 +430,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-rights" style="text-align:right"
              dir="rtl">
 		      <h3 rel="cc:permits"
-            resource="http://creativecommons.org/ns#Reproduction">لك مطلق الحرية</h3>
+            resource="http://creativecommons.org/ns#Reproduction"></h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"><strong>للمشاركة <strong>-للنسخ,- لنسخ وتوزيع ونقل العمل</li>
+             resource="http://creativecommons.org/ns#Distribution"></li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"> <strong>اعادة توزيع</strong>-استنساخ العمل</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
 		      </ul>
 <span id="devnations-container" />
 
@@ -451,9 +451,10 @@ setCookie('lang','%s', expiry, '/');
             
 
             <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">  اشعار حقوق الطبع والترخيص يجبان يرفق  في جميع نسخ أو \ nأجزاء كبيرة من البرمجيات.</li>
+                resource="http://creativecommons.org/ns#Notice">The copyright notice and license shall be included in all copies or
+substantial portions of the software.</li>
 
-            <li>اي من الشروط اعلاة يمكن ان<a href="#" id="waived" class="helpLink"> تحويل</a>اذا تم اخذ موافقة صاحب الحق</li>
+            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
 
             
           </ul>
@@ -470,16 +471,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink"> اخلاء المسؤولية</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd"> اخلاء المسؤولية</div>
-	      <div class="bd"><p>
-سند ليست رخصة. ومن مجرد مرجع لفهم القانون على (الكامل الترخيص) هي حقوق للقراءة التعبير عن بعض من المصطلحات الرئيسية. أعتقد أنه من حيث واجهة مبسطة لالقانونية تحت القانون. وهذا في حد ذاته ليس له سند قيمة قانونية ، ومحتوياتها لا تظهر في الترخيص الفعلي. 
-</p>
-
-<p>
- المشاع الإبداعي ليست شركة والقانون لا ينص على الخدمات القانونية للتوزيع ، إشهار ، أو ربط لهذا العموم لا سند خلق العلاقة بين المحامي والموكل
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -491,7 +492,7 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    هذه هي حقوق للقراءة موجز لل<a href="legalcode" class="fulltext"> القانونية المدونة (كامل رخصة) </a>.
+    هذه ملخص عن للقراءة من الانسان العادي  <a href="legalcode" class="fulltext"> القانونية المدونة (كامل رخصة) </a>.
  </p>
 
          

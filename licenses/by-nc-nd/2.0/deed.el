@@ -433,10 +433,10 @@ setCookie('lang','%s', expiry, '/');
 
 
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
+       resource="http://creativecommons.org/ns#Distribution"></li>
 			      
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
@@ -450,7 +450,7 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>Αναφορά</strong> &mdash;
-		<span id="attribution-container">Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγούντα την άδεια (χωρίς όμως να εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου από εσάς).</span>
+		<span id="attribution-container">char.by_brief</span>
 		
 		<span id="by-more-container" />
 	      </p>
@@ -488,9 +488,9 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>Μη Εμπορική Χρήση</strong> &mdash;
+	      <p><strong>char.nc_title</strong> &mdash;
 		
-		<span>Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό για εμπορικούς σκοπούς.</span>
+		<span>char.nc_brief</span>
 		<span id="nc-more-container" />
 	      </p>
 
@@ -498,9 +498,9 @@ setCookie('lang','%s', expiry, '/');
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>Όχι Παράγωγα Έργα</strong> &mdash;
+	      <p><strong>char.nd_title</strong> &mdash;
 		
-		<span>Δε μπορείτε να αλλοιώσετε, να τροποιήσετε ή να δημιουργήσετε πάνω στο έργο αυτό.</span>
+		<span>char.nd_brief</span>
 		<span id="nd-more-container" />
 	      </p>
 
@@ -556,13 +556,20 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
 	      <strong>Notice</strong>
 	      &mdash;
-	      Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.
+	      
+		For any reuse or
+		distribution, you must make clear to others the license
+		terms of this work. The best way to do this is with a
+		link to this web page.
+	      
 	    </li>
 
           </ul>
 
           <div id="deed-newer">
-    	      <p>Μία <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">νέα έκδοση</a> αυτής της άδειας είναι διαθέσιμη. Θα πρέπει να τη χρησιμποιήσετε για νέα έργα, και ενδεχομένως για υπάρχοντα έργα που διέποντα από αυτή. Κανένα έργο <em>δεν υπεισέρχεται αυτόματα</em>παρόλα αυτά σε μία νέα άδεια.</p>
+    	      <p>
+              http://creativecommons.org/licenses/by-nc-nd/3.0/
+            </p>
           </div>
 
           <div id="help_waived" class="help_panel">
@@ -642,16 +649,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Αποποίηση</div>
-	      <div class="bd"><p>
-Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
-</p>
-
-<p>
-Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίε. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 

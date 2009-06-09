@@ -433,10 +433,10 @@ setCookie('lang','%s', expiry, '/');
 
 
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">Vi rajtas:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"><strong>dividi</strong> – kopii, distribui kaj transdoni la verkon</li>
+       resource="http://creativecommons.org/ns#Distribution"></li>
 			      
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
@@ -450,7 +450,7 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>Atribuo</strong> &mdash;
-		<span id="attribution-container">Vi devas atribui la verkon tiel kiel specifis la aŭtoro aŭ la permesil-posedanto (sed ne en maniero kiu implicas ke ili subtenas vin aŭ vian verkon).</span>
+		<span id="attribution-container">char.by_brief</span>
 		
 		<span id="by-more-container" />
 	      </p>
@@ -488,9 +488,9 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>Nekomerca</strong> &mdash;
+	      <p><strong>char.nc_title</strong> &mdash;
 		
-		<span>Vi ne rajtas uzi tiun ĉi verkon por komercaj celoj.</span>
+		<span>char.nc_brief</span>
 		<span id="nc-more-container" />
 	      </p>
 
@@ -498,9 +498,9 @@ setCookie('lang','%s', expiry, '/');
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>Neniuj derivaĵoj</strong> &mdash;
+	      <p><strong>char.nd_title</strong> &mdash;
 		
-		<span>Vi ne rajtas adapti aŭ ŝanĝi tiun ĉi verkon, nek krei ion, kio baziĝas sur ĝi.</span>
+		<span>char.nd_brief</span>
 		<span id="nd-more-container" />
 	      </p>
 
@@ -511,7 +511,9 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>With the understanding that:</h3>
+	  <h3>
+	    With the understanding that:
+	  </h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
@@ -526,7 +528,9 @@ setCookie('lang','%s', expiry, '/');
 	    <li class="license">
 	      <strong>Other Rights</strong>
 	      &mdash; 
-	      In no way are any of the following rights affected by the license:
+	      In no way are
+		    any of the following rights affected by the
+		    license:
 	     
 	      <ul>
 
@@ -552,19 +556,29 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
 	      <strong>Notice</strong>
 	      &mdash;
-	      Por iu ajn reuzo aŭ distribuo, vi devas klarigi al aliaj la permesilon de tiu ĉi verko.
+	      
+		For any reuse or
+		distribution, you must make clear to others the license
+		terms of this work. The best way to do this is with a
+		link to this web page.
+	      
 	    </li>
 
           </ul>
 
           <div id="deed-newer">
-    	      <p><a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Nova versio</a> de tiu ĉi permesilo estas havebla. Vi devus uzi ĝin por novaj verkoj, kaj eventuale povas adapti la permesilon de ekzistantaj verkoj. Tamen neniu adaptita permesilo aŭtomate ekvalidos por certa verko.</p>
+    	      <p>
+              http://creativecommons.org/licenses/by-nc-nd/3.0/
+            </p>
           </div>
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">What does "conditions can be waived" mean?</div>
+            <div class="hd">
+              What does "conditions can be waived" mean?
+            </div>
             <div class="bd">
-              <p>CC licenses anticipate that a licensor may want to
+              <p>
+		CC licenses anticipate that a licensor may want to
 		waive compliance with a specific condition, such as
 		attribution.</p>
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
@@ -572,7 +586,9 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">What does "Fair use" mean?</div>
+            <div class="hd">
+              What does "Fair use" mean?
+            </div>
             <div class="bd">
               <p>All jurisdictions
               allow some limited uses of copyrighted material without
@@ -585,9 +601,19 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">What are "Moral Rights"?</div>
+            <div class="hd">
+              What are "Moral Rights"?
+            </div>
             <div class="bd">
-              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
+              <p>In addition to
+              the right of licensors to request removal of their name
+              from the work when used in a derivative or collective
+              they don't like, copyright laws in most jurisdictions
+              around the world (with the notable exception of the US
+              except in very limited circumstances) grant creators
+              "moral rights" which may provide some redress if a
+              derivative work represents a "derogatory treatment" of
+              the licensor's work.</p>
 
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
 
@@ -595,7 +621,9 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">What are "Publicity Rights"?</div>
+            <div class="hd">
+              What are "Publicity Rights"?
+            </div>
             <div class="bd">
               <p>Publicity
               rights allow individuals to control how their voice,
@@ -621,16 +649,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Malgarantio</div>
-	      <div class="bd"><p>
-La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la laŭleĝan kodon (la plenan permesilon) – estas facile legebla esprimo de kelkaj ĉefaj terminoj. Pensu pri ĝi kiel afabla uzantinterfaco al la leĝa kodo malantaŭ ĝi. La "Deed" mem ne havas laŭleĝan valoron, kaj ĝia enhavo ne aperas en la fakta permesilo.
-</p>
-
-<p>
-"Creative Commons" ne estas advokata firmao kaj ne provizas leĝajn servojn. Distribuo aŭ aperigo de "Commons Deed" aŭ ligilo al ĝi ne kreas rilaton advokato-kliento.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -651,7 +679,8 @@ La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la l
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">
+      Use this license for your own work.</a>
       
     </p>
 

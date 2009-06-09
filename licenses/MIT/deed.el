@@ -428,12 +428,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-rights" style="text-align:left"
              dir="ltr">
 		      <h3 rel="cc:permits"
-            resource="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
+            resource="http://creativecommons.org/ns#Reproduction"></h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
+             resource="http://creativecommons.org/ns#Distribution"></li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>η διασκευή</strong> —να τροποποιήσετε το έργο</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
 		      </ul>
 <span id="devnations-container" />
 
@@ -449,7 +449,8 @@ setCookie('lang','%s', expiry, '/');
             
 
             <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Το λογότυπο υπόμνηση για τα δικαιώματα πνευματικής ιδιοκτησίας και η άδεια θα πρέπει να συμπεριλαμβάνεται σε όλα τα αντίγραφα ή σε ουσιωδώς μεγάλα κομμάτια του αντίστοιχου λογισμικού</li>
+                resource="http://creativecommons.org/ns#Notice">The copyright notice and license shall be included in all copies or
+substantial portions of the software.</li>
 
             <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
 
@@ -468,16 +469,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Αποποίηση</div>
-	      <div class="bd"><p>
-Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
-</p>
-
-<p>
-Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίε. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 

@@ -425,13 +425,16 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p>The <span>GNU Lesser General Public License</span> is a <a href="http://www.gnu.org/philosophy/free-sw.html">برنامج مجاني</a> ترخيص.مشابة الاي رخصة برنامج مجاني, يمنحك الحرية التالية: </p>
+<p><%=[ccommons::istr $lang deed.gpl_freedoms]%>
+<span>GNU Lesser General Public License</span>
+</p>
 			
 			<ol class="gpl">
 				<li class="gpl">حرية تشغيل البرنامج لأي غرض من الأغراض.</li>
-				<li class="gpl"> حرية دراسة كيف يعمل البرنامج وتكييفه لاحتياجاتك.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_study]%>
+</li>
 				<li class="gpl">حرية إعادة توزيع نسخ حتى تتمكن من مساعدة الحقوق البمجاورة .</li>
-				<li class="gpl"> حرية تحسين البرنامج والافراج عن التحسينات الخاصة بك إلى الجمهور ، ذلك أن المجتمع بأسره الفوائد.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_improve]%></li>
 			</ol>
 </div>
     
@@ -443,18 +446,22 @@ setCookie('lang','%s', expiry, '/');
    <p />ويمكنك ممارسة الحريات المنصوص عليها هنا شريطة أن يكون لكم أن أعرب عن الامتثال لشروط هذا الترخيص. وقد LGPL هو لبرمجيات المكتبات ، وليس للتنفيذ البرامج. الرئيسية شروط هي :
 
    <ul style="text-align:right" dir="rtl"> 
-     <li class="license notice">يجب عليك وعلى النحو المناسب للنظر في نشر نسخة وزعت على كل مناسبة اشعار حقوق الطبع والتنصل من الضمان والحفاظ على جميع الإشعارات التي تشير إلى هذا الترخيص ، وعدم وجود أي ضمانات ، وإعطاء أي المستفيدين من البرنامج نسخة من دولار () license_name_full مع البرنامج. أي ترجمة للدولار license_name_full) (يجب أن تكون مصحوبة بمبلغ license_name_full ().</li>
+     <li class="license notice">
+       <span>GNU Lesser General Public License</span>
+     </li>
 
      
 
-     <li class="license sa">في حالة تعديل نسختك أو نسخة من مكتبة ، أو أي جزء منه ، قد ينتج عن توزيع مكتبة شريطة أن تفعل ذلك في ظل حكومة الوحدة الوطنية الصغرى الرخصة العمومية العامة. ومع ذلك ، البرامج التي تربط بين لمكتبة يمكن الترخيص بها وفقا للأحكام التي تختارها ، طالما المكتبة نفسها يمكن تغييرها. أي ترجمة جنو العمومية الصغرى العام الترخيص يجب أن يكون مصحوبا جنو العمومية الصغرى الترخيص العام.</li>
+     <li class="license sa">
+       <span>GNU Lesser General Public License</span>
+     </li>
 
      <li class="license src">إذا كنت نسخة أو توزيع البرنامج ، يجب أن ترافق ذلك مع المقابلة كاملة يمكن قراءتها آليا شفرة المصدر أو مع عرض مكتوب ، صالحة لمدة ثلاث سنوات على الأقل ، لتزويد المقابلة كاملة يمكن قراءتها آليا شفرة المصدر.</li>
    </ul>
      
 </div>
 
-<p>اي من الشروط اعلاة يمكن ان<a href="#" id="waived" class="helpLink"> تحويل</a>اذا تم اخذ موافقة صاحب الحق</p> 
+<p><%=[ccommons::istr $lang deed.permission]%></p> 
 
 </div>
        </div>
@@ -466,16 +473,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink"> اخلاء المسؤولية</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd"> اخلاء المسؤولية</div>
-	      <div class="bd"><p>
-سند ليست رخصة. ومن مجرد مرجع لفهم القانون على (الكامل الترخيص) هي حقوق للقراءة التعبير عن بعض من المصطلحات الرئيسية. أعتقد أنه من حيث واجهة مبسطة لالقانونية تحت القانون. وهذا في حد ذاته ليس له سند قيمة قانونية ، ومحتوياتها لا تظهر في الترخيص الفعلي. 
-</p>
-
-<p>
- المشاع الإبداعي ليست شركة والقانون لا ينص على الخدمات القانونية للتوزيع ، إشهار ، أو ربط لهذا العموم لا سند خلق العلاقة بين المحامي والموكل
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -484,7 +491,12 @@ setCookie('lang','%s', expiry, '/');
     
 
     
-      هذا ملخص عن المبدا القانوني المؤروء من الاشخاص العادي (the full <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is also available.
+      
+	This is a human-readable summary of the Legal Code (the full 
+	<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">
+	  GNU Lesser General Public License</a>). A 
+	<a href="legalcode.pt">Portuguese translation</a> is also available.
+      
     
 
     
@@ -498,7 +510,8 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=ar">إستخدم هذه الرخصة لعملك الخاص.</a>
+         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=ar">
+      Use this license for your own work.</a>
       
     </p>
 

@@ -423,13 +423,16 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p>La <span>GNU General Public License</span> és una llicència de <a href="http://www.gnu.org/philosophy/free-sw.html">programari lliure</a>. Com qualsevol llicència de programari lliure, us atorga les llibertats següents:</p>
+<p><%=[ccommons::istr $lang deed.gpl_freedoms]%>
+<span>GNU General Public License</span>
+</p>
 			
 			<ol class="gpl">
 				<li class="gpl">La llibertat d'executar el programa per a qualsevol finalitat.</li>
-				<li class="gpl">La llibertat per estudiar com funciona el programa i per adaptar-lo a les vostres necessitats.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_study]%>
+</li>
 				<li class="gpl">La llibertat de redistribuir-ne còpies per ajudar als vostres veïns.</li>
-				<li class="gpl">La llibertat per millorar el programa i difondre les millores al públic, per tal que tota la comunitat se'n beneficïi.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_improve]%></li>
 			</ol>
 </div>
     
@@ -441,7 +444,9 @@ setCookie('lang','%s', expiry, '/');
    
 
    <ul style="text-align:left" dir="ltr"> 
-     <li class="license notice">En cada còpia que distribuïu, heu de difondre notòriament i apropiadament un avís referent als drets d'autor i una exoneració de responsabilitat, mantenir intactes tots els avisos  referents a aquesta llicència i a l'absència de qualsevol garantia; i donar als altres recipients del program una còpia de la <span>GNU General Public License</span> juntament amb el programa. Qualsevol traducció de la <span>GNU General Public License</span> ha d'estar acompanyada per la <span>GNU General Public License</span>.</li>
+     <li class="license notice">
+       <span>GNU General Public License</span>
+     </li>
 
      <li class="license sa">Si modifiqueu la vostra còpia o còpies del programa o alguna de les seves parts, o desenvolupeu un programa basat en ell, podeu distribuir l'obra resultant sempre amb la <span>GNU General Public License</span>. Qualsevol traducció de la <span>GNU General Public License</span> ha d'anar acompanyada de la <span>GNU General Public License</span>.</li>
 
@@ -452,7 +457,7 @@ setCookie('lang','%s', expiry, '/');
      
 </div>
 
-<p>Es pot <a href="#" id="waived" class="helpLink">renunciar</a> a alguna d'aquestes condicions si obteniu el permís del titular dels drets d'autor.</p> 
+<p><%=[ccommons::istr $lang deed.permission]%></p> 
 
 </div>
        </div>
@@ -464,16 +469,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Advertiment</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Advertiment</div>
-	      <div class="bd"><p>
-Aquest resum no és una llicència. Només és una referència pràctica per entendre el Text Legal (la llicència completa) — és una síntesi d'alguns del termes clau de la llicència amb la intenció que pugui ser entesa per tothom. Es tracta d'una interfície amicable del Text Legal que hi ha sota. Aquest resum per si sol no té cap valor legal, i el seu contingut no apareix en la llicència autèntica.
-</p>
-
-<p>
-Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La distribució, la mostra, o l'enllaç d'aquest Resum no crea cap vincle advocat-client.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -484,7 +489,11 @@ Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La dis
     
 
     
-      Això és un resum fàcilment llegible del Codi Legal (la <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"> Llicència Pública General de GNU</a> completa). També hi ha disponible <a href="legalcode.pt">una traducció al portuguès</a>.
+      
+This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
+Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is
+also available.
+      
     
 
     
@@ -496,7 +505,8 @@ Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La dis
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=ca">Utilitzeu aquesta llicència per a la vostra pròpia obra.</a>
+         href="/license/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=ca">
+      Use this license for your own work.</a>
       
     </p>
 

@@ -431,13 +431,14 @@ setCookie('lang','%s', expiry, '/');
          <div id="deed-newer" style="text-align:center"><h3>This license is <a href="/retiredlicenses">retired</a>. Do not use for new works.</h3></div>
 
          <h3 rel="cc:permits"
-             resource="http://creativecommons.org/ns#Reproduction">Vi rajtas:</h3>
+             resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"><strong>dividi</strong> – kopii, distribui kaj transdoni la verkon</li>
+             resource="http://creativecommons.org/ns#Distribution">
+to Share %Gâ%@ to copy, distribute and transmit the work</li>
 
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>remiksi</strong> -- adapti la verkon</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
 		      </ul>
 
         </div>
@@ -453,9 +454,11 @@ setCookie('lang','%s', expiry, '/');
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Attribution" class="license by">
 	      <p><strong>Atribuo</strong>.
-                <span>Vi devas atribui la verkon tiel kiel specifis la aŭtoro aŭ la permesil-posedanto (sed ne en maniero kiu implicas ke ili subtenas vin aŭ vian verkon).</span></p></li>
+                <span>
+		  <%=[ccommons::istr $lang char.by_brief]%>
+	    </span></p></li>
 
-    	    <li>Por iu ajn reuzo aŭ distribuo, vi devas klarigi al aliaj la permesilon de tiu ĉi verko.</li>
+    	    <li></li>
     	    <li></li>
 
 	    <li>In no way are any of the following rights affected by
@@ -486,16 +489,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Malgarantio</div>
-	      <div class="bd"><p>
-La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la laŭleĝan kodon (la plenan permesilon) – estas facile legebla esprimo de kelkaj ĉefaj terminoj. Pensu pri ĝi kiel afabla uzantinterfaco al la leĝa kodo malantaŭ ĝi. La "Deed" mem ne havas laŭleĝan valoron, kaj ĝia enhavo ne aperas en la fakta permesilo.
-</p>
-
-<p>
-"Creative Commons" ne estas advokata firmao kaj ne provizas leĝajn servojn. Distribuo aŭ aperigo de "Commons Deed" aŭ ligilo al ĝi ne kreas rilaton advokato-kliento.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -516,7 +519,8 @@ La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la l
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">Use this license for your own work.</a>
+         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">
+      Use this license for your own work.</a>
       
     </p>
 

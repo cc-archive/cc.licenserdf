@@ -428,12 +428,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-rights" style="text-align:left"
              dir="ltr">
 		      <h3 rel="cc:permits"
-            resource="http://creativecommons.org/ns#Reproduction">Vi rajtas:</h3>
+            resource="http://creativecommons.org/ns#Reproduction"></h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"><strong>dividi</strong> – kopii, distribui kaj transdoni la verkon</li>
+             resource="http://creativecommons.org/ns#Distribution"></li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>remiksi</strong> -- adapti la verkon</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
 		      </ul>
 <span id="devnations-container" />
 
@@ -469,16 +469,16 @@ substantial portions of the software.</li>
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Malgarantio</div>
-	      <div class="bd"><p>
-La "Commons Deed" ne estas permesilo. Temas pri praktika resumo por klarigi la laŭleĝan kodon (la plenan permesilon) – estas facile legebla esprimo de kelkaj ĉefaj terminoj. Pensu pri ĝi kiel afabla uzantinterfaco al la leĝa kodo malantaŭ ĝi. La "Deed" mem ne havas laŭleĝan valoron, kaj ĝia enhavo ne aperas en la fakta permesilo.
-</p>
-
-<p>
-"Creative Commons" ne estas advokata firmao kaj ne provizas leĝajn servojn. Distribuo aŭ aperigo de "Commons Deed" aŭ ligilo al ĝi ne kreas rilaton advokato-kliento.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 

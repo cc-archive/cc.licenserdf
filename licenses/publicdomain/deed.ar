@@ -4,8 +4,10 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-    حقوق المؤلف بين الإخلاص وحدها (على أساس قانون الولايات المتحدة) 
-او شهادة الملكية العامة 
+    
+      Copyright-Only Dedication (based on United States law) or Public
+      Domain Certification
+    
   </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -410,9 +412,11 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">حقوق التأليف والنشر فقط التفاني <a href="#" class="helpLink" id="use_zero">*</a>
-(على أساس قانون الولايات المتحدة) <br />
-او شهادة النطاق العام</h2>
+	        <h2 property="dc:title">
+  Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
+  (based on United States law)<br />
+  or Public Domain Certification
+</h2>
         </div>
       </div>
 
@@ -423,17 +427,43 @@ setCookie('lang','%s', expiry, '/');
   <div id="librepd">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="هذا الترخيص هو مقبول بالنسبة للأعمال الثقافية الحرة." />
+           alt="This license is acceptable for Free Cultural Works." />
     </a>
   </div>
 
-  <p>الشخص أو الأشخاص الذين يرتبط العمل مع هذه الوثيقة ( "Dedicator" أو "تصديق") هنا إما (أ) أن يصدق ، لعلمه ، وعمل في التأليف وحدد الملك العام من البلد الذي تصدر العمل ، أو (ب) من هنا فإن حقوق التأليف والنشر ما يخصص dedicators يحمل في أعمال التأليف المحددة أدناه ( "العمل") إلى الملك العام. التصديق ، فضلا عن ذلك ، يخصص أي حق المؤلف قد تكون لديه مصلحة في العمل المرتبطة بها ، وتحقيقا لهذه الأغراض ، ووصف بأنه "dedicator" أدناه. </p>
+  
+    <p>The person or persons who have associated work with this
+      document (the "Dedicator" or "Certifier") hereby either (a)
+      certifies that, to the best of his knowledge, the work of
+      authorship identified is in the public domain of the country
+      from which the work is published, or (b) hereby dedicates
+      whatever copyright the dedicators holds in the work of
+      authorship identified below (the "Work") to the public domain. A
+      certifier, moreover, dedicates any copyright interest he may
+      have in the associated work, and for these purposes, is
+      described as a "dedicator" below.</p>
 
-<p><p>التصديق قد اتخذ خطوات معقولة للتحقق من حالة حقوق المؤلف في هذا العمل. ويعترف بأن التصديق على الجهود الصادقة التي لا يجوز لحمايته من المسؤولية إذا كان العمل في واقع الأمر ليست معتمدة في المجال العام. </p>
+    <p>A certifier has taken reasonable steps to verify the copyright
+      status of this work. Certifier recognizes that his good faith
+      efforts may not shield him from liability if in fact the work
+      certified is not in the public domain.</p>
 
-<p><p>Dedicator يجعل هذا التفاني لمصلحة الجمهور بوجه عام وعلى حساب من ورثة Dedicator خلفاء. وتعتزم Dedicator هذا التفاني في العمل أن يكون غطاء للتخلي الأبد جميع الحقوق والحاضر والمستقبل في إطار قانون حقوق التأليف والنشر ، أو ما إذا كان على عاتق قادة الوحدات ، في العمل. Dedicator تفهم أن هذه التخلي عن جميع الحقوق يشمل التخلي عن كل الحقوق لتنفيذ (من خلال دعوى قضائية أو غير ذلك) وحقوق التأليف والنشر في تلك الأعمال. </p>
+    <p>Dedicator makes this dedication for the benefit of the public
+      at large and to the detriment of the Dedicator's heirs and
+      successors.  Dedicator intends this dedication to be an overt
+      act of relinquishment in perpetuity of all present and future
+      rights under copyright law, whether vested or contingent, in the
+      Work. Dedicator understands that such relinquishment of all
+      rights includes the relinquishment of all rights to enforce (by
+      lawsuit or otherwise) those copyrights in the Work.</p>
 
-<p><p>Dedicator يعترف أنه بمجرد وضعها في متناول الجمهور ، والعمل بحرية ، ويمكن استنساخها وتوزيعها ، المحالة ، واستخدامها ، وتعديلها ، والبناء عليها ، أو استغلالها من قبل أي شخص لأي غرض من الأغراض ، تجارية أو غير تجارية ، وعلى أي وسيلة ، بما في ذلك عن طريق الأساليب التي لم يتم اختراعها أو تصوره. </p>
+    <p>Dedicator recognizes that, once placed in the public domain,
+      the Work may be freely reproduced, distributed, transmitted,
+      used, modified, built upon, or otherwise exploited by anyone for
+      any purpose, commercial or non-commercial, and in any way,
+      including by methods that have not yet been invented or
+      conceived.</p>
+  
 
 <div id="help_use_zero">
   <div class="hd">CC0 for Public Domain Dedication</div>
@@ -454,7 +484,8 @@ setCookie('lang','%s', expiry, '/');
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/license/publicdomain-2">استعمال هذة الادوات الى عملك</a>
+      <a id="get_this" href="/license/publicdomain-2">
+      Use this tool for your own work.</a>
       
     </p>
 

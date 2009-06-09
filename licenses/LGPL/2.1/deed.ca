@@ -423,13 +423,16 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p>La <span>GNU Lesser General Public License</span> és una llicència de <a href="http://www.gnu.org/philosophy/free-sw.html">programari lliure</a>. Com qualsevol llicència de programari lliure, us atorga les llibertats següents:</p>
+<p><%=[ccommons::istr $lang deed.gpl_freedoms]%>
+<span>GNU Lesser General Public License</span>
+</p>
 			
 			<ol class="gpl">
 				<li class="gpl">La llibertat d'executar el programa per a qualsevol finalitat.</li>
-				<li class="gpl">La llibertat per estudiar com funciona el programa i per adaptar-lo a les vostres necessitats.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_study]%>
+</li>
 				<li class="gpl">La llibertat de redistribuir-ne còpies per ajudar als vostres veïns.</li>
-				<li class="gpl">La llibertat per millorar el programa i difondre les millores al públic, per tal que tota la comunitat se'n beneficïi.</li>
+				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_improve]%></li>
 			</ol>
 </div>
     
@@ -441,18 +444,22 @@ setCookie('lang','%s', expiry, '/');
    <p />Podeu exercir les llibertats especificades aquí sempre que compliu les condicions indicades en aquesta llicència. La LGPL està destinada a biblioteques de programari més que a programes executables. Les condicions principals són:
 
    <ul style="text-align:left" dir="ltr"> 
-     <li class="license notice">En cada còpia que distribuïu, heu de difondre notòriament i apropiadament un avís referent als drets d'autor i una exoneració de responsabilitat, mantenir intactes tots els avisos  referents a aquesta llicència i a l'absència de qualsevol garantia; i donar als altres recipients del program una còpia de la <span>GNU Lesser General Public License</span> juntament amb el programa. Qualsevol traducció de la <span>GNU Lesser General Public License</span> ha d'estar acompanyada per la <span>GNU Lesser General Public License</span>.</li>
+     <li class="license notice">
+       <span>GNU Lesser General Public License</span>
+     </li>
 
      
 
-     <li class="license sa">Si modifiqueu la vostra còpia o altres còpies de la biblioteca o qualsevol part, podeu distribuir la biblioteca resultant sempre que ho feu amb la Llicència Pública General Menor (LGPL) de GNU. Tanmateix, els programes enllaçats a la biblioteca poden estar subjectes a altres llicències sempre que la pròpia biblioteca pugui ser modificada. Qualsevol traducció de la Llicència Pública General Menor (LGPL) de GNU ha d'anar acompanyada per la llicència original.</li>
+     <li class="license sa">
+       <span>GNU Lesser General Public License</span>
+     </li>
 
      <li class="license src">Si copieu o distribuïu el programa, heu d'acompanyar-lo del corresponent codi font legible per màquines o un oferiment escrit, vàlid almenys per tres anys, per subministrar el corresponent codi font complet.</li>
    </ul>
      
 </div>
 
-<p>Es pot <a href="#" id="waived" class="helpLink">renunciar</a> a alguna d'aquestes condicions si obteniu el permís del titular dels drets d'autor.</p> 
+<p><%=[ccommons::istr $lang deed.permission]%></p> 
 
 </div>
        </div>
@@ -464,16 +471,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Advertiment</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Advertiment</div>
-	      <div class="bd"><p>
-Aquest resum no és una llicència. Només és una referència pràctica per entendre el Text Legal (la llicència completa) — és una síntesi d'alguns del termes clau de la llicència amb la intenció que pugui ser entesa per tothom. Es tracta d'una interfície amicable del Text Legal que hi ha sota. Aquest resum per si sol no té cap valor legal, i el seu contingut no apareix en la llicència autèntica.
-</p>
-
-<p>
-Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La distribució, la mostra, o l'enllaç d'aquest Resum no crea cap vincle advocat-client.
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -482,7 +489,12 @@ Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La dis
     
 
     
-      Això és un resum fàcilment llegible del Codi Legal (la <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">Llicència Pública General Menor de GNU</a> completa). També hi ha una <a href="legalcode.pt">traducció en portuguès</a> disponible.
+      
+	This is a human-readable summary of the Legal Code (the full 
+	<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">
+	  GNU Lesser General Public License</a>). A 
+	<a href="legalcode.pt">Portuguese translation</a> is also available.
+      
     
 
     
@@ -496,7 +508,8 @@ Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La dis
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=ca">Utilitzeu aquesta llicència per a la vostra pròpia obra.</a>
+         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=ca">
+      Use this license for your own work.</a>
       
     </p>
 

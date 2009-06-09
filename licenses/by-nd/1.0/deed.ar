@@ -434,10 +434,10 @@ setCookie('lang','%s', expiry, '/');
 
 
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">لك مطلق الحرية</h3>
+    resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"><strong>للمشاركة <strong>-للنسخ,- لنسخ وتوزيع ونقل العمل</li>
+       resource="http://creativecommons.org/ns#Distribution"></li>
 			      
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
@@ -451,14 +451,14 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>نسب المصنف </strong> &mdash;
-		<span id="attribution-container">يجب عليك أن تنسب العمل بالطريقة التي تحددها المؤلف  أو المرخص (ولكن ليس بأي حال من الأحوال أن توحي وتقترح بتحول أو استخدامك للعمل).</span>
+		<span id="attribution-container">char.by_brief</span>
 		
 		<span id="by-more-container" />
 	      </p>
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>نسب هذا العمل </strong><br />
+		  <strong>Attribute this work:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-ND 1.0" />
@@ -466,21 +466,30 @@ setCookie('lang','%s', expiry, '/');
            value="http://creativecommons.org/licenses/by-nd/1.0/" />
 		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
-         alt="معلومات" />
+         alt="Information" />
 		</a>
 		</p>
 		<div id="help_attribution_help" class="help_panel">
-		  <div class="hd">ماذا يعني " نسب هذا العمل " . </div>
-		  <div class="bd"> الصفحة جاءت جزءا لا يتجزأ من الترخيص الواردة من metadata ، بما في ذلك كيف المبدع يرغب  أن يقتبس لإعادة استخدامها. يمكنك استخدام HTML  هنا أن ينوة الى المصنف . وبذلك سوف تشمل أيضا Metadata  على صفحتك حتى يمكن للاخرين من ايجاد العمل الأصلي كذلك.</div>
+		  <div class="hd">
+		    What does "Attribute this work" mean?
+		  </div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
 		</div>
 
 	      
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>اعمال غير مشتقة</strong> &mdash;
+	      <p><strong>char.nd_title</strong> &mdash;
 		
-		<span>لا يمكنك تغيير ، والتغيير ، أو البناء على هذا العمل.</span>
+		<span>char.nd_brief</span>
 		<span id="nd-more-container" />
 	      </p>
 
@@ -491,90 +500,127 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>مع فهم ذلك</h3>
+	  <h3>
+	    With the understanding that:
+	  </h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>التنازل</strong>
+	      <strong>Waiver</strong>
 	      &mdash;
-	      اي من الشروط اعلاة يمكن ان<a href="#" id="waived" class="helpLink"> تحويل</a>اذا تم اخذ موافقة صاحب الحق
+	      
+		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
+		permission from the copyright holder.
+	      
 	    </li>
 	      
 	    <li class="license">
-	      <strong>حقوق اخرى</strong>
+	      <strong>Other Rights</strong>
 	      &mdash; 
-	      بأي حال من الأحوال أن تكون أي من الحقوق التالية التي تأثرت الترخيص :
+	      In no way are
+		    any of the following rights affected by the
+		    license:
 	     
 	      <ul>
 
 		<li>الاستعمال العادل<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">الاستعمال العادل</a> حقوق;</li>
 
 		
-		  <li>المؤلف <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_الحقوق" class="helpLink">المعنويةl</a rights;</li>
+		  <li>
+		    The author's <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">moral</a> rights;
+		  </li>
 		
 		
 
-		<li>حقوق الأشخاص الآخرين الذين قد يكون إما في العمل نفسه ، أو في كيفية عمل يستخدم ،<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">علانية</a> او حقوق الخصوصية</li>
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as 
+		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
+		</li>
 	      </ul>
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-	      <strong>إشعار</strong>
+	      <strong>Notice</strong>
 	      &mdash;
-	      أي لإعادة الاستخدام أو التوزيع ، يجب أن نوضح للآخرين شروط الترخيص لهذا العمل. أفضل طريقة للقيام بذلك ، مع وصلة لصفحة الويب هذه.
+	      
+		For any reuse or
+		distribution, you must make clear to others the license
+		terms of this work. The best way to do this is with a
+		link to this web page.
+	      
 	    </li>
 
           </ul>
 
           <div id="deed-newer">
-    	      <p><a href="http://creativecommons.org/licenses/by-nd/3.0/">  النسخة الجديدة</a> من هذا الترخيص المتاحة. يجب عليك استخدام  لأعمال جديدة ، وكنت قد ترغب باعادة ترخيص لتعمل تحت رخصة القائمة. هي لا تعمل  <em>تلقائيا</ </em> تحت رخصة جديدة ، ولكن.</p>
+    	      <p>
+              http://creativecommons.org/licenses/by-nd/3.0/
+            </p>
           </div>
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">ماذا يعني "شروط التي يمكن التنازل عنها "؟</div>
+            <div class="hd">
+              What does "conditions can be waived" mean?
+            </div>
             <div class="bd">
-              <p>جيم تراخيص توقع أن المرخص قد ترغب
-		الامتثال لشروط محددة ، مثل 
- 		 الاقتباس</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">تعلم المزيد</a>.</p>
+              <p>
+		CC licenses anticipate that a licensor may want to
+		waive compliance with a specific condition, such as
+		attribution.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
             </div>
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">ماذا يعني الاستعمال العادل</div>
+            <div class="hd">
+              What does "Fair use" mean?
+            </div>
             <div class="bd">
-              <p>جميع الاختصاصات
- السماح لبعض الاستخدامات المحدودة للمواد محفوظة الحقوق دون 
- إذن. جيم التراخيص لا يؤثر على حقوق 
- المستخدمين في إطار هذه القيود والاستثناءات على حق المؤلف ،
- مثل استخدام العادلة والإنصاف في المعاملة عند الاقتضاء.</p>
+              <p>All jurisdictions
+              allow some limited uses of copyrighted material without
+              permission.  CC licenses do not affect the rights of
+              users under those copyright limitations and exceptions,
+              such as fair use and fair dealing where applicable.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">تعلم المزيد</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
             </div>
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">ما هي "الحقوق المعنوية"؟</div>
+            <div class="hd">
+              What are "Moral Rights"?
+            </div>
             <div class="bd">
-              <p>بالإضافة إلى حق الجهات المانحة للتراخيص لطلب رفع اسمه من العمل عند استخدامه في مشتقات أو جماعية لا تعجبهم ، وقوانين حقوق النشر في معظم الولايات القضائية في جميع أنحاء العالم (باستثناء من الولايات المتحدة إلا في ظروف محدودة جدا منحة المبدعين "الحقوق المعنوية" الذي يمكن أن يوفر بعض التعويض في حالة عمل مشتق يمثل "معاملة مهينة" للعمل المرخص</p>
+              <p>In addition to
+              the right of licensors to request removal of their name
+              from the work when used in a derivative or collective
+              they don't like, copyright laws in most jurisdictions
+              around the world (with the notable exception of the US
+              except in very limited circumstances) grant creators
+              "moral rights" which may provide some redress if a
+              derivative work represents a "derogatory treatment" of
+              the licensor's work.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">تعلم المزيد</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
 
             </div>
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">ما هي "حقوق الاعلان"؟</div>
+            <div class="hd">
+              What are "Publicity Rights"?
+            </div>
             <div class="bd">
-              <p>الدعاية
-يسمح للأفراد الإنسان لمراقبة كيفية صوتهم ، 
-الصورة أو شبيهه وتستخدم لأغراض تجارية في
- الجمهور. إذا تغير المناخ وتشمل الأعمال المرخصة صوت أو 
-صورة أي شخص غير المرخص ، والمستخدم لل
-قد تحتاج إلى العمل للحصول على تصريح من أولئك الأفراد 
- قبل استخدام العمل لأغراض تجارية.</p>
+              <p>Publicity
+              rights allow individuals to control how their voice,
+              image or likeness is used for commercial purposes in
+              public.  If a CC-licensed work includes the voice or
+              image of anyone other than the licensor, a user of the
+              work may need to get permission from those individuals
+              before using the work for commercial purposes.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">تعلم المزيد</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
             </div>
           </div>
 	  
@@ -590,16 +636,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink"> اخلاء المسؤولية</a>
+	    <a href="#" id="disclaimer" class="helpLink">
+	      Disclaimer
+	    </a>
 	    <div id="help_disclaimer">
-	      <div class="hd"> اخلاء المسؤولية</div>
-	      <div class="bd"><p>
-سند ليست رخصة. ومن مجرد مرجع لفهم القانون على (الكامل الترخيص) هي حقوق للقراءة التعبير عن بعض من المصطلحات الرئيسية. أعتقد أنه من حيث واجهة مبسطة لالقانونية تحت القانون. وهذا في حد ذاته ليس له سند قيمة قانونية ، ومحتوياتها لا تظهر في الترخيص الفعلي. 
-</p>
-
-<p>
- المشاع الإبداعي ليست شركة والقانون لا ينص على الخدمات القانونية للتوزيع ، إشهار ، أو ربط لهذا العموم لا سند خلق العلاقة بين المحامي والموكل
-</p></div>
+	      <div class="hd">
+		Disclaimer
+	      </div>
+	      <div class="bd">
+		
+  	      </div>
 	    </div>
 	  
 
@@ -611,7 +657,7 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    هذه هي حقوق للقراءة موجز لل<a href="legalcode" class="fulltext"> القانونية المدونة (كامل رخصة) </a>.
+    هذه ملخص عن للقراءة من الانسان العادي  <a href="legalcode" class="fulltext"> القانونية المدونة (كامل رخصة) </a>.
  </p>
 
          
@@ -620,7 +666,8 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=-&amp;version=1.0&amp;lang=ar">إستخدم هذه الرخصة لعملك الخاص.</a>
+         href="/license/results-one?license_code=by-nd&amp;jurisdiction=-&amp;version=1.0&amp;lang=ar">
+      Use this license for your own work.</a>
       
     </p>
 
