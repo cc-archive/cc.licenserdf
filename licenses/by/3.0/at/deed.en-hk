@@ -106,6 +106,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -505,13 +511,11 @@ setCookie('lang','%s', expiry, '/');
 	    <li class="license">
 	      <strong>Other Rights</strong>
 	      &mdash; 
-	      In no way are any of the following rights affected by the license:
+	      In no way are any of the following rights affected by the licence:
 	     
 	      <ul>
 
-		<li>Your fair dealing
-		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights;
-		</li>
+		<li>Your <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair dealing</a> or fair use rights;</li>
 
 		
 		  <li>
@@ -541,7 +545,7 @@ setCookie('lang','%s', expiry, '/');
           <div id="help_waived" class="help_panel">
             <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
-              <p>CC licenses anticipate that a licensor may want to
+              <p>CC licences anticipate that a licensor may want to
 		waive compliance with a specific condition, such as
 		attribution.</p>
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
@@ -549,7 +553,7 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">What does "Fair use" mean?</div>
+            <div class="hd">What does "Fair dealing" mean?</div>
             <div class="bd">
               <p>All jurisdictions
               allow some limited uses of copyrighted material without
