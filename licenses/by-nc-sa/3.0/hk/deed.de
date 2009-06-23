@@ -108,6 +108,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -434,9 +440,9 @@ setCookie('lang','%s', expiry, '/');
     resource="http://creativecommons.org/ns#Reproduction">Es ist Ihnen gestattet:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution">das Werk vervielfältigen, verbreiten und öffentlich zugänglich machen</li>
+       resource="http://creativecommons.org/ns#Distribution">das Werk bzw. den Inhalt zu vervielfältigen, zu verbreiten und öffentlich zugänglich zu machen</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks">Abwandlungen bzw. Bearbeitungen des Inhaltes anfertigen</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks">Abwandlungen oder Bearbeitungen des Werkes oder Inhaltes anzufertigen</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
@@ -456,7 +462,7 @@ setCookie('lang','%s', expiry, '/');
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>Schreiben Sie dieses Werk jemandem zu:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-NC-SA 3.0" />
@@ -469,14 +475,7 @@ setCookie('lang','%s', expiry, '/');
 		</p>
 		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">Was bedeutet "Namensnennung" genau?</div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="bd">Die Seite, von der aus Sie hierher gelangt sind, enthielt eingebettete Metadaten zur Lizenz, unter anderem auch zur Art und Weise wie der Rechteinhaber bei Weiterverwendung bezeichnet werden möchte. Das hier gezeigte HTML können Sie zur Zitierung des lizenzierten Inhalts verwenden. Dadurch werden auch in Ihre Seite Metadaten eingefügt, durch die andere auch die Originalquelle finden können.</div>
 		</div>
 
 	      
@@ -487,7 +486,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license nc">
 	      <p><strong>Keine kommerzielle Nutzung</strong> &mdash;
 		
-		<span>Dieses Werk darf nicht für kommerzielle Zwecke verwendet werden.</span>
+		<span>Dieses Werk bzw. dieser Inhalt darf nicht für kommerzielle Zwecke verwendet werden.</span>
 		<span id="nc-more-container" />
 	      </p>
 
@@ -499,7 +498,7 @@ setCookie('lang','%s', expiry, '/');
                 class="license sa">
 	      <p><strong>Weitergabe unter gleichen Bedingungen</strong> &mdash;
 		
-		<span>Wenn Sie den lizenzierten Inhalt bearbeiten oder in anderer Weise umgestalten, verändern oder als Grundlage für einen anderen Inhalt verwenden, dürfen Sie den neu entstandenen Inhalt nur unter Verwendung von Lizenzbedingungen weitergeben, die mit denen dieses Lizenzvertrages identisch oder vergleichbar sind.</span>
+		<span>Wenn Sie das lizenzierte Werk bzw. den lizenzierten Inhalt bearbeiten oder in anderer Weise erkennbar als Grundlage für eigenes Schaffen verwenden, dürfen Sie die daraufhin neu entstandenen Werke bzw. Inhalte nur unter Verwendung von Lizenzbedingungen weitergeben, die mit denen dieses Lizenzvertrages identisch oder vergleichbar sind.</span>
 		<span id="sa-more-container" />
 	      </p>
 
@@ -510,19 +509,19 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>With the understanding that:</h3>
+	  <h3>Wobei gilt:</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Waiver</strong>
+	      <strong>Verzichtserklärung</strong>
 	      &mdash;
 	      Jede der vorgenannten Bedingungen kann <a href="#" id="waived" class="helpLink">aufgehoben</a> werden, sofern Sie die Einwilligung des Rechteinhabers dazu erhalten.
 	    </li>
 	      
 	    <li class="license">
-	      <strong>Other Rights</strong>
+	      <strong>Sonstige Rechte</strong>
 	      &mdash; 
-	      In no way are any of the following rights affected by the license:
+	      Die Lizenz hat keinerlei Einfluss auf die folgenden Rechte:
 	     
 	      <ul>
 
@@ -533,18 +532,14 @@ setCookie('lang','%s', expiry, '/');
 		
 		
 
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as 
-		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
-		</li>
+		<li>Rechte anderer Personen, entweder am Lizenzgegenstand selber oder bezüglich seiner Verwendung, zum Beispiel Persönlichkeitsrechte abgebildteter Personen.</li>
 	      </ul>
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-	      <strong>Notice</strong>
+	      <strong>Hinweis</strong>
 	      &mdash;
-	      Im Falle einer Verbreitung müssen Sie anderen die Lizenzbedingungen, unter welche dieses Werk fällt, mitteilen. Am Einfachsten ist es, einen Link auf diese Seite einzubinden.
+	      Im Falle einer Verbreitung müssen Sie anderen alle Lizenzbedingungen mitteilen, die für dieses Werk gelten. Am einfachsten ist es, an entsprechender Stelle einen Link auf diese Seite einzubinden.
 	    </li>
 
           </ul>
@@ -552,50 +547,38 @@ setCookie('lang','%s', expiry, '/');
           
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">What does "conditions can be waived" mean?</div>
+            <div class="hd">Was bedeutet "Bedingungen können aufgehoben werden"?</div>
             <div class="bd">
-              <p>CC licenses anticipate that a licensor may want to
-		waive compliance with a specific condition, such as
-		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+              <p>CC-Lizenzen sind auch für den Fall vorbereitet, dass ein Lizenzgeber den Nutzern die zwingende Einhaltung einer bestimmten Bedingungen, zum Beispiel der Namensnennung, erlassen möchte.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Weitere Informationen</a>.</p>
             </div>
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">What does "Fair use" mean?</div>
+            <div class="hd">Was ist unter "Schranken des Urheberrechts" oder "Fair Use" zu verstehen?</div>
             <div class="bd">
-              <p>All jurisdictions
-              allow some limited uses of copyrighted material without
-              permission.  CC licenses do not affect the rights of
-              users under those copyright limitations and exceptions,
-              such as fair use and fair dealing where applicable.</p>
+              <p>In allen Rechtsordnungen darf urheberrechtlich geschütztes Material in beschränktem Umfang auch ohne Erlaubnis des Urhebers oder sonstigen Rechteinhabers verwendet werden, das Urheberrecht unterliegt also gewissen "Schranken". Unabhängig davon, ob dieses Grundprinzip im jeweiligen Land "Schranken", "Fair Use", "Fair Dealing" oder anders genannt wird, verringern CC-Lizenzen die daraus resultierenden Nutzungsmöglichkeiten in keiner Weise, sondern erzeugen ausschließlich weitere, darüber hinausgehende Nutzungsfreiheiten.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Weitere Informationen</a>.</p>
             </div>
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">What are "Moral Rights"?</div>
+            <div class="hd">Was sind "Urheberpersönlichkeitsrechte" oder "Moral Rights"?</div>
             <div class="bd">
-              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
+              <p>Mit Ausnahme der USA, wo Urheberpersönlichkeitsrechte nur in sehr geringem Umfang anerkannt sind, haben Urheber unter den meisten Rechtsordnungen bestimmte Sonderrechte, die mit der engen Beziehung ihrer Persönlichkeit zu ihrem Werk zu tun haben. Das sind zum Beispiel Rechte wie das der Namensnennung oder Nicht-Nennung, das auf Schutz gegen entstellende Veränderungen des Werkes oder auch das auf Rückruf des Werkes wegen gewandelter Überzeugung.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Weitere Informationen</a>.</p>
 
             </div>
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">What are "Publicity Rights"?</div>
+            <div class="hd">Was sind "Persönlichkeitsrechte"?</div>
             <div class="bd">
-              <p>Publicity
-              rights allow individuals to control how their voice,
-              image or likeness is used for commercial purposes in
-              public.  If a CC-licensed work includes the voice or
-              image of anyone other than the licensor, a user of the
-              work may need to get permission from those individuals
-              before using the work for commercial purposes.</p>
+              <p>Persönlichkeitsrechte sind die Rechte, die jede Person an der eigenen Stimme, Abbildung oder anderen mit der Persönlichkeit eng verbundenen Inhalten hat, sofern sie in einem Werk festgehalten sind. Wenn ein unter CC-Lizenz stehendes Werk die Stimme oder Abbildung von jemandem enthält, der nicht zugleich der Lizenzgeber ist, so müssen Nutzer unter Umständen zuerst die Erlaubnis dieser anderen Personen einholen bevor sie das Werk kommerziell oder anderweitig öffentlich nutzen.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Weitere Informationen</a>.</p>
             </div>
           </div>
 	  
@@ -611,12 +594,12 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Haftungbeschränkung</a>
+	    <a href="#" id="disclaimer" class="helpLink">Haftungsbeschränkung</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Haftungbeschränkung</div>
+	      <div class="hd">Haftungsbeschränkung</div>
 	      <div class="bd"><p>
 
-Die Commons Deed ist kein Lizenzvertrag. Sie ist lediglich ein Referenztext, der den zugrundeliegenden Lizenzvertrag übersichtlich und in allgemeinverständlicher Sprache wiedergibt. Die Deed selbst entfaltet keine juristische Wirkung und erscheint im eigentlichen Lizenzvertrag nicht. 
+Die "Commons Deed" ist kein Lizenzvertrag. Sie ist lediglich ein Referenztext, der den zugrundeliegenden Lizenzvertrag übersichtlich und in allgemeinverständlicher Sprache aber auch stark vereinfacht wiedergibt. Die Deed selbst entfaltet keine juristische Wirkung und erscheint im eigentlichen Lizenzvertrag nicht. 
 </p>
 
 <p>
@@ -633,7 +616,7 @@ Creative Commons ist keine Rechtsanwaltsgesellschaft und leistet keine Rechtsber
 
     
 
-    Die Commons Deed ist eine Zusammenfassung des <a href="legalcode" class="fulltext">Lizenzvertrags</a> in allgemeinverständlicher Sprache.
+    Diese "Commons Deed" ist lediglich eine vereinfachte Zusammenfassung des <a href="legalcode" class="fulltext">rechtsverbindlichen Lizenzvertrages</a> in allgemeinverständlicher Sprache.
  </p>
 
          
@@ -642,7 +625,7 @@ Creative Commons ist keine Rechtsanwaltsgesellschaft und leistet keine Rechtsber
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=hk&amp;version=3.0&amp;lang=de">Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=hk&amp;version=3.0&amp;lang=de">Verwenden Sie diese Lizenz doch auch für Ihre eigenen Werke bzw. Inhalte.</a>
       
     </p>
 
