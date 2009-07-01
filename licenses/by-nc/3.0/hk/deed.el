@@ -119,8 +119,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.de" title="Deutsch" hreflang="de"
-   rel="alternate nofollow" xml:lang="de">Deutsch</a>
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -436,12 +436,12 @@ setCookie('lang','%s', expiry, '/');
     src="/images/international/hk.png" style="border: 0"
     alt="hk" /></a>
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"></li>
+       resource="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>η διασκευή</strong> —να τροποποιήσετε το έργο</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
@@ -454,7 +454,7 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>Αναφορά</strong> &mdash;
-		<span id="attribution-container">char.by_brief</span>
+		<span id="attribution-container">Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγούντα την άδεια (χωρίς όμως να εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου από εσάς).</span>
 		
 		<span id="by-more-container" />
 	      </p>
@@ -492,9 +492,9 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>char.nc_title</strong> &mdash;
+	      <p><strong>Μη Εμπορική Χρήση</strong> &mdash;
 		
-		<span>char.nc_brief</span>
+		<span>Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό για εμπορικούς σκοπούς.</span>
 		<span id="nc-more-container" />
 	      </p>
 
@@ -505,9 +505,7 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>
-	    With the understanding that:
-	  </h3>
+	  <h3>With the understanding that:</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
@@ -522,9 +520,7 @@ setCookie('lang','%s', expiry, '/');
 	    <li class="license">
 	      <strong>Other Rights</strong>
 	      &mdash; 
-	      In no way are
-		    any of the following rights affected by the
-		    license:
+	      In no way are any of the following rights affected by the license:
 	     
 	      <ul>
 
@@ -550,12 +546,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
 	      <strong>Notice</strong>
 	      &mdash;
-	      
-		For any reuse or
-		distribution, you must make clear to others the license
-		terms of this work. The best way to do this is with a
-		link to this web page.
-	      
+	      Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.
 	    </li>
 
           </ul>
@@ -563,12 +554,9 @@ setCookie('lang','%s', expiry, '/');
           
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">
-              What does "conditions can be waived" mean?
-            </div>
+            <div class="hd">What does "conditions can be waived" mean?</div>
             <div class="bd">
-              <p>
-		CC licenses anticipate that a licensor may want to
+              <p>CC licenses anticipate that a licensor may want to
 		waive compliance with a specific condition, such as
 		attribution.</p>
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
@@ -576,9 +564,7 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">
-              What does "Fair use" mean?
-            </div>
+            <div class="hd">What does "Fair use" mean?</div>
             <div class="bd">
               <p>All jurisdictions
               allow some limited uses of copyrighted material without
@@ -591,19 +577,9 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">
-              What are "Moral Rights"?
-            </div>
+            <div class="hd">What are "Moral Rights"?</div>
             <div class="bd">
-              <p>In addition to
-              the right of licensors to request removal of their name
-              from the work when used in a derivative or collective
-              they don't like, copyright laws in most jurisdictions
-              around the world (with the notable exception of the US
-              except in very limited circumstances) grant creators
-              "moral rights" which may provide some redress if a
-              derivative work represents a "derogatory treatment" of
-              the licensor's work.</p>
+              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
 
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
 
@@ -611,9 +587,7 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">
-              What are "Publicity Rights"?
-            </div>
+            <div class="hd">What are "Publicity Rights"?</div>
             <div class="bd">
               <p>Publicity
               rights allow individuals to control how their voice,
@@ -639,16 +613,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
-	      <div class="bd">
-		
-  	      </div>
+	      <div class="hd">Αποποίηση</div>
+	      <div class="bd"><p>
+Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
+</p>
+
+<p>
+Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίε. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
+</p></div>
 	    </div>
 	  
 
@@ -669,8 +643,7 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc&amp;jurisdiction=hk&amp;version=3.0&amp;lang=el">
-      Use this license for your own work.</a>
+         href="/license/results-one?license_code=by-nc&amp;jurisdiction=hk&amp;version=3.0&amp;lang=el">Use this license for your own work.</a>
       
     </p>
 
