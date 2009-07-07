@@ -183,12 +183,6 @@
 
           <h2>License Properties</h2>
 
-          <div id="license" about="#license" typeof="rdf:Property">
-              <h4>cc:license</h4>
-              A <a rel="rdfs:domain" href="#Work">Work</a> <span property="rdfs:label">has license</span> a <a rel="rdfs:range" href="#License">License</a>. <br />
-              (a <a rel="rdfs:subPropertyOf" href="http://purl.org/dc/terms/license">subproperty of dc:license</a>, <a rel="owl:sameAs" href="http://www.w3.org/1999/xhtml/vocab#license">the same as xhtml:license</a>)
-          </div>
-
           <div id="permits" about="#permits" typeof="rdf:Property">
               <h4>cc:permits</h4>
               A <a rel="rdfs:domain" href="#License">License</a> <span property="rdfs:label">permits</span> a <a rel="rdfs:range" href="#Permission">Permission</a>.
@@ -202,28 +196,6 @@
           <div id="prohibits" about="#prohibits" typeof="rdf:Property">
               <h4>cc:prohibits</h4>
               A <a rel="rdfs:domain" href="#License">License</a> <span property="rdfs:label">prohibits</span> a <a rel="rdfs:range" href="#Prohibition">Prohibition</a>.
-          </div>
-
-          <h2>Work Properties</h2>
-
-          <div id="morePermissions" about="#morePermissions" typeof="rdf:Property">
-            <h4>cc:morePermissions</h4>
-            The <a rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Resource">
-              URL</a> where additional permissions or alternative licenses for a
-            <a rel="rdfs:domain" href="#Work">Work</a> are available.
-          </div>
-
-          <div id="attributionName" about="#attributionName" typeof="rdf:Property">
-            <h4>cc:attributionName</h4>
-            The name the creator of a <a rel="rdfs:domain" href="#Work">Work</a> would
-            like used when attributing re-use.
-          </div>
-
-          <div id="attributionURL" about="#attributionURL" typeof="rdf:Property">
-            <h4>cc:attributionURL</h4>
-            The <a rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Resource">
-              URL</a> the creator of a <a rel="rdfs:domain" href="#Work">Work</a> would
-            like used when attributing re-use.
           </div>
 
           <div id="jurisdiction" about="#jurisdiction" typeof="rdf:Property">
@@ -246,6 +218,34 @@
             provides the <a rel="rdfs:range" 
           	  href="http://www.w3.org/2001/XMLSchema-datatypes#date">date</a> 
             <span property="rdfs:label">deprecated on</span>.
+          </div>
+
+
+          <h2>Work Properties</h2>
+
+          <div id="license" about="#license" typeof="rdf:Property">
+              <h4>cc:license</h4>
+              A <a rel="rdfs:domain" href="#Work">Work</a> <span property="rdfs:label">has license</span> a <a rel="rdfs:range" href="#License">License</a>. <br />
+              (a <a rel="rdfs:subPropertyOf" href="http://purl.org/dc/terms/license">subproperty of dc:license</a>, <a rel="owl:sameAs" href="http://www.w3.org/1999/xhtml/vocab#license">the same as xhtml:license</a>)
+          </div>
+
+          <div id="morePermissions" about="#morePermissions" typeof="rdf:Property">
+            <h4>cc:morePermissions</h4>
+            The <a rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Resource">
+              URL</a> where additional permissions or alternative licenses for a
+            <a rel="rdfs:domain" href="#Work">Work</a> are available.
+          </div>
+
+          <div id="attributionName" about="#attributionName" typeof="rdf:Property">
+            <h4>cc:attributionName</h4>
+            The <span rel="rdfs:range" resource="http://www.w3.org/2000/01/rdf-schema#Literal">name the creator</span> of a <a rel="rdfs:domain" href="#Work">Work</a> would like used when attributing re-use.
+          </div>
+
+          <div id="attributionURL" about="#attributionURL" typeof="rdf:Property">
+            <h4>cc:attributionURL</h4>
+            The <a rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Resource">
+              URL</a> the creator of a <a rel="rdfs:domain" href="#Work">Work</a> would
+            like used when attributing re-use.
           </div>
 
 
