@@ -124,6 +124,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -433,7 +439,7 @@ setCookie('lang','%s', expiry, '/');
 
 
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">Es ist Ihnen gestattet:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">Sie dürfen:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution">das Werk bzw. den Inhalt zu vervielfältigen, zu verbreiten und öffentlich zugänglich zu machen</li>
@@ -508,7 +514,7 @@ setCookie('lang','%s', expiry, '/');
             <li class="license">
 	      <strong>Verzichtserklärung</strong>
 	      &mdash;
-	      Jede der vorgenannten Bedingungen kann <a href="#" id="waived" class="helpLink">aufgehoben</a> werden, sofern Sie die Einwilligung des Rechteinhabers dazu erhalten.
+	      Jede der vorgenannten Bedingungen kann <a href="#" id="waived" class="helpLink">aufgehoben</a> werden, sofern Sie die ausdrückliche Einwilligung des Rechteinhabers dazu erhalten.
 	    </li>
 	      
 	    <li class="license">
