@@ -388,7 +388,7 @@ setCookie('lang','%s', expiry, '/');
   <div id="libre">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="This license is acceptable for Free Cultural Works." />
+           alt="Diese Lizenz ist geeignet für freie kulturelle Werke bzw. Inhalte" />
     </a>
   </div>
 
@@ -399,12 +399,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">Es ist Ihnen gestattet:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">Sie dürfen:</h3>
 		      <ul>
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution">das Werk vervielfältigen, verbreiten und öffentlich zugänglich machen</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks">Abwandlungen bzw. Bearbeitungen des Inhaltes anfertigen</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks">Abwandlungen und Bearbeitungen des Werkes bzw. Inhaltes anzufertigen</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
@@ -441,13 +441,43 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Im Falle einer Verbreitung müssen Sie anderen die Lizenzbedingungen, unter welche dieses Werk fällt, mitteilen. Am Einfachsten ist es, einen Link auf diese Seite einzubinden.</li>
-            <li>Jede der vorgenannten Bedingungen kann aufgehoben werden, sofern Sie die Einwilligung des Rechteinhabers dazu erhalten.</li>
-            
-            <li>Diese Lizenz lässt die Urheberpersönlichkeitsrechte unberührt.</li>
-            
-            
+
+	  </ul>
+	</div>
+	<div id="deed-understanding">
+	  <h3>Wobei gilt:</h3>
+
+	  <ul class="understanding license-properties">
+            <li class="license">
+	      <strong>Verzichtserklärung</strong>
+	      &mdash;
+	      Jede der vorgenannten Bedingungen kann <a href="#" id="waived" class="helpLink">aufgehoben</a> werden, sofern Sie die ausdrückliche Einwilligung des Rechteinhabers dazu erhalten.
+	    </li>
+	      
+	    <li class="license">
+	      <strong>Sonstige Rechte</strong>
+	      &mdash; 
+	      Die Lizenz hat keinerlei Einfluss auf die folgenden Rechte:
+	     
+	      <ul>
+
+		<li>Die gesetzlichen Schranken des Urheberrechts und sonstigen Befugnisse zur privaten Nutzung;</li>
+
+		
+		  <li>Das Urheberpersönlichkeitsrecht des Rechteinhabers;</li>
+		
+		
+
+		<li>Rechte anderer Personen, entweder am Lizenzgegenstand selber oder bezüglich seiner Verwendung, zum Beispiel Persönlichkeitsrechte abgebildteter Personen.</li>
+	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Hinweis</strong>
+	      &mdash;
+	      Im Falle einer Verbreitung müssen Sie anderen alle Lizenzbedingungen mitteilen, die für dieses Werk gelten. Am einfachsten ist es, an entsprechender Stelle einen Link auf diese Seite einzubinden.
+	    </li>
+
           </ul>
 
           

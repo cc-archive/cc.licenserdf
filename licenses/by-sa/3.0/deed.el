@@ -123,6 +123,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.de" title="Deutsch" hreflang="de"
+   rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
 <a href="./deed.el" title="Ελληνικά" hreflang="el"
    rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
