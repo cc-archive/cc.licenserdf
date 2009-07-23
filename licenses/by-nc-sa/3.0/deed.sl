@@ -96,6 +96,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.ar" title="العربية" hreflang="ar"
+   rel="alternate nofollow" xml:lang="ar">العربية</a>
+
+
+
+
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -122,6 +128,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -641,7 +653,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=-&amp;version=3.0&amp;lang=sl">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by-nc-sa&amp;jurisdiction=-&amp;version=3.0&amp;lang=sl">Use this license for your own work.</a>
       
     </p>
 
