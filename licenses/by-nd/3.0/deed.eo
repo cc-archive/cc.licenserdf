@@ -460,7 +460,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Atribuo</strong> &mdash;
+	      <p><strong>Atribuite</strong> &mdash;
 		<span id="attribution-container">Vi devas atribui la verkon tiel, kiel specifis la aŭtoro aŭ permesinto (sed ne en maniero implicanta, ke ili subtenas vin, vian laboron aŭ verkon).</span>
 		
 		<span id="by-more-container" />
@@ -488,7 +488,7 @@ setCookie('lang','%s', expiry, '/');
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>Neniaj Ŝanĝoj</strong> &mdash;
+	      <p><strong>Neŝanĝite</strong> &mdash;
 		
 		<span>Vi ne rajtas aliigi la verkon, nek krei devenaĵojn bazitajn sur ĝi.</span>
 		<span id="nd-more-container" />
@@ -555,8 +555,8 @@ setCookie('lang','%s', expiry, '/');
 de la verkoj protektataj de la aŭtorrajta leĝaro eĉ sen
 permeso. La permesiloj Creative Commons ne influas
 la rajtojn de la uzantoj, bazitajn sur ĉi tiuj
-aŭtorrajtaj limigoj kaj esceptoj, same kiel la Justan
-Uzon, kie ili estas aplikeblaj.</p>
+aŭtorrajtaj limigoj kaj esceptoj, same kiel la justan
+uzon, kie ili estas aplikeblaj.</p>
 
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Pliaj informoj</a>.</p>
             </div>
