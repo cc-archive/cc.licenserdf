@@ -4,7 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-      Atribuo-Nekomerca Uzo-Samkondiĉa Distribuo 3.0 Hispanujo
+      Atribuite-Nekomerce-Samkondiĉe 3.0 Hispanujo
     </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -430,7 +430,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Atribuo-Nekomerca Uzo-Samkondiĉa Distribuo 3.0 Hispanujo</h2>
+	        <h2 property="dc:title">Atribuite-Nekomerce-Samkondiĉe 3.0 Hispanujo</h2>
         </div>
       </div>
 
