@@ -454,9 +454,9 @@ setCookie('lang','%s', expiry, '/');
     resource="http://creativecommons.org/ns#Reproduction">Sie dürfen:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution">das Werk bzw. den Inhalt zu vervielfältigen, zu verbreiten und öffentlich zugänglich zu machen</li>
+       resource="http://creativecommons.org/ns#Distribution">das Werk bzw. den Inhalt vervielfältigen, verbreiten und öffentlich zugänglich machen</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks">Abwandlungen und Bearbeitungen des Werkes bzw. Inhaltes anzufertigen</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks">Abwandlungen und Bearbeitungen des Werkes bzw. Inhaltes anfertigen</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
@@ -534,7 +534,7 @@ setCookie('lang','%s', expiry, '/');
 		
 		
 
-		<li>Rechte anderer Personen, entweder am Lizenzgegenstand selber oder bezüglich seiner Verwendung, zum Beispiel Persönlichkeitsrechte abgebildteter Personen.</li>
+		<li>Rechte anderer Personen, entweder am Lizenzgegenstand selber oder bezüglich seiner Verwendung, zum Beispiel Persönlichkeitsrechte abgebildeter Personen.</li>
 	      </ul>
 	    </li>
 
