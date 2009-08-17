@@ -74,13 +74,19 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div id="languages">
-<span style="text-align:left" dir="ltr">Tiu ĉi paĝo estas havebla en la jenaj lingvoj:</span>
+<span style="text-align:left" dir="ltr">Ĉi tiu paĝo estas disponebla en la jenaj lingvoj:</span>
 <br />
 
 
 
 <a href="./deed.af" title="Afrikaans" hreflang="af"
    rel="alternate nofollow" xml:lang="af">Afrikaans</a>
+
+
+
+
+<a href="./deed.ar" title="العربية" hreflang="ar"
+   rel="alternate nofollow" xml:lang="ar">العربية</a>
 
 
 
@@ -111,6 +117,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -422,36 +434,31 @@ setCookie('lang','%s', expiry, '/');
 
         
 
-		      <h3></h3>
+		      <h3>Vi rajtas:</h3>
 		      <ul class="license-properties">
-    				<li class="license samplingplus"></li>
+    				<li class="license samplingplus">Krei specimenojn, dispartigi aŭ kree transformi ĉi tiun verkon por nekomercaj celoj.</li>
     				
-    				<li class="license samplingplus">Prezenti antaŭ publiko, montri kaj distribui kopiojn de tiu ĉi tuta verko por nekomercaj celoj (ekz. dosiero-interŝanĝo aŭ nekomerca reta distribuado).</li>
+    				<li class="license samplingplus">Efektivigi, aperigi kaj distribui kopiojn de la kompleta verko por nekomercaj celoj (ekz. dosiera kunhavigo aŭ nekomerca retelsendo).</li>
 		      </ul>
  
 
         </div>
         <div id="deed-conditions">
 
-		      <h3>Laŭ jenaj kondiĉoj:</h3>
+		      <h3>Laŭ la jenaj kondiĉoj:</h3>
 	        <ul class="license-properties"
              style="text-align:left" dir="ltr">
-    				<li class="license by"><%=[ccommons::istr $lang char.by_brief]%></li>
-    				<li>Vi ne rajtas uzi ĉi tiun verkon por promocii ion ajn krom la verko, kiun vi kreis surbaze de ĝi.</li>
-    				<li></li>
+    				<li class="license by">Vi devas atribui la verkon tiel, kiel specifis la aŭtoro aŭ permesinto (sed ne en maniero implicanta, ke ili subtenas vin, vian laboron aŭ verkon).</li>
+    				<li>Vi ne rajtas uzi ĉi tiun verkon por reklami aŭ propagandi ion ajn krom la verkon, kiun vi surbaze de ĝi kreas.</li>
+    				<li>Por iu ajn reuzo aŭ distribuo, vi devas klarigi al la aliuloj la nociojn de la permesilo por ĉi tiu verko. Ideale per ligilo al ĉi tiu retpaĝo.</li>
     				
     				
 	    <li>In no way are any of the following rights affected by
 	      the above:
 	     
 	      <ul>
-		<li>Your fair use rights.
-		</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>Vian rajton por <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">justa uzo</a>;</li>
+		<li>Eventualajn rajtojn de aliuloj aŭ por la verko mem aŭ por maniero de ties uzo, ekzemple <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">rajtojn por protekto de persono</a> kaj ties privateco.</li>
 	      </ul>
 	    </li>
 
@@ -470,16 +477,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
-	      <div class="bd">
-		
-  	      </div>
+	      <div class="hd">Malgarantio</div>
+	      <div class="bd"><p>
+La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin kiel afablan interfacon por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la vera permesilo.
+</p>
+
+<p>
+Creative Commons ne estas advokata firmao kaj ne provizas jurajn servojn. Distribuado, aperigado aŭ ligado al la Popola Resumo kreas nenian rilaton de advokato kaj kliento.
+</p></div>
 	    </div>
 	  
 
@@ -491,7 +498,7 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Tio ĉi estas facile legebla resumo de la  <a href="legalcode" class="fulltext">leĝa dokumento (la plena permesilo)</a>.
+    Ĉi tio estas facile komprenebla resumo de la <a href="legalcode" class="fulltext">Jura Teksto (plena permesilo)</a>.
  </p>
 
          
@@ -500,8 +507,7 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=eo">
-      Use this license for your own work.</a>
+         href="/choose/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=eo">Uzu la permesilon por via propra verko.</a>
       
     </p>
 

@@ -4,7 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-      Atribuo 1.0 Ĝenerale
+      Atribuite 1.0 Ĝenerala
     </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -83,13 +83,19 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div id="languages">
-<span style="text-align:left" dir="ltr">Tiu ĉi paĝo estas havebla en la jenaj lingvoj:</span>
+<span style="text-align:left" dir="ltr">Ĉi tiu paĝo estas disponebla en la jenaj lingvoj:</span>
 <br />
 
 
 
 <a href="./deed.af" title="Afrikaans" hreflang="af"
    rel="alternate nofollow" xml:lang="af">Afrikaans</a>
+
+
+
+
+<a href="./deed.ar" title="العربية" hreflang="ar"
+   rel="alternate nofollow" xml:lang="ar">العربية</a>
 
 
 
@@ -120,6 +126,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -416,7 +428,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Atribuo 1.0 Ĝenerale</h2>
+	        <h2 property="dc:title">Atribuite 1.0 Ĝenerala</h2>
         </div>
       </div>
 
@@ -427,7 +439,7 @@ setCookie('lang','%s', expiry, '/');
   <div id="libre">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="This license is acceptable for Free Cultural Works." />
+           alt="La permesilo estas akceptebla por la Liberaj Kulturaj Verkoj." />
     </a>
   </div>
 
@@ -438,53 +450,44 @@ setCookie('lang','%s', expiry, '/');
 
 
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">Vi rajtas:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"></li>
+       resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj transdoni la verkon</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Aliigi</strong>&nbsp;— ŝanĝi, adapti, kompletigi, transformi, uzi tutan verkon aŭ ties partojn, memstare aŭ en aliaj verkoj</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
         <div id="deed-conditions">
-	  <h3>Laŭ jenaj kondiĉoj:</h3>
+	  <h3>Laŭ la jenaj kondiĉoj:</h3>
 
 	  <ul class="license-properties" style="text-align:left"
        dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Atribuo</strong> &mdash;
-		<span id="attribution-container">char.by_brief</span>
+	      <p><strong>Atribuite</strong> &mdash;
+		<span id="attribution-container">Vi devas atribui la verkon tiel, kiel specifis la aŭtoro aŭ permesinto (sed ne en maniero implicanta, ke ili subtenas vin, vian laboron aŭ verkon).</span>
 		
 		<span id="by-more-container" />
 	      </p>
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>Atribui ĉi tiun verkon:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden" value="CC BY 1.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by/1.0/" />
 		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
-         alt="Information" />
+         alt="Informaro" />
 		</a>
 		</p>
 		<div id="help_attribution_help" class="help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="hd">Kion signifas "Atribui la verkon"?</div>
+		  <div class="bd">La paĝo el kiu vi venas enhavis enkorpigitajn permesilajn metadatenojn, inkluzivantajn ankaŭ kian atribuon la kreinto deziras por reuzoj. Vi povas uzi tiun HTML ĉi tie por citi la verkon, kio aldonos metadatenojn en vian paĝon, tiel ke ankaŭ la aliuloj povos trovi la originan verkon.</div>
 		</div>
 
 	      
@@ -494,129 +497,85 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>
-	    With the understanding that:
-	  </h3>
+	  <h3>Konsiderante ke:</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Waiver</strong>
+	      <strong>Rezigno</strong>
 	      &mdash;
-	      
-		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
-		permission from the copyright holder.
-	      
+	      La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> iun ajn el la ĉi-antaŭaj kondiĉoj.
 	    </li>
 	      
 	    <li class="license">
-	      <strong>Other Rights</strong>
+	      <strong>Aliaj rajtoj</strong>
 	      &mdash; 
-	      In no way are
-		    any of the following rights affected by the
-		    license:
+	      La permesilo neniel influas la jenajn rajtojn:
 	     
 	      <ul>
 
-		<li>Your fair dealing
-		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights;
-		</li>
+		<li>Vian rajton por <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">justa uzo</a>;</li>
 
 		
-		  <li>
-		    The author's <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">moral</a> rights;
-		  </li>
+		  <li>La <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">moralajn rajtojn</a> de la aŭtoro;</li>
 		
 		
 
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as 
-		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
-		</li>
+		<li>Eventualajn rajtojn de aliuloj aŭ por la verko mem aŭ por maniero de ties uzo, ekzemple <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">rajtojn por protekto de persono</a> kaj ties privateco.</li>
 	      </ul>
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-	      <strong>Notice</strong>
+	      <strong>Atentigo</strong>
 	      &mdash;
-	      
-		For any reuse or
-		distribution, you must make clear to others the license
-		terms of this work. The best way to do this is with a
-		link to this web page.
-	      
+	      Por iu ajn reuzo aŭ distribuo, vi devas klarigi al la aliuloj la nociojn de la permesilo por ĉi tiu verko. Ideale per ligilo al ĉi tiu retpaĝo.
 	    </li>
 
           </ul>
 
           <div id="deed-newer">
-    	      <p>
-              http://creativecommons.org/licenses/by/3.0/
-            </p>
+    	      <p><a href="http://creativecommons.org/licenses/by/3.0/">Nova versio</a> de ĉi tiu permesilo estas disponebla. Estas rekomeninde uzi ĝin por novaj verkoj kaj eventuale ankaŭ por verkoj jam antaŭe disponebligitaj laŭ iu antaŭa versio de la permesilo. Por neniu verko la nova versio <em>aŭtomate</em> ekvalidos.</p>
           </div>
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">
-              What does "conditions can be waived" mean?
-            </div>
+            <div class="hd">Kion signifas "la kondiĉoj estas rezigneblaj"?</div>
             <div class="bd">
-              <p>
-		CC licenses anticipate that a licensor may want to
-		waive compliance with a specific condition, such as
-		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+              <p>La permesiloj Creative Commons anticipas, ke la permesinto
+		iam povas konsenti kun rezigno pri iu kondiĉo,
+		ekzemple pri la atribuo.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Pliaj informoj</a>.</p>
             </div>
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">
-              What does "Fair use" mean?
-            </div>
+            <div class="hd">Kion signifas la "justa uzo"?</div>
             <div class="bd">
-              <p>All jurisdictions
-              allow some limited uses of copyrighted material without
-              permission.  CC licenses do not affect the rights of
-              users under those copyright limitations and exceptions,
-              such as fair use and fair dealing where applicable.</p>
+              <p>Ĉiuj jurisdikcioj permesas iaspecan limigitan uzon
+de la verkoj protektataj de la aŭtorrajta leĝaro eĉ sen
+permeso. La permesiloj Creative Commons ne influas
+la rajtojn de la uzantoj, bazitajn sur ĉi tiuj
+aŭtorrajtaj limigoj kaj esceptoj, same kiel la justan
+uzon, kie ili estas aplikeblaj.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Pliaj informoj</a>.</p>
             </div>
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">
-              What are "Moral Rights"?
-            </div>
+            <div class="hd">Kio estas la "Moralaj Rajtoj"?</div>
             <div class="bd">
-              <p>In addition to
-              the right of licensors to request removal of their name
-              from the work when used in a derivative or collective
-              they don't like, copyright laws in most jurisdictions
-              around the world (with the notable exception of the US
-              except in very limited circumstances) grant creators
-              "moral rights" which may provide some redress if a
-              derivative work represents a "derogatory treatment" of
-              the licensor's work.</p>
+              <p>Aldone al la rajto de la permesintoj pretendi forigon de sia nomo el la verko, se ĝi estas uzata en devena aŭ kolekta verko kiun ili ne ŝatas, la aŭtorrajta leĝaro en plimulto da jurisdikcioj de la mondo (kun notinda escepto de Usono, kiu ebligas tion nur en tre limigitaj cirkonstancoj) donas al la aŭtoroj la "Moralajn Rajtojn", kiuj povas iom kompensi damaĝon, se la devenaĵo prezentas fiegan prilaboron de la origina verko.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Pliaj informoj</a>.</p>
 
             </div>
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">
-              What are "Publicity Rights"?
-            </div>
+            <div class="hd">Kio estas la "publikigaj rajtoj"?</div>
             <div class="bd">
-              <p>Publicity
-              rights allow individuals to control how their voice,
-              image or likeness is used for commercial purposes in
-              public.  If a CC-licensed work includes the voice or
-              image of anyone other than the licensor, a user of the
-              work may need to get permission from those individuals
-              before using the work for commercial purposes.</p>
+              <p>Publikigaj rajtoj ebligas al unuopulo kontroli, kiel lia voĉo, bildo ks. estas uzataj publike por komercaj celoj. Se la verko liberigita laŭ permesilo Creative Commons enhavas voĉon aŭ bildon de alia persono ol estas la permesinto, la uzanto de la verko verŝajne bezonos akiri permeson ankaŭ de tiu persono antaŭ uzo de la verko por komercaj celoj.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Pliaj informoj</a>.</p>
             </div>
           </div>
 	  
@@ -632,16 +591,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
-	      <div class="bd">
-		
-  	      </div>
+	      <div class="hd">Malgarantio</div>
+	      <div class="bd"><p>
+La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin kiel afablan interfacon por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la vera permesilo.
+</p>
+
+<p>
+Creative Commons ne estas advokata firmao kaj ne provizas jurajn servojn. Distribuado, aperigado aŭ ligado al la Popola Resumo kreas nenian rilaton de advokato kaj kliento.
+</p></div>
 	    </div>
 	  
 
@@ -653,7 +612,7 @@ setCookie('lang','%s', expiry, '/');
 
     
 
-    Tio ĉi estas facile legebla resumo de la  <a href="legalcode" class="fulltext">leĝa dokumento (la plena permesilo)</a>.
+    Ĉi tio estas facile komprenebla resumo de la <a href="legalcode" class="fulltext">Jura Teksto (plena permesilo)</a>.
  </p>
 
          
@@ -662,8 +621,7 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by&amp;jurisdiction=-&amp;version=1.0&amp;lang=eo">
-      Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by&amp;jurisdiction=-&amp;version=1.0&amp;lang=eo">Uzu la permesilon por via propra verko.</a>
       
     </p>
 
