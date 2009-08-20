@@ -120,6 +120,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -421,8 +427,7 @@ setCookie('lang','%s', expiry, '/');
 
           
     <div id="deed-rights" style="text-align:left" dir="ltr">
-      <h3 rel="cc:permits"
-          resource="http://creativecommons.org/ns#Reproduction">Sense drets d'explotació</h3>
+      <h3>Sense drets d'explotació</h3>
       <div id="librepd">
 	<a href="http://freedomdefined.org/">
 	  <img src="/images/deed/seal.png" border="0"
@@ -431,8 +436,8 @@ setCookie('lang','%s', expiry, '/');
       </div>
       <ul class="license-properties">
 	<li class="license nolaw">
-	  <span id="nolaw-text" rel="cc:permits"
-         resource="http://creativecommons.org/ns#Distribution">The person who associated a work with this document has dedicated this work to the Commons by waiving all of his or her rights to the work under copyright law and all related or neighboring legal rights he or she had in the work, to the extent allowable by law.</span>
+	  <p id="nolaw-text" style="margin-bottom:1em;">The person who associated a work with this document has dedicated the work to the Commons by waiving all of his or her rights to the work worldwide under copyright law and all related or neighboring legal rights he or she had in the work, to the extent allowable by law.</p>
+	  <p>Works under CC0 do not require attribution.  When citing the work, you should not imply endorsement by the author.</p>
 	</li>
 	<p id="work-attribution-container" style="display:none;">
 	  <strong>Atribuiu aquesta obra a:</strong><br />
@@ -475,6 +480,11 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <span id="referrer-metadata-container" />
+
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Reproduction"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#DerivativeWorks"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Distribution"></span>
+
   
        </div>
       </div>
@@ -485,18 +495,17 @@ setCookie('lang','%s', expiry, '/');
 	    <a href="" id="disclaimer" class="helpLink">Advertiment</a>
 	    <div id="help_disclaimer">
 	      <div class="hd">Advertiment</div>
-	      <div class="bd"><p>The Commons Deed is not a legal instrument. It is simply a
-		handy reference for understanding the CC0 Legal Code,
-		a human-readable expression of some of its key
-		terms. Think of it as the user-friendly interface to
-		the CC0 Legal Code beneath. This Deed itself has no
-		legal value, and its contents do not appear in
-		CC0.</p>
+	      <div class="bd"><p>El Commons Deed no és un instrument legal. Simplement és 
+		 una referència útil per entendre el codi legal de CC0,
+		 una explicació fàcilment entendible dels principals termes.
+		 Penseu que és la interfície amicable del codi legal de CC0
+		 que es troba a l'interior. Aquest resum per si sol no té
+		 valor legal i el seu contingut no apareix  en n		CC0.</p>
 
-		<p>Creative Commons is not a law firm and does not
-		  provide legal services. Distributing, displaying, 
-		  or linking to this Commons Deed does not create an
-		  attorney-client relationship.</p></div>
+		<p>Creative Commons no é sun bufet d'advocats i no ofereix
+		 serveis jurídics. La distribució, la comunicació o 
+		 l'enllaç a aquest Commons Deed no crea cap
+		 relació advocat-client.</p></div>
 	  </div>
 
   	<p style="text-align:center">Aquest és el resum fàcilment llegible del <a href="./legalcode">Codi Legal (llegiu-ne el text complet)</a></p>
@@ -506,7 +515,7 @@ setCookie('lang','%s', expiry, '/');
     </div>
     <p id="footer">
       
-  <a id="get_this" href="/license/zero/">Utilitza aquesta eina per a una obra pròpia</a>
+  <a id="get_this" href="/choose/zero/">Utilitza aquesta eina per a una obra pròpia</a>
 
     </p>
 

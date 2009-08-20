@@ -120,6 +120,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -421,27 +427,26 @@ setCookie('lang','%s', expiry, '/');
 
           
     <div id="deed-rights" style="text-align:left" dir="ltr">
-      <h3 rel="cc:permits"
-          resource="http://creativecommons.org/ns#Reproduction">No Copyright</h3>
+      <h3>Δεν υπάρχουν πνευματικά δικαιώματα</h3>
       <div id="librepd">
 	<a href="http://freedomdefined.org/">
 	  <img src="/images/deed/seal.png" border="0"
-        alt="This license is acceptable for Free Cultural Works." />
+        alt="Αυτή η άδεια είναι αποδεκτή για Ελεύθερες Εργασίες Πνευματικής Καλλιέργειας." />
 	</a>
       </div>
       <ul class="license-properties">
 	<li class="license nolaw">
-	  <span id="nolaw-text" rel="cc:permits"
-         resource="http://creativecommons.org/ns#Distribution">
+	  <p id="nolaw-text" style="margin-bottom:1em;">
             The person who associated a work with this document
-            has dedicated this work to the Commons by waiving all
-            of his or her rights to the work under copyright law
+            has dedicated the work to the Commons by waiving all
+            of his or her rights to the work worldwide under copyright law
             and all related or neighboring legal rights he or she
             had in the work, to the extent allowable by law.  
-	  </span>
+	  </p>
+	  <p>Works under CC0 do not require attribution.  When citing the work, you should not imply endorsement by the author.</p>
 	</li>
 	<p id="work-attribution-container" style="display:none;">
-	  <strong>Attribute this work:</strong><br />
+	  <strong>Χαρακτήρισε αυτή την εργασία:</strong><br />
 	  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 	  <input id="license-code" type="hidden"
           value="CC ZERO 1.0" />
@@ -449,7 +454,7 @@ setCookie('lang','%s', expiry, '/');
           value="http://creativecommons.org/publicdomain/zero/1.0/" />
 	  <a href="" id="attribution_help">
 	    <img src="http://creativecommons.org/@@/cc/images/information.png"
-          alt="Information" />
+          alt="Πληροφορία" />
 	  </a>
 	</p>
       </ul>
@@ -458,43 +463,34 @@ setCookie('lang','%s', expiry, '/');
       <ul class="license-properties">
 
 	<li class="license">
-	  <strong>Other Rights</strong>
+	  <strong>Άλλα δικαιώματα</strong>
 	  &mdash; 
-	  
-	    In no way are any of the following rights affected by CC0:
+	  Σε καμία περίπτωση δεν επηρεάζονται τα παρακάτω δικαιώματα από το CC0:
 	  <ul>
-	    <li>Patent or trademark rights held by the person who associated this document with a work.</li>
-	    <li>Rights other
-	      persons may have either in the work itself or in how the
-	      work is used, such
-	      as <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">publicity</a> or privacy
-	      rights.
-	    </li>
+	    <li>Δικαιώματα ευρεσιτεχνίας ή σήματος κατατεθέν κατέχονται από το άτομο που συσχέτισε αυτό το έγγραφο με την εργασία.</li>
+	    <li>Μπορεί να υπάρχουν δικαιώματα άλλων ατόμων  είτε στην εργασία καθαυτή ή πως χρησιμοποιείται, όπως <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">δημοσιότητα</a> ή δικαιώματα απορρήτου.</li>
 	  </ul>
 	</li>
 
       </ul>
 
       <div id="help_publicity_rights">
-        <div class="hd">
-          What are "Publicity Rights"?
-        </div>
+        <div class="hd">Τι είναι τα "Δικαιώματα δημοσιότητας";</div>
         <div class="bd">
-          <p>Publicity
-          rights allow individuals to control how their voice, image
-          or likeness is used for commercial purposes in public.  If a
-          work under CC0 includes the voice or image of anyone other
-          than the affirmer, a user of the work may need to get
-          permission from those individuals before using the work for
-          commercial purposes.</p>
+          <p>Τα δικαιώματα δημοσιότητας επιτρέπουν στα άτομα να ελέγχουν πώς η φωνή τους, η εικόνα ή η ομοιότητα τους χρησιμοποιείται για εμπορικούς σκοπούς στο κοινό. Εάν ένα έργο υπό CC0 περιλαμβάνει τη φωνή ή την εικόνα κάποιου άλλου άλλο εκτός από τον επιβεβαιωτή , ο χρήστης της εργασίας μπορεί να χρειαστεί να πάρει την άδεια από τα άτομα που χρησιμοποιούν την εργασία για εμπορικούς σκοπούς.</p>
 
-          <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+          <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Μάθετε περισσότερα</a>.</p>
         </div>
       </div>
 
     </div>
 
     <span id="referrer-metadata-container" />
+
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Reproduction"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#DerivativeWorks"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Distribution"></span>
+
   
        </div>
       </div>
@@ -505,35 +501,28 @@ setCookie('lang','%s', expiry, '/');
 	    <a href="" id="disclaimer" class="helpLink">Αποποίηση</a>
 	    <div id="help_disclaimer">
 	      <div class="hd">Αποποίηση</div>
-	      <div class="bd">
-		<p>The Commons Deed is not a legal instrument. It is simply a
-		handy reference for understanding the CC0 Legal Code,
-		a human-readable expression of some of its key
-		terms. Think of it as the user-friendly interface to
-		the CC0 Legal Code beneath. This Deed itself has no
-		legal value, and its contents do not appear in
+	      <div class="bd"><p>Η πράξη των Κοινών δεν είναι ένα νομικό εργαλείο. Είναι απλά μία
+		χρήσιμη αναφορά για κατανόηση του νομικού κώδικα του CC0,
+		μία ανθρώπινα αναγνώσιμη έκφραση ορισμένων από τους βασικούς της
+		όρους. Σκεφτείτε το σαν μία φιλική διεπαφή προς τον χρήστη στο
+		κάτωθεν του νομικού κώδικα του CC0. Αυτή η πράξη από μόνη της δεν έχει
+		νομική αξία και τα περιεχόμενα της δεν εμφανίζονται στο
 		CC0.</p>
 
-		<p>Creative Commons is not a law firm and does not
-		  provide legal services. Distributing, displaying, 
-		  or linking to this Commons Deed does not create an
-		  attorney-client relationship.</p>
-
-  	      </div>
+		<p>Το Creative Commons δεν είναι δικηγορικό γραφείο και δεν 
+		  παρέχει νομικές υπηρεσίες. Διανομή, έκθεση, 
+		  ή σύνδεση σε αυτή τη πράξη των κοινών δεν δημιουργεί μία
+		  σχέση δικηγόρου-πελάτη.</p></div>
 	  </div>
 
-  	<p style="text-align:center">
-	  This is a human-readable summary of
-	  the <a href="./legalcode">Legal Code (read the full
-	  text)</a>.
-	</p>
+  	<p style="text-align:center">Αυτό είναι μία περίληψη σε μορφή που μπορεί να αναγνωστεί από κάποιον του <a href="./legalcode">Νομικού κώδικα (διαβάστε το πλήρες κείμενο)</a>.</p>
 
 
        </div>
     </div>
     <p id="footer">
       
-  <a id="get_this" href="/license/zero/">Use this tool for your own work.</a>
+  <a id="get_this" href="/choose/zero/">Χρησιμοποιήστε αυτό το εργαλείο για δικιά σας εργασία.</a>
 
     </p>
 

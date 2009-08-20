@@ -79,7 +79,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div id="languages">
-<span style="text-align:left" dir="ltr">Ова страна је доступна на следећим језицима: </span>
+<span style="text-align:left" dir="ltr">Tato stránka je k dispozici v následujících jazycích:</span>
 <br />
 
 
@@ -457,26 +457,21 @@ setCookie('lang','%s', expiry, '/');
       <ul class="license-properties">
 
 	<li class="license">
-	  <strong>Other Rights</strong>
+	  <strong>Další práva</strong>
 	  &mdash; 
 	  In no way are any of the following rights affected by CC0:
 	  <ul>
 	    <li>Patent or trademark rights held by the person who associated this document with a work.</li>
-	    <li>Rights other
-	      persons may have either in the work itself or in how the
-	      work is used, such
-	      as <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">publicity</a> or privacy
-	      rights.
-	    </li>
+	    <li>případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
 	  </ul>
 	</li>
 
       </ul>
 
       <div id="help_publicity_rights">
-        <div class="hd">What are "Publicity Rights"?</div>
+        <div class="hd">Co jsou "Práva na zveřejňování"?</div>
         <div class="bd">
-          <p>Publicity rights allow individuals to control how their voice, image or likeness is used for commercial purposes in public.  If a work under CC0 includes the voice or image of anyone other than the affirmer, a user of the work may need to get permission from those individuals before using the work for commercial purposes.</p>
+          <p>Práva ke zveřejnění dovolují jednotlivcům určit, jakým způsobem může být záznam jejich hlasu, fotografie a podobně zveřejňován za účelem komerčního využití na veřejnosti.</p>
 
           <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
         </div>
@@ -497,9 +492,9 @@ setCookie('lang','%s', expiry, '/');
       <div id="deed-foot">
         
 
-	    <a href="" id="disclaimer" class="helpLink">Изјава</a>
+	    <a href="" id="disclaimer" class="helpLink">Disclaimer</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Изјава</div>
+	      <div class="hd">Disclaimer</div>
 	      <div class="bd"><p>The Commons Deed is not a legal instrument. It is simply a
 		handy reference for understanding the CC0 Legal Code,
 		a human-readable expression of some of its key
