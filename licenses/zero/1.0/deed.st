@@ -120,6 +120,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -421,8 +427,7 @@ setCookie('lang','%s', expiry, '/');
 
           
     <div id="deed-rights" style="text-align:left" dir="ltr">
-      <h3 rel="cc:permits"
-          resource="http://creativecommons.org/ns#Reproduction">No Copyright</h3>
+      <h3>No Copyright</h3>
       <div id="librepd">
 	<a href="http://freedomdefined.org/">
 	  <img src="/images/deed/seal.png" border="0"
@@ -431,14 +436,17 @@ setCookie('lang','%s', expiry, '/');
       </div>
       <ul class="license-properties">
 	<li class="license nolaw">
-	  <span id="nolaw-text" rel="cc:permits"
-         resource="http://creativecommons.org/ns#Distribution">
+	  <p id="nolaw-text" style="margin-bottom:1em;">
             The person who associated a work with this document
-            has dedicated this work to the Commons by waiving all
-            of his or her rights to the work under copyright law
+            has dedicated the work to the Commons by waiving all
+            of his or her rights to the work worldwide under copyright law
             and all related or neighboring legal rights he or she
             had in the work, to the extent allowable by law.  
-	  </span>
+	  </p>
+	  <p>
+	    Works under CC0 do not require attribution.  When citing
+	    the work, you should not imply endorsement by the author.
+	  </p>
 	</li>
 	<p id="work-attribution-container" style="display:none;">
 	  <strong>Attribute this work:</strong><br />
@@ -495,6 +503,11 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <span id="referrer-metadata-container" />
+
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Reproduction"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#DerivativeWorks"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Distribution"></span>
+
   
        </div>
       </div>
@@ -533,7 +546,7 @@ setCookie('lang','%s', expiry, '/');
     </div>
     <p id="footer">
       
-  <a id="get_this" href="/license/zero/">Use this tool for your own work.</a>
+  <a id="get_this" href="/choose/zero/">Use this tool for your own work.</a>
 
     </p>
 
