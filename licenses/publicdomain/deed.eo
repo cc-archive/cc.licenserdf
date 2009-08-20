@@ -86,12 +86,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
-
-
-
-
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -420,7 +414,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
+	        <h2 property="dc:title" datatype="">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
 (bazita sur la Usona juro)<br />
 aŭ Deklaro pri Publikaĵo</h2>
         </div>
@@ -453,6 +447,10 @@ aŭ Deklaro pri Publikaĵo</h2>
     recommend <a href="/choose/zero/">CC0</a>.
   </div>
 </div>
+
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Reproduction"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#DerivativeWorks"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Distribution"></span>
 
 </div>
        </div>

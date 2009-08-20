@@ -4,8 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-    Copyright-Only Dedication (based on United States law) 
-or Public Domain Certification
+    Copyright-Only Dedication (basiert auf US-amerikanischem Recht) oder Public Domain Certification
   </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -112,6 +111,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -408,9 +413,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
-  (based on United States law)<br />
-  or Public Domain Certification</h2>
+	        <h2 property="dc:title" datatype="">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>(basierend auf US-Recht)<br />oder Public Domain Certification</h2>
         </div>
       </div>
 
@@ -421,7 +424,7 @@ setCookie('lang','%s', expiry, '/');
   <div id="librepd">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="This license is acceptable for Free Cultural Works." />
+           alt="Diese Lizenz ist geeignet für freie kulturelle Werke bzw. Inhalte" />
     </a>
   </div>
 
@@ -442,9 +445,13 @@ setCookie('lang','%s', expiry, '/');
   <div class="bd">
     This tool is based on United States law and may not be applicable
     outside the US. For dedicating new works to the public domain, we
-    recommend <a href="/license/zero/">CC0</a>.
+    recommend <a href="/choose/zero/">CC0</a>.
   </div>
 </div>
+
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Reproduction"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#DerivativeWorks"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Distribution"></span>
 
 </div>
        </div>
@@ -456,7 +463,7 @@ setCookie('lang','%s', expiry, '/');
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/license/publicdomain-2">Verwenden Sie dieses juristische Werkzeug doch auch für Ihre eigenen Werke bzw. Inhalte.</a>
+      <a id="get_this" href="/choose/publicdomain-2">Verwenden Sie dieses juristische Werkzeug doch auch für Ihre eigenen Werke.</a>
       
     </p>
 

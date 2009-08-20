@@ -4,10 +4,8 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-    
-      Copyright-Only Dedication (based on United States law) or Public
-      Domain Certification
-    
+    Πνευματικά δικαιώματα-Μόνο αφιέρωση (βασισμένο στο νόμο των ΗΠΑ) 
+ή πιστοποίηση δημόσιου τομέα
   </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -114,6 +112,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -410,11 +414,9 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">
-  Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
-  (based on United States law)<br />
-  or Public Domain Certification
-</h2>
+	        <h2 property="dc:title" datatype="">Πνευματικά δικαιώματα-Μόνο αφιέρωση<a href="#" class="helpLink" id="use_zero">*</a>
+  (βασισμένο στον νόμο των ΗΠΑ)<br />
+  ή στην πιστοποίηση δημόσιου τομέα</h2>
         </div>
       </div>
 
@@ -425,52 +427,30 @@ setCookie('lang','%s', expiry, '/');
   <div id="librepd">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="This license is acceptable for Free Cultural Works." />
+           alt="Αυτή η άδεια είναι αποδεκτή για Ελεύθερες Εργασίες Πνευματικής Καλλιέργειας." />
     </a>
   </div>
 
-  
-    <p>The person or persons who have associated work with this
-      document (the "Dedicator" or "Certifier") hereby either (a)
-      certifies that, to the best of his knowledge, the work of
-      authorship identified is in the public domain of the country
-      from which the work is published, or (b) hereby dedicates
-      whatever copyright the dedicators holds in the work of
-      authorship identified below (the "Work") to the public domain. A
-      certifier, moreover, dedicates any copyright interest he may
-      have in the associated work, and for these purposes, is
-      described as a "dedicator" below.</p>
+          <p>Το άτομο ή τα άτομα που έχουν συσχετίσει έργο με αυτό το αρχείο (αυτός που το προσφέρει ή πιστοποιεί) με το παρόν είτε (α) πιστοποιούν ότι, εν γνώσει τους, το έργο του οποίου η πατρότητα  εξακριβώθηκε, ανήκει στο δημόσιο τομέα της χώρας στην οποία αυτό δημοσιεύτηκε, είτε (β) προσφέρουν στο δημόσιο τομέα οποιοδήποτε δικαίωμα πνευματικής ιδιοκτησίας έχει ο προσφέρων το έργο, η πατρότητα του οποίου διαπιστώνεται παρακάτω. Αυτός που πιστοποιεί προσφέρει περαιτέρω οποιοδήποτε δικαίωμα επί των δικαιωμάτων πνευματικής ιδιοκτησίας  που τυχόν έχει με το έργο που σχετίζεται και για τους λόγους αυτούς περιγράφεται ως "αυτός που προσφέρει" παρακάτω.</p>
 
-    <p>A certifier has taken reasonable steps to verify the copyright
-      status of this work. Certifier recognizes that his good faith
-      efforts may not shield him from liability if in fact the work
-      certified is not in the public domain.</p>
+        <p>Αυτός που πιστοποιεί έχει κάνει τις απαραίτητες ενέργειες προκειμένου να εξακριβώσει το καθεστώς σχετικά με τα δικαιώματα πνευματικής ιδιοκτησίας στο έργο αυτό. Αυτός που πιστοποιεί αναγνωρίζει ότι όλες οι προσπάθειες που έκανε με καλή την πίστη δεν τον απαλλάσσουν από τυχόν ευθύνη σε περίπτωση που το έργο του οποίου η πατρότητα εξακριβώθηκε δεν ανήκει στο δημόσιο τομέα.</p>
 
-    <p>Dedicator makes this dedication for the benefit of the public
-      at large and to the detriment of the Dedicator's heirs and
-      successors.  Dedicator intends this dedication to be an overt
-      act of relinquishment in perpetuity of all present and future
-      rights under copyright law, whether vested or contingent, in the
-      Work. Dedicator understands that such relinquishment of all
-      rights includes the relinquishment of all rights to enforce (by
-      lawsuit or otherwise) those copyrights in the Work.</p>
+        <p>Αυτός που προσφέρει κάνει την προσφορά αυτή για το καλό του κοινού και σε βάρος των απογόνων και κληρονόμων του. Αυτός που προσφέρει έχει σκοπό να αποτελεί η προσφορά του μία απροκάλυπτη πράξη εκχώρησης στο διηνεκές όλων των τωρινών και μελλοντικών δικαιωμάτων πνευματικής ιδιοκτησίας κεκτημένων ή ενδεχόμενων να προκύψουν στο μέλλον επί του έργου.</p>
 
-    <p>Dedicator recognizes that, once placed in the public domain,
-      the Work may be freely reproduced, distributed, transmitted,
-      used, modified, built upon, or otherwise exploited by anyone for
-      any purpose, commercial or non-commercial, and in any way,
-      including by methods that have not yet been invented or
-      conceived.</p>
-  
+        <p>Αυτός που προσφέρει αναγνωρίζει ότι από τη στιγμή που το έργο θα εισέλθει στο δημόσιο τομέα, θα μπορεί ο καθένας ελεύθερα να το αναπαράγει, να το διανέμει, να το μεταδίδει, να το χρησιμοποιεί, να το τροποποιεί, να δημιουργεί παράγωγα έργα βασισμένα σε αυτό ή αλλιώς να το εκμεταλλεύεται ο καθένας για οποιονδήποτε σκοπό, εμπορικό ή μη εμπορικό, και με οποιονδήποτε τρόπο συμπεριλαμβανομένων και μεθόδων εκμετάλλευσης που δεν έχουν ακόμα εφευρεθεί ή συλληφθεί ως ιδέα.</p>
 
 <div id="help_use_zero">
   <div class="hd">CC0 for Public Domain Dedication</div>
   <div class="bd">
     This tool is based on United States law and may not be applicable
     outside the US. For dedicating new works to the public domain, we
-    recommend <a href="/license/zero/">CC0</a>.
+    recommend <a href="/choose/zero/">CC0</a>.
   </div>
 </div>
+
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Reproduction"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#DerivativeWorks"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Distribution"></span>
 
 </div>
        </div>
@@ -482,8 +462,7 @@ setCookie('lang','%s', expiry, '/');
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/license/publicdomain-2">
-      Use this tool for your own work.</a>
+      <a id="get_this" href="/choose/publicdomain-2">Χρησιμοποιήστε αυτό το εργαλείο για δικιά σας εργασία.</a>
       
     </p>
 
