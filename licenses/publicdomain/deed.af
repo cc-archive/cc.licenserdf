@@ -114,6 +114,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -400,7 +406,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
+	        <h2 property="dc:title" datatype="">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
   (based on United States law)<br />
   or Public Domain Certification</h2>
         </div>
@@ -456,9 +462,13 @@ setCookie('lang','%s', expiry, '/');
   <div class="bd">
     This tool is based on United States law and may not be applicable
     outside the US. For dedicating new works to the public domain, we
-    recommend <a href="/license/zero/">CC0</a>.
+    recommend <a href="/choose/zero/">CC0</a>.
   </div>
 </div>
+
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Reproduction"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#DerivativeWorks"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Distribution"></span>
 
 </div>
        </div>
@@ -471,7 +481,7 @@ setCookie('lang','%s', expiry, '/');
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/license/publicdomain-2">Use this tool for your own work.</a>
+      <a id="get_this" href="/choose/publicdomain-2">Use this tool for your own work.</a>
       
     </p>
 

@@ -400,7 +400,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
+	        <h2 property="dc:title" datatype="">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
   (based on United States law)<br />
   or Public Domain Certification</h2>
         </div>
@@ -459,6 +459,10 @@ setCookie('lang','%s', expiry, '/');
     recommend <a href="/license/zero/">CC0</a>.
   </div>
 </div>
+
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Reproduction"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#DerivativeWorks"></span>
+<span rel="cc:permits" resource="http://creativecommons.org/ns#Distribution"></span>
 
 </div>
        </div>
