@@ -126,6 +126,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -653,7 +659,7 @@ Licencjodawcę</span>
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=-&amp;version=2.0&amp;lang=pl">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by-nc-sa&amp;jurisdiction=-&amp;version=2.0&amp;lang=pl">Use this license for your own work.</a>
       
     </p>
 

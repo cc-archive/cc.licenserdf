@@ -115,6 +115,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -445,13 +451,8 @@ setCookie('lang','%s', expiry, '/');
 	      the above:
 	     
 	      <ul>
-		<li>Your fair use rights.
-		</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>您的<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">公平處理</a>或合理使用權利。</li>
+		<li>其他人可能在作品本身或作品如何使用上有其權利，例如<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">推廣權</a>或私隱權。</li>
 	      </ul>
 	    </li>
 
@@ -498,7 +499,7 @@ Creative Commons不是法律事務所，亦不提供法律服務。分發、展�
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=sampling&amp;jurisdiction=-&amp;version=1.0&amp;lang=zh_HK">了解如何使用此授權條款來分發您的作品。</a>
+         href="/choose/results-one?license_code=sampling&amp;jurisdiction=-&amp;version=1.0&amp;lang=zh_HK">了解如何使用此授權條款來分發您的作品。</a>
       
     </p>
 

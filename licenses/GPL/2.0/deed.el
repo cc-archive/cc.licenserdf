@@ -115,6 +115,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -423,16 +429,13 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p><%=[ccommons::istr $lang deed.gpl_freedoms]%>
-<span>GNU General Public License</span>
-</p>
+<p>Η <span>GNU General Public License</span> είναι μία άδεια <a href="http://www.gnu.org/philosophy/free-sw.html">Ελεύθερου Λογισμικού</a>. Όπως κάθε άδεια ελεύθερου λογισμικού, σας παρέχει τις ακόλουθες τέσσερις ελευθερίες.</p>
 			
 			<ol class="gpl">
 				<li class="gpl">Η ελευθερία να εκτελέσετε το πρόγραμμα για κάθε σκοπό.</li>
-				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_study]%>
-</li>
+				<li class="gpl">Η ελευθερία να μελετήσετε πώς λειτουργεί το πρόγραμμα και να το προσαρμόσετε στις ανάγκες σας</li>
 				<li class="gpl">Η ελευθερία να διανέμετε αντίγραφα έτσι ώστε να μπορείτε να βοηθάτε το διπλανό σας.</li>
-				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_improve]%></li>
+				<li class="gpl">Η ελευθερία να βελτιώσετε το πρόγραμμα και να κυκλοφορήσετε τις βελτιώσεις σας στο κοινό, έτσι ώστε να επωφεληθεί ολόκληρη η κοινότητα</li>
 			</ol>
 </div>
     
@@ -444,11 +447,9 @@ setCookie('lang','%s', expiry, '/');
    
 
    <ul style="text-align:left" dir="ltr"> 
-     <li class="license notice">
-       <span>GNU General Public License</span>
-     </li>
+     <li class="license notice">Μαζί με κάθε αντίγραφο που δημοσιεύετε, θα πρέπει αναλόγως και ευκρινώς  να έχετε ένα λογότυπο-υπόμνηση δικαιώματος πνευματικής ιδιοκτησίας και αποποίηση οποιασδήποτε εγγυήσεως και παράλληλα θα πρέπει να διατηρήσετε ανέπαφες όλες τις σημειώσεις που αναφέρονται σε αυτήν την άδεια και στην απουσία οποιασδήποτε εγγυήσεως και θα πρέπει να δώσετε σε οποιονδήποτε άλλον παραλήπτη του προγράμματος ένα αντίγραφο   <span>GNU General Public License</span> μαζί με το πρόγραμμα. Οποιαδήποτε μετάφραση<span>GNU General Public License</span> θα πρέπει να συνοδεύεται από την <span>GNU General Public License</span>.</li>
 
-     <li class="license sa">Εάν τροποποιήσετε το αντίγραφο ή τα αντίγραφα του προγράμματος ή κάθε μέρους αυτού, ή αναπτύξετε πρόγραμμα που βασίζεται σε αυτό, θα μπορείτε να διανέμετε το έργο που θα προκύψει εάν κι εφόσοντο πράξετε υπό  <span>GNU General Public License</span>. Κάθε μετάφραση <span>GNU General Public License</span> πρέπει να συνοδεύεται από <span>GNU General Public License</span>.</li>
+     <li class="license sa">Εάν τροποποιήσετε το αντίγραφο ή τα αντίγραφα του προγράμματος ή κάθε μέρους αυτού, ή αναπτύξετε πρόγραμμα που βασίζεται σε αυτό, θα μπορείτε να διανέμετε το έργο που θα προκύψει εάν κι εφόσοντ ο πράξετε υπό  <span>GNU General Public License</span>. Κάθε μετάφραση <span>GNU General Public License</span> πρέπει να συνοδεύεται από <span>GNU General Public License</span>.</li>
 
      
 
@@ -457,7 +458,7 @@ setCookie('lang','%s', expiry, '/');
      
 </div>
 
-<p><%=[ccommons::istr $lang deed.permission]%></p> 
+<p>Κάθε μία από τις παραπάνω συνθήκες μπορεί να <a href="#" id="waived" class="helpLink">παρακαμφθεί</a> αν πάρετε άδεια από τον κάτοχο των πνευματικών δικαιωμάτων.</p> 
 
 </div>
        </div>
@@ -469,16 +470,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
-	      <div class="bd">
-		
-  	      </div>
+	      <div class="hd">Αποποίηση</div>
+	      <div class="bd"><p>
+Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
+</p>
+
+<p>
+Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίες. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
+</p></div>
 	    </div>
 	  
 
@@ -489,11 +490,7 @@ setCookie('lang','%s', expiry, '/');
     
 
     
-      
-This is a human-readable summary of the Legal Code (the full <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
-Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is
-also available.
-      
+      Αυτή είναι μία εύληπτη για τον απλό χρήστη περίληψη του Νομικού Μέρους  (η πλήρης <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a>). Μια <a href="legalcode.pt">Πορτογαλική έκδοση</a> είναι επίσης διαθέσιμη.
     
 
     
@@ -505,8 +502,7 @@ also available.
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=el">
-      Use this license for your own work.</a>
+         href="/choose/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=el">Use this license for your own work.</a>
       
     </p>
 

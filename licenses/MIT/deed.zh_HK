@@ -124,6 +124,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -451,7 +457,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Notice">此版權聲明需隨本軟體之複製品或衍生軟體之相關部份中出現。</li>
 
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
+            <li>若您獲版權人許可，上述任何條件均能<a href="#" id="waived" class="helpLink">免除</a>。</li>
 
             
           </ul>

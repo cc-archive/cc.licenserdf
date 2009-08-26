@@ -115,6 +115,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -422,9 +428,9 @@ setCookie('lang','%s', expiry, '/');
 
         
 
-		      <h3></h3>
+		      <h3>Είναι ελεύθερη:</h3>
 		      <ul class="license-properties">
-    				<li class="license samplingplus"></li>
+    				<li class="license samplingplus">Να πάρετε δείγματα, να ανακατέψετε ή αλλιώς να τροποποιήσετε δημιουργικά το έργο αυτό για μη εμπορικούς σκοπούς</li>
     				
     				<li class="license samplingplus">Να ερμηνεύετε, να παρουσιάζετε στο κοινό και να διανέμετε αντίγραφα από ολόκληρο το έργο για μη εμπορικούς σκοπούς (π.χ., ανταλλαγή αρχείων ή μη εμπορικό webcasting)</li>
 		      </ul>
@@ -436,22 +442,17 @@ setCookie('lang','%s', expiry, '/');
 		      <h3>Υπό τις ακόλουθες προϋποθέσεις:</h3>
 	        <ul class="license-properties"
              style="text-align:left" dir="ltr">
-    				<li class="license by"><%=[ccommons::istr $lang char.by_brief]%></li>
+    				<li class="license by">Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγούντο την άδεια (χωρίς όμως να εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου από εσάς).</li>
     				<li>Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό προκειμένου να διαφημίσετε για έργο ή να προωθήσετε οτιδήποτε άλλο πέρα από το έργο από το οποίο δημιουργείτε.</li>
-    				<li></li>
+    				<li>Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.</li>
     				
     				
 	    <li>In no way are any of the following rights affected by
 	      the above:
 	     
 	      <ul>
-		<li>Your fair use rights.
-		</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>Η σωστή δοσοληψία σας  ή <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">σωστή χρήση</a> δικαιωμάτων•</li>
+		<li>Μπορεί να υπάρχουν δικαιώματα άλλων ατόμων  είτε στην εργασία καθαυτή ή πως χρησιμοποιείται, όπως <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">δημοσιότητα</a> ή δικαιώματα απορρήτου.</li>
 	      </ul>
 	    </li>
 
@@ -470,16 +471,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
-	      <div class="bd">
-		
-  	      </div>
+	      <div class="hd">Αποποίηση</div>
+	      <div class="bd"><p>
+Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
+</p>
+
+<p>
+Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίες. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
+</p></div>
 	    </div>
 	  
 
@@ -500,8 +501,7 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=el">
-      Use this license for your own work.</a>
+         href="/choose/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=el">Use this license for your own work.</a>
       
     </p>
 

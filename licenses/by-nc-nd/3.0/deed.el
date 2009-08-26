@@ -4,7 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-      Αναφορά-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα 3.0 Unported
+      Αναφορά προέλευσης-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα 3.0 Μη εισαγόμενο
     </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -90,12 +90,6 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.af" title="Afrikaans" hreflang="af"
    rel="alternate nofollow" xml:lang="af">Afrikaans</a>
-
-
-
-
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
 
 
 
@@ -428,7 +422,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Αναφορά-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα 3.0 Unported</h2>
+	        <h2 property="dc:title">Αναφορά προέλευσης-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα 3.0 Μη εισαγόμενο</h2>
         </div>
       </div>
 

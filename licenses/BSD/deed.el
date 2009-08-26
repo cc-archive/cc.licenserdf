@@ -124,6 +124,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -428,12 +434,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-rights" style="text-align:left"
              dir="ltr">
 		      <h3 rel="cc:permits"
-            resource="http://creativecommons.org/ns#Reproduction"></h3>
+            resource="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"></li>
+             resource="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>η διασκευή</strong> —να τροποποιήσετε το έργο</li>
 		      </ul>
 <span id="devnations-container" />
 
@@ -447,18 +453,16 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Notice"
                 class="license no-endorse">
 
-	            <p><strong>No Endorsement</strong>. 
-              <span id="noendorse-container">The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.</span>
-              </p>
+	            <p><strong>Όχι επίσημη έγκριση</strong>. Το όνομα του δημιουργού δε μπορεί να χρησιμοποιηθεί προκειμένου να εγκριθούν ή να προωθηθούν προϊόντα που παρήχθησαν από αυτό το πρόγραμμα υπολογιστή χωρίς προηγούμενη ρητή έγκριση.</p>
             </li>
 
             <li id="more-container" class="license-hidden" />
             <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Θα πρέπει να διατηρήσετε τους όρους της άδειας και κάποιο λογότυπο υπόμνηση περί δικαιώματος πνευματικής ιδιοκτησίας  σε κάθε διανομή  πηγαίου κώδικα και επίσης θα πρέπει να τους αναπαράγετε σε μορφή εγγράφου για δυαδικές διανομές.</li>
+                resource="http://creativecommons.org/ns#Notice">Θα πρέπει να διατηρήσετε τους όρους της άδειας και κάποιο λογότυπο υπόμνησης περί δικαιώματος πνευματικής ιδιοκτησίας  σε κάθε διανομή  πηγαίου κώδικα και επίσης θα πρέπει να τους αναπαράγετε σε μορφή εγγράφου για δυαδικές διανομές.</li>
 
             
 
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
+            <li>Κάθε μία από τις παραπάνω συνθήκες μπορεί να <a href="#" id="waived" class="helpLink">παρακαμφθεί</a> αν πάρετε άδεια από τον κάτοχο των πνευματικών δικαιωμάτων.</li>
 
             
           </ul>
@@ -475,16 +479,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
-	      <div class="bd">
-		
-  	      </div>
+	      <div class="hd">Αποποίηση</div>
+	      <div class="bd"><p>
+Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
+</p>
+
+<p>
+Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίες. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
+</p></div>
 	    </div>
 	  
 

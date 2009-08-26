@@ -124,6 +124,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -428,17 +434,16 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-rights" style="text-align:left"
              dir="ltr">
 
-         <div id="deed-newer" style="text-align:center"><h3>This license is <a href="/retiredlicenses">retired</a>. Do not use for new works.</h3></div>
+         <div id="deed-newer" style="text-align:center"><h3>Aquesta llicència ha estat <a href="/retiredlicenses">retirada</a>. No la utilitzeu en obres noves.</h3></div>
 
          <h3 rel="cc:permits"
-             resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+             resource="http://creativecommons.org/ns#Reproduction">Sou lliure de:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution">
-to Share %Gâ%@ to copy, distribute and transmit the work</li>
+             resource="http://creativecommons.org/ns#Distribution">copiar, distribuir i comunicar públicament l'obra</li>
 
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
+             resource="http://creativecommons.org/ns#DerivativeWorks">fer-ne obres derivades</li>
 		      </ul>
 
         </div>
@@ -454,23 +459,17 @@ to Share %Gâ%@ to copy, distribute and transmit the work</li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Attribution" class="license by">
 	      <p><strong>Reconeixement</strong>.
-                <span>
-		  <%=[ccommons::istr $lang char.by_brief]%>
-	    </span></p></li>
+                <span>Heu de reconèixer els crèdits de l'obra de la manera especificada per l'autor o el llicenciador (però no d'una manera que suggereixi que us donen suport o rebeu suport per l'ús que feu l'obra).</span></p></li>
 
-    	    <li></li>
-    	    <li></li>
+    	    <li>Quan reutilitzeu o distribuïu l'obra, heu de deixar ben clar els termes de la llicència de l'obra.</li>
+    	    <li>Es pot <a href="#" id="waived" class="helpLink">renunciar</a> a alguna d'aquestes condicions si obteniu el permís del titular dels drets d'autor.</li>
 
 	    <li>In no way are any of the following rights affected by
 	      the above:
 	     
 	      <ul>
 		<li>Els vostres drets de repartiment just o <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">ús just</a>;</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>Drets que altres persones poden ostentar sobre l'obra o sobre l'ús que se'n fa, com per exemple drets <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">de publicitat</a> o privacitat.</li>
 	      </ul>
 	    </li>
 
@@ -488,16 +487,16 @@ to Share %Gâ%@ to copy, distribute and transmit the work</li>
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Advertiment</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
-	      <div class="bd">
-		
-  	      </div>
+	      <div class="hd">Advertiment</div>
+	      <div class="bd"><p>
+Aquest resum no és una llicència. Només és una referència pràctica per entendre el Text Legal (la llicència completa) — és una síntesi d'alguns del termes clau de la llicència amb la intenció que pugui ser entesa per tothom. Es tracta d'una interfície amicable del Text Legal que hi ha sota. Aquest resum per si sol no té cap valor legal, i el seu contingut no apareix en la llicència autèntica.
+</p>
+
+<p>
+Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La distribució, la mostra, o l'enllaç d'aquest Resum no crea cap vincle advocat-client.
+</p></div>
 	    </div>
 	  
 
@@ -518,8 +517,7 @@ to Share %Gâ%@ to copy, distribute and transmit the work</li>
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=ca">
-      Use this license for your own work.</a>
+         href="/choose/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=ca">Utilitzeu aquesta llicència per a la vostra pròpia obra.</a>
       
     </p>
 

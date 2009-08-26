@@ -124,6 +124,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -647,7 +653,7 @@ Creative Commons bukan firma guaman dan tidak menawarkan perkhidmatan undang-und
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=-&amp;version=2.0&amp;lang=ms">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by-nc-nd&amp;jurisdiction=-&amp;version=2.0&amp;lang=ms">Use this license for your own work.</a>
       
     </p>
 

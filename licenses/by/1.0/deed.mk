@@ -124,6 +124,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -635,7 +641,7 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by&amp;jurisdiction=-&amp;version=1.0&amp;lang=mk">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by&amp;jurisdiction=-&amp;version=1.0&amp;lang=mk">Use this license for your own work.</a>
       
     </p>
 

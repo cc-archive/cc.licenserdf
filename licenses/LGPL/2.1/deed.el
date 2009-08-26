@@ -115,6 +115,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -423,16 +429,13 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p><%=[ccommons::istr $lang deed.gpl_freedoms]%>
-<span>GNU Lesser General Public License</span>
-</p>
+<p>Η <span>GNU Lesser General Public License</span> είναι μία άδεια <a href="http://www.gnu.org/philosophy/free-sw.html">Ελεύθερου Λογισμικού</a>. Όπως κάθε άδεια ελεύθερου λογισμικού, σας παρέχει τις ακόλουθες τέσσερις ελευθερίες.</p>
 			
 			<ol class="gpl">
 				<li class="gpl">Η ελευθερία να εκτελέσετε το πρόγραμμα για κάθε σκοπό.</li>
-				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_study]%>
-</li>
+				<li class="gpl">Η ελευθερία να μελετήσετε πώς λειτουργεί το πρόγραμμα και να το προσαρμόσετε στις ανάγκες σας</li>
 				<li class="gpl">Η ελευθερία να διανέμετε αντίγραφα έτσι ώστε να μπορείτε να βοηθάτε το διπλανό σας.</li>
-				<li class="gpl"><%=[ccommons::istr $lang deed.gpl_free_improve]%></li>
+				<li class="gpl">Η ελευθερία να βελτιώσετε το πρόγραμμα και να κυκλοφορήσετε τις βελτιώσεις σας στο κοινό, έτσι ώστε να επωφεληθεί ολόκληρη η κοινότητα</li>
 			</ol>
 </div>
     
@@ -441,25 +444,21 @@ setCookie('lang','%s', expiry, '/');
 
 
    
-   <p />Μπορείτε να απολαμβάνετε τις ελευθερίες που ορίζονται  εδώ, αρκεί να να τηρείτε τους όρους που ορίζονται ρητώς στην άδεια αυτή. Η άδεια LGPL προορίζεται για προγράμματα υπολογιστή και  βιβλιοθήκες παρά για εκτελέσιμα προγράμματα. Οι βασικές προϋποθέσεις είναι:
+   <p />Μπορείτε να απολαμβάνετε τις ελευθερίες που ορίζονται  εδώ, αρκεί να τηρείτε τους όρους που ορίζονται ρητώς στην άδεια αυτή. Η άδεια LGPL προορίζεται για προγράμματα υπολογιστή και  βιβλιοθήκες παρά για εκτελέσιμα προγράμματα. Οι βασικές προϋποθέσεις είναι:
 
    <ul style="text-align:left" dir="ltr"> 
-     <li class="license notice">
-       <span>GNU Lesser General Public License</span>
-     </li>
+     <li class="license notice">Μαζί με κάθε αντίγραφο που δημοσιεύετε, θα πρέπει αναλόγως και ευκρινώς  να έχετε ένα λογότυπο-υπόμνηση δικαιώματος πνευματικής ιδιοκτησίας και αποποίηση οποιασδήποτε εγγυήσεως και παράλληλα θα πρέπει να διατηρήσετε ανέπαφες όλες τις σημειώσεις που αναφέρονται σε αυτήν την άδεια και στην απουσία οποιασδήποτε εγγυήσεως και θα πρέπει να δώσετε σε οποιονδήποτε άλλον παραλήπτη του προγράμματος ένα αντίγραφο   <span>GNU Lesser General Public License</span> μαζί με το πρόγραμμα. Οποιαδήποτε μετάφραση<span>GNU Lesser General Public License</span> θα πρέπει να συνοδεύεται από την <span>GNU Lesser General Public License</span>.</li>
 
      
 
-     <li class="license sa">
-       <span>GNU Lesser General Public License</span>
-     </li>
+     <li class="license sa">Εάν τροποποιήσετε το αντίγραφό ή τα αντίγραφά σας από τη βιβλιοθήκη ή οποιοδήποτε κομμάτι από αυτή, μπορείτε να διανείμετε τη βιβλιοθήκη που θα προκύψει, εάν κι εφόσον το πράξετε υπό την άδεια GNU. Παρόλα αυτά, προγράμματα τα οποία συνδέονται με τη βιβλιοθήκη, μπορούν να εκχωρηθούν με όρους της επιλογής σας στο βαθμό που η βιβλιοθήκη από μόνη της Θα μπορεί να αλλάξει. Οποιαδήποτε μετάφραση της GNU Lesser General Public License θα πρέπει να συνοδεύεται από την GNU Lesser General Public License.</li>
 
      <li class="license src">Εάν αναπαράγετε ή διανείμετε το πρόγραμμα, θα πρέπει να το συνοδεύσετε με ολοκληρωμένο τον ανάλογο πηγαίο κώδικα σε ψηφιακή μορφή ή με μία γραπτή προσφορά με ισχύ για τουλάχιστον τρία χρόνια με την οποία θα παρέχετε ολόκληρο τον αντίστοιχο πηγαίο κώδικα σε ψηφιακή μορφή.</li>
    </ul>
      
 </div>
 
-<p><%=[ccommons::istr $lang deed.permission]%></p> 
+<p>Κάθε μία από τις παραπάνω συνθήκες μπορεί να <a href="#" id="waived" class="helpLink">παρακαμφθεί</a> αν πάρετε άδεια από τον κάτοχο των πνευματικών δικαιωμάτων.</p> 
 
 </div>
        </div>
@@ -471,16 +470,16 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
-	      <div class="bd">
-		
-  	      </div>
+	      <div class="hd">Αποποίηση</div>
+	      <div class="bd"><p>
+Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
+</p>
+
+<p>
+Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίες. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
+</p></div>
 	    </div>
 	  
 
@@ -489,12 +488,7 @@ setCookie('lang','%s', expiry, '/');
     
 
     
-      
-	This is a human-readable summary of the Legal Code (the full 
-	<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">
-	  GNU Lesser General Public License</a>). A 
-	<a href="legalcode.pt">Portuguese translation</a> is also available.
-      
+      Αυτή είναι μία εύληπτη για τον απλό χρήστη περίληψη του Νομικού Μέρους (the full <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>). A <a href="legalcode.pt">Πορτογαλική έκδοση</a>είναι επίσης διαθέσιμη.
     
 
     
@@ -508,8 +502,7 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=el">
-      Use this license for your own work.</a>
+         href="/choose/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=el">Use this license for your own work.</a>
       
     </p>
 

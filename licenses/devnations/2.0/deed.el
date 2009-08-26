@@ -124,6 +124,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -428,17 +434,16 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-rights" style="text-align:left"
              dir="ltr">
 
-         <div id="deed-newer" style="text-align:center"><h3>This license is <a href="/retiredlicenses">retired</a>. Do not use for new works.</h3></div>
+         <div id="deed-newer" style="text-align:center"><h3>Αυτή η άδεια <a href="/retiredlicenses">έχει αποσυρθεί</a>. Μην τη χρησιμοποιείτε για νέα έργα.</h3></div>
 
          <h3 rel="cc:permits"
-             resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
+             resource="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution">
-to Share %Gâ%@ to copy, distribute and transmit the work</li>
+             resource="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
 
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"></li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>η διασκευή</strong> —να τροποποιήσετε το έργο</li>
 		      </ul>
 
         </div>
@@ -453,25 +458,18 @@ to Share %Gâ%@ to copy, distribute and transmit the work</li>
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Attribution" class="license by">
-	      <p><strong>Αναφορά</strong>.
-                <span>
-		  <%=[ccommons::istr $lang char.by_brief]%>
-	    </span></p></li>
+	      <p><strong>Αναφορά προέλευσης</strong>.
+                <span>Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγούντο την άδεια (χωρίς όμως να εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου από εσάς).</span></p></li>
 
-    	    <li></li>
-    	    <li></li>
+    	    <li>Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.</li>
+    	    <li>Κάθε μία από τις παραπάνω συνθήκες μπορεί να <a href="#" id="waived" class="helpLink">παρακαμφθεί</a> αν πάρετε άδεια από τον κάτοχο των πνευματικών δικαιωμάτων.</li>
 
 	    <li>In no way are any of the following rights affected by
 	      the above:
 	     
 	      <ul>
-		<li>Your fair use rights.
-		</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>Η σωστή δοσοληψία σας  ή <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">σωστή χρήση</a> δικαιωμάτων•</li>
+		<li>Μπορεί να υπάρχουν δικαιώματα άλλων ατόμων  είτε στην εργασία καθαυτή ή πως χρησιμοποιείται, όπως <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">δημοσιότητα</a> ή δικαιώματα απορρήτου.</li>
 	      </ul>
 	    </li>
 
@@ -489,16 +487,16 @@ to Share %Gâ%@ to copy, distribute and transmit the work</li>
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
-	      <div class="bd">
-		
-  	      </div>
+	      <div class="hd">Αποποίηση</div>
+	      <div class="bd"><p>
+Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
+</p>
+
+<p>
+Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίες. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
+</p></div>
 	    </div>
 	  
 
@@ -519,8 +517,7 @@ to Share %Gâ%@ to copy, distribute and transmit the work</li>
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=el">
-      Use this license for your own work.</a>
+         href="/choose/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=el">Use this license for your own work.</a>
       
     </p>
 
