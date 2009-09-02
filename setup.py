@@ -21,7 +21,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "license_rdf.tools",
+    name = "cc.licenserdf",
     version = "0.1",
     packages = find_packages('.'),
     
@@ -48,5 +48,5 @@ setup(
     description = 'Tool scripts for manipulating the license RDF files.',
     license = 'MIT',
     url = 'http://creativecommons.org',
-
+    zipsafe = False,
     )
