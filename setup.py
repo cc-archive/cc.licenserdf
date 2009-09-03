@@ -34,11 +34,11 @@ setup(
 
 
     entry_points = {'console_scripts' : 
-                    ['merge = tools.merge:cli',
-                     'make_schema = tools.make_schema:cli',
-                     'add_license = tools.license:add_cli',
-                     'add_all = tools.license:add_all_cli',
-                     'jurisdiction = tools.jurisdiction:cli',
+                    ['merge = cc.licenserdf.tools.merge:cli',
+                     'make_schema = cc.licenserdf.tools.make_schema:cli',
+                     'add_license = cc.licenserdf.tools.license:add_cli',
+                     'add_all = cc.licenserdf.tools.license:add_all_cli',
+                     'jurisdiction = cc.licenserdf.tools.jurisdiction:cli',
                      ],
                     },
 
