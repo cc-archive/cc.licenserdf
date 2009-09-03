@@ -27,7 +27,7 @@ setup(
     
     # scripts and dependencies
     install_requires = ['setuptools',
-                        'rdflib==2.4.0',
+                        'rdflib>=2.4.0',
                         'rdfadict',
                         'Babel',
                         ],
@@ -48,5 +48,5 @@ setup(
     description = 'Tool scripts for manipulating the license RDF files.',
     license = 'MIT',
     url = 'http://creativecommons.org',
-    zipsafe = False,
+    zip_safe = False,
     )
