@@ -25,6 +25,8 @@ setup(
     version = "0.1",
     packages = find_packages('.'),
     
+    include_package_data = True,
+
     # scripts and dependencies
     install_requires = ['setuptools',
                         'rdflib>=2.4.0',
