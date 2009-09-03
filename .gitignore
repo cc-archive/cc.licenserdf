@@ -1,0 +1,7 @@
+eggs/
+bin/
+.installed.cfg/
+bootstrap.py/
+cc.licenserdf.egg-info/
+develop-eggs/
+dist/
