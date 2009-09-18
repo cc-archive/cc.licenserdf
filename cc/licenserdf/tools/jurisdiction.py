@@ -71,7 +71,7 @@ Jurisdictions are specified by their short letter codes (ie, us).
     parser.set_defaults(
         action=INFO, langs=[], juris_uri=None,
         i18n_dir=pkg_resources.resource_filename(
-            'cc.licenserdf', 'i18n'),
+            'cc.licenserdf', 'i18n/i18n/'),
         rdf_file=pkg_resources.resource_filename(
             'cc.licenserdf', 'rdf/jurisdictions.rdf'))
     
@@ -179,6 +179,11 @@ def add(opts, args):
 
     # add the translated names
     _set_translations(opts, j_graph, j_ref, args[0][:-1])
+
+    # Add the i18n string
+    j_graph.add((
+            j_ref, NS_DC['title'],
+            Literal(u"${country.%s}" % args[0][:-1], lang="i18n")))
 
     # save the graph
     save_graph(j_graph, opts.rdf_file)
