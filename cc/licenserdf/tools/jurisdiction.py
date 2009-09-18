@@ -23,11 +23,6 @@ import argparse
 # *******************************************************************
 # * command line option support
 
-INFO = 'info'
-ADD = 'add'
-LAUNCH = 'launch'
-UPDATE = 'update'
-
 def makeOpts():
     """Define an option parser and return it."""
     
@@ -87,7 +82,6 @@ Jurisdictions are specified by their short letter codes (ie, us).
         help='Jurisdiction to operate on.')
 
     parser.set_defaults(
-        action=INFO,
         rdf_file=pkg_resources.resource_filename(
             'cc.licenserdf', 'rdf/jurisdictions.rdf'))
     add_subparser.set_defaults(
@@ -224,11 +218,11 @@ def cli():
     # make the source file an absolute path
     opts.rdf_file = os.path.abspath(opts.rdf_file)
 
-    if opts.action == INFO:
+    if opts.action == 'info':
         info(opts)
-    elif opts.action == LAUNCH:
+    elif opts.action == 'launch':
         launch(opts)
-    elif opts.action == ADD:
+    elif opts.action == 'add':
         add(opts)
     else:
         parser.print_help()
