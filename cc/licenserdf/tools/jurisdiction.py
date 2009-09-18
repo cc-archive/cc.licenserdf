@@ -14,10 +14,11 @@ licensed to the public under the GNU GPL version 2.
 import pkg_resources
 import sys
 import os
-from optparse import OptionParser
 from babel.messages import pofile
 
 from support import *
+
+import argparse
 
 # *******************************************************************
 # * command line option support
@@ -36,62 +37,78 @@ Jurisdictions are specified by their short letter codes (ie, us).
 
 --launch, --info, --add are mutually exclusive.
 """
-    parser = OptionParser(usage)
+    parser = argparse.ArgumentParser()
+    subparsers = parser.add_subparsers(dest="action")
 
-    # source options
-    parser.add_option( '-f', '--file', dest='rdf_file', action='store',
-                       help='Location of the jurisdictions RDF file; '
-                       'defaults to ./rdf/jurisdictions.rdf')
-    parser.add_option( '-i', '--i18n-dir', dest='i18n_dir', action='store',
-                       help='Location containing .po files; defaults to '
-                       './i18n/')
+    # action
+    info_subparser = subparsers.add_parser(
+        'info', help="Display jurisdiction information.")
+    launch_subparser = subparsers.add_parser(
+        'launch', help="Mark the jurisdiction as launched.")
+    add_subparser = subparsers.add_parser(
+        'add', help="Add the jurisdiction.")
+    
+    # info-specific options
+    info_subparser.add_argument(
+        '-f', '--file', dest='rdf_file', action='store',
+        help='Location of the jurisdictions RDF file; '
+        'defaults to ./rdf/jurisdictions.rdf')
+    info_subparser.add_argument(
+        'jurisdiction', nargs=1,
+        help='Jurisdiction to operate on.')
 
-    # jurisdiction actions
-    parser.add_option( '--info', dest='action',
-                       action="store_const", const=INFO,
-                       help="Display jurisdiction information.",
-                       )
-    parser.add_option( '--launch', dest='action',
-                       action="store_const", const=LAUNCH,
-                       help="Mark the jurisdiction as launched.",
-                       )
-    parser.add_option( '--add', dest='action',
-                       action="store_const", const=ADD,
-                       help="Add the jurisdiction.",
-                       )
+    # launch-specific options
+    launch_subparser.add_argument(
+        '-f', '--file', dest='rdf_file', action='store',
+        help='Location of the jurisdictions RDF file; '
+        'defaults to ./rdf/jurisdictions.rdf')
+    launch_subparser.add_argument(
+        'jurisdiction', nargs=1,
+        help='Jurisdiction to operate on.')
 
-    # jurisdiction information options
-    parser.add_option( '--lang', dest='langs',
-                       help="Comma delimited list of languages for the "
-                       "specified jurisdiction",
-                       )
-    parser.add_option( '--uri', dest='juris_uri',
-                       help="The URI of the jurisdiction specific web page.",
-                       )
+    # add-specific options
+    add_subparser.add_argument(
+        '-f', '--file', dest='rdf_file', action='store',
+        help='Location of the jurisdictions RDF file; '
+        'defaults to ./rdf/jurisdictions.rdf')
+    add_subparser.add_argument(
+        '-i', '--i18n-dir', dest='i18n_dir', action='store',
+        help=('Location containing .po files; defaults to '
+              './cc/licenserdf/i18n/i18n/'))
+    add_subparser.add_argument(
+        '--uri', dest='juris_uri',
+        help="The URI of the jurisdiction specific web page.")
+    add_subparser.add_argument(
+        'jurisdiction', nargs=1,
+        help='Jurisdiction to operate on.')
+
     parser.set_defaults(
-        action=INFO, langs=[], juris_uri=None,
-        i18n_dir=pkg_resources.resource_filename(
-            'cc.licenserdf', 'i18n/i18n/'),
+        action=INFO,
         rdf_file=pkg_resources.resource_filename(
             'cc.licenserdf', 'rdf/jurisdictions.rdf'))
-    
+    add_subparser.set_defaults(
+        juris_uri=None,
+        i18n_dir=pkg_resources.resource_filename(
+            'cc.licenserdf', 'i18n/i18n/'))
+
     return parser
 
 # * 
 # *******************************************************************
 
-def info(opts, args):
+def info(opts):
     """Print information for the jurisdiction."""
 
     j_graph = load_graph(opts.rdf_file)
-    if args[0][-1] != '/':
-        args[0] += '/'
-    j_ref = NS_CC_JURISDICTION[args[0]]
+    jurisdiction = opts.jurisdiction[0]
+    if jurisdiction[-1] != '/':
+        jurisdiction += '/'
+    j_ref = NS_CC_JURISDICTION[jurisdiction]
     
     if ((j_ref, NS_RDF.type, NS_CC.Jurisdiction)
         not in j_graph):
 
-        raise KeyError("Unknown jurisdiction: %s" % args[0])
+        raise KeyError("Unknown jurisdiction: %s" % jurisdiction)
 
 
     # print the info for this jurisdiction
@@ -99,19 +116,20 @@ def info(opts, args):
         # XXX This could be improved greatly
         print str(p), str(o)
 
-def launch(opts, args):
+def launch(opts):
     """Mark the jurisdiction as launched."""
 
     # load the RDF graph
     j_graph = load_graph(opts.rdf_file)
-    if args[0][-1] != '/':
-        args[0] += '/'
-    j_ref = NS_CC_JURISDICTION[args[0]]
+    jurisdiction = opts.jurisdiction[0]
+    if jurisdiction[-1] != '/':
+        jurisdiction += '/'
+    j_ref = NS_CC_JURISDICTION[jurisdiction]
     
     if ((j_ref, NS_RDF.type, NS_CC.Jurisdiction)
         not in j_graph):
 
-        raise KeyError("Unknown jurisdiction: %s" % args[0])
+        raise KeyError("Unknown jurisdiction: %s" % jurisdiction)
 
     # find the specified jurisdiction
     if (NS_CC.launched in j_graph.predicates(j_ref)):
@@ -157,14 +175,15 @@ def _set_translations(opts, graph, subject, j_code):
         dirnames = []
 
         
-def add(opts, args):
+def add(opts):
     """Add a new jurisdiction."""
 
     # load the RDF graph
     j_graph = load_graph(opts.rdf_file)
-    if args[0][-1] != '/':
-        args[0] += '/'
-    j_ref = NS_CC_JURISDICTION[args[0]]
+    jurisdiction = opts.jurisdiction[0]
+    if jurisdiction[-1] != '/':
+        jurisdiction += '/'
+    j_ref = NS_CC_JURISDICTION[jurisdiction]
 
     # add the new jurisdiction
     j_graph.add((j_ref, NS_RDF.type, NS_CC.Jurisdiction))
@@ -178,12 +197,12 @@ def add(opts, args):
         j_graph.add((j_ref, NS_CC.jurisdictionSite, URIRef(opts.juris_uri)))
 
     # add the translated names
-    _set_translations(opts, j_graph, j_ref, args[0][:-1])
+    _set_translations(opts, j_graph, j_ref, jurisdiction[:-1])
 
     # Add the i18n string
     j_graph.add((
             j_ref, NS_DC['title'],
-            Literal(u"${country.%s}" % args[0][:-1], lang="i18n")))
+            Literal(u"${country.%s}" % jurisdiction[:-1], lang="i18n")))
 
     # save the graph
     save_graph(j_graph, opts.rdf_file)
@@ -192,17 +211,17 @@ def cli():
     """Command line interface for the jurisdiction tool."""
 
     parser = makeOpts()
-    opts, args = parser.parse_args()
+    opts = parser.parse_args()
 
     # make the source file an absolute path
     opts.rdf_file = os.path.abspath(opts.rdf_file)
 
     if opts.action == INFO:
-        info(opts, args)
+        info(opts)
     elif opts.action == LAUNCH:
-        launch(opts, args)
+        launch(opts)
     elif opts.action == ADD:
-        add(opts, args)
+        add(opts)
     else:
         parser.print_help()
         sys.exit(1)
