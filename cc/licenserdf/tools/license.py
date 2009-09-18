@@ -11,6 +11,7 @@ Original script developed by Will Frank;
 licensed to the public under the GNU GPL version 2.
 """
 
+import pkg_resources
 import sys
 import os
 import urlparse
@@ -31,7 +32,7 @@ def get_add_option_parser():
     # source options
     parser.add_option( '--rdf_dir', dest='rdf_dir', action='store',
                        help='Directory containing the license RDF files; '
-                       'defaults to ./license_rdf')
+                       'defaults to ./cc/licenserdf/licenses/')
 
     # license properties
     parser.add_option( '-b', '--based-on', dest='based_on',
@@ -46,10 +47,12 @@ def get_add_option_parser():
                        help='Version number to add; defaults to 3.0.'
                        )
     
-    parser.set_defaults(rdf_dir='./license_rdf',
-                        version='3.0', 
-                        legalcode=None,
-                        jurisdiction=None)
+    parser.set_defaults(
+        rdf_dir=pkg_resources.resource_filename(
+            'cc.licenserdf', 'licenses'),
+        version='3.0', 
+        legalcode=None,
+        jurisdiction=None)
     
     return parser
 
