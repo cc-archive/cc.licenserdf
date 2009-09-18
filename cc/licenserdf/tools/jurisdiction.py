@@ -11,6 +11,7 @@ manipulate RDF files.
 licensed to the public under the GNU GPL version 2.
 """
 
+import pkg_resources
 import sys
 import os
 from optparse import OptionParser
@@ -67,11 +68,12 @@ Jurisdictions are specified by their short letter codes (ie, us).
     parser.add_option( '--uri', dest='juris_uri',
                        help="The URI of the jurisdiction specific web page.",
                        )
-    parser.set_defaults(action=INFO,
-                        langs=[],
-                        juris_uri=None,
-                        i18n_dir='./i18n',
-                        rdf_file='./rdf/jurisdictions.rdf')
+    parser.set_defaults(
+        action=INFO, langs=[], juris_uri=None,
+        i18n_dir=pkg_resources.resource_filename(
+            'cc.licenserdf', 'i18n'),
+        rdf_file=pkg_resources.resource_filename(
+            'cc.licenserdf', 'rdf/jurisdictions.rdf'))
     
     return parser
 
