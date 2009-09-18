@@ -76,6 +76,10 @@ Jurisdictions are specified by their short letter codes (ie, us).
         help=('Location containing .po files; defaults to '
               './cc/licenserdf/i18n/i18n/'))
     add_subparser.add_argument(
+        '--lang', dest='langs',
+        help=("Comma delimited list of languages for the "
+              "specified jurisdiction"))
+    add_subparser.add_argument(
         '--uri', dest='juris_uri',
         help="The URI of the jurisdiction specific web page.")
     add_subparser.add_argument(
@@ -198,6 +202,10 @@ def add(opts):
 
     # add the translated names
     _set_translations(opts, j_graph, j_ref, jurisdiction[:-1])
+
+    # add langs
+    for lang in opts.langs.split(','):
+        j_graph.add((j_ref, NS_DC['language'], Literal(lang)))
 
     # Add the i18n string
     j_graph.add((
