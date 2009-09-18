@@ -32,6 +32,7 @@ setup(
                         'rdflib>=2.4.0',
                         'rdfadict',
                         'Babel',
+                        'argparse',
                         ],
 
 
