@@ -43,29 +43,23 @@ Jurisdictions are specified by their short letter codes (ie, us).
     add_subparser = subparsers.add_parser(
         'add', help="Add the jurisdiction.")
     
+    def add_common_args(subparser):
+        subparser.add_argument(
+            '-f', '--file', dest='rdf_file', action='store',
+            help='Location of the jurisdictions RDF file; '
+            'defaults to ./rdf/jurisdictions.rdf')
+        subparser.add_argument(
+            'jurisdiction', nargs=1,
+            help='Jurisdiction to operate on.')
+
     # info-specific options
-    info_subparser.add_argument(
-        '-f', '--file', dest='rdf_file', action='store',
-        help='Location of the jurisdictions RDF file; '
-        'defaults to ./rdf/jurisdictions.rdf')
-    info_subparser.add_argument(
-        'jurisdiction', nargs=1,
-        help='Jurisdiction to operate on.')
+    add_common_args(info_subparser)
 
     # launch-specific options
-    launch_subparser.add_argument(
-        '-f', '--file', dest='rdf_file', action='store',
-        help='Location of the jurisdictions RDF file; '
-        'defaults to ./rdf/jurisdictions.rdf')
-    launch_subparser.add_argument(
-        'jurisdiction', nargs=1,
-        help='Jurisdiction to operate on.')
+    add_common_args(launch_subparser)
 
     # add-specific options
-    add_subparser.add_argument(
-        '-f', '--file', dest='rdf_file', action='store',
-        help='Location of the jurisdictions RDF file; '
-        'defaults to ./rdf/jurisdictions.rdf')
+    add_common_args(add_subparser)
     add_subparser.add_argument(
         '-i', '--i18n-dir', dest='i18n_dir', action='store',
         help=('Location containing .po files; defaults to '
@@ -77,9 +71,6 @@ Jurisdictions are specified by their short letter codes (ie, us).
     add_subparser.add_argument(
         '--uri', dest='juris_uri',
         help="The URI of the jurisdiction specific web page.")
-    add_subparser.add_argument(
-        'jurisdiction', nargs=1,
-        help='Jurisdiction to operate on.')
 
     parser.set_defaults(
         rdf_file=pkg_resources.resource_filename(
