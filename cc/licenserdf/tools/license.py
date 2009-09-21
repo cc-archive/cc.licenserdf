@@ -19,60 +19,6 @@ from argparse import ArgumentParser
 
 from support import *
 
-# *******************************************************************
-# * command line option support
-
-def get_add_option_parser():
-    """Define an option parser for the add_license tool and return it."""
-    
-    usage = "usage: %prog [options] <new_uri>"
-    parser = OptionParser(usage)
-
-
-    # source options
-    parser.add_option( '--rdf_dir', dest='rdf_dir', action='store',
-                       help='Directory containing the license RDF files; '
-                       'defaults to ./cc/licenserdf/licenses/')
-
-    # license properties
-    parser.add_option( '-b', '--based-on', dest='based_on',
-                       help='URI of the license the new one is based on.')
-    parser.add_option( '-l', '--legalcode', dest='legalcode',
-                       help='URI of the legalcode; defaults to the license '
-                       'URI + "/legalcode".')
-    parser.add_option( '-j', '--jurisdiction', dest='jurisdiction',
-                       help='URI of the jurisdiction for the new license; '
-                       'defaults to Unported.')
-    parser.add_option( '-v', '--version', dest='version',
-                       help='Version number to add; defaults to 3.0.'
-                       )
-    
-    parser.set_defaults(
-        rdf_dir=pkg_resources.resource_filename(
-            'cc.licenserdf', 'licenses'),
-        version='3.0', 
-        legalcode=None,
-        jurisdiction=None)
-    
-    return parser
-
-
-def get_addall_option_parser():
-
-    parser = get_add_option_parser()
-    parser.set_usage("usage: %prog [options]")
-
-    parser.add_option( '--jc', '--jurisdiction-code', dest='jurisdiction_code',
-                       help='Short code of the jurisdiction to add.')
-    parser.add_option( '-c', '--codes', dest='codes',
-                       help='License codes to add, comma delimited '
-                       '(defaults to primary six)',
-                       )
-
-    parser.set_defaults(codes="by-nc,by,by-nc-nd,by-nc-sa,by-sa,by-nd")
-
-    return parser
-
 # * 
 # *******************************************************************
 
@@ -88,6 +34,7 @@ def _license_rdf_filename(rdf_dir, license_uri):
 
     return os.path.abspath(filename)
 
+
 def replace_predicate(graph, s, p, new_value):
     """If (s, p, *) exists in graph, remove it; add (s, p, new_value) 
     to the graph."""
@@ -96,6 +43,7 @@ def replace_predicate(graph, s, p, new_value):
         graph.remove((s, p, None))
 
     graph.add((s, p, new_value))
+
 
 def add_license(license_uri, based_on_uri, version, jurisdiction, 
                 legalcode_uri, rdf_dir):
@@ -149,30 +97,8 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     # write the graph out
     save_graph(license, _license_rdf_filename(rdf_dir, license_uri))
 
-def add_all_cli():
-    """Run add for the core six licenses."""
-
-    parser = get_addall_option_parser()
-    opts, args = parser.parse_args()
-
-    for code in opts.codes.split(','):
-        base_url = "http://creativecommons.org/licenses/%s/%s/" % (code, 
-                                                                   opts.version)
-
-        license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
-
-        add_license(license_url, base_url, opts.version, opts.jurisdiction,
-                    None, opts.rdf_dir)
-
-
-def add_cli():
-    """Run the add_license tool."""
-    parser = get_add_option_parser()
-    opts, args = parser.parse_args()
-
-    add_license(args[0], opts.based_on, opts.version, opts.jurisdiction,
-                opts.legalcode, opts.rdf_dir)
-
+# *******************************************************************
+# * command line option support
 
 def get_args():
     """Get all args taken by this app"""
@@ -263,4 +189,3 @@ def cli():
         add_license(
             license_url, opts.based_on, opts.version, opts.jurisdiction,
             opts.legalcode, opts.rdf_dir)
-
