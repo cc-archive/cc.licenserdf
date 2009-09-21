@@ -15,7 +15,7 @@ import pkg_resources
 import sys
 import os
 import urlparse
-from optparse import OptionParser
+from argparse import ArgumentParser
 
 from support import *
 
@@ -172,3 +172,91 @@ def add_cli():
 
     add_license(args[0], opts.based_on, opts.version, opts.jurisdiction,
                 opts.legalcode, opts.rdf_dir)
+
+
+def get_args():
+    """Get all args taken by this app"""
+    parser = ArgumentParser()
+    subparsers = parser.add_subparsers(dest="action")
+
+    add_subparser = subparsers.add_parser(
+        'add', help="Add one or more licenses.")
+    legalcode_subparser = subparsers.add_parser(
+        'legalcode', help="Add one or more licenses.")
+
+    def add_common_args(subparser):
+        # source options
+        subparser.add_argument(
+            '--rdf_dir', dest='rdf_dir', action='store',
+            help='Directory containing the license RDF files; '
+            'defaults to ./cc/licenserdf/licenses/')
+
+    ## Add subparser options
+    add_common_args(add_subparser)
+    add_subparser.add_argument(
+        '--all', help="Run add for the core six licenses")
+    add_subparser.add_argument(
+        '--launched', help="Mark these licenses as launched")
+        
+    # license properties
+    add_subparser.add_argument(
+        '-b', '--based-on', dest='based_on',
+        help='URI of the license the new one is based on.')
+    add_subparser.add_argument(
+        '-l', '--legalcode', dest='legalcode',
+        help='URI of the legalcode; defaults to the license '
+        'URI + "/legalcode".')
+    add_subparser.add_argument(
+        '-j', '--jurisdiction', dest='jurisdiction',
+        help='URI of the jurisdiction for the new license; '
+        'defaults to Unported.')
+    add_subparser.add_argument(
+        '--jc', '--jurisdiction-code', dest='jurisdiction_code', required=True,
+        help='Short code of the jurisdiction to add.')
+    add_subparser.add_argument(
+        '-v', '--version', dest='version',
+        help='Version number to add; defaults to 3.0.')
+    add_subparser.add_argument(
+        '-c', '--codes', dest='codes',
+        help=('License codes to add, comma delimited '
+              '(defaults to primary six)'))
+
+    add_subparser.add_argument(
+        'codes',
+        help=('list of license codes to add '
+              '(if --all is not specified)'))
+
+    parser.set_defaults(
+        rdf_dir=pkg_resources.resource_filename(
+            'cc.licenserdf', 'licenses'),
+        version='3.0', 
+        legalcode=None,
+        jurisdiction=None)
+
+    return parser.parse_args()
+
+
+def cli():
+    opts = get_args()
+    
+    if args.codes:
+        license_codes = (
+            'by-nc', 'by', 'by-nc-nd', 'by-nc-sa', 'by-sa', 'by-nd')
+    else:
+        license_codes = opts.codes
+
+    if not license_codes:
+        print "Either a list of codes must be provided as arguments,"
+        print "or else the --all flag must be used.  (Did you mean --all?)"
+        return 1
+
+    for license_code in license_codes:
+        base_url = "http://creativecommons.org/licenses/%s/%s/" % (
+            license_code, opts.version)
+
+        license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
+
+        add_license(
+            license_code, opts.based_on, opts.version, opts.jurisdiction,
+            opts.legalcode, opts.rdf_dir)
+
