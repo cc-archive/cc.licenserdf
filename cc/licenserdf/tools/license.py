@@ -184,5 +184,5 @@ def cli():
         license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
 
         add_license(
-            license_url, opts.based_on, opts.version, opts.jurisdiction,
+            license_url, base_url, opts.version, opts.jurisdiction,
             opts.legalcode, opts.rdf_dir)
