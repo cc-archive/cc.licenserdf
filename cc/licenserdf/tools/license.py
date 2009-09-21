@@ -177,8 +177,6 @@ def cli():
         print "or else the --all flag must be used.  (Did you mean --all?)"
         return 1
 
-    import pdb
-    pdb.set_trace()
     for license_code in license_codes:
         base_url = "http://creativecommons.org/licenses/%s/%s/" % (
             license_code, opts.version)
