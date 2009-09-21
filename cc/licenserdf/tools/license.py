@@ -26,11 +26,10 @@ def _license_rdf_filename(rdf_dir, license_uri):
     """Map a license URI to the filesystem filename containing the RDF."""
 
     url_pieces = urlparse.urlparse(license_uri)
-    filename = os.path.join(rdf_dir, 
-                            "_".join([url_pieces[1]] +
-                                     url_pieces[2].split('/')[1:]
-                                     ) + '.rdf'
-                            )
+    filename = os.path.join(
+        rdf_dir, 
+        "_".join([url_pieces[1]] +
+                 url_pieces[2].split('/')[1:]) + '.rdf')
 
     return os.path.abspath(filename)
 
