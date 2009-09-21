@@ -194,9 +194,11 @@ def get_args():
     ## Add subparser options
     add_common_args(add_subparser)
     add_subparser.add_argument(
-        '--all', help="Run add for the core six licenses")
+        '--all', action="store_true",
+        help="Run add for the core six licenses")
     add_subparser.add_argument(
-        '--launched', help="Mark these licenses as launched")
+        '--launched', action="store_true",
+        help="Mark these licenses as launched")
         
     # license properties
     add_subparser.add_argument(
@@ -207,11 +209,11 @@ def get_args():
         help='URI of the legalcode; defaults to the license '
         'URI + "/legalcode".')
     add_subparser.add_argument(
-        '-j', '--jurisdiction', dest='jurisdiction',
+        '--jurisdiction', dest='jurisdiction',
         help='URI of the jurisdiction for the new license; '
         'defaults to Unported.')
     add_subparser.add_argument(
-        '--jc', '--jurisdiction-code', dest='jurisdiction_code', required=True,
+        '-j', '--jurisdiction-code', dest='jurisdiction_code', required=True,
         help='Short code of the jurisdiction to add.')
     add_subparser.add_argument(
         '-v', '--version', dest='version',
@@ -222,7 +224,7 @@ def get_args():
               '(defaults to primary six)'))
 
     add_subparser.add_argument(
-        'codes',
+        'codes', nargs='*',
         help=('list of license codes to add '
               '(if --all is not specified)'))
 
@@ -239,7 +241,7 @@ def get_args():
 def cli():
     opts = get_args()
     
-    if args.codes:
+    if opts.all:
         license_codes = (
             'by-nc', 'by', 'by-nc-nd', 'by-nc-sa', 'by-sa', 'by-nd')
     else:
@@ -250,6 +252,8 @@ def cli():
         print "or else the --all flag must be used.  (Did you mean --all?)"
         return 1
 
+    import pdb
+    pdb.set_trace()
     for license_code in license_codes:
         base_url = "http://creativecommons.org/licenses/%s/%s/" % (
             license_code, opts.version)
@@ -257,6 +261,6 @@ def cli():
         license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
 
         add_license(
-            license_code, opts.based_on, opts.version, opts.jurisdiction,
+            license_url, opts.based_on, opts.version, opts.jurisdiction,
             opts.legalcode, opts.rdf_dir)
 
