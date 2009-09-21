@@ -6,3 +6,4 @@ cc.licenserdf.egg-info/
 develop-eggs/
 dist/
 .installed.cfg
+*.pyc
