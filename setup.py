@@ -42,6 +42,7 @@ setup(
                      'add_license = cc.licenserdf.tools.license:add_cli',
                      'add_all = cc.licenserdf.tools.license:add_all_cli',
                      'jurisdiction = cc.licenserdf.tools.jurisdiction:cli',
+                     'license = cc.licenserdf.tools.license:cli',
                      ],
                     },
 
