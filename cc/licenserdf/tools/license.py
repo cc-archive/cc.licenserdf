@@ -157,13 +157,13 @@ def get_args():
     lc_subparsers = legalcode_subparser.add_subparsers(dest="legalcode_action")
     lc_list_subparser = lc_subparsers.add_parser("list")
     lc_list_subparser.add_argument(
-        'license_url', nargs="1")
+        'license_url', nargs=1)
 
     lc_add_subparser = lc_subparsers.add_parser("add")
     lc_add_subparser.add_argument(
-        'license_url', nargs="1")
+        'license_url', nargs=1)
     lc_add_subparser.add_argument(
-        'legalcode_url', nargs="1")
+        'legalcode_url', nargs=1)
 
     parser.set_defaults(
         rdf_dir=pkg_resources.resource_filename(
@@ -175,9 +175,7 @@ def get_args():
     return parser.parse_args()
 
 
-def cli():
-    opts = get_args()
-    
+def cli_add_action(opts):
     if opts.all:
         license_codes = (
             'by-nc', 'by', 'by-nc-nd', 'by-nc-sa', 'by-sa', 'by-nd')
@@ -198,3 +196,25 @@ def cli():
         add_license(
             license_url, base_url, opts.version, opts.jurisdiction,
             opts.legalcode, opts.rdf_dir)
+
+
+def cli_legalcode_list_action(opts):
+    print "listin' thems legalcodes"
+
+
+def cli_legalcode_list_action(opts):
+    print "addin' thems legalcodes"
+
+
+def cli():
+    opts = get_args()
+
+    if opts.action == 'add':
+        return cli_add_action(opts)
+    elif opts.action == 'legalcode' and opts.legalcode_action == 'list':
+        return cli_legalcode_list_action(opts)
+    elif opts.action == 'legalcode' and opts.legalcode_action == 'add':
+        return cli_legalcode_add_action(opts)
+    else:
+        print "This shouldn't happen."
+        return 1
