@@ -107,7 +107,7 @@ def get_args():
     add_subparser = subparsers.add_parser(
         'add', help="Add one or more licenses.")
     legalcode_subparser = subparsers.add_parser(
-        'legalcode', help="Add one or more licenses.")
+        'legalcode', help="List or operate on the legalcode of a license")
 
     def add_common_args(subparser):
         # source options
@@ -152,6 +152,18 @@ def get_args():
         'codes', nargs='*',
         help=('list of license codes to add '
               '(if --all is not specified)'))
+
+    ## Legalcode subparser options
+    lc_subparsers = legalcode_subparser.add_subparsers(dest="legalcode_action")
+    lc_list_subparser = lc_subparsers.add_parser("list")
+    lc_list_subparser.add_argument(
+        'license_url', nargs="1")
+
+    lc_add_subparser = lc_subparsers.add_parser("add")
+    lc_add_subparser.add_argument(
+        'license_url', nargs="1")
+    lc_add_subparser.add_argument(
+        'legalcode_url', nargs="1")
 
     parser.set_defaults(
         rdf_dir=pkg_resources.resource_filename(
