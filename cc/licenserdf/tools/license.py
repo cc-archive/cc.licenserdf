@@ -107,7 +107,10 @@ def legalcode_list(license_url, rdf_dir):
 
 
 def legalcode_add(license_url, legalcode_url, rdf_dir):
-    pass
+    license_filename = _license_rdf_filename(rdf_dir, license_url)
+    graph = load_graph(license_filename)
+    graph.add((URIRef(license_url), NS_CC.legalcode, URIRef(legalcode_url)))
+    save_graph(graph, license_filename)
 
 
 # *******************************************************************
