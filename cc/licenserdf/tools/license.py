@@ -96,6 +96,20 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     # write the graph out
     save_graph(license, _license_rdf_filename(rdf_dir, license_uri))
 
+
+def legalcode_list(license_url, rdf_dir):
+    license_filename = _license_rdf_filename(rdf_dir, license_url)
+    graph = load_graph(license_filename)
+    for row in graph.query((
+            'SELECT ?title where '
+            '{ ?x <http://creativecommons.org/ns#legalcode> ?title . }')):
+        print unicode(row[0])
+
+
+def legalcode_add(license_url, legalcode_url, rdf_dir):
+    pass
+
+
 # *******************************************************************
 # * command line option support
 
@@ -156,10 +170,12 @@ def get_args():
     ## Legalcode subparser options
     lc_subparsers = legalcode_subparser.add_subparsers(dest="legalcode_action")
     lc_list_subparser = lc_subparsers.add_parser("list")
+    add_common_args(lc_list_subparser)
     lc_list_subparser.add_argument(
         'license_url', nargs=1)
 
     lc_add_subparser = lc_subparsers.add_parser("add")
+    add_common_args(lc_add_subparser)
     lc_add_subparser.add_argument(
         'license_url', nargs=1)
     lc_add_subparser.add_argument(
@@ -198,23 +214,16 @@ def cli_add_action(opts):
             opts.legalcode, opts.rdf_dir)
 
 
-def cli_legalcode_list_action(opts):
-    print "listin' thems legalcodes"
-
-
-def cli_legalcode_list_action(opts):
-    print "addin' thems legalcodes"
-
-
 def cli():
     opts = get_args()
 
     if opts.action == 'add':
         return cli_add_action(opts)
     elif opts.action == 'legalcode' and opts.legalcode_action == 'list':
-        return cli_legalcode_list_action(opts)
+        return legalcode_list(opts.license_url[0], opts.rdf_dir)
     elif opts.action == 'legalcode' and opts.legalcode_action == 'add':
-        return cli_legalcode_add_action(opts)
+        return legalcode_add(
+            opts.license_url[0], opts.legalcode_url[0], opts.rdf_dir)
     else:
         print "This shouldn't happen."
         return 1
