@@ -106,10 +106,16 @@ def legalcode_list(license_url, rdf_dir):
         print unicode(row[0])
 
 
-def legalcode_add(license_url, legalcode_url, rdf_dir):
+def legalcode_add(license_url, legalcode_url, rdf_dir, legalcode_lang=None):
     license_filename = _license_rdf_filename(rdf_dir, license_url)
     graph = load_graph(license_filename)
     graph.add((URIRef(license_url), NS_CC.legalcode, URIRef(legalcode_url)))
+
+    if legalcode_lang:
+        graph.add(
+            (URIRef(legalcode_url), NS_DCQ.language,
+             Literal(legalcode_lang)))
+
     save_graph(graph, license_filename)
 
 
@@ -180,6 +186,9 @@ def get_args():
     lc_add_subparser = lc_subparsers.add_parser("add")
     add_common_args(lc_add_subparser)
     lc_add_subparser.add_argument(
+        '--lang', dest="legalcode_add_lang",
+        help="Mark the language of this legalcode")
+    lc_add_subparser.add_argument(
         'license_url', nargs=1)
     lc_add_subparser.add_argument(
         'legalcode_url', nargs=1)
@@ -226,7 +235,8 @@ def cli():
         return legalcode_list(opts.license_url[0], opts.rdf_dir)
     elif opts.action == 'legalcode' and opts.legalcode_action == 'add':
         return legalcode_add(
-            opts.license_url[0], opts.legalcode_url[0], opts.rdf_dir)
+            opts.license_url[0], opts.legalcode_url[0], opts.rdf_dir,
+            opts.legalcode_add_lang)
     else:
         print "This shouldn't happen."
         return 1
