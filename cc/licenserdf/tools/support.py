@@ -17,6 +17,7 @@ NS_CC_JURISDICTION = Namespace("http://creativecommons.org/international/")
 
 I18N_DIR = pkg_resources.resource_filename('cc.licenserdf', 'i18n/i18n/')
 
+_MODULE_CATALOG_CACHE = {}
 
 def graph():
     """Return an empty graph with common namespaces defined."""
@@ -46,11 +47,26 @@ def save_graph(graph, filename):
         )
     output_file.close()
 
-def translate_graph(graph, i18n_dir=I18N_DIR):
+def translate_graph(graph, i18n_dir=I18N_DIR, use_module_catalog_cache=True):
     """
     Look for title assertions with i18n as the lang, use their object
     as the msgid to find additionaly title translations
+
+    Args:
+      graph: rdflib processed graph for us to walk through
+      i18n_dir: directory of PO files.  Default directory is that
+        which is supplied with this package.
+      use_module_catalog_cache: Use a module-level cache of these
+        objects.  Possibly not recommended for long-running processes or
+        something where memory issue is a concern.
     """
+    lang_dirs = os.listdir(os.path.abspath(i18n_dir))
+
+    if use_module_catalog_cache:
+        catalog_cache = _MODULE_CATALOG_CACHE
+    else:
+        catalog_cache = {}
+
     for subject, predicate, obj in graph.triples((
             None, NS_DC['title'], None)):
         if obj.language != 'i18n':
@@ -61,12 +77,16 @@ def translate_graph(graph, i18n_dir=I18N_DIR):
         if not str_id:
             return None
 
-        for lang in os.listdir(os.path.abspath(i18n_dir)):
+        for lang in lang_dirs:
             po_path = os.path.join(i18n_dir, lang, 'cc_org.po')
             if not os.path.exists(po_path):
                 continue
 
-            catalog = pofile.read_po(file(po_path))
+            if catalog_cache.has_key(po_path):
+                catalog = catalog_cache[po_path]
+            else:
+                catalog = pofile.read_po(file(po_path))
+                catalog_cache[po_path] = catalog
 
             if str_id not in catalog:
                 continue
