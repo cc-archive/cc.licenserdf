@@ -47,6 +47,10 @@ def save_graph(graph, filename):
     output_file.close()
 
 def translate_graph(graph, i18n_dir=I18N_DIR):
+    """
+    Look for title assertions with i18n as the lang, use their object
+    as the msgid to find additionaly title translations
+    """
     for subject, predicate, obj in graph.triples((
             None, NS_DC['title'], None)):
         if obj.language != 'i18n':
