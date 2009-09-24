@@ -1,5 +1,9 @@
 """Support functions for license RDF tools."""
 
+import os
+import pkg_resources
+
+from babel.messages import pofile
 from rdflib.Graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
@@ -10,6 +14,9 @@ NS_XSD = Namespace("http://www.w3.org/2001/XMLSchema-datatypes#")
 
 NS_CC = Namespace("http://creativecommons.org/ns#")
 NS_CC_JURISDICTION = Namespace("http://creativecommons.org/international/")
+
+I18N_DIR = pkg_resources.resource_filename('cc.licenserdf', 'i18n/i18n/')
+
 
 def graph():
     """Return an empty graph with common namespaces defined."""
@@ -38,3 +45,27 @@ def save_graph(graph, filename):
         graph.serialize(format="pretty-xml", max_depth=1)
         )
     output_file.close()
+
+def translate_graph(graph, i18n_dir=I18N_DIR):
+    for subject, predicate, obj in graph.triples((
+            None, NS_DC['title'], None)):
+        if obj.language != 'i18n':
+            continue
+        else:
+            str_id = unicode(obj)
+    
+        if not str_id:
+            return None
+
+        for lang in os.listdir(os.path.abspath(i18n_dir)):
+            po_path = os.path.join(i18n_dir, lang, 'cc_org.po')
+            if not os.path.exists(po_path):
+                continue
+
+            catalog = pofile.read_po(file(po_path))
+
+            if str_id not in catalog:
+                continue
+
+            translated = catalog[str_id].string
+            graph.add((subject, predicate, Literal(translated, lang=lang)))
