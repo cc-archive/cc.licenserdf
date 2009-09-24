@@ -7,7 +7,7 @@ Original script developed by Will Frank;
 * updated by Nathan Yergler to use new XML schema and explicit options.
 * updated by Nathan Yergler to generate RDF files.
 
-(c) 2005-2007, Creative Commons, Will Frank, Nathan R. Yergler
+(c) 2005-2009, Creative Commons, Will Frank, Nathan R. Yergler, Chris Webber
 licensed to the public under the GNU GPL version 2.
 """
 
@@ -45,7 +45,7 @@ def replace_predicate(graph, s, p, new_value):
 
 
 def add_license(license_uri, based_on_uri, version, jurisdiction, 
-                legalcode_uri, rdf_dir):
+                legalcode_uri, rdf_dir, license_code):
     """Create a new license based on an existing one.  Write the resulting
     graph to the rdf_dir."""
 
@@ -92,6 +92,13 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     # add the legalcode predicate
     replace_predicate(license, URIRef(license_uri), NS_CC.legalcode,
                       URIRef(legalcode_uri))
+
+    # Add the i18n string
+    replace_predicate(
+        license, URIRef(license_uri), NS_DC['title'],
+        Literal(u"license.pretty_%s" % license_code, lang="i18n"))
+
+    translate_graph(license)
 
     # write the graph out
     save_graph(license, _license_rdf_filename(rdf_dir, license_uri))
@@ -223,7 +230,7 @@ def cli_add_action(opts):
 
         add_license(
             license_url, base_url, opts.version, opts.jurisdiction,
-            opts.legalcode, opts.rdf_dir)
+            opts.legalcode, opts.rdf_dir, license_code)
 
 
 def cli():
