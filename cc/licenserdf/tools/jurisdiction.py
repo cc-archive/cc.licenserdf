@@ -7,14 +7,14 @@ as RDF.
 Based on a script developed by Will Frank, updated by Nathan R. Yergler to 
 manipulate RDF files.
 
-(c) 2005-2007, Creative Commons, Will Frank, Nathan R. Yergler
+(c) 2005-2009, Creative Commons, Will Frank,
+               Nathan R. Yergler, Christopher Webber
 licensed to the public under the GNU GPL version 2.
 """
 
 import pkg_resources
 import sys
 import os
-from babel.messages import pofile
 
 from support import *
 
@@ -131,38 +131,6 @@ def launch(opts):
     # save the graph
     save_graph(j_graph, opts.rdf_file)
 
-def _set_translations(opts, graph, subject, j_code):
-    """Replace dc:title assertions for a given jurisdiction with updated
-    translations."""
-
-    str_id = 'country.%s' % j_code
-
-    for root, dirnames, files in os.walk(os.path.abspath(opts.i18n_dir), 
-                                     topdown=True):
-
-        for dir in dirnames:
-
-            if dir in ('test', 'templates',):
-                # ignore fake translations
-                continue
-
-            # load the message catalog
-            if not os.path.exists(os.path.join(root, dir, 'cc_org.po')):
-                continue
-
-            catalog = pofile.read_po(file(os.path.join(root, dir, 'cc_org.po')))
-            
-            # see if this language has translated the country string
-            if str_id not in catalog:
-                continue
-
-            # add the assertion
-            graph.add((subject, NS_DC['title'], Literal(catalog[str_id].string,
-                                                     lang=dir)))
-            
-        # only walk one level
-        dirnames = []
-
         
 def add(opts):
     """Add a new jurisdiction."""
@@ -185,17 +153,17 @@ def add(opts):
     if opts.juris_uri is not None:
         j_graph.add((j_ref, NS_CC.jurisdictionSite, URIRef(opts.juris_uri)))
 
+    # Add the i18n string
+    j_graph.add((
+            j_ref, NS_DC['title'],
+            Literal(u"country.%s" % jurisdiction[:-1], lang="i18n")))
+
     # add the translated names
-    _set_translations(opts, j_graph, j_ref, jurisdiction[:-1])
+    translate_graph(j_graph, opts.i18n_dir)
 
     # add langs
     for lang in opts.langs.split(','):
         j_graph.add((j_ref, NS_DC['language'], Literal(lang)))
-
-    # Add the i18n string
-    j_graph.add((
-            j_ref, NS_DC['title'],
-            Literal(u"${country.%s}" % jurisdiction[:-1], lang="i18n")))
 
     # save the graph
     save_graph(j_graph, opts.rdf_file)
