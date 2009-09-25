@@ -157,9 +157,6 @@ def get_args():
     add_subparser.add_argument(
         '--all', action="store_true",
         help="Run add for the core six licenses")
-    add_subparser.add_argument(
-        '--launched', action="store_true",
-        help="Mark these licenses as launched")
         
     # license properties
     add_subparser.add_argument(
