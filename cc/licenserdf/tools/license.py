@@ -105,6 +105,9 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
 
 
 def legalcode_list(license_url, rdf_dir):
+    """
+    List all legalcodes for license_url
+    """
     license_filename = _license_rdf_filename(rdf_dir, license_url)
     graph = load_graph(license_filename)
     for row in graph.query((
@@ -114,6 +117,9 @@ def legalcode_list(license_url, rdf_dir):
 
 
 def legalcode_add(license_url, legalcode_url, rdf_dir, legalcode_lang=None):
+    """
+    Add a legalcode url the license rdf specified at license_url
+    """
     license_filename = _license_rdf_filename(rdf_dir, license_url)
     graph = load_graph(license_filename)
     graph.add((URIRef(license_url), NS_CC.legalcode, URIRef(legalcode_url)))
@@ -211,6 +217,9 @@ def get_args():
 
 
 def cli_add_action(opts):
+    """
+    Handle `./bin/license add`
+    """
     if opts.all:
         license_codes = (
             'by-nc', 'by', 'by-nc-nd', 'by-nc-sa', 'by-sa', 'by-nd')
@@ -234,6 +243,9 @@ def cli_add_action(opts):
 
 
 def cli():
+    """
+    Method to handle ./bin/license
+    """
     opts = get_args()
 
     if opts.action == 'add':
