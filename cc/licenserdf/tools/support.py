@@ -68,7 +68,7 @@ def translate_graph(graph, i18n_dir=I18N_DIR, use_module_catalog_cache=True):
         catalog_cache = {}
 
     for subject, predicate, obj in graph.triples((
-            None, NS_DC['title'], None)):
+            None, None, None)):
         if obj.language != 'i18n':
             continue
         else:
