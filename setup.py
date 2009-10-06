@@ -24,6 +24,7 @@ setup(
     name = "cc.licenserdf",
     version = "0.1",
     packages = find_packages('.'),
+    namespace_packages = ['cc',],
     
     include_package_data = True,
 
