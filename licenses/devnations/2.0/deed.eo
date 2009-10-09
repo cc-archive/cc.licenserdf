@@ -440,15 +440,15 @@ setCookie('lang','%s', expiry, '/');
              resource="http://creativecommons.org/ns#Reproduction">Vi rajtas:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj transdoni la verkon</li>
+             resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj transsendi la verkon</li>
 
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Aliigi</strong>&nbsp;— ŝanĝi, adapti, kompletigi, transformi, uzi tutan verkon aŭ ties partojn, memstare aŭ en aliaj verkoj</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Aliigi</strong>&nbsp;— modifi, adapti, kompletigi, transformi, uzi la tutan verkon aŭ ties partojn, memstare aŭ en aliaj verkoj</li>
 		      </ul>
 
         </div>
         <div id="deed-conditions">
-	  <h3>Laŭ la jenaj kondiĉoj:</h3>
+	  <h3>La verko devas esti kunhavigata:</h3>
 	  <ul class="license-properties" style="text-align:left"
        dir="ltr">
 
@@ -459,17 +459,17 @@ setCookie('lang','%s', expiry, '/');
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Attribution" class="license by">
 	      <p><strong>Atribuite</strong>.
-                <span>Vi devas atribui la verkon tiel, kiel specifis la aŭtoro aŭ permesinto (sed ne en maniero implicanta, ke ili subtenas vin, vian laboron aŭ verkon).</span></p></li>
+                <span>Vi devas atribui la verkon en la maniero specifita de la aŭtoro aŭ permesinto (sed ne en kielo supoziganta, ke ili subtenas vin, vian laboron aŭ verkon).</span></p></li>
 
-    	    <li>Por iu ajn reuzo aŭ distribuo, vi devas klarigi al la aliuloj la nociojn de la permesilo por ĉi tiu verko. Ideale per ligilo al ĉi tiu retpaĝo.</li>
-    	    <li>La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> iun ajn el la ĉi-antaŭaj kondiĉoj.</li>
+    	    <li>Por iu ajn reuzo aŭ distribuo, vi devas klarigi al la aliuloj la kondiĉojn de la permesilo por la verko. Ideale per ligilo al ĉi tiu retpaĝo.</li>
+    	    <li>La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> ĉiun ajn el la ĉi-antaŭaj kondiĉoj.</li>
 
 	    <li>In no way are any of the following rights affected by
 	      the above:
 	     
 	      <ul>
 		<li>Vian rajton por <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">justa uzo</a>;</li>
-		<li>Eventualajn rajtojn de aliuloj aŭ por la verko mem aŭ por maniero de ties uzo, ekzemple <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">rajtojn por protekto de persono</a> kaj ties privateco.</li>
+		<li>Eventualajn rajtojn de aliuloj aŭ por la verko mem aŭ por maniero de ties uzo, ekzemple <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">publikigajn</a> aŭ privatecajn rajtojn.</li>
 	      </ul>
 	    </li>
 
@@ -491,11 +491,11 @@ setCookie('lang','%s', expiry, '/');
 	    <div id="help_disclaimer">
 	      <div class="hd">Malgarantio</div>
 	      <div class="bd"><p>
-La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin kiel afablan interfacon por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la vera permesilo.
+La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin afabla interfaco por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la efektiva permesilo.
 </p>
 
 <p>
-Creative Commons ne estas advokata firmao kaj ne provizas jurajn servojn. Distribuado, aperigado aŭ ligado al la Popola Resumo kreas nenian rilaton de advokato kaj kliento.
+La Krea Komunaĵo ne estas advokata firmao kaj ne provizas jurajn servojn. Distribuado, aperigado aŭ ligado al la Popola Resumo kreas nenian rilaton de advokato kaj kliento.
 </p></div>
 	    </div>
 	  
@@ -517,7 +517,7 @@ Creative Commons ne estas advokata firmao kaj ne provizas jurajn servojn. Distri
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">Uzu la permesilon por via propra verko.</a>
+         href="/choose/results-one?license_code=devnations&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">Uzi la permesilon por via propra verko.</a>
       
     </p>
 

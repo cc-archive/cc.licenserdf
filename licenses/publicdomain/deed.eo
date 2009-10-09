@@ -4,8 +4,8 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-    Copyright-Only Dedication (bazita sur la Usona juro) 
-aŭ Deklaro pri Publikaĵo
+    Nuraŭtorrajta Dediĉo (bazita sur la Usona juro) 
+aŭ Publikaĵa Deklaro
   </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -414,9 +414,9 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title" datatype="">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
+	        <h2 property="dc:title" datatype="">Nuraŭtorrajta Dediĉo<a href="#" class="helpLink" id="use_zero">*</a>
 (bazita sur la Usona juro)<br />
-aŭ Deklaro pri Publikaĵo</h2>
+aŭ Publikaĵa Deklaro</h2>
         </div>
       </div>
 
@@ -431,13 +431,13 @@ aŭ Deklaro pri Publikaĵo</h2>
     </a>
   </div>
 
-  <p>La persono aŭ personoj, kiuj asociis verkon kun ĉi tiu dokumento (la "Deklaranto" aŭ "Dediĉanto") ĉi-maniere aŭ (a) deklaras, ke laŭ lia plej bona scio la verko de identigita aŭtoro estas publikaĵo en la ŝtato, kie ĝi estis publikigita, aŭ (b) dediĉas la verkon kiel publikaĵon, do rezignas ĉiujn de li posedatajn aŭtorrajtojn por la verko de sube identigita aŭtoreco (la "Verko"). Deklaranto krome rezignas ĉiujn aliajn, restantajn aŭtorrajtajn interesojn, kiujn li povas havi en la asociita verko, kaj estas tial sube menciata kiel "dediĉanto".</p>
+  <p>La persono, kiu asocias verkon kun ĉi tiu dokumento (la "deklaranto" aŭ "dediĉanto") ĉi-maniere aŭ (a) deklaras, ke laŭ lia plej bona scio, la verko de identigita aŭtoreco estas Publikaĵo en la ŝtato, kie ĝi estis publikigita, aŭ (b) dediĉas la verkon kiel Publikaĵon, do rezignas ĉiujn de li posedatajn aŭtorrajtojn por la verko de la sube identigita aŭtoreco (la "verko"). La deklaranto krome rezignas ĉiujn aliajn, restantajn aŭtorrajtajn interesojn, kiujn li povas havi en la asociata verko, kaj estas tial sube menciata kiel "dediĉanto".</p>
 
-<p>Deklaranto faris raciajn paŝojn por ekscii la staton de aŭtorrajtoj por ĉi tiu verko. Deklaranto agnoskas, ke lia bonkreda peno neniel malgrandigas lian responson, se la verko efektive ne estas publikaĵo.</p>
+<p>La deklaranto faris raciajn paŝojn por konfirmi la staton de la aŭtorrajtoj por ĉi tiu verko. Li konscias, ke lia bonkreda peno neniel malgrandigas lian responson, se la prideklarata verko efektive ne estas Publikaĵo.</p>
 
-<p>Dediĉanto faras la agon por utilo de la tuta homaro, sed fakte kaŭzas tiel malutilon al siaj heredontoj kaj idoj. Dediĉanto intencas fari la dediĉon kiel evidentan agon de porĉiama rezigno pri ĉiuj kaj nuntempaj kaj estontaj, kaj certaj kaj eventualaj rajtoj por la verko, devenantaj el la aŭtorrajta leĝaro. Dediĉanto konscias, ke tia rezigno pri ĉiuj rajtoj koncernas ankaŭ rezignon pri ĉiuj rajtoj eldevigi (juĝprocese aŭ alimaniere) la rajtojn por la verko.</p>
+<p>La dediĉanto faras la agon por utilo de la tuta homaro, sed fakte kaŭzas tiel malutilon al siaj heredontoj kaj idoj. La dediĉanto intencas fari la dediĉon kiel evidentan agon de porĉiama rezigno pri ĉiuj kaj nuntempaj kaj estontaj, kaj certaj kaj eventualaj rajtoj por la verko, devenantaj el la aŭtorrajta leĝaro. La dediĉanto konscias, ke tia rezigno pri ĉiuj rajtoj inkluzivas ankaŭ rezignon pri ĉiuj rajtoj eldevigi (juĝprocese aŭ alimaniere) la rajtojn por la verko.</p>
 
-<p>Dediĉanto agnoskas, ke post kiam verko estas liberigita kiel publikaĵo, ĝi rajtas esti libere reproduktata, distribuata, transsendata, uzata, aliigata, aliaj verkoj rajtas baziĝi sur ĝi; ankaŭ alimaniere ĝi rajtas esti ekspluatata de iu ajn homo, por iu ajn kaj komerca kaj nekomerca celo, kaj en iu ajn maniero, inkluzive metodojn ankoraŭ neinventitajn aŭ nepripensatajn.</p>
+<p>La dediĉanto konscias, ke post kiam la verko estos liberigita kiel Publikaĵo, ĝi rajtos esti libere reproduktata, distribuata, transsendata, uzata, aliigata, aliaj verkoj rajtos baziĝi sur ĝi; ankaŭ alimaniere ĝi rajtos esti ekspluatata de iu ajn homo, por iu ajn kaj komerca kaj nekomerca celo, en iu ajn maniero, inkluzive metodojn ankoraŭ neinventitajn aŭ nepripensatajn.</p>
 
 <div id="help_use_zero">
   <div class="hd">CC0 for Public Domain Dedication</div>

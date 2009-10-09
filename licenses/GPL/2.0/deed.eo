@@ -413,7 +413,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">GNU General Public License, <a href="http://www.gnu.org/">Fondaĵo por Libera Programaro</a></h2>
+	        <h2 property="dc:title">La GNU General Public License, <a href="http://www.gnu.org/">Fondaĵo de Libera Programaro</a></h2>
         </div>
       </div>
 
@@ -429,13 +429,13 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"></h3>
 
-<p>La permesilo <span>GNU General Public License</span> apartenas al permesiloj de la <a href="http://www.gnu.org/philosophy/free-sw.html">Libera Programaro</a>. Kiel ĉiu permesilo de la Libera Programaro, ĝi donas al vi la jenajn kvar liberecojn:</p>
+<p>La <span>GNU General Public License</span> apartenas al la permesiloj de la <a href="http://www.gnu.org/philosophy/free-sw.html">Libera Programaro</a>. Kiel ĉiu permesilo el tiu grupo, ĝi donas al vi la jenajn kvar liberojn:</p>
 			
 			<ol class="gpl">
-				<li class="gpl">La libereco uzi la programon por iu ajn celo.</li>
-				<li class="gpl">La libereco studi kiel la programo funkcias kaj adapti ĝin al viaj bezonoj.</li>
-				<li class="gpl">La libereco redistribui kopiojn kaj helpi tiel al aliuloj.</li>
-				<li class="gpl">La libereco plibonigi la programon kaj publikigi viajn plibonigojn, tiel ke ĉiu profitos el tio.</li>
+				<li class="gpl">Uzi la programon por iu ajn celo.</li>
+				<li class="gpl">Studi kiel la programo funkcias kaj adapti ĝin al viaj bezonoj.</li>
+				<li class="gpl">Redistribui kopiaĵojn kaj helpi tiel al aliuloj.</li>
+				<li class="gpl">Plibonigi la programon kaj publikigi viajn plibonigojn, el kiuj poste ĉiu povos profiti.</li>
 			</ol>
 </div>
     
@@ -443,22 +443,22 @@ setCookie('lang','%s', expiry, '/');
   <h3></h3>
 
 
-   <p />Vi rajtas realigi ĉion priskribitan ĉi tie, se vi konsentas kun la specifaj kondiĉoj de la permesilo. Jen la ĉefaj:
+   <p />Vi rajtas realigi la liberojn priskribitajn ĉi tie, se vi konsentas kun la specifaj kondiĉoj de la permesilo. Jen la ĉefaj:
    
 
    <ul style="text-align:left" dir="ltr"> 
-     <li class="license notice">Vi devas al ĉiu distribuata kopio de la verko aldoni klaran kaj adekvatan atentigon pri aŭtorrajtoj kaj malgarantio, krome vi ne rajtas ŝanĝi prinotaĵojn, referantajn al ĉi tiu permesilo kaj al atento pri malesto de iu ajn garantio; ankaŭ necesas al ĉiuj ricevantoj de la programo samtempe liveri kopion de la permesilo <span>GNU General Public License</span>. Iu ajn traduko de la permesilo <span>GNU General Public License</span> devas esti akompanata de la origina, netradukita versio.</li>
+     <li class="license notice">Vi devas al ĉiu distribuata kopiaĵo de la programo aldoni klaran kaj adekvatan atentigon pri la aŭtorrajtoj kaj malgarantiilon, krome vi ne rajtas ŝanĝi atentigojn, referantajn al ĉi tiu permesilo kaj malgarantiilo; ankaŭ necesas al ĉiuj ricevantoj de la programo samtempe liveri kopiaĵon de la <span>GNU General Public License</span>. Iu ajn traduko de la permesilo devas esti akompanata de la origina, netradukita versio.</li>
 
-     <li class="license sa">Se vi modifas vian kopion aŭ kopiojn de la programo aŭ iun ajn ties parton, aŭ evoluigas programon bazitan sur ĝi, vi rajtas distribui la rezultan verkon laŭ la permesilo <span>GNU General Public License</span>. Iu ajn traduko de la permesilo <span>GNU General Public License</span> devas esti akompanata de la origina, antaŭtraduka teksto.</li>
+     <li class="license sa">Se vi modifas via(j)n kopiaĵo(j)n de la programo aŭ iun ajn ties parton, aŭ evoluigas programon bazitan sur ĝi, vi rajtas distribui la rezultan verkon nur laŭ la <span>GNU General Public License</span>. Iu ajn traduko de la permesilo devas esti akompanata de la origina, antaŭtraduka teksto.</li>
 
      
 
-     <li class="license src">Se vi kopias aŭ distribuas la programon, necesas aldoni la kompletan adekvatan maŝinlegablan fontokodon aŭ skribitan proponon, validan minimume dum tri estontaj jaroj, la ĉi-antaŭe specifitan fontokodon liveri.</li>
+     <li class="license src">Se vi kopias aŭ distribuas la programon, vi devas aldoni la kompletan apartenantan maŝinlegeblan fontokodon aŭ skribitan proponon, validan minimume dum tri estontaj jaroj, la ĉi-antaŭe specifitan fontokodon liveri.</li>
    </ul>
      
 </div>
 
-<p>La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> iun ajn el la ĉi-antaŭaj kondiĉoj.</p> 
+<p>La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> ĉiun ajn el la ĉi-antaŭaj kondiĉoj.</p> 
 
 </div>
        </div>
@@ -474,11 +474,11 @@ setCookie('lang','%s', expiry, '/');
 	    <div id="help_disclaimer">
 	      <div class="hd">Malgarantio</div>
 	      <div class="bd"><p>
-La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin kiel afablan interfacon por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la vera permesilo.
+La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin afabla interfaco por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la efektiva permesilo.
 </p>
 
 <p>
-Creative Commons ne estas advokata firmao kaj ne provizas jurajn servojn. Distribuado, aperigado aŭ ligado al la Popola Resumo kreas nenian rilaton de advokato kaj kliento.
+La Krea Komunaĵo ne estas advokata firmao kaj ne provizas jurajn servojn. Distribuado, aperigado aŭ ligado al la Popola Resumo kreas nenian rilaton de advokato kaj kliento.
 </p></div>
 	    </div>
 	  
@@ -490,7 +490,7 @@ Creative Commons ne estas advokata firmao kaj ne provizas jurajn servojn. Distri
     
 
     
-      Ĉi tio estas facile komprenebla resumo de la Jura Teksto (la plena <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU Ĝenerala Publika Permesilo</a>). Ankaŭ <a href="legalcode.pt">Portugala traduko</a> estas disponebla.
+      Ĉi tio estas nur facile komprenebla resumo de la Jura Teksto (la plena <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU Ĝenerala Publika Permesilo</a>). Ankaŭ <a href="legalcode.pt">Portugala traduko</a> estas disponebla.
     
 
     
@@ -502,7 +502,7 @@ Creative Commons ne estas advokata firmao kaj ne provizas jurajn servojn. Distri
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">Uzu la permesilon por via propra verko.</a>
+         href="/choose/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=eo">Uzi la permesilon por via propra verko.</a>
       
     </p>
 

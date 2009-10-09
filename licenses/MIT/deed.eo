@@ -437,16 +437,16 @@ setCookie('lang','%s', expiry, '/');
             resource="http://creativecommons.org/ns#Reproduction">Vi rajtas:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj transdoni la verkon</li>
+             resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj transsendi la verkon</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Aliigi</strong>&nbsp;— ŝanĝi, adapti, kompletigi, transformi, uzi tutan verkon aŭ ties partojn, memstare aŭ en aliaj verkoj</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Aliigi</strong>&nbsp;— modifi, adapti, kompletigi, transformi, uzi la tutan verkon aŭ ties partojn, memstare aŭ en aliaj verkoj</li>
 		      </ul>
 <span id="devnations-container" />
 
         </div>
         <div id="deed-conditions" style="text-align:left"
              dir="ltr">
-		      <h3>Laŭ la jenaj kondiĉoj:</h3>
+		      <h3>La verko devas esti kunhavigata:</h3>
 	        <ul class="license-properties"
              style="text-align:left" dir="ltr"> 
             
@@ -455,10 +455,10 @@ setCookie('lang','%s', expiry, '/');
             
 
             <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">La atentigo pri aŭtorrajta protekto kaj pri la permesilo devas esti
-inkluzivitaj en ĉiuj kopioj aŭ konsiderindaj partoj de la programaro.</li>
+                resource="http://creativecommons.org/ns#Notice">La atentigo pri aŭtorrajtoj kaj la permesilo devas esti
+inkluzivigitaj en ĉiuj kopiaĵoj aŭ konsiderindaj partoj de la programaro.</li>
 
-            <li>La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> iun ajn el la ĉi-antaŭaj kondiĉoj.</li>
+            <li>La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> ĉiun ajn el la ĉi-antaŭaj kondiĉoj.</li>
 
             
           </ul>
@@ -479,11 +479,11 @@ inkluzivitaj en ĉiuj kopioj aŭ konsiderindaj partoj de la programaro.</li>
 	    <div id="help_disclaimer">
 	      <div class="hd">Malgarantio</div>
 	      <div class="bd"><p>
-La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin kiel afablan interfacon por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la vera permesilo.
+La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin afabla interfaco por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la efektiva permesilo.
 </p>
 
 <p>
-Creative Commons ne estas advokata firmao kaj ne provizas jurajn servojn. Distribuado, aperigado aŭ ligado al la Popola Resumo kreas nenian rilaton de advokato kaj kliento.
+La Krea Komunaĵo ne estas advokata firmao kaj ne provizas jurajn servojn. Distribuado, aperigado aŭ ligado al la Popola Resumo kreas nenian rilaton de advokato kaj kliento.
 </p></div>
 	    </div>
 	  
