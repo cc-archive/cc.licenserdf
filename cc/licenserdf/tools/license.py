@@ -19,10 +19,14 @@ from argparse import ArgumentParser
 
 from support import *
 
+
+RDF_DIR = pkg_resources.resource_filename('cc.licenserdf', 'licenses')
+
+
 # * 
 # *******************************************************************
 
-def _license_rdf_filename(rdf_dir, license_uri):
+def license_rdf_filename(license_uri, rdf_dir=RDF_DIR):
     """Map a license URI to the filesystem filename containing the RDF."""
 
     url_pieces = urlparse.urlparse(license_uri)
@@ -60,7 +64,7 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
         # we're starting from an existing license
 
         # load the based on graph
-        based_on = load_graph(_license_rdf_filename(rdf_dir, based_on_uri))
+        based_on = load_graph(license_rdf_filename(based_on_uri, rdf_dir))
 
         # copy base assertions
         for (p, o) in based_on.predicate_objects(URIRef(based_on_uri)):
@@ -101,14 +105,14 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     translate_graph(license)
 
     # write the graph out
-    save_graph(license, _license_rdf_filename(rdf_dir, license_uri))
+    save_graph(license, license_rdf_filename(license_uri, rdf_dir))
 
 
 def legalcode_list(license_url, rdf_dir):
     """
     List all legalcodes for license_url
     """
-    license_filename = _license_rdf_filename(rdf_dir, license_url)
+    license_filename = license_rdf_filename(license_url, rdf_dir)
     graph = load_graph(license_filename)
     for row in graph.query((
             'SELECT ?title where '
@@ -120,7 +124,7 @@ def legalcode_add(license_url, legalcode_url, rdf_dir, legalcode_lang=None):
     """
     Add a legalcode url the license rdf specified at license_url
     """
-    license_filename = _license_rdf_filename(rdf_dir, license_url)
+    license_filename = license_rdf_filename(license_url, rdf_dir)
     graph = load_graph(license_filename)
     graph.add((URIRef(license_url), NS_CC.legalcode, URIRef(legalcode_url)))
 
@@ -204,8 +208,7 @@ def get_args():
         'legalcode_url', nargs=1)
 
     parser.set_defaults(
-        rdf_dir=pkg_resources.resource_filename(
-            'cc.licenserdf', 'licenses'),
+        rdf_dir=RDF_DIR,
         version='3.0', 
         legalcode=None,
         jurisdiction=None)
