@@ -22,7 +22,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "cc.licenserdf",
-    version = "0.1.2",
+    version = "0.1.3",
     packages = find_packages('.'),
     namespace_packages = ['cc',],
     
@@ -34,6 +34,9 @@ setup(
                         'rdfadict',
                         'Babel',
                         'argparse',
+                        'zope.i18n',
+                        'python-gettext',
+                        'nose',
                         ],
 
 
