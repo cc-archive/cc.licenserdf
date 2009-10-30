@@ -11,6 +11,12 @@ def inverse_translate(string, target_language, domain='cc_org'):
     Translate something like "Foo ${bar} baz", where we actually
     preserve "Foo " and " baz" and translate "${bar} (using "bar" as
     the msgid)
+
+       >>> from cc.licenserdf import cc_org_i18n
+       >>> translated_string = inverse_translate(
+       ...    'foo ${country.pt} baz ${license.GPL_name_full}',
+       ...    target_language='en_US')
+       >>> translated_string == 'foo Portugal baz GNU General Public License'
     """
     translated_string = ''
     last_pos = 0
