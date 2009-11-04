@@ -40,16 +40,16 @@ setup(
                         ],
 
 
-    entry_points = {'console_scripts' : 
-                    ['merge = cc.licenserdf.tools.merge:cli',
-                     'make_schema = cc.licenserdf.tools.make_schema:cli',
-                     'add_license = cc.licenserdf.tools.license:add_cli',
-                     'add_all = cc.licenserdf.tools.license:add_all_cli',
-                     'jurisdiction = cc.licenserdf.tools.jurisdiction:cli',
-                     'license = cc.licenserdf.tools.license:cli',
-                     'translate_rdf = cc.licenserdf.tools.translate_rdf:cli',
-                     ],
-                    },
+    entry_points = {
+        'console_scripts': [
+            'merge = cc.licenserdf.tools.merge:cli',
+            'make_schema = cc.licenserdf.tools.make_schema:cli',
+            'add_license = cc.licenserdf.tools.license:add_cli',
+            'add_all = cc.licenserdf.tools.license:add_all_cli',
+            'jurisdiction = cc.licenserdf.tools.jurisdiction:cli',
+            'license = cc.licenserdf.tools.license:cli',
+            'translate_rdf = cc.licenserdf.tools.translate_rdf:cli',
+            'gen_i18n_titles = cc.licenserdf.tools.gen_i18n_titles:cli']},
 
     # author metadata
     author = 'Nathan R. Yergler',
