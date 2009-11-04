@@ -1,6 +1,7 @@
 from distutils.version import StrictVersion
 import pkg_resources
 import os
+import urlparse
 
 from cc.licenserdf.tools import support
 
@@ -40,9 +41,11 @@ def setup_i18n_title(license_graph, filename):
         license_version = None
 
     try:
-        license_jurisdiction = unicode(
+        license_jurisdiction_url = unicode(
             license_graph.triples(
                 (None, support.NS_cc['jurisdiction'], None))[0][2])
+        license_jurisdiction = urlparse.urlsplit(
+            license_jurisdiction_url).path.strip('/').split('/')[1]
     except KeyError:
         license_jurisdiction = None
 
@@ -53,13 +56,12 @@ def setup_i18n_title(license_graph, filename):
     elif 'GPL' in license_code:
         i18n_str = '${license.%s_name_full' % license_code
     elif license_code == 'publicdomain':
-        # Copyright-Only Dedication*  (based on United States law)
-        # or Public Domain Certification
         i18n_str = '${licenses.pretty_publicdomain}'
     else:
         # 'standard' license
         if license_jurisdiction:
-            pass
+            i18n_str = '${license.pretty_%s} %s ${country.%s}' % (
+                license_code, license_version, license_jurisdiction)
         else:
             if StrictVersion(license_version) >= StrictVersion('3.0'):
                 i18n_str = '${license.pretty_%s} %s ${util.Unported}' % (
@@ -67,7 +69,6 @@ def setup_i18n_title(license_graph, filename):
             else:
                 i18n_str = '${license.pretty_%s} %s ${util.Generic}' % (
                     license_code, license_version)
-                
 
     support.save_graph(filename)
 
