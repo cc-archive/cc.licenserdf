@@ -3,6 +3,8 @@ import pkg_resources
 import os
 import urlparse
 
+import rdflib
+
 from cc.licenserdf.tools import support
 
 I18N_DIR = pkg_resources.resource_filename('cc.licenserdf', 'i18n/i18n/')
@@ -10,40 +12,40 @@ LICENSES_DIR = pkg_resources.resource_filename('cc.licenserdf', 'licenses/')
 
 
 def setup_i18n_title(license_graph, filename):
+    license_subj = license_graph.triples(
+        (None, support.NS_RDF['type'], support.NS_CC['License']))[0][1]
+
     # see if there's already an i18n node.. if so, blast it
     i18n_triples = [
         (s, p, l) for (s, p, l)
-        in license_graph.triples((None, support.NS_DC['title'], None))
+        in license_graph.triples((license_subj, support.NS_DC['title'], None))
         if l.language == u'i18n']
     if i18n_triples:
         for i18n_triple in i18n_triples:
             license_graph.remove(i18n_triple)
 
-    license_subj, p, identifier_literal = license_graph.triples(
-        (None, support.NS_DC['identifier'], None))[0]
+    s, p, identifier_literal = license_graph.triples(
+        (license_subj, support.NS_DC['identifier'], None))[0]
     license_code = unicode(identifier_literal)
-
-    if license_code in ('GPL', 'LGPL'):
-        pass
 
     try:
         license_version = unicode(
             license_graph.triples(
-                (None, support.NS_DCQ['hasVersion'], None))[0][2])
+                (license_subj, support.NS_DCQ['hasVersion'], None))[0][2])
     except KeyError:
         license_version = None
 
     try:
         license_version = unicode(
             license_graph.triples(
-                (None, support.NS_DCQ['hasVersion'], None))[0][2])
+                (license_subj, support.NS_DCQ['hasVersion'], None))[0][2])
     except KeyError:
         license_version = None
 
     try:
         license_jurisdiction_url = unicode(
             license_graph.triples(
-                (None, support.NS_cc['jurisdiction'], None))[0][2])
+                (license_subj, support.NS_CC['jurisdiction'], None))[0][2])
         license_jurisdiction = urlparse.urlsplit(
             license_jurisdiction_url).path.strip('/').split('/')[1]
     except KeyError:
@@ -70,7 +72,13 @@ def setup_i18n_title(license_graph, filename):
                 i18n_str = '${license.pretty_%s} %s ${util.Generic}' % (
                     license_code, license_version)
 
-    support.save_graph(filename)
+    i18n_literal = rdflib.Literal('i18n_str')
+    i18n_literal.language = 'i18n'
+
+    license_graph.add(
+        (license_subj, support.NS_DC['title'], i18n_literal))
+
+    support.save_graph(license_graph, filename)
 
 
 def main():
@@ -78,3 +86,7 @@ def main():
         full_filename = os.path.join(LICENSES_DIR, filename)
         license_graph = support.load_graph(full_filename)
         setup_i18n_title(license_graph, full_filename)
+
+
+if __name__ == '__main__':
+    main()
