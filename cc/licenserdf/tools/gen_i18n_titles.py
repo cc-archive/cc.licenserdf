@@ -25,25 +25,26 @@ def setup_i18n_title(license_graph, filename):
         for i18n_triple in i18n_triples:
             license_graph.remove(i18n_triple)
 
-    s, p, identifier_literal = list(
-        license_graph.triples(
-            (license_subj, support.NS_DC['identifier'], None)))[0]
-    license_code = unicode(identifier_literal)
-
-    try:
-        license_version = unicode(
-            list(
-                license_graph.triples(
-                    (license_subj, support.NS_DCQ['hasVersion'], None)))[0][2])
-    except IndexError:
-        license_version = None
+    if '/publicdomain/zero/' in str(license_subj):
+        # cc0... let's just return on this one I guess for now... :\
+        return
+    else:
+        s, p, identifier_literal = list(
+            license_graph.triples(
+                (license_subj, support.NS_DC['identifier'], None)))[0]
+        license_code = unicode(identifier_literal)
 
     try:
         license_version = unicode(
             list(license_graph.triples(
-                    (license_subj, support.NS_DCQ['hasVersion'], None)))[0][2])
+                    (None, support.NS_DCQ['hasVersion'], None)))[0][2])
     except IndexError:
-        license_version = None
+        try:
+            license_version = unicode(
+            list(license_graph.triples(
+                    (None, support.NS_DC['hasVersion'], None)))[0][2])
+        except IndexError:
+            license_version = None
 
     try:
         license_jurisdiction_url = unicode(
@@ -75,6 +76,7 @@ def setup_i18n_title(license_graph, filename):
             else:
                 i18n_str = '${license.pretty_%s} %s ${util.Generic}' % (
                     license_code, license_version)
+
 
     i18n_literal = rdflib.Literal(i18n_str)
     i18n_literal.language = 'i18n'
