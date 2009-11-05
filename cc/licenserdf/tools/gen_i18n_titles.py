@@ -89,6 +89,9 @@ def setup_i18n_title(license_graph, filename):
 
 def cli():
     for filename in os.listdir(LICENSES_DIR):
+        if not filename.endswith('.rdf'):
+            continue
+
         full_filename = os.path.join(LICENSES_DIR, filename)
         license_graph = support.load_graph(full_filename)
         setup_i18n_title(license_graph, full_filename)
