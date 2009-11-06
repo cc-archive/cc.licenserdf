@@ -47,6 +47,7 @@ def save_graph(graph, filename):
         )
     output_file.close()
 
+
 def translate_graph(graph):
     """
     Look for title assertions with i18n as the lang, use their object
@@ -69,6 +70,20 @@ def translate_graph(graph):
         if not str_id:
             return None
 
+        old_objects = {}
+
+        # remove any previous instane of this language's
+        # translations.
+        for s, p, old_obj in graph.triples((subject, predicate, None)):
+            if old_obj.language == 'i18n':
+                pass
+            old_objects[old_obj.language] = old_obj
+
         for lang in lang_dirs:
+            rdf_lang = util.rdf_style_lang(lang)
+
+            if old_objects.has_key(rdf_lang):
+                graph.remove((subject, predicate, old_objects[rdf_lang]))
+
             translated = util.inverse_translate(str_id, lang)
-            graph.add((subject, predicate, Literal(translated, lang=lang)))
+            graph.add((subject, predicate, Literal(translated, lang=rdf_lang)))
