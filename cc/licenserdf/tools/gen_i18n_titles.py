@@ -1,4 +1,3 @@
-from distutils.version import StrictVersion
 import pkg_resources
 import os
 import urlparse
@@ -56,27 +55,8 @@ def setup_i18n_title(license_graph, filename):
     except IndexError:
         license_jurisdiction = None
 
-    if license_code == 'devnations':
-        i18n_str = '${util.Developing_Nations} License'
-    elif 'sampling' in license_code:
-        i18n_str = '${licenses.pretty_%s} %s' % (license_code, license_version)
-    elif 'GPL' in license_code:
-        i18n_str = '${license.%s_name_full' % license_code
-    elif license_code == 'publicdomain':
-        i18n_str = '${licenses.pretty_publicdomain}'
-    else:
-        # 'standard' license
-        if license_jurisdiction:
-            i18n_str = '${licenses.pretty_%s} %s ${country.%s}' % (
-                license_code, license_version, license_jurisdiction)
-        else:
-            if StrictVersion(license_version) >= StrictVersion('3.0'):
-                i18n_str = '${licenses.pretty_%s} %s ${util.Unported}' % (
-                    license_code, license_version)
-            else:
-                i18n_str = '${licenses.pretty_%s} %s ${util.Generic}' % (
-                    license_code, license_version)
-
+    i18n_str = support.gen_license_i18n_title(
+        license_code, license_version, license_jurisdiction)
 
     i18n_literal = rdflib.Literal(i18n_str)
     i18n_literal.language = 'i18n'
