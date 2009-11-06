@@ -25,8 +25,7 @@ def setup_i18n_title(license_graph, filename):
             license_graph.remove(i18n_triple)
 
     if '/publicdomain/zero/' in str(license_subj):
-        # cc0... let's just return on this one I guess for now... :\
-        return
+        license_code = u'cc0'
     else:
         s, p, identifier_literal = list(
             license_graph.triples(
