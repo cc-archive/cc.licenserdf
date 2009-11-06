@@ -67,14 +67,14 @@ def setup_i18n_title(license_graph, filename):
     else:
         # 'standard' license
         if license_jurisdiction:
-            i18n_str = '${license.pretty_%s} %s ${country.%s}' % (
+            i18n_str = '${licenses.pretty_%s} %s ${country.%s}' % (
                 license_code, license_version, license_jurisdiction)
         else:
             if StrictVersion(license_version) >= StrictVersion('3.0'):
-                i18n_str = '${license.pretty_%s} %s ${util.Unported}' % (
+                i18n_str = '${licenses.pretty_%s} %s ${util.Unported}' % (
                     license_code, license_version)
             else:
-                i18n_str = '${license.pretty_%s} %s ${util.Generic}' % (
+                i18n_str = '${licenses.pretty_%s} %s ${util.Generic}' % (
                     license_code, license_version)
 
 
