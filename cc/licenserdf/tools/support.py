@@ -1,6 +1,7 @@
 """Support functions for license RDF tools."""
 
 import os
+from distutils.version import StrictVersion
 
 from babel.messages import pofile
 from rdflib.Graph import Graph
@@ -46,6 +47,31 @@ def save_graph(graph, filename):
         graph.serialize(format="pretty-xml", max_depth=1)
         )
     output_file.close()
+
+
+def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
+    if license_code == 'devnations':
+        i18n_str = '${util.Developing_Nations} License'
+    elif 'sampling' in license_code:
+        i18n_str = '${licenses.pretty_%s} %s' % (license_code, license_version)
+    elif 'GPL' in license_code:
+        i18n_str = '${license.%s_name_full' % license_code
+    elif license_code == 'publicdomain':
+        i18n_str = '${licenses.pretty_publicdomain}'
+    else:
+        # 'standard' license
+        if license_jurisdiction:
+            i18n_str = '${licenses.pretty_%s} %s ${country.%s}' % (
+                license_code, license_version, license_jurisdiction)
+        else:
+            if StrictVersion(license_version) >= StrictVersion('3.0'):
+                i18n_str = '${licenses.pretty_%s} %s ${util.Unported}' % (
+                    license_code, license_version)
+            else:
+                i18n_str = '${licenses.pretty_%s} %s ${util.Generic}' % (
+                    license_code, license_version)
+
+    return i18n_str
 
 
 def translate_graph(graph):

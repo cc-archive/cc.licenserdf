@@ -100,7 +100,8 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     # Add the i18n string
     replace_predicate(
         license, URIRef(license_uri), NS_DC['title'],
-        Literal(u"licenses.pretty_%s" % license_code, lang="i18n"))
+        Literal(gen_license_i18n_title(license_code, version, jurisdiction),
+                lang="i18n"))
 
     translate_graph(license)
 
