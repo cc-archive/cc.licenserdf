@@ -156,7 +156,7 @@ def add(opts):
     # Add the i18n string
     j_graph.add((
             j_ref, NS_DC['title'],
-            Literal(u"country.%s" % jurisdiction[:-1], lang="i18n")))
+            Literal(u"${country.%s}" % jurisdiction[:-1], lang="i18n")))
 
     # add the translated names
     translate_graph(j_graph, opts.i18n_dir)
