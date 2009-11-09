@@ -437,9 +437,9 @@ setCookie('lang','%s', expiry, '/');
             resource="http://creativecommons.org/ns#Reproduction">您可自由：</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"><strong>分享</strong> — 重製、散布、展示及演出本著作</li>
+             resource="http://creativecommons.org/ns#Distribution"><strong>分享</strong> — 重製、散布及播送本著作</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>重混</strong> — 創作衍生著作</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>重混</strong> — 修改本著作</li>
 		      </ul>
 <span id="devnations-container" />
 
@@ -462,7 +462,7 @@ setCookie('lang','%s', expiry, '/');
 
             
 
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
+            <li>若您得到著作權人的同意，上述任何條件都可獲<a href="#" id="waived" class="helpLink">免除</a>。</li>
 
             
           </ul>

@@ -427,7 +427,7 @@ setCookie('lang','%s', expiry, '/');
   <div id="librepd">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="This license is acceptable for Free Cultural Works." />
+           alt="此授權條款適合自由文化作品。" />
     </a>
   </div>
 

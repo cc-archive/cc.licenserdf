@@ -458,7 +458,7 @@ setCookie('lang','%s', expiry, '/');
      
 </div>
 
-<p><%=[ccommons::istr $lang deed.permission]%></p> 
+<p>若您得到著作權人的同意，上述任何條件都可獲<a href="#" id="waived" class="helpLink">免除</a>。</p> 
 
 </div>
        </div>
@@ -486,7 +486,7 @@ Creative Commons 不是法律事務所，亦不提供法律服務。散布、展
     
 
     
-      這是一份讓一般人易於了解的法律條款（完整的<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU 較寬鬆通用公共授權條款, GNU LGPL</a> ）摘要。也有<a href="legalcode.pt">葡萄牙語的譯本</a>。
+      這是一份讓一般人易於了解的法律條款（即完整的<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU 較寬鬆通用公共授權條款, GNU LGPL</a> ）摘要。也有<a href="legalcode.pt">葡萄牙語的譯本</a>。
     
 
     
@@ -500,7 +500,7 @@ Creative Commons 不是法律事務所，亦不提供法律服務。散布、展
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=zh_TW">將你自己的著作採用這個條款授權他人使用。</a>
+         href="/choose/results-one?license_code=LGPL&amp;jurisdiction=-&amp;version=2.1&amp;lang=zh_TW">將你自己的著作採用這個條款授權他人使用</a>
       
     </p>
 

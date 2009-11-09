@@ -123,6 +123,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
+
+
+
+
 <a href="./deed.en" title="English" hreflang="en"
    rel="alternate nofollow" xml:lang="en">English</a>
 
@@ -437,7 +443,7 @@ setCookie('lang','%s', expiry, '/');
     resource="http://creativecommons.org/ns#Reproduction">您可自由：</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"><strong>分享</strong> — 重製、散布、展示及演出本著作</li>
+       resource="http://creativecommons.org/ns#Distribution"><strong>分享</strong> — 重製、散布及播送本著作</li>
 			      
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
@@ -451,14 +457,14 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>姓名標示</strong> &mdash;
-		<span id="attribution-container">您必須按照作者或授權人所指定的方式，表彰其姓名；但不得以任何方式暗示其為您（或您使用該著作的方式）背書。</span>
+		<span id="attribution-container">您必須按照作者或授權人所指定的方式，表彰其姓名（但不得以任何方式暗示其為您或您使用本著作的方式背書）。</span>
 		
 		<span id="by-more-container" />
 	      </p>
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>標示這份著作：</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-ND 3.0" />
@@ -471,14 +477,7 @@ setCookie('lang','%s', expiry, '/');
 		</p>
 		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">所謂的「姓名標示」是什麼意思？</div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="bd">引領你前來此處的網頁中嵌入了含授權資訊的後設資料，包括原作者想以什麼方式為人表彰等。你可以使用此處提供的 HTML 來引用此作品、並表彰出處。這麼一來，你的網頁上也會有授權後設資料，方便他人尋得原始作品。</div>
 		</div>
 
 	      
@@ -487,7 +486,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="" resource="" class="license nd">
 	      <p><strong>禁止改作</strong> &mdash;
 		
-		<span>您不得改變、轉變或改作本著作。</span>
+		<span>您不得變更、變形或修改本著作。</span>
 		<span id="nd-more-container" />
 	      </p>
 
@@ -498,44 +497,37 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>With the understanding that:</h3>
+	  <h3>且認知到：</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Waiver</strong>
+	      <strong>免除</strong>
 	      &mdash;
-	      
-		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
-		permission from the copyright holder.
-	      
+	      若您得到著作權人的同意，上述任何條件都可獲<a href="#" id="waived" class="helpLink">免除</a>。
 	    </li>
 	      
 	    <li class="license">
-	      <strong>Other Rights</strong>
+	      <strong>其他權利</strong>
 	      &mdash; 
-	      In no way are any of the following rights affected by the license:
+	      任何下列的權利絕不會受到本授權條款的影響：
 	     
 	      <ul>
 
-		<li>您合理使用的權利及其他的權利，不因上述內容而受影響。</li>
+		<li>您<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">合理使用的權利</a>；</li>
 
 		
-		  <li>作者的著作人格權</li>
+		  <li>作者的<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">著作人格權</a>；</li>
 		
 		
 
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as 
-		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
-		</li>
+		<li>其他人可能對該作品本身或該作品如何被使用所擁有的權利，例如<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">形象權</a>或隱私權。</li>
 	      </ul>
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-	      <strong>Notice</strong>
+	      <strong>聲明</strong>
 	      &mdash;
-	      為再使用或散布本著作，您必須向他人清楚說明本著作所適用的授權條款。（提供本網頁連結便是最好的方式。）
+	      為了再使用或散布之目的，您必須向他人清楚說明本著作所適用的授權條款。提供本網頁連結是最好的方式。
 	    </li>
 
           </ul>
@@ -543,17 +535,17 @@ setCookie('lang','%s', expiry, '/');
           
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">What does "conditions can be waived" mean?</div>
+            <div class="hd">什麼是「免除」？</div>
             <div class="bd">
               <p>CC licenses anticipate that a licensor may want to
 		waive compliance with a specific condition, such as
 		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">了解更多資訊</a>.</p>
             </div>
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">What does "Fair use" mean?</div>
+            <div class="hd">什麼是「合理使用的權利」？</div>
             <div class="bd">
               <p>All jurisdictions
               allow some limited uses of copyrighted material without
@@ -561,22 +553,22 @@ setCookie('lang','%s', expiry, '/');
               users under those copyright limitations and exceptions,
               such as fair use and fair dealing where applicable.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">了解更多資訊</a>.</p>
             </div>
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">What are "Moral Rights"?</div>
+            <div class="hd">什麼是「著作人格權」？</div>
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">了解更多資訊</a>.</p>
 
             </div>
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">What are "Publicity Rights"?</div>
+            <div class="hd">什麼是「形象權」？</div>
             <div class="bd">
               <p>Publicity
               rights allow individuals to control how their voice,
@@ -586,7 +578,7 @@ setCookie('lang','%s', expiry, '/');
               work may need to get permission from those individuals
               before using the work for commercial purposes.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">了解更多資訊</a>.</p>
             </div>
           </div>
 	  
@@ -630,7 +622,7 @@ Creative Commons 不是法律事務所，亦不提供法律服務。散布、展
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=cz&amp;version=3.0&amp;lang=zh_TW">將你自己的著作採用這個條款授權他人使用。</a>
+         href="/choose/results-one?license_code=by-nd&amp;jurisdiction=cz&amp;version=3.0&amp;lang=zh_TW">將你自己的著作採用這個條款授權他人使用</a>
       
     </p>
 
