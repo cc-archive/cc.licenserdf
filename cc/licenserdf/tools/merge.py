@@ -1,3 +1,4 @@
+import pkg_resources
 import sys
 import os
 import optparse
@@ -13,9 +14,11 @@ def create_option_parser():
     parser = optparse.OptionParser()
 
     # output options
-    parser.add_option('-o', '--output-file', dest='output_file', 
-                      default='rdf/index.rdf',
-                      help='Output file for merged RDF.')
+    parser.add_option(
+        '-o', '--output-file', dest='output_file', 
+        default=pkg_resources.resource_filename(
+            'cc.licenserdf', 'rdf/index.rdf'),
+        help='Output file for merged RDF.')
 
     return parser
 
