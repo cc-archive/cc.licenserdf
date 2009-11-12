@@ -63,7 +63,7 @@ Jurisdictions are specified by their short letter codes (ie, us).
     add_subparser.add_argument(
         '-i', '--i18n-dir', dest='i18n_dir', action='store',
         help=('Location containing .po files; defaults to '
-              './cc/licenserdf/i18n/i18n/'))
+              'cc.i18npkg/cc/i18npkg/i18n/i18n/'))
     add_subparser.add_argument(
         '--lang', dest='langs',
         help=("Comma delimited list of languages for the "
@@ -78,7 +78,7 @@ Jurisdictions are specified by their short letter codes (ie, us).
     add_subparser.set_defaults(
         juris_uri=None,
         i18n_dir=pkg_resources.resource_filename(
-            'cc.licenserdf', 'i18n/i18n/'))
+            'cc.i18npkg', 'i18n/i18n/'))
 
     return parser
 
