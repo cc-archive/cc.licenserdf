@@ -29,15 +29,17 @@ setup(
     include_package_data = True,
 
     # scripts and dependencies
-    install_requires = ['setuptools',
-                        'rdflib>=2.4.0',
-                        'rdfadict',
-                        'Babel',
-                        'argparse',
-                        'zope.i18n',
-                        'python-gettext',
-                        'nose',
-                        ],
+    install_requires = [
+        'setuptools',
+        'rdflib>=2.4.0',
+        'rdfadict',
+        'Babel',
+        'argparse',
+        'zope.i18n',
+        'python-gettext',
+        'nose',
+        'cc.i18npkg',
+        ],
 
 
     entry_points = {
