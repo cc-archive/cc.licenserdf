@@ -468,7 +468,7 @@ setCookie('lang','%s', expiry, '/');
 	      the above:
 	     
 	      <ul>
-		<li>Your fair dealing or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights;</li>
+		<li>Your fair dealing or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights, or other applicable copyright exceptions and limitations;</li>
 		<li>Rights other persons may have either in the work itself or in how the work is used, such as <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">publicity</a> or privacy rights.</li>
 	      </ul>
 	    </li>
