@@ -3,19 +3,20 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    Attribution-Noncommercial 2.0 Japan
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      저작자표시-비영리 2.0 Japan
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,23 +38,22 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -80,14 +80,10 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">크리에이티브 커먼즈</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">이 페이지는 다음과 같은 언어로 이용할 수 있습니다.</span>
 <br />
 
@@ -107,6 +103,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.ca" title="Català" hreflang="ca"
    rel="alternate nofollow" xml:lang="ca">Català</a>
+
+
+
+
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
 
 
 
@@ -143,6 +145,20 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
    rel="alternate nofollow" xml:lang="en_GB">English (GB)</a>
+
+
+
+
+<a href="./deed.en_HK" title="English (Hong Kong)"
+   hreflang="en_HK" rel="alternate nofollow"
+   xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -188,6 +204,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.es_EC" title="Español (Ecuador)"
    hreflang="es_EC" rel="alternate nofollow"
    xml:lang="es_EC">Español (Ecuador)</a>
+
+
+
+
+<a href="./deed.es_GT" title="Español (Guatemala)"
+   hreflang="es_GT" rel="alternate nofollow"
+   xml:lang="es_GT">Español (Guatemala)</a>
 
 
 
@@ -352,8 +375,20 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
+
+
+
+
+<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
+   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -374,17 +409,27 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="yellow"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">저작자표시-비영리 2.0 Japan</h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="jp">
+
           
   
 
@@ -398,23 +443,24 @@ setCookie('lang','%s', expiry, '/');
     alt="jp" /></a>
 <h3 rel="cc:permits"
     resource="http://creativecommons.org/ns#Reproduction">이용자는 아래의 조건을 따르는 경우에 한하여 자유롭게</h3>
-		      <ul>
+		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution">이 저작물을 복제, 배포, 전송, 전시, 공연 및 방송할 수 있습니다.</li>
 			      <li class="license remix" rel="cc:permits"
-             resource="http://creativecommons.org/ns#DerivativeWorks">이차적 저작물을 작성할 수 있습니다.</li>
+             resource="http://creativecommons.org/ns#DerivativeWorks"><strong>리믹스</strong> — 저작물의 개작</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
         <div id="deed-conditions">
 	  <h3>다음과 같은 조건을 따라야 합니다:</h3>
 
-	  <ul style="text-align:left" dir="ltr"> 
+	  <ul class="license-properties" style="text-align:left"
+       dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>저작자표시</strong>. 
-		<span id="attribution-container">귀하는 원저작자를 표시하여야 합니다.</span>
+	      <p><strong>저작자표시</strong> &mdash;
+		<span id="attribution-container">저작자나 이용허락자가 정한 방법으로 저작물의 원저작자를 표시하여야 합니다(그러나 귀하나 귀하의 저작물을 추천하는 의미로 표시되어서는 안됩니다).</span>
 		
 		<span id="by-more-container" />
 	      </p>
@@ -427,15 +473,13 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-NC 2.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc/2.0/jp/" />
-		<a href="" id="attribution_help">
-		  <img src="http://creativecommons.org/licenses/@@/cc/images/information.png"
+		<a href="" id="attribution_help" class="helpLink">
+		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
+		<div id="help_attribution_help" class="help_panel">
+		  <div class="hd">"저작자 표시"의 의미는?</div>
 		  <div class="bd">
 		    The page you came from contained embedded licensing
 		    metadata, including how the creator wishes to be 
@@ -451,56 +495,140 @@ setCookie('lang','%s', expiry, '/');
             </li>
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
-                class="license nc-jp">
-	      <p><strong>비영리</strong>. 
+                class="license nc">
+	      <p><strong>비영리</strong> &mdash;
 		
-		<span>귀하는 이 저작물을 영리 목적으로 이용할 수 없습니다.</span>
-		<span id="nc-jp-more-container" />
+		<span>이 저작물을 영리 목적으로 이용할 수 없습니다.</span>
+		<span id="nc-more-container" />
 	      </p>
 
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">귀하는, 이 저작물의 재이용이나 배포의 경우, 이 저작물에 적용된 이용허락조건을 명확하게 나타내어야 합니다.</li>
-            <li>저작권자로부터 별도의 허가를 받으면 이러한 조건들은 적용되지 않습니다.</li>
-            
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
-            
-            
+
+	  </ul>
+	</div>
+	<div id="deed-understanding">
+	  <h3>With the understanding that:</h3>
+
+	  <ul class="understanding license-properties">
+            <li class="license">
+	      <strong>Waiver</strong>
+	      &mdash;
+	      
+		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
+		permission from the copyright holder.
+	      
+	    </li>
+	      
+	    <li class="license">
+	      <strong>Other Rights</strong>
+	      &mdash; 
+	      In no way are any of the following rights affected by the license:
+	     
+	      <ul>
+
+		<li>Your fair dealing
+		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights;
+		</li>
+
+		
+		  <li>
+		    The author's <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">moral</a> rights;
+		  </li>
+		
+		
+
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as 
+		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
+		</li>
+	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      이 저작물을 재이용하거나 배포하는 경우에는 이 저작물에 적용된 이용허락조건을 명확하게 나타내어야 합니다. 가장 좋은 방법은 이 페이지로 링크시키는 것입니다.
+	    </li>
+
           </ul>
 
           <div id="deed-newer">
-    	      <p>이 라이센스의 <a href="http://creativecommons.org/licenses/by-nc/2.1/jp/">개정판</a> 이 있습니다. 새 저작물에 대한 이용허락은 개정판에 의하여야 합니다. 기존의 저작물도 개정판에 의하여 다시 이용허락할 수 있으나 <em>자동적으로</em> 개정판이 적용되는 것은 아닙니다.</p>
+    	      <p>이 라이선스의 <a href="http://creativecommons.org/licenses/by-nc/2.1/jp/">개정판</a>이 있습니다. 새 저작물에 대한 이용허락은 개정판을 적용하세요. 기존의 저작물도 개정판에 의하여 다시 이용허락할 수 있으나 <em>자동적으로</em> 개정판이 적용되는 것은 아닙니다.</p>
           </div>
 
+          <div id="help_waived" class="help_panel">
+            <div class="hd">What does "conditions can be waived" mean?</div>
+            <div class="bd">
+              <p>CC licenses anticipate that a licensor may want to
+		waive compliance with a specific condition, such as
+		attribution.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+            </div>
           </div>
+
+          <div id="help_fair_use" class="help_panel">
+            <div class="hd">What does "Fair use" mean?</div>
+            <div class="bd">
+              <p>All jurisdictions
+              allow some limited uses of copyrighted material without
+              permission.  CC licenses do not affect the rights of
+              users under those copyright limitations and exceptions,
+              such as fair use and fair dealing where applicable.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_moral_rights" class="help_panel">
+            <div class="hd">What are "Moral Rights"?</div>
+            <div class="bd">
+              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+
+            </div>
+          </div>
+
+          <div id="help_publicity_rights" class="help_panel">
+            <div class="hd">What are "Publicity Rights"?</div>
+            <div class="bd">
+              <p>Publicity
+              rights allow individuals to control how their voice,
+              image or likeness is used for commercial purposes in
+              public.  If a CC-licensed work includes the voice or
+              image of anyone other than the licensor, a user of the
+              work may need to get permission from those individuals
+              before using the work for commercial purposes.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+            </div>
+          </div>
+	  
+        </div>
     <span id="referrer-metadata-container" />
 
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           <p id="disclaimer"><p>
-커먼즈 증서(Commons Deed)는 그 자체로 이용허락조건은 아닙니다. 이용허락규약(Legal Code)의 내용을 쉽게 이해할 수 있도록 중요한 조건의 일부를 알기 쉽게 표현한 참조문입니다. 따라서 커먼즈 증서(Commons Deed) 그 자체에는 법적인 의미는 없으며 그 내용은 실제 이용허락조건에는 나타나지 않습니다. 구체적인 이용허락조건은 이용허락규약(Legal Code)에 의하여 결정됩니다. <a href="legalcode" class="fulltext">이용허락규약(Legal Code)은 여기를 클릭하세요</a>.  
+커먼즈 증서(Commons Deed)는 그 자체로 이용허락서는 아닙니다. 이용허락규약(Legal Code)의 내용을 쉽게 이해할 수 있도록 중요한 조건의 일부를 알기 쉽게 표현한 참조문입니다. 따라서 커먼즈 증서(Commons Deed) 그 자체에는 법적인 효력이 없으며 그 내용은 실제 이용허락서에는 나타나지 않습니다. 구체적인 이용허락조건은 이용허락규약(Legal Code)에 의하여 결정됩니다. <a href="legalcode" class="fulltext">이용허락규약(Legal Code)은 여기를 클릭하세요</a>.  
 </p>
 
 <P>
-크리에이티브 커먼즈 및 크리에이티브 커먼즈 코리아는 법률 사무소가 아니며 커먼즈 증서(Commons Deed)에의 링크나 이를 배포, 전시하더라도 어떠한 법률 서비스를 제공하는 것은 아닙니다. 크리에이티브 커먼즈 및 크리에이티브 커먼즈 코리아는 이용허락의 당사자가 아니며 이 커먼즈 증서(Commons Deed) 및 이용허락조건의 이용으로부터 파생하는 어떠한 손해에 대해서도 책임이 없습니다.
+크리에이티브 커먼즈 및 크리에이티브 커먼즈 코리아는 법률 사무소가 아니며 커먼즈 증서(Commons Deed)에 링크를 하거나 이를 배포, 전시하더라도 어떠한 법률 서비스를 제공하는 것은 아닙니다. 크리에이티브 커먼즈 및 크리에이티브 커먼즈 코리아는 이용허락의 당사자가 아니며 이 커먼즈 증서(Commons Deed) 및 라이선스의 이용으로부터 파생되는 어떠한 손해에 대해서도 책임이 없습니다.
 </p>
 
 <p>
-크리에이티브 커먼즈 라이센스에 따라 이용이 허락된 저작물들은 그 라이센스를 적용한 분들에 의하여 제공되고 있습니다.크리에이티브 커먼즈 및 크리에이티브 커먼즈 코리아는 이용허락자가 저작물의 정당한 권리자임을 보증하지 않습니다. 라이센스의 적용 및 저작물의 이용에 관한 주의점은 <a href="http://creativecommons.or.kr/faq/faq.php">여기</a>를 클릭하세요.
+크리에이티브 커먼즈 라이선스에 따라 이용이 허락된 저작물은 그 라이선스를 적용한 분이 제공하는 것입니다. 크리에이티브 커먼즈 및 크리에이티브 커먼즈 코리아는 이용허락자가 저작물의 정당한 권리자임을 보증하지 않습니다. 라이선스의 적용 및 저작물의 이용에 관한 유의사항은 <a href="http://creativecommons.or.kr/faq/faq.php">여기</a>를 참조하세요.
 </p></p>
 
 	  
-
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>저작권법에 따른 이용자의 권리는 위의 내용에 의하여 영향을 받지 않습니다.</strong>
-	</p>
 
 	<p style="text-align:center">
 
@@ -517,10 +645,10 @@ setCookie('lang','%s', expiry, '/');
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc&amp;jurisdiction=jp&amp;version=2.0">
-      Use this license for your own work.</a>
-
+         href="/choose/results-one?license_code=by-nc&amp;jurisdiction=jp&amp;version=2.0&amp;lang=ko">귀하의 저작물에 이 라이선스를 적용하세요.</a>
+      
     </p>
 
   </body>

@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -109,6 +105,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -117,6 +119,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -433,7 +441,7 @@ setCookie('lang','%s', expiry, '/');
     alt="th" /></a>
 <h3 rel="cc:permits"
     resource="http://creativecommons.org/ns#Reproduction">You are free:</h3>
-		      <ul>
+		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution"><strong>to Share</strong> — to copy, distribute and transmit the work</li>
 			      
@@ -443,11 +451,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-conditions">
 	  <h3>Under the following conditions:</h3>
 
-	  <ul style="text-align:left" dir="ltr"> 
+	  <ul class="license-properties" style="text-align:left"
+       dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Attribution</strong>. 
+	      <p><strong>Attribution</strong> &mdash;
 		<span id="attribution-container">You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
 		
 		<span id="by-more-container" />
@@ -461,12 +470,12 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-ND 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nd/3.0/th/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">
 		    What does "Attribute this work" mean?
 		  </div>
@@ -484,7 +493,7 @@ setCookie('lang','%s', expiry, '/');
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>No Derivative Works</strong>. 
+	      <p><strong>No Derivative Works</strong> &mdash;
 		
 		<span>You may not alter, transform, or build upon this work.</span>
 		<span id="nd-more-container" />
@@ -493,23 +502,125 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.</li>
-            <li>Any of the above conditions can be waived if you get permission from the copyright holder.</li>
-            
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
-            
-            
+
+	  </ul>
+	</div>
+	<div id="deed-understanding">
+	  <h3>
+	    With the understanding that:
+	  </h3>
+
+	  <ul class="understanding license-properties">
+            <li class="license">
+	      <strong>Waiver</strong>
+	      &mdash;
+	      Any of the above conditions can be waived if you get permission from the copyright holder.
+	    </li>
+	      
+	    <li class="license">
+	      <strong>Other Rights</strong>
+	      &mdash; 
+	      In no way are
+		    any of the following rights affected by the
+		    license:
+	     
+	      <ul>
+
+		<li>Your fair dealing and other rights are in no way affected by the above.</li>
+
+		
+		  <li>Nothing in this license impairs or restricts the author's moral rights.</li>
+		
+		
+
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as 
+		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
+		</li>
+	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.
+	    </li>
+
           </ul>
 
           
 
+          <div id="help_waived" class="help_panel">
+            <div class="hd">
+              What does "conditions can be waived" mean?
+            </div>
+            <div class="bd">
+              <p>
+		CC licenses anticipate that a licensor may want to
+		waive compliance with a specific condition, such as
+		attribution.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+            </div>
           </div>
+
+          <div id="help_fair_use" class="help_panel">
+            <div class="hd">
+              What does "Fair use" mean?
+            </div>
+            <div class="bd">
+              <p>All jurisdictions
+              allow some limited uses of copyrighted material without
+              permission.  CC licenses do not affect the rights of
+              users under those copyright limitations and exceptions,
+              such as fair use and fair dealing where applicable.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_moral_rights" class="help_panel">
+            <div class="hd">
+              What are "Moral Rights"?
+            </div>
+            <div class="bd">
+              <p>In addition to
+              the right of licensors to request removal of their name
+              from the work when used in a derivative or collective
+              they don't like, copyright laws in most jurisdictions
+              around the world (with the notable exception of the US
+              except in very limited circumstances) grant creators
+              "moral rights" which may provide some redress if a
+              derivative work represents a "derogatory treatment" of
+              the licensor's work.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+
+            </div>
+          </div>
+
+          <div id="help_publicity_rights" class="help_panel">
+            <div class="hd">
+              What are "Publicity Rights"?
+            </div>
+            <div class="bd">
+              <p>Publicity
+              rights allow individuals to control how their voice,
+              image or likeness is used for commercial purposes in
+              public.  If a CC-licensed work includes the voice or
+              image of anyone other than the licensor, a user of the
+              work may need to get permission from those individuals
+              before using the work for commercial purposes.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+            </div>
+          </div>
+	  
+        </div>
     <span id="referrer-metadata-container" />
 
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -517,8 +628,8 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">Disclaimer</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Disclaimer</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Disclaimer</div>
 	      <div class="bd"><p>
 The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full license) &mdash; it is a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in the actual license.
@@ -547,7 +658,7 @@ Creative Commons is not a law firm and does not provide legal services. Distribu
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=th&amp;version=3.0&amp;lang=en">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by-nd&amp;jurisdiction=th&amp;version=3.0&amp;lang=en">Use this license for your own work.</a>
       
     </p>
 

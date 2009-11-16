@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -111,6 +107,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -119,6 +121,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -435,7 +443,7 @@ setCookie('lang','%s', expiry, '/');
     alt="th" /></a>
 <h3 rel="cc:permits"
     resource="http://creativecommons.org/ns#Reproduction">คุณมีเสรีภาพ :</h3>
-		      <ul>
+		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution"><strong>ที่จะแบ่งปัน</strong> — ที่จะทำสำเนา แจกจ่าย และส่งงานดังกล่าวต่อไป</li>
 			      <li class="license remix" rel="cc:permits"
@@ -446,11 +454,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-conditions">
 	  <h3>ภายใต้เงื่อนไข ดังต่อไปนี้ :</h3>
 
-	  <ul style="text-align:left" dir="ltr"> 
+	  <ul class="license-properties" style="text-align:left"
+       dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>แสดงที่มา</strong>. 
+	      <p><strong>แสดงที่มา</strong> &mdash;
 		<span id="attribution-container">คุณต้องแสดงที่มาของงานดังกล่าว ตามรูปแบบที่ผู้สร้างสรรค์หรือผู้อนุญาตกำหนด (แต่ไม่ใช่ในลักษณะที่ว่า พวกเขาสนับสนุนคุณหรือสนับสนุนการที่คุณนำงานไปใช้)</span>
 		
 		<span id="by-more-container" />
@@ -458,18 +467,18 @@ setCookie('lang','%s', expiry, '/');
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>แสดงที่มาถึงงานนี้ :</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-NC 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc/3.0/th/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="ข้อมูล" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">"แสดงที่มาของผลงานนี้" หมายความว่าอะไร ?</div>
 		  <div class="bd">ท่านได้มาจากหน้าเว็บซึ่งมีข้อมูลเมตาดาตาที่ระบุแบบของสัญญาอนุญาตฝังอยู่ ซึ่งรวมถึงวิธีที่ผู้สร้างงานหวังจะให้แสดงที่มาของงานอย่างไร เมื่อนำงานไปใช้ต่อ คุณสามารถใช้โค้ดเอชทีเอ็มแอลที่นี่ เพื่ออ้างถึงงานดังกล่าว การทำเช่นนั้น จะฝังเอาข้อมูลเมตาดาตาลงไปในหน้าเว็บของคุณ ซึ่งจะทำให้ผู้อื่นสามารถหางานต้นฉบับเจอได้ด้วย</div>
 		</div>
@@ -480,7 +489,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>ไม่ใช้เพื่อการค้า</strong>. 
+	      <p><strong>ไม่ใช้เพื่อการค้า</strong> &mdash;
 		
 		<span>คุณไม่อาจใช้งานนี้เพื่อวัตถุประสงค์ทางการค้า</span>
 		<span id="nc-more-container" />
@@ -489,23 +498,98 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">สำหรับการใช้ซ้ำหรือการแจกจ่ายใด ๆ คุณต้องระบุข้อตกลงของสัญญาอนุญาตนี้อย่างชัดเจน วิธีที่ดีที่สุดในการทำเช่นนั้นคือ การทำลิงก์กลับมาที่หน้าเว็บนี้</li>
-            <li>เงื่อนไขใด&nbsp;ๆ ข้างต้น อาจ<a href="#" id="waived" class="helpLink">ยกเว้น</a>ได้ หากคุณได้รับอนุญาตจากผู้ถือครองลิขสิทธิ์</li>
-            
-            <li>สัญญาอนุญาตนี้ ไม่ลดทอนหรือจำกัดจริยสิทธิ์ของผู้สร้างสรรค์</li>
-            
-            
+
+	  </ul>
+	</div>
+	<div id="deed-understanding">
+	  <h3>ด้วยความเข้าใจว่า :</h3>
+
+	  <ul class="understanding license-properties">
+            <li class="license">
+	      <strong>คำสละสิทธิ์</strong>
+	      &mdash;
+	      เงื่อนไขใด&nbsp;ๆ ข้างต้น อาจ<a href="#" id="waived" class="helpLink">ยกเว้น</a>ได้ หากคุณได้รับอนุญาตจากผู้ถือครองลิขสิทธิ์
+	    </li>
+	      
+	    <li class="license">
+	      <strong>สิทธิ์อื่น ๆ</strong>
+	      &mdash; 
+	      ไม่ว่าในทางใด สิทธิดังต่อไปนี้ไม่กระทบโดยสัญญาอนุญาต 
+	     
+	      <ul>
+
+		<li>สิทธิการได้รับการปฏิบัติที่เป็นธรรมหรือ<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">สิทธิการใช้งานที่เป็นธรรม</a>ของคุณ</li>
+
+		
+		  <li>สัญญาอนุญาตนี้ ไม่ลดทอนหรือจำกัดจริยสิทธิ์ของผู้สร้างสรรค์</li>
+		
+		
+
+		<li>สิทธิที่ผู้อื่นอาจมี ไม่ว่าจะในตัวงานเองหรือจะเป็นการนำงานไปใช้ เช่นสิทธิใน<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights" title="publicity">การเผยแพร่สู่สาธารณะ</a>หรือสิทธิในความเป็นส่วนตัว</li>
+	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      สำหรับการใช้ซ้ำหรือการแจกจ่ายใด ๆ คุณต้องระบุข้อตกลงของสัญญาอนุญาตนี้อย่างชัดเจน วิธีที่ดีที่สุดในการทำเช่นนั้นคือ การทำลิงก์กลับมาที่หน้าเว็บนี้
+	    </li>
+
           </ul>
 
           
 
+          <div id="help_waived" class="help_panel">
+            <div class="hd">คำว่า "เงื่อนไขที่สามารถสละได้" หมายความว่าอย่างไร ?</div>
+            <div class="bd">
+              <p>สัญญาอนุญาตซีซี คาดว่า ผู้อนุญาต อาจต้องการ		สละสิทธิ์บางอย่าง ถ้ายอมทำตามเงื่อนไขที่กำหนด เช่น		การอ้างที่มา</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">ศึกษาเพิ่ม</a>.</p>
+            </div>
           </div>
+
+          <div id="help_fair_use" class="help_panel">
+            <div class="hd">"การใช้งานที่เป็นธรรม" คืออะไร ?</div>
+            <div class="bd">
+              <p>เขตอำนาจศาลทุกแห่ง
+อนุญาตให้สามารถใช้งานที่มีลิขสิทธิ์ ได้ในบางกรณีโดย
+ไม่ต้องขออนุญาต สัญญาอนุญาตซีซี ไม่กระทบต่อสิทธิ์
+ของผู้ใช้งานที่สามารถทำได้ภายใต้ข้อจำกัดและข้อยกเว้น
+ตามกฎหมายลิขสิทธิ์ เช่น การใช้งานที่เป็นธรรมและสมควร ที่กฎหมายกำหนด</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">ศึกษาเพิ่ม</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_moral_rights" class="help_panel">
+            <div class="hd">"จริยสิทธิ์" คืออะไร ?</div>
+            <div class="bd">
+              <p>นอกจากสิทธิ์ของผู้อนุญาต ในการขอให้นำชื่อของเขาออกจากงาน เมื่องานนั้นถูกใช้ในงานดัดแปลงหรืองานรวบรวมที่เขาไม่ต้องการ กฎหมายลิขสิทธิ์ของรัฐส่วนมากทั่วโลก (ยกเว้นในสหรัฐอเมริกา ซึ่งมีกรณีที่เข้าข้อยกเว้นน้อยมาก) มักกำหนดให้ผู้สร้างงานมี "จริยสิทธิ์" ซึ่งสามารถขอให้แก้ไขปรับปรุงได้ ถ้างานดัดแปลงนั้น ทำให้เกิด" การตำหนิ" ต่องานต้นฉบับของผู้อนุญาต</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">ศึกษาเพิ่ม</a>.</p>
+
+            </div>
+          </div>
+
+          <div id="help_publicity_rights" class="help_panel">
+            <div class="hd">สิทธิในการเผยแพร่คืออะไร ?</div>
+            <div class="bd">
+              <p>สิทธิ์สาธารณะ
+อนุญาตให้บุคคลสามารถควบคุมการใช้งานเสียง
+ภาพ หรือสิ่งอื่นทำนองเดียวกัน เพื่อการค้า ใน
+สาธารณะ หากงานที่ใช้สัญญาอนุญาตซีซี มีเสียง หรือ
+รูปของคนอื่นที่ไม่ใช่ผู้อนุญาตรวมอยู่ด้วย ผู้ใช้งาน
+อาจต้องขออนุญาตจากบุคคลดังกล่าว
+ก่อนการใช้งานเพื่อการค้า</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">ศึกษาเพิ่ม</a>.</p>
+            </div>
+          </div>
+	  
+        </div>
     <span id="referrer-metadata-container" />
 
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -513,8 +597,8 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">การปฏิเสธความรับผิด</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">การปฏิเสธความรับผิด</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">การปฏิเสธความรับผิด</div>
 	      <div class="bd"><p>
 หนังสือสำคัญคอมมอนส์ ไม่ใช่สัญญาอนุญาต มันเป็นเพียงเอกสารอ้างอิงเพื่อความสะดวกในการเข้าใจข้อกฎหมาย (สัญญาอนุญาตฉบับเต็ม) &mdash; บอกกล่าวสาระสำคัญบางประการของมัน คิดเสียว่ามันคือหน้ากากครอบสัญญาอนุญาตที่อยู่ข้างใต้ หนังสือนี้โดยตัวมันเองไม่มีผลทางกฎหมาย และเนื้อหาของมันไม่ปรากฏในสัญญาอนุญาตจริง
@@ -543,7 +627,7 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc&amp;jurisdiction=th&amp;version=3.0&amp;lang=th">ใช้สัญญาอนุญาตนี้กับงานของคุณ</a>
+         href="/choose/results-one?license_code=by-nc&amp;jurisdiction=th&amp;version=3.0&amp;lang=th">ใช้สัญญาอนุญาตนี้กับงานของคุณ</a>
       
     </p>
 

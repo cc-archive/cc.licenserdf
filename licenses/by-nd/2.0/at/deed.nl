@@ -3,19 +3,20 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    Attribution-No Derivative Works 2.0 Austria
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      Naamsvermelding-Geen Afgeleide werken 2.0 Oostenrijk
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,23 +38,22 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -78,14 +78,10 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">Creative Commons</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">Deze pagina is beschikbaar in de volgende talen:</span>
 <br />
 
@@ -105,6 +101,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.ca" title="Català" hreflang="ca"
    rel="alternate nofollow" xml:lang="ca">Català</a>
+
+
+
+
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
 
 
 
@@ -141,6 +143,20 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
    rel="alternate nofollow" xml:lang="en_GB">English (GB)</a>
+
+
+
+
+<a href="./deed.en_HK" title="English (Hong Kong)"
+   hreflang="en_HK" rel="alternate nofollow"
+   xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -186,6 +202,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.es_EC" title="Español (Ecuador)"
    hreflang="es_EC" rel="alternate nofollow"
    xml:lang="es_EC">Español (Ecuador)</a>
+
+
+
+
+<a href="./deed.es_GT" title="Español (Guatemala)"
+   hreflang="es_GT" rel="alternate nofollow"
+   xml:lang="es_GT">Español (Guatemala)</a>
 
 
 
@@ -350,8 +373,20 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
+
+
+
+
+<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
+   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -372,17 +407,27 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="yellow"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">Naamsvermelding-Geen Afgeleide werken 2.0 Oostenrijk</h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="at">
+
           
   
 
@@ -396,7 +441,7 @@ setCookie('lang','%s', expiry, '/');
     alt="at" /></a>
 <h3 rel="cc:permits"
     resource="http://creativecommons.org/ns#Reproduction">De gebruiker mag:</h3>
-		      <ul>
+		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution">het werk kopiëren, verspreiden en doorgeven</li>
 			      
@@ -406,11 +451,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-conditions">
 	  <h3>Onder de volgende voorwaarden:</h3>
 
-	  <ul style="text-align:left" dir="ltr"> 
+	  <ul class="license-properties" style="text-align:left"
+       dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Naamsvermelding</strong>. 
+	      <p><strong>Naamsvermelding</strong> &mdash;
 		<span id="attribution-container">De gebruiker dient bij het werk de door de maker of de licentiegever aangegeven naam te vermelden (maar niet zodanig dat de indruk gewekt wordt dat zij daarmee instemmen met uw werk of uw gebruik van het werk).</span>
 		
 		<span id="by-more-container" />
@@ -424,21 +470,28 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-ND 2.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nd/2.0/at/" />
-		<a href="" id="attribution_help">
-		  <img src="http://creativecommons.org/licenses/@@/cc/images/information.png"
+		<a href="" id="attribution_help" class="helpLink">
+		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
-		  <div class="hd">Wat betekend "Naamsvermelding bij dit werk"?</div>
-		  <div class="bd">De website waar u vandaan komt bevat ingebedde metadata, met onder meer informatie over de door de maker van het werk bij hergebruik gewenste manier van naamsvermelding. U kunt de html code hieronder gebruiken om de de naam te vermelden. In dit geval wordt metadata in uw pagina geplaatst die anderen in staat stelt om het originele werk te vinden.</div>
+		<div id="help_attribution_help" class="help_panel">
+		  <div class="hd">Wat betekent "Naamsvermelding bij dit werk"?</div>
+		  <div class="bd">
+		    The page you came from contained embedded licensing
+		    metadata, including how the creator wishes to be 
+		    attributed for re-use.  You can use the HTML here to
+		    cite the work.  Doing so will also include metadata on
+		    your page so that others can find the original work as
+		    well.
+  		  </div>
 		</div>
 
 	      
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>Geen Afgeleide werken</strong>. 
+	      <p><strong>Geen Afgeleide werken</strong> &mdash;
 		
 		<span>De gebruiker mag het werk niet bewerken.</span>
 		<span id="nd-more-container" />
@@ -447,26 +500,109 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Bij hergebruik of verspreiding dient de gebruiker de licentievoorwaarden van dit werk kenbaar te maken aan derden. De beste manier om dit te doen is door middel van een link naar deze webpagina.</li>
-            <li>De gebruiker mag afstand doen van een of meerdere van deze voorwaarden met voorafgaande toestemming van de rechthebbende.</li>
-            
-            <li>Niets in deze licentie strekt ertoe afbreuk te doen aan de morele
-rechten van de auteur, of deze te beperken.</li>
-            
-            
+
+	  </ul>
+	</div>
+	<div id="deed-understanding">
+	  <h3>With the understanding that:</h3>
+
+	  <ul class="understanding license-properties">
+            <li class="license">
+	      <strong>Waiver</strong>
+	      &mdash;
+	      
+		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
+		permission from the copyright holder.
+	      
+	    </li>
+	      
+	    <li class="license">
+	      <strong>Other Rights</strong>
+	      &mdash; 
+	      In no way are any of the following rights affected by the license:
+	     
+	      <ul>
+
+		<li>Het voorgaande laat de wettelijke beperkingen op de intellectuele eigendomsrechten onverlet.</li>
+
+		
+		  <li>De morele rechten van de auteur</li>
+		
+		
+
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as 
+		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
+		</li>
+	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      Bij hergebruik of verspreiding dient de gebruiker de licentievoorwaarden van dit werk kenbaar te maken aan derden. De beste manier om dit te doen is door middel van een link naar deze webpagina.
+	    </li>
+
           </ul>
 
           <div id="deed-newer">
     	      <p>Er is een <a href="http://creativecommons.org/licenses/by-nd/3.0/at/">nieuwe versie</a> van deze licentie beschikbaar. De nieuwe versie van de licentie wordt aanbevolen voor nieuwe werken, en u kan tevens de licentie op de bestaande werken vervangen door de nieuwe versie van de licentie. De nieuwe versie van de licentie vervangt niet <em>automatisch</em> de oude versie.</p>
           </div>
 
+          <div id="help_waived" class="help_panel">
+            <div class="hd">What does "conditions can be waived" mean?</div>
+            <div class="bd">
+              <p>CC licenses anticipate that a licensor may want to
+		waive compliance with a specific condition, such as
+		attribution.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+            </div>
           </div>
+
+          <div id="help_fair_use" class="help_panel">
+            <div class="hd">What does "Fair use" mean?</div>
+            <div class="bd">
+              <p>All jurisdictions
+              allow some limited uses of copyrighted material without
+              permission.  CC licenses do not affect the rights of
+              users under those copyright limitations and exceptions,
+              such as fair use and fair dealing where applicable.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_moral_rights" class="help_panel">
+            <div class="hd">What are "Moral Rights"?</div>
+            <div class="bd">
+              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+
+            </div>
+          </div>
+
+          <div id="help_publicity_rights" class="help_panel">
+            <div class="hd">What are "Publicity Rights"?</div>
+            <div class="bd">
+              <p>Publicity
+              rights allow individuals to control how their voice,
+              image or likeness is used for commercial purposes in
+              public.  If a CC-licensed work includes the voice or
+              image of anyone other than the licensor, a user of the
+              work may need to get permission from those individuals
+              before using the work for commercial purposes.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+            </div>
+          </div>
+	  
+        </div>
     <span id="referrer-metadata-container" />
 
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -474,18 +610,14 @@ rechten van de auteur, of deze te beperken.</li>
           
 
 	  
-	    <a href="" id="disclaimer">Vrijwaring</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Vrijwaring</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Vrijwaring</div>
 	      <div class="bd">De Commons overeenkomst is geen licentie. Het is slechts een handig hulpmiddel voor een beter begrip van de Juridische overeenkomst (de volledige licentie)- het is een vereenvoudigde (human-readable) weergave van sommige kernbegrippen. U zou het kunnen zien als een gebruikersvriendelijke versie van de onderliggende Juridische overeenkomst. Deze overeenkomst heeft geen juridische betekenis en haar inhoud is ook niet terug te vinden in de daadwerkelijke licentie.
 
 Creative Commons is geen advocatenpraktijk en verleent geen juridische diensten. Het verspreiden van, tonen van of verwijzen naar deze Commons overeenkomst roept geen juridische relatie met Creative Commons in het leven.</div>
-	  </div>
+	    </div>
 	  
-
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>Het voorgaande laat de wettelijke beperkingen op de intellectuele eigendomsrechten onverlet.</strong>
-	</p>
 
 	<p style="text-align:center">
 
@@ -502,10 +634,10 @@ Creative Commons is geen advocatenpraktijk en verleent geen juridische diensten.
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=at&amp;version=2.0">
-      Use this license for your own work.</a>
-
+         href="/choose/results-one?license_code=by-nd&amp;jurisdiction=at&amp;version=2.0&amp;lang=nl">Gebruik deze licentie voor je eigen werk.</a>
+      
     </p>
 
   </body>

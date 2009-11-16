@@ -4,7 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-      Atribuite-Samkondiĉe 2.0 Britujo: Anglujo kaj Kimrujo
+      Atribuite-Samkondiĉe 2.0 Britujo: Anglujo &amp; Kimrujo
     </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -423,7 +423,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Atribuite-Samkondiĉe 2.0 Britujo: Anglujo kaj Kimrujo</h2>
+	        <h2 property="dc:title">Atribuite-Samkondiĉe 2.0 Britujo: Anglujo & Kimrujo</h2>
         </div>
       </div>
 
@@ -450,14 +450,14 @@ setCookie('lang','%s', expiry, '/');
     resource="http://creativecommons.org/ns#Reproduction">Vi rajtas:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj transsendi la verkon</li>
+       resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj publikigi la verkon</li>
 			      <li class="license remix" rel="cc:permits"
              resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Aliigi</strong>&nbsp;— modifi, adapti, kompletigi, transformi, uzi la tutan verkon aŭ ties partojn, memstare aŭ en aliaj verkoj</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
         <div id="deed-conditions">
-	  <h3>La verko devas esti kunhavigata:</h3>
+	  <h3>La verko rajtas esti kunhavigata nur:</h3>
 
 	  <ul class="license-properties" style="text-align:left"
        dir="ltr"> 

@@ -105,6 +105,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -113,6 +119,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -622,7 +634,7 @@ Creative Commons is geen advocatenpraktijk en verleent geen juridische diensten.
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=us&amp;version=3.0&amp;lang=nl">Gebruik deze licentie voor je eigen werk.</a>
+         href="/choose/results-one?license_code=by-nd&amp;jurisdiction=us&amp;version=3.0&amp;lang=nl">Gebruik deze licentie voor je eigen werk.</a>
       
     </p>
 

@@ -95,12 +95,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
-
-
-
-
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -635,7 +629,7 @@ Creative Commons no es un bufet d'advocats i no ofereix cap servei legal. La dis
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc&amp;jurisdiction=pl&amp;version=3.0&amp;lang=ca">Utilitzeu aquesta llicència per a la vostra pròpia obra.</a>
+         href="/choose/results-one?license_code=by-nc&amp;jurisdiction=pl&amp;version=3.0&amp;lang=ca">Utilitzeu aquesta llicència per a la vostra pròpia obra.</a>
       
     </p>
 

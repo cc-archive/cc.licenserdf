@@ -96,12 +96,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
-
-
-
-
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -657,7 +651,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=pl&amp;version=3.0&amp;lang=cs">Použijte tuto licenci pro vaši vlastní práci.</a>
+         href="/choose/results-one?license_code=by-nc-sa&amp;jurisdiction=pl&amp;version=3.0&amp;lang=cs">Použijte tuto licenci pro vaši vlastní práci.</a>
       
     </p>
 

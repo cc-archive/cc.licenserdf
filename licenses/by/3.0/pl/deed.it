@@ -94,12 +94,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
-
-
-
-
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -488,17 +482,8 @@ setCookie('lang','%s', expiry, '/');
 		</a>
 		</p>
 		<div id="help_attribution_help" class="help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="hd">Che cosa significa "Dai credito a questo lavoro"?</div>
+		  <div class="bd">La pagina da cui provieni conteneva metadati relativi ad una licenza, incluso come il creatore desidera ricevere credito in caso di riuso dell'opera. Puoi utilizzare il codice HTML fornito qui per citare l'opera. Così facendo includereai anche metadati nella tua pagina, che altri potranno utilizzare per trovare l'opera originale.</div>
 		</div>
 
 	      
@@ -527,14 +512,10 @@ setCookie('lang','%s', expiry, '/');
 	     
 	      <ul>
 
-		<li>Your fair dealing
-		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights;
-		</li>
+		<li>Le eccezioni, libere utilizzazioni e le altre utilizzazioni consentite dalla legge sul diritto d'autore;</li>
 
 		
-		  <li>
-		    The author's <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">moral</a> rights;
-		  </li>
+		  <li>I diritti <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">morali</a> dell'autore;</li>
 		
 		
 
@@ -562,7 +543,7 @@ setCookie('lang','%s', expiry, '/');
               <p>CC licenses anticipate that a licensor may want to
 		waive compliance with a specific condition, such as
 		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Scopri di più</a>.</p>
             </div>
           </div>
 
@@ -575,7 +556,7 @@ setCookie('lang','%s', expiry, '/');
               users under those copyright limitations and exceptions,
               such as fair use and fair dealing where applicable.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Scopri di più</a>.</p>
             </div>
           </div>
 
@@ -584,7 +565,7 @@ setCookie('lang','%s', expiry, '/');
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Scopri di più</a>.</p>
 
             </div>
           </div>
@@ -600,7 +581,7 @@ setCookie('lang','%s', expiry, '/');
               work may need to get permission from those individuals
               before using the work for commercial purposes.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Scopri di più</a>.</p>
             </div>
           </div>
 	  
@@ -646,7 +627,7 @@ L'associazione Creative Commons non è uno studio legale e non fornisce servizi 
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by&amp;jurisdiction=pl&amp;version=3.0&amp;lang=it">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by&amp;jurisdiction=pl&amp;version=3.0&amp;lang=it">Use this license for your own work.</a>
       
     </p>
 

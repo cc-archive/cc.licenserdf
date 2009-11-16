@@ -8,14 +8,14 @@
     </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/jurisdictions.css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
           media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
@@ -46,14 +46,14 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
 
     <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -107,6 +107,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -115,6 +121,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -363,6 +375,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -428,7 +446,7 @@ setCookie('lang','%s', expiry, '/');
 
 <h3 rel="cc:permits"
     resource="http://creativecommons.org/ns#Reproduction">Dovoljeno vam je:</h3>
-		      <ul>
+		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution">reproduciranje, distribuiranje, dajanje v najem in priobčevanje dela javnosti</li>
 			      <li class="license remix" rel="cc:permits"
@@ -439,11 +457,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-conditions">
 	  <h3>Pod naslednjimi pogoji:</h3>
 
-	  <ul style="text-align:left" dir="ltr"> 
+	  <ul class="license-properties" style="text-align:left"
+       dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Priznanje avtorstva</strong>. 
+	      <p><strong>Priznanje avtorstva</strong> &mdash;
 		<span id="attribution-container">Pri uporabi dela morate navesti izvirnega avtorja na način, ki ga določi izvirni avtor oziroma dajalec licence.</span>
 		
 		<span id="by-more-container" />
@@ -457,23 +476,14 @@ setCookie('lang','%s', expiry, '/');
            value="CC BY-SA 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-sa/3.0/es/" />
-		<a href="" id="attribution_help">
-		  <img src="http://creativecommons.org/licenses/@@/cc/images/information.png"
+		<a href="" id="attribution_help" class="helpLink">
+		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Information" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		<div id="help_attribution_help" class="help_panel">
+		  <div class="hd">Kaj pomeni "Določi avtorja tega dela"?</div>
+		  <div class="bd">Stran, s katere ste bili preusmerjeni, ima vgrajene licenčne metapodatke, vključno s podatki o tem, kako želi biti avtor naveden za ponovno uporabo. Uporabite lahko HTML tukaj za citiranje dela. S tem boste tudi vključili metapodatke na vašo stran, tako da bodo ostali našli tudi izvirno delo.</div>
 		</div>
 
 	      
@@ -482,7 +492,7 @@ setCookie('lang','%s', expiry, '/');
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	      <p><strong>Deljenje pod enakimi pogoji</strong>. 
+	      <p><strong>Deljenje pod enakimi pogoji</strong> &mdash;
 		
 		<span>Če spremenite, pretvorite ali gradite na tem delu, lahko takšno predelavo dela distribuirate samo pod isto, podobno ali kompatibilno licenco.</span>
 		<span id="sa-more-container" />
@@ -491,23 +501,107 @@ setCookie('lang','%s', expiry, '/');
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Pri vsaki uporabi ali distribuiranju morate uporabnike seznaniti s pogoji licence za to avtorsko delo.</li>
-            <li>Kateri koli od teh pogojev se lahko razveljavi, če za to dobite dovoljenje imetnika avtorskih pravic.</li>
-            
-            <li>Nič v tej licenci ne zmanjšuje ali omejuje avtorjevih moralnih pravic.</li>
-            
-            
+
+	  </ul>
+	</div>
+	<div id="deed-understanding">
+	  <h3>With the understanding that:</h3>
+
+	  <ul class="understanding license-properties">
+            <li class="license">
+	      <strong>Waiver</strong>
+	      &mdash;
+	      
+		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
+		permission from the copyright holder.
+	      
+	    </li>
+	      
+	    <li class="license">
+	      <strong>Other Rights</strong>
+	      &mdash; 
+	      In no way are any of the following rights affected by the license:
+	     
+	      <ul>
+
+		<li>Vaše pravice iz naslova omejitev avtorske pravice;</li>
+
+		
+		  <li>Nič v tej licenci ne zmanjšuje ali omejuje avtorjevih moralnih pravic.</li>
+		
+		
+
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as 
+		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
+		</li>
+	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      Pri vsaki uporabi ali distribuiranju morate uporabnike seznaniti s pogoji licence za to avtorsko delo.
+	    </li>
+
           </ul>
 
           
 
+          <div id="help_waived" class="help_panel">
+            <div class="hd">What does "conditions can be waived" mean?</div>
+            <div class="bd">
+              <p>CC licenses anticipate that a licensor may want to
+		waive compliance with a specific condition, such as
+		attribution.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+            </div>
           </div>
+
+          <div id="help_fair_use" class="help_panel">
+            <div class="hd">What does "Fair use" mean?</div>
+            <div class="bd">
+              <p>All jurisdictions
+              allow some limited uses of copyrighted material without
+              permission.  CC licenses do not affect the rights of
+              users under those copyright limitations and exceptions,
+              such as fair use and fair dealing where applicable.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_moral_rights" class="help_panel">
+            <div class="hd">What are "Moral Rights"?</div>
+            <div class="bd">
+              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+
+            </div>
+          </div>
+
+          <div id="help_publicity_rights" class="help_panel">
+            <div class="hd">What are "Publicity Rights"?</div>
+            <div class="bd">
+              <p>Publicity
+              rights allow individuals to control how their voice,
+              image or likeness is used for commercial purposes in
+              public.  If a CC-licensed work includes the voice or
+              image of anyone other than the licensor, a user of the
+              work may need to get permission from those individuals
+              before using the work for commercial purposes.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+            </div>
+          </div>
+	  
+        </div>
     <span id="referrer-metadata-container" />
 
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -515,8 +609,8 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">Izjava</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Izjava</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Izjava</div>
 	      <div class="bd"><p>
 Povzetek licence ni licenca. Je preprosto le priročna referenca za razumevanje Celotnega pravnega besedila (celotne licence) &mdash; je izraz ključnih pogojev, berljiv za uporabnike. Gre za uporabniku prijazen vmesnik do Celotnega pravnega besedila licenc. Ta povzetek sam po sebi nima pravne veljave in njegova vsebina se v dejanski licenci ne pojavlja.
@@ -527,10 +621,6 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
 </p></div>
 	    </div>
 	  
-
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>Vaše pravice iz naslova omejitev avtorske pravice in druge pravice niso omejene z zgoraj navedenim.</strong>
-	</p>
 
 	<p style="text-align:center">
 
@@ -571,7 +661,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-sa&amp;jurisdiction=es&amp;version=3.0&amp;lang=sl">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by-sa&amp;jurisdiction=es&amp;version=3.0&amp;lang=sl">Use this license for your own work.</a>
       
     </p>
 

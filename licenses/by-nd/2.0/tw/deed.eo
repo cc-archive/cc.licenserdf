@@ -443,13 +443,13 @@ setCookie('lang','%s', expiry, '/');
     resource="http://creativecommons.org/ns#Reproduction">Vi rajtas:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj transsendi la verkon</li>
+       resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj publikigi la verkon</li>
 			      
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
         </div>
         <div id="deed-conditions">
-	  <h3>La verko devas esti kunhavigata:</h3>
+	  <h3>La verko rajtas esti kunhavigata nur:</h3>
 
 	  <ul class="license-properties" style="text-align:left"
        dir="ltr"> 
@@ -533,7 +533,7 @@ setCookie('lang','%s', expiry, '/');
           </ul>
 
           <div id="deed-newer">
-    	      <p>Estas disponebla <a href="http://creativecommons.org/licenses/by-nd/2.5/tw/">nova versio</a> de ĉi tiu permesilo. Rekomendindas uzi ĝin por novaj verkoj kaj eble vi volos redisponebligi laŭ ĝi ankaŭ verkojn jam antaŭe publikigitajn laŭ iu antaŭa versio de la permesilo. Por neniu verko la nova versio <em>aŭtomate</em> ekvalidos.</p>
+    	      <p>Estas disponebla <a href="http://creativecommons.org/licenses/by-nd/3.0/tw/">nova versio</a> de ĉi tiu permesilo. Rekomendindas uzi ĝin por novaj verkoj kaj eble vi volos redisponebligi laŭ ĝi ankaŭ verkojn jam antaŭe publikigitajn laŭ iu antaŭa versio de la permesilo. Por neniu verko la nova versio <em>aŭtomate</em> ekvalidos.</p>
           </div>
 
           <div id="help_waived" class="help_panel">

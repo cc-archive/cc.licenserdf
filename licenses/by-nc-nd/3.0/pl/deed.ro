@@ -94,12 +94,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
-
-
-
-
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -661,7 +655,7 @@ Creative Commons nu este o companie de avocatură şi nu furnizează servicii ju
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=pl&amp;version=3.0&amp;lang=ro">Foloseşte această licenţă pentru creaţia ta.</a>
+         href="/choose/results-one?license_code=by-nc-nd&amp;jurisdiction=pl&amp;version=3.0&amp;lang=ro">Foloseşte această licenţă pentru creaţia ta.</a>
       
     </p>
 

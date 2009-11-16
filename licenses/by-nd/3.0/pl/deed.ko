@@ -93,12 +93,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
-
-
-
-
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -648,7 +642,7 @@ setCookie('lang','%s', expiry, '/');
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nd&amp;jurisdiction=pl&amp;version=3.0&amp;lang=ko">귀하의 저작물에 이 라이선스를 적용하세요.</a>
+         href="/choose/results-one?license_code=by-nd&amp;jurisdiction=pl&amp;version=3.0&amp;lang=ko">귀하의 저작물에 이 라이선스를 적용하세요.</a>
       
     </p>
 

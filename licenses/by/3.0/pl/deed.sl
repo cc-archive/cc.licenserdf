@@ -94,12 +94,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
-
-
-
-
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -633,7 +627,7 @@ Creative Commons ni odvetniška pisarna in ne ponuja pravniških storitev. Distr
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by&amp;jurisdiction=pl&amp;version=3.0&amp;lang=sl">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by&amp;jurisdiction=pl&amp;version=3.0&amp;lang=sl">Use this license for your own work.</a>
       
     </p>
 

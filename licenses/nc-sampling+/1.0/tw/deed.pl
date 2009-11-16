@@ -3,21 +3,19 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    NonCommercial Sampling Plus 1.0
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      NonCommercial Sampling Plus 1.0
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/jurisdictions.css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
           media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
@@ -40,23 +38,22 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -73,14 +70,10 @@ setCookie('lang','%s', expiry, '/');
     
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">Creative Commons</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">Strona jest dostępna w następujących językach:</span>
 <br />
 
@@ -100,6 +93,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.ca" title="Català" hreflang="ca"
    rel="alternate nofollow" xml:lang="ca">Català</a>
+
+
+
+
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
 
 
 
@@ -366,6 +365,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
 
@@ -394,10 +399,19 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="yellow"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">NonCommercial Sampling Plus 1.0</h2>
         </div>
@@ -415,7 +429,7 @@ setCookie('lang','%s', expiry, '/');
         
 
 		      <h3>Wolno:</h3>
-		      <ul>
+		      <ul class="license-properties">
     				<li class="license samplingplus">Samplować, miksować lub w jakikolwiek inny kreatywny sposób zmieniać ten utwór w celach niekomercyjnych.</li>
     				
     				<li class="license samplingplus">Wykonywać, odtwarzać i rozpowszechniać kopie całości tego utworu w celach niekomercyjnych (np. w sieciach P2P lub transmitować przez internet).</li>
@@ -426,14 +440,29 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-conditions">
 
 		      <h3>Na następujących warunkach:</h3>
-	        <ul style="text-align:left" dir="ltr">
+	        <ul class="license-properties"
+             style="text-align:left" dir="ltr">
     				<li class="license by">Utwór należy oznaczyć w sposób określony przez Twórcę lub
 Licencjodawcę</li>
     				<li>Nie wolno używać tego utworu do reklamy lub promocji, z wyjątkiem reklamy lub promocji utworu, który zostanie stworzony na jego podstawie.</li>
     				<li>W celu ponownego użycia utworu lub rozpowszechniania utworu należy wyjaśnić innym warunki licencji, na której udostępnia się utwór.</li>
     				
     				
-    			</ul>
+	    <li>In no way are any of the following rights affected by
+	      the above:
+	     
+	      <ul>
+		<li>Your fair use rights.
+		</li>
+		<li>
+		  Rights other persons may have either in the work
+		  itself or in how the work is used, such as publicity
+		  or privacy rights.
+		</li>
+	      </ul>
+	    </li>
+
+        			</ul>
 
         </div>
     <span id="referrer-metadata-container" />
@@ -442,25 +471,20 @@ Licencjodawcę</li>
        </div>
       </div>
 
-
       <div id="deed-foot">
         
 
           
 
 	  
-	    <a href="" id="disclaimer">Klauzula ograniczenia odpowiedzialności</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Klauzula ograniczenia odpowiedzialności</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Klauzula ograniczenia odpowiedzialności</div>
 	      <div class="bd"><p>Commons Deed nie jest licencją. To jedynie przystępne podsumowanie Tekstu Prawnego (pełnego tekstu licencji), które przedstawia kluczowe warunki licencji w sposób zrozumiały dla zwykłego czytelnika. Potraktujcie to jak przyjazny dla użytkownika interfejs do Tekstu Prawnego. Niniejszy Commons Deed nie ma mocy prawnej, a jego sformułowania nie występują we właściwej licencji.</p>
 
 <p>Creative Commons nie jest firmą prawniczą i nie świadczy usług prawnych. Rozpowszechnianie, publikowanie lub tworzenie odnośników do niniejszego Commons Deed nie tworzy stosunku prawnego „adwokat-klient”. </p></div>
-	  </div>
+	    </div>
 	  
-
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>Powyższe postanowienia w żaden sposób nie naruszają uprawnień wynikających z dozwolonego użytku ani żadnych innych praw.</strong>
-	</p>
 
 	<p style="text-align:center">
 
@@ -477,9 +501,10 @@ Licencjodawcę</li>
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=nc-sampling%2B&amp;jurisdiction=tw&amp;version=1.0">Use this license for your own work.</a>
-
+         href="/choose/results-one?license_code=nc-sampling%2B&amp;jurisdiction=tw&amp;version=1.0&amp;lang=pl">Use this license for your own work.</a>
+      
     </p>
 
   </body>

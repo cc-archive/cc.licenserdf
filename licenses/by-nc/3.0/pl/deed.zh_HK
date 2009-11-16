@@ -95,12 +95,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
-
-
-
-
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -628,7 +622,7 @@ Creative Commons不是法律事務所，亦不提供法律服務。分發、展�
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc&amp;jurisdiction=pl&amp;version=3.0&amp;lang=zh_HK">了解如何使用此授權條款來分發您的作品。</a>
+         href="/choose/results-one?license_code=by-nc&amp;jurisdiction=pl&amp;version=3.0&amp;lang=zh_HK">了解如何使用此授權條款來分發您的作品。</a>
       
     </p>
 

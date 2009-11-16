@@ -3,19 +3,20 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    Attribution 2.0 Austria
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      Nevezd meg! 2.0 Ausztria
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,23 +38,22 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -79,14 +79,10 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">Creative Commons</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">Ez az oldal az alábbi nyelveken érhető még el:</span>
 <br />
 
@@ -106,6 +102,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.ca" title="Català" hreflang="ca"
    rel="alternate nofollow" xml:lang="ca">Català</a>
+
+
+
+
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
 
 
 
@@ -142,6 +144,20 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
    rel="alternate nofollow" xml:lang="en_GB">English (GB)</a>
+
+
+
+
+<a href="./deed.en_HK" title="English (Hong Kong)"
+   hreflang="en_HK" rel="alternate nofollow"
+   xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -187,6 +203,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.es_EC" title="Español (Ecuador)"
    hreflang="es_EC" rel="alternate nofollow"
    xml:lang="es_EC">Español (Ecuador)</a>
+
+
+
+
+<a href="./deed.es_GT" title="Español (Guatemala)"
+   hreflang="es_GT" rel="alternate nofollow"
+   xml:lang="es_GT">Español (Guatemala)</a>
 
 
 
@@ -351,8 +374,20 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
+
+
+
+
+<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
+   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -373,22 +408,32 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="green"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
 	        <h2 property="dc:title">Nevezd meg! 2.0 Ausztria</h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="at">
+
           
   <div id="libre">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="This license is acceptable for Free Cultural Works." />
+           alt="Ez egy szabad licenc." />
     </a>
   </div>
 
@@ -402,7 +447,7 @@ setCookie('lang','%s', expiry, '/');
     alt="at" /></a>
 <h3 rel="cc:permits"
     resource="http://creativecommons.org/ns#Reproduction">A következőket teheted a művel:</h3>
-		      <ul>
+		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution">szabadon másolhatod, terjesztheted, bemutathatod és előadhatod a művet</li>
 			      <li class="license remix" rel="cc:permits"
@@ -413,11 +458,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-conditions">
 	  <h3>Az alábbi feltételekkel:</h3>
 
-	  <ul style="text-align:left" dir="ltr"> 
+	  <ul class="license-properties" style="text-align:left"
+       dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Nevezd meg!</strong>. 
+	      <p><strong>Nevezd meg!</strong> &mdash;
 		<span id="attribution-container">A szerző vagy a jogosult által meghatározott módon fel kell tüntetned a műhöz kapcsolódó információkat (pl. a szerző nevét vagy álnevét, a Mű címét).</span>
 		
 		<span id="by-more-container" />
@@ -425,52 +471,108 @@ setCookie('lang','%s', expiry, '/');
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>Megjelölendő szerző:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden" value="CC BY 2.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by/2.0/at/" />
-		<a href="" id="attribution_help">
-		  <img src="http://creativecommons.org/licenses/@@/cc/images/information.png"
-         alt="Information" />
+		<a href="" id="attribution_help" class="helpLink">
+		  <img src="http://creativecommons.org/@@/cc/images/information.png"
+         alt="Információ" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		<div id="help_attribution_help" class="help_panel">
+		  <div class="hd">Mit jelent a „Szerző megjelölése”:</div>
+		  <div class="bd">Az oldal, amiről érkeztél, beágyazott licenc-metaadatokat tartalmazott, köztük azt, milyen  név vagy cím feltüntetését kéri a szerző. Az itteni HTML-t használhatod a műre való hivatkozáskor. Ha ezt teszed, a te oldaladba is bekerülnek a metaadatok, és így mások is meg tudják találni az eredeti művet.</div>
 		</div>
 
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Bármilyen felhasználás vagy terjesztés esetén egyértelműen jelezned kell mások felé ezen mű licencfeltételeit.</li>
-            <li>A szerzői jogok tulajdonosának írásos engedélyével bármelyik fenti feltételtől eltérhetsz.</li>
-            
-            <li>Nothing in this license impairs or restricts the author's moral rights.</li>
-            
-            
+
+	  </ul>
+	</div>
+	<div id="deed-understanding">
+	  <h3>Az alábbiak figyelembevételével:</h3>
+
+	  <ul class="understanding license-properties">
+            <li class="license">
+	      <strong>Elengedés</strong>
+	      &mdash;
+	      A szerzői jogok tulajdonosának engedélyével bármelyik fenti feltételtől <a href="#" id="waived" class="helpLink">eltérhetsz</a>.
+	    </li>
+	      
+	    <li class="license">
+	      <strong>Más jogok</strong>
+	      &mdash; 
+	      A következő jogokat a licenc semmiben nem befolyásolja:
+	     
+	      <ul>
+
+		<li>A fentiek nem befolyásolják <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">a szabad felhasználáshoz fűződő</a>, illetve az egyéb jogokat.</li>
+
+		
+		  <li>A szerző <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">személyhez fűződő</a> jogai</li>
+		
+		
+
+		<li>Más személyeknek a művet vagy a mű használatát érintő jogai, mint például a <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">személyiségi jogok</a> vagy az adatvédelmi jogok.</li>
+	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Jelzés</strong>
+	      &mdash;
+	      Bármilyen felhasználás vagy terjesztés esetén egyértelműen jelezned kell mások felé ezen mű licencfeltételeit.
+	    </li>
+
           </ul>
 
           <div id="deed-newer">
     	      <p>Már rendelkezésre áll e licenc <a href="http://creativecommons.org/licenses/by/3.0/at/">új verziója</a>! Az új licencet használd az új művek közzétételekor. Érdemes megfontolnod a régi licenc alatt közzétett mű új licenc alatti közzétételét is. <em>Automatikusan</em> egyetlen régi feltételekkel közzétett mű sem kerül az új licencek alá.</p>
           </div>
 
+          <div id="help_waived" class="help_panel">
+            <div class="hd">Mit jelent az, hogy a feltételek elengedhetőek?</div>
+            <div class="bd">
+              <p>A CC licencek lehetővé teszik, hogy a licencelő egyes esetekben elengedje valamelyik feltételt, például a megnevezést.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Tudj meg többet</a>.</p>
+            </div>
           </div>
+
+          <div id="help_fair_use" class="help_panel">
+            <div class="hd">Mit jelent a szabad felhasználás?</div>
+            <div class="bd">
+              <p>Minden országban megengedett a jogvédett anyagok bizonyos korlátozott felhasználása külön engedély nélkül is. Ilyen lehetőség például Amerikában a fair use, vagy Magyarországon a szabd felhasználás. A CC licencek nem befolyásolják a felhasználó ezen jogait.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Tudj meg többet</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_moral_rights" class="help_panel">
+            <div class="hd">Mik azok a személyhez fűződő jogok?</div>
+            <div class="bd">
+              <p>A licencelő azon jogán túl, hogy követelheti a neve eltávolítását a művén alapuló átdolgozásokról és a művét tartalmazó gyűjteményekről, ha azok nem tetszenek neki, a legtöbb országban a szerzők személyhez fűződő jogokat kapnak, amik jogorvoslati lehetőséget biztosítanak nekik, ha egy átdolgozás „méltatlanul bánik” az eredeti művel. (Az USA kivétel ez alól, ott csak rendkívül korlátozott esetben van ilyen lehetőség.)</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Tudj meg többet</a>.</p>
+
+            </div>
+          </div>
+
+          <div id="help_publicity_rights" class="help_panel">
+            <div class="hd">Mik azok a személyiségi jogok?</div>
+            <div class="bd">
+              <p>A személyiségi jogok lehetővé teszik annak, akiről kép vagy hangfelvétel készül, hogy kontrollálja, hogyan használják fel azt nyilvánosan kereskedelmi célra. Ha egy CC alatti mű a licencelőn kívül bárki másnak a képét vagy a hangját is tartalmazza, lehetséges, hogy a mű kereskedelmi célra való felhasználásához engedélyt kell kérni tőlük. </p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Tudj meg többet</a>.</p>
+            </div>
+          </div>
+	  
+        </div>
     <span id="referrer-metadata-container" />
 
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -478,8 +580,8 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">Figyelmeztetés</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Figyelmeztetés</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Figyelmeztetés</div>
 	      <div class="bd"><p>Az Egyszerűsített változat nem licenc, csupán egy tömör kivonata a Jogi változatnak (vagyis a licenc teljes szövegének). Nincs más célja, mint hogy közérthető nyelven fogalmazza meg a licenc tartalmának lényegét. Tekintsd úgy, hogy ez egy "felhasználóbarát" interfész a Jogi változathoz. Az Egyszerűsített változatnak jogi szempontból nincs jelentősége és a szövegét maga a licenc nem tartalmazza.       
 </p>
@@ -487,12 +589,8 @@ setCookie('lang','%s', expiry, '/');
 <p>
 A Creative Commons nem ügyvédi iroda, nem nyújt jogi tanácsadást. Az Egyszerűsített változat terjesztése, bemutatása, vagy link elhelyezése nem hoz létre megbízási jogviszonyt.
 </p></div>
-	  </div>
+	    </div>
 	  
-
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>A fentiek nem befolyásolják a szabad felhasználáshoz fűződő, illetve az egyéb jogokat.</strong>
-	</p>
 
 	<p style="text-align:center">
 
@@ -509,10 +607,10 @@ A Creative Commons nem ügyvédi iroda, nem nyújt jogi tanácsadást. Az Egysze
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=by&amp;jurisdiction=at&amp;version=2.0">
-      Use this license for your own work.</a>
-
+         href="/choose/results-one?license_code=by&amp;jurisdiction=at&amp;version=2.0&amp;lang=hu">Használd ezt a licencet a saját művedhez.</a>
+      
     </p>
 
   </body>

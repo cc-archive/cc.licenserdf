@@ -3,19 +3,20 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
-    <title>Creative Commons 
-    Attribution-Noncommercial-No Derivative Works 2.0 Netherlands
-  </title>
-
-    <!--<base href="" tal:attributes="href context/license/uri" />--><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.1/build/container/assets/skins/sam/container.css" /> 
+    <title>Creative Commons &mdash;
+      Αναφορά προέλευσης-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα 2.0 Ολλανδία
+    </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3.css"
           media="screen" />
     
     <link rel="stylesheet" type="text/css"
-          href="http://creativecommons.org/licenses/@@/cc/includes/deed3-print.css"
+          href="http://creativecommons.org/@@/cc/includes/deed3-print.css"
           media="print" />
+    <link rel="stylesheet" type="text/css"
+          href="http://creativecommons.org/@@/cc/includes/jurisdictions.css"
+          media="screen" />
 
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/includes/deed3-ie.css" media="screen" tal:attributes="href context/++resource++cc/includes/deed3-ie.css" /><![endif]-->
 
@@ -37,23 +38,22 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/connection/connection-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js">
     </script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/json/json-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/json/json-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/referrer/deed.js">
+            src="http://creativecommons.org/@@/cc/includes/referrer/deed.js">
     </script>
-    
 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/container/container-min.js">
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js">
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/licenses/@@/cc/includes/deed3.js">
+            src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
     <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
@@ -79,14 +79,10 @@ setCookie('lang','%s', expiry, '/');
    -->
 
     <div id="header">
-    <p style="text-align:center">
-      <a rel="dc:creator" href="http://creativecommons.org/">
-	<span property="dc:title">Creative Commons</span>
-    </a></p>
 
     
 
-<div style="width: 620px; margin-left: auto; margin-right: auto; text-align: center;">
+<div id="languages">
 <span style="text-align:left" dir="ltr">Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:</span>
 <br />
 
@@ -106,6 +102,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.ca" title="Català" hreflang="ca"
    rel="alternate nofollow" xml:lang="ca">Català</a>
+
+
+
+
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
 
 
 
@@ -142,6 +144,20 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.en_GB" title="English (GB)" hreflang="en_GB"
    rel="alternate nofollow" xml:lang="en_GB">English (GB)</a>
+
+
+
+
+<a href="./deed.en_HK" title="English (Hong Kong)"
+   hreflang="en_HK" rel="alternate nofollow"
+   xml:lang="en_HK">English (Hong Kong)</a>
+
+
+
+
+<a href="./deed.en_SG" title="English (Singapore)"
+   hreflang="en_SG" rel="alternate nofollow"
+   xml:lang="en_SG">English (Singapore)</a>
 
 
 
@@ -187,6 +203,13 @@ setCookie('lang','%s', expiry, '/');
 <a href="./deed.es_EC" title="Español (Ecuador)"
    hreflang="es_EC" rel="alternate nofollow"
    xml:lang="es_EC">Español (Ecuador)</a>
+
+
+
+
+<a href="./deed.es_GT" title="Español (Guatemala)"
+   hreflang="es_GT" rel="alternate nofollow"
+   xml:lang="es_GT">Español (Guatemala)</a>
 
 
 
@@ -351,8 +374,20 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.th" title="ไทย" hreflang="th"
+   rel="alternate nofollow" xml:lang="th">ไทย</a>
+
+
+
+
 <a href="./deed.zh" title="中文" hreflang="zh"
    rel="alternate nofollow" xml:lang="zh">中文</a>
+
+
+
+
+<a href="./deed.zh_HK" title="中文（香港）" hreflang="zh_HK"
+   rel="alternate nofollow" xml:lang="zh_HK">中文（香港）</a>
 
 
 
@@ -373,17 +408,27 @@ setCookie('lang','%s', expiry, '/');
     </div>
 
     <div id="deed" style="text-align:left" class="yellow"
-         dir="ltr">  
+         dir="ltr">
+
       <div id="deed-head">
-	      <div id="cc-logo"><img src="/images/deed/cc-logo.jpg" alt="cc logo" /></div>
-	      <h1><span>Creative Commons License Deed</span></h1>
+	<div id="cc-logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	</div>
+	<div id="cc-link">
+	  <a rel="dc:creator" href="http://creativecommons.org/">
+            <span property="dc:title">Creative Commons</span>
+          </a>	       
+	</div>
+	<h1><span>Creative Commons License Deed</span></h1>
+
         <div id="deed-license">
-	        <h2 property="dc:title">Αναφορά-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα 2.0 Ολλανδία</h2>
+	        <h2 property="dc:title">Αναφορά προέλευσης-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα 2.0 Ολλανδία</h2>
         </div>
       </div>
 
       <div id="deed-main" style="text-align:left" dir="ltr">
-       <div id="deed-main-content">
+       <div id="deed-main-content" class="nl">
+
           
   
 
@@ -397,7 +442,7 @@ setCookie('lang','%s', expiry, '/');
     alt="nl" /></a>
 <h3 rel="cc:permits"
     resource="http://creativecommons.org/ns#Reproduction">Είναι ελεύθερη:</h3>
-		      <ul>
+		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution"><strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό του Έργου</li>
 			      
@@ -407,41 +452,33 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-conditions">
 	  <h3>Υπό τις ακόλουθες προϋποθέσεις:</h3>
 
-	  <ul style="text-align:left" dir="ltr"> 
+	  <ul class="license-properties" style="text-align:left"
+       dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Αναφορά</strong>. 
-		<span id="attribution-container">Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγούντα την άδεια (χωρίς όμως να εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου από εσάς).</span>
+	      <p><strong>Αναφορά προέλευσης</strong> &mdash;
+		<span id="attribution-container">Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει οριστεί από το δημιουργό ή το χορηγούντο την άδεια (χωρίς όμως να εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου από εσάς).</span>
 		
 		<span id="by-more-container" />
 	      </p>
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>Χαρακτήρισε αυτή την εργασία:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-NC-ND 2.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc-nd/2.0/nl/" />
-		<a href="" id="attribution_help">
-		  <img src="http://creativecommons.org/licenses/@@/cc/images/information.png"
-         alt="Information" />
+		<a href="" id="attribution_help" class="helpLink">
+		  <img src="http://creativecommons.org/@@/cc/images/information.png"
+         alt="Πληροφορία" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		<div id="help_attribution_help" class="help_panel">
+		  <div class="hd">Τι σημαίνει  "Χαρακτηρίστε αυτή την εργασία";</div>
+		  <div class="bd">Η σελίδα από την οποία προήλθατε περιέχει ενσωματωμένα μεταδεδομένα χορήγησης αδειών, συμπεριλαμβανομένης για το πώς ο δημιουργός επιθυμεί να χαρακτηριστεί για περαιτέρω χρήση. Μπορείτε να χρησιμοποιήσετε τον κώδικα υπερκειμένου, εδώ για να αναφέρετε την εργασία. Με αυτόν τον τρόπο θα περιλαμβάνει τα μεταδεδομένα για τη σελίδα σας έτσι ώστε οι άλλοι μπορούν να βρουν την αρχική εργασία επίσης.</div>
 		</div>
 
 	      
@@ -449,45 +486,122 @@ setCookie('lang','%s', expiry, '/');
             </li>
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
-                class="license nc-eu">
-	      <p><strong>Μη Εμπορική Χρήση</strong>. 
+                class="license nc">
+	      <p><strong>Μη Εμπορική Χρήση</strong> &mdash;
 		
 		<span>Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό για εμπορικούς σκοπούς.</span>
-		<span id="nc-eu-more-container" />
+		<span id="nc-more-container" />
 	      </p>
 
 	      
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>Όχι Παράγωγα Έργα</strong>. 
+	      <p><strong>Όχι Παράγωγα Έργα</strong> &mdash;
 		
-		<span>Δε μπορείτε να αλλοιώσετε, να τροποιήσετε ή να δημιουργήσετε πάνω στο έργο αυτό.</span>
+		<span>Δε μπορείτε να αλλοιώσετε, να τροποποιήσετε ή να δημιουργήσετε πάνω στο έργο αυτό.</span>
 		<span id="nd-more-container" />
 	      </p>
 
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.</li>
-            <li>Κάθε ένας από τους παραπάνω όρους μπορεί να παρακαμφθεί εάν πάρετε άδεια από το δικαιούχο των δικαιωμάτων πνευματικής ιδιοκτησίας</li>
-            
-            <li>Τίποτα στην άδεια αυτή δεν αποδυναμώνει ή περιορίζει το ηθικό δικαίωμα του δημιουργού.</li>
-            
-            
+
+	  </ul>
+	</div>
+	<div id="deed-understanding">
+	  <h3>Με την κατανόηση ότι:</h3>
+
+	  <ul class="understanding license-properties">
+            <li class="license">
+	      <strong>Αποποίηση</strong>
+	      &mdash;
+	      Κάθε μία από τις παραπάνω συνθήκες μπορεί να <a href="#" id="waived" class="helpLink">παρακαμφθεί</a> αν πάρετε άδεια από τον κάτοχο των πνευματικών δικαιωμάτων.
+	    </li>
+	      
+	    <li class="license">
+	      <strong>Άλλα δικαιώματα</strong>
+	      &mdash; 
+	      Σε καμία περίπτωση κανένα από τα παρακάτω δικαιώματα δεν επηρεάζονται από την άδεια:
+	     
+	      <ul>
+
+		<li>Η σωστή δοσοληψία σας  ή <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">σωστή χρήση</a> δικαιωμάτων•</li>
+
+		
+		  <li>Του συγγραφέα τα <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">ηθικά</a> δικαιώματα•</li>
+		
+		
+
+		<li>Μπορεί να υπάρχουν δικαιώματα άλλων ατόμων  είτε στην εργασία καθαυτή ή πως χρησιμοποιείται, όπως <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">δημοσιότητα</a> ή δικαιώματα απορρήτου.</li>
+	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Σημείωση</strong>
+	      &mdash;
+	      Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο της παρούσας άδειας.
+	    </li>
+
           </ul>
 
           <div id="deed-newer">
-    	      <p>Μία <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/nl/">νέα έκδοση</a> αυτής της άδειας είναι διαθέσιμη. Θα πρέπει να τη χρησιμποιήσετε για νέα έργα, και ενδεχομένως για υπάρχοντα έργα που διέποντα από αυτή. Κανένα έργο <em>δεν υπεισέρχεται αυτόματα</em>παρόλα αυτά σε μία νέα άδεια.</p>
+    	      <p>Μία <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/nl/">νέα έκδοση</a> αυτής της άδειας είναι διαθέσιμη. Θα πρέπει να τη χρησιμοποιήσετε για νέα έργα, και ενδεχομένως για υπάρχοντα έργα που διέποντε από αυτή. Κανένα έργο <em>δεν υπεισέρχεται αυτόματα</em>παρόλα αυτά σε μία νέα άδεια.</p>
           </div>
 
+          <div id="help_waived" class="help_panel">
+            <div class="hd">Τι σημαίνει "οι συνθήκες μπορούν να αποποιηθούν";</div>
+            <div class="bd">
+              <p>Οι άδειες του CC προσδοκούν ότι ο δικαιοπάροχος μπορεί να θέλει να 
+		αποποιηθεί τη συμμόρφωση με τη συγκεκριμένη συνθήκη, όπως η
+		Αναφορά προέλευσης.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Μάθετε περισσότερα</a>.</p>
+            </div>
           </div>
+
+          <div id="help_fair_use" class="help_panel">
+            <div class="hd">Τι σημαίνει "Δίκαιη χρήση";</div>
+            <div class="bd">
+              <p>Όλες οι δικαιοδοσίες 
+              επιτρέπουν κάποιες περιορισμένες χρήσεις υλικού με πνευματικά δικαιώματα χωρίς
+              άδεια.  Οι άδεις του CC δεν επηρεάζουν τα δικαιώματα των
+              χρηστών κάτω από αυτούς τους περιορισμούς των πνευματικών δικαιωμάτων και εξαιρέσεις,
+              όπως σωστή χρήση και σωστή δοσοληψία όπου είναι εφαρμόσιμη.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Μάθετε περισσότερα</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_moral_rights" class="help_panel">
+            <div class="hd">Τι είναι  "Ηθικά δικαιώματα";</div>
+            <div class="bd">
+              <p>Εκτός από το δικαίωμα των δικαιοπαρόχων να ζητούν τη διαγραφή του ονόματός τους από τις εργασίες όταν χρησιμοποιούνται σαν παράγωγο ή συλλογικά, οι νόμοι περί πνευματικής ιδιοκτησίας στις περισσότερες χώρες ανά τον κόσμο (με την αξιοσημείωτη εξαίρεση τις ΗΠΑ μόνο υπό πολύ περιορισμένες συνθήκες ) χορηγούν στους δημιουργούς "ηθικά δικαιώματα ", τα οποία μπορεί να παρέχουν κάποια αποζημίωση αν η παράγωγη εργασία αποτελεί μία "υποτιμητική μεταχείριση " του δικαιοπαρόχου εργασίας.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Μάθετε περισσότερα</a>.</p>
+
+            </div>
+          </div>
+
+          <div id="help_publicity_rights" class="help_panel">
+            <div class="hd">Τι είναι τα "Δικαιώματα δημοσιότητας";</div>
+            <div class="bd">
+              <p>Τα δικαιώματα
+              δημοσιότητας επιτρέπουν σε άτομα να ελέγξουν πως η φωνή τους,
+              η εικόνα τους ή κάτι άλλο, χρησιμοποιείται για εμπορικούς σκοπούς στο 
+              κοινό.  Αν μία αδειοδοτημένη εργασία CC περιέχει τη φωνή ή
+              την εικόνα κάποιου άλλου εκτός από του δικαιοπαρόχου, ένας χρήστης της
+              εργασίας ίσως χρειάζεται να πάρει άδεια από αυτά τα άτομα
+              πριν την χρήση της εργασίας για εμπορικούς σκοπούς.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Μάθετε περισσότερα</a>.</p>
+            </div>
+          </div>
+	  
+        </div>
     <span id="referrer-metadata-container" />
 
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -495,22 +609,18 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="" id="disclaimer">Αποποίηση</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Αποποίηση</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Αποποίηση</div>
 	      <div class="bd"><p>
 Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.
 </p>
 
 <p>
-Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίε. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
+Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίες. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.
 </p></div>
-	  </div>
+	    </div>
 	  
-
-        <p style="text-align:center; margin-top:40px;">
-	  <strong>Οι χρήσεις που απορρέουν από τους νόμιμους περιορισμούς του περιουσιακού δικαιώματος, καθώς και άλλα δικαιώματά που έχετε, σε καμία περίπτωση δεν επηρεάζονται από τα παραπάνω</strong>
-	</p>
 
 	<p style="text-align:center">
 
@@ -527,10 +637,10 @@ setCookie('lang','%s', expiry, '/');
        </div>
     </div>
     <p id="footer">
+      
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-nd&amp;jurisdiction=nl&amp;version=2.0">
-      Use this license for your own work.</a>
-
+         href="/choose/results-one?license_code=by-nc-nd&amp;jurisdiction=nl&amp;version=2.0&amp;lang=el">Use this license for your own work.</a>
+      
     </p>
 
   </body>

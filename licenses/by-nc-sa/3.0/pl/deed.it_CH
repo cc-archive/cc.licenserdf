@@ -96,12 +96,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.ar" title="العربية" hreflang="ar"
-   rel="alternate nofollow" xml:lang="ar">العربية</a>
-
-
-
-
 <a href="./deed.bg" title="български" hreflang="bg"
    rel="alternate nofollow" xml:lang="bg">български</a>
 
@@ -668,7 +662,7 @@ L'associazione Creative Commons non è uno studio legale e non fornisce servizi 
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=pl&amp;version=3.0&amp;lang=it_CH">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by-nc-sa&amp;jurisdiction=pl&amp;version=3.0&amp;lang=it_CH">Use this license for your own work.</a>
       
     </p>
 

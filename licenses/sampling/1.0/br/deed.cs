@@ -97,6 +97,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -105,6 +111,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -416,7 +428,7 @@ setCookie('lang','%s', expiry, '/');
 
         <div id="deed-newer" style="text-align:center"><h3>This license is <a href="/retiredlicenses">retired</a>. Do not use for new works.</h3></div>
 
-		      <h3></h3>
+		      <h3>Dílo smíte:</h3>
 		      <ul class="license-properties">
     				
     				<li class="license sampling">To sample, mash-up, or otherwise creatively transform this work for commercial or noncommercial purposes.</li>
@@ -434,17 +446,13 @@ setCookie('lang','%s', expiry, '/');
     				<li>You may not use this work to advertise for or promote anything but the work you create from it.</li>
     				
     				<li>For any reuse, you must make clear to others the license terms of this work.</li>
-    				<li></li>
+    				<li>You may not perform, display, or distribute copies of this whole work for any purpose.</li>
 	    <li>In no way are any of the following rights affected by
 	      the above:
 	     
 	      <ul>
 		<li>volná užití díla, zákonné licence ani jiná zákonná omezení autorského práva.</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
 	      </ul>
 	    </li>
 
@@ -463,13 +471,9 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">
-	      Disclaimer
-	    </a>
+	    <a href="#" id="disclaimer" class="helpLink">Disclaimer</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">
-		Disclaimer
-	      </div>
+	      <div class="hd">Disclaimer</div>
 	      <div class="bd"><p>
 Toto shrnutí není licenčním ujednáním. Pouze vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons. Jinými slovy, je to uživatelsky přívětivé zestručnění právního textu, který je jeho podkladem. Samo o sobě nemá právní váhu a ani se neobjevuje ve vlastním textu licence.
 </p>
@@ -497,8 +501,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=sampling&amp;jurisdiction=br&amp;version=1.0&amp;lang=cs">
-      Use this license for your own work.</a>
+         href="/choose/results-one?license_code=sampling&amp;jurisdiction=br&amp;version=1.0&amp;lang=cs">Použijte tuto licenci pro vaši vlastní práci.</a>
       
     </p>
 

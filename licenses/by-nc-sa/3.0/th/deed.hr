@@ -53,10 +53,6 @@ setCookie('lang','%s', expiry, '/');
     </script>
 
     <script type="text/javascript"
-            src="http://creativecommons.org/@@/cc/includes/deed3.js">
-    </script>
-
-    <script type="text/javascript"
             src="http://creativecommons.org/@@/cc/includes/help.js">
     </script>
 
@@ -112,6 +108,12 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.cs" title="Česko" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">Česko</a>
+
+
+
+
 <a href="./deed.da" title="Dansk" hreflang="da"
    rel="alternate nofollow" xml:lang="da">Dansk</a>
 
@@ -120,6 +122,12 @@ setCookie('lang','%s', expiry, '/');
 
 <a href="./deed.de" title="Deutsch" hreflang="de"
    rel="alternate nofollow" xml:lang="de">Deutsch</a>
+
+
+
+
+<a href="./deed.el" title="Ελληνικά" hreflang="el"
+   rel="alternate nofollow" xml:lang="el">Ελληνικά</a>
 
 
 
@@ -436,7 +444,7 @@ setCookie('lang','%s', expiry, '/');
     alt="th" /></a>
 <h3 rel="cc:permits"
     resource="http://creativecommons.org/ns#Reproduction">Slobodno smijete:</h3>
-		      <ul>
+		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution"><strong>dijeliti</strong> — umnožavati, distribuirati i javnosti priopćavati djelo</li>
 			      <li class="license remix" rel="cc:permits"
@@ -447,11 +455,12 @@ setCookie('lang','%s', expiry, '/');
         <div id="deed-conditions">
 	  <h3>Pod sljedećim uvjetima:</h3>
 
-	  <ul style="text-align:left" dir="ltr"> 
+	  <ul class="license-properties" style="text-align:left"
+       dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
-	      <p><strong>Imenovanje</strong>. 
+	      <p><strong>Imenovanje</strong> &mdash;
 		<span id="attribution-container">Morate priznati i označiti autorstvo djela na način kako je specificirao autor ili davatelj licence (ali ne način koji bi sugerirao da Vi ili Vaše korištenje njegova djela imate njegovu izravnu podršku).</span>
 		
 		<span id="by-more-container" />
@@ -459,18 +468,18 @@ setCookie('lang','%s', expiry, '/');
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>Kao autora ovog djela navodite:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-NC-SA 3.0" />
 		  <input id="license-url" type="hidden"
            value="http://creativecommons.org/licenses/by-nc-sa/3.0/th/" />
-		<a href="" id="attribution_help">
+		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
          alt="Informacije" />
 		</a>
 		</p>
-		<div id="attribution_help_panel">
+		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">Što znači "Označavanje autorstva"?</div>
 		  <div class="bd">Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, između ostalog i kako autor želi biti imenovan u daljnjem korištenju djela. Ovdje možete preuzeti HTML kod koji navodi izvorno djelo. Time ćete uklopiti metapodatke u vašu stranicu i omogućiti drugima da pronađu izvorno djelo.
 #-#-#-#-#
@@ -483,7 +492,7 @@ Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, između
             <li rel="cc:prohibits"
                 resource="http://creativecommons.org/ns#CommercialUse"
                 class="license nc">
-	      <p><strong>Nekomercijalno</strong>. 
+	      <p><strong>Nekomercijalno</strong> &mdash;
 		
 		<span>Ovo djelo ne smijete koristiti u komercijalne svrhe.</span>
 		<span id="nc-more-container" />
@@ -495,7 +504,7 @@ Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, između
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#ShareAlike"
                 class="license sa">
-	      <p><strong>Dijeli pod istim uvjetima</strong>. 
+	      <p><strong>Dijeli pod istim uvjetima</strong> &mdash;
 		
 		<span>Ako ovo djelo izmijenite, preoblikujete ili stvarate koristeći ga, preradu možete distribuirati samo pod licencom koja je ista ili slična ovoj.</span>
 		<span id="sa-more-container" />
@@ -504,23 +513,88 @@ Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, između
 	      
 
             </li>
-            <li rel="cc:requires"
-                resource="http://creativecommons.org/ns#Notice">U slučaju daljnjeg korištenja ili distribuiranja morate drugima jasno dati do znanja licencne uvjete ovog djela. Najbolji način da to učinite je linkom na ovu internetsku stranicu.</li>
-            <li>Svaki od gornjih uvjeta moguće je <a href="#" id="waived" class="helpLink">ustupiti</a>, ako dobijete dopuštenje nositelja autorskog prava.</li>
-            
-            <li>Autorova moralna prava.The author's <a href="http://wiki.creativecommons.org/Hr:FAQ#Ne_svi.C4.91a_mi_se_kako_je_netko_upotrijebio_moje_djelo_u_preradi_ili_kako_ga_je_uvrstio_u_zbirku._.C5.A0to_mogu_poduzeti.3F" id="moral_rights" class="helpLink">moralna</a> prava;</li>
-            
-            
+
+	  </ul>
+	</div>
+	<div id="deed-understanding">
+	  <h3>A podrazumjeva se da:</h3>
+
+	  <ul class="understanding license-properties">
+            <li class="license">
+	      <strong>Dokument o ustupanju prava</strong>
+	      &mdash;
+	      Svaki od gornjih uvjeta moguće je <a href="#" id="waived" class="helpLink">ustupiti</a>, ako dobijete dopuštenje nositelja autorskog prava.
+	    </li>
+	      
+	    <li class="license">
+	      <strong>Druga prava</strong>
+	      &mdash; 
+	      Licenca ni na koji načine ne utječe na:
+	     
+	      <ul>
+
+		<li>Vaša prava koja proizlaze iz <a href="http://wiki.creativecommons.org/Hr:FAQ#Utje.C4.8Du_li_Creative_Commons_licence_na_ograni.C4.8Denja_autorskog_prava_predvi.C4.91ena_zakonom_o_autorskom_pravu_i_srodnim_pravima.3F" id="fair_use" class="helpLink">ograničenja autorskog prava  rights</a>;</li>
+
+		
+		  <li>Autorova moralna prava.The author's <a href="http://wiki.creativecommons.org/Hr:FAQ#Ne_svi.C4.91a_mi_se_kako_je_netko_upotrijebio_moje_djelo_u_preradi_ili_kako_ga_je_uvrstio_u_zbirku._.C5.A0to_mogu_poduzeti.3F" id="moral_rights" class="helpLink">moralna</a> prava;</li>
+		
+		
+
+		<li>Prava nad djelom ili nad njegovim korištenjima kojima možda raspolažu druge osobe kao što su <a href="http://wiki.creativecommons.org/Hr:FAQ#Kada_je_pravo_nad_objavljivanjem_osobne_fotografije_relevantno.3F">pravo nad objavljivanjem osobne fotografije</a> ili pravo privatnosti.</li>
+	      </ul>
+	    </li>
+
+            <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+	      <strong>Notice</strong>
+	      &mdash;
+	      U slučaju daljnjeg korištenja ili distribuiranja morate drugima jasno dati do znanja licencne uvjete ovog djela. Najbolji način da to učinite je linkom na ovu internetsku stranicu.
+	    </li>
+
           </ul>
 
           
 
+          <div id="help_waived" class="help_panel">
+            <div class="hd">Što znači "uvjeti koji se mogu ustupiti"?</div>
+            <div class="bd">
+              <p>CC licence pretpostavljaju da davatelj licence može odustati od zahtjeva da se korisnici pridržavaju određenih uvjeta, primjerice navođenje autorstva.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Saznajte više</a>.</p>
+            </div>
           </div>
+
+          <div id="help_fair_use" class="help_panel">
+            <div class="hd">Što su "zakonska ograničenja autorskog i srodnih prava"?</div>
+            <div class="bd">
+              <p>Svi pravni sustavi dopuštaju neka ograničena korištenja autorskopravno zaštićenih materijala bez dopuštenja autora. CC licence ne utječu na prava korisnika temeljenih na tim zakonskim ograničenjima autorskog i srodnih prava,</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Saznajte više</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_moral_rights" class="help_panel">
+            <div class="hd">Što su "moralna prava"?</div>
+            <div class="bd">
+              <p>Uz pravo davatelja licence da traži uklanjanje svog imena s djela kada se ono koristi u preradi ili zbirci koja mu se ne sviđa, zakoni o autorskom i srodnim pravima u većini pravnih sustava (uz izuzetak SAD-a u vrlo usko određenim okolnostima) autoru opoziv prava korištenja ili zatražiti popravljanje štete ako prerada ne "poštiva" djelo ili "ugrožava čast ili ugled" autora.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Saznajte više</a>.</p>
+
+            </div>
+          </div>
+
+          <div id="help_publicity_rights" class="help_panel">
+            <div class="hd">Što je pravo nad objavljivanjem osobne fotografije?</div>
+            <div class="bd">
+              <p>Pravo nad objavljivanjem osobne fotografije i drugih osobnih zapisa kao što je glasovni zapis postoji u nekim pravnim sustavima i omogućava osobi da kontrolira javno korištenje tih zapisa u komercijalne svrhe. Ako djelo pod CC licencom sadrži glas ili sliku nekoga tko nije prenositelj prava, korisnik tog djela možda će trebati osigurati dopuštenje tih osoba prije nego što upotrijebi djelo u komerijcalne svrhe.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Saznajte više</a>.</p>
+            </div>
+          </div>
+	  
+        </div>
     <span id="referrer-metadata-container" />
 
        </div>
       </div>
-
 
       <div id="deed-foot">
         
@@ -528,8 +602,8 @@ Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, između
           
 
 	  
-	    <a href="" id="disclaimer">Upozorenje</a>
-	    <div id="disclaimer_panel">
+	    <a href="#" id="disclaimer" class="helpLink">Upozorenje</a>
+	    <div id="help_disclaimer">
 	      <div class="hd">Upozorenje</div>
 	      <div class="bd"><p>Commons Deed nije licenca. To je jednostavno praktična referenca za razumijevanje Pravnog teksta (pune licence) - to svima čitljiv iskaz njenih ključnih uvjeta. Gledajte na nju kao na lako razumljivo objašnjenje Pravnog teksta koji se nalazi u pozadini. Sam Commons Deed nije pravni dokument i njegov se sadržaj ne pojavljuje u stvarnoj licenci.
 </p>
@@ -557,7 +631,7 @@ Creative Commons nije pravna tvrtka i ne pruža pravne usluge. Distribuiranje Co
     <p id="footer">
       
       <a id="get_this"
-         href="/license/results-one?license_code=by-nc-sa&amp;jurisdiction=th&amp;version=3.0&amp;lang=hr">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by-nc-sa&amp;jurisdiction=th&amp;version=3.0&amp;lang=hr">Use this license for your own work.</a>
       
     </p>
 
