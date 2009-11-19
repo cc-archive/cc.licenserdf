@@ -512,7 +512,9 @@ setCookie('lang','%s', expiry, '/');
 	     
 	      <ul>
 
-		<li>Vaše pravice iz naslova omejitev avtorske pravice;</li>
+		<li>Your fair dealing
+		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights;
+		</li>
 
 		
 		  <li>Nič v tej licenci ne zmanjšuje ali omejuje avtorjevih moralnih pravic.</li>
