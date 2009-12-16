@@ -505,7 +505,12 @@ setCookie('lang','%s', expiry, '/');
 	      &mdash;
 	      Κάθε μία από τις παραπάνω συνθήκες μπορεί να <a href="#" id="waived" class="helpLink">παρακαμφθεί</a> αν πάρετε άδεια από τον κάτοχο των πνευματικών δικαιωμάτων.
 	    </li>
-	      
+
+	    <li class="license">
+	      <strong>Δημόσιου τομέα</strong>
+	      &mdash;
+	      Where the work or any of its elements is in the <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">public domain</a> under applicable law, that status is in no way affected by the license.
+	    </li>
 	    <li class="license">
 	      <strong>Άλλα δικαιώματα</strong>
 	      &mdash; 
@@ -513,7 +518,10 @@ setCookie('lang','%s', expiry, '/');
 	     
 	      <ul>
 
-		<li>Η σωστή δοσοληψία σας  ή <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">σωστή χρήση</a> δικαιωμάτων•</li>
+		<li>Your fair dealing
+		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights,
+		  or other applicable copyright exceptions and limitations;
+		</li>
 
 		
 		  <li>Του συγγραφέα τα <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">ηθικά</a> δικαιώματα•</li>
@@ -543,6 +551,15 @@ setCookie('lang','%s', expiry, '/');
 		αποποιηθεί τη συμμόρφωση με τη συγκεκριμένη συνθήκη, όπως η
 		Αναφορά προέλευσης.</p>
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Μάθετε περισσότερα</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_public_domain" class="help_panel">
+            <div class="hd">What does "Public Domain" mean?</div>
+            <div class="bd">
+              <p>A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Public_domain">Μάθετε περισσότερα</a>.</p>
             </div>
           </div>
 
