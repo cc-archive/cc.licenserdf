@@ -78,7 +78,7 @@
     <dc:title xml:lang="en-sg">${license.LGPL_name_full</dc:title>
     <dc:title xml:lang="pt-br">${license.LGPL_name_full</dc:title>
     <dc:title xml:lang="zu">${license.LGPL_name_full</dc:title>
-    <dc:title xml:lang="i18n">${license.LGPL_name_full</dc:title>
+    <dc:title xml:lang="i18n">${license.LGPL_name_full}</dc:title>
     <dc:title xml:lang="tr">${license.LGPL_name_full</dc:title>
     <dc:title xml:lang="hy">${license.LGPL_name_full</dc:title>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/80x15.png"/>

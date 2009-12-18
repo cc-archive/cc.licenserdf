@@ -51,7 +51,7 @@
     <dc:title xml:lang="sr">${license.GPL_name_full</dc:title>
     <dc:title xml:lang="ga">${license.GPL_name_full</dc:title>
     <dc:title xml:lang="es-pr">${license.GPL_name_full</dc:title>
-    <dc:title xml:lang="i18n">${license.GPL_name_full</dc:title>
+    <dc:title xml:lang="i18n">${license.GPL_name_full}</dc:title>
     <dc:title xml:lang="it-ch">${license.GPL_name_full</dc:title>
     <dc:title xml:lang="de-ch">${license.GPL_name_full</dc:title>
     <dc:title xml:lang="es-pe">${license.GPL_name_full</dc:title>
