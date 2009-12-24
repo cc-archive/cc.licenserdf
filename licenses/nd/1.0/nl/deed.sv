@@ -439,7 +439,7 @@ setCookie('lang','%s', expiry, '/');
     src="/images/international/nl.png" style="border: 0"
     alt="nl" /></a>
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">Du får:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">Du har tillstånd:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
        resource="http://creativecommons.org/ns#Distribution"><strong>att Dela</strong> — att kopiera, distribuera och sända verket</li>
@@ -472,35 +472,32 @@ setCookie('lang','%s', expiry, '/');
             <li class="license">
 	      <strong>Waiver</strong>
 	      &mdash;
-	      
-		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
-		permission from the copyright holder.
-	      
+	      Undantag från villkoren ovan kan ges av upphovsrättsinnehavaren.
 	    </li>
-	      
+
 	    <li class="license">
-	      <strong>Other Rights</strong>
+	      <strong>Public Domain</strong>
+	      &mdash;
+	      Where the work or any of its elements is in the <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">public domain</a> under applicable law, that status is in no way affected by the license.
+	    </li>
+	    <li class="license">
+	      <strong>Övriga rättigheter</strong>
 	      &mdash; 
 	      In no way are any of the following rights affected by the license:
 	     
 	      <ul>
 
 		<li>Your fair dealing
-		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights;
+		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights,
+		  or other applicable copyright exceptions and limitations;
 		</li>
 
 		
-		  <li>
-		    The author's <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">moral</a> rights;
-		  </li>
+		  <li>Upphovsmannens <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">ideella rätt</a>.</li>
 		
 		
 
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as 
-		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
-		</li>
+		<li>Rättigheter som andra personer kan ha antingen till verket själv eller dess användning, t.ex.<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">publicitets-</a> och integritetsrättigheter.</li>
 	      </ul>
 	    </li>
 
@@ -520,7 +517,16 @@ setCookie('lang','%s', expiry, '/');
               <p>CC licenses anticipate that a licensor may want to
 		waive compliance with a specific condition, such as
 		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Lär dig mer</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_public_domain" class="help_panel">
+            <div class="hd">Vad betyder "Public Domain"?</div>
+            <div class="bd">
+              <p>A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Public_domain">Lär dig mer</a>.</p>
             </div>
           </div>
 
@@ -533,7 +539,7 @@ setCookie('lang','%s', expiry, '/');
               users under those copyright limitations and exceptions,
               such as fair use and fair dealing where applicable.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Lär dig mer</a>.</p>
             </div>
           </div>
 
@@ -542,7 +548,7 @@ setCookie('lang','%s', expiry, '/');
             <div class="bd">
               <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Lär dig mer</a>.</p>
 
             </div>
           </div>
@@ -558,7 +564,7 @@ setCookie('lang','%s', expiry, '/');
               work may need to get permission from those individuals
               before using the work for commercial purposes.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Lär dig mer</a>.</p>
             </div>
           </div>
 	  
