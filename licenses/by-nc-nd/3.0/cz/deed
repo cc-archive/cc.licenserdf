@@ -514,15 +514,15 @@ setCookie('lang','%s', expiry, '/');
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Waiver</strong>
+	      <strong>Jiné podmínky</strong>
 	      &mdash;
 	      Výše uvedené podmínky se na Vás nevztahují, pokud jste k tomu získali souhlas nositele autorských práv.
 	    </li>
 
 	    <li class="license">
-	      <strong>Public Domain</strong>
+	      <strong>Volná díla</strong>
 	      &mdash;
-	      Where the work or any of its elements is in the <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">public domain</a> under applicable law, that status is in no way affected by the license.
+	      Je-li dílo nebo jeho část <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">volným dílem</a> dle příslušného právního řádu, má status volného díla před licencí přednost.
 	    </li>
 	    <li class="license">
 	      <strong>Další práva</strong>
@@ -561,9 +561,9 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_public_domain" class="help_panel">
-            <div class="hd">Co to je "Public Domain"?</div>
+            <div class="hd">Co znamená "volné dílo"?</div>
             <div class="bd">
-              <p>A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright.</p>
+              <p>Volné dílo lze užívat bez souhlasu nositele autorských práv. V českém právu je dílo volné po uplynutí doby ochrany stanovené autorským zákonem, což je ve většině případů 70 let po smrti autora.</p>
 
               <p><a href="http://wiki.creativecommons.org/Public_domain">Více informací</a>.</p>
             </div>
@@ -581,7 +581,7 @@ setCookie('lang','%s', expiry, '/');
           <div id="help_moral_rights" class="help_panel">
             <div class="hd">Co to jsou "osobnostní práva"?</div>
             <div class="bd">
-              <p>K právu poskytovatele licence žádat odstranění jeho jména z díla, pokud je toto dílo upraveno nebo užíváno způsobem, který se mu nezamlouvá, autorské zákony ve většině zemí (s výjimkou Spojených států amerických) přiznávají autorům osobnostní (morální) práva, které umožňují autorům odškodnění, pokud je upravené dílo používáno hanlivým způsobem.</p>
+              <p>Autorské práva ve většině zemí včetně České republiky přiznává autorům osobnostní práva, kterých se nelze vzdát a která umožňují autorům žádat zadostiučinění (omluvu, odškodnění), pokud je jejich dílo nebo upravené dílo užíváno hanlivým způsobem. V licencích CC je s ohledem na země, které osobnostní práva nechrání (např. USA), výslovně uvedeno právo poskytovatele licence žádat odstranění svého jména z díla, pokud je toto dílo upraveno nebo užíváno způsobem, který se mu nezamlouvá.</p>
 
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Více informací</a>.</p>
 
