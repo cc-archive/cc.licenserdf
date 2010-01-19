@@ -527,7 +527,7 @@ setCookie('lang','%s', expiry, '/');
 	    <li class="license">
 	      <strong>Volná díla</strong>
 	      &mdash;
-	      Je-li dílo nebo jeho část <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">volným dílem</a> dle příslušného právního řádu, má status volného díla před licencí přednost.
+	      Je-li dílo nebo jeho část <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink"> volným dílem</a> dle příslušného právního řádu, má status volného díla před licencí přednost.
 	    </li>
 	    <li class="license">
 	      <strong>Další práva</strong>
@@ -539,7 +539,7 @@ setCookie('lang','%s', expiry, '/');
 		<li>Volná užití díla, zákonné licence nebo jiná zákonná omezení autorského práva.</li>
 
 		
-		  <li>Autorova<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">osobnostní</a> práva;</li>
+		  <li>Autorova <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">osobnostní</a> práva;</li>
 		
 		
 
