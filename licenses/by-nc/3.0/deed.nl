@@ -107,8 +107,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -413,7 +413,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -465,7 +465,7 @@ setCookie('lang','%s', expiry, '/');
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>Vermeld de auteur van dit werk:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-NC 3.0" />
@@ -473,19 +473,12 @@ setCookie('lang','%s', expiry, '/');
            value="http://creativecommons.org/licenses/by-nc/3.0/" />
 		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
-         alt="Information" />
+         alt="Informatie" />
 		</a>
 		</p>
 		<div id="help_attribution_help" class="help_panel">
 		  <div class="hd">Wat betekent "Naamsvermelding bij dit werk"?</div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="bd">In de pagina waar u vandaan komt, is licentie-metadata ingebed. Deze metadata bevat onder andere informatie over hoe de maker vermeld wil worden bij hergebruik van het werk. U kunt bijgaande HTML gebruiken om naar het werk te verwijzen. Uw pagina zal zodoende automatisch metadata bevatten zodat anderen het originele werk ook kunnen vinden.</div>
 		</div>
 
 	      
@@ -507,22 +500,24 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>With the understanding that:</h3>
+	  <h3>Met inachtneming van:</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Waiver</strong>
+	      <strong>Afstandname van rechten</strong>
 	      &mdash;
-	      
-		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
-		permission from the copyright holder.
-	      
+	      De gebruiker mag <a href="#" id="waived" class="helpLink">afstand doen</a> van een of meerdere van deze voorwaarden met voorafgaande toestemming van de rechthebbende.
 	    </li>
-	      
+
 	    <li class="license">
-	      <strong>Other Rights</strong>
+	      <strong>Publiek domein</strong>
+	      &mdash;
+	      Indien het werk of een van de elementen in het werk zich in het <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">publieke domein</a> onder  toepasselijke wetgeving bevinden, dan is die status op geen enkele wijze beïnvloed door de licentie.
+	    </li>
+	    <li class="license">
+	      <strong>Andere rechten</strong>
 	      &mdash; 
-	      In no way are any of the following rights affected by the license:
+	      Onder geen beding worden volgende rechten door de licentie-overeenkomst in het gedrang gebracht:
 	     
 	      <ul>
 
@@ -533,16 +528,12 @@ setCookie('lang','%s', expiry, '/');
 		
 		
 
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as 
-		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
-		</li>
+		<li>De rechten van anderen, op het werk zelf of op hoe het werk wordt gebruikt, zoals het <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">portretrecht</a> of privacyrecht.</li>
 	      </ul>
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-	      <strong>Notice</strong>
+	      <strong>Let op</strong>
 	      &mdash;
 	      Bij hergebruik of verspreiding dient de gebruiker de licentievoorwaarden van dit werk kenbaar te maken aan derden. De beste manier om dit te doen is door middel van een link naar deze webpagina.
 	    </li>
@@ -552,50 +543,52 @@ setCookie('lang','%s', expiry, '/');
           
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">What does "conditions can be waived" mean?</div>
+            <div class="hd">Wat betekent "van de voorwaarden kan afstand genomen worden"?</div>
             <div class="bd">
-              <p>CC licenses anticipate that a licensor may want to
-		waive compliance with a specific condition, such as
-		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+              <p>CC licenties veronderstellen dat een licentiegever van zijn rechtenzou willen afzien, gegeven met speciale condities, zoals naamgeving. </p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Meer weten</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_public_domain" class="help_panel">
+            <div class="hd">Wat betekent 'publiek domein'?</div>
+            <div class="bd">
+              <p>Een werk is in het publieke domein wanneer het vrij te gebruiken is voor iedereen voor elk zonder doel zonder beperkingen op grond van het auteursrecht</p>
+
+              <p><a href="http://wiki.creativecommons.org/Public_domain">Meer weten</a>.</p>
             </div>
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">What does "Fair use" mean?</div>
+            <div class="hd">Wat betekent 'Fair use'?</div>
             <div class="bd">
-              <p>All jurisdictions
-              allow some limited uses of copyrighted material without
-              permission.  CC licenses do not affect the rights of
-              users under those copyright limitations and exceptions,
-              such as fair use and fair dealing where applicable.</p>
+              <p>Alle jurisdicties
+staan beperkte vormen van gebruik van auteursrechtelijk
+ beschermd materiaal toe zonder permissie.
+CC licenties hebben geen invloed op 
+gebruikers onder deze auteursrechtelijke beperkingen en uitzonderingen,
+ zoals fair use en fair dealing indien van toepassing.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Meer weten</a>.</p>
             </div>
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">What are "Moral Rights"?</div>
+            <div class="hd">Wat zijn "Morele rechten"?</div>
             <div class="bd">
-              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
+              <p>In aanvulling op het recht van de licentiehouder tot het op verzoek verwijderen van zijn naam wanneer het gebruikt wordt in een afgeleid of collectief werk, hebben de auteur van originele werken morele rechten die waarborgen dat zij schadeloos gesteld kunnen worden indien het afgeleide werk schade aan de eer of reputatie van de originele auteur doet.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Meer weten</a>.</p>
 
             </div>
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">What are "Publicity Rights"?</div>
+            <div class="hd">Wat zijn 'portretrechten'?</div>
             <div class="bd">
-              <p>Publicity
-              rights allow individuals to control how their voice,
-              image or likeness is used for commercial purposes in
-              public.  If a CC-licensed work includes the voice or
-              image of anyone other than the licensor, a user of the
-              work may need to get permission from those individuals
-              before using the work for commercial purposes.</p>
+              <p>Rechtsbescherming van de persona staan individuen toe controle uit te oefenen over hun stem, afbeelding of gelijkenis wanneer deze gebruikt wordt voor publieke commerciële doeleinden. Wanneer een werk gelicenseerd onder een CC-licentie een stem of afbeelding van iemand anders dan de licentiehouder, dan moet een gebruiker van het werk toestemming krijgen van al deze individuen voordat het werk commercieel gebruikt mag worden.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Meer weten</a>.</p>
             </div>
           </div>
 	  
