@@ -106,8 +106,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -444,7 +444,7 @@ setCookie('lang','%s', expiry, '/');
     resource="http://creativecommons.org/ns#Reproduction">Dílo smíte:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"><strong>Šířit</strong> — kopírovat, distribuovat a  sdělovat veřejnosti</li>
+       resource="http://creativecommons.org/ns#Distribution"><strong>Šířit</strong> — kopírovat, distribuovat a  sdělovat dílo veřejnosti</li>
 			      
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
@@ -465,7 +465,7 @@ setCookie('lang','%s', expiry, '/');
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>Uveďte Autora:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-NC-ND 2.5" />
@@ -473,21 +473,12 @@ setCookie('lang','%s', expiry, '/');
            value="http://creativecommons.org/licenses/by-nc-nd/2.5/nl/" />
 		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
-         alt="Information" />
+         alt="IInformace" />
 		</a>
 		</p>
 		<div id="help_attribution_help" class="help_panel">
-		  <div class="hd">
-		    What does "Attribute this work" mean?
-		  </div>
-		  <div class="bd">
-		    The page you came from contained embedded licensing
-		    metadata, including how the creator wishes to be 
-		    attributed for re-use.  You can use the HTML here to
-		    cite the work.  Doing so will also include metadata on
-		    your page so that others can find the original work as
-		    well.
-  		  </div>
+		  <div class="hd">Co to znamená "uveďte autorské údaje"?</div>
+		  <div class="bd">Stránka, ze které jste přišli, obsahovala digitální kód, který specifikuje způsob, jak si autor přeje být citován při šíření jeho díla. Můžete využít tento HTML kód jeho vložením do zdrojového kódu stránek, na kterých budete toto dílo šířit. Na stránkách se zobrazí požadované informace tak, aby ostatní lidé mohli nalézt cestu k původnímu dílu.</div>
 		</div>
 
 	      
@@ -523,34 +514,31 @@ setCookie('lang','%s', expiry, '/');
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Jiná licence</strong>
+	      <strong>Jiné podmínky</strong>
 	      &mdash;
-	      Výše uvedené podmínky se na vás nevztahují, pokud jste k tomu získali souhlas nositele autorských práv.
+	      Výše uvedené podmínky se na Vás nevztahují, pokud jste k tomu získali souhlas nositele autorských práv.
 	    </li>
 
 	    <li class="license">
-	      <strong>Public Domain</strong>
+	      <strong>Volná díla</strong>
 	      &mdash;
-	      Where the work or any of its elements is in the <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">public domain</a> under applicable law, that status is in no way affected by the license.
+	      Je-li dílo nebo jeho část <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink"> volným dílem</a> dle příslušného právního řádu, má status volného díla před licencí přednost.
 	    </li>
 	    <li class="license">
 	      <strong>Další práva</strong>
 	      &mdash; 
-	      Touto licencí nejsou dotčena:
+	      Touto licencí nejsou dotčena následující práva:
 	     
 	      <ul>
 
-		<li>Your fair dealing
-		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights,
-		  or other applicable copyright exceptions and limitations;
-		</li>
+		<li>Volná užití díla, zákonné licence nebo jiná zákonná omezení autorského práva.</li>
 
 		
-		  <li>osobnostní práva autora,</li>
+		  <li>Autorova <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">osobnostní</a> práva;</li>
 		
 		
 
-		<li>případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
+		<li>Případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
 	      </ul>
 	    </li>
 
@@ -563,47 +551,41 @@ setCookie('lang','%s', expiry, '/');
           </ul>
 
           <div id="deed-newer">
-    	      <p>A <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/nl/">new version</a> of this license is available. You should use it for new works, and you may want to relicense existing works under it. No works are <em>automatically</em> put under the new license, however.</p>
+    	      <p><a href="http://creativecommons.org/licenses/by-nc-nd/3.0/nl/">Nová verze</a> této licence je k dispozici. Měli byste ji využívat pro nová díla, a pokud chcete, tak i pro přelicencování starších děl.  Žádná díla nejsou přelicencována <em>automaticky</em>.</p>
           </div>
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">Co znamená, že "podmínky mohou být zrušeny"? </div>
+            <div class="hd">Co znamená, že "licenční podmínky mohou být zrušeny"? </div>
             <div class="bd">
-              <p>CC licenses anticipate that a licensor may want to
-		waive compliance with a specific condition, such as
-		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+              <p>CC licence předpokládají, že poskytovatel licence poskytne svá práva k dílu za určitých podmínek, např. uvedení autorských údajů</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Více informací</a>.</p>
             </div>
           </div>
 
           <div id="help_public_domain" class="help_panel">
-            <div class="hd">What does "Public Domain" mean?</div>
+            <div class="hd">Co znamená "volné dílo"?</div>
             <div class="bd">
-              <p>A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright.</p>
+              <p>Volné dílo lze užívat bez souhlasu nositele autorských práv. V českém právu je dílo volné po uplynutí doby ochrany stanovené autorským zákonem, což je ve většině případů 70 let po smrti autora.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Public_domain">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Public_domain">Více informací</a>.</p>
             </div>
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">What does "Fair use" mean?</div>
+            <div class="hd">Co znamená "Fair use"?</div>
             <div class="bd">
-              <p>All jurisdictions
-              allow some limited uses of copyrighted material without
-              permission.  CC licenses do not affect the rights of
-              users under those copyright limitations and exceptions,
-              such as fair use and fair dealing where applicable.</p>
+              <p>Všechny jurisdikce dovolují určitá omezená užití autorských děl chráněných autorským zákonem bez souhlasu autora. CC licence nezasahují do výjimek a omezení ochrany autorských práv jako jsou zákonné licence, užití pro osobní potřebu apod.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Více informací</a>.</p>
             </div>
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">What are "Moral Rights"?</div>
+            <div class="hd">Co to jsou "osobnostní práva"?</div>
             <div class="bd">
-              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
+              <p>Autorské práva ve většině zemí včetně České republiky přiznává autorům osobnostní práva, kterých se nelze vzdát a která umožňují autorům žádat zadostiučinění (omluvu, odškodnění), pokud je jejich dílo nebo upravené dílo užíváno hanlivým způsobem. V licencích CC je s ohledem na země, které osobnostní práva nechrání (např. USA), výslovně uvedeno právo poskytovatele licence žádat odstranění svého jména z díla, pokud je toto dílo upraveno nebo užíváno způsobem, který se mu nezamlouvá.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Více informací</a>.</p>
 
             </div>
           </div>
@@ -611,15 +593,20 @@ setCookie('lang','%s', expiry, '/');
           <div id="help_publicity_rights" class="help_panel">
             <div class="hd">Co jsou "Práva na zveřejňování"?</div>
             <div class="bd">
-              <p>Publicity
-              rights allow individuals to control how their voice,
-              image or likeness is used for commercial purposes in
-              public.  If a CC-licensed work includes the voice or
-              image of anyone other than the licensor, a user of the
-              work may need to get permission from those individuals
-              before using the work for commercial purposes.</p>
+              <p>Práva na ochranu osobnosti
+umožňují lidem kontrolovat využití např.
+ jjejich fotografií nebo zvukových
+ nahrávek na veřejnosti pro komerční
+ účely
+Pokud dílo vystavené pod CC licencí
+ obsahuje fotografie nebo zvukový
+ záznam hlasu jiné osoby, než je osoba
+ poskytovatele licence,  pak by si
+ uživatel díla měl zajistit souhlas této
+ osoby před tím, než začne dílo používat
+ pro komerční učely.               </p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Více informací</a>.</p>
             </div>
           </div>
 	  
@@ -656,7 +643,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
 
     
 
-    Toto shrnutí vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons, které je pro Vás závazné v <a href="legalcode" class="fulltext">plném znění.</a>.
+    Toto shrnutí vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons, které je pro Vás závazné v <a href="legalcode" class="fulltext">plném znění</a>.
  </p>
 
          
@@ -665,7 +652,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=by-nc-nd&amp;jurisdiction=nl&amp;version=2.5&amp;lang=cs">Použijte tuto licenci pro vaši vlastní práci.</a>
+         href="/choose/results-one?license_code=by-nc-nd&amp;jurisdiction=nl&amp;version=2.5&amp;lang=cs">Použijte tuto licenci pro Vaši vlastní práci.</a>
       
     </p>
 
