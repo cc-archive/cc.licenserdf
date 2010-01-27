@@ -106,8 +106,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -412,7 +412,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -530,7 +530,12 @@ setCookie('lang','%s', expiry, '/');
 		permission from the copyright holder.
 	      
 	    </li>
-	      
+
+	    <li class="license">
+	      <strong>Јавен домен</strong>
+	      &mdash;
+	      Where the work or any of its elements is in the <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">public domain</a> under applicable law, that status is in no way affected by the license.
+	    </li>
 	    <li class="license">
 	      <strong>Other Rights</strong>
 	      &mdash; 
@@ -539,7 +544,8 @@ setCookie('lang','%s', expiry, '/');
 	      <ul>
 
 		<li>Your fair dealing
-		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights;
+		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights,
+		  or other applicable copyright exceptions and limitations;
 		</li>
 
 		
@@ -576,6 +582,15 @@ setCookie('lang','%s', expiry, '/');
 		waive compliance with a specific condition, such as
 		attribution.</p>
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_public_domain" class="help_panel">
+            <div class="hd">What does "Public Domain" mean?</div>
+            <div class="bd">
+              <p>A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Public_domain">Learn more</a>.</p>
             </div>
           </div>
 

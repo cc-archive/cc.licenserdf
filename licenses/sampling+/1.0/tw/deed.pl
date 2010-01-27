@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -403,7 +403,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -452,13 +452,8 @@ Licencjodawcę</li>
 	      the above:
 	     
 	      <ul>
-		<li>Your fair use rights.
-		</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>Uprawnienia wynikające z <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">dozwolonego użytku</a> ani innych obowiązujących ograniczeń lub wyjątków prawa autorskiego.</li>
+		<li>Ewentualne prawa osób trzecich do utworu lub sposobu wykorzystania utworu, takie jak <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">prawo do wizerunku</a> lub prawo do prywatności.</li>
 	      </ul>
 	    </li>
 
@@ -494,7 +489,7 @@ Licencjodawcę</li>
 
     
 
-    Ten tekst to przystępne podsumowanie <a href="legalcode" class="fulltext">Tekstu prawnego (pełna licencja)</a>.
+    Ten tekst to przystępne podsumowanie <a href="legalcode" class="fulltext">Tekstu prawnego (pełnej licencji)</a>.
  </p>
 
          
@@ -503,7 +498,7 @@ Licencjodawcę</li>
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=sampling%2B&amp;jurisdiction=tw&amp;version=1.0&amp;lang=pl">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=sampling%2B&amp;jurisdiction=tw&amp;version=1.0&amp;lang=pl">Wykorzystaj tę licencję do licencjonowania własnych utworów.</a>
       
     </p>
 

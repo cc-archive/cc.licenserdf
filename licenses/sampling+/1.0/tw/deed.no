@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -403,7 +403,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -451,7 +451,8 @@ setCookie('lang','%s', expiry, '/');
 	      the above:
 	     
 	      <ul>
-		<li>Dine lovfestede rettigheter til å bruke verket i henhold til åndsverkloven;</li>
+		<li>Your fair use rights.
+		</li>
 		<li>Rettigheter som andre personer måtte ha, enten i forhold til verket selv eller i forhold til bruk av verket, så som retten til eget bilde og andre personvernrettigheter.</li>
 	      </ul>
 	    </li>

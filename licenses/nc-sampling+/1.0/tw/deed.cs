@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -403,7 +403,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -430,9 +430,9 @@ setCookie('lang','%s', expiry, '/');
 
 		      <h3>Dílo smíte:</h3>
 		      <ul class="license-properties">
-    				<li class="license samplingplus">To sample, mash-up, or otherwise creatively transform this work for noncommercial purposes.</li>
+    				<li class="license samplingplus">Samplovat, spojovat nebo jinak kreativně upravovat toto dílo pro nekomerční účely</li>
     				
-    				<li class="license samplingplus">Sdělovat veřejnosti, vystavovat, šířit kopie celého díla pro nekomerční účely (například sdílení  souborů nebo nekomerční vysílání na Internetu).</li>
+    				<li class="license samplingplus">Sdělovat veřejnosti, vystavovat, šířit kopie tohoto díla pro nekomerční účely (například sdílení  souborů nebo nekomerční vysílání na iInternetu).</li>
 		      </ul>
  
 
@@ -443,7 +443,7 @@ setCookie('lang','%s', expiry, '/');
 	        <ul class="license-properties"
              style="text-align:left" dir="ltr">
     				<li class="license by">Máte povinnost uvést údaje o autorovi a tomto díle způsobem, který stanovil autor nebo poskytovatel licence (ne však tak, aby vznikl dojem, že podporují Vás nebo způsob, jakým dílo užíváte).</li>
-    				<li>You may not use this work to advertise for or promote anything but the work you create from it.</li>
+    				<li>Nesmíte toto dílo využívat k reklamě či propagaci čehokoliv jiného než samotného díla</li>
     				<li>Pokud budete toto dílo šířit, máte povinnost ostatní seznámit s podmínkami této licence. Nejjednodušším způsobem je uvedení odkazu na tuto webovou stránku.</li>
     				
     				
@@ -451,8 +451,8 @@ setCookie('lang','%s', expiry, '/');
 	      the above:
 	     
 	      <ul>
-		<li>volná užití díla, zákonné licence ani jiná zákonná omezení autorského práva.</li>
-		<li>případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
+		<li>Volná užití díla, zákonné licence nebo jiná zákonná omezení autorského práva.</li>
+		<li>Případná práva třetích osob k dílu samotnému nebo způsobům jeho užití, jako například práva na ochranu osobnosti a soukromí. </li>
 	      </ul>
 	    </li>
 
@@ -492,7 +492,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
 
     
 
-    Toto shrnutí vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons, které je pro Vás závazné v <a href="legalcode" class="fulltext">plném znění.</a>.
+    Toto shrnutí vyjadřuje v obecném jazyce základní podmínky licenčního ujednání Creative Commons, které je pro Vás závazné v <a href="legalcode" class="fulltext">plném znění</a>.
  </p>
 
          
@@ -501,7 +501,7 @@ Organizace Creative Commons není advokátní kanceláří ani neposkytuje práv
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=nc-sampling%2B&amp;jurisdiction=tw&amp;version=1.0&amp;lang=cs">Použijte tuto licenci pro vaši vlastní práci.</a>
+         href="/choose/results-one?license_code=nc-sampling%2B&amp;jurisdiction=tw&amp;version=1.0&amp;lang=cs">Použijte tuto licenci pro Vaši vlastní práci.</a>
       
     </p>
 

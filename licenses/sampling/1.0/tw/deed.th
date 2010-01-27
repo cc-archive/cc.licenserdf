@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -403,7 +403,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -451,7 +451,8 @@ setCookie('lang','%s', expiry, '/');
 	      the above:
 	     
 	      <ul>
-		<li>สิทธิการได้รับการปฏิบัติที่เป็นธรรมหรือ<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">สิทธิการใช้งานที่เป็นธรรม</a>ของคุณ</li>
+		<li>Your fair use rights.
+		</li>
 		<li>สิทธิที่ผู้อื่นอาจมี ไม่ว่าจะในตัวงานเองหรือจะเป็นการนำงานไปใช้ เช่นสิทธิใน<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights" title="publicity">การเผยแพร่สู่สาธารณะ</a>หรือสิทธิในความเป็นส่วนตัว</li>
 	      </ul>
 	    </li>

@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -403,7 +403,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -452,11 +452,7 @@ setCookie('lang','%s', expiry, '/');
 	     
 	      <ul>
 		<li>Het voorgaande laat de wettelijke beperkingen op de intellectuele eigendomsrechten onverlet.</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>De rechten van anderen, op het werk zelf of op hoe het werk wordt gebruikt, zoals het <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">portretrecht</a> of privacyrecht.</li>
 	      </ul>
 	    </li>
 

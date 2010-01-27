@@ -106,8 +106,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -412,7 +412,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -471,7 +471,7 @@ setCookie('lang','%s', expiry, '/');
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Kao autora ovog djela navodite:</strong><br />
+		  <strong>Navedite autora ovog djela:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden" value="CC BY 3.0" />
 		  <input id="license-url" type="hidden"
@@ -495,15 +495,20 @@ Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, između
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>A podrazumjeva se da:</h3>
+	  <h3>A podrazumijeva se da prethodno ne utječe na:</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Dokument o ustupanju prava</strong>
+	      <strong>Ustupanje prava</strong>
 	      &mdash;
-	      Svaki od gornjih uvjeta moguće je <a href="#" id="waived" class="helpLink">ustupiti</a>, ako dobijete dopuštenje nositelja autorskog prava.
+	      Svaki od prethodnih uvjeta nositelj prava Vam može <a href="#" id="waived" class="helpLink">ustupiti</a> izričitim dopuštenjem.
 	    </li>
-	      
+
+	    <li class="license">
+	      <strong>Javno dobro</strong>
+	      &mdash;
+	      Kada je djelo ili neko od njegovih elemenata prešlo u <a href="http://wiki.creativecommons.org/Hr:Javno_dobro" id="public_domain" class="helpLink">javno dobro</a> prema mjerodavnom zakonu, licenca ni na koji način ne utječe na taj status.
+	    </li>
 	    <li class="license">
 	      <strong>Druga prava</strong>
 	      &mdash; 
@@ -511,10 +516,10 @@ Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, između
 	     
 	      <ul>
 
-		<li>Vaša prava koja proizlaze iz <a href="http://wiki.creativecommons.org/Hr:FAQ#Utje.C4.8Du_li_Creative_Commons_licence_na_ograni.C4.8Denja_autorskog_prava_predvi.C4.91ena_zakonom_o_autorskom_pravu_i_srodnim_pravima.3F" id="fair_use" class="helpLink">ograničenja autorskog prava  rights</a>;</li>
+		<li>Vaša prava koja proizlaze iz <a href="http://wiki.creativecommons.org/Hr:FAQ#Utje.C4.8Du_li_Creative_Commons_licence_na_ograni.C4.8Denja_autorskog_prava_predvi.C4.91ena_zakonom_o_autorskom_pravu_i_srodnim_pravima.3F" id="fair_use" class="helpLink">ograničenja autorskog prava </a>;</li>
 
 		
-		  <li>Autorova moralna prava.The author's <a href="http://wiki.creativecommons.org/Hr:FAQ#Ne_svi.C4.91a_mi_se_kako_je_netko_upotrijebio_moje_djelo_u_preradi_ili_kako_ga_je_uvrstio_u_zbirku._.C5.A0to_mogu_poduzeti.3F" id="moral_rights" class="helpLink">moralna</a> prava;</li>
+		  <li>Autorova <a href="http://wiki.creativecommons.org/Hr:FAQ#Ne_svi.C4.91a_mi_se_kako_je_netko_upotrijebio_moje_djelo_u_preradi_ili_kako_ga_je_uvrstio_u_zbirku._.C5.A0to_mogu_poduzeti.3F" id="moral_rights" class="helpLink">moralna</a> prava;</li>
 		
 		
 
@@ -523,9 +528,9 @@ Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, između
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-	      <strong>Notice</strong>
+	      <strong>Upozorenje</strong>
 	      &mdash;
-	      U slučaju daljnjeg korištenja ili distribuiranja morate drugima jasno dati do znanja licencne uvjete ovog djela. Najbolji način da to učinite je linkom na ovu internetsku stranicu.
+	      U slučaju korištenja ili distribuiranja morate drugima jasno dati do znanja licencne uvjete ovog djela. Najbolji način da to učinite jest linkom na ovu internetsku stranicu.
 	    </li>
 
           </ul>
@@ -537,6 +542,15 @@ Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, između
             <div class="bd">
               <p>CC licence pretpostavljaju da davatelj licence može odustati od zahtjeva da se korisnici pridržavaju određenih uvjeta, primjerice navođenje autorstva.</p>
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Saznajte više</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_public_domain" class="help_panel">
+            <div class="hd">Što znači "Javno dobro"?</div>
+            <div class="bd">
+              <p>Djelo je prešlo u javno dobro kada ga svatko može bez ograničenja autorskog prava slobodno koristiti u bilo koju svrhu.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Public_domain">Saznajte više</a>.</p>
             </div>
           </div>
 

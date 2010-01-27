@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -403,7 +403,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -442,7 +442,7 @@ setCookie('lang','%s', expiry, '/');
 		      <h3>惟需遵照下列條件：</h3>
 	        <ul class="license-properties"
              style="text-align:left" dir="ltr">
-    				<li class="license by">您必須按照作者或授權人所指定的方式，表彰其姓名（但不得以任何方式暗示其為您或您使用本著作的方式背書）。</li>
+    				<li class="license by">您必須按照著作人或授權人所指定的方式，表彰其姓名（但不得以任何方式暗示其為您或您使用本著作的方式背書）。</li>
     				<li>除了您從本著作所創造出來的著作外，您不得使用本著作來廣告或推銷其他東西。</li>
     				
     				<li>為再使用本著作，您必須向他人清楚說明本著作所適用的授權條款。</li>

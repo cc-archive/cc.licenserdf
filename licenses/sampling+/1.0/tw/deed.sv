@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -403,7 +403,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -428,7 +428,7 @@ setCookie('lang','%s', expiry, '/');
 
         
 
-		      <h3>Du får:</h3>
+		      <h3>Du har tillstånd:</h3>
 		      <ul class="license-properties">
     				
     				<li class="license sampling">Att sampla, blanda (mash-up), eller annars kreativt transformera detta verk för kommersiella eller icke-kommersiella ändamål.</li>
@@ -453,11 +453,7 @@ setCookie('lang','%s', expiry, '/');
 	      <ul>
 		<li>Your fair use rights.
 		</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>Rättigheter som andra personer kan ha antingen till verket själv eller dess användning, t.ex.<a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">publicitets-</a> och integritetsrättigheter.</li>
 	      </ul>
 	    </li>
 
