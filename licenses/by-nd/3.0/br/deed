@@ -4,7 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-      Atribuição-Vedada a Criação de Obras Derivadas 3.0 Brasil
+      Atribuição-No Derivative Works 3.0 Brasil
     </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -82,7 +82,7 @@ setCookie('lang','%s', expiry, '/');
     
 
 <div id="languages">
-<span style="text-align:left" dir="ltr">Esta página também esta disponível nos seguintes idiomas:</span>
+<span style="text-align:left" dir="ltr">Esta página está disponível nos seguintes idiomas:</span>
 <br />
 
 
@@ -427,7 +427,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Atribuição-Vedada a Criação de Obras Derivadas 3.0 Brasil</h2>
+	        <h2 property="dc:title">Atribuição-No Derivative Works 3.0 Brasil</h2>
         </div>
       </div>
 
@@ -446,10 +446,10 @@ setCookie('lang','%s', expiry, '/');
     src="/images/international/br.png" style="border: 0"
     alt="br" /></a>
 <h3 rel="cc:permits"
-    resource="http://creativecommons.org/ns#Reproduction">Você pode:</h3>
+    resource="http://creativecommons.org/ns#Reproduction">Você tem a liberdade de:</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution">copiar, distribuir, exibir e executar a obra</li>
+       resource="http://creativecommons.org/ns#Distribution"><strong>Compartilhar</strong> — copiar, distribuir e transmitir a obra.</li>
 			      
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
 		      </ul>
@@ -463,7 +463,7 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>Atribuição</strong> &mdash;
-		<span id="attribution-container">Você deve dar crédito ao autor original, da forma especificada pelo autor ou licenciante.</span>
+		<span id="attribution-container">Você deve creditar a obra da forma especificada pelo autor ou licenciante (mas não de maneira que sugira que estes concedem qualquer aval a você ou ao seu uso da obra).</span>
 		
 		<span id="by-more-container" />
 	      </p>
@@ -499,9 +499,9 @@ setCookie('lang','%s', expiry, '/');
 
             </li>
             <li rel="" resource="" class="license nd">
-	      <p><strong>Vedada a Criação de Obras Derivadas</strong> &mdash;
+	      <p><strong>Vedada a criação de obras derivadas</strong> &mdash;
 		
-		<span>Você não pode alterar, transformar ou criar outra obra com base nesta.</span>
+		<span>Você não pode alterar, transformar ou criar em cima desta obra.</span>
 		<span id="nd-more-container" />
 	      </p>
 
@@ -512,54 +512,42 @@ setCookie('lang','%s', expiry, '/');
 	  </ul>
 	</div>
 	<div id="deed-understanding">
-	  <h3>With the understanding that:</h3>
+	  <h3>Ficando claro que:</h3>
 
 	  <ul class="understanding license-properties">
             <li class="license">
-	      <strong>Waiver</strong>
+	      <strong>Renúncia</strong>
 	      &mdash;
-	      
-		Any of the above conditions can be <a href="#" id="waived" class="helpLink">waived</a> if you get
-		permission from the copyright holder.
-	      
+	      Qualquer das condições acima pode ser <a href="#" id="waived" class="helpLink">renunciada</a> se você obtiver permissão do titular dos direitos autorais.
 	    </li>
 
 	    <li class="license">
 	      <strong>Domínio Público</strong>
 	      &mdash;
-	      Where the work or any of its elements is in the <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">public domain</a> under applicable law, that status is in no way affected by the license.
+	      Onde a obra ou qualquer de seus elementos estiver em <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">domínio público</a> sob o direito aplicável, esta condição não é, de maneira alguma, afetada pela licença.
 	    </li>
 	    <li class="license">
-	      <strong>Other Rights</strong>
+	      <strong>Outros Direitos</strong>
 	      &mdash; 
-	      In no way are any of the following rights affected by the license:
+	      Os seguintes direitos não são, de maneira alguma, afetados pela licença:
 	     
 	      <ul>
 
-		<li>Your fair dealing
-		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights,
-		  or other applicable copyright exceptions and limitations;
-		</li>
+		<li>Limitações e exceções aos direitos autorais ou quaisquer <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">usos livres</a> aplicáveis;</li>
 
 		
-		  <li>
-		    The author's <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">moral</a> rights;
-		  </li>
+		  <li>Os <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">direitos morais</a> do autor;</li>
 		
 		
 
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as 
-		  <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights" class="helpLink">publicity</a> or privacy rights.
-		</li>
+		<li>Direitos que outras pessoas podem ter sobre a obra ou sobre a utilização da obra, tais como <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">direitos de imagem</a> ou privacidade.</li>
 	      </ul>
 	    </li>
 
             <li rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-	      <strong>Notice</strong>
+	      <strong>Aviso</strong>
 	      &mdash;
-	      Para cada novo uso ou distribuição, você deve deixar claro para outros os termos da licença desta obra.
+	      Para qualquer reutilização ou distribuição, você deve deixar claro a terceiros os termos da licença a que se encontra submetida esta obra. A melhor maneira de fazer isso é com um link para esta página.
 	    </li>
 
           </ul>
@@ -567,59 +555,55 @@ setCookie('lang','%s', expiry, '/');
           
 
           <div id="help_waived" class="help_panel">
-            <div class="hd">What does "conditions can be waived" mean?</div>
+            <div class="hd">O que significa dizer que "as condições podem ser renunciadas"?</div>
             <div class="bd">
-              <p>CC licenses anticipate that a licensor may want to
-		waive compliance with a specific condition, such as
-		attribution.</p>
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Learn more</a>.</p>
+              <p>As licenças CC admitem que um licenciante possa querer
+		renunciar completamente uma condição específica, como
+		o Uso não-comercial.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">Aprenda mais</a>.</p>
             </div>
           </div>
 
           <div id="help_public_domain" class="help_panel">
-            <div class="hd">What does "Public Domain" mean?</div>
+            <div class="hd">O que significa "domínio público"?</div>
             <div class="bd">
-              <p>A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright.</p>
+              <p>Uma obra está no domínio público quando é de livre utilização, por qualquer pessoa, para qualquer propósito, sem restrições de direito autoral.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Public_domain">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Public_domain">Aprenda mais</a>.</p>
             </div>
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">What does "Fair use" mean?</div>
+            <div class="hd">O que significam "limitações e exceções ou outros usos livres"?</div>
             <div class="bd">
-              <p>All jurisdictions
-              allow some limited uses of copyrighted material without
-              permission.  CC licenses do not affect the rights of
-              users under those copyright limitations and exceptions,
-              such as fair use and fair dealing where applicable.</p>
+              <p>Todas as jurisdições
+permitem alguns usos limitados de material protegido por direitos autorais
+sem que seja necessária a autorização prévia
+dos titulares. As licenças CC não afetam
+os usos em questão, tal como exceções e
+limitações aos direitos autorais ou "fair use",
+onde aplicáveis.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Aprenda mais</a>.</p>
             </div>
           </div>
 
           <div id="help_moral_rights" class="help_panel">
-            <div class="hd">What are "Moral Rights"?</div>
+            <div class="hd">O que são "direitos morais"?</div>
             <div class="bd">
-              <p>In addition to the right of licensors to request removal of their name from the work when used in a derivative or collective they don't like, copyright laws in most jurisdictions around the world (with the notable exception of the US except in very limited circumstances) grant creators "moral rights" which may provide some redress if a derivative work represents a "derogatory treatment" of the licensor's work.</p>
+              <p>Além do direito que tem o licenciante de remover seu nome de uma obra derivada ou coletiva que ele ou ela não aprecie, o direito autoral da maioria dos países do mundo (excluídos, notadamente, os EUA, exceto em circunstâncias muito limitadas) concede aos criadores direitos morais que podem oferecer proteção contra o eventuais ofensas à imagem/reputação/honra do autor.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Aprenda mais</a>.</p>
 
             </div>
           </div>
 
           <div id="help_publicity_rights" class="help_panel">
-            <div class="hd">What are "Publicity Rights"?</div>
+            <div class="hd">O que são "direitos de imagem"?</div>
             <div class="bd">
-              <p>Publicity
-              rights allow individuals to control how their voice,
-              image or likeness is used for commercial purposes in
-              public.  If a CC-licensed work includes the voice or
-              image of anyone other than the licensor, a user of the
-              work may need to get permission from those individuals
-              before using the work for commercial purposes.</p>
+              <p>Direitos de imagem permitem às pessoas que controlem como sua voz, imagem ou aparência são utilizadas. Se uma obra em CC incluir a voz ou imagem de qualquer pessoa que não o licenciante, um usuário da obra talvez precise pedir permissão a essa pessoa antes de utilizar a obra em determinados contextos.</p>
 
-              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Learn more</a>.</p>
+              <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Aprenda mais</a>.</p>
             </div>
           </div>
 	  
@@ -635,15 +619,15 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Termo de exoneração de responsabilidade</a>
+	    <a href="#" id="disclaimer" class="helpLink">Advertência</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Termo de exoneração de responsabilidade</div>
+	      <div class="hd">Advertência</div>
 	      <div class="bd"><p>
-A Licença Simplificada não é uma licença propriamente dita. Ela é apenas uma referência útil para entender a Licença Jurídica (a licença integral) - ela é uma expressão dos seus termos-chave que pode ser compreendida por qualquer pessoa. A Licença Simplifica em si não tem valor legal e seu conteúdo não aparece na licença integral.
+A Licença para Leigos não é uma licença. Ela é simplesmente uma referência útil para a compreensão da Licença Jurídica (a licença integral) &mdash; é uma expressão 'legível por humanos' de alguns de seus termos-chave. Pense nela como uma interface amigável para a Licença Jurídica. Esta licença para Leigos não tem valor legal, e seu conteúdo não aparece na licença propriamente dita.
 </p>
 
 <p>
-O Creative Commons não é um escritório de advocacia e não presta serviços jurídicos. A distribuição, exibição ou inclusão de links para esta Licença Simplificada não estabelece qualquer relação advocatícia.
+A Creative Commons não é um escritórido de advocacia e não presta serviços jurídicos. Distribuir, exibir ou inserir links para esta Licença para Leigos não estabelece qualquer relação advocatícia.
 </p></div>
 	    </div>
 	  
@@ -656,7 +640,7 @@ O Creative Commons não é um escritório de advocacia e não presta serviços j
 
     
 
-    Este é um sumário para leigos da <a href="legalcode" class="fulltext">Licença Jurídica (na íntegra)</a>.
+    Este é um resumo amigável da <a href="legalcode'" class="fulltext">Licença Jurídica (a licença integral)</a>
  </p>
 
          
@@ -665,7 +649,7 @@ O Creative Commons não é um escritório de advocacia e não presta serviços j
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=by-nd&amp;jurisdiction=br&amp;version=3.0&amp;lang=pt">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by-nd&amp;jurisdiction=br&amp;version=3.0&amp;lang=pt_BR">Use esta licença para suas próprias obras.</a>
       
     </p>
 
