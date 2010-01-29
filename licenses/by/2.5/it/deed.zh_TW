@@ -106,8 +106,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -412,7 +412,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -449,7 +449,7 @@ setCookie('lang','%s', expiry, '/');
     resource="http://creativecommons.org/ns#Reproduction">您可自由：</h3>
 		      <ul class="license-properties">
 			<li class="license share" rel="cc:permits"
-       resource="http://creativecommons.org/ns#Distribution"><strong>分享</strong> — 重製、散布及播送本著作</li>
+       resource="http://creativecommons.org/ns#Distribution"><strong>分享</strong> — 重製、散布及傳輸本著作</li>
 			      <li class="license remix" rel="cc:permits"
              resource="http://creativecommons.org/ns#DerivativeWorks"><strong>重混</strong> — 修改本著作</li>
             <li id="more-container" class="license-hidden"><span id="devnations-container" /></li>
@@ -464,7 +464,7 @@ setCookie('lang','%s', expiry, '/');
                 resource="http://creativecommons.org/ns#Attribution"
                 class="license by">
 	      <p><strong>姓名標示</strong> &mdash;
-		<span id="attribution-container">您必須按照作者或授權人所指定的方式，表彰其姓名（但不得以任何方式暗示其為您或您使用本著作的方式背書）。</span>
+		<span id="attribution-container">您必須按照著作人或授權人所指定的方式，表彰其姓名（但不得以任何方式暗示其為您或您使用本著作的方式背書）。</span>
 		
 		<span id="by-more-container" />
 	      </p>
@@ -501,7 +501,12 @@ setCookie('lang','%s', expiry, '/');
 	      &mdash;
 	      若您得到著作權人的同意，上述任何條件都可獲<a href="#" id="waived" class="helpLink">免除</a>。
 	    </li>
-	      
+
+	    <li class="license">
+	      <strong>公共領域</strong>
+	      &mdash;
+	      當本著作或其任何要素在相關法律下屬<a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">公共領域</a>，此狀態絕不會受到本授權條款的影響。 
+	    </li>
 	    <li class="license">
 	      <strong>其他權利</strong>
 	      &mdash; 
@@ -537,6 +542,15 @@ setCookie('lang','%s', expiry, '/');
 		waive compliance with a specific condition, such as
 		attribution.</p>
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_change_the_terms_of_a_CC_license_or_waive_some_of_its_conditions.3F">了解更多資訊</a>.</p>
+            </div>
+          </div>
+
+          <div id="help_public_domain" class="help_panel">
+            <div class="hd">What does "Public Domain" mean?</div>
+            <div class="bd">
+              <p>A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright.</p>
+
+              <p><a href="http://wiki.creativecommons.org/Public_domain">了解更多資訊</a>.</p>
             </div>
           </div>
 
