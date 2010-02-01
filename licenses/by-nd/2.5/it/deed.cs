@@ -4,7 +4,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-      Uveďte autora-Nezasahujte do díla 2.5 Italy
+      Uveďte autora-Nezasahujte do díla 2.5 Itálie
     </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -330,12 +330,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.pt" title="Português" hreflang="pt"
-   rel="alternate nofollow" xml:lang="pt">Português</a>
-
-
-
-
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -421,7 +415,7 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title">Uveďte autora-Nezasahujte do díla 2.5 Italy</h2>
+	        <h2 property="dc:title">Uveďte autora-Nezasahujte do díla 2.5 Itálie</h2>
         </div>
       </div>
 

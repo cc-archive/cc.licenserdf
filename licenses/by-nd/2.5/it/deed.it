@@ -330,12 +330,6 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.pt" title="Português" hreflang="pt"
-   rel="alternate nofollow" xml:lang="pt">Português</a>
-
-
-
-
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -509,7 +503,7 @@ setCookie('lang','%s', expiry, '/');
 	    <li class="license">
 	      <strong>Pubblico Dominio</strong>
 	      &mdash;
-	      Where the work or any of its elements is in the <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">public domain</a> under applicable law, that status is in no way affected by the license.
+	      Nel caso in cui l'opera o qualunque delle sue componenti siano nel <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">pubblico dominio</a> secondo la legge vigente, tale condizione non è in alcun modo modificata dalla licenza.
 	    </li>
 	    <li class="license">
 	      <strong>Altri Diritti</strong>
@@ -548,9 +542,9 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_public_domain" class="help_panel">
-            <div class="hd">What does "Public Domain" mean?</div>
+            <div class="hd">Cosa significa "Pubblico Dominio"?</div>
             <div class="bd">
-              <p>A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright.</p>
+              <p>Un'opera è nel pubblico dominio se è liberamente utilizzabile da chiunque per qualunque scopo senza restrizioni dovute al diritto d'autore (copyright).</p>
 
               <p><a href="http://wiki.creativecommons.org/Public_domain">Scopri di più</a>.</p>
             </div>
