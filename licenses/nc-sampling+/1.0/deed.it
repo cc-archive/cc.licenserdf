@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -328,6 +328,13 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
+
+
+
+
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -403,7 +410,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -432,7 +439,7 @@ setCookie('lang','%s', expiry, '/');
 		      <ul class="license-properties">
     				<li class="license samplingplus">Di realizzare campionamenti (<span lang="en">sampling</span>), di mescolare o di trasformare creativamente quest'opera per scopi non commerciali.</li>
     				
-    				<li class="license samplingplus">di distribuire, comunicare al pubblico, rappresentare, eseguire, recitare o esporre in pubblico copie dell’<em>opera</em> nella sua interezza (ad esempio file-sharing o webcasting per scopi non commerciali).</li>
+    				<li class="license samplingplus">di distribuire, comunicare al pubblico, rappresentare, eseguire, recitare o esporre in pubblico copie dell’opera nella sua interezza (ad esempio file-sharing o webcasting per scopi non commerciali).</li>
 		      </ul>
  
 
@@ -451,13 +458,8 @@ setCookie('lang','%s', expiry, '/');
 	      the above:
 	     
 	      <ul>
-		<li>Your fair use rights.
-		</li>
-		<li>
-		  Rights other persons may have either in the work
-		  itself or in how the work is used, such as publicity
-		  or privacy rights.
-		</li>
+		<li>Le eccezioni, libere utilizzazioni e le altre utilizzazioni consentite dalla legge sul diritto d'autore;</li>
+		<li>Diritti che altre persone possono avere sia sull'opera stessa che su come l'opera viene utilizzata, come il diritto <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">all'immagine</a> o alla tutela dei dati personali.</li>
 	      </ul>
 	    </li>
 
@@ -506,7 +508,7 @@ L'associazione Creative Commons non è uno studio legale e non fornisce servizi 
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=it">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=nc-sampling%2B&amp;jurisdiction=-&amp;version=1.0&amp;lang=it">Utilizza questa licenza per una tua opera.</a>
       
     </p>
 

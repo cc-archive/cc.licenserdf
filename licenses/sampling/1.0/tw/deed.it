@@ -328,6 +328,13 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
+
+
+
+
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -451,9 +458,8 @@ setCookie('lang','%s', expiry, '/');
 	      the above:
 	     
 	      <ul>
-		<li>Your fair use rights.
-		</li>
-		<li>Diritti che altre persone possono avere sia sull'opera stessa che su come l'opera viene utilizzata, quali i diritti <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">all'immagine</a> o alla privacy.</li>
+		<li>Le eccezioni, libere utilizzazioni e le altre utilizzazioni consentite dalla legge sul diritto d'autore;</li>
+		<li>Diritti che altre persone possono avere sia sull'opera stessa che su come l'opera viene utilizzata, come il diritto <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" class="helpLink" id="publicity_rights">all'immagine</a> o alla tutela dei dati personali.</li>
 	      </ul>
 	    </li>
 
@@ -502,7 +508,7 @@ L'associazione Creative Commons non è uno studio legale e non fornisce servizi 
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=sampling&amp;jurisdiction=tw&amp;version=1.0&amp;lang=it">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=sampling&amp;jurisdiction=tw&amp;version=1.0&amp;lang=it">Utilizza questa licenza per una tua opera.</a>
       
     </p>
 

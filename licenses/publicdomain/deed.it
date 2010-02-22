@@ -4,8 +4,10 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   <head>
     <title>Creative Commons &mdash;
-    Copyright-Only Dedication (based on United States law) 
-or Public Domain Certification
+    
+      Copyright-Only Dedication (based on United States law) or Public
+      Domain Certification
+    
   </title><link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
 
     <link rel="stylesheet" type="text/css"
@@ -98,8 +100,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -329,6 +331,13 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
+
+
+
+
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -404,7 +413,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -414,9 +423,11 @@ setCookie('lang','%s', expiry, '/');
 	<h1><span>Creative Commons License Deed</span></h1>
 
         <div id="deed-license">
-	        <h2 property="dc:title" datatype="">Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
+	        <h2 property="dc:title" datatype="">
+  Copyright-Only Dedication<a href="#" class="helpLink" id="use_zero">*</a>
   (based on United States law)<br />
-  or Public Domain Certification</h2>
+  or Public Domain Certification
+</h2>
         </div>
       </div>
 
@@ -427,43 +438,16 @@ setCookie('lang','%s', expiry, '/');
   <div id="librepd">
     <a href="http://freedomdefined.org/">
       <img src="/images/deed/seal.png" style="border: 0"
-           alt="This license is acceptable for Free Cultural Works." />
+           alt="Questa licenza è accettabile per Opere Culturali Libere." />
     </a>
   </div>
 
-  
-    <p>The person or persons who have associated work with this
-      document (the "Dedicator" or "Certifier") hereby either (a)
-      certifies that, to the best of his knowledge, the work of
-      authorship identified is in the public domain of the country
-      from which the work is published, or (b) hereby dedicates
-      whatever copyright the dedicators holds in the work of
-      authorship identified below (the "Work") to the public domain. A
-      certifier, moreover, dedicates any copyright interest he may
-      have in the associated work, and for these purposes, is
-      described as a "dedicator" below.</p>
+  <p>La persona o le persone che hanno associato un'opera con questo documento (il "Dedicante" o "Certificatore"), qui o (a) certificano che, al meglio della loro conoscenza, l'opera dell'ingegno identificata è nel pubblico dominio nel paese in cui l'opera è pubblicata, oppure (b) qui dedicano qualsiasi diritto d'autore che i Dedicanti possiedano nell'opera dell'ingegno identificata sotto (l'"Opera") al pubblico dominio. Un Certificatore, inoltre, dedica qualsiasi diritto o titolo possa avere nell'opera associata, e a questo fine, è descritto come "Dedicante" in quante segue.</p>
+<p>A certifier has taken reasonable steps to verify the copyright status of this work. Certifier recognizes that his good faith efforts may not shield him from liability if in fact the work certified is not in the public domain.</p>
 
-    <p>A certifier has taken reasonable steps to verify the copyright
-      status of this work. Certifier recognizes that his good faith
-      efforts may not shield him from liability if in fact the work
-      certified is not in the public domain.</p>
+        <p>Dedicator makes this dedication for the benefit of the public at large and to the detriment of the Dedicator's heirs and successors. Dedicator intends this dedication to be an overt act of relinquishment in perpetuity of all present and future rights under copyright law, whether vested or contingent, in the Work. Dedicator understands that such relinquishment of all rights includes the relinquishment of all rights to enforce (by lawsuit or otherwise) those copyrights in the Work.</p>
 
-    <p>Dedicator makes this dedication for the benefit of the public
-      at large and to the detriment of the Dedicator's heirs and
-      successors.  Dedicator intends this dedication to be an overt
-      act of relinquishment in perpetuity of all present and future
-      rights under copyright law, whether vested or contingent, in the
-      Work. Dedicator understands that such relinquishment of all
-      rights includes the relinquishment of all rights to enforce (by
-      lawsuit or otherwise) those copyrights in the Work.</p>
-
-    <p>Dedicator recognizes that, once placed in the public domain,
-      the Work may be freely reproduced, distributed, transmitted,
-      used, modified, built upon, or otherwise exploited by anyone for
-      any purpose, commercial or non-commercial, and in any way,
-      including by methods that have not yet been invented or
-      conceived.</p>
-  
+        <p>Dedicator recognizes that, once placed in the public domain, the Work may be freely reproduced, distributed, transmitted, used, modified, built upon, or otherwise exploited by anyone for any purpose, commercial or non-commercial, and in any way, including by methods that have not yet been invented or conceived.</p>
 
 <div id="help_use_zero">
   <div class="hd">CC0 for Public Domain Dedication</div>
@@ -488,7 +472,7 @@ setCookie('lang','%s', expiry, '/');
     </div>
     <p id="footer">
       
-      <a id="get_this" href="/choose/publicdomain-2">Use this tool for your own work.</a>
+      <a id="get_this" href="/choose/publicdomain-2">Usa questo strumento per una tua opera.</a>
       
     </p>
 

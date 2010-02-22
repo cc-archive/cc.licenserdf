@@ -332,6 +332,19 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.pt" title="Português" hreflang="pt"
+   rel="alternate nofollow" xml:lang="pt">Português</a>
+
+
+
+
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
+
+
+
+
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -461,7 +474,7 @@ setCookie('lang','%s', expiry, '/');
 
 	      
 		<p id="work-attribution-container" style="display:none;">
-		  <strong>Attribute this work:</strong><br />
+		  <strong>Attribuisci quest'opera:</strong><br />
 		  <input id="work-attribution" value="" type="text" readonly="readonly" onclick="this.select()" onfocus="document.getElementById('work-attribution').select();" />
 		  <input id="license-code" type="hidden"
            value="CC BY-NC 2.5" />
@@ -469,7 +482,7 @@ setCookie('lang','%s', expiry, '/');
            value="http://creativecommons.org/licenses/by-nc/2.5/it/" />
 		<a href="" id="attribution_help" class="helpLink">
 		  <img src="http://creativecommons.org/@@/cc/images/information.png"
-         alt="Information" />
+         alt="Informazione" />
 		</a>
 		</p>
 		<div id="help_attribution_help" class="help_panel">
@@ -556,13 +569,9 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_fair_use" class="help_panel">
-            <div class="hd">What does "Fair use" mean?</div>
+            <div class="hd">Cosa significa "Fair use"?</div>
             <div class="bd">
-              <p>All jurisdictions
-              allow some limited uses of copyrighted material without
-              permission.  CC licenses do not affect the rights of
-              users under those copyright limitations and exceptions,
-              such as fair use and fair dealing where applicable.</p>
+              <p>Tutti i sistemi giuridici permettono alcuni limitati usi dei materiali protetti dal diritto d'autore, senza bisogno di autorizzazioni. Le licenze CC non modificano i diritti degli utenti derivanti da queste eccezioni e limitazioni al diritto d'autore, quali il fair use (USA, etc.) ed il fair dealing (UK, etc.), quando applicabili.</p>
 
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Scopri di più</a>.</p>
             </div>
@@ -629,7 +638,7 @@ L'associazione Creative Commons non è uno studio legale e non fornisce servizi 
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=by-nc&amp;jurisdiction=it&amp;version=2.5&amp;lang=it">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=by-nc&amp;jurisdiction=it&amp;version=2.5&amp;lang=it">Utilizza questa licenza per una tua opera.</a>
       
     </p>
 

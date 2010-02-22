@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -328,6 +328,13 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
+
+
+
+
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -403,7 +410,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -460,7 +467,7 @@ In alternativa è possibile allegare al <em>programma</em> un'offerta scritta, v
      
 </div>
 
-<p><%=[ccommons::istr $lang deed.permission]%></p> 
+<p>E' possibile <a href="#" id="waived" class="helpLink">rinunciare</a> a qualunque delle condizioni sopra descritte se ottieni l'autorizzazione dal detentore dei diritti.</p> 
 
 </div>
        </div>
@@ -505,7 +512,7 @@ Una <a href="legalcode.pt">traduzione in portoghese</a> è disponibile.
     <p id="footer">
       
       <a id="get_this"
-         href="/choose/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=it">Use this license for your own work.</a>
+         href="/choose/results-one?license_code=GPL&amp;jurisdiction=-&amp;version=2.0&amp;lang=it">Utilizza questa licenza per una tua opera.</a>
       
     </p>
 
