@@ -337,8 +337,9 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.pt_BR" title="Portugese" hreflang="pt_BR"
-   rel="alternate nofollow" xml:lang="pt_BR">Portugese</a>
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
 
 
 
@@ -522,13 +523,13 @@ setCookie('lang','%s', expiry, '/');
             <li class="license">
 	      <strong>Rezigno</strong>
 	      &mdash;
-	      La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> ĉiun ajn el la ĉi-antaŭaj kondiĉoj.
+	      Ĉiuj el la ĉi-antaŭaj kondiĉoj estas <a href="#" id="waived" class="helpLink">rezigneblaj</a>, se la posedanto de la aŭtorrajtoj konsentas kun tio.
 	    </li>
 
 	    <li class="license">
 	      <strong>Publikaĵo</strong>
 	      &mdash;
-	      Where the work or any of its elements is in the <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">public domain</a> under applicable law, that status is in no way affected by the license.
+	      La permesilo neniel influas la verkon aŭ ties elementojn en ŝtatoj, kie ili estas <a href="http://wiki.creativecommons.org/Public_domain" id="public_domain" class="helpLink">Publikaĵo</a> laŭ aplikebla leĝaro.
 	    </li>
 	    <li class="license">
 	      <strong>Aliaj rajtoj</strong>
@@ -537,10 +538,7 @@ setCookie('lang','%s', expiry, '/');
 	     
 	      <ul>
 
-		<li>Your fair dealing
-		  or <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">fair use</a> rights,
-		  or other applicable copyright exceptions and limitations;
-		</li>
+		<li>Vian rajton por justaj trakto kaj <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F" id="fair_use" class="helpLink">uzo</a> aŭ aliajn aplikeblajn aŭtorrajtajn esceptojn kaj limigojn;</li>
 
 		
 		  <li>La <a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F" id="moral_rights" class="helpLink">moralajn rajtojn</a> de la aŭtoro;</li>
@@ -572,9 +570,9 @@ setCookie('lang','%s', expiry, '/');
           </div>
 
           <div id="help_public_domain" class="help_panel">
-            <div class="hd">What does "Public Domain" mean?</div>
+            <div class="hd">Kion signifas "Publikaĵo"?</div>
             <div class="bd">
-              <p>A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright.</p>
+              <p>Verko estas Publikaĵo, se ĝi estas por ĉiu ajn libere uzebla ajnmaniere, sen limigoj devenantaj el aŭtorrajtoj.</p>
 
               <p><a href="http://wiki.creativecommons.org/Public_domain">Ekscii pli</a>.</p>
             </div>
@@ -587,7 +585,7 @@ setCookie('lang','%s', expiry, '/');
 uzon de la aŭtorleĝe protektataj verkoj. La permesiloj
 Krea Komunaĵo ne influas la rajtojn de la uzantoj,
 bazitajn sur ĉi tiuj aŭtorrajtaj limigoj kaj esceptoj,
-kiel ekzemple la justan uzon, kie ili estas aplikeblaj.</p>
+kiel ekzemple la justajn uzon kaj trakton, kie ili estas aplikeblaj.</p>
 
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F">Ekscii pli</a>.</p>
             </div>
@@ -596,7 +594,7 @@ kiel ekzemple la justan uzon, kie ili estas aplikeblaj.</p>
           <div id="help_moral_rights" class="help_panel">
             <div class="hd">Kio estas la "moralaj rajtoj"?</div>
             <div class="bd">
-              <p>Aldone al la rajto de la permesintoj pretendi forigon de sia nomo el la verko, se ĝi estas uzata en devena aŭ kolekta verko kiun ili ne ŝatas, la aŭtorrajta leĝaro en plimulto da jurisdikcioj de la mondo (kun notinda escepto de Usono, kiu ebligas tion nur en tre specifaj cirkonstancoj) donas al la aŭtoroj la "moralajn rajtojn", kiuj povas iom kompensi damaĝon, se la devenaĵo prezentas "fiegan prilaboron" de la origina verko.</p>
+              <p>Aldone al la rajto de la permesintoj postuli forigon de sia nomo el la verko, se ĝi estas uzata en devena aŭ kolekta verko kiun ili ne ŝatas, la aŭtorrajta leĝaro en plimulto da jurisdikcioj de la mondo (kun notinda escepto de Usono, kiu ebligas tion nur en tre specifaj cirkonstancoj) donas al la aŭtoroj la "moralajn rajtojn", kiuj povas iom kompensi damaĝon, se la devenaĵo prezentas "fiegan prilaboron" de la origina verko.</p>
 
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F">Ekscii pli</a>.</p>
 
@@ -611,7 +609,7 @@ ebligas al unuopulo kontroli, kiel lia voĉo, bildo ks.
 estas uzataj publike por komercaj celoj. Se la verko,
 disponebla laŭ permesilo Krea Komunaĵo, enhavas voĉon
 aŭ bildon de alia persono ol estas la permesinto, la
-uzanto de la verko verŝajne bezonos akiri permeson ankaŭ
+uzanto de la verko eble bezonos akiri permeson ankaŭ
 de tiu persono antaŭ uzo de la verko por komercaj celoj.</p>
 
               <p><a href="http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">Ekscii pli</a>.</p>
@@ -630,11 +628,11 @@ de tiu persono antaŭ uzo de la verko por komercaj celoj.</p>
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
+	    <a href="#" id="disclaimer" class="helpLink">Malgarantiilo</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Malgarantio</div>
+	      <div class="hd">Malgarantiilo</div>
 	      <div class="bd"><p>
-La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin afabla interfaco por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la efektiva permesilo.
+La Popola Resumo ne estas permesilo. Temas nur pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin afabla interfaco por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la efektiva permesilo.
 </p>
 
 <p>

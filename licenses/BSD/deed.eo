@@ -106,8 +106,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -337,6 +337,13 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
+
+
+
+
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -412,7 +419,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -437,7 +444,7 @@ setCookie('lang','%s', expiry, '/');
             resource="http://creativecommons.org/ns#Reproduction">Vi rajtas:</h3>
 		      <ul class="license-properties">
 			      <li class="license share" rel="cc:permits"
-             resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj transsendi la verkon</li>
+             resource="http://creativecommons.org/ns#Distribution"><strong>Kunhavigi</strong>&nbsp;— kopii, distribui kaj publikigi la verkon</li>
 			      <li class="license remix" rel="cc:permits"
              resource="http://creativecommons.org/ns#DerivativeWorks"><strong>Aliigi</strong>&nbsp;— modifi, adapti, kompletigi, transformi, uzi la tutan verkon aŭ ties partojn, memstare aŭ en aliaj verkoj</li>
 		      </ul>
@@ -446,14 +453,14 @@ setCookie('lang','%s', expiry, '/');
         </div>
         <div id="deed-conditions" style="text-align:left"
              dir="ltr">
-		      <h3>La verko devas esti kunhavigata:</h3>
+		      <h3>La verko rajtas esti kunhavigata nur:</h3>
 	        <ul class="license-properties"
              style="text-align:left" dir="ltr"> 
             <li rel="cc:requires"
                 resource="http://creativecommons.org/ns#Notice"
                 class="license no-endorse">
 
-	            <p><strong>Nenia subteno</strong>. Vi ne rajtas uzi la nomon de la aŭtoro por subteni, propagandi aŭ reklami devenaĵojn bazitajn sur ĉi tiu programaro sen specifa, antaŭe akirita skriba permeso.</p>
+	            <p><strong>Nenia subteno</strong>. Vi ne rajtas uzi la nomon de la aŭtoro por subteni, propagandi aŭ reklami devenaĵojn bazitajn sur ĉi tiu programo sen specifa, antaŭe akirita skriba permeso.</p>
             </li>
 
             <li id="more-container" class="license-hidden" />
@@ -462,7 +469,7 @@ setCookie('lang','%s', expiry, '/');
 
             
 
-            <li>La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> ĉiun ajn el la ĉi-antaŭaj kondiĉoj.</li>
+            <li>Ĉiuj el la ĉi-antaŭaj kondiĉoj estas <a href="#" id="waived" class="helpLink">rezigneblaj</a>, se la posedanto de la aŭtorrajtoj konsentas kun tio.</li>
 
             
           </ul>
@@ -479,11 +486,11 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
+	    <a href="#" id="disclaimer" class="helpLink">Malgarantiilo</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Malgarantio</div>
+	      <div class="hd">Malgarantiilo</div>
 	      <div class="bd"><p>
-La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin afabla interfaco por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la efektiva permesilo.
+La Popola Resumo ne estas permesilo. Temas nur pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin afabla interfaco por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la efektiva permesilo.
 </p>
 
 <p>

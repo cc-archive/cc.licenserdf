@@ -97,8 +97,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -328,6 +328,13 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
+
+
+
+
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -403,7 +410,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -435,7 +442,7 @@ setCookie('lang','%s', expiry, '/');
 				<li class="gpl">Uzi la programon por iu ajn celo.</li>
 				<li class="gpl">Studi kiel la programo funkcias kaj adapti ĝin al viaj bezonoj.</li>
 				<li class="gpl">Redistribui kopiaĵojn kaj helpi tiel al aliuloj.</li>
-				<li class="gpl">Plibonigi la programon kaj publikigi viajn plibonigojn, el kiuj poste ĉiu povos profiti.</li>
+				<li class="gpl">Plibonigi la programon kaj publikigi viajn plibonigojn, je kiuj poste ĉiu povos profiti.</li>
 			</ol>
 </div>
     
@@ -447,9 +454,9 @@ setCookie('lang','%s', expiry, '/');
    
 
    <ul style="text-align:left" dir="ltr"> 
-     <li class="license notice">Vi devas al ĉiu distribuata kopiaĵo de la programo aldoni klaran kaj adekvatan atentigon pri la aŭtorrajtoj kaj malgarantiilon, krome vi ne rajtas ŝanĝi atentigojn, referantajn al ĉi tiu permesilo kaj malgarantiilo; ankaŭ necesas al ĉiuj ricevantoj de la programo samtempe liveri kopiaĵon de la <span>GNU General Public License</span>. Iu ajn traduko de la permesilo devas esti akompanata de la origina, netradukita versio.</li>
+     <li class="license notice">Vi devas al ĉiu distribuata kopiaĵo de la programo aldoni adekvatan kaj klaran atentigon pri la aŭtorrajtoj kaj malgarantiilon, krome vi ne rajtas ŝanĝi atentigojn, referantajn al ĉi tiu permesilo kaj malgarantiilo; ankaŭ necesas al ĉiuj ricevantoj de la programo samtempe liveri kopiaĵon de la <span>GNU General Public License</span>. Iu ajn traduko de la permesilo devas esti akompanata de la origina, netradukita versio.</li>
 
-     <li class="license sa">Se vi modifas via(j)n kopiaĵo(j)n de la programo aŭ iun ajn ties parton, aŭ evoluigas programon bazitan sur ĝi, vi rajtas distribui la rezultan verkon nur laŭ la <span>GNU General Public License</span>. Iu ajn traduko de la permesilo devas esti akompanata de la origina, antaŭtraduka teksto.</li>
+     <li class="license sa">Se vi modifas via(j)n kopiaĵo(j)n de la programo aŭ iun ajn ties parton, aŭ evoluigas programon bazitan sur ĝi, vi rajtas distribui la rezultan verkon nur laŭ la <span>GNU General Public License</span>. Iu ajn traduko de la permesilo devas esti akompanata de la origina, netradukita versio.</li>
 
      
 
@@ -458,7 +465,7 @@ setCookie('lang','%s', expiry, '/');
      
 </div>
 
-<p>La posedanto de la aŭtorrajtoj povas <a href="#" id="waived" class="helpLink">rezigni</a> ĉiun ajn el la ĉi-antaŭaj kondiĉoj.</p> 
+<p>Ĉiuj el la ĉi-antaŭaj kondiĉoj estas <a href="#" id="waived" class="helpLink">rezigneblaj</a>, se la posedanto de la aŭtorrajtoj konsentas kun tio.</p> 
 
 </div>
        </div>
@@ -470,11 +477,11 @@ setCookie('lang','%s', expiry, '/');
           
 
 	  
-	    <a href="#" id="disclaimer" class="helpLink">Malgarantio</a>
+	    <a href="#" id="disclaimer" class="helpLink">Malgarantiilo</a>
 	    <div id="help_disclaimer">
-	      <div class="hd">Malgarantio</div>
+	      <div class="hd">Malgarantiilo</div>
 	      <div class="bd"><p>
-La Popola Resumo ne estas permesilo. Temas pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin afabla interfaco por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la efektiva permesilo.
+La Popola Resumo ne estas permesilo. Temas nur pri praktika helpilo por klarigi la Juran Tekston (plenan permesilon)&nbsp;— pri facile komprenebla esprimo de kelkaj ĉefaj nocioj. Konsideru ĝin afabla interfaco por la Jura Teksto. La Resumo mem ne havas juran valoron kaj ĝia enhavo ne aperas en la efektiva permesilo.
 </p>
 
 <p>

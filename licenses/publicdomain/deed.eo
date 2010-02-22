@@ -98,8 +98,8 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.cs" title="Česko" hreflang="cs"
-   rel="alternate nofollow" xml:lang="cs">Česko</a>
+<a href="./deed.cs" title="čeština" hreflang="cs"
+   rel="alternate nofollow" xml:lang="cs">čeština</a>
 
 
 
@@ -329,6 +329,13 @@ setCookie('lang','%s', expiry, '/');
 
 
 
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
+
+
+
+
 <a href="./deed.ro" title="română" hreflang="ro"
    rel="alternate nofollow" xml:lang="ro">română</a>
 
@@ -404,7 +411,7 @@ setCookie('lang','%s', expiry, '/');
 
       <div id="deed-head">
 	<div id="cc-logo">
-	  <img src="/images/deed/cc-logo.jpg" alt="cc logo">
+	  <img src="/images/deed/cc-logo.jpg" alt="cc logo" />
 	</div>
 	<div id="cc-link">
 	  <a rel="dc:creator" href="http://creativecommons.org/">
@@ -437,7 +444,7 @@ aŭ Publikaĵa Deklaro</h2>
 
 <p>La dediĉanto faras la agon por utilo de la tuta homaro, sed fakte kaŭzas tiel malutilon al siaj heredontoj kaj idoj. La dediĉanto intencas fari la dediĉon kiel evidentan agon de porĉiama rezigno pri ĉiuj kaj nuntempaj kaj estontaj, kaj certaj kaj eventualaj rajtoj por la verko, devenantaj el la aŭtorrajta leĝaro. La dediĉanto konscias, ke tia rezigno pri ĉiuj rajtoj inkluzivas ankaŭ rezignon pri ĉiuj rajtoj eldevigi (juĝprocese aŭ alimaniere) la rajtojn por la verko.</p>
 
-<p>La dediĉanto konscias, ke post kiam la verko estos liberigita kiel Publikaĵo, ĝi rajtos esti libere reproduktata, distribuata, transsendata, uzata, aliigata, aliaj verkoj rajtos baziĝi sur ĝi; ankaŭ alimaniere ĝi rajtos esti ekspluatata de iu ajn homo, por iu ajn kaj komerca kaj nekomerca celo, en iu ajn maniero, inkluzive metodojn ankoraŭ neinventitajn aŭ nepripensatajn.</p>
+<p>La dediĉanto konscias, ke post kiam la verko estos liberigita kiel Publikaĵo, ĝi rajtos esti libere reproduktata, distribuata, publikigata, uzata, aliigata, aliaj verkoj rajtos baziĝi sur ĝi; ankaŭ alimaniere ĝi rajtos esti ekspluatata de iu ajn homo, por iu ajn kaj komerca kaj nekomerca celo, en iu ajn maniero, inkluzive metodojn ankoraŭ neinventitajn aŭ nepripensatajn.</p>
 
 <div id="help_use_zero">
   <div class="hd">CC0 for Public Domain Dedication</div>
