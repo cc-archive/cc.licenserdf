@@ -338,8 +338,9 @@ setCookie('lang','%s', expiry, '/');
 
 
 
-<a href="./deed.pt_BR" title="Portugese" hreflang="pt_BR"
-   rel="alternate nofollow" xml:lang="pt_BR">Portugese</a>
+<a href="./deed.pt_BR" title="Português (BR)"
+   hreflang="pt_BR" rel="alternate nofollow"
+   xml:lang="pt_BR">Português (BR)</a>
 
 
 
