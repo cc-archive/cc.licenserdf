@@ -85,9 +85,16 @@ Jurisdictions are specified by their short letter codes (ie, us).
 # * 
 # *******************************************************************
 
-def info(opts):
-    """Print information for the jurisdiction."""
+def _printer(string):
+    """
+    A simple wrapper for the print statement so we can do testing on
+    the info method
+    """
+    print string
 
+
+def info(opts, printer=_printer):
+    """Print information for the jurisdiction."""
     j_graph = load_graph(opts.rdf_file)
     jurisdiction = opts.jurisdiction[0]
     if jurisdiction[-1] != '/':
@@ -99,11 +106,10 @@ def info(opts):
 
         raise KeyError("Unknown jurisdiction: %s" % jurisdiction)
 
-
     # print the info for this jurisdiction
     for p, o in j_graph.predicate_objects(j_ref):
-        # XXX This could be improved greatly
-        print str(p), str(o)
+        # Maybe better output would be nice
+        printer("%s %s" % (p, o))
 
 def launch(opts):
     """Mark the jurisdiction as launched."""
