@@ -71,15 +71,15 @@ def test_launch():
 
     jurisdiction.launch(opts, save_graph=graph_saver)
 
-    result = graph_saver.graph.triples(
-        (rdflib.URIRef('http://creativecommons.org/international/pl/'),
-         rdflib.URIRef('http://creativecommons.org/ns#launched'),
-         rdflib.Literal(
-                u'true',
-                datatype=rdflib.URIRef(
-                    'http://www.w3.org/2001/XMLSchema-datatypes#boolean'))))
+    # assert that we got one result, launch is True
+    result = graph_saver.graph.value(
+        subject=rdflib.URIRef('http://creativecommons.org/international/pl/'),
+        predicate=rdflib.URIRef('http://creativecommons.org/ns#launched'))
+    expected_result = rdflib.Literal(
+        u'true',
+        datatype=rdflib.URIRef(
+            'http://www.w3.org/2001/XMLSchema-datatypes#boolean'))
+    assert result == expected_result
 
-    # assert that we got one result
-    assert len([l for l in result]) == 1
-
+    # make sure that we got the right save path
     assert graph_saver.save_path == opts.rdf_file
