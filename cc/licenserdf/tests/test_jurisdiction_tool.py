@@ -1,6 +1,8 @@
 import copy
 import pkg_resources
 
+import rdflib
+
 from cc.licenserdf.tools import jurisdiction
 
 
@@ -12,6 +14,15 @@ class PrinterCollector(object):
 
     def __call__(self, string):
         self.printed_strings.append(string)
+
+class MockSaveGraph(object):
+    def __init__(self):
+        self.graph = None
+        self.save_path = None
+
+    def __call__(self, graph, save_path):
+        self.graph = graph
+        self.save_path = save_path
 
 
 EXPECTED_INFO_OUTPUT_US = [
@@ -48,3 +59,25 @@ def test_info():
 
     jurisdiction.info(opts, printer=printer)
     _unordered_ensure_printer_printed(printer, EXPECTED_INFO_OUTPUT_US)
+
+
+def test_launch():
+    opts = MockOpts()
+    opts.rdf_file = pkg_resources.resource_filename(
+        'cc.licenserdf.tests', 'rdf/jurisdictions.rdf')
+    opts.jurisdiction = ['pl']
+
+    graph_saver = MockSaveGraph()
+
+    jurisdiction.launch(opts, save_graph=graph_saver)
+
+    result = graph_saver.graph.triples(
+        (rdflib.URIRef('http://creativecommons.org/international/pl/'),
+         rdflib.URIRef('http://creativecommons.org/ns#launched'),
+         rdflib.Literal(
+                u'true',
+                datatype=rdflib.URIRef(
+                    'http://www.w3.org/2001/XMLSchema-datatypes#boolean'))))
+
+    # assert that we got one result
+    assert len([l for l in result]) == 1

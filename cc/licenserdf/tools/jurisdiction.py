@@ -111,7 +111,7 @@ def info(opts, printer=_printer):
         # Maybe better output would be nice
         printer("%s %s" % (p, o))
 
-def launch(opts):
+def launch(opts, save_graph=save_graph):
     """Mark the jurisdiction as launched."""
 
     # load the RDF graph
