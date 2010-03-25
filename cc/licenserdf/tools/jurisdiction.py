@@ -138,7 +138,7 @@ def launch(opts, save_graph=save_graph):
     save_graph(j_graph, opts.rdf_file)
 
         
-def add(opts):
+def add(opts, __save_graph=save_graph):
     """Add a new jurisdiction."""
 
     # load the RDF graph
@@ -165,14 +165,15 @@ def add(opts):
             Literal(u"${country.%s}" % jurisdiction[:-1], lang="i18n")))
 
     # add the translated names
-    translate_graph(j_graph, opts.i18n_dir)
+    translate_graph(j_graph)
 
     # add langs
     for lang in opts.langs.split(','):
         j_graph.add((j_ref, NS_DC['language'], Literal(lang)))
 
     # save the graph
-    save_graph(j_graph, opts.rdf_file)
+    __save_graph(j_graph, opts.rdf_file)
+
 
 def cli():
     """Command line interface for the jurisdiction tool."""
