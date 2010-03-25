@@ -81,3 +81,5 @@ def test_launch():
 
     # assert that we got one result
     assert len([l for l in result]) == 1
+
+    assert graph_saver.save_path == opts.rdf_file
