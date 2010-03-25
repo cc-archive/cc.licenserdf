@@ -17,7 +17,6 @@
     <dc:title xml:lang="bg">Полша</dc:title>
     <dc:title xml:lang="ja">ポーランド</dc:title>
     <dc:title xml:lang="en-us">Poland</dc:title>
-    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>pl</dc:language>
     <cc:defaultLanguage>pl</cc:defaultLanguage>
     <cc:jurisdictionSite rdf:resource="http://creativecommons.pl"/>
