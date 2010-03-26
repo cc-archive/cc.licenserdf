@@ -128,7 +128,18 @@ def test_add():
     expected_result = rdflib.URIRef('http://www.creativecommons.it')
     assert result == expected_result
 
+    # get all (hopefully translated) titles
+    result = graph_saver.graph.triples(
+        (rdflib.URIRef('http://creativecommons.org/international/it/'),
+         rdflib.URIRef('http://purl.org/dc/elements/1.1/title'),
+         None))
+
+    titles = {}
+    for subj, pred, obj in result:
+        titles[obj.language] = unicode(obj)
+
     # ensure we have the generated i18n string
+    assert titles['i18n'] == u'${country.it}'
 
     # ensure that the translations were run
 
