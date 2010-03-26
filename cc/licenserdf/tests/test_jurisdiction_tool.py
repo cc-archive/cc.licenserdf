@@ -147,3 +147,12 @@ def test_add():
     assert titles['it'] == u'Italia'
 
     # check that the languages were added
+    result = graph_saver.graph.triples(
+        (rdflib.URIRef('http://creativecommons.org/international/it/'),
+         rdflib.URIRef('http://purl.org/dc/elements/1.1/language'),
+         None))
+    languages = [unicode(obj) for subj, pred, obj in result]
+    assert u'en_US' in languages
+    assert u'sr_LATN' in languages
+
+    assert len(languages) == 2
