@@ -8,6 +8,8 @@ from babel.messages import pofile
 from rdflib.Graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
+from cc.i18npkg import ccorg_i18n_setup
+
 from cc.licenserdf import util
 
 
