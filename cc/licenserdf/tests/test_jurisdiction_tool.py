@@ -142,5 +142,8 @@ def test_add():
     assert titles['i18n'] == u'${country.it}'
 
     # ensure that the translations were run
+    # (just checking a few should be fine)
+    assert titles['en'] == u'Italy'
+    assert titles['it'] == u'Italia'
 
     # check that the languages were added
