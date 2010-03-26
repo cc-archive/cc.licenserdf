@@ -121,6 +121,12 @@ def test_add():
     assert result == expected_result
 
     # ensure that jurisdictionSite == opts.juris_uri
+    result = graph_saver.graph.value(
+        subject=rdflib.URIRef('http://creativecommons.org/international/it/'),
+        predicate=rdflib.URIRef(
+            'http://creativecommons.org/ns#jurisdictionSite'))
+    expected_result = rdflib.URIRef('http://www.creativecommons.it')
+    assert result == expected_result
 
     # ensure we have the generated i18n string
 
