@@ -1,6 +1,7 @@
 """Support functions for license RDF tools."""
 
 import os
+import pkg_resources
 from distutils.version import StrictVersion
 
 from babel.messages import pofile
@@ -8,7 +9,6 @@ from rdflib.Graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
 from cc.licenserdf import util
-from cc.i18npkg import ccorg_i18n_setup
 
 
 NS_DC = Namespace("http://purl.org/dc/elements/1.1/")
@@ -86,7 +86,9 @@ def translate_graph(graph):
       i18n_dir: directory of PO files.  Default directory is that
         which is supplied with this package.
     """
-    lang_dirs = os.listdir(os.path.abspath(ccorg_i18n_setup.I18N_PATH))
+    lang_dirs = os.listdir(
+        os.path.abspath(
+            pkg_resources.resource_filename('cc.i18npkg', 'i18n/i18n')))
 
     for subject, predicate, obj in graph.triples((
             None, None, None)):
