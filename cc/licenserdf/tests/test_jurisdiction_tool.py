@@ -1,19 +1,13 @@
-import copy
 import pkg_resources
 
 import rdflib
 
+from cc.licenserdf.tests.util import (
+    PrinterCollector, unordered_ensure_printer_printed)
 from cc.licenserdf.tools import jurisdiction
 
 
 class MockOpts(object): pass
-
-class PrinterCollector(object):
-    def __init__(self):
-        self.printed_strings = []
-
-    def __call__(self, string):
-        self.printed_strings.append(string)
 
 class MockSaveGraph(object):
     def __init__(self):
@@ -37,19 +31,6 @@ EXPECTED_INFO_OUTPUT_US = [
     ]
 
 
-def _unordered_ensure_printer_printed(printer, expected_output):
-    """
-    Do an unordered check 
-    """
-    printer_output = copy.copy(printer.printed_strings)
-    for line in expected_output:
-        assert line in printer_output
-        printer_output.pop(printer_output.index(line))
-
-    # make sure that we only printed what we expected
-    assert len(printer_output) is 0
-
-
 def test_info():
     opts = MockOpts()
     printer = PrinterCollector()
@@ -58,7 +39,7 @@ def test_info():
     opts.jurisdiction = ['us']
 
     jurisdiction.info(opts, printer=printer)
-    _unordered_ensure_printer_printed(printer, EXPECTED_INFO_OUTPUT_US)
+    unordered_ensure_printer_printed(printer, EXPECTED_INFO_OUTPUT_US)
 
 
 def test_launch():
