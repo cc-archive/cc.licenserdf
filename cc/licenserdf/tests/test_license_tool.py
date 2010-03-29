@@ -29,6 +29,9 @@ def test_license_rdf_filename():
     assert license.license_rdf_filename(
         'http://creativecommons.org/publicdomain/zero/1.0/') == expected_url
 
-
-
+    expected_url = os.path.join(
+        TEST_RDF_DIR, 'creativecommons.org_publicdomain_zero_1.0_.rdf')
+    assert license.license_rdf_filename(
+        'http://creativecommons.org/publicdomain/zero/1.0/',
+        TEST_RDF_DIR) == expected_url
 
