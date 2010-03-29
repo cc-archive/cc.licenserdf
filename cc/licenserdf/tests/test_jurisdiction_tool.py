@@ -102,8 +102,6 @@ def test_add():
     # make sure that we got the right save path
     assert graph_saver.save_path == opts.rdf_file
 
-    graph = graph_saver.graph
-
     # ensure the jurisdiction exists in the output
     ## using a list comprehension here because the generators rdflib
     ## has seem to work weird and aren't list()'able?
