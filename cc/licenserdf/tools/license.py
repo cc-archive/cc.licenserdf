@@ -26,6 +26,13 @@ RDF_DIR = pkg_resources.resource_filename('cc.licenserdf', 'licenses')
 # * 
 # *******************************************************************
 
+def _printer(string):
+    """
+    A simple wrapper for the print statement so we can do testing on
+    the info method
+    """
+    print string
+
 def license_rdf_filename(license_uri, rdf_dir=RDF_DIR):
     """Map a license URI to the filesystem filename containing the RDF."""
 
@@ -109,7 +116,7 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     save_graph(license, license_rdf_filename(license_uri, rdf_dir))
 
 
-def legalcode_list(license_url, rdf_dir):
+def legalcode_list(license_url, rdf_dir, _printer=_printer):
     """
     List all legalcodes for license_url
     """
@@ -118,7 +125,7 @@ def legalcode_list(license_url, rdf_dir):
     for row in graph.query((
             'SELECT ?title where '
             '{ ?x <http://creativecommons.org/ns#legalcode> ?title . }')):
-        print unicode(row[0])
+        _printer(unicode(row[0]))
 
 
 def legalcode_add(license_url, legalcode_url, rdf_dir, legalcode_lang=None):
