@@ -2,10 +2,12 @@ import os
 import pkg_resources
 
 from cc.licenserdf.tools import license
+from cc.licenserdf.tests.util import (
+    PrinterCollector, unordered_ensure_printer_printed)
 
 RDF_DIR = pkg_resources.resource_filename('cc.licenserdf', 'licenses')
 TEST_RDF_DIR = pkg_resources.resource_filename(
-    'cc.licenserdf.tests', 'rdf/licenses')
+    'cc.licenserdf.tests', 'licenses')
 
 
 def test_license_rdf_filename():
@@ -35,3 +37,13 @@ def test_license_rdf_filename():
         'http://creativecommons.org/publicdomain/zero/1.0/',
         TEST_RDF_DIR) == expected_url
 
+
+def test_legalcode_list():
+    printer = PrinterCollector()
+    license.legalcode_list(
+        'http://creativecommons.org/licenses/by-sa/3.0/',
+        TEST_RDF_DIR, _printer=printer)
+    unordered_ensure_printer_printed(
+        printer,
+        [u"http://creativecommons.org/licenses/by-sa/3.0/legalcode"])
+    
