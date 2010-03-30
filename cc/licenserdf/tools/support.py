@@ -61,7 +61,8 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
     elif license_code == 'publicdomain':
         i18n_str = '${licenses.pretty_publicdomain}'
     elif license_code == 'cc0':
-        i18n_str = 'CC0 %s Universal' % license_version
+        i18n_str = '${licenses.pretty_CC0} %s ${util.Universal}' % (
+            license_version)
     else:
         # 'standard' license
         if license_jurisdiction:
