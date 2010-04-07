@@ -22,7 +22,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "cc.licenserdf",
-    version = "0.1.12",
+    version = "0.1.13",
     packages = find_packages('.'),
     namespace_packages = ['cc',],
     
