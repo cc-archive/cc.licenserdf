@@ -56,6 +56,8 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
         i18n_str = '${util.Developing_Nations} License'
     elif 'sampling' in license_code:
         i18n_str = '${licenses.pretty_%s} %s' % (license_code, license_version)
+    elif license_code in ('MIT', 'BSD'):
+        i18n_str = license_code
     elif 'GPL' in license_code:
         i18n_str = '${license.%s_name_full' % license_code
     elif license_code == 'publicdomain':
