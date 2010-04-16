@@ -21,26 +21,37 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "license_rdf.tools",
-    version = "0.1",
+    name = "cc.licenserdf",
+    version = "0.1.13",
     packages = find_packages('.'),
+    namespace_packages = ['cc',],
     
+    include_package_data = True,
+
     # scripts and dependencies
-    install_requires = ['setuptools',
-                        'rdflib==2.4.0',
-                        'rdfadict',
-                        'Babel',
-                        ],
+    install_requires = [
+        'setuptools',
+        'rdflib>=2.4.0',
+        'rdfadict',
+        'Babel',
+        'argparse',
+        'zope.i18n',
+        'python-gettext',
+        'nose',
+        'cc.i18npkg',
+        ],
 
 
-    entry_points = {'console_scripts' : 
-                    ['merge = tools.merge:cli',
-                     'make_schema = tools.make_schema:cli',
-                     'add_license = tools.license:add_cli',
-                     'add_all = tools.license:add_all_cli',
-                     'jurisdiction = tools.jurisdiction:cli',
-                     ],
-                    },
+    entry_points = {
+        'console_scripts': [
+            'merge = cc.licenserdf.tools.merge:cli',
+            'make_schema = cc.licenserdf.tools.make_schema:cli',
+            'add_license = cc.licenserdf.tools.license:add_cli',
+            'add_all = cc.licenserdf.tools.license:add_all_cli',
+            'jurisdiction = cc.licenserdf.tools.jurisdiction:cli',
+            'license = cc.licenserdf.tools.license:cli',
+            'translate_rdf = cc.licenserdf.tools.translate_rdf:cli',
+            'gen_i18n_titles = cc.licenserdf.tools.gen_i18n_titles:cli']},
 
     # author metadata
     author = 'Nathan R. Yergler',
@@ -48,5 +59,5 @@ setup(
     description = 'Tool scripts for manipulating the license RDF files.',
     license = 'MIT',
     url = 'http://creativecommons.org',
-
+    zip_safe = False,
     )

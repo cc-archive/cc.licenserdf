@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+>
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/us/">
+    <dc:title xml:lang="en-ca">United States</dc:title>
+    <dc:title xml:lang="fr-ca">Etats-Unis</dc:title>
+    <dc:title xml:lang="en-us">United States</dc:title>
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <dc:language>en-us</dc:language>
+    <cc:defaultLanguage>en-us</cc:defaultLanguage>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/us/"/>
+  </cc:Jurisdiction>
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/pl/">
+    <dc:title xml:lang="bg">Полша</dc:title>
+    <dc:title xml:lang="ja">ポーランド</dc:title>
+    <dc:title xml:lang="en-us">Poland</dc:title>
+    <dc:language>pl</dc:language>
+    <cc:defaultLanguage>pl</cc:defaultLanguage>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.pl"/>
+  </cc:Jurisdiction>
+</rdf:RDF>

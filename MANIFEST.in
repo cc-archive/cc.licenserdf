@@ -1,0 +1,5 @@
+recursive-include cc/licenserdf/licenses *.rdf 
+recursive-include cc/licenserdf/rdf *.rdf 
+include cc/licenserdf/xml/DEPRECATED
+include cc/licenserdf/xml/questions.xml
+
