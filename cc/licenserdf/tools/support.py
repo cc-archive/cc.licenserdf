@@ -28,8 +28,9 @@ def graph():
     store = Graph()
     store.bind("cc", "http://creativecommons.org/ns#")
     store.bind("dc", "http://purl.org/dc/elements/1.1/")
-    store.bind("dcq","http://purl.org/dc/terms/")
-    store.bind("rdf","http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+    store.bind("dcq", "http://purl.org/dc/terms/")
+    store.bind("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+    store.bind("foaf", "http://xmlns.com/foaf/0.1/")
 
     return store
 
