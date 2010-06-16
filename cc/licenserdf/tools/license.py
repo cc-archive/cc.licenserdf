@@ -86,8 +86,10 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
 
     # add the jurisdiction, version, source
     if jurisdiction is not None:
+        jurisdiction_url = "http://creativecommons.org/international/%s/" % (
+            jurisdiction)
         replace_predicate(license, URIRef(license_uri), NS_CC.jurisdiction,
-                          URIRef(jurisdiction))
+                          URIRef(jurisdiction_url))
     else:
         # unported; remove any jurisdiction assertion
         license.remove((URIRef(license_uri), NS_CC.jurisdiction, None))
@@ -179,10 +181,6 @@ def get_args():
         help='URI of the legalcode; defaults to the license '
         'URI + "/legalcode".')
     add_subparser.add_argument(
-        '--jurisdiction', dest='jurisdiction',
-        help='URI of the jurisdiction for the new license; '
-        'defaults to Unported.')
-    add_subparser.add_argument(
         '-j', '--jurisdiction-code', dest='jurisdiction_code', required=True,
         help='Short code of the jurisdiction to add.')
     add_subparser.add_argument(
@@ -246,7 +244,7 @@ def cli_add_action(opts):
         license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
 
         add_license(
-            license_url, base_url, opts.version, opts.jurisdiction,
+            license_url, base_url, opts.version, opts.jurisdiction_code,
             opts.legalcode, opts.rdf_dir, license_code)
 
 
