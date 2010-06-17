@@ -168,13 +168,15 @@ def add(opts, __save_graph=save_graph):
     translate_graph(j_graph)
 
     # add langs
-    langs = opts.langs.split(',')
+    langs = None
+    if opts.langs:
+        langs = opts.langs.split(',')
 
     if langs:
         j_graph.add((j_ref, NS_CC['defaultLanguage'], Literal(langs[0])))
 
-    for lang in langs:
-        j_graph.add((j_ref, NS_DC['language'], Literal(lang)))
+        for lang in langs:
+            j_graph.add((j_ref, NS_DC['language'], Literal(lang)))
 
     # save the graph
     __save_graph(j_graph, opts.rdf_file)
