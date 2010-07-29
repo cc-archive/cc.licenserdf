@@ -31,14 +31,14 @@ setup(
     # scripts and dependencies
     install_requires = [
         'setuptools',
+        'cc.i18n',
         'rdflib<3.0',
         'rdfadict',
-        'Babel',
+        'Babel>0.99',
         'argparse',
         'zope.i18n',
         'python-gettext',
         'nose',
-        'cc.i18npkg',
         ],
 
 

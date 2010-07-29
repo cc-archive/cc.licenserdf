@@ -72,7 +72,7 @@ def test_add():
         'cc.licenserdf.tests', 'rdf/jurisdictions.rdf')
     opts.jurisdiction = ['it']
     opts.i18n_dir = pkg_resources.resource_filename(
-        'cc.i18npkg', 'i18n/i18n/')
+        'cc.i18n', 'i18n/')
     opts.juris_uri = "http://www.creativecommons.it"
     opts.langs = 'en_US,sr_LATN'
 
