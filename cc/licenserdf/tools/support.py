@@ -8,7 +8,7 @@ from babel.messages import pofile
 from rdflib.Graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
-from cc.i18npkg import ccorg_i18n_setup
+from cc.i18n import ccorg_i18n_setup
 
 from cc.licenserdf import util
 
@@ -94,7 +94,7 @@ def translate_graph(graph):
     """
     lang_dirs = os.listdir(
         os.path.abspath(
-            pkg_resources.resource_filename('cc.i18npkg', 'i18n/i18n')))
+            pkg_resources.resource_filename('cc.i18n', 'i18n')))
 
     for subject, predicate, obj in graph.triples((
             None, None, None)):

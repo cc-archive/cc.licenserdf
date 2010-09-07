@@ -12,7 +12,7 @@ def inverse_translate(string, target_language, domain='cc_org'):
     preserve "Foo " and " baz" and translate "${bar} (using "bar" as
     the msgid)
 
-       >>> from cc.i18npkg import ccorg_i18n_setup
+       >>> from cc.i18n import ccorg_i18n_setup
        >>> translated_string = inverse_translate(
        ...    'foo ${country.pt} baz ${license.GPL_name_full}',
        ...    target_language='en_US')
