@@ -17,12 +17,12 @@ def create_option_parser():
 
     # input options
     parser.add_option('-i', '--input-file', dest='input_file',
-                      default='rdf/ns.html',
+                      default='cc/licenserdf/rdf/ns.html',
                       help='Input file containing HTML + RDFa.')
 
     # output options
     parser.add_option('-o', '--output-file', dest='output_file', 
-                      default='rdf/schema.rdf',
+                      default='cc/licenserdf/rdf/schema.rdf',
                       help='Output file for RDF schema.')
 
     return parser
