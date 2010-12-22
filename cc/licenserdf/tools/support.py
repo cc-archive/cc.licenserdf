@@ -17,6 +17,7 @@ NS_DC = Namespace("http://purl.org/dc/elements/1.1/")
 NS_DCQ = Namespace("http://purl.org/dc/terms/")
 NS_RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
 NS_XSD = Namespace("http://www.w3.org/2001/XMLSchema-datatypes#")
+NS_FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 
 NS_CC = Namespace("http://creativecommons.org/ns#")
 NS_CC_JURISDICTION = Namespace("http://creativecommons.org/international/")

@@ -77,8 +77,38 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
         for (p, o) in based_on.predicate_objects(URIRef(based_on_uri)):
             license.add((URIRef(license_uri), p, o))
 
-        replace_predicate(license, URIRef(license_uri), NS_DC.source, 
-                          URIRef(based_on_uri))
+        replace_predicate(
+            license, URIRef(license_uri), NS_DC.source,
+            URIRef(based_on_uri))
+
+        # Record the existing FOAF:logos for reference
+        old_logos = [
+            result[2].split('/')[-1]
+            for result in license.triples(
+                (URIRef(license_uri), NS_FOAF.logo, None))]
+
+        # Add the FOAF:logos
+        license.remove(
+            (URIRef(license_uri), NS_FOAF.logo, None))
+
+        # Images get put into /l/ or /p/ depending on whether they are
+        # /licenses/ or /publicdomain/ respectively...
+        group_letter = urlparse.urlparse(license_uri)[2].lstrip('/')[0]
+
+        for old_logo in old_logos:
+            # http://i.creativecommons.org/l/by/3.0/88x31.png
+            logo_url = "http://i.creativecommons.org/%s/%s/%s/" % (
+                group_letter, license_code, version)
+
+            if jurisdiction:
+                logo_url += jurisdiction + "/"
+
+            image_name = old_logo.split('/')[-1]
+            logo_url += image_name
+
+            license.add(
+                ((URIRef(license_uri), NS_FOAF.logo,
+                  URIRef(logo_url))))
 
     else:
         # add the basic framework -- this is a license
