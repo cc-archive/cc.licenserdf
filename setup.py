@@ -28,6 +28,10 @@ setup(
     
     include_package_data = True,
 
+    dependency_links = [
+        'http://code.creativecommons.org/basket/',
+        ],
+
     # scripts and dependencies
     install_requires = [
         'setuptools',
