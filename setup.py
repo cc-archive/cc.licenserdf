@@ -22,11 +22,15 @@ from setuptools import setup, find_packages
 
 setup(
     name = "cc.licenserdf",
-    version = "0.2.22",
+    version = "0.2.23",
     packages = find_packages('.'),
     namespace_packages = ['cc',],
     
     include_package_data = True,
+
+    dependency_links = [
+        'http://code.creativecommons.org/basket/',
+        ],
 
     # scripts and dependencies
     install_requires = [
