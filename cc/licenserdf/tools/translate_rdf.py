@@ -40,7 +40,7 @@ def cli():
         for path in opts.rdf_file:
             if not os.path.exists(path):
                 print "That filename does not exist."
-                exit(1)
+                return 1
             else:
                 graph = load_graph(path)
                 translate_graph(graph)
