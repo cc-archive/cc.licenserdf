@@ -175,9 +175,6 @@ def add(opts, __save_graph=save_graph):
     if langs:
         j_graph.add((j_ref, NS_CC['defaultLanguage'], Literal(langs[0])))
 
-        for lang in langs:
-            j_graph.add((j_ref, NS_DC['language'], Literal(lang)))
-
     # save the graph
     __save_graph(j_graph, opts.rdf_file)
 
