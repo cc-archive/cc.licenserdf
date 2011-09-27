@@ -113,9 +113,8 @@ def translate_graph(graph):
         # remove any previous instane of this language's
         # translations.
         for s, p, old_obj in graph.triples((subject, predicate, None)):
-            if old_obj.language == 'i18n':
-                pass
-            old_objects[old_obj.language] = old_obj
+            if lang_dirs.count(old_obj.language):
+                old_objects[old_obj.language] = old_obj
 
         for lang in lang_dirs:
             rdf_lang = locale_to_lower_lower(lang)
