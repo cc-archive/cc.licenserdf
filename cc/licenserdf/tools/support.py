@@ -9,6 +9,7 @@ from rdflib.Graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
 from cc.i18n import ccorg_i18n_setup
+from cc.i18n.util import locale_to_lower_lower
 
 from cc.licenserdf import util
 
@@ -112,12 +113,11 @@ def translate_graph(graph):
         # remove any previous instane of this language's
         # translations.
         for s, p, old_obj in graph.triples((subject, predicate, None)):
-            if old_obj.language == 'i18n':
-                pass
-            old_objects[old_obj.language] = old_obj
+            if lang_dirs.count(old_obj.language):
+                old_objects[old_obj.language] = old_obj
 
         for lang in lang_dirs:
-            rdf_lang = util.rdf_style_lang(lang)
+            rdf_lang = locale_to_lower_lower(lang)
 
             if old_objects.has_key(rdf_lang):
                 graph.remove((subject, predicate, old_objects[rdf_lang]))

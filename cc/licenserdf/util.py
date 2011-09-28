@@ -43,11 +43,3 @@ def unicode_cleaner(string):
             return string.decode('latin-1')
         except UnicodeError:
             return string.decode('utf-8', 'ignore')
-
-
-def rdf_style_lang(cc_style_lang):
-    lang_parts = cc_style_lang.lower().split('_', 1)
-    if len(lang_parts) == 2:
-        return '%s-%s' % (lang_parts[0], lang_parts[1])
-    else:
-        return lang_parts[0].lower()
