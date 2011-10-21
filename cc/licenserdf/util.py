@@ -1,4 +1,4 @@
-from zope.i18n import translate
+from cc.i18n.gettext_i18n import ugettext_for_locale
 
 import re
 
@@ -18,15 +18,14 @@ def inverse_translate(string, target_language, domain='cc_org'):
        ...    target_language='en_US')
        >>> translated_string == 'foo Portugal baz GNU General Public License'
     """
+    gettext = ugettext_for_locale(target_language)
     string = unicode_cleaner(string)
     translated_string = u''
     last_pos = 0
     for match in TRANSLATION_BIT_RE.finditer(string):
         translated_string += string[last_pos:match.start()]
         msgid = match.group(1)
-        translation = translate(
-            msgid, domain=domain, target_language=target_language)
-        translated_string += unicode_cleaner(translation)
+        translated_string += gettext(msgid)
         last_pos = match.end()
     translated_string += string[last_pos:]
     return translated_string
