@@ -8,7 +8,7 @@ from babel.messages import pofile
 from rdflib.Graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
-from cc.i18n import mapping
+from cc.i18n import mappers
 from cc.i18n.util import locale_to_lower_lower
 
 from cc.licenserdf import util
@@ -59,7 +59,7 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
         i18n_str = '${Developing Nations} License'
     elif 'sampling' in license_code:
         i18n_str = '${%s} %s' % (
-            mapping.LICENSE_NAME_MAP[license_code],
+            mappers.LICENSE_NAME_MAP[license_code],
             license_version)
     elif license_code in ('MIT', 'BSD'):
         i18n_str = license_code
@@ -76,17 +76,17 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
         # 'standard' license
         if license_jurisdiction:
             i18n_str = '${%s} %s ${%s}' % (
-                mapping.LICENSE_NAME_MAP[license_code],
+                mappers.LICENSE_NAME_MAP[license_code],
                 license_version,
-                mapping.COUNTRY_MAP[license_jurisdiction])
+                mappers.COUNTRY_MAP[license_jurisdiction])
         else:
             if StrictVersion(license_version) >= StrictVersion('3.0'):
                 i18n_str = '${%s} %s ${Unported}' % (
-                    mapping.LICENSE_NAME_MAP[license_code],
+                    mappers.LICENSE_NAME_MAP[license_code],
                     license_version)
             else:
                 i18n_str = '${%s} %s ${Generic}' % (
-                    mapping.LICENSE_NAME_MAP[license_code],
+                    mappers.LICENSE_NAME_MAP[license_code],
                     license_version)
 
     return i18n_str
