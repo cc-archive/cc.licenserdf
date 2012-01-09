@@ -43,10 +43,7 @@ setup(
         'zope.i18n',
         'python-gettext',
         'nose',
-        'zope.component<=3.11',  # Hackily fixing around conflict on
-                                 # debian desktops
         ],
-
 
     entry_points = {
         'console_scripts': [
