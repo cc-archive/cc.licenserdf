@@ -118,7 +118,7 @@ def test_add():
         titles[obj.language] = unicode(obj)
 
     # ensure we have the generated i18n string
-    assert titles['i18n'] == u'${country.it}'
+    assert titles['i18n'] == u'${Italy}'
 
     # ensure that the translations were run
     # (just checking a few should be fine)

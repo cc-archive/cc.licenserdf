@@ -15,6 +15,7 @@ licensed to the public under the GNU GPL version 2.
 import pkg_resources
 import sys
 import os
+from cc.i18n import mappers
 
 from support import *
 
@@ -162,7 +163,8 @@ def add(opts, __save_graph=save_graph):
     # Add the i18n string
     j_graph.add((
             j_ref, NS_DC['title'],
-            Literal(u"${country.%s}" % jurisdiction[:-1], lang="i18n")))
+            Literal(u"${%s}" % mappers.COUNTRY_MAP[jurisdiction[:-1]],
+                    lang="i18n")))
 
     # add the translated names
     translate_graph(j_graph)
