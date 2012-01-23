@@ -8,7 +8,7 @@ from babel.messages import pofile
 from rdflib.Graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
-from cc.i18n import ccorg_i18n_setup
+from cc.i18n import mappers
 from cc.i18n.util import locale_to_lower_lower
 
 from cc.licenserdf import util
@@ -56,30 +56,38 @@ def save_graph(graph, filename):
 
 def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
     if license_code == 'devnations':
-        i18n_str = '${util.Developing_Nations} License'
+        i18n_str = '${Developing Nations} License'
     elif 'sampling' in license_code:
-        i18n_str = '${licenses.pretty_%s} %s' % (license_code, license_version)
+        i18n_str = '${%s} %s' % (
+            mappers.LICENSE_NAME_MAP[license_code],
+            license_version)
     elif license_code in ('MIT', 'BSD'):
         i18n_str = license_code
-    elif 'GPL' in license_code:
-        i18n_str = '${license.%s_name_full}' % license_code
+    elif license_code == 'LGPL':
+        i18n_str = '${GNU Lesser General Public License}'
+    elif license_code == 'GPL':
+        i18n_str = '${GNU General Public License}'
     elif license_code == 'publicdomain':
-        i18n_str = '${licenses.pretty_publicdomain}'
+        i18n_str = '${Public Domain}'
     elif license_code == 'cc0':
-        i18n_str = 'CC0 %s ${util.Universal}' % (
+        i18n_str = 'CC0 %s ${Universal}' % (
             license_version)
     else:
         # 'standard' license
         if license_jurisdiction:
-            i18n_str = '${licenses.pretty_%s} %s ${country.%s}' % (
-                license_code, license_version, license_jurisdiction)
+            i18n_str = '${%s} %s ${%s}' % (
+                mappers.LICENSE_NAME_MAP[license_code],
+                license_version,
+                mappers.COUNTRY_MAP[license_jurisdiction])
         else:
             if StrictVersion(license_version) >= StrictVersion('3.0'):
-                i18n_str = '${licenses.pretty_%s} %s ${util.Unported}' % (
-                    license_code, license_version)
+                i18n_str = '${%s} %s ${Unported}' % (
+                    mappers.LICENSE_NAME_MAP[license_code],
+                    license_version)
             else:
-                i18n_str = '${licenses.pretty_%s} %s ${util.Generic}' % (
-                    license_code, license_version)
+                i18n_str = '${%s} %s ${Generic}' % (
+                    mappers.LICENSE_NAME_MAP[license_code],
+                    license_version)
 
     return i18n_str
 
