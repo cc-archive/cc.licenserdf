@@ -28,7 +28,8 @@ setup(
     include_package_data = True,
 
       dependency_links = [
-        'https://github.com/creativecommons/cc.licenserdf/tarball/master#egg=cc.licenserdf',
+          'https://github.com/creativecommons/cc.i18n/tarball/master#egg=cc.i18n',
+          'https://github.com/creativecommons/cc.licenserdf/tarball/master#egg=cc.licenserdf',
       ],
 
     # scripts and dependencies
