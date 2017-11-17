@@ -9,5 +9,6 @@
 .installed.cfg
 *.pyc
 *.egg-info
+build
 lib/
 include/
