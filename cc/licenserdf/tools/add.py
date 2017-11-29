@@ -1,3 +1,4 @@
+from __future__ import print_function
 import os
 
 from rdflib import URIRef, Namespace, Literal
@@ -41,7 +42,7 @@ for root, dirs, files in os.walk('./license_rdf'):
 
         for license in store.subjects(NS_RDF.type, NS_CC.License):
 
-            print 'processing %s ...' % license
+            print('processing %s ...' % license)
 
             # add short code
             #code = code_from_uri(license)
@@ -65,7 +66,7 @@ for root, dirs, files in os.walk('./license_rdf'):
             # add image uris
             store.remove( (license, NS_FOAF.logo, None) )
             for img in image_uris(license):
-                print img
+                print(img)
                 store.add( (license, NS_FOAF.logo, img) )
 
         file(os.path.join(root, filename), 'w').write(

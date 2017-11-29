@@ -11,13 +11,15 @@ manipulate RDF files.
                Nathan R. Yergler, Christopher Webber
 licensed to the public under the GNU GPL version 2.
 """
+from __future__ import print_function
+from __future__ import absolute_import
 
 import pkg_resources
 import sys
 import os
 from cc.i18n import mappers
 
-from support import *
+from .support import *
 
 import argparse
 
@@ -91,7 +93,7 @@ def _printer(string):
     A simple wrapper for the print statement so we can do testing on
     the info method
     """
-    print string
+    print(string)
 
 
 def info(opts, printer=_printer):

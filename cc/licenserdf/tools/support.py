@@ -127,7 +127,7 @@ def translate_graph(graph):
         for lang in lang_dirs:
             rdf_lang = locale_to_lower_lower(lang)
 
-            if old_objects.has_key(rdf_lang):
+            if rdf_lang in old_objects:
                 graph.remove((subject, predicate, old_objects[rdf_lang]))
 
             translated = util.inverse_translate(str_id, lang)

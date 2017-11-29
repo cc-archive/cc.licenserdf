@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 from rdflib import Namespace, Literal
 from rdflib.Graph import Graph
@@ -18,7 +19,7 @@ output.bind("foaf","http://xmlns.com/foaf/0.1/")
 output.bind("exif","http://www.w3.org/2003/12/exif/ns#")
 
 for img in index.objects(None, NS_FOAF.logo):
-    print img
+    print(img)
     width, height = img[:-len('.png')].split('/')[-1].split('x')
     output.add( (img, NS_EXIF.width, Literal(width)) )
     output.add( (img, NS_EXIF.height, Literal(height)) )

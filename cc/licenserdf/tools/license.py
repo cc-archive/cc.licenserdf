@@ -10,6 +10,8 @@ Original script developed by Will Frank;
 (c) 2005-2009, Creative Commons, Will Frank, Nathan R. Yergler, Chris Webber
 licensed to the public under the GNU GPL version 2.
 """
+from __future__ import print_function
+from __future__ import absolute_import
 
 import pkg_resources
 import sys
@@ -17,7 +19,7 @@ import os
 import urlparse
 from argparse import ArgumentParser
 
-from support import *
+from .support import *
 
 
 RDF_DIR = pkg_resources.resource_filename('cc.licenserdf', 'licenses')
@@ -31,7 +33,7 @@ def _printer(string):
     A simple wrapper for the print statement so we can do testing on
     the info method
     """
-    print string
+    print(string)
 
 def license_rdf_filename(license_uri, rdf_dir=RDF_DIR):
     """Map a license URI to the filesystem filename containing the RDF."""
@@ -263,8 +265,8 @@ def cli_add_action(opts):
         license_codes = opts.codes
 
     if not license_codes:
-        print "Either a list of codes must be provided as arguments,"
-        print "or else the --all flag must be used.  (Did you mean --all?)"
+        print("Either a list of codes must be provided as arguments,")
+        print("or else the --all flag must be used.  (Did you mean --all?)")
         return 1
 
     for license_code in license_codes:
@@ -293,5 +295,5 @@ def cli():
             opts.license_url[0], opts.legalcode_url[0], opts.rdf_dir,
             opts.legalcode_add_lang)
     else:
-        print "This shouldn't happen."
+        print("This shouldn't happen.")
         return 1
