@@ -1,7 +1,9 @@
+from future import standard_library
+standard_library.install_aliases()
 import os
 import optparse
 import pkg_resources
-from StringIO import StringIO
+from io import StringIO
 
 import rdfadict
 from rdfadict.sink.graph import GraphSink

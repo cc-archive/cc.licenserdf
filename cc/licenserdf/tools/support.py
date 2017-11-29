@@ -1,4 +1,5 @@
 """Support functions for license RDF tools."""
+from builtins import str
 
 import os
 import pkg_resources
@@ -111,7 +112,7 @@ def translate_graph(graph):
         if not hasattr(obj, 'language') or obj.language != 'i18n':
             continue
         else:
-            str_id = unicode(obj)
+            str_id = str(obj)
     
         if not str_id:
             return None

@@ -32,7 +32,7 @@ def inverse_translate(string, target_language, domain='cc_org'):
 
 
 def unicode_cleaner(string):
-    if isinstance(string, unicode):
+    if isinstance(string, str):
         return string
 
     try:
