@@ -66,7 +66,7 @@ Jurisdictions are specified by their short letter codes (ie, us).
     add_subparser.add_argument(
         '-i', '--i18n-dir', dest='i18n_dir', action='store',
         help=('Location containing .po files; defaults to '
-              'cc.i18n/cc/i18n/i18n/'))
+              'cc.i18n/cc/i18n/po/'))
     add_subparser.add_argument(
         '--lang', dest='langs',
         help=("Comma delimited list of languages for the "
@@ -81,11 +81,11 @@ Jurisdictions are specified by their short letter codes (ie, us).
     add_subparser.set_defaults(
         juris_uri=None,
         i18n_dir=pkg_resources.resource_filename(
-            'cc.i18n', 'i18n/'))
+            'cc.i18n', 'po/'))
 
     return parser
 
-# * 
+# *
 # *******************************************************************
 
 def _printer(string):
@@ -155,9 +155,9 @@ def add(opts, __save_graph=save_graph):
     j_graph.add((j_ref, NS_RDF.type, NS_CC.Jurisdiction))
 
     # set the default launched status
-    j_graph.add((j_ref, NS_CC.launched, 
+    j_graph.add((j_ref, NS_CC.launched,
                  Literal("false", datatype=NS_XSD.boolean)))
-    
+
     # set the default jurisdictionSite
     if opts.juris_uri is not None:
         j_graph.add((j_ref, NS_CC.jurisdictionSite, URIRef(opts.juris_uri)))
@@ -166,7 +166,7 @@ def add(opts, __save_graph=save_graph):
     j_graph.add((
             j_ref, NS_DC['title'],
             Literal(u"${%s}" % mappers.COUNTRY_MAP[jurisdiction[:-1]],
-                    lang="i18n")))
+                    lang="x-i18n")))
 
     # add the translated names
     translate_graph(j_graph)

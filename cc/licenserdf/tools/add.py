@@ -2,7 +2,7 @@ from __future__ import print_function
 import os
 
 from rdflib import URIRef, Namespace, Literal
-from rdflib.Graph import Graph
+from rdflib.graph import Graph
 
 
 NS_DC = Namespace("http://purl.org/dc/elements/1.1/")

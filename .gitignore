@@ -10,5 +10,8 @@
 *.pyc
 *.egg-info
 build
-lib/
 include/
+lib/
+local
+man/
+share/

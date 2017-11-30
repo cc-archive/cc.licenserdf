@@ -77,7 +77,7 @@
     <dc:title xml:lang="af">Erkenning-InsgelyksDeel 3.0 Unported</dc:title>
     <dc:title xml:lang="sl">Priznanje avtorstva-Deljenje pod enakimi pogoji 3.0 Nedoločena</dc:title>
     <dc:title xml:lang="es-ar">Atribución-CompartirDerivadasIgual 3.0 Unported</dc:title>
-    <dc:title xml:lang="i18n">${licenses.pretty_by-sa} 3.0 ${util.Unported}</dc:title>
+    <dc:title xml:lang="x-i18n">${licenses.pretty_by-sa} 3.0 ${util.Unported}</dc:title>
     <dc:title xml:lang="sv">Erkännande-DelaLika 3.0 Unported</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-PerkongsianSerupa 3.0 Unported</dc:title>
     <dc:title xml:lang="es-pr">Reconocimiento-CompartirIgual 3.0 Unported</dc:title>

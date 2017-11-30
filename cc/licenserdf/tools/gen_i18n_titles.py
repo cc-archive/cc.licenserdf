@@ -22,7 +22,7 @@ def setup_i18n_title(license_graph, filename):
     i18n_triples = [
         (s, p, l) for (s, p, l)
         in license_graph.triples((license_subj, support.NS_DC['title'], None))
-        if l.language == u'i18n']
+        if l.language == u'x-i18n']
     if i18n_triples:
         for i18n_triple in i18n_triples:
             license_graph.remove(i18n_triple)
@@ -61,7 +61,7 @@ def setup_i18n_title(license_graph, filename):
         license_code, license_version, license_jurisdiction)
 
     i18n_literal = rdflib.Literal(i18n_str)
-    i18n_literal.language = 'i18n'
+    i18n_literal.language = 'x-i18n'
 
     license_graph.add(
         (license_subj, support.NS_DC['title'], i18n_literal))

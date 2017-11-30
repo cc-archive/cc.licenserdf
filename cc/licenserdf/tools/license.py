@@ -158,6 +158,7 @@ def legalcode_list(license_url, rdf_dir, _printer=_printer):
     List all legalcodes for license_url
     """
     license_filename = license_rdf_filename(license_url, rdf_dir)
+    print(license_filename)
     graph = load_graph(license_filename)
     for row in graph.query((
             'SELECT ?title where '

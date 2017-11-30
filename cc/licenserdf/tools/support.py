@@ -6,7 +6,7 @@ import pkg_resources
 from distutils.version import StrictVersion
 
 from babel.messages import pofile
-from rdflib.Graph import Graph
+from rdflib.graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
 from cc.i18n import mappers
@@ -105,11 +105,11 @@ def translate_graph(graph):
     """
     lang_dirs = os.listdir(
         os.path.abspath(
-            pkg_resources.resource_filename('cc.i18n', 'i18n')))
+            pkg_resources.resource_filename('cc.i18n', 'po')))
 
     for subject, predicate, obj in graph.triples((
             None, None, None)):
-        if not hasattr(obj, 'language') or obj.language != 'i18n':
+        if not hasattr(obj, 'language') or obj.language != 'x-i18n':
             continue
         else:
             str_id = str(obj)

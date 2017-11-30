@@ -120,7 +120,7 @@ def test_add():
         titles[obj.language] = str(obj)
 
     # ensure we have the generated i18n string
-    assert titles['i18n'] == u'${Italy}'
+    assert titles['x-i18n'] == u'${Italy}'
 
     # ensure that the translations were run
     # (just checking a few should be fine)

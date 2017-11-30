@@ -1,4 +1,5 @@
 ## Copyright (c) 2007 Nathan R. Yergler, Creative Commons
+## Copyright (c) 2017 Creative Commons Corporation
 
 ## Permission is hereby granted, free of charge, to any person obtaining
 ## a copy of this software and associated documentation files (the "Software"),
@@ -22,27 +23,34 @@ from setuptools import setup, find_packages
 
 setup(
     name = "cc.licenserdf",
-    version = "0.2.44",
+    version = "0.3.0",
     packages = find_packages('.'),
     namespace_packages = ['cc',],
     include_package_data = True,
 
       dependency_links = [
-          'https://github.com/creativecommons/cc.i18n/tarball/master#egg=cc.i18n',
-          'https://github.com/creativecommons/cc.licenserdf/tarball/master#egg=cc.licenserdf',
+          'https://github.com/creativecommons/cc.i18n/tarball/python3#egg=cc.i18n',
+          'https://github.com/creativecommons/rdfadict/tarball/python3#egg=rdfadict',
+          # We don't use pyRdfa but our dependencies do, so we need this here
+          'https://github.com/RDFLib/pyrdfa3/tarball/master#egg=pyRdfa',
       ],
 
     # scripts and dependencies
     install_requires = [
         'setuptools',
         'cc.i18n',
-        'rdflib<3.0',
+        'rdflib',
         'rdfadict',
         'Babel>0.99',
         'argparse',
         'zope.i18n',
-        'python-gettext<2.0',
         'nose',
+        # Dependencies of dependencies
+        'isodate',
+        'pytz',
+        # Moving from Python 2 to Python 3
+        'future',
+        'six'
         ],
 
     entry_points = {

@@ -5,7 +5,7 @@ import sys
 import os
 import optparse
 
-from rdflib.Graph import Graph
+from rdflib.graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
 
 from . import support
@@ -17,7 +17,7 @@ def create_option_parser():
 
     # output options
     parser.add_option(
-        '-o', '--output-file', dest='output_file', 
+        '-o', '--output-file', dest='output_file',
         default=pkg_resources.resource_filename(
             'cc.licenserdf', 'rdf/index.rdf'),
         help='Output file for merged RDF.')

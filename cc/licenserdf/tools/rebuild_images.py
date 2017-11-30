@@ -1,7 +1,7 @@
 from __future__ import print_function
 
 from rdflib import Namespace, Literal
-from rdflib.Graph import Graph
+from rdflib.graph import Graph
 
 NS_FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 NS_EXIF = Namespace("http://www.w3.org/2003/12/exif/ns#")

@@ -46,4 +46,3 @@ def test_legalcode_list():
     unordered_ensure_printer_printed(
         printer,
         [u"http://creativecommons.org/licenses/by-sa/3.0/legalcode"])
-    
