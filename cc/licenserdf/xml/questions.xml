@@ -116,7 +116,7 @@
   
     <label xml:lang="ast_ES">Creative Commons</label>
   
-    <label xml:lang="fr_LU">Creative Commons</label>
+    <label xml:lang="fr-LU">Creative Commons</label>
   
     <label xml:lang="sr">Creative Commons</label>
   
@@ -257,7 +257,7 @@
    
     <label xml:lang="ast_ES">Allow commercial uses of your work?</label>
    
-    <label xml:lang="fr_LU">Autorisez-vous les utilisations commerciales de votre création ?</label>
+    <label xml:lang="fr-LU">Autorisez-vous les utilisations commerciales de votre création ?</label>
    
     <label xml:lang="sr">Да ли дозвољавате комерцијалну употребу дела?</label>
    
@@ -397,7 +397,7 @@
    
     <description xml:lang="ast_ES">The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.</description>
    
-    <description xml:lang="fr_LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer cette création au public. En échange, les personnes qui acceptent ce contrat n'ont pas le droit d'utiliser cette création à des fins commerciales - à moins qu'ils n'obtiennent l'autorisation de l'offrant.</description>
+    <description xml:lang="fr-LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer cette création au public. En échange, les personnes qui acceptent ce contrat n'ont pas le droit d'utiliser cette création à des fins commerciales - à moins qu'ils n'obtiennent l'autorisation de l'offrant.</description>
    
     <description xml:lang="sr">Давалац лиценце дозвољава умножавање, дистрибуирање и јавно саопштавање дела. Стицалац лиценце не може да користи дело у комерцијалне сврхе, осим ако добије дозволу Даваоца лиценце.</description>
    
@@ -539,7 +539,7 @@
      
      <label xml:lang="ast_ES">Yes</label>
      
-     <label xml:lang="fr_LU">Oui</label>
+     <label xml:lang="fr-LU">Oui</label>
      
      <label xml:lang="sr">Да</label>
      
@@ -679,7 +679,7 @@
      
      <description xml:lang="ast_ES">The licensor permits others to copy, distribute, display, and perform the work, including for commercial purposes.</description>
      
-     <description xml:lang="fr_LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l’œuvre, ainsi que toute utilisation commerciale de l’œuvre.</description>
+     <description xml:lang="fr-LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l’œuvre, ainsi que toute utilisation commerciale de l’œuvre.</description>
      
      <description xml:lang="sr">Давалац лиценце дозвољава умножавање, дистрибуцију и јавно саопштавање дела и у комерцијалне сврхе.</description>
      
@@ -821,7 +821,7 @@
      
      <label xml:lang="ast_ES">No</label>
      
-     <label xml:lang="fr_LU">Non</label>
+     <label xml:lang="fr-LU">Non</label>
      
      <label xml:lang="sr">Не</label>
      
@@ -961,7 +961,7 @@
      
      <description xml:lang="ast_ES">The licensor permits others to copy, distribute, display, and perform the work for non-commercial purposes only.</description>
      
-     <description xml:lang="fr_LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l’œuvre, à condition que les utilisations soient non-commerciales.</description>
+     <description xml:lang="fr-LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l’œuvre, à condition que les utilisations soient non-commerciales.</description>
      
      <description xml:lang="sr">Давалац лиценце дозвољава умножавање, дистрибуцију и јавно саопштавање дела само у некомерцијалне сврхе.</description>
      
@@ -1104,7 +1104,7 @@
    
    <label xml:lang="ast_ES">Allow modifications of your work?</label>
    
-   <label xml:lang="fr_LU">Autorisez-vous les modifications de votre création ?</label>
+   <label xml:lang="fr-LU">Autorisez-vous les modifications de votre création ?</label>
    
    <label xml:lang="sr">Да ли дозвољавате прераде свог дела?</label>
    
@@ -1245,7 +1245,7 @@
    
    <description xml:lang="ast_ES">The licensor permits others to copy, distribute and transmit only unaltered copies of the work — not derivative works based on it.</description>
    
-   <description xml:lang="fr_LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l'œuvre, à condition qu'elle ne soit pas modifiée.</description>
+   <description xml:lang="fr-LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l'œuvre, à condition qu'elle ne soit pas modifiée.</description>
    
    <description xml:lang="sr">Давалац лиценце дозвољава умножавање, дистрибуцију и јавно саопштавање примерака дела у непромењеном облику — прераде нису дозвољене.</description>
    
@@ -1386,7 +1386,7 @@
      
      <label xml:lang="ast_ES">Yes</label>
      
-     <label xml:lang="fr_LU">Oui</label>
+     <label xml:lang="fr-LU">Oui</label>
      
      <label xml:lang="sr">Да</label>
      
@@ -1526,7 +1526,7 @@
      
      <description xml:lang="ast_ES">The licensor permits others to copy, distribute, display and perform the work, as well as make derivative works based on it.</description>
      
-     <description xml:lang="fr_LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l'œuvre, ainsi que de la modifier et créer des œuvres dérivées.</description>
+     <description xml:lang="fr-LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l'œuvre, ainsi que de la modifier et créer des œuvres dérivées.</description>
      
      <description xml:lang="sr">Дозвољавате умножавање, дистрибуцију и јавно саопштавање дела, као и прераде.</description>
      
@@ -1667,7 +1667,7 @@
      
      <label xml:lang="ast_ES">ShareAlike</label>
      
-     <label xml:lang="fr_LU">Partage des conditions initiales à l'identique</label>
+     <label xml:lang="fr-LU">Partage des conditions initiales à l'identique</label>
      
      <label xml:lang="sr">Делити под истим условима</label>
      
@@ -1807,7 +1807,7 @@
      
      <description xml:lang="ast_ES">The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.</description>
      
-     <description xml:lang="fr_LU">Le donneur de licence autorise les autres à distribuer des œuvres dérivées uniquement sous une licence identique à celle qui gouverne l’œuvre initialement.</description>
+     <description xml:lang="fr-LU">Le donneur de licence autorise les autres à distribuer des œuvres dérivées uniquement sous une licence identique à celle qui gouverne l’œuvre initialement.</description>
      
      <description xml:lang="sr">Дозвољена је дистрибуција прераде, само ако је прерада лиценцирана истом или сличном (компатибилном) лиценцом којом је лиценцирано дело.</description>
      
@@ -1948,7 +1948,7 @@
      
      <label xml:lang="ast_ES">No</label>
      
-     <label xml:lang="fr_LU">Non</label>
+     <label xml:lang="fr-LU">Non</label>
      
      <label xml:lang="sr">Не</label>
      
@@ -2090,7 +2090,7 @@
      
      <description xml:lang="ast_ES">The licensor permits others to copy, distribute and transmit only unaltered copies of the work — not derivative works based on it.</description>
      
-     <description xml:lang="fr_LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l'œuvre, à condition qu'elle ne soit pas modifiée.</description>
+     <description xml:lang="fr-LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l'œuvre, à condition qu'elle ne soit pas modifiée.</description>
      
      <description xml:lang="sr">Давалац лиценце дозвољава умножавање, дистрибуцију и јавно саопштавање примерака дела у непромењеном облику — прераде нису дозвољене.</description>
      
@@ -2235,7 +2235,7 @@
   
    <label xml:lang="ast_ES">Public Domain</label>
   
-   <label xml:lang="fr_LU">Public Domain</label>
+   <label xml:lang="fr-LU">Public Domain</label>
   
    <label xml:lang="sr">Јавни домен</label>
   
@@ -2381,7 +2381,7 @@
   
    <label xml:lang="ast_ES">Sampling</label>
   
-   <label xml:lang="fr_LU">Sampling/Echantillonage</label>
+   <label xml:lang="fr-LU">Sampling/Echantillonage</label>
   
    <label xml:lang="sr">Стварање дела на основу узорка (sampling)</label>
   
@@ -2521,7 +2521,7 @@
     
       <label xml:lang="ast_ES">What flavor of Sampling license?</label>
     
-      <label xml:lang="fr_LU">Quelle option d'autorisation de sampling ?</label>
+      <label xml:lang="fr-LU">Quelle option d'autorisation de sampling ?</label>
     
       <label xml:lang="sr">Која врста Sampling лиценце?</label>
     
@@ -2669,7 +2669,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
     
       <description xml:lang="ast_ES">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     
-      <description xml:lang="fr_LU">Les options des contrats Sampling déterminent le degré de liberté offerts aux utilisateurs qui acceptent le contrat.
+      <description xml:lang="fr-LU">Les options des contrats Sampling déterminent le degré de liberté offerts aux utilisateurs qui acceptent le contrat.
 Le contrat "Sampling" simple autorise l'utilisation d'extraits mais interdit le partage de la création originale dans son intégralité.
 Le contrat "Sampling Plus" autorise les utilisateurs qui acceptent le contrat à transformer des extraits de la création originale, et à la partager dans son intégralité à titre non commercial.
 Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que "Sampling Plus" et n'autorise que la création d'oeuvres dérivées non commerciales à partir des extraits de votre création</description>
@@ -2814,7 +2814,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="ast_ES">Sampling</label>
      
-       <label xml:lang="fr_LU">Sampling/Echantillonage</label>
+       <label xml:lang="fr-LU">Sampling/Echantillonage</label>
      
        <label xml:lang="sr">Стварање дела на основу узорка (sampling)</label>
      
@@ -2955,7 +2955,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="ast_ES">Sampling Plus</label>
      
-       <label xml:lang="fr_LU">Sampling Plus</label>
+       <label xml:lang="fr-LU">Sampling Plus</label>
      
        <label xml:lang="sr">лиценца Sampling Plus</label>
      
@@ -3096,7 +3096,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="ast_ES">NonCommercial Sampling Plus</label>
      
-       <label xml:lang="fr_LU">NonCommercial Sampling Plus</label>
+       <label xml:lang="fr-LU">NonCommercial Sampling Plus</label>
      
        <label xml:lang="sr">Некомерцијална Sampling Plus</label>
      
