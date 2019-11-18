@@ -39,15 +39,15 @@ setup(
 
     # scripts and dependencies
     install_requires=[
-        'setuptools',
-        'cc.i18n',
-        'rdflib<3.0',
-        'rdfadict',
         'Babel>0.99',
         'argparse',
-        'zope.i18n',
-        'python-gettext<2.0',
+        'cc.i18n',
         'nose',
+        'python-gettext<2.0',
+        'rdfadict',
+        'rdflib<3.0',
+        'setuptools',
+        'zope.i18n',
         ],
 
     entry_points={
