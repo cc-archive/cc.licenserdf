@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+#babel = ">0.99"
+"cc.i18n" = {editable = true,git = "https://github.com/creativecommons/cc.i18n"}
+"cc.licenserdf" = {editable = true,path = "."}
+#nose = "*"
+pyRdfa = {editable = true,git = "https://github.com/RDFLib/PyRDFa"}
+python-gettext = "<2.0"
+rdfadict = {editable = true,git = "https://github.com/creativecommons/rdfadict"}
+#setuptools = "*"
+#"zc.buildout" = "*"
+
+[requires]
+python_version = "2.7"
