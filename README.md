@@ -1,6 +1,7 @@
 # cc.licenserdf
 
-RDF describing Creative Commons licenses
+RDF describing Creative Commons licenses ([Describing Copyright in RDF -
+Creative Commons Rights Expression Language](https://creativecommons.org/ns))
 
 
 ## Code of Conduct
@@ -23,7 +24,12 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Related
 
+- CC REL
+  - [CC REL - Creative Commons](https://wiki.creativecommons.org/wiki/CC_REL)
+  - [CC REL by Example](https://labs.creativecommons.org/2011/ccrel-guide/)
 - RDF (Resource Description Framework)
+  - [License RDF - Creative
+    Commons](https://wiki.creativecommons.org/wiki/License_RDF)
   - [RDF - Semantic Web Standards](https://www.w3.org/RDF/)
 
 
