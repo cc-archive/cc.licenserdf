@@ -45,7 +45,7 @@ setup(
         'nose',
         'python-gettext<2.0',
         'rdfadict',
-        'rdflib',
+        'rdflib<3.0',
         'setuptools',
         'zope.i18n',
         ],
