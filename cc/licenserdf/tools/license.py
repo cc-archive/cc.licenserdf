@@ -11,20 +11,25 @@ Original script developed by Will Frank;
 licensed to the public under the GNU GPL version 2.
 """
 
-import pkg_resources
-import sys
-import os
-import urlparse
+# Standard library
 from argparse import ArgumentParser
+import os
+import sys
+import urlparse
 
+# Third-party
+import pkg_resources
+
+# Local/library specific
 from support import *
 
 
 RDF_DIR = pkg_resources.resource_filename('cc.licenserdf', 'licenses')
 
 
-# * 
+# *
 # *******************************************************************
+
 
 def _printer(string):
     """

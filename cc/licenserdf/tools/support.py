@@ -1,16 +1,18 @@
 """Support functions for license RDF tools."""
 
-import os
-import pkg_resources
+
+# Standard library
 from distutils.version import StrictVersion
+import os
 
+# Third-party
 from babel.messages import pofile
-from rdflib.Graph import Graph
-from rdflib import Namespace, RDF, URIRef, Literal
+from rdflib import Graph, Literal, Namespace, RDF, URIRef
+import pkg_resources
 
+# Local/library specific
 from cc.i18n import mappers
 from cc.i18n.util import locale_to_lower_lower
-
 from cc.licenserdf import util
 
 

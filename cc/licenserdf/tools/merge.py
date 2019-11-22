@@ -1,12 +1,15 @@
-import pkg_resources
-import sys
-import os
+# Standard library
 import optparse
+import os
+import sys
 
-from rdflib.Graph import Graph
-from rdflib import Namespace, RDF, URIRef, Literal
+# Third-party
+from rdflib import Graph, Literal, Namespace, RDF, URIRef
+import pkg_resources
 
+# Local/library specific
 import support
+
 
 def create_option_parser():
     """Return an optparse.OptionParser configured for the merge script."""
