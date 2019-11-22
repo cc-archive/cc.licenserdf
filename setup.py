@@ -19,13 +19,6 @@
 # DEALINGS IN THE SOFTWARE.
 
 from setuptools import setup, find_packages
-import urlparse
-
-
-CCGH = 'https://github.com/creativecommons'
-DEPENDENCY_LINKS = [
-    urlparse.urljoin(CCGH, 'cc.i18n/tarball/master#egg=cc.i18n'),
-    urlparse.urljoin(CCGH, 'cc.licenserdf/tarball/master#egg=cc.licenserdf')]
 
 
 setup(
@@ -35,7 +28,12 @@ setup(
     namespace_packages=['cc', ],
     include_package_data=True,
 
-    dependency_links=DEPENDENCY_LINKS,
+    dependency_links=[
+        'https://github.com/creativecommons/cc.i18n/tarball/'
+        'master#egg=cc.i18n',
+        'https://github.com/creativecommons/cc.licenserdf/tarball/'
+        'master#egg=cc.licenserdf',
+        ],
 
     # scripts and dependencies
     install_requires=[
