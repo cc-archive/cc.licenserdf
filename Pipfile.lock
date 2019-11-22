@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "83c5a670139aff9324f54f46ae78d1881cc2fc7f0e7dfecfe5a6b2412771e727"
+            "sha256": "ffe81cfaeda527e3ad117003c00df9fd7390811ffd87842a568ed6a5a37ce3f9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -33,11 +33,12 @@
         "cc-i18n": {
             "editable": true,
             "git": "https://github.com/creativecommons/cc.i18n",
-            "ref": "191d120015812192e453945e199c9456c23f2cca"
+            "ref": "e3535639b77b3ae683b555db4bbab54648a88562"
         },
         "cc.i18n": {
             "editable": true,
-            "git": "https://github.com/creativecommons/cc.i18n"
+            "git": "https://github.com/creativecommons/cc.i18n",
+            "ref": "dev2019"
         },
         "cc.licenserdf": {
             "editable": true,
@@ -135,7 +136,6 @@
             "hashes": [
                 "sha256:e11bfa5d464964058a1df0b468208beb1e3207008da8305b7c0cc1f861ef7e44"
             ],
-            "index": "pypi",
             "version": "==1.2"
         },
         "pytz": {
@@ -148,7 +148,7 @@
         "rdfadict": {
             "editable": true,
             "git": "https://github.com/creativecommons/rdfadict",
-            "ref": "9a04213901380141184801ee0fc8fe304f419ea6"
+            "ref": "704af89cb97cd39439602de004f76144262ae0f9"
         },
         "rdflib": {
             "hashes": [
