@@ -22,6 +22,12 @@ Creative Commons Rights Expression Language](https://creativecommons.org/ns))
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 
+## Creative Commons Dependencies
+
+- [creativecommons/cc.i18n](https://github.com/creativecommons/cc.i18n)
+- [creativecommons/rdfadict](https://github.com/creativecommons/rdfadict)
+
+
 ## Related
 
 - CC REL
