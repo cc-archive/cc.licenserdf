@@ -1,10 +1,14 @@
-import pkg_resources
+# Standard library
 import os
 import urlparse
 
+# Third-party
+import pkg_resources
 import rdflib
 
+# Local/library specific
 from cc.licenserdf.tools import support
+
 
 I18N_DIR = pkg_resources.resource_filename('cc.i18n', 'i18n/')
 LICENSES_DIR = pkg_resources.resource_filename('cc.licenserdf', 'licenses/')

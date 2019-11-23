@@ -12,14 +12,18 @@ manipulate RDF files.
 licensed to the public under the GNU GPL version 2.
 """
 
-import pkg_resources
-import sys
+# Standard library
+import argparse
 import os
-from cc.i18n import mappers
+import sys
 
+# Third-party
+import pkg_resources
+
+# Local/library specific
+from cc.i18n import mappers
 from support import *
 
-import argparse
 
 # *******************************************************************
 # * command line option support

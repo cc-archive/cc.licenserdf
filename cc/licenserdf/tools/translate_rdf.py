@@ -1,15 +1,16 @@
-
 """
 Take an rdf file and update any translations that might be available
 for translating.
 """
 
+# Standard library
 import os
 import glob
-
 from argparse import ArgumentParser
 
+# Local/library specific
 from support import *
+
 
 def get_args():
     """Get all args taken by this app"""

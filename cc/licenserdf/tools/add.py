@@ -1,7 +1,8 @@
+# Standard library
 import os
 
-from rdflib import URIRef, Namespace, Literal
-from rdflib.Graph import Graph
+# Third-party
+from rdflib import Graph, Literal, Namespace, RDF, URIRef
 
 
 NS_DC = Namespace("http://purl.org/dc/elements/1.1/")
