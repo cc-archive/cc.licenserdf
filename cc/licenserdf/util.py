@@ -1,7 +1,7 @@
 from cc.i18n.gettext_i18n import ugettext_for_locale
 
 import re
-
+import six
 
 TRANSLATION_BIT_RE = re.compile('\$\{([^\}]+)\}')
 
@@ -18,6 +18,7 @@ def inverse_translate(string, target_language, domain='cc_org'):
        ...    target_language='en_US')
        >>> translated_string == 'foo Portugal baz GNU General Public License'
     """
+
     gettext = ugettext_for_locale(target_language)
     string = unicode_cleaner(string)
     translated_string = u''
@@ -32,7 +33,8 @@ def inverse_translate(string, target_language, domain='cc_org'):
 
 
 def unicode_cleaner(string):
-    if isinstance(string, unicode):
+    if isinstance(string, six.string_types) \
+       or isinstance(string, six.text_type):
         return string
 
     try:

@@ -1,3 +1,5 @@
+from builtins import str
+from builtins import object
 import pkg_resources
 
 import rdflib
@@ -115,10 +117,10 @@ def test_add():
 
     titles = {}
     for subj, pred, obj in result:
-        titles[obj.language] = unicode(obj)
+        titles[obj.language] = str(obj)
 
     # ensure we have the generated i18n string
-    assert titles['i18n'] == u'${Italy}'
+    assert titles['x-i18n'] == u'${Italy}'
 
     # ensure that the translations were run
     # (just checking a few should be fine)

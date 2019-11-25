@@ -1,13 +1,17 @@
 """Support functions for license RDF tools."""
-
+# Python2/3 Compatibility
+from future import standard_library
+standard_library.install_aliases()
 
 # Standard library
+from builtins import str
 from distutils.version import StrictVersion
 import os
 
 # Third-party
 from babel.messages import pofile
-from rdflib import Graph, Literal, Namespace, RDF, URIRef
+from rdflib.graph import Graph
+from rdflib import Namespace, RDF, URIRef, Literal
 import pkg_resources
 
 # Local/library specific
@@ -106,14 +110,14 @@ def translate_graph(graph):
     """
     lang_dirs = os.listdir(
         os.path.abspath(
-            pkg_resources.resource_filename('cc.i18n', 'i18n')))
+            pkg_resources.resource_filename('cc.i18n', 'po')))
 
     for subject, predicate, obj in graph.triples((
             None, None, None)):
-        if not hasattr(obj, 'language') or obj.language != 'i18n':
+        if not hasattr(obj, 'language') or obj.language != 'x-i18n':
             continue
         else:
-            str_id = unicode(obj)
+            str_id = str(obj)
     
         if not str_id:
             return None
@@ -129,7 +133,7 @@ def translate_graph(graph):
         for lang in lang_dirs:
             rdf_lang = locale_to_lower_lower(lang)
 
-            if old_objects.has_key(rdf_lang):
+            if rdf_lang in old_objects:
                 graph.remove((subject, predicate, old_objects[rdf_lang]))
 
             translated = util.inverse_translate(str_id, lang)

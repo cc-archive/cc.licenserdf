@@ -17,6 +17,8 @@ Simply run this script in a directory containing a buildout.cfg.
 The script accepts buildout command-line options, so you can
 use the -c option to specify an alternate configuration file.
 """
+from future import standard_library
+standard_library.install_aliases()
 
 import os
 import shutil
@@ -73,7 +75,7 @@ except ImportError:
     try:
         from urllib.request import urlopen
     except ImportError:
-        from urllib2 import urlopen
+        from urllib.request import urlopen
 
     # XXX use a more permanent ez_setup.py URL when available.
     exec(urlopen('https://bitbucket.org/pypa/setuptools/raw/0.7.2/ez_setup.py'

@@ -13,9 +13,7 @@ verify_ssl = true
     [packages."cc.licenserdf"]
         editable = true
         path = "."
-    [packages.pyRdfa]
-        editable = true
-        git = "https://github.com/RDFLib/PyRDFa"
+    [packages.future]
     [packages.rdfadict]
         editable = true
         git = "https://github.com/creativecommons/rdfadict"

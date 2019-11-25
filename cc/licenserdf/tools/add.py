@@ -1,8 +1,10 @@
 # Standard library
+from __future__ import print_function
 import os
 
 # Third-party
-from rdflib import Graph, Literal, Namespace, RDF, URIRef
+from rdflib import URIRef, Namespace, Literal
+from rdflib.graph import Graph
 
 
 NS_DC = Namespace("http://purl.org/dc/elements/1.1/")
@@ -42,7 +44,7 @@ for root, dirs, files in os.walk('./license_rdf'):
 
         for license in store.subjects(NS_RDF.type, NS_CC.License):
 
-            print 'processing %s ...' % license
+            print('processing %s ...' % license)
 
             # add short code
             #code = code_from_uri(license)
@@ -66,7 +68,7 @@ for root, dirs, files in os.walk('./license_rdf'):
             # add image uris
             store.remove( (license, NS_FOAF.logo, None) )
             for img in image_uris(license):
-                print img
+                print(img)
                 store.add( (license, NS_FOAF.logo, img) )
 
         file(os.path.join(root, filename), 'w').write(

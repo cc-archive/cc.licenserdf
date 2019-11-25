@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ffe81cfaeda527e3ad117003c00df9fd7390811ffd87842a568ed6a5a37ce3f9"
+            "sha256": "094db70ca4be8b8900b07d346c49a69ededa05e01feeca260c83acd12ba47313"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -43,6 +43,13 @@
         "cc.licenserdf": {
             "editable": true,
             "path": "."
+        },
+        "future": {
+            "hashes": [
+                "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"
+            ],
+            "index": "pypi",
+            "version": "==0.18.2"
         },
         "html5lib": {
             "hashes": [
@@ -127,10 +134,12 @@
             ],
             "version": "==2.4.5"
         },
-        "pyrdfa": {
-            "editable": true,
-            "git": "https://github.com/RDFLib/PyRDFa",
-            "ref": "fd5c8826fb9e5f6f5a578564b1149fdae6c40aad"
+        "pyrdfa3": {
+            "hashes": [
+                "sha256:157663a92b87df345b6f69bde235dff5f797891608e12fe1e4fa8dad687131ae",
+                "sha256:4da7ed49e8f524b573ed67e4f7bc7f403bff3be00546d7438fe263c924a91ccf"
+            ],
+            "version": "==3.5.3"
         },
         "python-gettext": {
             "hashes": [
@@ -148,7 +157,7 @@
         "rdfadict": {
             "editable": true,
             "git": "https://github.com/creativecommons/rdfadict",
-            "ref": "704af89cb97cd39439602de004f76144262ae0f9"
+            "ref": "dcdb69128911006aac07bcb0c6d39f3c8c1e8e70"
         },
         "rdflib": {
             "hashes": [

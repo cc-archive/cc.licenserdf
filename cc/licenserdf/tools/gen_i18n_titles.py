@@ -1,6 +1,11 @@
+# Python2/3 Compatibility
+from future import standard_library
+standard_library.install_aliases()
+
 # Standard library
+from builtins import str
 import os
-import urlparse
+import urllib.parse
 
 # Third-party
 import pkg_resources
@@ -23,7 +28,7 @@ def setup_i18n_title(license_graph, filename):
     i18n_triples = [
         (s, p, l) for (s, p, l)
         in license_graph.triples((license_subj, support.NS_DC['title'], None))
-        if l.language == u'i18n']
+        if l.language == u'x-i18n']
     if i18n_triples:
         for i18n_triple in i18n_triples:
             license_graph.remove(i18n_triple)
@@ -34,26 +39,26 @@ def setup_i18n_title(license_graph, filename):
         s, p, identifier_literal = list(
             license_graph.triples(
                 (license_subj, support.NS_DC['identifier'], None)))[0]
-        license_code = unicode(identifier_literal)
+        license_code = str(identifier_literal)
 
     try:
-        license_version = unicode(
+        license_version = str(
             list(license_graph.triples(
                     (None, support.NS_DCQ['hasVersion'], None)))[0][2])
     except IndexError:
         try:
-            license_version = unicode(
+            license_version = str(
             list(license_graph.triples(
                     (None, support.NS_DC['hasVersion'], None)))[0][2])
         except IndexError:
             license_version = None
 
     try:
-        license_jurisdiction_url = unicode(
+        license_jurisdiction_url = str(
             list(
                 license_graph.triples(
                     (license_subj, support.NS_CC['jurisdiction'], None)))[0][2])
-        license_jurisdiction = urlparse.urlsplit(
+        license_jurisdiction = urllib.parse.urlsplit(
             license_jurisdiction_url).path.strip('/').split('/')[1]
     except IndexError:
         license_jurisdiction = None
@@ -62,7 +67,7 @@ def setup_i18n_title(license_graph, filename):
         license_code, license_version, license_jurisdiction)
 
     i18n_literal = rdflib.Literal(i18n_str)
-    i18n_literal.language = 'i18n'
+    i18n_literal.language = 'x-i18n'
 
     license_graph.add(
         (license_subj, support.NS_DC['title'], i18n_literal))

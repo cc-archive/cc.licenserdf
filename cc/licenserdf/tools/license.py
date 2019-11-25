@@ -10,18 +10,23 @@ Original script developed by Will Frank;
 (c) 2005-2009, Creative Commons, Will Frank, Nathan R. Yergler, Chris Webber
 licensed to the public under the GNU GPL version 2.
 """
+# Python2/3 Compatibility
+from __future__ import absolute_import
+from __future__ import print_function
+from future import standard_library
+standard_library.install_aliases()
 
 # Standard library
 from argparse import ArgumentParser
+from builtins import str
 import os
-import sys
-import urlparse
+import urllib.parse
 
 # Third-party
 import pkg_resources
 
 # Local/library specific
-from support import *
+from .support import *
 
 
 RDF_DIR = pkg_resources.resource_filename('cc.licenserdf', 'licenses')
@@ -36,12 +41,12 @@ def _printer(string):
     A simple wrapper for the print statement so we can do testing on
     the info method
     """
-    print string
+    print(string)
 
 def license_rdf_filename(license_uri, rdf_dir=RDF_DIR):
     """Map a license URI to the filesystem filename containing the RDF."""
 
-    url_pieces = urlparse.urlparse(license_uri)
+    url_pieces = urllib.parse.urlparse(license_uri)
     filename = os.path.join(
         rdf_dir, 
         "_".join([url_pieces[1]] +
@@ -98,7 +103,7 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
 
         # Images get put into /l/ or /p/ depending on whether they are
         # /licenses/ or /publicdomain/ respectively...
-        group_letter = urlparse.urlparse(license_uri)[2].lstrip('/')[0]
+        group_letter = urllib.parse.urlparse(license_uri)[2].lstrip('/')[0]
 
         for old_logo in old_logos:
             # http://i.creativecommons.org/l/by/3.0/88x31.png
@@ -158,11 +163,12 @@ def legalcode_list(license_url, rdf_dir, _printer=_printer):
     List all legalcodes for license_url
     """
     license_filename = license_rdf_filename(license_url, rdf_dir)
+    print(license_filename)
     graph = load_graph(license_filename)
     for row in graph.query((
             'SELECT ?title where '
             '{ ?x <http://creativecommons.org/ns#legalcode> ?title . }')):
-        _printer(unicode(row[0]))
+        _printer(str(row[0]))
 
 
 def legalcode_add(license_url, legalcode_url, rdf_dir, legalcode_lang=None):
@@ -268,8 +274,8 @@ def cli_add_action(opts):
         license_codes = opts.codes
 
     if not license_codes:
-        print "Either a list of codes must be provided as arguments,"
-        print "or else the --all flag must be used.  (Did you mean --all?)"
+        print("Either a list of codes must be provided as arguments,")
+        print("or else the --all flag must be used.  (Did you mean --all?)")
         return 1
 
     for license_code in license_codes:
@@ -298,5 +304,5 @@ def cli():
             opts.license_url[0], opts.legalcode_url[0], opts.rdf_dir,
             opts.legalcode_add_lang)
     else:
-        print "This shouldn't happen."
+        print("This shouldn't happen.")
         return 1

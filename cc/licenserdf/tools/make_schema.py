@@ -1,7 +1,12 @@
+# Python2/3 Compatibility
+from future import standard_library
+standard_library.install_aliases()
+
 # Standard library
-import os
+from io import StringIO
 import optparse
-from StringIO import StringIO
+import os
+import pkg_resources
 
 # Third-party
 from rdflib import ConjunctiveGraph, URIRef

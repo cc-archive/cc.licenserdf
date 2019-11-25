@@ -4,12 +4,14 @@ for translating.
 """
 
 # Standard library
-import os
-import glob
+from __future__ import absolute_import
+from __future__ import print_function
 from argparse import ArgumentParser
+import glob
+import os
 
 # Local/library specific
-from support import *
+from .support import *
 
 
 def get_args():
@@ -40,13 +42,13 @@ def cli():
         count = 0
         for path in opts.rdf_file:
             if not os.path.exists(path):
-                print "That filename does not exist."
+                print("That filename does not exist.")
                 return 1
             else:
                 graph = load_graph(path)
                 translate_graph(graph)
                 save_graph(graph, path)
                 count += 1
-        print "Translated", count, "file(s)."
+        print("Translated", count, "file(s).")
     else:
-        print "You need to pass at least one argument."
+        print("You need to pass at least one argument.")
