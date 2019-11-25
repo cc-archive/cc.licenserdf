@@ -118,7 +118,7 @@ def translate_graph(graph):
             continue
         else:
             str_id = str(obj)
-    
+
         if not str_id:
             return None
 
