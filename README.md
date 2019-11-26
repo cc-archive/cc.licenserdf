@@ -37,7 +37,7 @@ The private use subtag `x-i18n` is used by this project to store translation
 templates.
 
 [rfc5646]: https://tools.ietf.org/html/rfc5646.html
-[rdfterms]: https://rdflib.readthedocs.io/en/stable/rdf_terms.html)
+[rdfterms]: https://rdflib.readthedocs.io/en/stable/rdf_terms.html
 
 
 ## Related
