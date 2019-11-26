@@ -16,13 +16,6 @@
         ]
     },
     "default": {
-        "argparse": {
-            "hashes": [
-                "sha256:62b089a55be1d8949cd2bc7e0df0bddb9e028faefc8c32038cc84862aefdd6e4",
-                "sha256:c31647edb69fd3d465a847ea3157d37bed1f95f19760b11a47aa91c04b666314"
-            ],
-            "version": "==1.4.0"
-        },
         "babel": {
             "hashes": [
                 "sha256:af92e6106cb7c55286b25b38ad7695f8b4efb36a90ba483d7f7a6628c46158ab",
@@ -33,7 +26,7 @@
         "cc-i18n": {
             "editable": true,
             "git": "https://github.com/creativecommons/cc.i18n",
-            "ref": "e3535639b77b3ae683b555db4bbab54648a88562"
+            "ref": "5fec9f8516e422086c8c76b42c60203bdb368949"
         },
         "cc.i18n": {
             "editable": true,
@@ -71,13 +64,6 @@
                 "sha256:9fe95f19286cfefaa917656583d020be14e7859c6b0252588391e47db34527de"
             ],
             "version": "==2.10.3"
-        },
-        "linecache2": {
-            "hashes": [
-                "sha256:4b26ff4e7110db76eeb6f5a7b64a82623839d595c2038eeda662f2a2db78e97c",
-                "sha256:e78be9c0a0dfcbac712fe04fbf92b96cddae80b1b842f24248214c8496f006ef"
-            ],
-            "version": "==1.0.0"
         },
         "markupsafe": {
             "hashes": [
@@ -143,9 +129,9 @@
         },
         "python-gettext": {
             "hashes": [
-                "sha256:e11bfa5d464964058a1df0b468208beb1e3207008da8305b7c0cc1f861ef7e44"
+                "sha256:626b501a51ac892fc3460cf550e60dca121f544eaa46eb69c90ce4682fc7ec02"
             ],
-            "version": "==1.2"
+            "version": "==4.0"
         },
         "pytz": {
             "hashes": [
@@ -172,20 +158,6 @@
                 "sha256:30f610279e8b2578cab6db20741130331735c781b56053c59c4076da27f06b66"
             ],
             "version": "==1.13.0"
-        },
-        "traceback2": {
-            "hashes": [
-                "sha256:05acc67a09980c2ecfedd3423f7ae0104839eccb55fc645773e1caa0951c3030",
-                "sha256:8253cebec4b19094d67cc5ed5af99bf1dba1285292226e98a31929f87a5d6b23"
-            ],
-            "version": "==1.4.0"
-        },
-        "unittest2": {
-            "hashes": [
-                "sha256:13f77d0875db6d9b435e1d4f41e74ad4cc2eb6e1d5c824996092b3430f088bb8",
-                "sha256:22882a0e418c284e1f718a822b3b022944d53d2d908e1690b319a9d3eb2c0579"
-            ],
-            "version": "==1.1.0"
         },
         "webencodings": {
             "hashes": [
