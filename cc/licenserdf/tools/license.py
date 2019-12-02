@@ -192,6 +192,14 @@ def legalcode_add(license_url, legalcode_url, rdf_dir, legalcode_lang=None):
 
 def get_args():
     """Get all args taken by this app"""
+
+    def add_common_args(subparser):
+        # source options
+        subparser.add_argument(
+            '--rdf_dir', dest='rdf_dir', action='store', default=RDF_DIR,
+            help='Directory containing the license RDF files; '
+            'defaults to ./cc/licenserdf/licenses/')
+
     parser = ArgumentParser()
     subparsers = parser.add_subparsers(dest="action")
 
@@ -200,20 +208,11 @@ def get_args():
     legalcode_subparser = subparsers.add_parser(
         'legalcode', help="List or operate on the legalcode of a license")
 
-    def add_common_args(subparser):
-        # source options
-        subparser.add_argument(
-            '--rdf_dir', dest='rdf_dir', action='store',
-            help='Directory containing the license RDF files; '
-            'defaults to ./cc/licenserdf/licenses/')
-
-    ## Add subparser options
+    ## Add subparser properties
     add_common_args(add_subparser)
     add_subparser.add_argument(
         '--all', action="store_true",
         help="Run add for the core six licenses")
-
-    # license properties
     add_subparser.add_argument(
         '-b', '--based-on', dest='based_on',
         help='URI of the license the new one is based on.')
@@ -225,19 +224,18 @@ def get_args():
         '-j', '--jurisdiction-code', dest='jurisdiction_code', required=True,
         help='Short code of the jurisdiction to add.')
     add_subparser.add_argument(
-        '-v', '--version', dest='version',
-        help='Version number to add; defaults to 3.0.')
+        '-v', '--version', dest='version', default='4.0',
+        help='Version number to add; defaults to 4.0.')
     add_subparser.add_argument(
         '-c', '--codes', dest='codes',
         help=('License codes to add, comma delimited '
               '(defaults to primary six)'))
-
     add_subparser.add_argument(
         'codes', nargs='*',
         help=('list of license codes to add '
               '(if --all is not specified)'))
 
-    ## Legalcode subparser options
+    # Legalcode subparser properties
     lc_subparsers = legalcode_subparser.add_subparsers(dest="legalcode_action")
     lc_list_subparser = lc_subparsers.add_parser("list")
     add_common_args(lc_list_subparser)
@@ -253,12 +251,6 @@ def get_args():
         'license_url', nargs=1)
     lc_add_subparser.add_argument(
         'legalcode_url', nargs=1)
-
-    parser.set_defaults(
-        rdf_dir=RDF_DIR,
-        version='3.0',
-        legalcode=None,
-        jurisdiction=None)
 
     return parser.parse_args()
 
