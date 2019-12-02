@@ -75,6 +75,8 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
         i18n_str = '${GNU General Public License}'
     elif license_code == 'publicdomain':
         i18n_str = '${Public Domain}'
+    elif license_code == 'mark':
+        i18n_str = '${Public Domain Mark} %s' % (license_version)
     elif license_code == 'cc0':
         i18n_str = 'CC0 %s ${Universal}' % (
             license_version)
@@ -86,7 +88,11 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
                 license_version,
                 mappers.COUNTRY_MAP[license_jurisdiction])
         else:
-            if StrictVersion(license_version) >= StrictVersion('3.0'):
+            if StrictVersion(license_version) >= StrictVersion('4.0'):
+                i18n_str = '${%s} %s ${International}' % (
+                    mappers.LICENSE_NAME_MAP[license_code],
+                    license_version)
+            elif StrictVersion(license_version) >= StrictVersion('3.0'):
                 i18n_str = '${%s} %s ${Unported}' % (
                     mappers.LICENSE_NAME_MAP[license_code],
                     license_version)
