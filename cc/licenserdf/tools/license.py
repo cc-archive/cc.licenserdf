@@ -48,7 +48,7 @@ def license_rdf_filename(license_uri, rdf_dir=RDF_DIR):
 
     url_pieces = urllib.parse.urlparse(license_uri)
     filename = os.path.join(
-        rdf_dir, 
+        rdf_dir,
         "_".join([url_pieces[1]] +
                  url_pieces[2].split('/')[1:]) + '.rdf')
 
@@ -56,7 +56,7 @@ def license_rdf_filename(license_uri, rdf_dir=RDF_DIR):
 
 
 def replace_predicate(graph, s, p, new_value):
-    """If (s, p, *) exists in graph, remove it; add (s, p, new_value) 
+    """If (s, p, *) exists in graph, remove it; add (s, p, new_value)
     to the graph."""
 
     if (p in graph.predicates(s)):
@@ -65,7 +65,7 @@ def replace_predicate(graph, s, p, new_value):
     graph.add((s, p, new_value))
 
 
-def add_license(license_uri, based_on_uri, version, jurisdiction, 
+def add_license(license_uri, based_on_uri, version, jurisdiction,
                 legalcode_uri, rdf_dir, license_code):
     """Create a new license based on an existing one.  Write the resulting
     graph to the rdf_dir."""
@@ -135,7 +135,7 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
         license.remove((URIRef(license_uri), NS_CC.jurisdiction, None))
 
     # set/replace the version
-    replace_predicate(license, URIRef(license_uri), NS_DCQ.hasVersion, 
+    replace_predicate(license, URIRef(license_uri), NS_DCQ.hasVersion,
                       Literal(version))
 
     # determine the legalcode URI
@@ -212,7 +212,7 @@ def get_args():
     add_subparser.add_argument(
         '--all', action="store_true",
         help="Run add for the core six licenses")
-        
+
     # license properties
     add_subparser.add_argument(
         '-b', '--based-on', dest='based_on',
@@ -256,7 +256,7 @@ def get_args():
 
     parser.set_defaults(
         rdf_dir=RDF_DIR,
-        version='3.0', 
+        version='3.0',
         legalcode=None,
         jurisdiction=None)
 
