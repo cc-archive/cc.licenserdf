@@ -66,8 +66,7 @@ def setup_i18n_title(license_graph, filename):
     i18n_str = support.gen_license_i18n_title(
         license_code, license_version, license_jurisdiction)
 
-    i18n_literal = rdflib.Literal(i18n_str)
-    i18n_literal.language = 'x-i18n'
+    i18n_literal = rdflib.Literal(i18n_str, lang='x-i18n')
 
     license_graph.add(
         (license_subj, support.NS_DC['title'], i18n_literal))
