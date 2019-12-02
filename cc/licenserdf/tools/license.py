@@ -146,7 +146,7 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     replace_predicate(license, URIRef(license_uri), NS_CC.legalcode,
                       URIRef(legalcode_uri))
 
-    # Add the i18n string
+    # Add the x-i18n private use subtag (RFC 5646 Language Tag)
     replace_predicate(
         license, URIRef(license_uri), NS_DC['title'],
         Literal(gen_license_i18n_title(license_code, version, jurisdiction),
