@@ -150,7 +150,7 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     replace_predicate(
         license, URIRef(license_uri), NS_DC['title'],
         Literal(gen_license_i18n_title(license_code, version, jurisdiction),
-                lang="i18n"))
+                lang="x-i18n"))
 
     translate_graph(license)
 
@@ -217,11 +217,11 @@ def get_args():
         '-b', '--based-on', dest='based_on',
         help='URI of the license the new one is based on.')
     add_subparser.add_argument(
-        '-l', '--legalcode', dest='legalcode',
+        '-l', '--legalcode', dest='legalcode', default=None,
         help='URI of the legalcode; defaults to the license '
         'URI + "/legalcode".')
     add_subparser.add_argument(
-        '-j', '--jurisdiction-code', dest='jurisdiction_code', required=True,
+        '-j', '--jurisdiction-code', dest='jurisdiction_code', default=None,
         help='Short code of the jurisdiction to add.')
     add_subparser.add_argument(
         '-v', '--version', dest='version', default='4.0',
