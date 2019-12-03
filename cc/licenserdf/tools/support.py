@@ -106,7 +106,7 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
 
 def translate_graph(graph):
     """
-    Look for title assertions with i18n as the lang, use their object
+    Look for title assertions with x-i18n as the lang, use their object
     as the msgid to find additionaly title translations
 
     Args:
@@ -136,7 +136,7 @@ def translate_graph(graph):
             if lang_dirs.count(old_obj.language):
                 old_objects[old_obj.language] = old_obj
 
-        for lang in lang_dirs:
+        for lang in sorted(lang_dirs):
             rdf_lang = locale_to_lower_lower(lang)
 
             if rdf_lang in old_objects:
