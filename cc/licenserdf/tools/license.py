@@ -274,7 +274,10 @@ def cli_add_action(opts):
         base_url = "http://creativecommons.org/licenses/%s/%s/" % (
             license_code, opts.version)
 
-        license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
+        if opts.jurisdiction_code is None:
+            license_url = "%s" % (base_url)
+        else:
+            license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
 
         add_license(
             license_url, base_url, opts.version, opts.jurisdiction_code,
