@@ -10,8 +10,8 @@ import os
 
 # Third-party
 from babel.messages import pofile
-from rdflib.graph import Graph
 from rdflib import Namespace, RDF, URIRef, Literal
+from rdflib.graph import Graph
 import pkg_resources
 
 # Local/library specific
