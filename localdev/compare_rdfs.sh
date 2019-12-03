@@ -33,15 +33,18 @@ else
 fi
 for _rdf in ${RDFS}
 do
-    printf "\e[1m\e[7m${_rdf}\e[0m\n"
     label_old="$(printf '%-7s:%s' "${OBJECT}" "${_rdf}")"
     label_new="$(printf '%-7s:%s' 'CURRENT' "${_rdf}")"
-    git show master:${_rdf} | sort -o temp_compare_rdfs_old
+    git show ${OBJECT}:${_rdf} | sort -o temp_compare_rdfs_old
     sort ${_rdf} -o temp_compare_rdfs_new
-    diff --unified --minimal --label "${label_old}" --label "${label_new}" \
+    diff=$(diff --unified --minimal --label "${label_old}" \
+        --label "${label_new}" \
         temp_compare_rdfs_old temp_compare_rdfs_new \
-        | colordiff
+        || true)
     rm -f temp_compare_rdfs_old temp_compare_rdfs_new
+    [[ -n "${diff}" ]] || continue
+    printf "\e[1m\e[7m${_rdf}\e[0m\n"
+    echo "${diff}" | colordiff
     echo
     echo
 done
