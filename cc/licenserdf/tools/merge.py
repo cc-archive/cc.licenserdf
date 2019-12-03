@@ -6,8 +6,8 @@ import os
 import sys
 
 # Third-party
+from rdflib import Literal, Namespace, RDF, URIRef
 from rdflib.graph import Graph
-from rdflib import Namespace, RDF, URIRef, Literal
 import pkg_resources
 
 # Local/library specific

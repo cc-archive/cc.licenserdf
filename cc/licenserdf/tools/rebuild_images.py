@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 # Third-party
-from rdflib import Namespace, Literal
+from rdflib import Literal, Namespace
 from rdflib.graph import Graph
 
 
