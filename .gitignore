@@ -1,7 +1,6 @@
 *.egg-info
 *.pyc
 .installed.cfg
-.installed.cfg
 bin/
 bootstrap.py
 build/
@@ -11,4 +10,7 @@ dist/
 eggs/
 include/
 lib/
+local/
+man/
 parts/
+share/

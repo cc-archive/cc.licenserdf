@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+    [packages."cc.i18n"]
+        editable = true
+        git = "https://github.com/creativecommons/cc.i18n"
+        ref = "dev2019"
+    [packages."cc.licenserdf"]
+        editable = true
+        path = "."
+    [packages.future]
+    [packages.rdfadict]
+        editable = true
+        git = "https://github.com/creativecommons/rdfadict"
+        ref = "dev2019"
+
+[requires]
+python_version = "2.7"

@@ -1,16 +1,22 @@
 """Support functions for license RDF tools."""
+# Python2/3 Compatibility
+from future import standard_library
+standard_library.install_aliases()
 
-import os
-import pkg_resources
+# Standard library
+from builtins import str
 from distutils.version import StrictVersion
+import os
 
+# Third-party
 from babel.messages import pofile
-from rdflib.Graph import Graph
-from rdflib import Namespace, RDF, URIRef, Literal
+from rdflib import Literal, Namespace, RDF, URIRef
+from rdflib.graph import Graph
+import pkg_resources
 
+# Local/library specific
 from cc.i18n import mappers
 from cc.i18n.util import locale_to_lower_lower
-
 from cc.licenserdf import util
 
 
@@ -69,6 +75,8 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
         i18n_str = '${GNU General Public License}'
     elif license_code == 'publicdomain':
         i18n_str = '${Public Domain}'
+    elif license_code == 'mark':
+        i18n_str = '${Public Domain Mark} %s' % (license_version)
     elif license_code == 'cc0':
         i18n_str = 'CC0 %s ${Universal}' % (
             license_version)
@@ -80,7 +88,11 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
                 license_version,
                 mappers.COUNTRY_MAP[license_jurisdiction])
         else:
-            if StrictVersion(license_version) >= StrictVersion('3.0'):
+            if StrictVersion(license_version) >= StrictVersion('4.0'):
+                i18n_str = '${%s} %s ${International}' % (
+                    mappers.LICENSE_NAME_MAP[license_code],
+                    license_version)
+            elif StrictVersion(license_version) >= StrictVersion('3.0'):
                 i18n_str = '${%s} %s ${Unported}' % (
                     mappers.LICENSE_NAME_MAP[license_code],
                     license_version)
@@ -94,7 +106,7 @@ def gen_license_i18n_title(license_code, license_version, license_jurisdiction):
 
 def translate_graph(graph):
     """
-    Look for title assertions with i18n as the lang, use their object
+    Look for title assertions with x-i18n as the lang, use their object
     as the msgid to find additionaly title translations
 
     Args:
@@ -104,15 +116,15 @@ def translate_graph(graph):
     """
     lang_dirs = os.listdir(
         os.path.abspath(
-            pkg_resources.resource_filename('cc.i18n', 'i18n')))
+            pkg_resources.resource_filename('cc.i18n', 'po')))
 
     for subject, predicate, obj in graph.triples((
             None, None, None)):
-        if not hasattr(obj, 'language') or obj.language != 'i18n':
+        if not hasattr(obj, 'language') or obj.language != 'x-i18n':
             continue
         else:
-            str_id = unicode(obj)
-    
+            str_id = str(obj)
+
         if not str_id:
             return None
 
@@ -124,10 +136,10 @@ def translate_graph(graph):
             if lang_dirs.count(old_obj.language):
                 old_objects[old_obj.language] = old_obj
 
-        for lang in lang_dirs:
+        for lang in sorted(lang_dirs):
             rdf_lang = locale_to_lower_lower(lang)
 
-            if old_objects.has_key(rdf_lang):
+            if rdf_lang in old_objects:
                 graph.remove((subject, predicate, old_objects[rdf_lang]))
 
             translated = util.inverse_translate(str_id, lang)

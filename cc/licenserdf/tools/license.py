@@ -10,35 +10,45 @@ Original script developed by Will Frank;
 (c) 2005-2009, Creative Commons, Will Frank, Nathan R. Yergler, Chris Webber
 licensed to the public under the GNU GPL version 2.
 """
+# Python2/3 Compatibility
+from __future__ import absolute_import
+from __future__ import print_function
+from future import standard_library
+standard_library.install_aliases()
 
-import pkg_resources
-import sys
-import os
-import urlparse
+# Standard library
 from argparse import ArgumentParser
+from builtins import str
+import os
+import urllib.parse
 
-from support import *
+# Third-party
+import pkg_resources
+
+# Local/library specific
+from .support import *
 
 
 RDF_DIR = pkg_resources.resource_filename('cc.licenserdf', 'licenses')
 
 
-# * 
+# *
 # *******************************************************************
+
 
 def _printer(string):
     """
     A simple wrapper for the print statement so we can do testing on
     the info method
     """
-    print string
+    print(string)
 
 def license_rdf_filename(license_uri, rdf_dir=RDF_DIR):
     """Map a license URI to the filesystem filename containing the RDF."""
 
-    url_pieces = urlparse.urlparse(license_uri)
+    url_pieces = urllib.parse.urlparse(license_uri)
     filename = os.path.join(
-        rdf_dir, 
+        rdf_dir,
         "_".join([url_pieces[1]] +
                  url_pieces[2].split('/')[1:]) + '.rdf')
 
@@ -46,7 +56,7 @@ def license_rdf_filename(license_uri, rdf_dir=RDF_DIR):
 
 
 def replace_predicate(graph, s, p, new_value):
-    """If (s, p, *) exists in graph, remove it; add (s, p, new_value) 
+    """If (s, p, *) exists in graph, remove it; add (s, p, new_value)
     to the graph."""
 
     if (p in graph.predicates(s)):
@@ -55,7 +65,7 @@ def replace_predicate(graph, s, p, new_value):
     graph.add((s, p, new_value))
 
 
-def add_license(license_uri, based_on_uri, version, jurisdiction, 
+def add_license(license_uri, based_on_uri, version, jurisdiction,
                 legalcode_uri, rdf_dir, license_code):
     """Create a new license based on an existing one.  Write the resulting
     graph to the rdf_dir."""
@@ -93,7 +103,7 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
 
         # Images get put into /l/ or /p/ depending on whether they are
         # /licenses/ or /publicdomain/ respectively...
-        group_letter = urlparse.urlparse(license_uri)[2].lstrip('/')[0]
+        group_letter = urllib.parse.urlparse(license_uri)[2].lstrip('/')[0]
 
         for old_logo in old_logos:
             # http://i.creativecommons.org/l/by/3.0/88x31.png
@@ -125,7 +135,7 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
         license.remove((URIRef(license_uri), NS_CC.jurisdiction, None))
 
     # set/replace the version
-    replace_predicate(license, URIRef(license_uri), NS_DCQ.hasVersion, 
+    replace_predicate(license, URIRef(license_uri), NS_DCQ.hasVersion,
                       Literal(version))
 
     # determine the legalcode URI
@@ -136,11 +146,11 @@ def add_license(license_uri, based_on_uri, version, jurisdiction,
     replace_predicate(license, URIRef(license_uri), NS_CC.legalcode,
                       URIRef(legalcode_uri))
 
-    # Add the i18n string
+    # Add the x-i18n private use subtag (RFC 5646 Language Tag)
     replace_predicate(
         license, URIRef(license_uri), NS_DC['title'],
         Literal(gen_license_i18n_title(license_code, version, jurisdiction),
-                lang="i18n"))
+                lang="x-i18n"))
 
     translate_graph(license)
 
@@ -153,11 +163,12 @@ def legalcode_list(license_url, rdf_dir, _printer=_printer):
     List all legalcodes for license_url
     """
     license_filename = license_rdf_filename(license_url, rdf_dir)
+    print(license_filename)
     graph = load_graph(license_filename)
     for row in graph.query((
             'SELECT ?title where '
             '{ ?x <http://creativecommons.org/ns#legalcode> ?title . }')):
-        _printer(unicode(row[0]))
+        _printer(str(row[0]))
 
 
 def legalcode_add(license_url, legalcode_url, rdf_dir, legalcode_lang=None):
@@ -181,6 +192,14 @@ def legalcode_add(license_url, legalcode_url, rdf_dir, legalcode_lang=None):
 
 def get_args():
     """Get all args taken by this app"""
+
+    def add_common_args(subparser):
+        # source options
+        subparser.add_argument(
+            '--rdf_dir', dest='rdf_dir', action='store', default=RDF_DIR,
+            help='Directory containing the license RDF files; '
+            'defaults to ./cc/licenserdf/licenses/')
+
     parser = ArgumentParser()
     subparsers = parser.add_subparsers(dest="action")
 
@@ -189,44 +208,34 @@ def get_args():
     legalcode_subparser = subparsers.add_parser(
         'legalcode', help="List or operate on the legalcode of a license")
 
-    def add_common_args(subparser):
-        # source options
-        subparser.add_argument(
-            '--rdf_dir', dest='rdf_dir', action='store',
-            help='Directory containing the license RDF files; '
-            'defaults to ./cc/licenserdf/licenses/')
-
-    ## Add subparser options
+    ## Add subparser properties
     add_common_args(add_subparser)
     add_subparser.add_argument(
         '--all', action="store_true",
         help="Run add for the core six licenses")
-        
-    # license properties
     add_subparser.add_argument(
         '-b', '--based-on', dest='based_on',
         help='URI of the license the new one is based on.')
     add_subparser.add_argument(
-        '-l', '--legalcode', dest='legalcode',
+        '-l', '--legalcode', dest='legalcode', default=None,
         help='URI of the legalcode; defaults to the license '
         'URI + "/legalcode".')
     add_subparser.add_argument(
-        '-j', '--jurisdiction-code', dest='jurisdiction_code', required=True,
+        '-j', '--jurisdiction-code', dest='jurisdiction_code', default=None,
         help='Short code of the jurisdiction to add.')
     add_subparser.add_argument(
-        '-v', '--version', dest='version',
-        help='Version number to add; defaults to 3.0.')
+        '-v', '--version', dest='version', default='4.0',
+        help='Version number to add; defaults to 4.0.')
     add_subparser.add_argument(
         '-c', '--codes', dest='codes',
         help=('License codes to add, comma delimited '
               '(defaults to primary six)'))
-
     add_subparser.add_argument(
         'codes', nargs='*',
         help=('list of license codes to add '
               '(if --all is not specified)'))
 
-    ## Legalcode subparser options
+    # Legalcode subparser properties
     lc_subparsers = legalcode_subparser.add_subparsers(dest="legalcode_action")
     lc_list_subparser = lc_subparsers.add_parser("list")
     add_common_args(lc_list_subparser)
@@ -243,12 +252,6 @@ def get_args():
     lc_add_subparser.add_argument(
         'legalcode_url', nargs=1)
 
-    parser.set_defaults(
-        rdf_dir=RDF_DIR,
-        version='3.0', 
-        legalcode=None,
-        jurisdiction=None)
-
     return parser.parse_args()
 
 
@@ -263,15 +266,18 @@ def cli_add_action(opts):
         license_codes = opts.codes
 
     if not license_codes:
-        print "Either a list of codes must be provided as arguments,"
-        print "or else the --all flag must be used.  (Did you mean --all?)"
+        print("Either a list of codes must be provided as arguments,")
+        print("or else the --all flag must be used.  (Did you mean --all?)")
         return 1
 
     for license_code in license_codes:
         base_url = "http://creativecommons.org/licenses/%s/%s/" % (
             license_code, opts.version)
 
-        license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
+        if opts.jurisdiction_code is None:
+            license_url = "%s" % (base_url)
+        else:
+            license_url = "%s%s/" % (base_url, opts.jurisdiction_code)
 
         add_license(
             license_url, base_url, opts.version, opts.jurisdiction_code,
@@ -293,5 +299,5 @@ def cli():
             opts.license_url[0], opts.legalcode_url[0], opts.rdf_dir,
             opts.legalcode_add_lang)
     else:
-        print "This shouldn't happen."
+        print("This shouldn't happen.")
         return 1

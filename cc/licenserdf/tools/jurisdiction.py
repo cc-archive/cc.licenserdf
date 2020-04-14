@@ -12,14 +12,20 @@ manipulate RDF files.
 licensed to the public under the GNU GPL version 2.
 """
 
-import pkg_resources
-import sys
-import os
-from cc.i18n import mappers
-
-from support import *
-
+# Standard library
+from __future__ import absolute_import
+from __future__ import print_function
 import argparse
+import os
+import sys
+
+# Third-Party
+import pkg_resources
+
+# Local/library specific
+from cc.i18n import mappers
+from .support import *
+
 
 # *******************************************************************
 # * command line option support
@@ -64,7 +70,7 @@ Jurisdictions are specified by their short letter codes (ie, us).
     add_subparser.add_argument(
         '-i', '--i18n-dir', dest='i18n_dir', action='store',
         help=('Location containing .po files; defaults to '
-              'cc.i18n/cc/i18n/i18n/'))
+              'cc.i18n/cc/i18n/po/'))
     add_subparser.add_argument(
         '--lang', dest='langs',
         help=("Comma delimited list of languages for the "
@@ -79,11 +85,11 @@ Jurisdictions are specified by their short letter codes (ie, us).
     add_subparser.set_defaults(
         juris_uri=None,
         i18n_dir=pkg_resources.resource_filename(
-            'cc.i18n', 'i18n/'))
+            'cc.i18n', 'po/'))
 
     return parser
 
-# * 
+# *
 # *******************************************************************
 
 def _printer(string):
@@ -91,7 +97,7 @@ def _printer(string):
     A simple wrapper for the print statement so we can do testing on
     the info method
     """
-    print string
+    print(string)
 
 
 def info(opts, printer=_printer):
@@ -153,9 +159,9 @@ def add(opts, __save_graph=save_graph):
     j_graph.add((j_ref, NS_RDF.type, NS_CC.Jurisdiction))
 
     # set the default launched status
-    j_graph.add((j_ref, NS_CC.launched, 
+    j_graph.add((j_ref, NS_CC.launched,
                  Literal("false", datatype=NS_XSD.boolean)))
-    
+
     # set the default jurisdictionSite
     if opts.juris_uri is not None:
         j_graph.add((j_ref, NS_CC.jurisdictionSite, URIRef(opts.juris_uri)))
@@ -164,7 +170,7 @@ def add(opts, __save_graph=save_graph):
     j_graph.add((
             j_ref, NS_DC['title'],
             Literal(u"${%s}" % mappers.COUNTRY_MAP[jurisdiction[:-1]],
-                    lang="i18n")))
+                    lang="x-i18n")))
 
     # add the translated names
     translate_graph(j_graph)

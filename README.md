@@ -27,6 +27,18 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - [creativecommons/cc.i18n](https://github.com/creativecommons/cc.i18n)
 - [creativecommons/rdfadict](https://github.com/creativecommons/rdfadict)
 
+## Language Tags
+
+> Language tags must be valid according to [RFC 5646][rfc5646]
+
+([RDF terms in rdflib — rdflib 4.2.2 documentation][rdfterms])
+
+The private use subtag `x-i18n` is used by this project to store translation
+templates.
+
+[rfc5646]: https://tools.ietf.org/html/rfc5646.html
+[rdfterms]: https://rdflib.readthedocs.io/en/stable/rdf_terms.html
+
 
 ## Related
 

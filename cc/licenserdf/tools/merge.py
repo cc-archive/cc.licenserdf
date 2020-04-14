@@ -1,12 +1,18 @@
-import pkg_resources
-import sys
-import os
+# Standard library
+from __future__ import absolute_import
+from __future__ import print_function
 import optparse
+import os
+import sys
 
-from rdflib.Graph import Graph
-from rdflib import Namespace, RDF, URIRef, Literal
+# Third-party
+from rdflib import Literal, Namespace, RDF, URIRef
+from rdflib.graph import Graph
+import pkg_resources
 
-import support
+# Local/library specific
+from . import support
+
 
 def create_option_parser():
     """Return an optparse.OptionParser configured for the merge script."""
@@ -15,7 +21,7 @@ def create_option_parser():
 
     # output options
     parser.add_option(
-        '-o', '--output-file', dest='output_file', 
+        '-o', '--output-file', dest='output_file',
         default=pkg_resources.resource_filename(
             'cc.licenserdf', 'rdf/index.rdf'),
         help='Output file for merged RDF.')
@@ -30,7 +36,7 @@ def merge(input_files):
     store = support.graph()
 
     for filename in input_files:
-        print 'reading %s...' % filename
+        print('reading %s...' % filename)
         store.load(filename)
 
     return store
@@ -44,7 +50,7 @@ def cli():
 
     # make sure at least two input files were specified
     if len(input_files) < 2:
-        print "You must specify at least two files to merge."
+        print("You must specify at least two files to merge.")
         sys.exit(1)
 
     # determine the absolute output dir
@@ -55,7 +61,7 @@ def cli():
     support.save_graph(merge(input_files),
                        output_fn)
 
-    print 'wrote %s' % output_fn
+    print('wrote %s' % output_fn)
 
 if __name__ == '__main__':
     cli()

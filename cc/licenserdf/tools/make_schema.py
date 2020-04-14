@@ -1,14 +1,22 @@
-import os
+# Python2/3 Compatibility
+from future import standard_library
+standard_library.install_aliases()
+
+# Standard library
+from io import StringIO
 import optparse
+import os
 import pkg_resources
-from StringIO import StringIO
 
-import rdfadict
+# Third-party
+from rdflib import ConjunctiveGraph, URIRef
+from rdflib.plugins.serializers.rdfxml import PrettyXMLSerializer
+import pkg_resources
+
+# Local/library specific
 from rdfadict.sink.graph import GraphSink
+import rdfadict
 
-from rdflib import URIRef
-from rdflib.Graph import ConjunctiveGraph as Graph
-from rdflib.syntax.serializers.PrettyXMLSerializer import PrettyXMLSerializer
 
 def create_option_parser():
     """Return an optparse.OptionParser configured for the merge script."""
@@ -39,7 +47,7 @@ def schemafy(html_file):
     containing the RDF."""
 
     # create an empty graph and bind some namespaces
-    store = Graph()
+    store = ConjunctiveGraph()
     store.bind("cc", "http://creativecommons.org/ns#")
     store.bind("dc", "http://purl.org/dc/elements/1.1/")
     store.bind("dcq","http://purl.org/dc/terms/")

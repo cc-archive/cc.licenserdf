@@ -1,4 +1,5 @@
 # Copyright (c) 2007 Nathan R. Yergler, Creative Commons
+# Copyright (c) 2017 Creative Commons Corporation
 #
 # Permission is hereby granted, free of charge, to any person obtaining
 # a copy of this software and associated documentation files (the "Software"),
@@ -23,7 +24,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cc.licenserdf",
-    version="0.2.44",
+    version="0.3.0",
     packages=find_packages('.'),
     namespace_packages=['cc', ],
     include_package_data=True,
@@ -32,30 +33,27 @@ setup(
         'https://github.com/creativecommons/cc.i18n/tarball/'
         'master#egg=cc.i18n',
         'https://github.com/creativecommons/cc.licenserdf/tarball/'
-        'master#egg=cc.licenserdf',
-        ],
+        'master#egg=cc.licenserdf'],
 
     # scripts and dependencies
     install_requires=[
         'Babel>0.99',
-        'argparse',
         'cc.i18n',
+        'future',
         'nose',
-        'python-gettext<2.0',
         'rdfadict',
-        'rdflib<3.0',
+        'rdflib',
         'setuptools',
-        'zope.i18n',
-        ],
+        'zope.i18n'],
 
     entry_points={
         'console_scripts': [
-            'merge = cc.licenserdf.tools.merge:cli',
-            'make_schema = cc.licenserdf.tools.make_schema:cli',
+            'gen_i18n_titles = cc.licenserdf.tools.gen_i18n_titles:cli',
             'jurisdiction = cc.licenserdf.tools.jurisdiction:cli',
             'license = cc.licenserdf.tools.license:cli',
-            'translate_rdf = cc.licenserdf.tools.translate_rdf:cli',
-            'gen_i18n_titles = cc.licenserdf.tools.gen_i18n_titles:cli']},
+            'make_schema = cc.licenserdf.tools.make_schema:cli',
+            'merge = cc.licenserdf.tools.merge:cli',
+            'translate_rdf = cc.licenserdf.tools.translate_rdf:cli']},
 
     # author metadata
     author='Nathan R. Yergler',
