@@ -1,5 +1,15 @@
 # cc.licenserdf
 
+----
+
+🛑 **As of 2023-09-27, this project was deprecated by the new CC Legal Tools**
+([cc-legal-tools-app][app], [cc-legal-tools-data][data]).
+
+[app]: https://github.com/creativecommons/cc-legal-tools-app
+[data]: https://github.com/creativecommons/cc-legal-tools-data
+
+----
+
 RDF describing Creative Commons licenses ([Describing Copyright in RDF -
 Creative Commons Rights Expression Language](https://creativecommons.org/ns))
 
