@@ -14,6 +14,13 @@ RDF describing Creative Commons licenses ([Describing Copyright in RDF -
 Creative Commons Rights Expression Language](https://creativecommons.org/ns))
 
 
+## ccEngine
+
+This repository is part of the ccEngine: [cc-archive/cc.engine][cc-engine].
+
+[cc-engine]: https://github.com/cc-archive/cc.engine
+
+
 ## Code of Conduct
 
 [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md):
